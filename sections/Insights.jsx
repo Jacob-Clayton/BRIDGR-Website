@@ -133,22 +133,22 @@ const Insights = () => (
       <div className="mt-20 ml-[10%] ">
         <div className='flex flex-row justify-between items-center '>
             <div className="p-1">
-                <img src='apegang.png' alt="Ape Gang" className="w-[60%] hidden md:block" style={{opacity:'0.85'}}/>
+                <img src='apegang.png' alt="Ape Gang" className="w-[90%] hidden md:block" style={{opacity:'0.85'}}/>
             </div>
             <div className="p-1">
-                <img src='ethlas.svg' alt="Ethlas" className="w-[100%] hidden md:block" style={{opacity:'0.85'}}/>
+                <img src='ethlas.png' alt="Ethlas" className="w-[45%] ml-[24%] hidden md:block" style={{opacity:'0.85'}}/>
             </div>
             <div className="p-1">
-                <img src='madfornft.png' alt="Mad for NFTs" className="w-[50%] ml-[26%] hidden md:block" style={{opacity:'0.85'}}/>
+                <img src='madfornft.png' alt="Mad for NFTs" className="w-[60%]  hidden md:block" style={{opacity:'0.85'}}/>
             </div>
             <div className="p-1">
-                <img src='cryptofemale.png' alt="Crypto Female" className="w-[70%] hidden md:block" style={{opacity:'0.85'}}/>
+                <img src='cryptofemale.png' alt="Crypto Female" className="w-[60%] hidden md:block" style={{opacity:'0.85'}}/>
             </div>
             <div className="p-1">
-                <img src='globalb.png' alt="GlobalB" className="w-[60%] ml-[10%] hidden md:block" style={{opacity:'0.85'}}/>
+                <img src='globalb.png' alt="GlobalB" className="w-[65%] hidden md:block" style={{opacity:'0.85'}}/>
             </div>
             <div className="p-1">
-                <img src='cfj.png' alt="Crowd Fund Junction" className="w-[55%] hidden md:block" style={{opacity:'0.85'}}/>
+                <img src='cfj.png' alt="Crowd Fund Junction" className="w-[65%] hidden md:block" style={{opacity:'0.85'}}/>
             </div>
         </div>
       </div>
