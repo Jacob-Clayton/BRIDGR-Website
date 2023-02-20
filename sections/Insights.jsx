@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-
+import Image from 'next/image';
 import styles from '../styles';
 import { insights } from '../constants';
 import { staggerContainer, fadeIn, footerVariants } from '../utils/motion';
@@ -27,7 +27,14 @@ const Insights = () => (
         whileInView="show"
       >
         <div className="relative sm:max-w-max max-w-[150px]">
-            <img src='mepusica.png' alt="Mepusica" className="w-full bold rounded-bl-[35px] rounded-br-[35px]"/>
+            <Image 
+              src='/mepusica.png' 
+              alt="Mepusica" 
+              className="w-full bold rounded-bl-[35px] rounded-br-[35px]"
+              quality={100}
+              width={400}
+              height={400}
+            />
             <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.75rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
               <p class="mb-0 font-bold ">Mepusica</p>
               <p class="mb-0 font-regular ">Co-Founder</p>
@@ -39,7 +46,14 @@ const Insights = () => (
         </div>
     
         <div className="relative sm:max-w-max max-w-[150px]">
-            <img src='jacob.png' alt="Jacob" className="w-full bold rounded-bl-[35px] rounded-br-[35px]"/>
+            <Image 
+              src='/jacob.png' 
+              alt="Jacob" 
+              className="w-full bold rounded-bl-[35px] rounded-br-[35px]"
+              quality={100}
+              width={400}
+              height={400}
+            />
             <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.75rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                 <p class='mb-0 font-bold '>Jacob</p>
                 <p class='mb-0 font-regular '>Co-Founder</p>
@@ -52,7 +66,14 @@ const Insights = () => (
     
     
         <div className="relative sm:max-w-max max-w-[150px]">
-            <img src='kishor.png' alt="Kishor" className="w-full rounded-bl-[35px] rounded-br-[35px]"/>
+            <Image 
+              src='/kishor.png' 
+              alt="Kishor" 
+              className="w-full rounded-bl-[35px] rounded-br-[35px]"
+              quality={100}
+              width={400}
+              height={400}
+            />
             <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.75rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                 <p className='mb-0 font-bold '>Kishor</p>
                 <p className='mb-0 font-regular '>Co-Founder</p>
@@ -65,7 +86,14 @@ const Insights = () => (
     
     
         <div className="relative sm:max-w-max max-w-[150px]">
-            <img src='joss.png' alt="Joss" className="w-full bold rounded-bl-[35px] rounded-br-[35px]"/>
+            <Image 
+              src='/joss.png' 
+              alt="Joss" 
+              className="w-full bold rounded-bl-[35px] rounded-br-[35px]"
+              quality={100}
+              width={400}
+              height={400}
+            />
             <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.75rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                 <p className='mb-0 font-bold '>Joss</p>
                 <p className='mb-0 font-regular '>Co-Founder</p>
@@ -77,7 +105,14 @@ const Insights = () => (
         </div>
     
         <div className="relative sm:max-w-max max-w-[150px]">
-            <img src='hilal.png' alt="Hilal" className="w-full bold rounded-bl-[35px] rounded-br-[35px]"/>
+            <Image 
+              src='/hilal.png' 
+              alt="Hilal" 
+              className="w-full bold rounded-bl-[35px] rounded-br-[35px]"
+              quality={100}
+              width={400}
+              height={400}
+            />
             <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.75rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                 <p className='mb-0 font-bold '>Hilal</p>
                 <p className='mb-0 font-regular '>CryptoFemale</p>
@@ -89,7 +124,14 @@ const Insights = () => (
         </div>
     
         <div className="relative sm:max-w-max max-w-[150px]">
-            <img src='sima.png' alt="Sima" className="w-full bold rounded-bl-[35px] rounded-br-[35px]"/>
+            <Image 
+              src='/sima.png' 
+              alt="Sima" 
+              className="w-full bold rounded-bl-[35px] rounded-br-[35px]"
+              quality={100}
+              width={400}
+              height={400}
+            />
             <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.75rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                 <p className='mb-0 font-bold'>Sima</p>
                 <p className='mb-0 font-regular'>GlobalB</p>
@@ -101,7 +143,14 @@ const Insights = () => (
         </div>
     
         <div className="relative sm:max-w-max max-w-[150px]">
-            <img src='henry.png' alt="Henry" className="w-full bold rounded-bl-[35px] rounded-br-[35px]"/>
+            <Image 
+              src='/henry.png' 
+                alt="Henry" 
+                className="w-full bold rounded-bl-[35px] rounded-br-[35px]"
+                quality={100}
+                width={400}
+                height={400}
+              />
             <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.75rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                 <p className='mb-0 font-bold '>Henry</p>
                 <p className='mb-0 font-regular'>Ethlas</p>
@@ -113,7 +162,14 @@ const Insights = () => (
         </div>
     
         <div className="relative sm:max-w-max max-w-[150px]">
-            <img src='rikong.png' alt="Rikong" className="w-full bold rounded-bl-[35px] rounded-br-[35px]"/>
+            <Image 
+              src='/rikong.png' 
+              alt="Rikong" 
+              className="w-full bold rounded-bl-[35px] rounded-br-[35px]"
+              quality={100}
+              width={400}
+              height={400}
+            />
             <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.75rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                 <p className='mb-0 font-bold'>Rikong</p>
                 <p className='mb-0 font-regular'>Ape Gang</p>
@@ -130,26 +186,74 @@ const Insights = () => (
       whileInView="show"
       className='relative'
     >
-      <div className="mt-20 ml-[10%] ">
-        <div className='flex flex-row justify-between items-center '>
-            <div className="p-1">
-                <img src='apegang.png' alt="Ape Gang" className="w-[90%] hidden md:block" style={{opacity:'0.85'}}/>
-            </div>
-            <div className="p-1">
-                <img src='ethlas.png' alt="Ethlas" className="w-[45%] ml-[24%] hidden md:block" style={{opacity:'0.85'}}/>
-            </div>
-            <div className="p-1">
-                <img src='madfornft.png' alt="Mad for NFTs" className="w-[60%]  hidden md:block" style={{opacity:'0.85'}}/>
-            </div>
-            <div className="p-1">
-                <img src='cryptofemale.png' alt="Crypto Female" className="w-[60%] hidden md:block" style={{opacity:'0.85'}}/>
-            </div>
-            <div className="p-1">
-                <img src='globalb.png' alt="GlobalB" className="w-[65%] hidden md:block" style={{opacity:'0.85'}}/>
-            </div>
-            <div className="p-1">
-                <img src='cfj.png' alt="Crowd Fund Junction" className="w-[65%] hidden md:block" style={{opacity:'0.85'}}/>
-            </div>
+      <div className="mt-20">
+        <div className='flex flex-row gap-[8%] justify-between items-center '>
+            <a className="p-1" href='https://apegang.art/'>
+                <Image 
+                  src='/apegang.png' 
+                  alt="Ape Gang" 
+                  className="hidden md:block" 
+                  style={{opacity:'0.85'}}
+                  quality={100}
+                  width={500}
+                  height={300}
+                />
+            </a>
+            <a className="p-1" href='https://ethlas.com/'>
+                <Image 
+                  src='/ethlas.png' 
+                  alt="Ethlas" 
+                  className=" hidden md:block" 
+                  style={{opacity:'0.85'}}
+                  quality={100}
+                  width={500}
+                  height={300}
+                />
+            </a>
+            <a className="p-1" href='https://madfornfts.com/'>
+                <Image 
+                  src='/madfornft.png' 
+                  alt="Mad for NFTs" 
+                  className="hidden md:block" 
+                  style={{opacity:'0.85'}}
+                  quality={100}
+                  width={500}
+                  height={300}
+                />
+            </a>
+            <a className="p-1" href='https://www.cryptofemale.org/'>
+                <Image 
+                  src='/cryptofemale.png' 
+                  alt="Crypto Female" 
+                  className=" hidden md:block" 
+                  style={{opacity:'0.85'}}
+                  quality={100}
+                  width={500}
+                  height={300}
+                />
+            </a>
+            <a className="p-1" href='https://globalb.com.tr/'>
+                <Image 
+                  src='/globalb.png' 
+                  alt="GlobalB" 
+                  className="hidden md:block" 
+                  style={{opacity:'0.85'}}
+                  quality={100}
+                  width={500}
+                  height={300}
+                />
+            </a>
+            <a className="p-1" href="https://www.crowdfundjunction.com/">
+                <Image 
+                  src='/cfj.png' 
+                  alt="Crowd Fund Junction" 
+                  className="hidden md:block" 
+                  style={{opacity:'0.85'}}
+                  quality={100}
+                  width={500}
+                  height={300}
+                />
+            </a>
         </div>
       </div>
     </motion.div>

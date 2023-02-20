@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { TypingText, TitleText } from './CustomTexts';
+import Image from 'next/image';
 
 import styles from '../styles';
 import { footerVariants } from '../utils/motion';
@@ -23,6 +24,7 @@ const Footer = () => (
             src="/book.svg"
             alt="book"
             className="w-[24px] h-[24px] object-contain"
+            
           />
           <span className="font-normal text-[16px] text-white">
             Whitepaper
@@ -32,7 +34,14 @@ const Footer = () => (
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <img src="bridgrlogo.png" className='w-[90px] sm:w-[130px]'/>
+          <Image 
+            src="/bridgrlogo.png" 
+            alt="bridgr logo"
+            className='w-[90px] sm:w-[130px]'
+            quality={100}
+            height={50}
+            width={200}
+          />
           <p className="font-normal text-[14px] text-white opacity-50">
             Copyright © 2023 BRIDGR. All rights reserved.
           </p>

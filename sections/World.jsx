@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-
+import Image from 'next/image';
 import styles from '../styles';
 import { TitleText, TypingText } from '../components';
 import { fadeIn, staggerContainer } from '../utils/motion';
@@ -29,7 +29,14 @@ const World = () => (
         variants={fadeIn('up', 'tween', 0.3, 1)}
         className="relative mx-auto sm:mt-[68px] mt-[35px] flex w-full lg:h-full md:h-[390px] sm:h-[280px] h-400px"
       >
-        <img src="/map.png" alt="map" className="w-full h-full object-cover" />
+        <Image 
+          src="/map.png" 
+          alt="map" 
+          className="w-full h-full object-cover" 
+          quality={100}
+          width={1300}
+          height={1000}
+        />
       </motion.div>
     </motion.div>
   </section>

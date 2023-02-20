@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-
+import Image from 'next/image';
 import styles from '../styles';
 import { startingFeatures } from '../constants';
 import { StartSteps, TitleText, TypingText } from '../components';
@@ -20,10 +20,13 @@ const GetStarted = () => (
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className={`flex-1 ${styles.flexCenter}`}
       >
-        <img
+        <Image
           src="/get-started.png"
           alt="get-started"
           className="w-[100%] h-[100%] object-contain"
+          quality={100}
+          width={1100}
+          height={1100}
         />
       </motion.div>
       <motion.div
