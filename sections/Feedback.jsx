@@ -18,7 +18,7 @@ const Feedback = () => (
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#3670C0] relative"
       >
-        <div className="feedback-gradient" />
+        {/* <div className="feedback-gradient" /> */}
         <div>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
             Sima
@@ -36,7 +36,7 @@ const Feedback = () => (
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#3670C0] relative"
       >
-        <div className="feedback-gradient" />
+        {/* <div className="feedback-gradient" /> */}
         <div>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
             Kishor
@@ -54,7 +54,7 @@ const Feedback = () => (
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#3670C0] relative"
       >
-        <div className="feedback-gradient" />
+        {/* <div className="feedback-gradient" /> */}
         <div>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
             Henry
