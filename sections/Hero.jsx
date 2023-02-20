@@ -19,7 +19,7 @@ const Hero = () => {
       viewport={{ once: false, amount: 0.2 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <div className="fixed inset-x-0 top-[8%] sm:top-[11%] md:top-[8%] lg:top-[11%] xl:top-[11%] 2xl:top-[10%] text-center flex justify-center items-center flex-col absolute z-50">
+      <div className="fixed inset-x-0 top-[11%] sm:top-[11%] md:top-[8%] lg:top-[11%] xl:top-[11%] 2xl:top-[10%] text-center flex justify-center items-center flex-col absolute z-50">
         <motion.h1 
           variants={textVariant(0.6)}
           initial="hidden"
