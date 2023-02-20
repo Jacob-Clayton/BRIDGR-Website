@@ -23,13 +23,13 @@ const About = () => (
         className="mt-[8px] font-normal lg:text:-[35px] md:text-[30px] sm:text-[26px] text-[16px] text-center text-secondary-white"
       >
         Looking to accelerate your growth in the world of Web3?
-        <br/>Look no further than 
-        <span className="font-extrabold text-white"> BRIDGR. </span> 
-        We are a collective of Web3 companies offering a unique 
+        <br/>Look no further than BRIDGR. We are a 
+        <span className="font-extrabold text-white"> collective </span> 
+        of Web3 companies offering a unique 
         <span className="font-extrabold text-white"> cooperative </span> approach to growth. 
         By partnering with us, you'll tap into our global network of Web3 companies and gain access to our combined 
         services and communities. 
-        Let BRIDGR be the bridge to your Web3 success story... 
+        <br/> Let BRIDGR be the bridge to your Web3 success story. 
       </motion.p>
 
       {/* <motion.img

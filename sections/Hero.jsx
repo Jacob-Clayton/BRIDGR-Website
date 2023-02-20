@@ -15,12 +15,12 @@ const Hero = () => {
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: false, amount: 0.2 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div className="fixed inset-x-0 top-[8%] sm:top-[11%] md:top-[8%] lg:top-[15%] text-center flex justify-center items-center flex-col absolute z-50">
         <motion.h1 
-          variants={textVariant(1.1)}
+          variants={textVariant(0.6)}
           initial="hidden"
           whileInView="show" 
           className={styles.heroHeading}
@@ -28,7 +28,7 @@ const Hero = () => {
           The best of Web3
         </motion.h1>
         <motion.div
-          variants={textVariant(1.2)}
+          variants={textVariant(0.7)}
           className="flex flex-row justify-center items-center"
         >
           <h1 className={styles.heroHeading}>in one place</h1>
@@ -38,7 +38,7 @@ const Hero = () => {
       <motion.div
         ref={ref}
         animate={inView ? "show" : "hidden"}
-        variants={fadeIn('up', 'tween', 0.3, 1)}
+        variants={fadeIn('up', 'tween', 0.2, 1)}
         className="relative w-full lg:-mt-[8px] md:-mt-[10px] mt-[12px]"
       >
         <img

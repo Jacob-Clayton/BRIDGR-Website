@@ -3,7 +3,7 @@ export const exploreWorlds = [
     id: 'world-1',
     imgUrl: '/planet-01.png',
     title: 'Global Events',
-    description: 'Get exposure at our Web3 socials worldwide, or just have a beer, or two.',
+    description: 'Get exposure at our Web3 socials worldwide, or just join us for a beer, or two.',
   },
   {
     id: 'world-2',

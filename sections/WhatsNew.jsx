@@ -30,7 +30,7 @@ const WhatsNew = () => (
       </motion.div>
 
       <motion.div
-        variants={planetVariants('right')}
+        variants={fadeIn('left', 'tween', 0.2, 1)}
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
