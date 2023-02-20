@@ -25,8 +25,8 @@ const GetStarted = () => (
           alt="get-started"
           className="w-[100%] h-[100%] object-contain"
           quality={100}
-          width={1100}
-          height={1100}
+          width={4000}
+          height={2500}
         />
       </motion.div>
       <motion.div

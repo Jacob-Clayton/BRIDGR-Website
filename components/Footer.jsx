@@ -39,8 +39,8 @@ const Footer = () => (
             alt="bridgr logo"
             className='w-[90px] sm:w-[130px]'
             quality={100}
-            height={50}
-            width={200}
+            height={316}
+            width={1346}
           />
           <p className="font-normal text-[14px] text-white opacity-50">
             Copyright © 2023 BRIDGR. All rights reserved.

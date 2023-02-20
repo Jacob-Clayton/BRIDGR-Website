@@ -47,16 +47,16 @@ const Hero = () => {
           alt="hero_cover"
           className="mx-auto overflow-visible sm:mt-[3%] md:mt-[2%] lg:mt[1%] xl:mt-[1%] mt-[2%] opacity-[85%] object-cover rounded-tl-[140px] z-10 relative"
           quality={95}
-          width={1600}
-          height={1100}
+          width={4000}
+          height={2500}
         />
         <Image 
           src='/bridgrround.png'
           alt='Bridgr logo faded in background'
           className="absolute z-[0] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-[10%]"
           quality={60}
-          width={1100}
-          height={1100}
+          width={2000}
+          height={2000}
         />
         {/* <a href="#explore">
           <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">

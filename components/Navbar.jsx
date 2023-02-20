@@ -19,9 +19,9 @@ const Navbar = () => (
         src='/bridgrlogomain.png' 
         alt="Bridgr name and logo"
         className='bridgrlogo 2xl:w[200px] xl:w-[190px] lg:w-[170px] md:w[160px] sm:w-[150px] w-[100px]'
-        quality={100}
-        width={200}
-        height={50}
+        quality={99}
+        width={1346}
+        height={316}
       />
       {/* <img src="/menu.svg" alt="menu" className='w-[24px] h-[24px]'/> */}
     </div>

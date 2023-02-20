@@ -31,8 +31,8 @@ const Insights = () => (
               alt="Mepusica" 
               className="w-full bold rounded-bl-[35px] rounded-br-[35px]"
               quality={100}
-              width={400}
-              height={400}
+              width={270}
+              height={250}
             />
             <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.75rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
               <p class="mb-0 font-bold ">Mepusica</p>
@@ -50,8 +50,8 @@ const Insights = () => (
               alt="Jacob" 
               className="w-full bold rounded-bl-[35px] rounded-br-[35px]"
               quality={100}
-              width={400}
-              height={400}
+              width={270}
+              height={250}
             />
             <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.75rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                 <p class='mb-0 font-bold '>Jacob</p>
@@ -69,8 +69,8 @@ const Insights = () => (
               alt="Kishor" 
               className="w-full rounded-bl-[35px] rounded-br-[35px]"
               quality={100}
-              width={400}
-              height={400}
+              width={270}
+              height={250}
             />
             <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.75rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                 <p className='mb-0 font-bold '>Kishor</p>
@@ -88,8 +88,8 @@ const Insights = () => (
               alt="Joss" 
               className="w-full bold rounded-bl-[35px] rounded-br-[35px]"
               quality={100}
-              width={400}
-              height={400}
+              width={270}
+              height={250}
             />
             <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.75rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                 <p className='mb-0 font-bold '>Joss</p>
@@ -107,8 +107,8 @@ const Insights = () => (
               alt="Hilal" 
               className="w-full bold rounded-bl-[35px] rounded-br-[35px]"
               quality={100}
-              width={400}
-              height={400}
+              width={270}
+              height={250}
             />
             <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.75rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                 <p className='mb-0 font-bold '>Hilal</p>
@@ -126,8 +126,8 @@ const Insights = () => (
               alt="Sima" 
               className="w-full bold rounded-bl-[35px] rounded-br-[35px]"
               quality={100}
-              width={400}
-              height={400}
+              width={270}
+              height={250}
             />
             <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.75rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                 <p className='mb-0 font-bold'>Sima</p>
@@ -145,8 +145,8 @@ const Insights = () => (
                 alt="Henry" 
                 className="w-full bold rounded-bl-[35px] rounded-br-[35px]"
                 quality={100}
-                width={400}
-                height={400}
+                width={270}
+                height={250}
               />
             <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.75rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                 <p className='mb-0 font-bold '>Henry</p>
@@ -164,8 +164,8 @@ const Insights = () => (
               alt="Rikong" 
               className="w-full bold rounded-bl-[35px] rounded-br-[35px]"
               quality={100}
-              width={400}
-              height={400}
+              width={270}
+              height={250}
             />
             <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.75rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                 <p className='mb-0 font-bold'>Rikong</p>
@@ -193,8 +193,8 @@ const Insights = () => (
                   className="hidden md:block" 
                   style={{opacity:'0.85'}}
                   quality={100}
-                  width={500}
-                  height={300}
+                  width={938}
+                  height={249}
                 />
             </a>
             <a className="p-1" href='https://ethlas.com/'>
@@ -204,8 +204,8 @@ const Insights = () => (
                   className=" hidden md:block" 
                   style={{opacity:'0.85'}}
                   quality={100}
-                  width={500}
-                  height={300}
+                  width={1531}
+                  height={681}
                 />
             </a>
             <a className="p-1" href='https://madfornfts.com/'>
@@ -215,8 +215,8 @@ const Insights = () => (
                   className="hidden md:block" 
                   style={{opacity:'0.85'}}
                   quality={100}
-                  width={500}
-                  height={300}
+                  width={1092}
+                  height={586}
                 />
             </a>
             <a className="p-1" href='https://www.cryptofemale.org/'>
@@ -226,8 +226,8 @@ const Insights = () => (
                   className=" hidden md:block" 
                   style={{opacity:'0.85'}}
                   quality={100}
-                  width={500}
-                  height={300}
+                  width={1000}
+                  height={596}
                 />
             </a>
             <a className="p-1" href='https://globalb.com.tr/'>
@@ -237,8 +237,8 @@ const Insights = () => (
                   className="hidden md:block" 
                   style={{opacity:'0.85'}}
                   quality={100}
-                  width={500}
-                  height={300}
+                  width={832}
+                  height={372}
                 />
             </a>
             <a className="p-1" href="https://www.crowdfundjunction.com/">
@@ -248,8 +248,8 @@ const Insights = () => (
                   className="hidden md:block" 
                   style={{opacity:'0.85'}}
                   quality={100}
-                  width={500}
-                  height={300}
+                  width={1240}
+                  height={399}
                 />
             </a>
         </div>

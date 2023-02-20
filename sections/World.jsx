@@ -34,8 +34,8 @@ const World = () => (
           alt="map" 
           className="w-full h-full object-cover" 
           quality={100}
-          width={1300}
-          height={1000}
+          width={1170}
+          height={546}
         />
       </motion.div>
     </motion.div>
