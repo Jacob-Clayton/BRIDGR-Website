@@ -14,7 +14,7 @@ const Footer = () => (
     whileInView="show"
     className={`${styles.xPaddings} py-8 relative`}
   >
-    <div className="footer-gradient" />
+    <div className="footer-gradient md:block hidden" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
     <TypingText title="| The Finer Details" textStyles="text-left"/>
       <div className="flex items-center justify-between flex-wrap gap-5">

@@ -11,7 +11,7 @@ import { useInView } from 'react-intersection-observer';
 const Hero = () => {
   const { ref, inView } = useInView({ threshold: 0.05, triggerOnce: false });
   return (
-  <section className='sm:pl-16 pl-8'>
+  <section className='mx-auto'>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -19,7 +19,7 @@ const Hero = () => {
       viewport={{ once: false, amount: 0.2 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <div className="fixed inset-x-0 top-[8%] sm:top-[11%] md:top-[8%] lg:top-[15%] text-center flex justify-center items-center flex-col absolute z-50">
+      <div className="fixed inset-x-0 top-[8%] sm:top-[11%] md:top-[8%] lg:top-[11%] xl:top-[11%] 2xl:top-[10%] text-center flex justify-center items-center flex-col absolute z-50">
         <motion.h1 
           variants={textVariant(0.6)}
           initial="hidden"
@@ -45,16 +45,16 @@ const Hero = () => {
         <Image
           src="/cover.png"
           alt="hero_cover"
-          className="w-full mx-auto overflow-visible sm:mt-[5%] mt-[2%] opacity-[85%] w-[92%] object-cover rounded-tl-[140px] z-10 relative"
-          quality={100}
-          width={1920}
-          height={1080}
+          className="mx-auto overflow-visible sm:mt-[3%] md:mt-[2%] lg:mt[1%] xl:mt-[1%] mt-[2%] opacity-[85%] object-cover rounded-tl-[140px] z-10 relative"
+          quality={95}
+          width={1600}
+          height={1100}
         />
         <Image 
           src='/bridgrround.png'
           alt='Bridgr logo faded in background'
           className="absolute z-[0] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-[10%]"
-          quality={100}
+          quality={60}
           width={1100}
           height={1100}
         />

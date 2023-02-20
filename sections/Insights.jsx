@@ -3,9 +3,8 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import styles from '../styles';
-import { insights } from '../constants';
 import { staggerContainer, fadeIn, footerVariants } from '../utils/motion';
-import { InsightCard, TitleText, TypingText } from '../components';
+import { TitleText, TypingText } from '../components';
 
 const Insights = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -64,7 +63,6 @@ const Insights = () => (
             </div>
         </div>
     
-    
         <div className="relative sm:max-w-max max-w-[150px]">
             <Image 
               src='/kishor.png' 
@@ -83,7 +81,6 @@ const Insights = () => (
               <a href="https://www.linkedin.com/in/kishormm/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[24px] xl:h-[24px] object-contain cursor-pointer text-white text-white xl:mt-2 mt-1"></img></a>
             </div>
         </div>
-    
     
         <div className="relative sm:max-w-max max-w-[150px]">
             <Image 
@@ -180,6 +177,7 @@ const Insights = () => (
             </div>
         </div> 
     </motion.div>
+
     <motion.div 
       variants={footerVariants}
       initial="hidden"

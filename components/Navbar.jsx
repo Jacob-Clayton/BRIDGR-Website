@@ -13,7 +13,7 @@ const Navbar = () => (
     whileInView="show"
     className={`${styles.xPaddings} py-8 relative`}
   >
-    <div className='navbar absolute inset-0 gradient-01'/>
+    <div className='navbar absolute inset-0 gradient-01 md:block hidden'/>
     <div className={`${styles.innerWidth} mx-auto flex justify-center gap-8`}>
       <Image
         src='/bridgrlogomain.png' 
