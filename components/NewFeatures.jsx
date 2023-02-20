@@ -1,18 +1,23 @@
 import styles from '../styles';
 
 const NewFeatures = ({ imgUrl, title, subtitle }) => (
-  <div className="flex-1 flex flex-col sm:max-w-[250px] min-w-[210px]">
-    <div
-      className={`${styles.flexCenter} sm:w-[70px] sm:h-[70px] w-[40px] h-[40px] rounded-[24px] bg-[#323F5D]`}
-    >
-      <img src={imgUrl} alt="icon" className="w-1/2 h-1/2 object-contain" />
+  <div className='flex-1 flex flex-col xl:max-w-[280px] lg:max-w-[270px] md:max-w-[280px] sm:max-w-[250px] max-w-[240px] min-w-[220px]'>
+    <div className=" flex-2 flex md:flex-col flex-row xl:max-w-[280px] lg:max-w-[270px] md:max-w-[280px] sm:max-w-[250px] max-w-[240px] max-w-[220px]">
+      <div
+        className={`${styles.flexCenter} sm:w-[60px] sm:h-[60px] w-[30px] h-[30px] rounded-[24px] bg-[#323F5D]`}
+      >
+        <img src={imgUrl} alt="icon" className="w-1/2 h-1/2 object-contain" />
+      </div>
+      <h1 className=" md:mt-[18px] md:ml-[0px] ml-[10px] font-bold text-[17px] sm:text-[19px] md:text-[21px] lg:text-[22px] xl:text-[24px] text-white">
+        {title}
+      </h1>
     </div>
-    <h1 className="mt-[26px] font-bold text-[24px] leading-[30.24px] text-white">
-      {title}
-    </h1>
-    <p className="flex-1 max-w-[400px] mt-[16px] font-normal lg:text:-[26px] md:text-[22px] sm:text-[18px] text-[16px] text-[#B0B0B0]">
-      {subtitle}
-    </p>
+
+    <div>
+      <p className=" flex-1 max-w-[400px] md:mt-[16px] mt-[10px] font-normal xl:text-[22px] lg:text-[21px] md:text-[19px] sm:text-[16px] text-[15px] text-[#B0B0B0]">
+        {subtitle}
+      </p>
+    </div>
   </div>
 );
 

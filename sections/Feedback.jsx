@@ -16,7 +16,7 @@ const Feedback = () => (
     >
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#3670C0] relative"
+        className="flex-[0.5] lg:max-w-[370px] flex justify-start flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#3670C0] relative"
       >
         {/* <div className="feedback-gradient" /> */}
         <div>
@@ -28,13 +28,13 @@ const Feedback = () => (
           </p>
         </div>
 
-        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
+        <p className="mt-[24px] font-normal xl:text-[22px] lg:text-[21px] md:text-[19px] sm:text-[16px] text-[15px] text-[#B0B0B0]">
           “BRIDGR helps you to break out of your bubble and get exposure in places you never would have.”
         </p>
       </motion.div>
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#3670C0] relative"
+        className="flex-[0.5] lg:max-w-[370px] flex justify-start flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#3670C0] relative"
       >
         {/* <div className="feedback-gradient" /> */}
         <div>
@@ -46,13 +46,13 @@ const Feedback = () => (
           </p>
         </div>
 
-        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
+        <p className="mt-[24px] font-normal xl:text-[22px] lg:text-[21px] md:text-[19px] sm:text-[16px] text-[15px] text-[#B0B0B0]">
           “Community is everything in Web3 and BRIDGR leads the way with community-led collaborative growth.”
         </p>
       </motion.div>
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#3670C0] relative"
+        className="flex-[0.5] lg:max-w-[370px] flex justify-start flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#3670C0] relative"
       >
         {/* <div className="feedback-gradient" /> */}
         <div>
@@ -64,7 +64,7 @@ const Feedback = () => (
           </p>
         </div>
 
-        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
+        <p className="mt-[24px] font-normal xl:text-[22px] lg:text-[21px] md:text-[19px] sm:text-[16px] text-[15px] text-[#B0B0B0]">
           “Projects fail without enough attention, but with BRIDGR I gain exposure worldwide.”
         </p>
       </motion.div>

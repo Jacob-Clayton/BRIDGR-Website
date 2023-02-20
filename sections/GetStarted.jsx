@@ -14,21 +14,8 @@ const GetStarted = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
+      className={`${styles.innerWidth} mx-auto flex lg:flex-row-reverse flex-col gap-8`}
     >
-      <motion.div
-        variants={fadeIn('right', 'tween', 0.2, 1)}
-        className={`flex-1 ${styles.flexCenter}`}
-      >
-        <Image
-          src="/get-started.png"
-          alt="get-started"
-          className="w-[100%] h-[100%] object-contain"
-          quality={100}
-          width={4000}
-          height={2500}
-        />
-      </motion.div>
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
@@ -44,6 +31,19 @@ const GetStarted = () => (
             />
           ))}
         </div>
+      </motion.div>
+      <motion.div
+        variants={fadeIn('right', 'tween', 0.2, 1)}
+        className={`flex-1 ${styles.flexCenter}`}
+      >
+        <Image
+          src="/get-started.png"
+          alt="get-started"
+          className="w-[100%] h-[100%] object-contain"
+          quality={100}
+          width={4000}
+          height={2500}
+        />
       </motion.div>
     </motion.div>
   </section>
