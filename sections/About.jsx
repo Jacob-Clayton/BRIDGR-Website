@@ -27,7 +27,7 @@ const About = () => (
         <span className="font-extrabold text-white"> BRIDGR. </span> 
         We are a collective of Web3 companies offering a unique 
         <span className="font-extrabold text-white"> cooperative </span> approach to growth. 
-        By partnering with us, you'll tap into our global network Web3 companies and gain access to our combined 
+        By partnering with us, you'll tap into our global network of Web3 companies and gain access to our combined 
         services and communities. 
         Let BRIDGR be the bridge to your Web3 success story... 
       </motion.p>
