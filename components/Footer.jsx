@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { socials } from '../constants';
 import { TypingText, TitleText } from './CustomTexts';
 
 import styles from '../styles';
@@ -16,10 +15,10 @@ const Footer = () => (
   >
     <div className="footer-gradient" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
-    <TypingText title="| The Finer Details" textStyles="text-left" />
+    <TypingText title="| The Finer Details" textStyles="text-left"/>
       <div className="flex items-center justify-between flex-wrap gap-5">
         <TitleText title={<>Whitepaper</>} textStyles="text-center mb-10 mt-0"/>
-        <a href="https://jacobclayton.gitbook.io/bridgr-services/bridgr-collective/partner-program" ><button type="button" className="flex items-center h-fit py-4 px-6 bg-[#1633A4] bg-opacity-[40%] rounded-[32px] gap-[12px]">
+        <a href="https://jacobclayton.gitbook.io/bridgr-services/bridgr-collective/partner-program"><button type="button" className="flex items-center h-fit py-4 px-6 bg-[#1633A4] bg-opacity-[40%] rounded-[32px] gap-[12px]">
           <img
             src="/book.svg"
             alt="book"
@@ -30,16 +29,13 @@ const Footer = () => (
           </span>
         </button></a>
       </div>
-
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
-
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <img src="bridgrlogo.png" class=""/>
+          <img src="bridgrlogo.png"/>
           <p className="font-normal text-[14px] text-white opacity-50">
             Copyright © 2023 BRIDGR. All rights reserved.
           </p>
-
           <div className="flex gap-4">
             <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
             <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>

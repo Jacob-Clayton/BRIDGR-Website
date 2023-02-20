@@ -12,7 +12,6 @@ const Home = () => (
     </div>
     <div className="relative">
       <WhatsNew />
-      
       <div className="gradient-04 z-0" />
       <GetStarted />
     </div>
