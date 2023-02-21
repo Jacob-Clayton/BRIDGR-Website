@@ -3,25 +3,25 @@ export const exploreWorlds = [
     id: 'world-1',
     imgUrl: '/planet-01.png',
     title: 'Global Events',
-    description: 'Get exposure at our Web3 socials worldwide, or just join us for a beer, or two.',
+    description: "Get real-world exposure at our Web3 events worldwide. Filled with founders, investors and professionals it's the perfect environment to get the word out about your Web3 company. Or just join us for a beer.",
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
     title: 'Web3 Acceleration',
-    description: 'Technical Development, Exposure Boost, Community, Advisory.'
+    description: 'We offer: Web Development, Smart contract builds & audits, Worldwide Events Exposure, Web3 Legal Services, A network of Web3 professionals to tap into, Community Engagement, Marketing Services including Celebrity & Influencer access.'
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
     title: 'Web3 Onboarding',
-    description: 'Bridge from Web2 to Web3 with our full onboarding service',
+    description: 'Bridge from Web2 to Web3 with our full onboarding service.',
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
     title: 'Shared Community',
-    description: 'Reap the benefits of sharing our network of multiple well-established communities worldwide, and the exposure that comes with it.'
+    description: 'Share our network of multiple well-established communities worldwide, and reap the benefits of the exposure that comes with it.'
   },
 ];
 

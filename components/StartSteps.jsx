@@ -3,7 +3,7 @@ import styles from '../styles';
 const StartSteps = ({ number, text }) => (
   <div className={`${styles.flexCenter} flex-row sm:w-[500px] w-[330px]`}>
     <div
-      className={`${styles.flexCenter} sm:w-[70px] sm:h-[70px] w-[50px] h-[50px] rounded-[35px]  bg-[#323F5D]`}
+      className={`${styles.flexCenter} sm:w-[70px] sm:h-[70px] w-[50px] h-[50px] rounded-[35px] bg-black bg-opacity-40`}
     >
       <p className="font-bold sm:text[15px] md:text-[17px] lg:text-[18px] xl:text-[19px] 2xl:text-[20px] text-[16px] text-white">
         {number}

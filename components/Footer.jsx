@@ -19,7 +19,7 @@ const Footer = () => (
     <TypingText title="| The Finer Details" textStyles="text-left"/>
       <div className="flex items-center justify-between flex-wrap gap-5">
         <TitleText title={<>Whitepaper</>} textStyles="text-center mb-10 mt-0"/>
-        <a href="https://jacobclayton.gitbook.io/bridgr-services/bridgr-collective/partner-program"><button type="button" className="flex items-center h-fit py-4 px-6 bg-[#323F5D] bg-opacity-[60%] rounded-[32px] gap-[12px]">
+        <a href="https://jacobclayton.gitbook.io/bridgr-services/bridgr-collective/partner-program"><button type="button" className="flex items-center h-fit py-4 px-6 bg-black bg-opacity-40 rounded-[32px] gap-[12px]">
           <img
             src="/book.svg"
             alt="book"
