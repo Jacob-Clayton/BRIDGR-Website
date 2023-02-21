@@ -28,7 +28,7 @@ const Feedback = () => (
           </p>
         </div>
 
-        <p className="mt-[24px] font-normal xl:text-[22px] lg:text-[21px] md:text-[19px] sm:text-[16px] text-[15px] text-[#B0B0B0]">
+        <p className="mt-[24px] font-normal xl:text-[19px] lg:text-[18px] md:text-[17px] sm:text-[16px] text-[15px] text-[#B0B0B0]">
           “BRIDGR helps you to break out of your bubble and get exposure in places you never would have.”
         </p>
       </motion.div>
@@ -46,7 +46,7 @@ const Feedback = () => (
           </p>
         </div>
 
-        <p className="mt-[24px] font-normal xl:text-[22px] lg:text-[21px] md:text-[19px] sm:text-[16px] text-[15px] text-[#B0B0B0]">
+        <p className="mt-[24px] font-normal xl:text-[19px] lg:text-[18px] md:text-[17px] sm:text-[16px] text-[15px] text-[#B0B0B0]">
           “Community is everything in Web3 and BRIDGR leads the way with community-led collaborative growth.”
         </p>
       </motion.div>
@@ -64,7 +64,7 @@ const Feedback = () => (
           </p>
         </div>
 
-        <p className="mt-[24px] font-normal xl:text-[22px] lg:text-[21px] md:text-[19px] sm:text-[16px] text-[15px] text-[#B0B0B0]">
+        <p className="mt-[24px] font-normal xl:text-[19px] lg:text-[18px] md:text-[17px] sm:text-[16px] text-[15px] text-[#B0B0B0]">
           “Projects fail without enough attention, but with BRIDGR I gain exposure worldwide.”
         </p>
       </motion.div>

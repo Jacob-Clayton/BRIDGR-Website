@@ -14,7 +14,7 @@ const NewFeatures = ({ imgUrl, title, subtitle }) => (
     </div>
 
     <div>
-      <p className=" flex-1 max-w-[400px] md:mt-[16px] mt-[10px] font-normal xl:text-[22px] lg:text-[21px] md:text-[19px] sm:text-[16px] text-[15px] text-[#B0B0B0]">
+      <p className=" flex-1 max-w-[400px] md:mt-[16px] mt-[10px] font-normal xl:text-[19px] lg:text-[18px] md:text-[17px] sm:text-[16px] text-[15px] text-[#B0B0B0]">
         {subtitle}
       </p>
     </div>

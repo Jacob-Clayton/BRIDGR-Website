@@ -49,6 +49,7 @@ const Hero = () => {
           quality={95}
           width={4000}
           height={2500}
+          priority
         />
         <Image 
           src='/bridgrround.png'
