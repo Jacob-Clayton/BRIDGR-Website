@@ -2,9 +2,10 @@
 
 import { motion } from 'framer-motion';
 import { TypingText } from '../components';
+import Image from 'next/image';
 
 import styles from '../styles';
-import { fadeIn, staggerContainer } from '../utils/motion';
+import { fadeIn, staggerContainer, footerVariants } from '../utils/motion';
 
 const About = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -31,6 +32,84 @@ const About = () => (
         services and communities. 
         <br/> Let BRIDGR be the bridge to your Web3 success story. 
       </motion.p>
+
+      <motion.div 
+      variants={footerVariants}
+      initial="hidden"
+      whileInView="show"
+      className='relative'
+    >
+      <div className="mt-20">
+        <div className=' place-items-center grid grid-cols-3 md:grid-cols-6 sm:gap-18 gap-10 sm:mt-12 md:mt-16 mt-8'>
+            <a className="p-1 col-span-1" href='https://apegang.art/'>
+                <Image 
+                  src='/apegang.png' 
+                  alt="Ape Gang" 
+                  className="" 
+                  style={{opacity:'0.95'}}
+                  quality={100}
+                  width={938}
+                  height={249}
+                />
+            </a>
+            <a className="p-1 col-span-1" href='https://ethlas.com/'>
+                <Image 
+                  src='/ethlas.png' 
+                  alt="Ethlas" 
+                  className="" 
+                  style={{opacity:'0.95'}}
+                  quality={100}
+                  width={1531}
+                  height={681}
+                />
+            </a>
+            <a className="p-1 col-span-1" href='https://madfornfts.com/'>
+                <Image 
+                  src='/madfornft.png' 
+                  alt="Mad for NFTs" 
+                  className="" 
+                  style={{opacity:'0.95'}}
+                  quality={100}
+                  width={1092}
+                  height={586}
+                />
+            </a>
+            <a className="p-1 col-span-1" href='https://www.cryptofemale.org/'>
+                <Image 
+                  src='/cryptofemale.png' 
+                  alt="Crypto Female" 
+                  className="" 
+                  style={{opacity:'0.85'}}
+                  quality={100}
+                  width={1000}
+                  height={596}
+                />
+            </a>
+            <a className="p-1 col-span-1" href='https://globalb.com.tr/'>
+                <Image 
+                  src='/globalb.png' 
+                  alt="GlobalB" 
+                  className="" 
+                  style={{opacity:'0.95'}}
+                  quality={100}
+                  width={832}
+                  height={372}
+                />
+            </a>
+            <a className="p-1 col-span-1" href="https://www.crowdfundjunction.com/">
+                <Image 
+                  src='/cfj.png' 
+                  alt="Crowd Fund Junction" 
+                  className="" 
+                  style={{opacity:'0.95'}}
+                  quality={100}
+                  width={1240}
+                  height={399}
+                />
+            </a>
+        </div>
+      </div>
+    </motion.div>
 
       {/* <motion.img
         variants={fadeIn('up', 'tween', 0.3, 1)}
