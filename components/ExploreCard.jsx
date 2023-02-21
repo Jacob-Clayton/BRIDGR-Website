@@ -3,8 +3,11 @@
 import { motion } from 'framer-motion';
 import { fadeIn } from '../utils/motion';
 import Image from 'next/image';
+import { useMediaQuery } from 'react-responsive';
 
-const ExploreCard = ({ id, imgUrl, title, description, index, active, handleClick }) => (
+const ExploreCard = ({ id, imgUrl, title, description, index, active, handleClick }) => {
+
+  return (
   <motion.div
     variants={fadeIn('right', 'spring', index * 0.3, 0.75)}
     className={`relative ${
@@ -16,9 +19,9 @@ const ExploreCard = ({ id, imgUrl, title, description, index, active, handleClic
       src={imgUrl}
       alt="planet-04"
       className="absolute w-full h-full object-cover rounded-[24px]"
-      quality={99}
-      width={4000}
-      height={2500}
+      quality={95}
+      width={1333}
+      height={833}
     />
     {active !== id ? (
       <h3 className="font-semibold sm:text-[26px] text-[18px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]">
@@ -33,8 +36,10 @@ const ExploreCard = ({ id, imgUrl, title, description, index, active, handleClic
           {title}
         </h2>
       </div>
-    )}
+    )
+    }
   </motion.div>
 );
+};
 
 export default ExploreCard;

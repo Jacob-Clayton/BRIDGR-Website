@@ -48,7 +48,7 @@ const Insights = () => (
             <Image 
               src='/jacob.png' 
               alt="Jacob" 
-              className="bold rounded-bl-[35px] rounded-br-[35px]"
+              className="bold rounded-bl-[35px] rounded-br-[35px] sm:rounded-tr-[0px] sm:rounded-tl-[0px] rounded-tr-[35px] rounded-tl-[35px]"
               quality={100}
               width={270}
               height={250}
@@ -67,7 +67,7 @@ const Insights = () => (
             <Image 
               src='/kishor.png' 
               alt="Kishor" 
-              className=" rounded-bl-[35px] rounded-br-[35px]"
+              className=" rounded-bl-[35px] rounded-br-[35px] sm:rounded-tr-[0px] sm:rounded-tl-[0px] rounded-tr-[35px] rounded-tl-[35px]"
               quality={100}
               width={270}
               height={250}
@@ -86,7 +86,7 @@ const Insights = () => (
             <Image 
               src='/joss.png' 
               alt="Joss" 
-              className=" bold rounded-bl-[35px] rounded-br-[35px]"
+              className=" bold rounded-bl-[35px] rounded-br-[35px] sm:rounded-tr-[0px] sm:rounded-tl-[0px] rounded-tr-[35px] rounded-tl-[35px]"
               quality={100}
               width={270}
               height={250}
@@ -105,7 +105,7 @@ const Insights = () => (
             <Image 
               src='/hilal.png' 
               alt="Hilal" 
-              className=" bold rounded-bl-[35px] rounded-br-[35px]"
+              className=" bold rounded-bl-[35px] rounded-br-[35px] sm:rounded-tr-[0px] sm:rounded-tl-[0px] rounded-tr-[35px] rounded-tl-[35px]"
               quality={100}
               width={270}
               height={250}
@@ -124,7 +124,7 @@ const Insights = () => (
             <Image 
               src='/sima.png' 
               alt="Sima" 
-              className=" bold rounded-bl-[35px] rounded-br-[35px]"
+              className=" bold rounded-bl-[35px] rounded-br-[35px] sm:rounded-tr-[0px] sm:rounded-tl-[0px] rounded-tr-[35px] rounded-tl-[35px]"
               quality={100}
               width={270}
               height={250}
@@ -143,7 +143,7 @@ const Insights = () => (
             <Image 
               src='/henry.png' 
                 alt="Henry" 
-                className=" bold rounded-bl-[35px] rounded-br-[35px]"
+                className=" bold rounded-bl-[35px] rounded-br-[35px] sm:rounded-tr-[0px] sm:rounded-tl-[0px] rounded-tr-[35px] rounded-tl-[35px]"
                 quality={100}
                 width={270}
                 height={250}
@@ -162,7 +162,7 @@ const Insights = () => (
             <Image 
               src='/rikong.png' 
               alt="Rikong" 
-              className=" bold rounded-bl-[35px] rounded-br-[35px]"
+              className=" bold rounded-bl-[35px] rounded-br-[35px] sm:rounded-tr-[0px] sm:rounded-tl-[0px] rounded-tr-[35px] rounded-tl-[35px]"
               quality={100}
               width={270}
               height={250}

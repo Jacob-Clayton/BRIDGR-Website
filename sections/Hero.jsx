@@ -45,29 +45,29 @@ const Hero = () => {
         <Image
           src="/cover.png"
           alt="hero_cover"
-          className="mx-auto overflow-visible sm:mt-[3%] md:mt-[2%] lg:mt[1%] xl:mt-[1%] mt-[2%] opacity-[90%] object-cover rounded-tl-[140px] z-10 relative"
+          className="mx-auto overflow-visible sm:mt-[3%] md:mt-[2%] lg:mt[1%] xl:mt-[0%] mt-[2%] opacity-[90%] object-cover rounded-tl-[140px] z-10 relative"
           quality={95}
-          width={4000}
-          height={2500}
+          width={1600}
+          height={1000}
           priority
         />
         <Image 
           src='/bridgrround.png'
           alt='Bridgr logo faded in background'
-          className="absolute z-[0] w-[95%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-[10%]"
+          className="absolute z-[0] w-[92%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-[19%]"
           quality={60}
-          width={2000}
-          height={2000}
+          width={900}
+          height={900}
         />
-        <a href="#explore">
-          {/* <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[90px] relative z-10">
+        {/* <a href="#explore">
+          <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[90px] relative z-10">
             <img
               src="/stamp.png"
               alt="stamp"
               className="sm:w-[205px] w-[100px] sm:h-[155px] h-[100px] object-contain"
             />
-          </div> */}
-        </a>
+          </div>
+        </a> */}
       </motion.div>
     </motion.div>
     

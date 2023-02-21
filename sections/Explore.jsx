@@ -7,6 +7,7 @@ import styles from '../styles';
 import { exploreWorlds } from '../constants';
 import { staggerContainer } from '../utils/motion';
 import { ExploreCard, TitleText, TypingText } from '../components';
+import { useMediaQuery } from 'react-responsive';
 
 const Explore = () => {
   const [active, setActive] = useState('world-2');

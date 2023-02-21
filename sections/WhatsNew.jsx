@@ -36,10 +36,10 @@ const WhatsNew = () => (
         <Image
           src="/whats-new.png"
           alt="get-started"
-          className="w-[100%] h-[100%] object-contain"
-          quality={100}
-          width={4000}
-          height={2500}
+          className="object-contain"
+          quality={90}
+          width={1333}
+          height={833}
         />
       </motion.div>
     </motion.div>
