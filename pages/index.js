@@ -9,7 +9,7 @@ const Home = () => (
       <About />
       <div className="gradient-03 z-0 md:block hidden" />
       <Services />
-      <Explore />
+      {/* <Explore /> */}
     </div>
     <div className="relative">
       <WhatsNew />

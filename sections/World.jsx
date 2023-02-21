@@ -28,7 +28,7 @@ const World = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-8 font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[11px] text-center text-secondary-white"
       >
-        Come along to a Web3 social near you. Grab a drink and network with industry professionals around the world.
+        Come along to a Web3 social near you and network with industry professionals around the world over drinks.
       </motion.p>
 
       <motion.div
