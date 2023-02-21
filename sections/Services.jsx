@@ -52,7 +52,7 @@ return (
                     <Image 
                         src='/planet-02.png' 
                         alt="Web3 Acceleration" 
-                        className="mb-2 max-w-[200px] sm:max-w-[400px] md:max-w-[420px] lg:max-w-[370px] xl:max-w-[380px] 2xl:max-w-[400px] mx-auto rounded-bl-[35px] rounded-br-[35px] sm:rounded-tr-[0px] sm:rounded-tl-[0px] rounded-tr-[35px] rounded-tl-[35px]"
+                        className=" max-w-[200px] sm:max-w-[400px] md:max-w-[420px] lg:max-w-[370px] xl:max-w-[380px] 2xl:max-w-[400px] mx-auto rounded-bl-[35px] rounded-br-[35px] sm:rounded-tr-[0px] sm:rounded-tl-[0px] rounded-tr-[35px] rounded-tl-[35px]"
                         quality={100}
                         width={1000}
                         height={625}

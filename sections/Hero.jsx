@@ -58,6 +58,7 @@ const Hero = () => {
           quality={60}
           width={900}
           height={900}
+          priority
         />
         {/* <a href="#explore">
           <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[90px] relative z-10">
