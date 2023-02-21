@@ -40,12 +40,12 @@ const About = () => (
       className='relative'
     >
       <div className="mt-20">
-        <div className=' place-items-center grid grid-cols-3 md:grid-cols-6 sm:gap-18 gap-10 sm:mt-12 md:mt-16 mt-8'>
+        <div className=' place-items-center grid grid-cols-3 md:grid-cols-6 sm:gap-18 gap-12 sm:mt-12 md:mt-16 mt-8'>
             <a className="p-1 col-span-1" href='https://apegang.art/'>
                 <Image 
                   src='/apegang.png' 
                   alt="Ape Gang" 
-                  className="" 
+                  className="max-w-[80%]" 
                   style={{opacity:'0.95'}}
                   quality={100}
                   width={938}
@@ -56,7 +56,7 @@ const About = () => (
                 <Image 
                   src='/ethlas.png' 
                   alt="Ethlas" 
-                  className="" 
+                  className="max-w-[80%]" 
                   style={{opacity:'0.95'}}
                   quality={100}
                   width={1531}
@@ -67,7 +67,7 @@ const About = () => (
                 <Image 
                   src='/madfornft.png' 
                   alt="Mad for NFTs" 
-                  className="" 
+                  className="max-w-[80%]" 
                   style={{opacity:'0.95'}}
                   quality={100}
                   width={1092}
@@ -78,7 +78,7 @@ const About = () => (
                 <Image 
                   src='/cryptofemale.png' 
                   alt="Crypto Female" 
-                  className="" 
+                  className="max-w-[80%]" 
                   style={{opacity:'0.85'}}
                   quality={100}
                   width={1000}
@@ -89,7 +89,7 @@ const About = () => (
                 <Image 
                   src='/globalb.png' 
                   alt="GlobalB" 
-                  className="" 
+                  className="max-w-[80%]" 
                   style={{opacity:'0.95'}}
                   quality={100}
                   width={832}
@@ -100,7 +100,7 @@ const About = () => (
                 <Image 
                   src='/cfj.png' 
                   alt="Crowd Fund Junction" 
-                  className="" 
+                  className="max-w-[80%]" 
                   style={{opacity:'0.95'}}
                   quality={100}
                   width={1240}
