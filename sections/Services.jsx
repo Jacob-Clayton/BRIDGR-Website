@@ -44,7 +44,10 @@ return (
                         <p class="mb-2 text-center font-bold text-white text-[1rem] sm:text-[1.1rem] md:text-[1.4rem] lg:text-[1.3rem] xl:text-[1.4rem] 2xl:text-[1.5rem] ">
                             Global Events</p>
                         <p class="mb-0 font-regular text-secondary-white text-[0.8rem] sm:text-[0.9rem] md:text-[1.1rem] lg:text-[1.1rem] xl:text-[1.2rem]">
-                            Get real-world exposure at our Web3 events worldwide. Filled with founders, investors and professionals it's the perfect environment to get the word out about your Web3 company. Or just join us for a beer.</p>
+                            Get real-world exposure at our 'WEB3 SOCIAL' events worldwide. Filled with founders, 
+                            investors and professionals it's the perfect environment to network 
+                            and get the word out about your company. 
+                            <a href='https://jacobclayton.gitbook.io/bridgr-services/bridgr-collective/partner-program' className='text-white'> Read more...</a></p>
                     </div>
                 </div>
             
@@ -61,7 +64,10 @@ return (
                         <p class='mb-2 text-center font-bold text-white text-[1rem] sm:text-[1.1rem] md:text-[1.4rem] lg:text-[1.3rem] xl:text-[1.4rem] 2xl:text-[1.5rem]'>
                             Web3 Acceleration</p>
                         <p class='mb-0 font-regular text-secondary-white text-[0.8rem] sm:text-[0.9rem] md:text-[1.1rem] lg:text-[1.1rem] xl:text-[1.2rem]'>
-                            We offer: Web development, smart contract builds & audits, worldwide events exposure, Web3 legal services, a network of Web3 professionals to tap into, community building and marketing services including celebrity & influencer access.</p>
+                            We offer: Web development, smart contract builds & audits, metaverse game integration, worldwide events exposure, Web3 legal services, 
+                            a network of Web3 professionals to tap into, community building and marketing services 
+                            including celebrity & influencer access. 
+                            <a href='https://jacobclayton.gitbook.io/bridgr-services/bridgr-collective/partner-program' className='text-white'> Read more...</a></p>
                     </div>
                 </div>
             
@@ -78,7 +84,9 @@ return (
                         <p className='mb-2 text-center font-bold text-white text-[1rem] sm:text-[1.1rem] md:text-[1.4rem] lg:text-[1.3rem] xl:text-[1.4rem] 2xl:text-[1.5rem]'>
                             Shared Community</p>
                         <p className='mb-0 font-regular text-secondary-white text-[0.8rem] sm:text-[0.9rem] md:text-[1.1rem] lg:text-[1.1rem] xl:text-[1.2rem] '>
-                            Share our network of multiple well-established communities worldwide, and reap the benefits of the exposure that comes with it.</p>
+                            Share our network of multiple well-established communities worldwide, and reap the 
+                            benefits of the exposure that comes with it. 
+                            <a href='https://jacobclayton.gitbook.io/bridgr-services/bridgr-collective/partner-program' className='text-white'> Read more...</a></p>
                     </div>
                 </div>
             
@@ -95,7 +103,8 @@ return (
                         <p className='mb-2 text-center font-bold text-white text-[1rem] sm:text-[1.1rem] md:text-[1.4rem] lg:text-[1.3rem] xl:text-[1.4rem] 2xl:text-[1.5rem]'>
                             Web3 Onboarding</p>
                         <p className='mb-0 font-regular text-secondary-white text-[0.8rem] sm:text-[0.9rem] md:text-[1.1rem] lg:text-[1.1rem] xl:text-[1.2rem] '>
-                            Bridge from Web2 to Web3 with our full onboarding service.</p>
+                            Bridge from Web2 to Web3 with our full onboarding service. 
+                            <a href='https://jacobclayton.gitbook.io/bridgr-services/bridgr-collective/partner-program' className='text-white'> Read more...</a></p>
                     </div>
                 </div>
             </motion.div>

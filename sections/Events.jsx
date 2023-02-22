@@ -28,7 +28,7 @@ const Events = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-8 font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
       >
-        Come along to a Web3 social near you and network with industry professionals around the world over drinks.
+        Come along to a 'WEB3 SOCIAL' event near you and network with industry professionals from around the world over drinks.
       </motion.p>
 
       <motion.div

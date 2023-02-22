@@ -1,11 +1,10 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { TypingText, TitleText } from './CustomTexts';
 import Image from 'next/image';
 
 import styles from '../styles';
-import { footerVariants, fadeIn } from '../utils/motion';
+import { footerVariants } from '../utils/motion';
 
 const Footer = () => (
   <motion.footer
@@ -31,11 +30,11 @@ const Footer = () => (
             © 2023 BRIDGR. All rights reserved.
           </p>
           <div className="flex gap-4">
-            <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
             <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
             <a href="https://t.me/bridgr"><img src='/telegram.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
             <a href="https://discord.com/invite/j2ayV98Dc2"><img src='/discord.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
             <a href="mailto:bridgrxyz@gmail.com"><img src='/email.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
+            <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
           </div>
         </div>
       </div>

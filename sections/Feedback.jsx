@@ -5,7 +5,6 @@ import Image from 'next/image';
 
 import styles from '../styles';
 import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
-import { TitleText, TypingText } from '../components';
 
 const Feedback = () => (
   <section className={`${styles.paddings}`}>
@@ -26,7 +25,7 @@ const Feedback = () => (
             Kishor
           </h4>
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-            Founder BRIDGR
+            Founder of BRIDGR
           </p>
         </div>
 
