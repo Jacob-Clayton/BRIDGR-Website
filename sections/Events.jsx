@@ -6,7 +6,7 @@ import styles from '../styles';
 import { TitleText, TypingText } from '../components';
 import { fadeIn, staggerContainer } from '../utils/motion';
 
-const World = () => (
+const Events = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
@@ -16,7 +16,7 @@ const World = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
 
-      <TypingText title="| Global Events" textStyles="text-center" />
+      <TypingText title="| Events" textStyles="text-center" />
       <TitleText
         title={(
           <>Web3 Events
@@ -48,4 +48,4 @@ const World = () => (
   </section>
 );
 
-export default World;
+export default Events;

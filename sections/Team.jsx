@@ -6,7 +6,7 @@ import styles from '../styles';
 import { staggerContainer, fadeIn } from '../utils/motion';
 import { TitleText, TypingText } from '../components';
 
-const Insights = () => (
+const Team = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
@@ -193,4 +193,4 @@ const Insights = () => (
   </section>
 );
 
-export default Insights;
+export default Team;
