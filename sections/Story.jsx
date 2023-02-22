@@ -23,6 +23,7 @@ const Story = () => {
             <motion.p
                 variants={fadeIn('up', 'tween', 0.2, 1)}
                 initial={isMdScreen ? 'hidden' : 'visible'}
+                whileInView="show"
                 className="mt-8 mb-[50px] font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
             >
                 BRIDGR’s founders are all passionate about Web3 and the endless possibilities enabled through decentralised 

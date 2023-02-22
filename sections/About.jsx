@@ -25,6 +25,7 @@ const About = () => {
         <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}
           initial={isMdScreen ? 'hidden' : 'visible'}
+          whileInView="show"
           className="mt-[8px] font-normal lg:text:-[35px] md:text-[30px] sm:text-[26px] text-[16px] text-center text-secondary-white"
         >
           Looking to accelerate your growth in the world of Web3?

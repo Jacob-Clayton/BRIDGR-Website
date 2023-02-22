@@ -22,7 +22,6 @@ const WhatsNew = () => {
       >
         <motion.div
           variants={fadeIn('right', 'tween', 0.2, 1)}
-          initial={isMdScreen ? 'hidden' : 'visible'}
           className="flex-[0.95] flex justify-center flex-col"
         >
           <TypingText title="| Unique" />
