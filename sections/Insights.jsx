@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import styles from '../styles';
-import { staggerContainer, fadeIn, footerVariants } from '../utils/motion';
+import { staggerContainer, fadeIn } from '../utils/motion';
 import { TitleText, TypingText } from '../components';
 
 const Insights = () => (
