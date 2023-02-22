@@ -3,15 +3,18 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import styles from '../styles';
-import { startingFeatures } from '../constants';
-import { StartSteps, TitleText, TypingText } from '../components';
-import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
+import { TitleText, TypingText } from '../components';
+import { staggerContainer, fadeIn } from '../utils/motion';
+import { useMediaQuery } from 'react-responsive';
 
-const GetStarted = () => (
+const GetStarted = () => {
+  const isMdScreen = useMediaQuery({ minWidth: 768 });
+
+  return (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
-      initial="hidden"
+      initial={isMdScreen ? 'hidden' : 'visible'}
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex lg:flex-row-reverse flex-col gap-8`}
@@ -72,5 +75,6 @@ const GetStarted = () => (
     </motion.div>
   </section>
 );
+};
 
 export default GetStarted;
