@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion';
 import { fadeIn } from '../utils/motion';
 import Image from 'next/image';
-import { useMediaQuery } from 'react-responsive';
 
 const ExploreCard = ({ id, imgUrl, title, description, index, active, handleClick }) => {
 
