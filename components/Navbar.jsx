@@ -7,7 +7,7 @@ import { navVariants } from '../utils/motion';
 
 function MobileNav({open, setOpen}) {
   return (   
-    <div className={`absolute z-50 top-0 right-0 h-screen md:w-[20%] sm:w-[30%] w-[40%] bg-black rounded-br-[10px] rounded-tl-[10px] rounded-bl-[10px] bg-opacity-[60%] transform ${open ? "-translate-y-0" : "-translate-y-full"} transition-transform duration-100 ease-in-out filter  `}>
+    <div className={`absolute z-50 top-0 right-0 h-screen xl:w-[15%] lg:w-[20%] md:w-[25%] sm:w-[30%] w-[40%] bg-black rounded-br-[10px] rounded-tl-[10px] rounded-bl-[10px] bg-opacity-[60%] transform ${open ? "-translate-y-0" : "-translate-y-full"} transition-transform duration-100 ease-in-out filter  `}>
       <div className="z-100 flex flex-col items-center mt-[40%] sm:mt-[38%] md:mt-[35%] lg:mt-[25%]">
 
           <a 
@@ -77,7 +77,7 @@ const Navbar = () => {
             className={`${styles.xPaddings} py-8 relative navbar absolute inset-0 gradient-01 md:block hidden`}
           />
           <div className=' fixed top-0 pt-4 z-50 w-full backdrop-blur-sm'>
-            <div className={`${styles.innerWidth} mx-auto flex justify-end items-center`}>
+            <div className=' mx-auto flex justify-end items-center'>
               <Image
                 src="/bridgrlogo.png" 
                 className='mx-auto 2xl:w-[180px] sm:w-[150px] w-[100px]' 
