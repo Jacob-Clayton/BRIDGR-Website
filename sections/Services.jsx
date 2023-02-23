@@ -15,22 +15,20 @@ const Services = () => {
         <section className='mb-20' id="explore">
             <motion.div
                 variants={staggerContainer}
-                initial="hidden"
+                initial={isMdScreen ? 'hidden' : 'visible'}
                 whileInView="show"
                 viewport={{ once: false, amount: 0.25 }}
                 className={`${styles.innerWidth} mx-auto flex flex-col`}
             >
             <TypingText title="| Services" textStyles="text-center" />
             <TitleText
-                title={<>Our Services<br className="md:block hidden" /></>}
+                title={<>What We Provide<br className="md:block hidden" /></>}
                 textStyles="text-center"
             />
                 <motion.div 
                     className='place-items-center grid grid-cols-1 lg:grid-cols-2 sm:gap-18 gap-1 sm:mt-12 md:mt-16 mt-8' 
                     id='team'
                     variants={fadeIn('up', 'tween', 0.3, 1)}
-                    initial={isMdScreen ? 'hidden' : 'visible'}
-                    whileInView="show"
                 >
                     <div className=" relative max-w-max sm:max-w-[500px] md:max-w-[680px] lg:max-w-[490px] xl:max-w-max 2xl:max-w-max ml-[20px] mr-[20px]">
                         <Image 

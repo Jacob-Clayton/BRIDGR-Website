@@ -14,17 +14,15 @@ const Team = () => {
     <section className={`${styles.paddings} relative z-10`}>
       <motion.div
         variants={staggerContainer}
-        initial="hidden"
+        initial={isMdScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <TypingText title="| Team" textStyles="text-center" />
-        <TitleText title={<>The team behind BRIDGR</>} textStyles="text-center" />
+        <TitleText title={<>The People Behind BRIDGR</>} textStyles="text-center" />
         <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}
-          initial={isMdScreen ? 'hidden' : 'visible'}
-          whileInView="show"
           className="mt-8 font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
         >
           Experienced Web3 professionals with capabilities spanning entrepreneurship, fundraising, full stack development, game design, metaverse engineering, crypto lawyers, blockchain university lecturers, NFT artists, solidity developers, marketing, community and project management.
@@ -34,8 +32,6 @@ const Team = () => {
           className=' place-items-center grid grid-cols-2 md:grid-cols-4 sm:gap-18 gap-6 sm:mt-12 md:mt-16 mt-8' 
           id='team'
           variants={fadeIn('left', 'tween', 0.2, 1)}
-          initial={isMdScreen ? 'hidden' : 'visible'}
-          whileInView="show"
         >
           <div className="relative sm:max-w-max max-w-[150px]">
               <Image 

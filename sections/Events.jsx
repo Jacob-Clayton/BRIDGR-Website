@@ -14,17 +14,13 @@ const Events = () => {
     <section className={`${styles.paddings} relative z-10`}>
       <motion.div
         variants={staggerContainer}
-        initial="hidden"
+        initial={isMdScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-
         <TypingText title="| Events" textStyles="text-center" />
-        <TitleText
-          title={(<>Web3 Events</>)}
-          textStyles="text-center"
-        />
+        <TitleText title={(<>Web3 Events</>)} textStyles="text-center" />
         <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}
           initial={isMdScreen ? 'hidden' : 'visible'}
@@ -36,8 +32,6 @@ const Events = () => {
 
         <motion.div
           variants={fadeIn('up', 'tween', 0.3, 1)}
-          initial={isMdScreen ? 'hidden' : 'visible'}
-          whileInView="show"
           className="relative mx-auto sm:mt-[68px] mt-[35px] flex w-full lg:h-full md:h-[390px] sm:h-[280px] h-400px"
         >
           <Image 

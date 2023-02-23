@@ -2,19 +2,20 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-
+import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
 import { fadeIn, staggerContainer, textVariant } from '../utils/motion';
-import { useRef } from 'react';
 import { useInView } from 'react-intersection-observer';
 
 const Hero = () => {
+  const isMdScreen = useMediaQuery({ minWidth: 768 });
   const { ref, inView } = useInView({ threshold: 0.05, triggerOnce: false });
+
   return (
   <section className='mx-auto'>
     <motion.div
       variants={staggerContainer}
-      initial="hidden"
+      initial={isMdScreen ? 'hidden' : 'visible'}
       whileInView="show"
       viewport={{ once: false, amount: 0.2 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
@@ -22,8 +23,6 @@ const Hero = () => {
       <div className="fixed inset-x-0 top-[9%] sm:top-[11%] md:top-[8%] lg:top-[11%] xl:top-[11%] 2xl:top-[10%] text-center flex justify-center items-center flex-col absolute z-50">
         <motion.h1 
           variants={textVariant(0.6)}
-          initial="hidden"
-          whileInView="show" 
           className={styles.heroHeading}
         >
           The best of Web3

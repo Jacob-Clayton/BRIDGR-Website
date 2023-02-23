@@ -15,7 +15,7 @@ const About = () => {
       <div className="gradient-02 z-0 md:block hidden" />
       <motion.div
         variants={staggerContainer}
-        initial='hidden'
+        initial={isMdScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
@@ -24,17 +24,14 @@ const About = () => {
 
         <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}
-          initial={isMdScreen ? 'hidden' : 'visible'}
-          whileInView="show"
-          className="mt-[8px] font-normal lg:text:-[35px] md:text-[30px] sm:text-[26px] text-[16px] text-center text-secondary-white"
+          className="mt-[8px] font-normal 2xl:text-[27px] xl:text-[26px] lg:text-[24px] md:text-[20px] sm:text-[19px] text-[15px] text-center text-secondary-white"
         >
           Looking to accelerate your growth in the world of Web3?
           <br/>Look no further than BRIDGR. We are a 
           <span className="font-extrabold text-white"> collective </span> 
           of Web3 companies offering a unique 
-          <span className="font-extrabold text-white"> cooperative </span> approach to growth. 
-          By partnering with us, you'll tap into our global network of Web3 companies and gain access to our combined 
-          services and communities. 
+          <span className="font-extrabold text-white"> cooperative </span> platform to help you grow. 
+          By partnering with BRIDGR you'll gain access to our combined services, community and network.
           <br/> Let BRIDGR be the bridge to your Web3 success story. 
         </motion.p>
 
@@ -44,8 +41,8 @@ const About = () => {
         whileInView="show"
         className='relative'
       >
-        <div className="mt-20">
-          <div className=' place-items-center grid grid-cols-3 md:grid-cols-6 sm:gap-18 gap-12 sm:mt-12 md:mt-16 mt-8'>
+        <div className="md:mt-20 mt-10 md:mb-20 mb-6">
+          <div className=' place-items-center grid grid-cols-3 md:grid-cols-6 sm:gap-18 gap-12 sm:gap-y-5 gap-y-3 sm:mt-12 md:mt-16 mt-6'>
               <a className="p-1 col-span-1" href='https://apegang.art/'>
                   <Image 
                     src='/apegang.png' 

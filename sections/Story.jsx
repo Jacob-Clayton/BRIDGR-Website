@@ -13,17 +13,15 @@ const Story = () => {
         <section className={`${styles.paddings} relative z-10`}>
             <motion.div
             variants={staggerContainer}
-            initial="hidden"
+            initial={isMdScreen ? 'hidden' : 'visible'}
             whileInView="show"
             viewport={{ once: false, amount: 0.25 }}
             className={`${styles.innerWidth} mx-auto flex flex-col`}
             >
-            <TypingText title="| Story " textStyles="text-center" />
-            <TitleText title={<>The Story behind BRIDGR</>} textStyles="text-center" />
+            <TypingText title="| Origins " textStyles="text-center" />
+            <TitleText title={<>The Story Behind BRIDGR</>} textStyles="text-center" />
             <motion.p
                 variants={fadeIn('up', 'tween', 0.2, 1)}
-                initial={isMdScreen ? 'hidden' : 'visible'}
-                whileInView="show"
                 className="mt-8 mb-[50px] font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
             >
                 BRIDGR’s founders are all passionate about Web3 and the endless possibilities enabled through decentralised 
@@ -36,8 +34,6 @@ const Story = () => {
                 className='' 
                 id='team'
                 variants={fadeIn('left', 'tween', 0.2, 1)}
-                initial={isMdScreen ? 'hidden' : 'visible'}
-                whileInView="show"
             >
                     <div className='flex flex-row items-center'>     
                         <div className='relative'>
