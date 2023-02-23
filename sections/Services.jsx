@@ -12,7 +12,7 @@ const Services = () => {
     const isMdScreen = useMediaQuery({ minWidth: 768 });
 
     return (
-        <section className='mb-20' id="explore">
+        <section className='mb-20' id="Services">
             <motion.div
                 variants={staggerContainer}
                 initial={isMdScreen ? 'hidden' : 'visible'}
@@ -21,10 +21,7 @@ const Services = () => {
                 className={`${styles.innerWidth} mx-auto flex flex-col`}
             >
             <TypingText title="| Services" textStyles="text-center" />
-            <TitleText
-                title={<>What We Provide<br className="md:block hidden" /></>}
-                textStyles="text-center"
-            />
+            <TitleText title={<>What We Provide</>}textStyles="text-center" />
                 <motion.div 
                     className='place-items-center grid grid-cols-1 lg:grid-cols-2 sm:gap-18 gap-1 sm:mt-12 md:mt-16 mt-8' 
                     id='team'

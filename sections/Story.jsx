@@ -10,7 +10,7 @@ const Story = () => {
     const isMdScreen = useMediaQuery({ minWidth: 768 });
 
     return (
-        <section className={`${styles.paddings} relative z-10`}>
+        <section className={`${styles.paddings} relative z-10`} id="Story">
             <motion.div
             variants={staggerContainer}
             initial={isMdScreen ? 'hidden' : 'visible'}
@@ -24,7 +24,7 @@ const Story = () => {
                 variants={fadeIn('up', 'tween', 0.2, 1)}
                 className="mt-8 mb-[50px] font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
             >
-                BRIDGR’s founders are all passionate about Web3 and the endless possibilities enabled through decentralised 
+                Our founders are passionate about Web3 and the endless possibilities of decentralised 
                 online ecosystems powered by blockchain. At the same time, we are saddened whenever we see time, energy, 
                 and money being lost to the bad apples of this Space. So, we started BRIDGR to create a positive movement of 
                 like-minded & well-established Web3 enthusiasts who are here for the right reasons.

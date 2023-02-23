@@ -12,7 +12,7 @@ const Hero = () => {
   const { ref, inView } = useInView({ threshold: 0.05, triggerOnce: false });
 
   return (
-  <section className='mx-auto'>
+  <section className='mx-auto' id='Home'>
     <motion.div
       variants={staggerContainer}
       initial={isMdScreen ? 'hidden' : 'visible'}
@@ -20,7 +20,7 @@ const Hero = () => {
       viewport={{ once: false, amount: 0.2 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <div className="fixed inset-x-0 top-[9%] sm:top-[11%] md:top-[8%] lg:top-[11%] xl:top-[11%] 2xl:top-[10%] text-center flex justify-center items-center flex-col absolute z-50">
+      <div className="fixed inset-x-0 top-[6%] sm:top-[8%] md:top-[8%] lg:top-[11%] xl:top-[11%] 2xl:top-[10%] text-center flex justify-center items-center flex-col absolute z-20">
         <motion.h1 
           variants={textVariant(0.6)}
           className={styles.heroHeading}
@@ -44,7 +44,7 @@ const Hero = () => {
         <Image
           src="/cover.png"
           alt="hero_cover"
-          className="mx-auto overflow-visible sm:mt-[3%] md:mt-[2%] lg:mt[1%] xl:mt-[0%] mt-[2%] opacity-[90%] object-cover rounded-tl-[140px] z-10 relative"
+          className="mx-auto overflow-visible sm:mt-[6%] md:mt-[2%] lg:mt-[2%] xl:mt-[2%] 2xl:mt-[3%] mt-[7%] opacity-[90%] object-cover rounded-tl-[140px] z-10 relative"
           quality={95}
           width={1600}
           height={1000}
@@ -53,7 +53,7 @@ const Hero = () => {
         <Image 
           src='/bridgrround.png'
           alt='Bridgr logo faded in background'
-          className="absolute z-[0] w-[92%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-[19%]"
+          className="absolute sm:mt-[3%] md:mt-0 mt-[5%] z-[0] w-[92%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-[19%]"
           quality={60}
           width={900}
           height={900}
