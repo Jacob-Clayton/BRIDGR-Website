@@ -37,10 +37,10 @@ const News = () => {
                         />
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
-                                <h4 className="font-normal lg:text-[42px] text-[26px] text-white">
+                                <h4 className="font-normal 2xl:text-[39px] xl:text-[38px] lg:text-[36px] md:text-[34px] sm:text-[28px] text-[26px] text-white">
                                     Beachside in Bali </h4>
-                                <p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-secondary-white">
-                                    We went tropical and threw a huge red carpet event at the Lighthouse Studios Bali on 
+                                <p className="mt-[16px] font-normal 2xl:text-[20px] xl:text-[19px] lg:text-[17px] md:text-[16px] sm:text-[15px] text-[14px] text-secondary-white">
+                                    We went all tropical and decided to throw a huge red carpet event at the Lighthouse Studios Bali on 
                                     <span className='text-white'> 24th Feb 2023.</span></p>
                             </div>
                             <a href='https://twitter.com/Bridgrxyz/status/1625104846675386369?s=20'>
@@ -60,10 +60,10 @@ const News = () => {
                         />
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
-                                <h4 className="font-normal lg:text-[42px] text-[26px] text-white">
+                                <h4 className="font-normal 2xl:text-[39px] xl:text-[38px] lg:text-[36px] md:text-[34px] sm:text-[28px] text-[26px] text-white">
                                     Singapore Social</h4>
-                                <p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-secondary-white">
-                                    Singapore's first NFT bar, The Parlour Singapore, hosted another one of our sold out 'WEB3 SOCIAL' events on 
+                                <p className="mt-[16px] font-normal 2xl:text-[20px] xl:text-[19px] lg:text-[17px] md:text-[16px] sm:text-[15px] text-[14px] text-secondary-white">
+                                    Singapore's first NFT bar, The Parlour Singapore, hosted another fantastic sold out 'WEB3 SOCIAL' on 
                                     <span className='text-white'> Feb 3rd 2023.</span></p>
                             </div>
                             <a href='https://twitter.com/Bridgrxyz/status/1622586625552429057?s=20'>
@@ -83,9 +83,9 @@ const News = () => {
                         />
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
-                                <h4 className="font-normal lg:text-[42px] text-[26px] text-white">
+                                <h4 className="font-normal 2xl:text-[39px] xl:text-[38px] lg:text-[36px] md:text-[34px] sm:text-[28px] text-[26px] text-white">
                                     Istanbul Blockchain Week</h4>
-                                <p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-secondary-white">
+                                <p className="mt-[16px] font-normal 2xl:text-[20px] xl:text-[19px] lg:text-[17px] md:text-[16px] sm:text-[15px] text-[14px] text-secondary-white">
                                     BRIDGR hosted the official Blockchain Week afterparty at one of our good friend's bar, Youplace, on 
                                     <span className='text-white'> Nov 14th 2022.</span></p>
                             </div>
