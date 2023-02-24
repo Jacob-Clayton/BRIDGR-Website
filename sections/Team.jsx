@@ -170,20 +170,20 @@ const Team = () => {
       
           <div className="relative sm:max-w-max max-w-[150px]">
               <Image 
-                src='/rikong.png' 
-                alt="Rikong" 
-                className=" bold rounded-bl-[35px] rounded-br-[35px] sm:rounded-tr-[0px] sm:rounded-tl-[0px] rounded-tr-[35px] rounded-tl-[35px]"
+                src='/jaye.png' 
+                alt="Jaye" 
+                className=" bold rounded-bl-[35px] rounded-br-[35px] sm:rounded-tr-[15px] sm:rounded-tl-[15px] rounded-tr-[35px] rounded-tl-[35px]"
                 quality={100}
                 width={270}
                 height={250}
               />
               <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.85rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
-                  <p className='mb-0 font-bold'>Rikong</p>
-                  <p className='mb-0 font-regular'>Ape Gang</p>
+                  <p className='mb-0 font-bold'>Jaye</p>
+                  <p className='mb-0 font-regular'>The Parlour</p>
               </div>
               <div class="absolute bottom-0 right-0 flex flex-col justify-end py-2 px-3 mr-3 mb-0">
-                <a href="https://twitter.com/rikongnft"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[24px] xl:h-[24px] object-contain cursor-pointer text-white"></img></a>
-                <a href="https://www.linkedin.com/company/ape-gang-nft/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[24px] xl:h-[24px] object-contain cursor-pointer text-white text-white xl:mt-2 mt-1"></img></a>
+                <a href="https://twitter.com/jayefunk"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[24px] xl:h-[24px] object-contain cursor-pointer text-white"></img></a>
+                <a href="https://www.linkedin.com/in/jayefoo/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[24px] xl:h-[24px] object-contain cursor-pointer text-white text-white xl:mt-2 mt-1"></img></a>
               </div>
           </div> 
       </motion.div>
