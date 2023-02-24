@@ -44,7 +44,7 @@ const News = () => {
                                     <span className='text-white'> 24th Feb 2023.</span></p>
                             </div>
                             <a href='https://twitter.com/Bridgrxyz/status/1625104846675386369?s=20'>
-                                <div className="lg:flex hidden items-center justify-center w-[70px] h-[70px] rounded-full bg-transparent border-[1px] border-white">
+                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white">
                                         <img src="/arrow.svg" alt="arrow" className="w-[40%] h-[40%] object-contain"/> 
                                 </div>
                             </a>  
@@ -67,7 +67,7 @@ const News = () => {
                                     <span className='text-white'> Feb 3rd 2023.</span></p>
                             </div>
                             <a href='https://twitter.com/Bridgrxyz/status/1622586625552429057?s=20'>
-                                <div className="lg:flex hidden items-center justify-center w-[70px] h-[70px] rounded-full bg-transparent border-[1px] border-white">
+                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white">
                                         <img src="/arrow.svg" alt="arrow" className="w-[40%] h-[40%] object-contain" /> 
                                 </div>
                             </a>  
@@ -90,7 +90,7 @@ const News = () => {
                                     <span className='text-white'> Nov 14th 2022.</span></p>
                             </div>
                             <a href='https://twitter.com/Bridgrxyz/status/1592214170996703232?s=20'>
-                                <div className="lg:flex hidden items-center justify-center w-[70px] h-[70px] rounded-full bg-transparent border-[1px] border-white">
+                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white">
                                         <img src="/arrow.svg" alt="arrow" className="w-[40%] h-[40%] object-contain"/> 
                                 </div>
                             </a>  

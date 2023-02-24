@@ -26,13 +26,12 @@ const About = () => {
           variants={fadeIn('up', 'tween', 0.2, 1)}
           className="mt-5 font-normal 2xl:text-[27px] xl:text-[26px] lg:text-[24px] md:text-[20px] sm:text-[19px] text-[15px] text-center text-secondary-white"
         >
-          Looking to accelerate your growth in the world of Web3?
-          <br/>Look no further than BRIDGR. We are a 
+          We are a 
           <span className="font-extrabold text-white"> collective </span> 
           of Web3 companies offering a unique 
-          <span className="font-extrabold text-white"> cooperative </span> platform to help you grow. 
+          <span className="font-extrabold text-white"> cooperative </span> platform to accelerate Web3 growth. 
           By partnering with BRIDGR you'll gain access to our combined services, community and network.
-          <br/> Let BRIDGR be the bridge to your Web3 success story. 
+          Let BRIDGR be the bridge to your Web3 success story. 
         </motion.p>
 
         <motion.div 

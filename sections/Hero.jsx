@@ -12,7 +12,7 @@ const Hero = () => {
   const { ref, inView } = useInView({ threshold: 0, triggerOnce: false });
 
   return (
-  <section className= 'h-screen ' id='Home'>
+  <section id='Home'>
     <motion.div
       variants={staggerContainer}
       initial={isLgScreen ? 'hidden' : 'visible'}
@@ -38,7 +38,7 @@ const Hero = () => {
         <Image
           src="/cover.png"
           alt="hero_cover"
-          className="mx-auto overflow-visible w-[92%] sm:mt-[16%] md:mt-[7%] lg:mt-[4%] xl:mt-[2%] 2xl:mt-[2%] mt-[25%] opacity-[90%] object-cover z-10 relative"
+          className="mx-auto overflow-visible w-[92%] sm:mt-[16%] md:mt-[7%] lg:mt-[4%] xl:mt-[1%] 2xl:mt-[2%] mt-[25%] opacity-[90%] object-cover z-10 relative"
           quality={95}
           width={1600}
           height={1000}
