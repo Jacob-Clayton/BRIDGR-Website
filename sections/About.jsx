@@ -41,7 +41,7 @@ const About = () => {
         whileInView="show"
         className='relative'
       >
-        <div className="md:mt-20 mt-10 md:mb-20 mb-6">
+        <div className="md:mt-20 mt-10">
           <div className=' place-items-center grid grid-cols-3 md:grid-cols-6 sm:gap-18 gap-12 sm:gap-y-5 gap-y-3 sm:mt-12 md:mt-16 mt-6'>
               <a className="p-1 col-span-1" href='https://apegang.art/'>
                   <Image 
