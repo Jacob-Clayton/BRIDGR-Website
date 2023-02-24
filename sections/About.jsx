@@ -8,14 +8,14 @@ import styles from '../styles';
 import { fadeIn, staggerContainer, footerVariants } from '../utils/motion';
 
 const About = () => {
-  const isMdScreen = useMediaQuery({ minWidth: 768 });
+  const isLgScreen = useMediaQuery({ minWidth: 1024 });
 
   return (
     <section className={`${styles.paddings} relative z-10`} id="About" >
       <div className="gradient-02 z-0 md:block hidden" />
       <motion.div
         variants={staggerContainer}
-        initial={isMdScreen ? 'hidden' : 'visible'}
+        initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
@@ -37,7 +37,7 @@ const About = () => {
 
         <motion.div 
         variants={footerVariants}
-        initial={isMdScreen ? 'hidden' : 'visible'}
+        initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         className='relative'
       >

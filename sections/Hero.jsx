@@ -8,14 +8,14 @@ import { fadeIn, staggerContainer, textVariant } from '../utils/motion';
 import { useInView } from 'react-intersection-observer';
 
 const Hero = () => {
-  const isMdScreen = useMediaQuery({ minWidth: 768 });
+  const isLgScreen = useMediaQuery({ minWidth: 1024 });
   const { ref, inView } = useInView({ threshold: 0, triggerOnce: false });
 
   return (
-  <section className= 'mx-auto' id='Home'>
+  <section className= 'mx-auto ' id='Home'>
     <motion.div
       variants={staggerContainer}
-      initial={isMdScreen ? 'hidden' : 'visible'}
+      initial={isLgScreen ? 'hidden' : 'visible'}
       whileInView="show"
       viewport={{ once: false, amount: 0.2 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}

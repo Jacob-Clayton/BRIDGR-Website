@@ -8,13 +8,13 @@ import { TitleText, TypingText } from '../components';
 import { useMediaQuery } from 'react-responsive';
 
 const Team = () => {
-  const isMdScreen = useMediaQuery({ minWidth: 768 });
+  const isLgScreen = useMediaQuery({ minWidth: 1024 });
 
   return (
     <section className={`${styles.paddings} relative z-10`} id="Team">
       <motion.div
         variants={staggerContainer}
-        initial={isMdScreen ? 'hidden' : 'visible'}
+        initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}

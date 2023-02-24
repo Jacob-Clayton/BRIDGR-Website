@@ -8,13 +8,13 @@ import { fadeIn, staggerContainer } from '../utils/motion';
 import { useMediaQuery } from 'react-responsive';
 
 const Events = () => {
-  const isMdScreen = useMediaQuery({ minWidth: 768 });
+  const isLgScreen = useMediaQuery({ minWidth: 1024 });
 
   return (
     <section className={`${styles.paddings} relative z-10`} id="Events">
       <motion.div
         variants={staggerContainer}
-        initial={isMdScreen ? 'hidden' : 'visible'}
+        initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
@@ -23,7 +23,7 @@ const Events = () => {
         <TitleText title={(<>Web3 Events</>)} textStyles="text-center" />
         <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}
-          initial={isMdScreen ? 'hidden' : 'visible'}
+          initial={isLgScreen ? 'hidden' : 'visible'}
           whileInView="show"
           className="mt-8 font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
         >

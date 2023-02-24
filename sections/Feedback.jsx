@@ -7,13 +7,13 @@ import styles from '../styles';
 import { fadeIn, staggerContainer, zoomIn } from '../utils/motion';
 
 const Feedback = () => {
-  const isMdScreen = useMediaQuery({ minWidth: 768 });
+  const isLgScreen = useMediaQuery({ minWidth: 1024 });
 
   return (
     <section className={`${styles.paddings}`}>
       <motion.div
         variants={staggerContainer}
-        initial={isMdScreen ? 'hidden' : 'visible'}
+        initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-6`}
