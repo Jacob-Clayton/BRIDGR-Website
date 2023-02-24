@@ -77,9 +77,10 @@ const Navbar = () => {
             className={`${styles.xPaddings} py-8 relative navbar absolute inset-0 gradient-01 md:block hidden`}
           />
           <div className=' fixed top-0 pt-4 z-50 w-full backdrop-blur-sm'>
-            <div className=' mx-auto flex justify-end items-center'>
+            <div className=' mx-auto flex justify-center items-center'>
               <Image
                 src="/bridgrlogo.png" 
+                alt="bridgr logo"
                 className='mx-auto 2xl:w-[180px] sm:w-[150px] w-[100px]' 
                 height={60} 
                 width={180} 

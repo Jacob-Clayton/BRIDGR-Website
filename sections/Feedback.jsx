@@ -33,9 +33,8 @@ const Feedback = () => {
           </div>
 
           <p className="mt-[24px] font-normal xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] text-[16px] text-white">
-            “Community is everything in Web3, it's also a struggle for companies joining. BRIDGR solves this. 
-            We provide immideate access to a worldwide Web3 community ontop of the technical development, legal advice, 
-            marketing and events exposure. ”
+            “Community is everything in Web3, it's also a huge struggle for companies joining. BRIDGR helps solve this by 
+            providing immedieate access to a worldwide Web3 community ontop of a fully suite of technical services.”
           </p>
         </motion.div>
 

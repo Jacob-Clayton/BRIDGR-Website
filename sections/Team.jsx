@@ -25,7 +25,9 @@ const Team = () => {
           variants={fadeIn('up', 'tween', 0.2, 1)}
           className={`${styles.innerWidth} mt-8 font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white`}
         >
-          Experienced Web3 professionals with capabilities spanning entrepreneurship, fundraising, full stack development, game design, metaverse engineering, crypto lawyers, blockchain university lecturers, NFT artists, solidity developers, marketing, community and project management.
+          Experienced Web3 professionals with capabilities spanning entrepreneurship, 
+          fundraising, full stack development, game design, metaverse engineering, crypto lawyers, 
+          blockchain university lecturers, NFT artists, solidity developers, marketing, community and project management.
         </motion.p>
         
         <motion.div 
