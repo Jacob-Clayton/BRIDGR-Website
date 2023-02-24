@@ -76,8 +76,8 @@ const Navbar = () => {
             whileInView="show"
             className={`${styles.xPaddings} py-8 relative navbar absolute inset-0 gradient-01 md:block hidden`}
           />
-          <div className=' fixed top-0 pt-4 z-50 w-full backdrop-blur-sm'>
-            <div className=' mx-auto flex justify-center items-center'>
+          <div className='fixed top-0 pt-4 z-50 w-full backdrop-blur-sm'>
+            <div className='flex items-center '>
               <Image
                 src="/bridgrlogo.png" 
                 alt="bridgr logo"

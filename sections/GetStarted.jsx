@@ -44,7 +44,8 @@ const GetStarted = () => {
                 02</p>
             </div>
             <p className="flex-1 ml-[20px] font-normal xl:text-[19px] lg:text-[18px] md:text-[17px] sm:text-[16px] text-[15px] text-[#B0B0B0] leading-[32.4px]">
-              Let us know how we can help you</p>
+              Tell us how we can help you,
+              <br/> or enquire about joining our collective.</p>
           </div>
           <div className={`${styles.flexCenter} flex-row sm:w-[500px] w-[330px]`}>
             <div
@@ -54,7 +55,7 @@ const GetStarted = () => {
                 03</p>
             </div>
             <p className="flex-1 ml-[20px] font-normal xl:text-[19px] lg:text-[18px] md:text-[17px] sm:text-[16px] text-[15px] text-[#B0B0B0] leading-[32.4px]">
-              We’ll get to work right away</p>
+              We’ll get to work together right away</p>
           </div>
             
         </div>
