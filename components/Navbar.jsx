@@ -52,7 +52,7 @@ function MobileNav({open, setOpen}) {
             onClick={() => setOpen(false)}>
             <Button>Docs</Button>
           </a>
-          <div className="flex gap-4 fixed bottom-[12%]" id='socials'>
+          <div className="flex sm:gap-4 gap-2 fixed bottom-[12%]" id='socials'>
             <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
             <a href="https://t.me/bridgr"><img src='/telegram.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
             <a href="https://discord.com/invite/j2ayV98Dc2"><img src='/discord.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>

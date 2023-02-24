@@ -35,14 +35,20 @@ const Story = () => {
                 <div className='flex flex-row justify-center items-center'>
 
                 
-                    <div className='flex flex-col justify-center items-center'>     
+                    <div className='flex flex-col justify-center items-center'>  
+                        <motion.p
+                            variants={fadeIn('up', 'tween', 0.2, 1)}
+                            className="ml-5 text-center font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-secondary-white"
+                        >
+                            Read more about our full services and business model
+                        </motion.p>   
                         <div className='relative'>
                             <a href="https://jacobclayton.gitbook.io/bridgr-services/bridgr-collective/partner-program">
                                 <button type="button" className="flex py-3 px-6 mb-4 bg-black bg-opacity-40 rounded-[32px] gap-[12px]">
                                     <img
-                                    src="/book.svg"
-                                    alt="book"
-                                    className="hidden sm:block w-[20px] h-[20px] sm:w-[22px] sm:h-[22px] md:w-[23px] md:h-[23px] lg:w-[24px] lg:h-[24px] xl:w-[25px] xl:h-[25px] object-contain"
+                                        src="/book.svg"
+                                        alt="book"
+                                        className="w-[20px] h-[20px] sm:w-[22px] sm:h-[22px] md:w-[23px] md:h-[23px] lg:w-[24px] lg:h-[24px] xl:w-[25px] xl:h-[25px] object-contain"
                                     />
                                     <span className="font-normal text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] text-white">
                                         Docs
@@ -50,12 +56,6 @@ const Story = () => {
                                 </button>
                             </a>
                         </div>
-                        <motion.p
-                            variants={fadeIn('up', 'tween', 0.2, 1)}
-                            className="ml-5 text-center font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-secondary-white"
-                        >
-                            Read more about our full services and business model
-                        </motion.p>
                     </div>
                 </div>
             </motion.div>
