@@ -55,7 +55,7 @@ const GetStarted = () => {
                 03</p>
             </div>
             <p className="flex-1 ml-[20px] font-normal xl:text-[19px] lg:text-[18px] md:text-[17px] sm:text-[16px] text-[15px] text-[#B0B0B0] leading-[32.4px]">
-              We’ll get to work together right away</p>
+              We’ll start working together right away</p>
           </div>
             
         </div>

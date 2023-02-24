@@ -42,6 +42,12 @@ function MobileNav({open, setOpen}) {
           </a>
           <a 
             className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-slate-300 duration-400 cursor-pointer" 
+            href="#News" 
+            onClick={() => setOpen(false)}>
+            News
+          </a>
+          <a 
+            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-slate-300 duration-400 cursor-pointer" 
             href="#Story" 
             onClick={() => setOpen(false)}>
             Origins

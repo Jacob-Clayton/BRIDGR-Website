@@ -8,6 +8,7 @@ import Feedback from './Feedback';
 import Services from './Services';
 import Story from './Story';
 import Events from './Events';
+import News from './News';
 
 export {
   Hero,
@@ -18,6 +19,7 @@ export {
   WhatsNew,
   Events,
   Team,
+  News,
   Story,
   Feedback,
 };

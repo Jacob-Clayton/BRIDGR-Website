@@ -21,17 +21,11 @@ const Hero = () => {
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div className="fixed inset-x-0 top-[7%] sm:top-[6%] md:top-[8%] lg:top-[9%] xl:top-[11%] 2xl:top-[10%] text-center flex justify-center items-center flex-col absolute z-20">
-        <motion.h1 
-          variants={textVariant(0.6)}
-          className={styles.heroHeading}
-        >
+        <motion.h1 variants={textVariant(0.6)} className={styles.heroHeading}>
           The best of Web3
         </motion.h1>
-        <motion.div
-          variants={textVariant(0.7)}
-          className="flex flex-row justify-center items-center"
-        >
-          <h1 className={styles.heroHeading}>in one place</h1>
+        <motion.div variants={textVariant(0.68)} className={styles.heroHeading}>
+          in one place
         </motion.div>
       </div>
 
