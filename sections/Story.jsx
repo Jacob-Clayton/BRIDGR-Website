@@ -54,7 +54,7 @@ const Story = () => {
                             variants={fadeIn('up', 'tween', 0.2, 1)}
                             className="ml-5 text-center font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-secondary-white"
                         >
-                            Read more about all our services and business model
+                            Read more about our full services and business model
                         </motion.p>
                     </div>
             </motion.div>
