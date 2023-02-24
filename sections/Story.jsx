@@ -45,7 +45,7 @@ const Story = () => {
                                     className="hidden sm:block w-[20px] h-[20px] sm:w-[22px] sm:h-[22px] md:w-[23px] md:h-[23px] lg:w-[24px] lg:h-[24px] xl:w-[25px] xl:h-[25px] object-contain"
                                     />
                                     <span className="font-normal text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] text-white">
-                                        Whitepaper
+                                        Docs
                                     </span>
                                 </button>
                             </a>
