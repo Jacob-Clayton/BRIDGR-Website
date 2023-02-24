@@ -20,7 +20,7 @@ const Team = () => {
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
         <TypingText title="| Team" textStyles="text-center" />
-        <TitleText title={<>The People Behind BRIDGR</>} textStyles="text-center" />
+        <TitleText title={<>The Team</>} textStyles="text-center" />
         <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}
           className={`${styles.innerWidth} mt-8 font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white`}
