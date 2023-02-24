@@ -29,16 +29,16 @@ const Story = () => {
                 and money being lost to the bad apples of this Space. So, we started BRIDGR to create a positive movement of 
                 like-minded & well-established Web3 enthusiasts who are here for the right reasons.
             </motion.p>
-            <TypingText title="| Fine Print " textStyles="text-left ml-10 mb-5" />
             <motion.div 
-                className='' 
-                id='team'
                 variants={fadeIn('left', 'tween', 0.2, 1)}
             >
-                    <div className='flex flex-row items-center'>     
+                <div className='flex flex-row justify-center items-center'>
+
+                
+                    <div className='flex flex-col justify-center items-center'>     
                         <div className='relative'>
                             <a href="https://jacobclayton.gitbook.io/bridgr-services/bridgr-collective/partner-program">
-                                <button type="button" className="flex py-3 px-6 bg-black bg-opacity-40 rounded-[32px] gap-[12px]">
+                                <button type="button" className="flex py-3 px-6 mb-4 bg-black bg-opacity-40 rounded-[32px] gap-[12px]">
                                     <img
                                     src="/book.svg"
                                     alt="book"
@@ -57,6 +57,7 @@ const Story = () => {
                             Read more about our full services and business model
                         </motion.p>
                     </div>
+                </div>
             </motion.div>
             </motion.div>
         </section>
