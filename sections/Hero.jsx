@@ -9,7 +9,7 @@ import { useInView } from 'react-intersection-observer';
 
 const Hero = () => {
   const isMdScreen = useMediaQuery({ minWidth: 768 });
-  const { ref, inView } = useInView({ threshold: 0.05, triggerOnce: false });
+  const { ref, inView } = useInView({ threshold: 0, triggerOnce: false });
 
   return (
   <section className= 'mx-auto' id='Home'>
@@ -50,7 +50,7 @@ const Hero = () => {
           height={1000}
           priority
         />
-        <Image 
+        {/* <Image 
           src='/bridgrround.png'
           alt='Bridgr logo faded in background'
           className="absolute lg:block hidden z-[0] w-[92%] top-[55%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-[15%]"
@@ -58,16 +58,16 @@ const Hero = () => {
           width={900}
           height={900}
           priority
-        />
-        {/* <a href="#explore">
-          <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[90px] relative z-10">
+        /> */}
+        <a href="https://t.me/bridgr">
+          <div className="absolute fixed left-2/3 top-3/4 z-10">
             <img
               src="/stamp.png"
               alt="stamp"
-              className="sm:w-[205px] w-[100px] sm:h-[155px] h-[100px] object-contain"
+              className="2xl:w-[170px] 2xl:h-[170px] xl:w-[160px] xl:h-[160px] lg:w-[150px] lg:h-[150px] md:w-[120px] md:h-[120px] sm:w-[120px] sm:h-[120px] w-[90px] h-[90px] object-contain"
             />
           </div>
-        </a> */}
+        </a>
       </motion.div>
     </motion.div>
     
