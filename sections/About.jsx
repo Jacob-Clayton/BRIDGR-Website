@@ -24,7 +24,7 @@ const About = () => {
 
         <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}
-          className="mt-[8px] font-normal 2xl:text-[27px] xl:text-[26px] lg:text-[24px] md:text-[20px] sm:text-[19px] text-[15px] text-center text-secondary-white"
+          className="mt-5 font-normal 2xl:text-[27px] xl:text-[26px] lg:text-[24px] md:text-[20px] sm:text-[19px] text-[15px] text-center text-secondary-white"
         >
           Looking to accelerate your growth in the world of Web3?
           <br/>Look no further than BRIDGR. We are a 
@@ -41,8 +41,8 @@ const About = () => {
         whileInView="show"
         className='relative'
       >
-        <div className="md:mt-20 mt-10">
-          <div className=' place-items-center grid grid-cols-3 md:grid-cols-6 sm:gap-18 gap-12 sm:gap-y-5 gap-y-3 sm:mt-12 md:mt-16 mt-6'>
+        <div className="mt-20">
+          <div className=' place-items-center grid grid-cols-3 md:grid-cols-6 sm:gap-18 gap-12 sm:gap-y-6 gap-y-3'>
               <a className="p-1 col-span-1" href='https://apegang.art/'>
                   <Image 
                     src='/apegang.png' 
