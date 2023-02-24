@@ -44,7 +44,7 @@ const Story = () => {
                         </motion.p>   
                         <div className='relative'>
                             <a href="https://jacobclayton.gitbook.io/bridgr-services/bridgr-collective/partner-program">
-                                <button type="button" className="flex py-3 px-6 mb-4 bg-black bg-opacity-40 rounded-[32px] gap-[12px]">
+                                <button type="button" className="flex py-3 px-6 mt-4 bg-black bg-opacity-40 rounded-[32px] gap-[12px]">
                                     <img
                                         src="/book.svg"
                                         alt="book"
