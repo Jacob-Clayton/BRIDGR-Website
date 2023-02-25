@@ -24,10 +24,10 @@ const Hero = () => {
         className={`flex-2 ${styles.flexStart} flex-col mt-[28%] sm:mt-[17%] sm:mb-[4%] md:mt-[16%] md:mb-[1%] lg:mt-[10%] lg:mb-[0%] xl:mt-[12%] xl:mb-[6%] 2xl:mt-[16%] 2xl:mb-[10%] z-20`}
       >
         <div>
-          <motion.h1 variants={textVariant(0.6)} className={`${styles.heroHeading} sm:px-16 px-6 flex-1`}>
+          <motion.h1 variants={textVariant(0.2)} className={`${styles.heroHeading} sm:px-16 px-6 flex-1`}>
             The Best of Web3
           </motion.h1>
-          <motion.h1 variants={textVariant(0.68)} className={`${styles.heroHeading} sm:px-16 px-6 flex-1`}>
+          <motion.h1 variants={textVariant(0.25)} className={`${styles.heroHeading} sm:px-16 px-6 flex-1`}>
             in one place
           </motion.h1>
         
