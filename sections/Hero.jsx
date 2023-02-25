@@ -41,11 +41,10 @@ const Hero = () => {
               variants={fadeIn('up', 'tween', 0.2, 1)}
               className={`${styles.xPaddings} sm:mt-8 md:mt-6 mt-5`}
             >
-              <a className= "text-md sm:text-l md:text-xl font-bold text-white duration-400 cursor-pointer" href="https://t.me/bridgr">
                 <button className='bg-[#253fa8] hover:bg-[#1934A4] text-white py-2 px-6 items-center flex flex-row rounded duration-500'>
-                  Join Us <img src="/telegram.svg" className="w-[20px] h-[20px] ml-4" />
+                  <a className= "text-md sm:text-l md:text-xl font-bold text-white duration-400 cursor-pointer " href="https://t.me/bridgr">
+                    Join Us</a><Image src="/telegram.svg" className="w-[20px] h-[20px] ml-4" width={20} height={20} />
                 </button>
-              </a>
             </motion.div>
           </div>
       </motion.div>
