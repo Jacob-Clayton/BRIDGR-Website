@@ -49,9 +49,10 @@
   height: 438px;
   top: 0px;
   right: 0px;
+  overflow: visible;
 
   background: #36c2d4;
-  filter: blur(210px);
+  filter: blur(230px);
 }
 
 .glassmorphism {
