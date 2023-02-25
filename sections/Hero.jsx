@@ -14,7 +14,7 @@ const Hero = () => {
 
   return (
     
-    <section id="home" className={` flex sm:flex-row flex-col mx-auto text-center sm:text-left pb-5 sm:pb-0 ${styles.innerWidth}`}>
+    <section id="Home" className={` flex sm:flex-row flex-col mx-auto text-center sm:text-left pb-5 sm:pb-0 ${styles.innerWidth}`}>
 
       <div className={`flex-2 ${styles.flexStart} flex-col mt-[28%] sm:mt-[17%] sm:mb-[4%] md:mt-[16%] md:mb-[1%] lg:mt-[10%] lg:mb-[0%] xl:mt-[12%] xl:mb-[6%] 2xl:mt-[16%] 2xl:mb-[10%] z-20`}>
         <div>
