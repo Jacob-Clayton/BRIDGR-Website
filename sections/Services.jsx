@@ -12,7 +12,7 @@ const Services = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
 
     return (
-        <section className={`${styles.paddings} mb-20`} id="Services">
+        <section className={`${styles.paddings}`} id="Services">
             <motion.div
                 variants={staggerContainer}
                 initial={isLgScreen ? 'hidden' : 'visible'}
