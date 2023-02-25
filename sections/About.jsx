@@ -12,7 +12,7 @@ const About = () => {
 
   return (
     <section className={`${styles.paddings} relative z-10`} id="About" >
-      <div className="gradient-02 z-0 md:block hidden" />
+      <div className="gradient-02 z-0 lg:block hidden" />
       <motion.div
         variants={staggerContainer}
         initial={isLgScreen ? 'hidden' : 'visible'}

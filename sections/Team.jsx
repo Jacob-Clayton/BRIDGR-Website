@@ -171,7 +171,7 @@ const Team = () => {
           <div className="relative sm:max-w-max max-w-[150px]">
               <Image 
                 src='/jaye.png' 
-                alt="jaye" 
+                alt="jaye"
                 className=" bold rounded-bl-[35px] rounded-br-[35px] sm:rounded-tr-[15px] sm:rounded-tl-[15px] rounded-tr-[35px] rounded-tl-[35px]"
                 quality={100}
                 width={270}

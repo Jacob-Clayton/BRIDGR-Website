@@ -13,15 +13,15 @@
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
-    hsl(295deg 76% 51%) 0%,
-    hsl(284deg 70% 73%) 26%,
-    hsla(257, 69%, 86%, 0.793) 39%,
-    hsla(202, 92%, 90%, 0.794) 50%,
-    hsla(215, 77%, 81%, 0.846) 61%,
-    hsl(221deg 73% 70%) 74%,
-    hsl(220deg 76% 51%) 100%
+    hsl(295 76% 51%) 0%,
+    hsl(284 70% 73%) 26%,
+    hsla(257 69% 86%) 39%,
+    hsla(202 92% 90%) 50%,
+    hsla(257 69% 86%) 61%,
+    hsl(284 70% 73%) 74%,
+    hsl(295 76% 51%) 100%
   );
-  filter: blur(165px);
+  filter: blur(120px);
 }
 
 .bg-primary-blue {
@@ -50,8 +50,8 @@
   top: 0px;
   right: 0px;
 
-  background: #7aebfb;
-  filter: blur(190px);
+  background: #36c2d4;
+  filter: blur(210px);
 }
 
 .glassmorphism {
