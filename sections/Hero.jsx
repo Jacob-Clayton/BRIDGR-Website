@@ -6,7 +6,6 @@ import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
 import { fadeIn, staggerContainer, textVariant } from '../utils/motion';
 import { useInView } from 'react-intersection-observer';
-import Button from '../components/Button';
 
 const Hero = () => {
   const isLgScreen = useMediaQuery({ minWidth: 1024 });

@@ -42,7 +42,7 @@ const Services = () => {
                             <p class="mb-0 font-regular text-secondary-white text-[0.8rem] sm:text-[0.9rem] md:text-[1.1rem] lg:text-[1.1rem] xl:text-[1.2rem]">
                                 Get real-world exposure at our 'WEB3 SOCIAL' events worldwide. Filled with founders, 
                                 investors and professionals it's the perfect environment to network 
-                                and get the word out about your company. 
+                                and promote your company. 
                                 <a href='https://jacobclayton.gitbook.io/bridgr-services/services/global-events' className='text-white'> Read more...</a></p>
                         </div>
                     </div>
