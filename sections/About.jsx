@@ -20,27 +20,13 @@ const About = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
       >
-        <TypingText title="| About Us" textStyles="text-center" />
-
-        <motion.p
-          variants={fadeIn('up', 'tween', 0.2, 1)}
-          className="mt-5 font-normal 2xl:text-[27px] xl:text-[26px] lg:text-[24px] md:text-[20px] sm:text-[19px] text-[15px] text-center text-secondary-white"
-        >
-          We are a 
-          <span className="font-extrabold text-white"> collective </span> 
-          of Web3 companies offering a unique 
-          <span className="font-extrabold text-white"> cooperative </span> platform to accelerate Web3 growth. 
-          By partnering with BRIDGR you'll gain access to our combined services, community and network.
-          Let BRIDGR be the bridge to your Web3 success story. 
-        </motion.p>
-
         <motion.div 
-        variants={footerVariants}
-        initial={isLgScreen ? 'hidden' : 'visible'}
-        whileInView="show"
-        className='relative'
-      >
-        <div className="mt-20">
+          variants={footerVariants}
+          initial={isLgScreen ? 'hidden' : 'visible'}
+          whileInView="show"
+          className='relative'
+        >
+        <div className="mt-10">
           <div className=' place-items-center grid grid-cols-3 md:grid-cols-6 sm:gap-18 gap-12 sm:gap-y-6 gap-y-3'>
               <a className="p-1 col-span-1" href='https://apegang.art/'>
                   <Image 
@@ -111,6 +97,22 @@ const About = () => {
           </div>
         </div>
       </motion.div>
+        <TypingText title="| About Us" textStyles="text-center mt-20" />
+
+        <motion.p
+          variants={fadeIn('up', 'tween', 0.2, 1)}
+          className="mt-5 font-normal 2xl:text-[27px] xl:text-[26px] lg:text-[24px] md:text-[20px] sm:text-[19px] text-[15px] text-center text-secondary-white"
+        >
+          Looking to accelerate your growth in the world of Web3?
+          <br/>Look no further than BRIDGR. We are a
+          <span className="font-extrabold text-white"> collective </span> 
+          of Web3 companies offering a unique 
+          <span className="font-extrabold text-white"> cooperative </span> platform to accelerate your Web3 growth. 
+          By partnering with BRIDGR you'll gain access to our combined services, community and network.
+          <br/> Let BRIDGR be the bridge to your Web3 success story.
+        </motion.p>
+
+        
 
         {/* <motion.img
           variants={fadeIn('up', 'tween', 0.3, 1)}

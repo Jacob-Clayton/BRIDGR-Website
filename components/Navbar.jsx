@@ -11,49 +11,49 @@ function MobileNav({open, setOpen}) {
       <div className="z-100 flex flex-col items-center mt-[40%] sm:mt-[38%] md:mt-[35%] lg:mt-[25%]">
 
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-slate-300 duration-400 cursor-pointer" 
+            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#77a7ff] duration-500 cursor-pointer" 
             href="#Home" 
             onClick={() => setOpen(false)}>
             Home
           </a>
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-slate-300 duration-400 cursor-pointer" 
+            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#77a7ff] duration-500 cursor-pointer" 
             href="#About" 
             onClick={() => setOpen(false)}>
             About
           </a>
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-slate-300 duration-400 cursor-pointer" 
+            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#77a7ff] duration-500 cursor-pointer" 
             href="#Services" 
             onClick={() => setOpen(false)}>
             Services
           </a>
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-slate-300 duration-400 cursor-pointer" 
+            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#77a7ff] duration-500 cursor-pointer" 
             href="#Events" 
             onClick={() => setOpen(false)}>
             Events
           </a>
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-slate-300 duration-400 cursor-pointer" 
+            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#77a7ff] duration-500 cursor-pointer" 
             href="#Team" 
             onClick={() => setOpen(false)}>
             Team
           </a>
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-slate-300 duration-400 cursor-pointer" 
+            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#77a7ff] duration-500 cursor-pointer" 
             href="#News" 
             onClick={() => setOpen(false)}>
             News
           </a>
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-slate-300 duration-400 cursor-pointer" 
+            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#77a7ff] duration-500 cursor-pointer" 
             href="#Story" 
             onClick={() => setOpen(false)}>
             Origins
           </a>
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-slate-300 duration-400 cursor-pointer" 
+            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-slate-300 duration-500 cursor-pointer" 
             href="https://jacobclayton.gitbook.io/bridgr-services/" 
             onClick={() => setOpen(false)}>
             <Button>Docs</Button>
@@ -93,7 +93,7 @@ const Navbar = () => {
               />
               <MobileNav open={open} setOpen={setOpen}/>
                 <div 
-                  className="group z-50 right-5 relative w-6 h-6 cursor-pointer flex-col justify-between flex" 
+                  className="group z-50 right-10 relative w-6 h-6 cursor-pointer flex-col justify-between flex" 
                   alt="menu"
                   onClick={() => {setOpen(!open)}}
                 >

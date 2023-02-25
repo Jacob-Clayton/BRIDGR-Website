@@ -6,65 +6,53 @@ import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
 import { fadeIn, staggerContainer, textVariant } from '../utils/motion';
 import { useInView } from 'react-intersection-observer';
+import Button from '../components/Button';
 
 const Hero = () => {
   const isLgScreen = useMediaQuery({ minWidth: 1024 });
   const { ref, inView } = useInView({ threshold: 0, triggerOnce: false });
 
   return (
-  <section id='Home'>
-    <motion.div
-      variants={staggerContainer}
-      initial={isLgScreen ? 'hidden' : 'visible'}
-      whileInView="show"
-      viewport={{ once: false, amount: 0.2 }}
-      className={`${styles.innerWidth} mx-auto flex flex-col`}
-    >
-      <div className="fixed inset-x-0 top-[7%] sm:top-[6%] md:top-[8%] lg:top-[9%] xl:top-[11%] 2xl:top-[10%] text-center flex justify-center items-center flex-col absolute z-20">
-        <motion.h1 variants={textVariant(0.6)} className={styles.heroHeading}>
-          The best of Web3
-        </motion.h1>
-        <motion.div variants={textVariant(0.68)} className={styles.heroHeading}>
-          in one place
-        </motion.div>
+    
+    <section id="home" className={` flex sm:flex-row flex-col mx-auto text-center sm:text-left pb-5 sm:pb-0 ${styles.innerWidth}`}>
+
+      <div className={`flex-2 ${styles.flexStart} flex-col mt-[28%] sm:mt-[17%] sm:mb-[4%] md:mt-[16%] md:mb-[1%] lg:mt-[10%] lg:mb-[0%] xl:mt-[12%] xl:mb-[6%] 2xl:mt-[16%] 2xl:mb-[10%] z-20`}>
+        <div>
+          <motion.h1 variants={textVariant(0.6)} className={`${styles.heroHeading} sm:px-16 px-6 flex-1`}>
+            The Best of Web3
+          </motion.h1>
+          <motion.h1 variants={textVariant(0.68)} className={`${styles.heroHeading} sm:px-16 px-6 flex-1`}>
+            in one place
+          </motion.h1>
+        
+          <motion.p
+              variants={fadeIn('up', 'tween', 0.2, 1)}
+              className= {`${styles.xPaddings} sm:mt-8 md:mt-6 mt-5 max-w-[500px] font-normal 2xl:text-[20px] xl:text-[19px] lg:text-[18px] md:text-[17px] sm:text-[16px] text-[15px] text-left text-secondary-white`}
+            >
+              A collective of Web3 companies working together to accelerate growth.
+            </motion.p>
+            <div className={`${styles.xPaddings} sm:mt-8 md:mt-6 mt-5`}>
+              <a className= "text-md sm:text-l md:text-xl font-bold text-white duration-400 cursor-pointer" href="https://t.me/bridgr">
+              <button className='bg-[#253fa8] hover:bg-[#1934A4] text-white py-2 px-6 items-center flex flex-row rounded duration-500'>
+                Join Us <img src="/telegram.svg" className="w-[20px] h-[20px] ml-4" />
+              </button>
+              </a>
+            </div>
+          </div>
       </div>
 
-      <motion.div
-        ref={ref}
-        animate={inView ? "show" : "hidden"}
-        variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="relative w-full fixed"
-      >
-        <Image
-          src="/cover.png"
-          alt="hero_cover"
-          className="mx-auto overflow-visible w-[92%] sm:mt-[16%] md:mt-[7%] lg:mt-[4%] xl:mt-[1%] 2xl:mt-[2%] mt-[25%] opacity-[90%] object-cover z-10 relative"
-          quality={95}
-          width={1600}
-          height={1000}
-          priority
-        />
-        {/* <Image 
-          src='/bridgrround.png'
-          alt='Bridgr logo faded in background'
-          className="absolute lg:block hidden z-[0] w-[92%] top-[55%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-[15%]"
-          quality={60}
-          width={900}
-          height={900}
-          priority
-        /> */}
-        <a href="https://t.me/bridgr">
-          <div className="absolute fixed left-2/3 top-3/4 z-10">
-            <img
-              src="/stamp.png"
-              alt="stamp"
-              className="2xl:w-[170px] 2xl:h-[170px] xl:w-[160px] xl:h-[160px] lg:w-[150px] lg:h-[150px] md:w-[120px] md:h-[120px] sm:w-[120px] sm:h-[120px] w-[90px] h-[90px] object-contain"
-            />
-          </div>
-        </a>
-      </motion.div>
-    </motion.div>
-    
+      <div className={`flex-1 flex sm:justify-end justify-center sm:px-6 md:px-14 md:px-8 lg:px-10 xl:px-10 2xl:px-0 px-4 pb-20 sm:pb-0 items-center `}>
+        <img src='/cover.png' alt="cover" className="absolute w-[65%] sm:w-[50%] md:w-[50%] lg:w-[50%] xl:w-[48%] 2xl:w-[42%] z-0  opacity-[90%]" />
+      </div>
+    {/* <div className=''>
+      <div className='border-[1px] absolute'> */}
+        {/* gradient start */}
+        {/* <div className="absolute z-[0] w-[40%] h-[35%] top-0 gradient-01" />
+        <div className="absolute z-[1] w-[80%] h-[80%] rounded-full gradient-02" />
+        <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 gradient-03" /> */}
+        {/* gradient end */}
+      {/* </div>
+    </div> */}
   </section>
 );
 };

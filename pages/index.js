@@ -7,18 +7,18 @@ const Home = () => (
       <Hero />
       <div className="relative">
         <About />
-        <div className="gradient-03 z-0 lg:block hidden" />
+        <div className="gradient-03 z-0 overflow-visible lg:block hidden" />
         <Services />
       </div>
       <div className="relative">
         <WhatsNew />
-        <div className="gradient-04 z-0 lg:block hidden" />
+        <div className="gradient-04 z-0 overflow-visible lg:block hidden" />
         <GetStarted />
       </div>
       <Events />
       <div className="relative">
         <Team />
-        <div className="gradient-04 z-0 lg:block hidden" />
+        <div className="gradient-04 z-0 overflow-visible lg:block hidden" />
         <Feedback />
         <News />
         <Story />
