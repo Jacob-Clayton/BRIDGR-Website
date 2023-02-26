@@ -21,7 +21,7 @@
     hsl(284 70% 73%) 74%,
     hsl(295 76% 51%) 100%
   );
-  filter: blur(150px);
+  filter: blur(190px);
 }
 
 .bg-primary-blue {

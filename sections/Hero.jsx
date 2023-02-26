@@ -48,9 +48,7 @@ const Hero = () => {
           </div>
       </motion.div>
 
-      <motion.div 
-        className={`flex-1 flex sm:justify-end justify-center sm:px-6 sm:pt-20 md:px-14 md:px-8 md:pt-20 lg:px-10 lg:pt-20 xl:px-10 xl:pt-20 2xl:px-0 2xl:pt-20 px-4 pb-6 pt-12 sm:pb-0 sm:pb-0 items-center `}
-      >
+      <motion.div className={`flex-1 flex sm:justify-end justify-center sm:px-6 sm:pt-20 md:px-14 md:px-8 md:pt-20 lg:px-10 lg:pt-20 xl:px-10 xl:pt-20 2xl:px-0 2xl:pt-20 px-4 pb-6 pt-12 sm:pb-0 sm:pb-0 items-center `}>
         <Image 
           src='/cover.png' 
           alt="cover" 
@@ -58,18 +56,15 @@ const Hero = () => {
           width={1600}
           height={1000}
           priority
-          className="absolute w-[65%] sm:w-[50%] md:w-[50%] lg:w-[50%] xl:w-[48%] 2xl:w-[40%] z-0 opacity-[90%]" 
+          className="absolute w-[65%] sm:w-[50%] md:w-[50%] lg:w-[50%] xl:w-[48%] 2xl:w-[40%] z-10 opacity-[94%]" 
         />
+        <div className="absolute z-[0] w-[40%] h-[50%] rounded-full gradient-01 opacity-[5%] lg:block hidden" />
       </motion.div>
-    {/* <div className=''>
-      <div className='border-[1px] absolute'> */}
         {/* gradient start */}
-        {/* <div className="absolute z-[0] w-[40%] h-[35%] top-0 gradient-01" />
-        <div className="absolute z-[1] w-[80%] h-[80%] rounded-full gradient-02" />
-        <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 gradient-03" /> */}
+        {/* <div className="absolute z-[0] w-[40%] h-[35%] top-0 " />
+        <div className="absolute z-[0] w-[40%] h-[80%] rounded-full top-20 right-[18%] h-[60%] gradient-01 opacity-[80%]" />
+        <div className="absolute z-[0] w-[50%] h-[50%] " /> */}
         {/* gradient end */}
-      {/* </div>
-    </div> */}
   </section>
 );
 };

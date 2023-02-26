@@ -152,12 +152,12 @@ const Team = () => {
           <div className="relative sm:max-w-max max-w-[150px]">
               <Image 
                 src='/henry.png' 
-                  alt="Henry" 
-                  className=" bold rounded-bl-[35px] rounded-br-[35px] sm:rounded-tr-[0px] sm:rounded-tl-[0px] rounded-tr-[35px] rounded-tl-[35px]"
-                  quality={100}
-                  width={270}
-                  height={250}
-                />
+                alt="Henry" 
+                className=" bold rounded-bl-[35px] rounded-br-[35px] sm:rounded-tr-[0px] sm:rounded-tl-[0px] rounded-tr-[35px] rounded-tl-[35px]"
+                quality={100}
+                width={270}
+                height={250}
+              />
               <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.85rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                   <p className='mb-0 font-bold '>Henry</p>
                   <p className='mb-0 font-regular'>Ethlas</p>
