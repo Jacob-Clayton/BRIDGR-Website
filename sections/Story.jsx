@@ -50,13 +50,13 @@ const Story = () => {
                     <div className='flex flex-col justify-center items-center'>  
                         <motion.p
                             variants={fadeIn('up', 'tween', 0.2, 1)}
-                            className="text-center font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-secondary-white"
+                            className="text-center font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-white"
                         >
                             Read more about our full services and business model
                         </motion.p>   
                         <div className='relative'>
                             <a href="https://jacobclayton.gitbook.io/bridgr-services/bridgr-collective/partner-program">
-                                <button type="button" className="flex py-3 px-6 mt-4 bg-black bg-opacity-40 rounded-[32px] gap-[12px]">
+                                <button type="button" className="flex py-3 px-6 mt-6 bg-black bg-opacity-40 rounded-[32px] gap-[12px]">
                                     <img
                                         src="/book.svg"
                                         alt="book"
