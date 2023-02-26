@@ -60,7 +60,7 @@ const Story = () => {
                             variants={fadeIn('up', 'tween', 0.2, 1)}
                             className='sm:mt-8 md:mt-6 mt-5'
                         >
-                            <button className='bg-[#6446A3] hover:bg-[#795DB5] text-white py-2 px-6 items-center flex flex-row rounded duration-500'>
+                            <button className='bg-[#4AA1CF] hover:bg-[#67B4DC] text-off-white py-2 px-6 items-center flex flex-row rounded duration-500'>
                                 <a className= "text-sm sm:text-l md:text-xl font-bold text-white cursor-pointer " href="https://jacobclayton.gitbook.io/bridgr-services/bridgr-collective/partner-program">
                                     Docs</a><Image src="/book.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-4" width={20} height={20} />
                             </button>
