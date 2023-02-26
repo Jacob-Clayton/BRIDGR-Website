@@ -21,7 +21,7 @@
     hsla(284, 70%, 73%, 0.754) 74%,
     hsla(295, 76%, 51%, 0.814) 100%
   );
-  filter: blur(250px);
+  filter: blur(170px);
 }
 
 .bg-primary-blue {

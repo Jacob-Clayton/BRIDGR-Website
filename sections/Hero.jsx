@@ -71,13 +71,8 @@ const Hero = () => {
           priority
           className="absolute w-[65%] sm:w-[50%] md:w-[50%] lg:w-[50%] xl:w-[48%] 2xl:w-[40%] z-10 opacity-[94%]" 
         />
-        <div className="absolute z-[0] w-[40%] h-[50%] rounded-full gradient-01 opacity-[5%] lg:block hidden" />
+        <div className="absolute z-[0] w-[40%] h-[50%] rounded-full gradient-01 opacity-[25%] lg:block hidden" />
       </motion.div>
-        {/* gradient start */}
-        {/* <div className="absolute z-[0] w-[40%] h-[35%] top-0 " />
-        <div className="absolute z-[0] w-[40%] h-[80%] rounded-full top-20 right-[18%] h-[60%] gradient-01 opacity-[80%]" />
-        <div className="absolute z-[0] w-[50%] h-[50%] " /> */}
-        {/* gradient end */}
   </section>
 );
 };

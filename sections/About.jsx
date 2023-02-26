@@ -90,8 +90,8 @@ const About = () => {
                   className="max-w-[80%]" 
                   style={{opacity:'0.95'}}
                   quality={100}
-                  width={1240}
-                  height={399}
+                  width={1000}
+                  height={500}
                 />
               </a>
               <a className="p-1 col-span-1" href="">
@@ -101,8 +101,8 @@ const About = () => {
                     className="max-w-[80%]" 
                     style={{opacity:'0.95'}}
                     quality={100}
-                    width={1240}
-                    height={399}
+                    width={1000}
+                    height={700}
                   />
               </a>
               <a className="p-1 col-span-1" href="">
@@ -112,8 +112,8 @@ const About = () => {
                     className="max-w-[80%]" 
                     style={{opacity:'0.95'}}
                     quality={100}
-                    width={1240}
-                    height={399}
+                    width={1000}
+                    height={600}
                   />
               </a>
               <a className="p-1 col-span-1" href="https://www.crowdfundjunction.com/">
