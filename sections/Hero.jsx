@@ -36,15 +36,28 @@ const Hero = () => {
             >
               A collective of Web3 companies working together to accelerate growth.
             </motion.p>
-            <motion.div 
-              variants={fadeIn('up', 'tween', 0.2, 1)}
-              className={`${styles.xPaddings} sm:mt-8 md:mt-6 mt-5`}
-            >
-                <button className='bg-[#253fa8] hover:bg-[#1633a4] text-white py-2 px-6 items-center flex flex-row rounded duration-500'>
-                  <a className= "text-md sm:text-l md:text-xl font-bold text-white duration-400 cursor-pointer " href="https://t.me/bridgr">
-                    Join Us</a><Image src="/telegram.svg" className="w-[20px] h-[20px] ml-4" width={20} height={20} />
-                </button>
-            </motion.div>
+
+            <div className='flex flex-row'>
+              <motion.div 
+                variants={fadeIn('up', 'tween', 0.2, 1)}
+                className='sm:pl-16 pl-6 sm:pr-8 pr-4 sm:mt-8 md:mt-6 mt-5'
+              >
+                  <button className='bg-[#253fa8] hover:bg-[#1633a4] text-white py-2 px-6 items-center flex flex-row rounded duration-500'>
+                    <a className= "text-md sm:text-l md:text-xl font-bold text-white duration-400 cursor-pointer " href="https://t.me/bridgr">
+                      Join Us</a><Image src="/telegram.svg" className="w-[20px] h-[20px] ml-4" width={20} height={20} />
+                  </button>
+              </motion.div>
+              <motion.div 
+                variants={fadeIn('up', 'tween', 0.2, 1)}
+                className='sm:mt-8 md:mt-6 mt-5'
+              >
+                  <button className='bg-[#253fa8] hover:bg-[#1633a4] text-white py-2 px-6 items-center flex flex-row rounded duration-500'>
+                    <a className= "text-md sm:text-l md:text-xl font-bold text-white duration-400 cursor-pointer " href="mailto:bridgrxyz@gmail.com">
+                      Contact Us</a><Image src="/email.svg" className="w-[20px] h-[20px] ml-4" width={20} height={20} />
+                  </button>
+              </motion.div>
+            </div>
+            
           </div>
       </motion.div>
 
