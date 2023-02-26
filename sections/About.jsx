@@ -98,7 +98,7 @@ const About = () => {
                   <Image 
                     src='/bighaus.png' 
                     alt="Bighaus" 
-                    className="max-w-[80%]" 
+                    className="max-w-[80%] max-h-14" 
                     style={{opacity:'0.95'}}
                     quality={100}
                     width={1000}
