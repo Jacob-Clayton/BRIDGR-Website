@@ -7,53 +7,53 @@ import { navVariants } from '../utils/motion';
 
 function MobileNav({open, setOpen}) {
   return (   
-    <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[14%] xl:w-[15%] lg:w-[19%] md:w-[25%] sm:w-[30%] w-[40%] bg-black bg-opacity-[60%] rounded-br-[10px] rounded-tl-[10px] rounded-bl-[10px] transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter  `}>
+    <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[14%] xl:w-[15%] lg:w-[19%] md:w-[25%] sm:w-[30%] w-[40%] bg-[#252629] bg-opacity-[70%] rounded-br-[10px] rounded-tl-[10px] rounded-bl-[10px] transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter  `}>
       <div className="z-100 flex flex-col items-center mt-[40%] sm:mt-[38%] md:mt-[35%] lg:mt-[25%]">
 
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#77a7ff] duration-500 cursor-pointer" 
+            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#Home" 
             onClick={() => setOpen(false)}>
             Home
           </a>
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#77a7ff] duration-500 cursor-pointer" 
+            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#About" 
             onClick={() => setOpen(false)}>
             About
           </a>
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#77a7ff] duration-500 cursor-pointer" 
+            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#Services" 
             onClick={() => setOpen(false)}>
             Services
           </a>
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#77a7ff] duration-500 cursor-pointer" 
+            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#Events" 
             onClick={() => setOpen(false)}>
             Events
           </a>
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#77a7ff] duration-500 cursor-pointer" 
+            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#Team" 
             onClick={() => setOpen(false)}>
             Team
           </a>
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#77a7ff] duration-500 cursor-pointer" 
+            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#News" 
             onClick={() => setOpen(false)}>
             News
           </a>
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#77a7ff] duration-500 cursor-pointer" 
+            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#Story" 
             onClick={() => setOpen(false)}>
             Origins
           </a>
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-slate-300 duration-500 cursor-pointer" 
+            className="text-md sm:text-l md:text-xl font-bold my-3 text-off-white duration-500 cursor-pointer" 
             href="https://jacobclayton.gitbook.io/bridgr-services/" 
             onClick={() => setOpen(false)}>
             <Button>Docs</Button>
