@@ -27,7 +27,7 @@ const About = () => {
           className='relative'
         >
         <div className="mt-10">
-          <div className=' place-items-center grid grid-cols-3 md:grid-cols-7 sm:gap-18 gap-12 sm:gap-y-6 gap-y-3'>
+          <div className=' place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
               <a className="p-1 col-span-1" href='https://apegang.art/'>
                   <Image 
                     src='/apegang.png' 
@@ -93,6 +93,28 @@ const About = () => {
                   width={1240}
                   height={399}
                 />
+              </a>
+              <a className="p-1 col-span-1" href="">
+                  <Image 
+                    src='/bighaus.png' 
+                    alt="Bighaus" 
+                    className="max-w-[80%]" 
+                    style={{opacity:'0.95'}}
+                    quality={100}
+                    width={1240}
+                    height={399}
+                  />
+              </a>
+              <a className="p-1 col-span-1" href="">
+                  <Image 
+                    src='/boredislandgroup.png' 
+                    alt="Bored Island Group" 
+                    className="max-w-[80%]" 
+                    style={{opacity:'0.95'}}
+                    quality={100}
+                    width={1240}
+                    height={399}
+                  />
               </a>
               <a className="p-1 col-span-1" href="https://www.crowdfundjunction.com/">
                   <Image 
