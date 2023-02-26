@@ -5,6 +5,7 @@ import { TitleText, TypingText } from '../components';
 import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
+import Image from 'next/image';
 
 const Story = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
@@ -55,18 +56,15 @@ const Story = () => {
                             Read more about our full services and business model
                         </motion.p>   
                         <div className='relative'>
-                            <a href="https://jacobclayton.gitbook.io/bridgr-services/bridgr-collective/partner-program">
-                                <button type="button" className="flex py-3 px-6 mt-6 bg-black bg-opacity-40 rounded-[32px] gap-[12px]">
-                                    <img
-                                        src="/book.svg"
-                                        alt="book"
-                                        className="w-[20px] h-[20px] sm:w-[22px] sm:h-[22px] md:w-[23px] md:h-[23px] lg:w-[24px] lg:h-[24px] xl:w-[25px] xl:h-[25px] object-contain"
-                                    />
-                                    <span className="font-normal text-[12px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] text-white">
-                                        Docs
-                                    </span>
-                                </button>
-                            </a>
+                        <motion.div 
+                            variants={fadeIn('up', 'tween', 0.2, 1)}
+                            className='sm:mt-8 md:mt-6 mt-5'
+                        >
+                            <button className='bg-[#6446A3] hover:bg-[#795DB5] text-white py-2 px-6 items-center flex flex-row rounded duration-500'>
+                                <a className= "text-sm sm:text-l md:text-xl font-bold text-white cursor-pointer " href="https://jacobclayton.gitbook.io/bridgr-services/bridgr-collective/partner-program">
+                                    Docs</a><Image src="/book.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-4" width={20} height={20} />
+                            </button>
+                        </motion.div>
                         </div>
                     </div>
                 </div>

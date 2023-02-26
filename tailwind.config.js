@@ -10,8 +10,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary-black': '#1A232E',
+        'off-white' : '#EDEFF4',
+        'primary-black': '#252629',
         'secondary-white': '#c7c7c7',
+        'purple' : '#6446A3',
       },
       transitionTimingFunction: {
         'out-flex': 'cubic-bezier(0.05, 0.6, 0.4, 0.9)',

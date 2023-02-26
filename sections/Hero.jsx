@@ -13,7 +13,7 @@ const Hero = () => {
 
   return (
     
-    <section id="Home" className={` flex sm:flex-row flex-col mx-auto text-center sm:text-left pb-5 sm:pb-0 ${styles.innerWidth}`}>
+    <section id="Home" className={`flex sm:flex-row flex-col mx-auto text-center sm:text-left pb-5 sm:pb-0 ${styles.innerWidth}`}>
 
       <motion.div 
         ariants={staggerContainer}
@@ -42,7 +42,7 @@ const Hero = () => {
                 variants={fadeIn('up', 'tween', 0.2, 1)}
                 className='sm:pl-16 pl-6 sm:pr-8 pr-4 sm:mt-8 md:mt-6 mt-5'
               >
-                  <button className='bg-[#253fa8] hover:bg-[#1633a4] text-white py-2 px-6 items-center flex flex-row rounded duration-500'>
+                  <button className='bg-[#6446A3] hover:bg-[#795DB5] text-white py-2 px-6 items-center flex flex-row rounded duration-500'>
                     <a className= "text-sm sm:text-l md:text-xl font-bold text-white duration-400 cursor-pointer " href="https://t.me/bridgr">
                       Join Us</a><Image src="/telegram.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-4" width={20} height={20} />
                   </button>
@@ -51,9 +51,9 @@ const Hero = () => {
                 variants={fadeIn('up', 'tween', 0.2, 1)}
                 className='sm:mt-8 md:mt-6 mt-5'
               >
-                  <button className='bg-[#253fa8] hover:bg-[#1633a4] text-white py-2 px-6 items-center flex flex-row rounded duration-500'>
+                  <button className='bg-[#6446A3] hover:bg-[#795DB5] text-white py-2 px-6 items-center flex flex-row rounded duration-500'>
                     <a className= "text-sm sm:text-l md:text-xl font-bold text-white duration-400 cursor-pointer " href="mailto:bridgrxyz@gmail.com">
-                      Contact Us</a><Image src="/email.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-4" width={20} height={20} />
+                      Contact</a><Image src="/email.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-4" width={20} height={20} />
                   </button>
               </motion.div>
             </div>
