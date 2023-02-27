@@ -36,7 +36,7 @@ const Hero = () => {
               variants={fadeIn('up', 'tween', 0.2, 1)}
               className= {`${styles.xPaddings} sm:mt-8 md:mt-6 mt-5 max-w-[500px] font-normal 2xl:text-[20px] xl:text-[19px] lg:text-[18px] md:text-[17px] sm:text-[16px] text-[15px] text-left text-secondary-white`}
             >
-              A collective of Web3 companies offering our combined services and community to accelerate your growth.
+              A collective of Web3 companies offering our combined services and communities to accelerate your growth.
             </motion.p>
 
             <div className='flex flex-row justify-center sm:justify-start'>
