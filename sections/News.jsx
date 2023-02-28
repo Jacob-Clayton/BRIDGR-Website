@@ -15,6 +15,7 @@ const News = () => {
 
     return (
         <section className={`${styles.paddings} relative z-10`} id="News">
+            <div className="gradient-02 overflow-visible z-0 lg:block hidden" />
             <motion.div
                 variants={staggerContainer}
                 initial={isLgScreen ? 'hidden' : 'visible'}

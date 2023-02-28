@@ -28,7 +28,7 @@ const GetStarted = () => {
           <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
             <div className={`${styles.flexCenter} flex-row sm:w-[500px] w-[330px]`}>
               <div
-                className={`${styles.flexCenter} sm:w-[60px] sm:h-[60px] w-[30px] h-[30px] rounded-[24px] bg-black bg-opacity-40`}
+                className={`${styles.flexCenter} sm:w-[60px] sm:h-[60px] w-[30px] h-[30px] rounded-[24px] bg-primary-black bg-opacity-70`}
               >
                 <p className="font-bold sm:text[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[17px] text-[12px] text-white">
                   01</p>
@@ -38,7 +38,7 @@ const GetStarted = () => {
             </div>
             <div className={`${styles.flexCenter} flex-row sm:w-[500px] w-[330px]`}>
               <div
-                className={`${styles.flexCenter} sm:w-[60px] sm:h-[60px] w-[30px] h-[30px] rounded-[24px] bg-black bg-opacity-40`}
+                className={`${styles.flexCenter} sm:w-[60px] sm:h-[60px] w-[30px] h-[30px] rounded-[24px] bg-primary-black bg-opacity-70`}
               >
                 <p className="font-bold sm:text[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[17px] text-[12px] text-white">
                   02</p>
@@ -49,7 +49,7 @@ const GetStarted = () => {
             </div>
             <div className={`${styles.flexCenter} flex-row sm:w-[500px] w-[330px]`}>
               <div
-                className={`${styles.flexCenter} sm:w-[60px] sm:h-[60px] w-[30px] h-[30px] rounded-[24px] bg-black bg-opacity-40`}
+                className={`${styles.flexCenter} sm:w-[60px] sm:h-[60px] w-[30px] h-[30px] rounded-[24px] bg-primary-black bg-opacity-70`}
               >
                 <p className="font-bold sm:text[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[17px] text-[12px] text-white">
                   03</p>

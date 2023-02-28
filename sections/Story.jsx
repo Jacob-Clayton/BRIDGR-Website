@@ -12,6 +12,7 @@ const Story = () => {
 
     return (
         <section className={`${styles.paddings} relative z-10`} id="Story">
+            <div className="feedback-gradient overflow-visible z-0 lg:block hidden" />
             <motion.div
                 variants={staggerContainer}
                 initial={isLgScreen ? 'hidden' : 'visible'}
@@ -42,20 +43,15 @@ const Story = () => {
                 we can drive innovation and collaboration towards a shared vision of a more equitable and decentralized future. 
                 Together, we are determined to build a better Web3 for all.
             </motion.p>
-            <motion.div 
-                variants={fadeIn('left', 'tween', 0.2, 1)}
-            >
-                <div className='flex flex-row justify-center items-center'>
-
-                
-                    <div className='flex flex-col justify-center items-center'>  
-                        <motion.p
-                            variants={fadeIn('up', 'tween', 0.2, 1)}
-                            className="text-center font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-white"
-                        >
-                            Read more about our full services and business model
-                        </motion.p>   
-                        <div className='relative'>
+            <div className='flex flex-row justify-center items-center'>
+                <div className='flex flex-col justify-center items-center'>  
+                    <motion.p
+                        variants={fadeIn('up', 'tween', 0.2, 1)}
+                        className="text-center font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-white"
+                    >
+                        Read more about our full services and business model
+                    </motion.p>   
+                    <div className='relative'>
                         <motion.div 
                             variants={fadeIn('up', 'tween', 0.2, 1)}
                             className='sm:mt-8 md:mt-6 mt-5'
@@ -65,10 +61,9 @@ const Story = () => {
                                     Docs</a><Image src="/book.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-4" width={20} height={20} />
                             </button>
                         </motion.div>
-                        </div>
                     </div>
                 </div>
-            </motion.div>
+            </div>
             </motion.div>
         </section>
     );

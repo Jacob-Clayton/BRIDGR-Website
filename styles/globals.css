@@ -67,11 +67,11 @@
   position: absolute;
   width: 404px;
   height: 800px;
-  left: 15%;
+  left: 8%;
   top: 5%;
 
   background: rgba(149, 66, 232, 0.35);
-  filter: blur(175px);
+  filter: blur(200px);
   transform: rotate(-114.2deg);
 }
 
@@ -103,7 +103,7 @@
   top: 0px;
 
   background: #7e5688eb;
-  filter: blur(175px);
+  filter: blur(220px);
 }
 
 .footer-gradient {

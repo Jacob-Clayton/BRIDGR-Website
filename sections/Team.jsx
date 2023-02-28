@@ -44,7 +44,7 @@ const Team = () => {
                 width={270}
                 height={250}
               />
-              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.85rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
+              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-primary-black bg-opacity-70 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.85rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                 <p class="mb-0 font-bold ">Mepusica</p>
                 <p class="mb-0 font-regular ">Co-Founder</p>
               </div>
@@ -63,7 +63,7 @@ const Team = () => {
                 width={270}
                 height={250}
               />
-              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.85rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
+              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-primary-black bg-opacity-70 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.85rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                   <p class='mb-0 font-bold '>Jacob</p>
                   <p class='mb-0 font-regular '>Co-Founder</p>
               </div>
@@ -82,7 +82,7 @@ const Team = () => {
                 width={270}
                 height={250}
               />
-              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.85rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
+              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-primary-black bg-opacity-70 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.85rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                   <p className='mb-0 font-bold '>Kishor</p>
                   <p className='mb-0 font-regular '>Co-Founder</p>
               </div>
@@ -101,7 +101,7 @@ const Team = () => {
                 width={270}
                 height={250}
               />
-              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.85rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
+              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-primary-black bg-opacity-70 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.85rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                   <p className='mb-0 font-bold '>Joss</p>
                   <p className='mb-0 font-regular '>Co-Founder</p>
               </div>
@@ -120,7 +120,7 @@ const Team = () => {
                 width={270}
                 height={250}
               />
-              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.85rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
+              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-primary-black bg-opacity-70 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.85rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                   <p className='mb-0 font-bold '>Hilal</p>
                   <p className='mb-0 font-regular '>CryptoFemale</p>
               </div>
@@ -139,7 +139,7 @@ const Team = () => {
                 width={270}
                 height={250}
               />
-              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.85rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
+              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-primary-black bg-opacity-70 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.85rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                   <p className='mb-0 font-bold'>Sima</p>
                   <p className='mb-0 font-regular'>GlobalB</p>
               </div>
@@ -158,7 +158,7 @@ const Team = () => {
                 width={270}
                 height={250}
               />
-              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.85rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
+              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-primary-black bg-opacity-70 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.85rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                   <p className='mb-0 font-bold '>Henry</p>
                   <p className='mb-0 font-regular'>Ethlas</p>
               </div>
@@ -177,7 +177,7 @@ const Team = () => {
                 width={270}
                 height={250}
               />
-              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-black bg-opacity-40 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.85rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
+              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-primary-black bg-opacity-70 text-white text-[0.8rem] sm:text-[0.9rem] md:text-[0.85rem] lg:text-[1.1rem] xl:text-[1.2rem] 2xl:text-[1.3rem] rounded-bl-[35px] rounded-br-[35px]">
                   <p className='mb-0 font-bold'>Jaye</p>
                   <p className='mb-0 font-regular'>The Parlour</p>
               </div>
