@@ -55,7 +55,11 @@ const News = () => {
                         </div>
                     </motion.div>
 
-                    <motion.div variants={fadeIn('up', 'spring', 0.5, 1)} className="flex sm:flex-row flex-col gap-4">
+                    <motion.div 
+                        variants={fadeIn('up', 'spring', 0.5, 1)} 
+                        className="flex sm:flex-row flex-col gap-4"
+                        initial={isLgScreen ? 'hidden' : 'visible'}
+                    >
                         <Image
                             src="/singaporefeb.jpg"
                             alt="singapore event"
@@ -78,7 +82,11 @@ const News = () => {
                         </div>
                     </motion.div>
 
-                    <motion.div variants={fadeIn('up', 'spring', 0.5, 1)} className="flex sm:flex-row flex-col gap-4">
+                    <motion.div 
+                        variants={fadeIn('up', 'spring', 0.5, 1)} 
+                        className="flex sm:flex-row flex-col gap-4"
+                        initial={isLgScreen ? 'hidden' : 'visible'}
+                    >
                         <Image
                             src="/istanbulnews.jpg"
                             alt="istanbul event"
