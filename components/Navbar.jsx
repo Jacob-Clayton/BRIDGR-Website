@@ -87,13 +87,13 @@ const Navbar = () => {
               <Image
                 src="/bridgrlogo.png" 
                 alt="bridgr logo"
-                className='flex flex-start ml-20 2xl:w-[170px] sm:w-[150px] w-[100px]' 
+                className='flex flex-start md:ml-20 sm:ml-10 ml-5 2xl:w-[170px] sm:w-[150px] w-[100px]' 
                 height={60} 
                 width={180} 
               />
               <MobileNav open={open} setOpen={setOpen}/>
                 <div 
-                  className="group z-50 flex flex-end right-20 relative w-6 h-6 cursor-pointer flex-col justify-between flex" 
+                  className="group z-50 flex flex-end md:right-20 sm:right-10 right-5 relative w-6 h-6 cursor-pointer flex-col justify-between flex" 
                   alt="menu"
                   onClick={() => {setOpen(!open)}}
                 >
