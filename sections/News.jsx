@@ -32,7 +32,7 @@ const News = () => {
                         <Image
                             src="/balinews.jpg"
                             alt="bali event"
-                            className="w-[200px] h-[180px] rounded-[32px] object-cover"
+                            className="lg:w-[200px] lg:h-[180px] w-[150px] h-[130px] rounded-[32px] object-cover"
                             width={220} height={200}
                         />
                         <div className="w-full flex justify-between items-center">
@@ -41,7 +41,7 @@ const News = () => {
                                     Beachside in Bali </h4>
                                 <p className="mt-[16px] font-normal 2xl:text-[20px] xl:text-[19px] lg:text-[17px] md:text-[16px] sm:text-[15px] text-[14px] text-secondary-white">
                                     We went all tropical and decided to throw a huge red carpet event at the Lighthouse Studios Bali on 
-                                    <span className='text-white'> 24th Feb 2023.</span></p>
+                                    Feb 24th 2023.</p>
                             </div>
                             <a href='https://twitter.com/Bridgrxyz/status/1625104846675386369?s=20'>
                                 <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white">
@@ -55,7 +55,7 @@ const News = () => {
                         <Image
                             src="/singaporefeb.jpg"
                             alt="singapore event"
-                            className="w-[200px] h-[180px] rounded-[32px] object-cover"
+                            className="lg:w-[200px] lg:h-[180px] w-[150px] h-[130px] rounded-[32px] object-cover"
                             width={220} height={200}
                         />
                         <div className="w-full flex justify-between items-center">
@@ -64,7 +64,7 @@ const News = () => {
                                     Singapore Social</h4>
                                 <p className="mt-[16px] font-normal 2xl:text-[20px] xl:text-[19px] lg:text-[17px] md:text-[16px] sm:text-[15px] text-[14px] text-secondary-white">
                                     Singapore's first NFT bar, The Parlour Singapore, hosted another fantastic sold out 'WEB3 SOCIAL' on 
-                                    <span className='text-white'> Feb 3rd 2023.</span></p>
+                                    Feb 3rd 2023.</p>
                             </div>
                             <a href='https://twitter.com/Bridgrxyz/status/1622586625552429057?s=20'>
                                 <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white">
@@ -78,7 +78,7 @@ const News = () => {
                         <Image
                             src="/istanbulnews.jpg"
                             alt="istanbul event"
-                            className="w-[200px] h-[180px] rounded-[32px] object-cover"
+                            className="lg:w-[200px] lg:h-[180px] w-[150px] h-[130px] rounded-[32px] object-cover"
                             width={220} height={200}
                         />
                         <div className="w-full flex justify-between items-center">
@@ -87,7 +87,7 @@ const News = () => {
                                     Istanbul Blockchain Week</h4>
                                 <p className="mt-[16px] font-normal 2xl:text-[20px] xl:text-[19px] lg:text-[17px] md:text-[16px] sm:text-[15px] text-[14px] text-secondary-white">
                                     BRIDGR hosted the official Blockchain Week afterparty at one of our good friend's bar, Youplace, on 
-                                    <span className='text-white'> Nov 14th 2022.</span></p>
+                                    Nov 14th 2022.</p>
                             </div>
                             <a href='https://twitter.com/Bridgrxyz/status/1592214170996703232?s=20'>
                                 <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white">

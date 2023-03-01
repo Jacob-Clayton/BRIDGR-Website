@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { textContainer, textVariant2 } from '../utils/motion';
+import { useMediaQuery } from 'react-responsive';
 
 export const TypingText = ({ title, textStyles }) => (
   <motion.p
@@ -16,16 +17,21 @@ export const TypingText = ({ title, textStyles }) => (
   </motion.p>
 );
 
-export const TitleText = ({ title, textStyles }) => (
+export const TitleText = ({ title, textStyles }) => {
+  const isLgScreen = useMediaQuery({ minWidth: 1024 });
+
+  return (
   <motion.h2
     variants={textVariant2}
-    initial="hidden"
+    initial={isLgScreen ? 'hidden' : 'visible'}
     whileInView="show"
-    className={`mt-[8px] font-bold md:text-[64px] sm:text-[58px] text-[35px] text-off-white ${textStyles}`}
+    className={`mt-[8px] font-bold md:text-[62px] sm:text-[58px] text-[35px] text-off-white ${textStyles}`}
   >
     {title}
   </motion.h2>
-);
+  );
+};
+
 
 export const DescriptionText = ({ description, textStyles }) => (
   <motion.h2
