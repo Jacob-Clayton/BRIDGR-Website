@@ -7,7 +7,7 @@ import { navVariants } from '../utils/motion';
 
 function MobileNav({open, setOpen}) {
   return (   
-    <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[14%] xl:w-[15%] lg:w-[19%] md:w-[25%] sm:w-[30%] w-[40%] bg-primary-black bg-opacity-[70%] rounded-br-[10px] rounded-tl-[10px] rounded-bl-[10px] transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter  `}>
+    <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[14%] xl:w-[15%] lg:w-[19%] md:w-[25%] sm:w-[30%] w-[40%] bg-primary-black bg-opacity-[80%] rounded-br-[10px] rounded-tl-[10px] rounded-bl-[10px] transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter  `}>
       <div className="z-100 flex flex-col items-center mt-[40%] sm:mt-[38%] md:mt-[35%] lg:mt-[25%]">
 
           <a 
@@ -82,7 +82,7 @@ const Navbar = () => {
             whileInView="show"
             className={`${styles.xPaddings} py-8 relative navbar absolute inset-0 gradient-01 lg:block hidden`}
           />
-          <div className='fixed top-0 pt-4 z-50 w-full backdrop-blur-sm'>
+          <div className=' fixed top-0 pt-4 z-50 w-full backdrop-blur-sm'>
             <div className='flex justify-between items-center '>
               <Image
                 src="/bridgrlogo.png" 
@@ -91,9 +91,30 @@ const Navbar = () => {
                 height={60} 
                 width={180} 
               />
-              <MobileNav open={open} setOpen={setOpen}/>
+              <div className='flex justify-end'>
+                <ul className="flex text-sm sm:text-l md:text-xl font-bold text-off-white duration-400 cursor-pointer mr-10 lg:flex hidden">
+                    <li className="px-2 hover:text-[#67B4DC] duration-500">
+                      <a href="#About">About</a>
+                    </li>
+                    <li className="px-2 hover:text-[#67B4DC] duration-500">
+                      <a href="#Services">Services</a>
+                    </li>
+                    <li className="px-2 hover:text-[#67B4DC] duration-500">
+                      <a href="#Events">Events</a>
+                    </li>
+                    <li className="px-2 hover:text-[#67B4DC] duration-500">
+                      <a href="#Team">Team</a>
+                    </li>
+                    <li className="px-2 hover:text-[#67B4DC] duration-500">
+                      <a href="#Story">Origins</a>
+                    </li>
+                    <li className="px-2 hover:text-[#67B4DC] duration-500">
+                      <a href="https://jacobclayton.gitbook.io/bridgr-services/" className='flex flex-1'>Docs<img src="/external-link.svg" className="sm:w-[15px] sm:h-[15px] w-[12px] h-[12px] ml-1"/></a>
+                    </li>
+                </ul>
+                <MobileNav open={open} setOpen={setOpen}/>
                 <div 
-                  className="group z-50 flex flex-end md:right-20 sm:right-10 right-5 relative w-6 h-6 cursor-pointer flex-col justify-between flex" 
+                  className="group z-50 flex relative md:mr-20 sm:mr-10 mr-5 w-6 h-6 cursor-pointer flex-col justify-between flex" 
                   alt="menu"
                   onClick={() => {setOpen(!open)}}
                 >
@@ -102,6 +123,9 @@ const Navbar = () => {
                   <span className={`h-1 w-full bg-white rounded-lg cursor-pointer transition-all duration-1 ease-in-out ${open ? "w-0" : "w-full"}`} />
                   <span className={`h-1 w-full bg-white rounded-lg cursor-pointer transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-2.5" : ""}`} />
                 </div>
+              </div>
+              
+              
             </div>
           </div>
         </motion.nav>
