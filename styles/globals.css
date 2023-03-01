@@ -34,6 +34,13 @@
   background-color: rgb(22 51 164 / var(--tw-bg-opacity));
 }
 
+.bg-image {
+  background-image: linear-gradient(to bottom, transparent, transparent, rgb(22, 51, 164)), url('/darkbluehorizontal.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .hero-gradient {
   background: linear-gradient(
     97.86deg,

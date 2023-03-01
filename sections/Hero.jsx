@@ -12,8 +12,8 @@ const Hero = () => {
   const { ref, inView } = useInView({ threshold: 0, triggerOnce: false });
 
   return (
-    
-    <section id="Home" className={`flex sm:flex-row flex-col mx-auto text-center sm:text-left pb-5 sm:pb-0 ${styles.innerWidth}`}>
+    <div className="bg-image">
+    <section id="Home" className={`h-screen flex sm:flex-row flex-col mx-auto text-center sm:text-left ${styles.innerWidth}`}>
 
       <motion.div 
         ref={ref}
@@ -22,7 +22,7 @@ const Hero = () => {
         initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.2 }}
-        className={`flex-2 ${styles.flexStart} flex-col mt-[28%] sm:mt-[17%] sm:mb-[4%] md:mt-[16%] md:mb-[1%] lg:mt-[10%] lg:mb-[0%] xl:mt-[12%] xl:mb-[6%] 2xl:mt-[16%] 2xl:mb-[10%] z-20`}
+        className={`flex-2 ${styles.flexStart} mx-auto flex-col mt-[28%] sm:mt-[17%] md:mt-[16%] lg:mt-[10%] xl:mt-[12%] 2xl:mt-[16%] z-20`}
       >
         <div>
           <motion.h1 variants={textVariant(0.2)} className={`${styles.heroHeading} sm:px-16 px-6 flex-1`}>
@@ -62,7 +62,7 @@ const Hero = () => {
           </div>
       </motion.div>
 
-      <div className={`flex-1 flex sm:justify-end justify-center sm:px-6 sm:pt-20 md:px-14 md:px-8 md:pt-20 lg:px-10 lg:pt-20 xl:px-10 xl:pt-20 2xl:px-0 2xl:pt-20 px-4 pb-6 pt-12 sm:pb-0 sm:pb-0 items-center `}>
+      <div className={` flex-1 mx-auto mt-[8%] sm:mt-[17%] md:mt-[16%] lg:mt-[10%] xl:mt-[12%] 2xl:mt-[16%] flex sm:justify-end justify-center `}>
         <Image 
           src='/cover.png' 
           alt="cover" 
@@ -70,11 +70,12 @@ const Hero = () => {
           width={1600}
           height={1000}
           priority
-          className="absolute w-[65%] sm:w-[50%] md:w-[50%] lg:w-[50%] xl:w-[48%] 2xl:w-[40%] z-10 opacity-[94%]" 
+          className="absolute w-[68%] sm:w-[50%] md:w-[50%] lg:w-[50%] xl:w-[48%] 2xl:w-[44%] z-10 opacity-[94%]" 
         />
         <div className="absolute z-[0] w-[40%] h-[50%] rounded-full gradient-01 opacity-[25%] lg:block hidden" />
       </div>
   </section>
+  </div>
 );
 };
 

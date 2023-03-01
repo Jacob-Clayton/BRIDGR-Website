@@ -22,7 +22,7 @@ const Story = () => {
             >
             <TypingText title="| Story " textStyles="text-center mt-8" />
             <TitleText title={<>Our Story</>} textStyles="text-center" />
-            <TypingText title="| Origins " textStyles="text-left mt-8" />
+            <TypingText title="| Origins " textStyles="text-left mt-10" />
             <motion.p
                 variants={fadeIn('up', 'tween', 0.2, 1)}
                 className="mt-4 mb-[50px] font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-left text-secondary-white"
@@ -54,7 +54,7 @@ const Story = () => {
                     <div className='relative'>
                         <motion.div 
                             variants={fadeIn('up', 'tween', 0.2, 1)}
-                            className='sm:mt-8 md:mt-6 mt-5'
+                            className='sm:mt-8 md:mt-8 mt-5'
                         >
                             <button className='bg-[#4AA1CF] hover:bg-[#67B4DC] text-off-white py-2 px-6 items-center flex flex-row rounded duration-500'>
                                 <a className= "text-sm sm:text-l md:text-xl font-bold text-white cursor-pointer " href="https://jacobclayton.gitbook.io/bridgr-services/bridgr-collective/partner-program">

@@ -1,10 +1,13 @@
 import { Footer, Navbar } from '../components';
+import Loading from '../components/Loading';
 import { About, Story, Feedback, GetStarted, Hero, Team, Services, WhatsNew, Events, News } from '../sections';
 
 const Home = () => (
-    <div className="bg-primary-darkBlue overflow-hidden">
-      <Navbar />
-      <Hero />
+    <div className="bg-primary-darkBlue overflow-visible">
+      <div className='bg-image'>
+        <Navbar />
+        <Hero/>
+      </div>
       <div className="relative">
         <About />
         <div className="gradient-03 z-0 overflow-visible lg:block hidden" />

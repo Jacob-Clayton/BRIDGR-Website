@@ -25,7 +25,7 @@ const GetStarted = () => {
         >
           <TypingText title="| How BRIDGR Works" />
           <TitleText title={<>Get started in just a few steps</>} />
-          <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
+          <div className="mt-10 flex flex-col max-w-[370px] gap-[24px]">
             <div className={`${styles.flexCenter} flex-row sm:w-[500px] w-[330px]`}>
               <div
                 className={`${styles.flexCenter} sm:w-[60px] sm:h-[60px] w-[30px] h-[30px] rounded-[24px] bg-primary-black bg-opacity-70`}

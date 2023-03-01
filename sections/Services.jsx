@@ -23,7 +23,7 @@ const Services = () => {
             <TypingText title="| Services" textStyles="text-center" />
             <TitleText title={<>What We Provide</>}textStyles="text-center" />
                 <motion.div 
-                    className='place-items-center grid grid-cols-1 lg:grid-cols-2 sm:gap-18 gap-1 mt-8' 
+                    className='place-items-center grid grid-cols-1 lg:grid-cols-2 sm:gap-18 gap-1 mt-10' 
                     id='team'
                     variants={fadeIn('up', 'tween', 0.3, 1)}
                 >
@@ -62,7 +62,7 @@ const Services = () => {
                             <p class='mb-0 font-regular text-secondary-white text-[0.8rem] sm:text-[0.9rem] md:text-[1.1rem] lg:text-[1.1rem] xl:text-[1.2rem]'>
                                 We offer: Web development, smart contract builds & audits, metaverse game integration, events exposure, Web3 legal services, 
                                 a network of Web3 professionals to tap into, community building and marketing services 
-                                including celebrity & influencer access. 
+                                including celebrity & influencer access.
                                 <a href='https://jacobclayton.gitbook.io/bridgr-services/services/web3-acceleration' className='text-white'> Read more...</a></p>
                         </div>
                     </div>

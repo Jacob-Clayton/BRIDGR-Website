@@ -27,7 +27,7 @@ const News = () => {
             >
             <TypingText title="| News" textStyles="text-center" />
             <TitleText title={<>What we're up to</>} textStyles="text-center" />
-                <div className="mt-[50px] flex flex-col gap-[30px]">
+                <div className="mt-10 flex flex-col gap-[30px]">
 
                     <motion.div variants={fadeIn('up', 'spring', 0.5, 1)}className="flex sm:flex-row flex-col gap-4">
                         <Image
