@@ -109,25 +109,25 @@ const Navbar = () => {
               />
               <div className='flex justify-end md:mr-20 sm:mr-10 mr-5'>
                 <ul className="lg:flex hidden text-sm sm:text-l md:text-xl font-bold text-off-white cursor-pointer ">
-                    <li className="px-3 hover:text-secondary-white duration-500">
+                    <li className="px-3 hover:text-white duration-500">
                       <a href="#Home">Home</a>
                     </li>
-                    <li className="px-3 hover:text-secondary-white duration-500">
+                    <li className="px-3 hover:text-white duration-500">
                       <a href="#About">About</a>
                     </li>
-                    <li className="px-3 hover:text-secondary-white duration-500">
+                    <li className="px-3 hover:text-white duration-500">
                       <a href="#Services">Services</a>
                     </li>
-                    <li className="px-3 hover:text-secondary-white duration-500">
+                    <li className="px-3 hover:text-white duration-500">
                       <a href="#Events">Events</a>
                     </li>
-                    <li className="px-3 hover:text-secondary-white duration-500">
+                    <li className="px-3 hover:text-white duration-500">
                       <a href="#Team">Team</a>
                     </li>
-                    <li className="px-3 hover:text-secondary-white duration-500">
+                    <li className="px-3 hover:text-white duration-500">
                       <a href="#Story">Origins</a>
                     </li>
-                    <li className="px-3 hover:text-secondary-white duration-500">
+                    <li className="px-3 hover:text-white duration-500">
                       <a href="https://jacobclayton.gitbook.io/bridgr-services/" className='flex flex-1'>Whitepaper<img src="/external-link.svg" className="sm:w-[15px] sm:h-[15px] w-[12px] h-[12px] ml-1"/></a>
                     </li>
                 </ul>

@@ -44,8 +44,8 @@ const Hero = () => {
                 variants={fadeIn('up', 'tween', 0.2, 1)}
                 className='sm:pl-16 pl-6 sm:pr-8 pr-4 sm:mt-8 md:mt-10 mt-5'
               >
-                  <button className='bg-[#4AA1CF] hover:bg-[#67B4DC] text-white py-2 px-6 items-center flex flex-row rounded duration-500'>
-                    <a className= "text-sm sm:text-l md:text-xl font-bold text-off-white duration-400 cursor-pointer " href="https://t.me/bridgr">
+                  <button className='bg-[#4AA1CF] hover:bg-[#67B4DC] text-off-white py-2 px-6 items-center flex flex-row rounded duration-500'>
+                    <a className= "text-sm sm:text-l md:text-xl font-bold hover:text-white duration-400 cursor-pointer " href="https://t.me/bridgr">
                       Join Us</a><Image src="/telegram.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-4" width={20} height={20} />
                   </button>
               </motion.div>
@@ -53,8 +53,8 @@ const Hero = () => {
                 variants={fadeIn('up', 'tween', 0.2, 1)}
                 className='sm:mt-8 md:mt-10 mt-5'
               >
-                  <button className='bg-[#4AA1CF] hover:bg-[#67B4DC] text-white py-2 px-6 items-center flex flex-row rounded duration-500'>
-                    <a className= "text-sm sm:text-l md:text-xl font-bold text-off-white duration-400 cursor-pointer " href="mailto:bridgrxyz@gmail.com">
+                  <button className='bg-[#4AA1CF] hover:bg-[#67B4DC] text-off-white py-2 px-6 items-center flex flex-row rounded duration-500'>
+                    <a className= "text-sm sm:text-l md:text-xl font-bold hover:text-white duration-400 cursor-pointer " href="mailto:bridgrxyz@gmail.com">
                       Contact</a><Image src="/email.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-4" width={20} height={20} />
                   </button>
               </motion.div>
