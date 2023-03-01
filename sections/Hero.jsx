@@ -34,7 +34,7 @@ const Hero = () => {
         
           <motion.p
               variants={fadeIn('up', 'tween', 0.2, 1)}
-              className= {`${styles.xPaddings} sm:mt-8 md:mt-6 mt-5 max-w-[500px] font-normal 2xl:text-[20px] xl:text-[19px] lg:text-[18px] md:text-[17px] sm:text-[16px] text-[15px] text-left text-secondary-white`}
+              className= {`${styles.xPaddings} sm:mt-8 md:mt-6 mt-5 lg:max-w-[550px] max-w-[500px] font-normal 2xl:text-[20px] xl:text-[19px] lg:text-[18px] md:text-[17px] sm:text-[16px] text-[15px] text-left text-secondary-white`}
             >
               A collective of Web3 companies offering our combined services and communities to accelerate your growth.
             </motion.p>
