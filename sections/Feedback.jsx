@@ -56,7 +56,7 @@ const Feedback = () => {
           >
             <a href='https://t.me/bridgr'>
             <img
-              src="/stamp.png"
+              src="/stamp2.png"
               alt="stamp"
               className="w-[155px] h-[155px] object-contain"
             />
