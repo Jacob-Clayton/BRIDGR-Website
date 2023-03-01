@@ -107,8 +107,8 @@ const Navbar = () => {
                 height={60} 
                 width={180} 
               />
-              <div className='flex justify-end md:mr-20 sm:mr-10 mr-5'>
-                <ul className="lg:flex hidden text-sm sm:text-l md:text-xl font-bold text-off-white cursor-pointer ">
+              <div className='flex justify-end  mr-[2%]'>
+                <ul className="lg:flex hidden text-sm lg:text-lg xl:text-xl font-bold text-off-white cursor-pointer">
                     <li className="px-3 hover:text-white duration-500">
                       <a href="#Home">Home</a>
                     </li>

@@ -34,7 +34,7 @@ const About = () => {
           <span className="font-extrabold text-white"> collective </span> 
           of Web3 companies offering a unique 
           <span className="font-extrabold text-white"> collaborative </span> platform to accelerate your Web3 growth. 
-          By partnering with us you'll gain access to our combined services, community and network.
+          By partnering with us you'll gain access to our partner's combined services, communities and network.
           <br/> Let BRIDGR be the bridge to your Web3 success story.
         </motion.p>
         <motion.div 
@@ -44,6 +44,7 @@ const About = () => {
           className='relative'
         >
         <div className="mt-20">
+        <TypingText title="| Partners" textStyles="text-left" />
           <div className=' place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
               <a className="p-1 col-span-1" href='https://apegang.art/'>
                   <Image 
