@@ -125,7 +125,7 @@ const Navbar = () => {
                       <a href="#Team">Team</a>
                     </li>
                     <li className="px-3 hover:text-white duration-500">
-                      <a href="#Story">Origins</a>
+                      <a href="#Story">Origin</a>
                     </li>
                     <li className="px-3 hover:text-white duration-500">
                       <a href="https://jacobclayton.gitbook.io/bridgr-services/" className='flex flex-1'>Whitepaper<img src="/external-link.svg" className="sm:w-[15px] sm:h-[15px] w-[12px] h-[12px] ml-1"/></a>
