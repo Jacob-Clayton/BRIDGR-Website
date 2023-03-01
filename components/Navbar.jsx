@@ -70,6 +70,22 @@ function MobileNav({open, setOpen}) {
   );
 };
 
+function NavDots({open, setOpen}) {
+  return ( 
+    <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[14%] xl:w-[15%] lg:w-[19%] md:w-[25%] sm:w-[30%] w-[40%] bg-primary-black bg-opacity-[80%] rounded-br-[10px] rounded-tl-[10px] rounded-bl-[10px] transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter  `}>
+      <div className="z-100 flex flex-col items-center mt-[40%] sm:mt-[38%] md:mt-[35%] lg:mt-[25%]">
+          <div className="flex sm:gap-4 gap-2 fixed bottom-[12%]" id='socials'>
+            <a href="https://twitter.com/bridgrxyz" onClick={() => setOpen(false)}><img src='/twitter.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
+            <a href="https://t.me/bridgr" onClick={() => setOpen(false)}><img src='/telegram.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
+            <a href="https://discord.com/invite/j2ayV98Dc2" onClick={() => setOpen(false)}><img src='/discord.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
+            <a href="mailto:bridgrxyz@gmail.com" onClick={() => setOpen(false)}><img src='/email.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
+            <a href='https://www.linkedin.com/company/bridgr-xyz' onClick={() => setOpen(false)}><img src='/linkedin.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
+          </div>
+      </div>  
+    </div>
+  );
+};
+
 const Navbar = () => {
     const [open, setOpen] = useState(false);
     
@@ -91,33 +107,34 @@ const Navbar = () => {
                 height={60} 
                 width={180} 
               />
-              <div className='flex justify-end'>
-                <ul className="lg:flex hidden text-sm sm:text-l md:text-xl font-bold text-off-white cursor-pointer md:mr-20 sm:mr-10 mr-5">
-                    <li className="px-3 hover:text-[#67B4DC] duration-500">
+              <div className='flex justify-end md:mr-20 sm:mr-10 mr-5'>
+                <ul className="lg:flex hidden text-sm sm:text-l md:text-xl font-bold text-off-white cursor-pointer ">
+                    <li className="px-3 hover:text-secondary-white duration-500">
                       <a href="#Home">Home</a>
                     </li>
-                    <li className="px-3 hover:text-[#67B4DC] duration-500">
+                    <li className="px-3 hover:text-secondary-white duration-500">
                       <a href="#About">About</a>
                     </li>
-                    <li className="px-3 hover:text-[#67B4DC] duration-500">
+                    <li className="px-3 hover:text-secondary-white duration-500">
                       <a href="#Services">Services</a>
                     </li>
-                    <li className="px-3 hover:text-[#67B4DC] duration-500">
+                    <li className="px-3 hover:text-secondary-white duration-500">
                       <a href="#Events">Events</a>
                     </li>
-                    <li className="px-3 hover:text-[#67B4DC] duration-500">
+                    <li className="px-3 hover:text-secondary-white duration-500">
                       <a href="#Team">Team</a>
                     </li>
-                    <li className="px-3 hover:text-[#67B4DC] duration-500">
+                    <li className="px-3 hover:text-secondary-white duration-500">
                       <a href="#Story">Origins</a>
                     </li>
-                    <li className="px-3 hover:text-[#67B4DC] duration-500">
+                    <li className="px-3 hover:text-secondary-white duration-500">
                       <a href="https://jacobclayton.gitbook.io/bridgr-services/" className='flex flex-1'>Whitepaper<img src="/external-link.svg" className="sm:w-[15px] sm:h-[15px] w-[12px] h-[12px] ml-1"/></a>
                     </li>
                 </ul>
-                <MobileNav open={open} setOpen={setOpen}/>
+
+                <MobileNav open={open} setOpen={setOpen} className=""/>
                 <div 
-                  className="group z-50 lg:hidden flex relative md:mr-20 sm:mr-10 mr-5 w-6 h-6 cursor-pointer flex-col justify-between" 
+                  className="flex lg:hidden group z-50 relative md:mr-20 sm:mr-10 mr-5 w-6 h-6 cursor-pointer flex-col justify-between" 
                   alt="menu"
                   onClick={() => {setOpen(!open)}}
                 >
