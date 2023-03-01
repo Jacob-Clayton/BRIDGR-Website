@@ -19,7 +19,6 @@ const Events = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| Events" textStyles="text-center" />
         <TitleText title={(<>Web3 Events</>)} textStyles="text-center" />
         <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}

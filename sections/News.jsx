@@ -25,8 +25,7 @@ const News = () => {
                 viewport={{ once: false, amount: 0.25 }}
                 className={`${styles.innerWidth} mx-auto flex flex-col`}
             >
-            <TypingText title="| News" textStyles="text-center" />
-            <TitleText title={<>What we're up to</>} textStyles="text-center" />
+            <TitleText title={<>News</>} textStyles="text-center" />
                 <div className="mt-10 flex flex-col gap-[30px]">
 
                     <motion.div variants={fadeIn('up', 'spring', 0.5, 1)}className="flex sm:flex-row flex-col gap-4">

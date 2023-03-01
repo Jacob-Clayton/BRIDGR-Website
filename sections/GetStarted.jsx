@@ -23,7 +23,6 @@ const GetStarted = () => {
           variants={fadeIn('left', 'tween', 0.2, 1)}
           className="flex-[0.75] flex justify-center flex-col"
         >
-          <TypingText title="| How BRIDGR Works" />
           <TitleText title={<>Get started in just a few steps</>} />
           <div className="mt-10 flex flex-col max-w-[370px] gap-[24px]">
             <div className={`${styles.flexCenter} flex-row sm:w-[500px] w-[330px]`}>

@@ -20,8 +20,7 @@ const Services = () => {
                 viewport={{ once: false, amount: 0.25 }}
                 className={`${styles.innerWidth} mx-auto flex flex-col`}
             >
-            <TypingText title="| Services" textStyles="text-center" />
-            <TitleText title={<>What We Provide</>}textStyles="text-center" />
+            <TitleText title={<>Services</>}textStyles="text-center" />
                 <motion.div 
                     className='place-items-center grid grid-cols-1 lg:grid-cols-2 sm:gap-18 gap-1 mt-10' 
                     id='team'

@@ -20,7 +20,6 @@ const Story = () => {
                 viewport={{ once: false, amount: 0.25 }}
                 className={`${styles.innerWidth} mx-auto flex flex-col`}
             >
-            <TypingText title="| Story " textStyles="text-center mt-8" />
             <TitleText title={<>Our Story</>} textStyles="text-center" />
             <TypingText title="| Origins " textStyles="text-left mt-10" />
             <motion.p
