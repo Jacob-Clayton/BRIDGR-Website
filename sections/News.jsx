@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../utils/motion';
 import styles from '../styles';
 import { staggerContainer } from '../utils/motion';
-import { TitleText, TypingText } from '../components';
+import { TitleText } from '../components';
 import { useMediaQuery } from 'react-responsive';
 import Image from 'next/image';
 import { useInView } from 'react-intersection-observer';
