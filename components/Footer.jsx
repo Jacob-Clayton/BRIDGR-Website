@@ -29,7 +29,7 @@ const Footer = () => {
               height={316}
               width={1346}
             />
-            <p className="font-normal text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] text-white text-center opacity-50">
+            <p className="font-normal text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] text-secondary-white text-center opacity-[50%]">
               © 2023 BRIDGR. All rights reserved.
             </p>
             <div className="flex gap-4">

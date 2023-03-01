@@ -28,7 +28,11 @@ const News = () => {
             <TitleText title={<>News</>} textStyles="text-center" />
                 <div className="mt-10 flex flex-col gap-[30px]">
 
-                    <motion.div variants={fadeIn('up', 'spring', 0.5, 1)}className="flex sm:flex-row flex-col gap-4">
+                    <motion.div 
+                        variants={fadeIn('up', 'spring', 0.5, 1)}
+                        initial={isLgScreen ? 'hidden' : 'visible'}
+                        className="flex sm:flex-row flex-col gap-4"
+                    >
                         <Image
                             src="/balinews.jpg"
                             alt="bali event"

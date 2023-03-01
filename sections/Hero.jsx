@@ -22,7 +22,7 @@ const Hero = () => {
         initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.2 }}
-        className={`flex-2 ${styles.flexStart} mx-auto flex-col mt-[28%] sm:mt-[17%] md:mt-[16%] lg:mt-[10%] xl:mt-[12%] 2xl:mt-[16%] z-20`}
+        className={`flex-2 ${styles.flexStart} mx-auto flex-col mt-[26%] sm:mt-[17%] md:mt-[16%] lg:mt-[10%] xl:mt-[12%] 2xl:mt-[16%] z-20`}
       >
         <div>
           <motion.h1 variants={textVariant(0.2)} className={`${styles.heroHeading} sm:px-16 px-6 flex-1`}>
