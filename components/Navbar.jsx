@@ -83,17 +83,17 @@ const Navbar = () => {
             className={`${styles.xPaddings} py-8 relative navbar absolute inset-0 gradient-01 lg:block hidden`}
           />
           <div className='fixed top-0 pt-4 z-50 w-full backdrop-blur-sm'>
-            <div className='flex items-center '>
+            <div className='flex justify-between items-center '>
               <Image
                 src="/bridgrlogo.png" 
                 alt="bridgr logo"
-                className='mx-auto 2xl:w-[180px] sm:w-[150px] w-[100px]' 
+                className='flex flex-start ml-20 2xl:w-[170px] sm:w-[150px] w-[100px]' 
                 height={60} 
                 width={180} 
               />
               <MobileNav open={open} setOpen={setOpen}/>
                 <div 
-                  className="group z-50 right-10 relative w-6 h-6 cursor-pointer flex-col justify-between flex" 
+                  className="group z-50 flex flex-end right-20 relative w-6 h-6 cursor-pointer flex-col justify-between flex" 
                   alt="menu"
                   onClick={() => {setOpen(!open)}}
                 >
