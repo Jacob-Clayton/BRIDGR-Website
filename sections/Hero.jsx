@@ -34,7 +34,7 @@ const Hero = () => {
         
           <motion.p
               variants={fadeIn('up', 'tween', 0.2, 1)}
-              className= {`${styles.xPaddings} sm:mt-8 md:mt-6 mt-5 lg:max-w-[550px] max-w-[500px] font-normal 2xl:text-[20px] xl:text-[19px] lg:text-[18px] md:text-[17px] sm:text-[16px] text-[15px] text-left text-secondary-white`}
+              className= {`${styles.xPaddings} sm:mt-8 md:mt-10 mt-5 lg:max-w-[550px] max-w-[500px] font-normal 2xl:text-[20px] xl:text-[19px] lg:text-[18px] md:text-[17px] sm:text-[16px] text-[15px] text-left text-secondary-white`}
             >
               A collective of Web3 companies offering our combined services and communities to accelerate your growth.
             </motion.p>
@@ -42,7 +42,7 @@ const Hero = () => {
             <div className='flex flex-row justify-center sm:justify-start'>
               <motion.div 
                 variants={fadeIn('up', 'tween', 0.2, 1)}
-                className='sm:pl-16 pl-6 sm:pr-8 pr-4 sm:mt-8 md:mt-6 mt-5'
+                className='sm:pl-16 pl-6 sm:pr-8 pr-4 sm:mt-8 md:mt-10 mt-5'
               >
                   <button className='bg-[#4AA1CF] hover:bg-[#67B4DC] text-white py-2 px-6 items-center flex flex-row rounded duration-500'>
                     <a className= "text-sm sm:text-l md:text-xl font-bold text-off-white duration-400 cursor-pointer " href="https://t.me/bridgr">
@@ -51,7 +51,7 @@ const Hero = () => {
               </motion.div>
               <motion.div 
                 variants={fadeIn('up', 'tween', 0.2, 1)}
-                className='sm:mt-8 md:mt-6 mt-5'
+                className='sm:mt-8 md:mt-10 mt-5'
               >
                   <button className='bg-[#4AA1CF] hover:bg-[#67B4DC] text-white py-2 px-6 items-center flex flex-row rounded duration-500'>
                     <a className= "text-sm sm:text-l md:text-xl font-bold text-off-white duration-400 cursor-pointer " href="mailto:bridgrxyz@gmail.com">
