@@ -92,7 +92,7 @@ const Navbar = () => {
                 width={180} 
               />
               <div className='flex justify-end'>
-                <ul className="lg:flex hidden text-sm sm:text-l md:text-xl font-bold text-off-white cursor-pointer mr-5">
+                <ul className="lg:flex hidden text-sm sm:text-l md:text-xl font-bold text-off-white cursor-pointer md:mr-20 sm:mr-10 mr-5">
                     <li className="px-2 hover:text-[#67B4DC] duration-500">
                       <a href="#Home">Home</a>
                     </li>
@@ -117,7 +117,7 @@ const Navbar = () => {
                 </ul>
                 <MobileNav open={open} setOpen={setOpen}/>
                 <div 
-                  className="group z-50 flex relative md:mr-20 sm:mr-10 mr-5 w-6 h-6 cursor-pointer flex-col justify-between flex" 
+                  className="group z-50 lg:hidden flex relative md:mr-20 sm:mr-10 mr-5 w-6 h-6 cursor-pointer flex-col justify-between" 
                   alt="menu"
                   onClick={() => {setOpen(!open)}}
                 >
