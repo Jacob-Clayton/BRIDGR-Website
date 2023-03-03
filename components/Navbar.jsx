@@ -52,12 +52,12 @@ function MobileNav({open, setOpen}) {
             onClick={() => setOpen(false)}>
             Origins
           </a>
-          <a 
+          {/* <a 
             className="text-md sm:text-l md:text-xl font-bold my-3 text-off-white duration-500 cursor-pointer" 
             href="https://jacobclayton.gitbook.io/bridgr-services/" 
             onClick={() => setOpen(false)}>
-            <Button>Docs</Button>
-          </a>
+            <Button>Whitepaper</Button>
+          </a> */}
           <div className="flex sm:gap-4 gap-2 fixed bottom-[12%]" id='socials'>
             <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
             <a href="https://t.me/bridgr"><img src='/telegram.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
@@ -127,9 +127,9 @@ const Navbar = () => {
                     <li className="px-3 hover:text-white duration-500">
                       <a href="#Story">Origin</a>
                     </li>
-                    <li className="px-3 hover:text-white duration-500">
+                    {/* <li className="px-3 hover:text-white duration-500">
                       <a href="https://jacobclayton.gitbook.io/bridgr-services/" className='flex flex-1'>Whitepaper<img src="/external-link.svg" className="sm:w-[15px] sm:h-[15px] w-[12px] h-[12px] ml-1"/></a>
-                    </li>
+                    </li> */}
                 </ul>
 
                 <MobileNav open={open} setOpen={setOpen} className=""/>

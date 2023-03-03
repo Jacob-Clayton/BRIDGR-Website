@@ -41,7 +41,8 @@ const Services = () => {
                                 Get real-world exposure at our 'WEB3 SOCIAL' events worldwide. Filled with founders, 
                                 investors and professionals it's the perfect environment to network 
                                 and promote your company. 
-                                <a href='https://jacobclayton.gitbook.io/bridgr-services/services/global-events' className='text-white'> Read more...</a></p>
+                                {/* <a href='https://jacobclayton.gitbook.io/bridgr-services/services/global-events' className='text-white'> Read more...</a> */}
+                            </p>
                         </div>
                     </div>
                 
@@ -61,7 +62,8 @@ const Services = () => {
                                 We offer: Web development, smart contract builds & audits, metaverse game integration, events exposure, Web3 legal services, 
                                 a network of Web3 professionals to tap into, community building and marketing services 
                                 including celebrity & influencer access.
-                                <a href='https://jacobclayton.gitbook.io/bridgr-services/services/web3-acceleration' className='text-white'> Read more...</a></p>
+                                {/* <a href='https://jacobclayton.gitbook.io/bridgr-services/services/web3-acceleration' className='text-white'> Read more...</a> */}
+                            </p>
                         </div>
                     </div>
                 
@@ -80,7 +82,8 @@ const Services = () => {
                             <p className='mb-0 font-regular text-secondary-white text-[0.8rem] sm:text-[0.9rem] md:text-[1.1rem] lg:text-[1.1rem] xl:text-[1.2rem] '>
                                 Share our network of multiple well-established communities worldwide, and reap the 
                                 benefits of the exposure that comes with it. 
-                                <a href='https://jacobclayton.gitbook.io/bridgr-services/services/shared-community' className='text-white'> Read more...</a></p>
+                                {/* <a href='https://jacobclayton.gitbook.io/bridgr-services/services/shared-community' className='text-white'> Read more...</a> */}
+                            </p>
                         </div>
                     </div>
                 
@@ -98,7 +101,8 @@ const Services = () => {
                                 Web3 Onboarding</p>
                             <p className='mb-0 font-regular text-secondary-white text-[0.8rem] sm:text-[0.9rem] md:text-[1.1rem] lg:text-[1.1rem] xl:text-[1.2rem] '>
                                 Bridge from Web2 to Web3 with our full onboarding service. 
-                                <a href='https://jacobclayton.gitbook.io/bridgr-services/services/web3-onboarding' className='text-white'> Read more...</a></p>
+                                {/* <a href='https://jacobclayton.gitbook.io/bridgr-services/services/web3-onboarding' className='text-white'> Read more...</a> */}
+                            </p>
                         </div>
                     </div>
                 </motion.div>

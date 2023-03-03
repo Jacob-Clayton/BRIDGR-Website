@@ -5,7 +5,6 @@ import { TitleText, TypingText } from '../components';
 import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
-import Image from 'next/image';
 
 const Story = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
@@ -42,7 +41,7 @@ const Story = () => {
                 we can drive innovation and collaboration towards a shared vision of a more equitable and decentralized future. 
                 Together, we are determined to build a better Web3 for all.
             </motion.p>
-            <div className='flex flex-row justify-center items-center'>
+            {/* <div className='flex flex-row justify-center items-center'>
                 <div className='flex flex-col justify-center items-center'>  
                     <motion.p
                         variants={fadeIn('up', 'tween', 0.2, 1)}
@@ -62,7 +61,7 @@ const Story = () => {
                         </motion.div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             </motion.div>
         </section>
     );
