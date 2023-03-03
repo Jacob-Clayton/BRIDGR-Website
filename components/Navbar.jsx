@@ -10,49 +10,49 @@ function MobileNav({open, setOpen}) {
       <div className="z-100 flex flex-col items-center mt-[40%] sm:mt-[38%] md:mt-[35%] lg:mt-[25%]">
 
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
+            className="text-md sm:text-lg xl:text-lg font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#Home" 
             onClick={() => setOpen(false)}>
             Home
           </a>
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
+            className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#About" 
             onClick={() => setOpen(false)}>
             About
           </a>
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
+            className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#Services" 
             onClick={() => setOpen(false)}>
             Services
           </a>
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
+            className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#Events" 
             onClick={() => setOpen(false)}>
             Events
           </a>
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
+            className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#Team" 
             onClick={() => setOpen(false)}>
             Team
           </a>
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
+            className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#News" 
             onClick={() => setOpen(false)}>
             News
           </a>
           <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
+            className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#Story" 
             onClick={() => setOpen(false)}>
             Story
           </a>
           {/* <a 
-            className="text-md sm:text-l md:text-xl font-bold my-3 text-off-white duration-500 cursor-pointer" 
+            className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white duration-500 cursor-pointer" 
             href="https://jacobclayton.gitbook.io/bridgr-services/" 
             onClick={() => setOpen(false)}>
             <Button>Whitepaper</Button>
@@ -107,7 +107,7 @@ const Navbar = () => {
                 width={180} 
               />
               <div className='flex justify-end  mr-[2%]'>
-                <ul className="lg:flex hidden text-sm lg:text-md xl:text-lg font-medium text-off-white cursor-pointer">
+                <ul className="lg:flex hidden lg:text-md xl:text-lg font-medium text-off-white cursor-pointer">
                     <li className="px-3 hover:text-white duration-500">
                       <a href="#Home">Home</a>
                     </li>
@@ -131,7 +131,7 @@ const Navbar = () => {
                     </li> */}
                 </ul>
 
-                <MobileNav open={open} setOpen={setOpen} className=""/>
+                <MobileNav open={open} setOpen={setOpen} />
                 <div 
                   className="flex lg:hidden group z-50 relative md:mr-20 sm:mr-10 mr-5 w-6 h-6 cursor-pointer flex-col justify-between" 
                   alt="menu"
