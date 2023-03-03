@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import Image from 'next/image'
-import Button from './Button';
 import { motion } from 'framer-motion';
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
