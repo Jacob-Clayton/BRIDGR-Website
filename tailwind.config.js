@@ -8,6 +8,9 @@ module.exports = {
   ],
   mode: 'jit',
   theme: {
+    fontFamily: {
+      sans: ['Poppins', 'Montserrat', 'Helvetica Neue', 'sans-serif'],
+    },
     extend: {
       colors: {
         'off-white' : '#EDEFF4',

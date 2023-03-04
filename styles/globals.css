@@ -127,3 +127,29 @@
 .fooe {
   background: #8d39a3;
 }
+
+@keyframes background-pan {
+  from {
+    background-position: 0%;
+  }
+  to {
+    background-position: -200% center;
+  }
+}
+
+.magic-text {
+  animation: background-pan 5s linear infinite;
+  background: linear-gradient(
+    to right,
+    rgb(131, 58, 219),
+    rgb(61, 158, 209),
+    #67B4DC,
+    #eafbff,
+    rgb(179, 109, 229),
+    rgb(131, 58, 219)
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+}
