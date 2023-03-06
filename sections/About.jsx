@@ -7,6 +7,7 @@ import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
 import { fadeIn, staggerContainer, footerVariants } from '../utils/motion';
 
+
 const About = () => {
   const isLgScreen = useMediaQuery({ minWidth: 1024 });
 
@@ -44,17 +45,17 @@ const About = () => {
         <div className="mt-20">
         <TypingText title="| Partners" textStyles="text-left" />
           <div className=' place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
-              <a className="p-1 col-span-1" href='https://apegang.art/'>
-                  <Image 
-                    src='/apegang.png' 
-                    alt="Ape Gang" 
-                    className="max-w-[80%]" 
-                    style={{opacity:'0.95'}}
-                    quality={100}
-                    width={938}
-                    height={249}
-                  />
-              </a>
+                <a className="p-1 col-span-1" href='https://apegang.art/'>
+                    <Image 
+                      src='/apegang.png' 
+                      alt="Ape Gang" 
+                      className="max-w-[80%]" 
+                      style={{opacity:'0.95'}}
+                      quality={100}
+                      width={938}
+                      height={249}
+                    />
+                </a>
               <a className="p-1 col-span-1" href='https://ethlas.com/'>
                   <Image 
                     src='/ethlas.png' 
