@@ -56,6 +56,7 @@ const About = () => {
                       height={249}
                     />
                 </a>
+                
               <a className="p-1 col-span-1" href='https://ethlas.com/'>
                   <Image 
                     src='/ethlas.png' 

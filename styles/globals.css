@@ -151,11 +151,3 @@
   -webkit-text-fill-color: transparent;
   white-space: nowrap;
 }
-
-.tooltip {
-  background-color: #333;
-  color: #fff;
-  font-size: 14px;
-  padding: 8px;
-  border-radius: 4px;
-}
