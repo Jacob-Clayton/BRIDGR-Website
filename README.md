@@ -8,3 +8,4 @@
 - Tailwind CSS
 - Framer Motion
 - Figma
+- Hosted on Vercel
