@@ -86,7 +86,7 @@ const Team = () => {
                   <p className='mb-0 font-regular '>Co-Founder</p>
               </div>
               <div class="absolute bottom-0 right-0 flex flex-col justify-end py-2 px-3 mr-3 mb-0">
-                <a href="https://twitter.com/madfornfts"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[24px] xl:h-[24px] object-contain cursor-pointer text-white"></img></a>
+                <a href="https://twitter.com/madforcryptos_"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[24px] xl:h-[24px] object-contain cursor-pointer text-white"></img></a>
                 <a href="https://www.linkedin.com/in/kishormm/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[24px] xl:h-[24px] object-contain cursor-pointer text-white text-white xl:mt-2 mt-1"></img></a>
               </div>
           </div>
