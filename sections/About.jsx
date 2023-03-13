@@ -103,12 +103,12 @@ const About = () => {
               </a>
               <a className="p-1 col-span-1 md:block hidden" href="https://twitter.com/theparloursg">
                 <Image 
-                  src='/TheParlourGlobal.png' 
+                  src='/parlourQR.png' 
                   alt="The Parlour Global" 
-                  className="max-w-[80%]" 
+                  className="max-w-[70%]" 
                   style={{opacity:'0.95'}}
                   quality={100}
-                  width={1000}
+                  width={600}
                   height={500}
                 />
               </a>
@@ -123,7 +123,7 @@ const About = () => {
                     height={700}
                   />
               </a>
-              <a className="p-1 col-span-1" href="">
+              <a className="p-1 col-span-1" href="https://boredisland.group/">
                   <Image 
                     src='/boredislandgroup.png' 
                     alt="Bored Island Group" 
