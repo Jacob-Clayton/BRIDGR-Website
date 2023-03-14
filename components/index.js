@@ -6,7 +6,9 @@ import NewFeatures from './NewFeatures';
 import InsightCard from './InsightCard';
 import Footer from './Footer';
 import Button from './Button';
+import PriceButton from './PriceButton';
 import Loading from './Loading';
+import PricingTable from './PricingTable';
 
 export {
   Navbar,
@@ -17,5 +19,7 @@ export {
   ExploreCard,
   InsightCard,
   Button,
+  PriceButton,
   Footer,
+  PricingTable,
 };

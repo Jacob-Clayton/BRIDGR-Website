@@ -16,7 +16,7 @@ const Home = () => (
       <div className="relative">
         <WhatsNew />
         <div className="gradient-04 z-0 overflow-visible lg:block hidden" />
-        <GetStarted />
+        {/* <GetStarted /> */}
       </div>
       <Events />
       <div className="relative">

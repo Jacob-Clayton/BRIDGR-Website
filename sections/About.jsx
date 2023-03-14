@@ -30,12 +30,13 @@ const About = () => {
           Looking to accelerate your growth in the world of Web3,
           or make the jump from Web2?
           <br/>Look no further than BRIDGR. We are a
-          <span className="font-bold text-white"> collective </span> 
+          <span className="font-[500] text-white"> collective </span> 
           of Web3 companies offering a unique 
-          <span className="font-bold text-white"> collaborative </span> platform to accelerate your Web3 growth. 
+          <span className="font-[500] text-white"> collaborative </span> platform to accelerate your Web3 growth. 
           By partnering with us you'll gain access to our partner's combined services, communities and network.
           <br/> Let BRIDGR be the bridge to your Web3 success story.
         </motion.p>
+        
         <motion.div 
           variants={footerVariants}
           initial={isLgScreen ? 'hidden' : 'visible'}
@@ -44,6 +45,9 @@ const About = () => {
         >
         <div className="mt-20">
         <TypingText title="| Partners" textStyles="text-left" />
+        {/* <p className="flex-1 font-thin xl:text-[18px] lg:text-[17px] md:text-[16px] sm:text-[15px] text-[14px] text-secondary-white leading-[32.4px]">
+          Companies sharing their services and community under the BRIDGR umbrella.
+        </p> */}
           <div className=' place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
             <a className="p-1 col-span-1" href='https://apegang.art/'>
               <Image 

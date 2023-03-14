@@ -25,7 +25,7 @@ function MobileNav({open, setOpen}) {
             className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#Services" 
             onClick={() => setOpen(false)}>
-            Services
+            Benefits
           </a>
           <a 
             className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
@@ -58,11 +58,11 @@ function MobileNav({open, setOpen}) {
             <Button>Whitepaper</Button>
           </a> */}
           <div className="flex sm:gap-4 gap-2 fixed bottom-[12%]" id='socials'>
-            <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
-            <a href="https://t.me/bridgr"><img src='/telegram.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
-            <a href="https://discord.com/invite/j2ayV98Dc2"><img src='/discord.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
-            <a href="mailto:bridgrxyz@gmail.com"><img src='/email.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
-            <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' class='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
+            <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' className='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
+            <a href="https://t.me/bridgr"><img src='/telegram.svg' className='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
+            <a href="https://discord.com/invite/j2ayV98Dc2"><img src='/discord.svg' className='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
+            <a href="mailto:bridgrxyz@gmail.com"><img src='/email.svg' className='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
+            <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' className='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
           </div>
       </div>  
     </div>
@@ -115,7 +115,7 @@ const Navbar = () => {
                       <a href="#About">About</a>
                     </li>
                     <li className="px-3 hover:text-white duration-500">
-                      <a href="#Services">Services</a>
+                      <a href="#Services">Benefits</a>
                     </li>
                     <li className="px-3 hover:text-white duration-500">
                       <a href="#Events">Events</a>
