@@ -107,7 +107,7 @@ const Navbar = () => {
                 width={180} 
               />
               <div className='flex justify-end  mr-[2%]'>
-                <ul className="lg:flex hidden lg:text-md xl:text-lg font-medium text-off-white cursor-pointer">
+                <ul className="lg:flex hidden lg:text-md xl:text-[1.1rem] font-regular text-off-white cursor-pointer">
                     <li className="px-3 hover:text-white duration-500">
                       <a href="#Home">Home</a>
                     </li>
