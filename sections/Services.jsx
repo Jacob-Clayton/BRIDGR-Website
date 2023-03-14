@@ -34,7 +34,7 @@ const Services = () => {
                 <TypingText title="| More Details " textStyles="text-center mt-20" />
 
                 <motion.div 
-                    className='place-items-top grid grid-cols-1 lg:grid-cols-3 mt-5' 
+                    className='place-items-top grid grid-cols-1 lg:grid-cols-3 mt-5 mx-auto' 
                     id='team'
                     variants={fadeIn('up', 'tween', 0.3, 1)}
                 >

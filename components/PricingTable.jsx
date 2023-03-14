@@ -13,14 +13,14 @@ const PricingTable = () => {
                 variants={fadeIn('up', 'tween', 0.2, 1)}
                 initial={isLgScreen ? 'hidden' : 'visible'}
                 whileInView="show"
-                className="flex flex-col md:flex-row justify-center"
+                className="flex flex-col md:flex-row justify-center mx-auto"
             >
-                <div className="mt-10 mx-4 h-[550px] ">
-                    <div className="bg-white rounded-lg h-full w-[400px] flex flex-col justify-between shadow-2xl overflow-hidden">
+                <div className="mt-10 xl:mr-4 mr-2 xl:h-[550px] md:h-[600px] sm:h-[400px]">
+                    <div className="bg-white rounded-lg h-full 2xl:w-[400px] xl:w-[370px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
                         <div className="px-4 py-6" >
-                            <div className="flex flex-row justify-between">
+                            <div className="flex">
                                 <div className="flex-1">
-                                    <div className="bg-white rounded-lg p-6 md:px-10">
+                                    <div className="bg-white rounded-lg p-6 md:px-2 lg:px-4 xl:px-10">
                                     <h4 className="text-xl font-semibold text-gray-800 mb-4">Friend</h4>
                                     <h5 className="mb-2 text-gray-500">Benefits</h5>
                                     <p className="text-gray-700 mb-2">
@@ -50,18 +50,18 @@ const PricingTable = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="px-20 mb-10">
+                        <div className="lg:px-20 px-10 mb-10">
                             <PriceButton href='mailto:bridgrxyz@gmail.com'>Contact Us</PriceButton>
                         </div>
                     </div>
                 </div>
 
-                <div className="mt-10 mx-4">
-                    <div className="bg-white rounded-lg h-full w-[400px] flex flex-col justify-between shadow-2xl overflow-hidden">
+                <div className="mt-10 xl:mx-4 mx-2">
+                    <div className="bg-white rounded-lg h-full 2xl:w-[400px] xl:w-[370px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
                         <div className="px-4 py-6">
-                            <div className="flex flex-row justify-between">
+                            <div className="flex">
                                 <div className="flex-1">
-                                    <div className="bg-white rounded-lg p-6 md:px-10">
+                                    <div className="bg-white rounded-lg p-6 md:px-2 lg:px-4 xl:px-10">
                                     <h4 className="text-xl font-semibold text-gray-800 mb-4">Member</h4>
                                     <h5 className="mb-2 text-gray-500">Benefits</h5>
                                     <p className="text-gray-700 mb-2">
@@ -123,18 +123,18 @@ const PricingTable = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="px-20 mb-10">
+                        <div className="lg:px-20 px-10 mb-10">
                             <PriceButton href='mailto:bridgrxyz@gmail.com'>Contact Us</PriceButton>
                         </div>
                     </div>
                 </div>
 
-                <div className="mt-10 mx-4">
-                    <div className="bg-white rounded-lg h-full w-[400px] flex flex-col justify-between shadow-2xl overflow-hidden">
+                <div className="mt-10 xl:mx-4 mx-2">
+                    <div className="bg-white rounded-lg h-full 2xl:w-[400px] xl:w-[370px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
                         <div className="px-4 py-6">
-                            <div className="flex flex-row justify-between">
+                            <div className="flex">
                                 <div className="flex-1">
-                                    <div className="bg-white rounded-lg p-6 md:px-10">
+                                    <div className="bg-white rounded-lg p-6 md:px-2 lg:px-4 xl:px-10">
                                     <h4 className="text-xl font-semibold text-gray-800 mb-4">Custom</h4>
                                     <h5 className="mb-2 text-gray-500">Benefits</h5>
                                     <p className="text-gray-700 mb-2">
@@ -196,7 +196,7 @@ const PricingTable = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="px-20 mb-10">
+                        <div className="lg:px-20 px-10 mb-10">
                             <PriceButton href='mailto:bridgrxyz@gmail.com'>Contact Us</PriceButton>
                         </div>
                         
