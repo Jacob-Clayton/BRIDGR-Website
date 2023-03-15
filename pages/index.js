@@ -1,6 +1,6 @@
 import { Footer, Navbar } from '../components';
 import Loading from '../components/Loading';
-import { About, Story, Feedback, GetStarted, Hero, Team, Services, WhatsNew, Events, News } from '../sections';
+import { About, Story, Feedback, GetStarted, Hero, Team, Services, WhatsNew, Events, News, Contact } from '../sections';
 
 const Home = () => (
     <div className="bg-primary-darkBlue overflow-hidden">
@@ -25,6 +25,7 @@ const Home = () => (
         <Feedback />
         <News />
         <Story />
+        {/* <Contact/> */}
       </div>
       <Footer />
     </div>

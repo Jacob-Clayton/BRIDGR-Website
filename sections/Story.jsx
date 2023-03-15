@@ -35,14 +35,14 @@ const Story = () => {
             <TypingText title="| Mission " textStyles="text-left" />
             <motion.p
                 variants={fadeIn('up', 'tween', 0.2, 1)}
-                className="mt-4 mb-[50px] font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-left text-secondary-white"
+                className="mt-4 font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-left text-secondary-white"
             >
                 BRIDGR aims to build a thriving and collaborative Web3 ecosystem that is driven by the right motives. 
                 We believe that by bringing together a community of like-minded and well-established Web3 enthusiasts, 
                 we can drive innovation and collaboration towards a more equitable and decentralized future. 
                 Together, we are determined to build a better Web3 for all.
             </motion.p>
-            <div className='flex flex-row justify-center'>
+            {/* <div className='flex flex-row justify-center'>
               <motion.div 
                 variants={fadeIn('up', 'tween', 0.2, 1)}
                 className=' sm:pr-8 pr-4 sm:mt-8 md:mt-10 mt-5'
@@ -61,7 +61,8 @@ const Story = () => {
                       Contact</a><Image src="/email.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-4" width={20} height={20} />
                   </button>
               </motion.div>
-            </div>
+            </div> */}
+
             {/* <div className='flex flex-row justify-center items-center'>
                 <div className='flex flex-col justify-center items-center'>  
                     <motion.p

@@ -173,7 +173,7 @@ const About = () => {
           <div className='mt-5 place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
             
             <a className="p-1 col-span-1" href='https://www.edns.domains/'>
-              <Tooltip message={"Based in Hong Kong, EDNS is a decentralized name service built on Polygon. It provides a Decentralized Domain Naming Service for Web3.0 demands, including NFT, Cryptocurrency Wallet, Web hosting, DeFi ID, and GameFi ID. EDNS will expand to support more blockchains, ultimately becoming a multichain platform."}>
+              <Tooltip message={"Decentralized name service built on Polygon. EDNS provide domain names for Web3, including NFT, crypto wallets, web hosting, DeFi ID, and GameFi ID and are expanding to support more blockchains."}>
               <Image 
                 src='/edns.png' 
                 alt="EDNS" 
