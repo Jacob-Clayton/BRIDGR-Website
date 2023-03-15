@@ -153,6 +153,7 @@ const About = () => {
       <div className="mt-10">
         <TypingText title="| Friends" textStyles="text-left" />
           <div className='mt-5 place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
+            
             <a className="p-1 col-span-1" href='https://www.edns.domains/'>
               <Image 
                 src='/edns.png' 
@@ -164,6 +165,19 @@ const About = () => {
                 height={249}
               />
             </a>
+
+            <a className="p-1 col-span-1" href='https://twitter.com/youplaceapp'>
+              <Image 
+                src='/youplacewhite.png' 
+                alt="You Place" 
+                className="max-w-[70%]" 
+                style={{opacity:'0.95'}}
+                quality={100}
+                width={938}
+                height={249}
+              />
+            </a>
+
           </div>
         </div>
 
