@@ -9,6 +9,7 @@ import Button from './Button';
 import PriceButton from './PriceButton';
 import Loading from './Loading';
 import PricingTable from './PricingTable';
+import Tooltip from './ToolTip';
 
 export {
   Navbar,
@@ -22,4 +23,5 @@ export {
   PriceButton,
   Footer,
   PricingTable,
+  Tooltip,
 };

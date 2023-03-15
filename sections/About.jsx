@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { TypingText, TitleText } from '../components';
+import { TypingText, TitleText, Tooltip } from '../components';
 import Image from 'next/image';
 import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
@@ -50,6 +50,7 @@ const About = () => {
         </p> */}
           <div className=' place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
             <a className="p-1 col-span-1" href='https://apegang.art/'>
+              <Tooltip message={"Ape Gang"}>
               <Image 
                 src='/apegang.png' 
                 alt="Ape Gang" 
@@ -59,8 +60,10 @@ const About = () => {
                 width={938}
                 height={249}
               />
+              </Tooltip>
             </a>
             <a className="p-1 col-span-1" href='https://ethlas.com/'>
+              <Tooltip message={"Ethlas"}>
               <Image 
                 src='/ethlas.png' 
                 alt="Ethlas" 
@@ -70,8 +73,10 @@ const About = () => {
                 width={1531}
                 height={681}
               />
+              </Tooltip>
             </a>
             <a className="p-1 col-span-1" href='https://madfornfts.com/'>
+              <Tooltip message={"Mad for NFTs"}>
               <Image 
                 src='/madfornft.png' 
                 alt="Mad for NFTs" 
@@ -81,8 +86,10 @@ const About = () => {
                 width={1092}
                 height={586}
               />
+              </Tooltip>
             </a>
             <a className="p-1 col-span-1" href='https://www.cryptofemale.org/'>
+              <Tooltip message={"CryptoFemale"}>
               <Image 
                 src='/cryptofemale.png' 
                 alt="Crypto Female" 
@@ -92,8 +99,10 @@ const About = () => {
                 width={1000}
                 height={596}
               />
+              </Tooltip>
             </a>
             <a className="p-1 col-span-1" href='https://globalb.com.tr/'>
+              <Tooltip message={"Global B company & Global B Law"}>
               <Image 
                 src='/globalb.png' 
                 alt="GlobalB" 
@@ -103,8 +112,10 @@ const About = () => {
                 width={832}
                 height={372}
               />
+              </Tooltip>
             </a>
             <a className="p-1 col-span-1 md:block hidden" href="https://twitter.com/theparloursg">
+            <Tooltip message={"The Parlour Singapore"}>
             <Image 
               src='/parlourQR.png' 
               alt="The Parlour Global" 
@@ -114,8 +125,10 @@ const About = () => {
               width={600}
               height={500}
             />
+            </Tooltip>
             </a>
             <a className="p-1 col-span-1" href="">
+              <Tooltip message={"Bighaus"}>
               <Image 
                 src='/bighaus.png' 
                 alt="Bighaus" 
@@ -125,8 +138,10 @@ const About = () => {
                 width={1000}
                 height={700}
               />
+              </Tooltip>
             </a>
             <a className="p-1 col-span-1" href="https://boredisland.group/">
+              <Tooltip message={"Bored Island Group"}>
               <Image 
                 src='/boredislandgroup.png' 
                 alt="Bored Island Group" 
@@ -136,8 +151,10 @@ const About = () => {
                 width={1000}
                 height={600}
               />
+              </Tooltip>
             </a>
             <a className="p-1 col-span-1" href="https://www.crowdfundjunction.com/">
+              <Tooltip message={"Crowd Fund Junction"}>
               <Image 
                 src='/cfj.png' 
                 alt="Crowd Fund Junction" 
@@ -147,6 +164,7 @@ const About = () => {
                 width={1240}
                 height={399}
               />
+              </Tooltip>
             </a>
           </div>
 
@@ -155,6 +173,7 @@ const About = () => {
           <div className='mt-5 place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
             
             <a className="p-1 col-span-1" href='https://www.edns.domains/'>
+              <Tooltip message={"Based in Hong Kong, EDNS is a decentralized name service built on Polygon. It provides a Decentralized Domain Naming Service for Web3.0 demands, including NFT, Cryptocurrency Wallet, Web hosting, DeFi ID, and GameFi ID. EDNS will expand to support more blockchains, ultimately becoming a multichain platform."}>
               <Image 
                 src='/edns.png' 
                 alt="EDNS" 
@@ -164,7 +183,13 @@ const About = () => {
                 width={938}
                 height={249}
               />
+              </Tooltip>
             </a>
+
+            {/* <Tooltip message={"✨ Coming soon!"}>
+              <button>Subscribe</button>
+            </Tooltip> */}
+
 
             {/* <a className="p-1 col-span-1" href='https://twitter.com/youplaceapp'>
               <Image 
