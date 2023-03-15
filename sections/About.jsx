@@ -166,17 +166,17 @@ const About = () => {
               />
             </a>
 
-            <a className="p-1 col-span-1" href='https://twitter.com/youplaceapp'>
+            {/* <a className="p-1 col-span-1" href='https://twitter.com/youplaceapp'>
               <Image 
                 src='/youplacewhite.png' 
                 alt="You Place" 
                 className="max-w-[70%]" 
                 style={{opacity:'0.95'}}
                 quality={100}
-                width={938}
-                height={249}
+                width={1000}
+                height={850}
               />
-            </a>
+            </a> */}
 
           </div>
         </div>
