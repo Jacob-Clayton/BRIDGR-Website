@@ -63,7 +63,7 @@ const About = () => {
               </Tooltip>
             </a>
             <a className="p-1 col-span-1" href='https://ethlas.com/'>
-              <Tooltip message={"Team of 30+ Web3 infrastructure engineers based in Singapore. They have over 2 million users on their gaming metaverse platform, and through these gamified experiences aim to bridge the next billion into Web3."}>
+              <Tooltip message={"Team of 30+ Web3 infrastructure engineers based in Singapore with over 2 million users on their gaming metaverse."}>
               <Image 
                 src='/ethlas.png' 
                 alt="Ethlas" 
@@ -128,7 +128,7 @@ const About = () => {
             </Tooltip>
             </a>
             <a className="p-1 col-span-1" href="">
-              <Tooltip message={"NFT art gallery in Singapore. Providing a platform and revenue stream for both NFT artists and collectors."}>
+              <Tooltip message={"NFT art gallery in Singapore providing a platform and revenue stream for NFT artists and collectors."}>
               <Image 
                 src='/bighaus.png' 
                 alt="Bighaus" 
@@ -141,7 +141,7 @@ const About = () => {
               </Tooltip>
             </a>
             <a className="p-1 col-span-1" href="https://boredisland.group/">
-              <Tooltip message={"Advisory service for NFT collectors who want to monetize their IP. They provide customized solutions in market analysis, digital asset valuation, legal compliance, and marketing strategy. "}>
+              <Tooltip message={"Advisory service to monetize your NFT intellectual property. They provide solutions in analysis, valuation, legal compliance, and marketing strategy. "}>
               <Image 
                 src='/boredislandgroup.png' 
                 alt="Bored Island Group" 
