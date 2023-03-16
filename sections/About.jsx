@@ -50,7 +50,7 @@ const About = () => {
         </p> */}
           <div className=' place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
             <a className="p-1 col-span-1" href='https://apegang.art/'>
-              <Tooltip message={"Ape Gang is a French NFT project founded in May 2021. Their team consists of Web3 developers, solidity developers, NFT artists and traditional web developers."}>
+              <Tooltip message={"NFT project founded in May 2021 with a team of Web3 developers, solidity developers, NFT artists and web developers."}>
               <Image 
                 src='/apegang.png' 
                 alt="Ape Gang" 
@@ -76,7 +76,7 @@ const About = () => {
               </Tooltip>
             </a>
             <a className="p-1 col-span-1" href='https://madfornfts.com/'>
-              <Tooltip message={"Mad for NFTs is a crypto event organiser and NFT launch partner for brands, celebrities, fashion, art and influencers. They help to create, launch and market NFTs."}>
+              <Tooltip message={"NFT launch partner for brands, celebrities, fashion, art and influencers. They help to create, launch and market NFTs."}>
               <Image 
                 src='/madfornft.png' 
                 alt="Mad for NFTs" 
@@ -89,7 +89,7 @@ const About = () => {
               </Tooltip>
             </a>
             <a className="p-1 col-span-1" href='https://www.cryptofemale.org/'>
-              <Tooltip message={"CryptoFemale is a global women's crypto community empowering women in Web3 and helping them to get into the industry."}>
+              <Tooltip message={"Global women's crypto community empowering women in Web3 and helping them to get into the industry."}>
               <Image 
                 src='/cryptofemale.png' 
                 alt="Crypto Female" 
@@ -115,7 +115,7 @@ const About = () => {
               </Tooltip>
             </a>
             <a className="p-1 col-span-1 md:block hidden" href="https://twitter.com/theparloursg">
-            <Tooltip message={"The Parlour Global is a global chain of NFT bar & lounges. Starting out as Singapore’s 1st NFT bar & lounge. They are now opening their second location in Seoul, South Korea."}>
+            <Tooltip message={"Global chain of NFT bar & lounges. Starting out as Singapore’s 1st NFT bar & lounge. They are now opening their second location in Seoul, South Korea."}>
             <Image 
               src='/parlourQR.png' 
               alt="The Parlour Global" 
@@ -128,7 +128,7 @@ const About = () => {
             </Tooltip>
             </a>
             <a className="p-1 col-span-1" href="">
-              <Tooltip message={"Bighaus is an NFT art gallery in Singapore. Providing a platform and revenue stream for both NFT artists and collectors."}>
+              <Tooltip message={"NFT art gallery in Singapore. Providing a platform and revenue stream for both NFT artists and collectors."}>
               <Image 
                 src='/bighaus.png' 
                 alt="Bighaus" 
@@ -141,7 +141,7 @@ const About = () => {
               </Tooltip>
             </a>
             <a className="p-1 col-span-1" href="https://boredisland.group/">
-              <Tooltip message={"Bored Island Group is an expert advisory services to NFT collectors who want to monetize their intellectual property. They provide customized solutions in market analysis, digital asset valuation, legal compliance, and marketing strategy. "}>
+              <Tooltip message={"Advisory service for NFT collectors who want to monetize their IP. They provide customized solutions in market analysis, digital asset valuation, legal compliance, and marketing strategy. "}>
               <Image 
                 src='/boredislandgroup.png' 
                 alt="Bored Island Group" 
@@ -154,7 +154,7 @@ const About = () => {
               </Tooltip>
             </a>
             <a className="p-1 col-span-1" href="https://www.crowdfundjunction.com/">
-              <Tooltip message={"Crowd Fund Junction is a DAO community venture capital. They help crypto start-ups through advisory, funding, and marketing. Their DAO also provides entry into highly vetted crypto token offerings."}>
+              <Tooltip message={"DAO community venture capital. They help crypto start-ups through advisory, funding, and marketing. Their DAO also provides entry into highly vetted crypto token offerings."}>
               <Image 
                 src='/cfj.png' 
                 alt="Crowd Fund Junction" 
