@@ -35,7 +35,7 @@ const Services = () => {
 
                 <motion.div 
                     className='place-items-top grid grid-cols-1 lg:grid-cols-3 mt-5 mx-auto' 
-                    id='team'
+                    id='details'
                     variants={fadeIn('up', 'tween', 0.3, 1)}
                 >
                     <div className=" relative max-w-max sm:max-w-[500px] md:max-w-[680px] lg:max-w-[490px] xl:max-w-max 2xl:max-w-max">
@@ -95,14 +95,6 @@ const Services = () => {
                     </div>
 
                     <div className="relative max-w-max sm:max-w-[500px] md:max-w-[680px] lg:max-w-[490px] xl:max-w-max 2xl:max-w-max">
-                        {/* <Image 
-                            src='/planet-03.png' 
-                            alt="Web3 Onboarding" 
-                            className="max-w-[200px] sm:max-w-[400px] md:max-w-[420px] lg:max-w-[370px] xl:max-w-[380px] 2xl:max-w-[400px] mx-auto rounded-bl-[35px] rounded-br-[35px] sm:rounded-tr-[0px] sm:rounded-tl-[0px] rounded-tr-[35px] rounded-tl-[35px]"
-                            quality={100}
-                            width={1000}
-                            height={625}
-                        /> */}
                         <div class="relative overflow-hidden w-full bottom-0 left-0 py-3 px-6 rounded-bl-[35px] rounded-br-[35px] rounded-tr-[35px] rounded-tl-[35px]">
                         <h1 className=" md:mt-[18px] md:ml-[0px] ml-[10px] font-bold text-[17px] sm:text-[19px] md:text-[21px] lg:text-[22px] xl:text-[24px] text-white text-center mb-2">
                                 Web3 Legal Advice</h1>
