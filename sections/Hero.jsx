@@ -62,7 +62,7 @@ const Hero = () => {
           </div>
       </motion.div>
 
-      <div className={`flex flex-1 mx-auto mt-0 lg:mt-[1%] xl:mt-[2%] 2xl:mt-[6%] items-center sm:justify-end justify-center`}>
+      <div className={`flex flex-1 mx-auto mt-0 lg:mt-[1%] xl:mt-[2%] 2xl:mt-[4%] items-center sm:justify-end justify-center`}>
         <Image 
           src='/cover.png' 
           alt="cover" 
