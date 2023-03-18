@@ -8,7 +8,7 @@ const NewFeatures = ({ imgUrl, title, subtitle }) => (
       >
         <img src={imgUrl} alt="icon" className="w-1/2 h-1/2 object-contain" />
       </div> */}
-      <h1 className=" md:mt-[18px] md:ml-[0px] ml-[10px] font-bold text-[17px] sm:text-[19px] md:text-[21px] lg:text-[22px] xl:text-[24px] text-white">
+      <h1 className=" md:mt-[18px] md:ml-[0px] ml-[10px] font-normal text-[17px] sm:text-[19px] md:text-[21px] lg:text-[22px] xl:text-[24px] text-white">
         {title}
       </h1>
     </div>
