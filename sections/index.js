@@ -3,7 +3,7 @@ import About from './About';
 import GetStarted from './GetStarted';
 import WhatsNew from './WhatsNew';
 import Team from './Team';
-import Feedback from './Feedback';
+import Quotes from './Quotes';
 import Services from './Services';
 import Story from './Story';
 import Events from './Events';
@@ -20,6 +20,6 @@ export {
   Team,
   News,
   Story,
-  Feedback,
+  Quotes,
   Contact,
 };

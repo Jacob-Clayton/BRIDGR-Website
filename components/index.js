@@ -11,6 +11,7 @@ import Loading from './Loading';
 import PricingTable from './PricingTable';
 import Tooltip from './ToolTip';
 import ContactForm from '../sections/Contact';
+import CarouselElement from './Carousel';
 
 export {
   Navbar,
@@ -26,4 +27,5 @@ export {
   PricingTable,
   Tooltip,
   ContactForm,
+  CarouselElement,
 };
