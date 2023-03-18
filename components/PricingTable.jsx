@@ -18,9 +18,8 @@ const PricingTable = () => {
             >
                 <div className="mt-10 xl:mr-4 mr-2 xl:h-[550px] md:h-[600px] sm:h-[400px]">
                     <div className="bg-white rounded-lg h-full 2xl:w-[380px] xl:w-[360px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
-                        <div className="px-4 py-6" >
+                        <div className="px-4 py-6">
                             <div className="flex">
-                                <div className="flex-1">
                                     <div className="bg-white rounded-lg p-6 md:px-2 lg:px-4 xl:px-10">
                                     <h4 className="text-xl font-semibold text-primary-black mb-4">Friend</h4>
                                     <h5 className="mb-2 text-gray-500">Benefits</h5>
@@ -42,12 +41,6 @@ const PricingTable = () => {
                                         </svg>
                                         One-off Lifetime Fee
                                     </p>
-                                    {/* <a href="https://docs.bridgr.xyz" className="cursor-pointer">
-                                    <div className="mt-4 flex justify-center">
-                                        <h5 className=" text-gray-800 hover:text-white px-3 py-1 rounded-lg font-light  border-blue-500 border-[2px] hover:bg-blue-500">Read more...</h5>
-                                    </div>
-                                    </a> */}
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -61,7 +54,6 @@ const PricingTable = () => {
                     <div className="bg-white rounded-lg h-full 2xl:w-[380px] xl:w-[360px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
                         <div className="px-4 py-6">
                             <div className="flex">
-                                <div className="flex-1">
                                     <div className="bg-white rounded-lg p-6 md:px-2 lg:px-4 xl:px-10">
                                     <h4 className="text-xl font-semibold text-primary-black mb-4">Member</h4>
                                     <h5 className="mb-2 text-gray-500">Benefits</h5>
@@ -101,6 +93,7 @@ const PricingTable = () => {
                                         </svg>
                                         Web3 Legal Advice
                                     </p>
+                                    
                                     <h5 className="mb-2 mt-4 text-gray-500">Price</h5>
                                     <p className="text-gray-700 mb-2">
                                         <svg className="inline-block w-4 h-4 mr-2 fill-current text-green-600" viewBox="0 0 20 20">
@@ -114,13 +107,6 @@ const PricingTable = () => {
                                         </svg>
                                         Annual Subscription
                                     </p>
-                                    {/* <a href="https://docs.bridgr.xyz" className="cursor-pointer">
-                                    <div className="mt-4 flex justify-center">
-                                        <h5 className=" text-gray-800 hover:text-white px-3 py-1 rounded-lg font-light  border-blue-500 border-[2px] hover:bg-blue-500">Read more...</h5>
-                                    </div>
-                                    </a> */}
-                                    
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -134,7 +120,6 @@ const PricingTable = () => {
                     <div className="bg-white rounded-lg h-full 2xl:w-[380px] xl:w-[360px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
                         <div className="px-4 py-6">
                             <div className="flex">
-                                <div className="flex-1">
                                     <div className="bg-white rounded-lg p-6 md:px-2 lg:px-4 xl:px-10">
                                     <h4 className="text-xl font-semibold text-primary-black mb-4">Custom</h4>
                                     <h5 className="mb-2 text-gray-500">Benefits</h5>
@@ -187,13 +172,6 @@ const PricingTable = () => {
                                         </svg>
                                         Custom
                                     </p>
-                                    {/* <a href="https://docs.bridgr.xyz" className="cursor-pointer">
-                                    <div className="mt-4 flex justify-center">
-                                        <h5 className=" text-gray-800 hover:text-white px-3 py-1 rounded-lg font-light  border-blue-500 border-[2px] hover:bg-blue-500">Read more...</h5>
-                                    </div>
-                                    </a> */}
-                                    
-                                    </div>
                                 </div>
                             </div>
                         </div>
