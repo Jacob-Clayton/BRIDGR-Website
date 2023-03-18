@@ -84,8 +84,7 @@ const CarouselElement = () => {
             </div>
 
             <p className="mt-[24px] font-normal xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] text-[16px] text-white">
-                “Community is everything in Web3, it's also a huge struggle for companies joining. BRIDGR helps solve this by 
-                providing immediate access to a worldwide Web3 community ontop of a full suite of technical services.”
+                Our shared worldwide community offers immense strength in fostering a sense of belonging, collaboration, and collective action towards a common goal. Our global community leverages their collective strength to increase visibility for all partners, members and friends.
             </p>
         </motion.div>
 
@@ -132,8 +131,7 @@ const CarouselElement = () => {
             </div>
 
         <p className="mt-[24px] font-normal xl:text-[20px] lg:text-[19px] md:text-[18px] sm:text-[17px] text-[16px] text-white">
-            “Community is everything in Web3, it's also a huge struggle for companies joining. BRIDGR helps solve this by 
-            providing immediate access to a worldwide Web3 community ontop of a full suite of technical services.”
+            A collaborative web3 company like BRIDGR is the way to go because it recognizes the importance of the people behind the technology. It fosters a culture of openness, transparency, and shared decision-making. It empowers partners, members and friends to have a more meaningful role in shaping the direction of the company and the companies we help build.
         </p>
         </motion.div>
 
