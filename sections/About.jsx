@@ -25,7 +25,7 @@ const About = () => {
 
         <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}
-          className="mt-10 font-light 2xl:text-[27px] xl:text-[26px] lg:text-[24px] md:text-[20px] sm:text-[19px] text-[15px] text-center text-secondary-white"
+          className="mt-10 font-light 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
         >
           Looking to accelerate your growth in the world of Web3,
           or make the jump from Web2?
