@@ -2,6 +2,7 @@ import PriceButton from "./PriceButton";
 import { motion } from 'framer-motion';
 import { useMediaQuery } from 'react-responsive';
 import { fadeIn } from '../utils/motion';
+import styles from "../styles";
 
 
 const PricingTable = () => {
@@ -13,10 +14,10 @@ const PricingTable = () => {
                 variants={fadeIn('up', 'tween', 0.2, 1)}
                 initial={isLgScreen ? 'hidden' : 'visible'}
                 whileInView="show"
-                className="flex flex-col md:flex-row justify-center mx-auto"
+                className={`${styles.innerWidth} flex flex-col md:flex-row justify-center mx-auto`}
             >
                 <div className="mt-10 xl:mr-4 mr-2 xl:h-[550px] md:h-[600px] sm:h-[400px]">
-                    <div className="bg-white rounded-lg h-full 2xl:w-[400px] xl:w-[370px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
+                    <div className="bg-white rounded-lg h-full 2xl:w-[380px] xl:w-[360px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
                         <div className="px-4 py-6" >
                             <div className="flex">
                                 <div className="flex-1">
@@ -57,7 +58,7 @@ const PricingTable = () => {
                 </div>
 
                 <div className="mt-10 xl:mx-4 mx-2">
-                    <div className="bg-white rounded-lg h-full 2xl:w-[400px] xl:w-[370px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
+                    <div className="bg-white rounded-lg h-full 2xl:w-[380px] xl:w-[360px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
                         <div className="px-4 py-6">
                             <div className="flex">
                                 <div className="flex-1">
@@ -130,7 +131,7 @@ const PricingTable = () => {
                 </div>
 
                 <div className="mt-10 xl:mx-4 mx-2">
-                    <div className="bg-white rounded-lg h-full 2xl:w-[400px] xl:w-[370px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
+                    <div className="bg-white rounded-lg h-full 2xl:w-[380px] xl:w-[360px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
                         <div className="px-4 py-6">
                             <div className="flex">
                                 <div className="flex-1">

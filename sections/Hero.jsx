@@ -62,7 +62,7 @@ const Hero = () => {
           </div>
       </motion.div>
 
-      <div className={` flex-1 mx-auto mt-[8%] sm:mt-[17%] md:mt-[16%] lg:mt-[9%] xl:mt-[11%] 2xl:mt-[15%] flex sm:justify-end justify-center `}>
+      <div className={` flex-1 mx-auto mt-[8%] sm:mt-[17%] md:mt-[16%] lg:mt-[9%] xl:mt-[11%] 2xl:mt-[18%] flex sm:justify-end justify-center `}>
         <Image 
           src='/cover.png' 
           alt="cover" 
@@ -70,7 +70,7 @@ const Hero = () => {
           width={1600}
           height={1000}
           priority
-          className="absolute w-[95%] sm:w-[50%] md:w-[50%] lg:w-[50%] xl:w-[48%] 2xl:w-[44%] z-10 opacity-[90%]" 
+          className="absolute w-[95%] sm:w-[50%] md:w-[50%] lg:w-[50%] xl:w-[48%] 2xl:w-[38%] z-10 opacity-[90%]" 
         />
         <div className="absolute z-[0] w-[40%] h-[50%] rounded-full gradient-01 opacity-[25%] lg:block hidden" />
       </div>
