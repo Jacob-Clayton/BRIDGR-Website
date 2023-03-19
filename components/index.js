@@ -10,7 +10,7 @@ import PriceButton from './PriceButton';
 import Loading from './Loading';
 import PricingTable from './PricingTable';
 import Tooltip from './ToolTip';
-import ContactForm from '../sections/Contact';
+import ContactForm from './ContactForm';
 import CarouselElement from './Carousel';
 
 export {

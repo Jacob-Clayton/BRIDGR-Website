@@ -11,43 +11,43 @@ const Home = () => (
         </div>
       </div>
       <div className="relative">
-        <div className='bg-primary-darkBlue-blue'>
+        <div className='bg-primary-blue'>
           <About />
         </div>
-        <div className='bg-primary-blue-darkBlue'>
+        <div className='bg-primary-blue-darkBlue-blue'>
           <div className="gradient-03 z-0 overflow-visible lg:block hidden" />
           <Services />
         </div>
       </div>
       <div className="relative">
-        <div className='bg-primary-darkBlue'>
+        <div className='bg-primary-blue'>
           <WhatsNew />
         </div>
         <div className="gradient-04 z-0 overflow-visible lg:block hidden" />
         {/* <GetStarted /> */}
       </div>
-        <div className='bg-primary-darkBlue-blue-darkBlue'>
+        <div className='bg-primary-blue-darkBlue'>
         <Events />
       </div>
       <div className="relative">
-        <div className='bg-primary-darkBlue'>
+        <div className='bg-primary-darkBlue-blue'>
           <Team />
         </div>
         <div className="gradient-04 z-0 overflow-visible lg:block hidden" />
-        <div className='bg-primary-darkBlue'>
+        <div className='bg-primary-blue'>
           <Quotes />
         </div>
-        <div className='bg-primary-darkBlue-blue'>
+        <div className='bg-primary-blue-darkBlue-blue'>
           <News />
         </div>
-        <div className='bg-primary-blue-darkBlue'>
+        <div className='bg-primary-blue'>
           <Story />
         </div>
         <div className='bg-primary-blue'>
-          <Contact/>
+          {/* <Contact/> */}
         </div>
       </div>
-      <div className='bg-primary-darkBlue'>
+      <div className='bg-primary-blue'>
         <Footer />
       </div>
     </>
