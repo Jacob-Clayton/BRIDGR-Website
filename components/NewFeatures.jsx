@@ -1,7 +1,7 @@
 import styles from '../styles';
 
 const NewFeatures = ({ imgUrl, title, subtitle }) => (
-  <div className='flex-1 flex flex-col xl:max-w-[280px] lg:max-w-[270px] md:max-w-[280px] sm:max-w-[250px] max-w-[240px] min-w-[220px]'>
+  <div className='mx-auto flex-1 flex flex-col xl:max-w-[280px] lg:max-w-[270px] md:max-w-[280px] sm:max-w-[250px] max-w-[240px] min-w-[220px]'>
     <div className=" flex-2 flex md:flex-col flex-row xl:max-w-[280px] lg:max-w-[270px] md:max-w-[280px] sm:max-w-[250px] max-w-[240px] min-w-[220px]">
       {/* <div
         className={`${styles.flexCenter} sm:w-[60px] sm:h-[60px] w-[30px] h-[30px] rounded-[24px] bg-primary-black bg-opacity-70`}
