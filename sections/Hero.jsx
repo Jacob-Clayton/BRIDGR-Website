@@ -70,7 +70,7 @@ const Hero = () => {
           width={1600}
           height={1000}
           priority
-          className="absolute w-[95%] 2xl:right-[17%] sm:w-[50%] md:w-[50%] lg:w-[50%] xl:w-[48%] 2xl:w-[38%] z-10 opacity-[90%]" 
+          className="absolute w-[95%] 2xl:right-[17%] sm:w-[50%] md:w-[50%] lg:w-[50%] xl:w-[48%] 2xl:w-[38%] max-w-[900px] z-10 opacity-[90%]" 
         />
         <div className="absolute z-[0] w-[40%] h-[50%] rounded-full gradient-01 opacity-[25%] lg:block hidden" />
       </div>
