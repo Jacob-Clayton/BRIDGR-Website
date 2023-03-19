@@ -41,7 +41,7 @@
 
 .bg-primary-blue-darkBlue {
   --tw-bg-opacity: 1;
-  background-image: linear-gradient(to bottom, rgb(40 88 176), rgb(40 88 176), rgb(40 88 176), rgb(22 51 164));
+  background-image: linear-gradient(to bottom, rgb(40 88 176), rgb(40 88 176), rgb(40 88 176), rgb(40 88 176), rgb(40 88 176), rgb(22 51 164));
 }
 
 .bg-primary-darkBlue-blue {
