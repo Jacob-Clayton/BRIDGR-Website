@@ -64,11 +64,11 @@ const Hero = () => {
 
       <div className={`flex flex-1 mx-auto mt-0 lg:mt-[1%] xl:mt-[2%] 2xl:mt-[4%] items-center sm:justify-end justify-center`}>
         <Image 
-          src='/cover.png' 
+          src='/bridgrround.png' 
           alt="cover" 
           quality={95}
-          width={1600}
-          height={1000}
+          width={1500}
+          height={1500}
           priority
           className="absolute w-[95%] 2xl:right-[17%] sm:w-[50%] md:w-[50%] lg:w-[50%] xl:w-[48%] 2xl:w-[38%] max-w-[900px] z-10 opacity-[90%]" 
         />
