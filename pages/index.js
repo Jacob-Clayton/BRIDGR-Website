@@ -11,10 +11,10 @@ const Home = () => (
         </div>
       </div>
       <div className="relative">
-        <div className='bg-primary-darkBlue'>
+        <div className='bg-primary-darkBlue-blue'>
           <About />
         </div>
-        <div className='bg-primary-darkBlue-blue-darkBlue'>
+        <div className='bg-primary-blue-darkBlue'>
           <div className="gradient-03 z-0 overflow-visible lg:block hidden" />
           <Services />
         </div>
