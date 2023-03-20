@@ -3,6 +3,10 @@ import '../styles/globals.css';
 const RootLayout = ({ children }) => (
   <html lang="en">
     <head>
+      <title>BRIDGR</title>
+      <meta property="og:title" content="BRIDGR" key="title" />
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link rel="preconnect" href="https://stijndv.com" />
       <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css" />
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
