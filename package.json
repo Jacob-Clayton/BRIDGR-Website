@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "node-dev": "nodemon ./pages/api/contact.js",
-    "node-start": "node ./pages/api/contact.js",
+    "node-dev": "nodemon ./pages/api/contact.mjs",
+    "node-start": "node ./pages/api/contact.mjs",
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
