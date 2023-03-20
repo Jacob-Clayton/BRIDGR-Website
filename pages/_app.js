@@ -42,10 +42,16 @@ const MyApp = ({ Component, pageProps }) => {
 	}, [router.events])
 
   return (
-    <>
-      <Analytics />
-      <Component {...pageProps} />
-    </>
+	<>
+		<Head>
+			<title>BRIDGR</title>
+			<meta property="og:title" content="BRIDGR" key="title" />
+		</Head>
+		<>
+		<Analytics />
+		<Component {...pageProps} />
+		</>
+	</>
   )
 }
 
