@@ -17,8 +17,8 @@ const mailer = async (req, res) => {
 		await transporter.sendMail({
 			from: email,
 			to: 'jacobeclayton@gmail.com',
-			subject: `Contact form submission from ${name}`,
-			html: `<p>You have a contact form submission</p><br>
+			subject: `BRIDGR Contact form submission from ${name}`,
+			html: `	<h4>Contact form submission from <a href="https://bridgr.xyz">BRIDGR.XYZ</a></h4><br>
         			<p><strong>Email: </strong> ${email}</p><br>
         			<p><strong>Message: </strong> ${message}</p><br>
     		`,

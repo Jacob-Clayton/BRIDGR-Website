@@ -2,6 +2,7 @@
   "name": "bridgr",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "node-dev": "nodemon ./pages/api/contact.js",
     "node-start": "node ./pages/api/contact.js",
