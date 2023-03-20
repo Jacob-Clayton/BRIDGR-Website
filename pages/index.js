@@ -1,8 +1,15 @@
+import Head from 'next/head';
 import { Footer, Navbar } from '../components';
 import Loading from '../components/Loading';
 import { About, Story, Quotes, GetStarted, Hero, Team, Services, WhatsNew, Events, News, Contact } from '../sections';
 
 const Home = () => (
+  <>
+    <Head>
+      <title>BRIDGR</title>
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
     <>
       <div className="bg-primary-darkBlue overflow-hidden">
         <div className='bg-image'>
@@ -51,6 +58,7 @@ const Home = () => (
         <Footer />
       </div>
     </>
+  </>
 );
 
 export default Home;
