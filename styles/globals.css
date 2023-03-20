@@ -71,7 +71,7 @@
 
 
 .bg-image {
-  background-image: linear-gradient(to bottom, transparent, transparent, transparent, rgb(40 88 176 )), url('/darkbluehorizontal.jpg');
+  background-image: linear-gradient(to bottom, transparent, transparent, transparent, rgb(40 88 176 )), url('/lightbluehorizontal.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

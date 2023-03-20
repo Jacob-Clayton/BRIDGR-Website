@@ -41,7 +41,7 @@ const MyApp = ({ Component, pageProps }) => {
 		}
 	}, [router.events])
 
-  return (
+	return (
 	<>
 		<Head>
 			<title>BRIDGR</title>
@@ -52,7 +52,7 @@ const MyApp = ({ Component, pageProps }) => {
 		<Component {...pageProps} />
 		</>
 	</>
-  )
+	)
 }
 
 
