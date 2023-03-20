@@ -51,12 +51,12 @@ function MobileNav({open, setOpen}) {
             onClick={() => setOpen(false)}>
             Story
           </a>
-          <a 
+          {/* <a 
             className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#Contact" 
             onClick={() => setOpen(false)}>
             Contact
-          </a>
+          </a> */}
           {/* <a 
             className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white duration-500 cursor-pointer" 
             href="https://jacobclayton.gitbook.io/bridgr-services/" 
@@ -132,9 +132,9 @@ const Navbar = () => {
                     <li className="px-3 hover:text-white duration-500">
                       <a href="#Story">Story</a>
                     </li>
-                    <li className="px-3 hover:text-white duration-500">
+                    {/* <li className="px-3 hover:text-white duration-500">
                       <a href="#Contact">Contact</a>
-                    </li>
+                    </li> */}
                     {/* <li className="px-3 hover:text-white duration-500">
                       <a href="https://jacobclayton.gitbook.io/bridgr-services/" className='flex flex-1'>Whitepaper<img src="/external-link.svg" className="sm:w-[15px] sm:h-[15px] w-[12px] h-[12px] ml-1"/></a>
                     </li> */}
