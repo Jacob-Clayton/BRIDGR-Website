@@ -32,7 +32,7 @@ const ContactForm = () => {
 		if (inputs.name && inputs.email && inputs.message) {
 			setForm({ state: 'loading' })
 			try {
-				const res = await fetch(`../pages/api/contact`, {
+				const res = await fetch(`./pages/api/contact`, {
 					method: 'POST',
 					headers: {
 						'Content-Type': 'application/json',
@@ -89,7 +89,7 @@ const ContactForm = () => {
 				placeholder='Email'
 				type='email'
 				required
-				className='input mb-4 px-2 py-1 rounded-md font-lignormalht'
+				className='input mb-4 px-2 py-1 rounded-md font-normal'
 			/>
 			<textarea
 				id='message'
