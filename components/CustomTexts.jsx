@@ -38,7 +38,7 @@ export const DescriptionText = ({ description, textStyles }) => (
     variants={textVariant2}
     initial="hidden"
     whileInView="show"
-    className={`font-normal text-[16px] leading-[20.16px] text-white uppercase" ${textStyles}`}
+    className={`font-normal xl:text-[19px] lg:text-[18px] md:text-[17px] sm:text-[16px] text-[16px] leading-[20.16px] text-off-white" ${textStyles}`}
   >
     {description}
   </motion.h2>

@@ -62,7 +62,7 @@ const Hero = () => {
           </div>
       </motion.div>
 
-      <div className={`flex flex-1 mx-auto mt-0 lg:mt-[1%] xl:mt-[2%] 2xl:mt-[4%] items-center sm:justify-end justify-center`}>
+      <div className={`flex flex-1 mx-auto mt-0 sm:mt-[18%] md:mt-0 lg:mt-[2%] xl:mt-[2%] 2xl:mt-[4%] items-center sm:justify-end justify-center`}>
         <Image 
           src='/bridgrround.png' 
           alt="cover" 
@@ -70,7 +70,7 @@ const Hero = () => {
           width={1500}
           height={1500}
           priority
-          className="absolute w-[95%] 2xl:right-[17%] sm:w-[50%] md:w-[50%] lg:w-[50%] xl:w-[48%] 2xl:w-[38%] max-w-[900px] z-10 opacity-[90%]" 
+          className="absolute w-[85%] sm:w-[50%] md:w-[50%] lg:w-[45%] xl:w-[42%] 2xl:w-[36%] max-w-[900px] 2xl:right-[17%] z-10 opacity-[90%]" 
         />
         <div className="absolute z-[0] w-[40%] h-[50%] rounded-full gradient-01 opacity-[25%] lg:block hidden" />
       </div>
