@@ -79,7 +79,7 @@ const ContactForm = () => {
 				placeholder='Name'
 				type='text'
 				required
-				className='input mb-4 px-2 py-1 rounded-md font-light'
+				className='input mb-4 px-2 py-1 rounded-md font-normal'
 			/>
 			<input
 				id='email'
@@ -89,7 +89,7 @@ const ContactForm = () => {
 				placeholder='Email'
 				type='email'
 				required
-				className='input mb-4 px-2 py-1 rounded-md font-light'
+				className='input mb-4 px-2 py-1 rounded-md font-lignormalht'
 			/>
 			<textarea
 				id='message'
@@ -100,7 +100,7 @@ const ContactForm = () => {
 				type='text'
 				rows='5'
 				required
-				className='input mb-4 px-2 py-1 rounded-md font-light'
+				className='input mb-4 px-2 py-1 rounded-md font-normal'
 			/>
 			<div className='flex flex-col items-center'>
                 <button type='submit' className='mx-auto bg-blue-700 hover:bg-blue-600 text-off-white py-2 px-6 items-center flex flex-row rounded duration-500'>

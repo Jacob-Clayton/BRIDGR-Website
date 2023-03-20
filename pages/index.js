@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from '../app/head';
 import { Footer, Navbar } from '../components';
 import Loading from '../components/Loading';
 import { About, Story, Quotes, GetStarted, Hero, Team, Services, WhatsNew, Events, News, Contact } from '../sections';
@@ -51,7 +51,7 @@ const Home = () => (
           <Story />
         </div>
         <div className='bg-primary-blue'>
-          {/* <Contact/> */}
+          <Contact/>
         </div>
       </div>
       <div className='bg-primary-blue'>
