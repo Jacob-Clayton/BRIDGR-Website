@@ -1,4 +1,5 @@
 import PriceButton from "./PriceButton";
+import InfoButton from "./InfoButton";
 import { motion } from 'framer-motion';
 import { useMediaQuery } from 'react-responsive';
 import { fadeIn } from '../utils/motion';
@@ -35,7 +36,8 @@ const PricingTable = () => {
                             </div>
                         </div>
                         <div className="px-20 mb-10">
-                            <PriceButton href='mailto:bridgrxyz@gmail.com'>Contact Us</PriceButton>
+                            <InfoButton href='https://docs.bridgr.xyz/benefits/for-friends/community-access'>Read More</InfoButton>
+                            <PriceButton href='mailto:bridgrxyz@gmail.com'>Register Interest</PriceButton>
                         </div>
                     </div>
                 </div>
@@ -90,7 +92,8 @@ const PricingTable = () => {
                             </div>
                         </div>
                         <div className="px-20 mb-10">
-                            <PriceButton href='mailto:bridgrxyz@gmail.com'>Contact Us</PriceButton>
+                            <InfoButton href='https://docs.bridgr.xyz/benefits/for-members'>Read More</InfoButton>
+                            <PriceButton href='mailto:bridgrxyz@gmail.com'>Register Interest</PriceButton>
                         </div>
                     </div>
                 </div>
@@ -115,6 +118,7 @@ const PricingTable = () => {
                             </div>
                         </div>
                         <div className="px-20 mb-10">
+                            <InfoButton href='https://docs.bridgr.xyz/consultancy/web3-consultancy'>Read More</InfoButton>
                             <PriceButton href='mailto:bridgrxyz@gmail.com'>Contact Us</PriceButton>
                         </div>
                         

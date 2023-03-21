@@ -7,6 +7,7 @@ import InsightCard from './InsightCard';
 import Footer from './Footer';
 import Button from './Button';
 import PriceButton from './PriceButton';
+import InfoButton from './PriceButton'
 import Loading from './Loading';
 import PricingTable from './PricingTable';
 import Tooltip from './ToolTip';
@@ -24,6 +25,7 @@ export {
   InsightCard,
   Button,
   PriceButton,
+  InfoButton,
   Footer,
   PricingTable,
   Tooltip,
