@@ -43,7 +43,7 @@ const Home = () => (
         <Story />
       </div>
       <div className='bg-primary-blue'>
-        {/* <Contact/> */}
+        <Contact/>
       </div>
     </div>
     <div className='bg-primary-blue'>
