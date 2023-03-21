@@ -18,7 +18,7 @@ const mailer = async (req, res) => {
 			from: email,
 			to: 'jacobeclayton@gmail.com',
 			subject: `BRIDGR Contact form submission from ${name}`,
-			html: `	<h4>Contact form submission from <a href="https://bridgr.xyz">BRIDGR.XYZ</a></h4><br>
+			html: `	<h3>Contact form submission from ${name}</h3><br>
         			<p><strong>Email: </strong> ${email}</p><br>
         			<p><strong>Message: </strong> ${message}</p><br>
     		`,
