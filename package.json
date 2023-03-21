@@ -12,6 +12,7 @@
     "export": "npm run build && next export -o _static"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "eslint-config-next": "13.0.3",
     "esm": "^3.2.25",
     "express": "^4.18.2",
