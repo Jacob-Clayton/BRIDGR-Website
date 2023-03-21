@@ -1,8 +1,4 @@
 import nodemailer from 'nodemailer'
-const cors = require("cors");
-
-app.use(cors());
-
 
 const mailer = async (req, res) => {
 	const { name, email, message } = req.body
