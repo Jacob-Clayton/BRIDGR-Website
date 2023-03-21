@@ -1,40 +1,18 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import { fadeIn } from '../utils/motion';
 import styles from '../styles';
-import { staggerContainer } from '../utils/motion';
 import { TitleText } from '../components';
-import { useMediaQuery } from 'react-responsive';
 import Image from 'next/image';
-import { useInView } from 'react-intersection-observer';
 
 const News = () => {
-    const isLgScreen = useMediaQuery({ minWidth: 1024 });
-    const { ref, inView } = useInView({ threshold: 0, triggerOnce: false });
-
     return (
         <section className={`${styles.paddings} relative z-10`} id="News">
             <div className="gradient-02 overflow-visible z-0 lg:block hidden" />
-            <motion.div
-                variants={staggerContainer}
-                initial={isLgScreen ? 'hidden' : 'visible'}
-                whileInView="show"
-                ref={ref}
-                animate={inView ? "show" : "hidden"}
-                viewport={{ once: false, amount: 0.25 }}
-                className={`${styles.innerWidth} mx-auto flex flex-col`}
-            >
+            <div className={`${styles.innerWidth} mx-auto flex flex-col`}>
             <TitleText title={<>News</>} textStyles="text-center" />
                 <div className="mt-10 flex flex-col gap-[30px]">
 
-                    <motion.div 
-                        variants={fadeIn('up', 'spring', 0.3, 1)}
-                        initial={isLgScreen ? 'hidden' : 'visible'}
-                        whileInView="show"
-                        className="flex sm:flex-row flex-col gap-4"
-                        animate={inView ? "show" : "hidden"}
-                    >
+                    <div className="flex sm:flex-row flex-col gap-4">
                         <Image
                             src="/balinews.jpg"
                             alt="bali event"
@@ -55,15 +33,9 @@ const News = () => {
                                 </div>
                             </a>  
                         </div>
-                    </motion.div>
+                    </div>
 
-                    <motion.div 
-                        variants={fadeIn('up', 'spring', 0.3, 1)} 
-                        className="flex sm:flex-row flex-col gap-4"
-                        initial={isLgScreen ? 'hidden' : 'visible'}
-                        whileInView="show"
-                        animate={inView ? "show" : "hidden"}
-                    >
+                    <div className="flex sm:flex-row flex-col gap-4">
                         <Image
                             src="/singaporefeb.jpg"
                             alt="singapore event"
@@ -84,15 +56,9 @@ const News = () => {
                                 </div>
                             </a>  
                         </div>
-                    </motion.div>
+                    </div>
 
-                    <motion.div 
-                        variants={fadeIn('up', 'spring', 0.3, 1)} 
-                        className="flex sm:flex-row flex-col gap-4"
-                        initial={isLgScreen ? 'hidden' : 'visible'}
-                        whileInView="show"
-                        animate={inView ? "show" : "hidden"}
-                    >
+                    <div className="flex sm:flex-row flex-col gap-4">
                         <Image
                             src="/istanbulnews.jpg"
                             alt="istanbul event"
@@ -113,10 +79,10 @@ const News = () => {
                                 </div>
                             </a>  
                         </div>
-                    </motion.div>
+                    </div>
 
                 </div>
-            </motion.div>
+            </div>
         </section>
     );
 };
