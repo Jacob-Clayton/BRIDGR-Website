@@ -13,19 +13,19 @@ const Home = () => (
       <div className='bg-primary-blue'>
         <About />
       </div>
-      <div className='bg-primary-blue-darkBlue-blue'>
+      <div className='bg-primary-blue-darkBlue'>
         <div className="gradient-03 z-0 overflow-visible lg:block hidden" />
         <Services />
       </div>
     </div>
     <div className="relative">
       <div className='bg-primary-blue'>
-        <WhatsNew />
+        {/* <WhatsNew /> */}
       </div>
       <div className="gradient-04 z-0 overflow-visible lg:block hidden" />
       {/* <GetStarted /> */}
     </div>
-      <div className='bg-primary-blue-darkBlue'>
+      <div className='bg-primary-darkBlue'>
       <Events />
     </div>
     <div className="relative">
@@ -36,10 +36,10 @@ const Home = () => (
       <div className='bg-primary-blue'>
         <Quotes />
       </div>
-      <div className='bg-primary-blue-darkBlue-blue'>
+      <div className='bg-primary-blue-darkBlue'>
         <News />
       </div>
-      <div className='bg-primary-blue'>
+      <div className='bg-primary-darkBlue-blue'>
         <Story />
       </div>
       <div className='bg-primary-blue'>
