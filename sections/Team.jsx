@@ -30,7 +30,7 @@ const Team = () => {
         </motion.p>
         
         <motion.div 
-          className=' place-items-center grid grid-cols-2 md:grid-cols-4 sm:gap-10 lg:gap-16 gap-5 md:gap-y-10 gap-y-5 sm:mt-12 md:mt-16 mt-8' 
+          className=' place-items-center grid grid-cols-2 md:grid-cols-4 sm:gap-10 lg:gap-16 xl:gap-20 gap-5 md:gap-y-10 gap-y-5 sm:mt-12 md:mt-16 mt-8' 
           id='team'
           variants={fadeIn('left', 'tween', 0.2, 1)}
         >
