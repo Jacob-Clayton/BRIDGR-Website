@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import PriceButton from '../components/PriceButton';
 import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
 import { staggerContainer, fadeIn } from '../utils/motion';

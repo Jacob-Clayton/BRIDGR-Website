@@ -35,7 +35,7 @@ const Events = () => {
           className="relative mx-auto sm:mt-[68px] mt-[35px] flex w-full lg:h-full md:h-[390px] sm:h-[280px] h-400px"
         >
           <Image 
-            src="/map.png" 
+            src="/map-bare.png" 
             alt="map" 
             className="w-full h-full object-cover" 
             quality={100}
