@@ -18,7 +18,7 @@ const Story = () => {
                 initial={isLgScreen ? 'hidden' : 'visible'}
                 whileInView="show"
                 viewport={{ once: false, amount: 0.25 }}
-                className={`${styles.innerWidth} mx-auto flex flex-col`}
+                className={`${styles.innerWidth} mx-auto mt-10 flex flex-col`}
             >
             <TitleText title={<>Our Story</>} textStyles="text-center" />
             <TypingText title="| Origins " textStyles="text-left mt-10" />

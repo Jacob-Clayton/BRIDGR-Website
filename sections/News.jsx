@@ -8,7 +8,7 @@ const News = () => {
     return (
         <section className={`${styles.paddings} relative z-10`} id="News">
             <div className="gradient-02 overflow-visible z-0 lg:block hidden" />
-            <div className={`${styles.innerWidth} mx-auto flex flex-col`}>
+            <div className={`${styles.innerWidth} mx-auto mt-10 flex flex-col`}>
             <TitleText title={<>News</>} textStyles="text-center" />
                 <div className="mt-10 flex flex-col gap-[30px]">
 

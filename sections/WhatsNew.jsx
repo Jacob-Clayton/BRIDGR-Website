@@ -18,7 +18,7 @@ const WhatsNew = () => {
         initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
+        className={`${styles.innerWidth} mx-auto mt-10 flex lg:flex-row flex-col gap-8`}
       >
         <motion.div
           variants={fadeIn('right', 'tween', 0.2, 1)}

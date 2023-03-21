@@ -17,7 +17,7 @@ const Team = () => {
         initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}
+        className={`${styles.innerWidth} mx-auto mt-10 flex flex-col`}
       >
         <TitleText title={<>The Team</>} textStyles="text-center" />
         <motion.p
