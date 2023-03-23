@@ -30,6 +30,12 @@ function MobileNav({open, setOpen}) {
           </a>
           <a 
             className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
+            href="#Team" 
+            onClick={() => setOpen(false)}>
+            Team
+          </a>
+          <a 
+            className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#Services" 
             onClick={() => setOpen(false)}>
             Pricing
@@ -39,12 +45,6 @@ function MobileNav({open, setOpen}) {
             href="#Events" 
             onClick={() => setOpen(false)}>
             Events
-          </a>
-          <a 
-            className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
-            href="#Team" 
-            onClick={() => setOpen(false)}>
-            Team
           </a>
           <a 
             className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
@@ -128,13 +128,13 @@ const Navbar = () => {
                       <a href="#Story">Story</a>
                     </li>
                     <li className="px-3 hover:text-white duration-500">
+                      <a href="#Team">Team</a>
+                    </li>
+                    <li className="px-3 hover:text-white duration-500">
                       <a href="#Services">Pricing</a>
                     </li>
                     <li className="px-3 hover:text-white duration-500">
                       <a href="#Events">Events</a>
-                    </li>
-                    <li className="px-3 hover:text-white duration-500">
-                      <a href="#Team">Team</a>
                     </li>
                     {/* <li className="px-3 hover:text-white duration-500">
                       <a href="#Contact">Contact</a>

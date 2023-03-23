@@ -20,13 +20,13 @@ const About = () => {
 
   return (
     <section className={`${styles.paddings} relative z-10`} id="About" >
-      <div className="gradient-02 overflow-visible z-0 lg:block hidden" />
+      {/* <div className="gradient-02 overflow-visible z-0 lg:block hidden" /> */}
       <motion.div
         variants={staggerContainer}
         initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
+        className={`${styles.innerWidth} mx-auto mb-10 flex-col ${styles.flexCenter}`}
       >
         {/* <TitleText title={<>About Us</>} textStyles="text-center" /> */}
         <motion.div 

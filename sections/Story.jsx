@@ -11,6 +11,11 @@ const Story = () => {
 
     return (
         <section className={`${styles.paddings} relative z-10`} id="Story">
+            <div className='wave-blue'>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#4386ff" fill-opacity="1" d="M0,128L120,112C240,96,480,64,720,64C960,64,1200,96,1320,112L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
+                </svg>
+            </div>
             {/* <div className="feedback-gradient overflow-visible z-0 lg:block hidden" /> */}
             <motion.div 
                 className='mt-20'
@@ -24,8 +29,8 @@ const Story = () => {
                     variants={fadeIn('up', 'tween', 0.2, 1)}
                     className={`${styles.innerWidth} mx-auto mt-10 flex md:flex-row flex-col md:gap-10`}
                 >
-                    <div className='flex-1'>
-                        <TypingText title="Story" textStyles="text-center" />
+                    <div className='md:w-[70%] mx-auto'>
+                        {/* <TypingText title="Story" textStyles="text-center" /> */}
                         <motion.p
                             variants={fadeIn('up', 'tween', 0.2, 1)}
                             className="mt-2 border-[1px] border-white border-opacity-[20%] p-5 rounded-2xl mb-[50px] font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-left text-secondary-white"
@@ -37,7 +42,7 @@ const Story = () => {
                         </motion.p>
                     </div>
                 
-                    <div className='flex-1'>
+                    {/* <div className='flex-1'>
                         <TypingText title="Mission" textStyles="text-center" />
                         <motion.p
                             variants={fadeIn('up', 'tween', 0.2, 1)}
@@ -48,7 +53,7 @@ const Story = () => {
                             we can spark creativity and cooperation, leading to a more equitable and decentralized tomorrow. 
                             Our collective aspiration is to build an improved Web3 that benefits everyone.
                         </motion.p>
-                    </div>            
+                    </div>             */}
                 </motion.div>
 
             </motion.div>
