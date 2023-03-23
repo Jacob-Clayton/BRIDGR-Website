@@ -6,6 +6,13 @@ import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
 import Image from 'next/image';
+import { Urbanist } from '@next/font/google';
+
+const urbanist = Urbanist({
+  subsets: ['latin'],
+  variable: '--font-urbanist',
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+})
 
 const Story = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
@@ -29,9 +36,10 @@ const Story = () => {
                 Our founders are passionate about Web3 and the endless possibilities of decentralised 
                 online ecosystems powered by blockchain. At the same time, we are saddened whenever we see time, energy, 
                 and money being lost to the bad apples of this Space. So, in late 2022 we started BRIDGR, 
-                a positive movement of like-minded & well-established Web3 enthusiasts who are here for the right reasons.
+                a collective of well-established and morally sound Web3 companies.
                 For a better, genuine and collaborative Web3.
             </motion.p>
+            
             <TypingText title="| Mission " textStyles="text-left" />
             <motion.p
                 variants={fadeIn('up', 'tween', 0.2, 1)}
@@ -42,46 +50,26 @@ const Story = () => {
                 we can drive innovation and collaboration towards a more equitable and decentralized future. 
                 Together, we are determined to build a better Web3 for all.
             </motion.p>
-            {/* <div className='flex flex-row justify-center'>
-              <motion.div 
-                variants={fadeIn('up', 'tween', 0.2, 1)}
-                className=' sm:pr-8 pr-4 sm:mt-8 md:mt-10 mt-5'
-              >
-                  <button className='bg-blue-700 hover:bg-blue-600 text-off-white py-2 px-6 items-center flex flex-row rounded duration-500'>
-                    <a className= "text-sm sm:text-l md:text-xl font-bold hover:text-white duration-400 cursor-pointer " href="https://t.me/bridgr">
-                      Join Us</a><Image src="/telegram.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-4" width={20} height={20} />
-                  </button>
-              </motion.div>
-              <motion.div 
-                variants={fadeIn('up', 'tween', 0.2, 1)}
-                className='sm:mt-8 md:mt-10 mt-5'
-              >
-                  <button className='bg-blue-700 hover:bg-blue-600 text-off-white py-2 px-6 items-center flex flex-row rounded duration-500'>
-                    <a className= "text-sm sm:text-l md:text-xl font-bold hover:text-white duration-400 cursor-pointer " href="mailto:bridgrxyz@gmail.com">
-                      Contact</a><Image src="/email.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-4" width={20} height={20} />
-                  </button>
-              </motion.div>
-            </div> */}
 
-                <div className='flex flex-col mt-20 justify-center items-center'>  
-                    <motion.p
-                        variants={fadeIn('up', 'tween', 0.2, 1)}
-                        className="text-center font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-off-white"
-                    >
-                        Read more about our services and offerings
-                    </motion.p>   
-                    <div className='relative'>
-                        <motion.div 
-                            variants={fadeIn('up', 'tween', 0.2, 1)}
-                            className='mt-5'
-                        >
-                            <button className='bridgr-blue hover:bg-blue-800 py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
-                                <a className= "text-sm sm:text-l md:text-xl font-normal text-off-white cursor-pointer " href="https://docs.bridgr.xyz">
-                                    Whitepaper</a><Image src="/book.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-4" width={20} height={20} />
-                            </button>
-                        </motion.div>
+                <motion.div 
+                    className='flex flex-col mt-20 justify-center items-center'
+                    variants={fadeIn('up', 'tween', 0.2, 1)}
+                >  
+                    <div>
+                        <p className="flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px] text-center text-secondary-white">
+                            <span className=" mb-1 lg:text-3xl md:text-2xl text-xl text-off-white font-bold">
+                                We are the<span className={`${urbanist.variable} font-urbanist lg:text-4xl md:text-3xl text-2xl text-off-white font-extrabold`}> BRIDGR </span> 
+                                collective</span>
+                            Together we are stronger
+                        </p>
                     </div>
-                </div>
+                    <div className='relative mt-3'>
+                        <button className='bridgr-blue hover:bg-blue-800 text-off-white py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
+                            <a className= "text-sm sm:text-l md:text-xl font-bold hover:text-white duration-400 cursor-pointer " href="https://t.me/bridgr">
+                            Join us</a><Image src="/telegram.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-4" width={20} height={20} />
+                        </button>
+                    </div>
+                </motion.div>
 
             </motion.div>
         </section>
