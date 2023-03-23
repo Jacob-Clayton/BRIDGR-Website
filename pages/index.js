@@ -17,24 +17,17 @@ const Home = () => (
         {/* <div className="gradient-03 z-0 overflow-visible lg:block hidden" /> */}
         <Story />
       </div>
-    </div>
-    <div className="relative">
       <div className='bg-primary-darkBlue'>
         <Team />
       </div>
-      <div className="gradient-04 z-0 overflow-visible lg:block hidden" />
       <div className='bg-primary-darkBlue'>
         <Quotes />
       </div>
       <div className='bg-primary-lightBlue'>
         <Services />
-      </div>
-      <div className='bg-primary-lightBlue'>
         <Events />
-      </div>
-      <div className='bg-primary-lightBlue'>
         <News /> 
-        <Contact/>
+        {/* <Contact/> */}
         <Footer />
       </div>
     </div>
