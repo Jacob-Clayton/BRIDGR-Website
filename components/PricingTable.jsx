@@ -33,12 +33,12 @@ const PricingTable = () => {
                 <div className="mt-10 xl:mx-4 mx-2 p-2">
                     <div className="bg-white rounded-2xl h-full 2xl:w-[330px] xl:w-[320px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
                         <div className="px-4 py-6">
-                            <div className="">
+                            <div className="font-medium">
                                     <div className="bg-white rounded-lg p-6 sm:px-20 md:px-2 lg:px-8 xl:px-10">
-                                    <h4 className="text-3xl font-[500] text-center text-primary-black mb-4">Friend</h4>
+                                    <h4 className="text-3xl font-medium text-center text-primary-black mb-4">Friend</h4>
                                     <div class="flex justify-center items-baseline my-8">
                                         <span class=" mr-2 text-4xl text-primary-black font-extrabold">$200</span>
-                                        <span class="text-gray-500 dark:text-gray-400">/ lifetime</span>
+                                        <span class="text-gray-400 font-normal">/ lifetime</span>
                                     </div>
                                     <p className="text-gray-700 mb-2">
                                         <svg className="inline-block w-4 h-4 mr-2 fill-current text-blue-500" viewBox="0 0 30 30">
@@ -58,14 +58,14 @@ const PricingTable = () => {
                 <div className="mt-10 xl:mx-6 md:mx-4 mx-2 rounded-2xl magic-border p-1">
                     <div className="bg-white rounded-2xl h-full 2xl:w-[330px] xl:w-[320px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
                         <div className="px-4 py-6">
-                            <div className="">
+                            <div className="font-medium">
                                     <div className="bg-white rounded-lg p-6 sm:px-20 md:px-2 lg:px-8 xl:px-10 ">
                                         <div className="magic-text2">
                                             <h4 className="text-4xl font-[700] text-center text-primary-black mb-4">Member</h4>
                                         </div>
                                     <div class="flex justify-center items-baseline my-8">
                                         <span class="mr-2 text-4xl text-primary-black font-extrabold">$2000</span>
-                                        <span class="text-gray-500 dark:text-gray-400">/ year</span>
+                                        <span class="text-gray-400 font-normal">/ year</span>
                                     </div>
                                     <p className="text-gray-700 mb-2">
                                         <svg className="inline-block w-4 h-4 mr-2 fill-current text-blue-500" viewBox="0 0 30 30">
@@ -116,12 +116,12 @@ const PricingTable = () => {
                 <div className="mt-10 xl:mx-4 mx-2 p-2">
                     <div className="bg-white rounded-2xl h-full 2xl:w-[330px] xl:w-[320px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
                         <div className="px-4 py-6">
-                            <div className="">
+                            <div className="font-medium">
                                     <div className="bg-white rounded-lg p-6 sm:px-20 md:px-2 lg:px-8 xl:px-10">
-                                    <h4 className="text-3xl font-[500] text-center text-primary-black mb-4">Custom</h4>
+                                    <h4 className="text-3xl font-medium text-center text-primary-black mb-4">Custom</h4>
                                     <div class="flex justify-center items-baseline my-8">
                                         <span class="mr-2 text-4xl text-primary-black font-extrabold">$</span>
-                                        <span class="text-gray-500 dark:text-gray-400">/ hour</span>
+                                        <span class="text-gray-400 font-normal">/ hour</span>
                                     </div>
                                     <p className="text-gray-700 mb-2">
                                         <svg className="inline-block w-4 h-4 mr-2 fill-current text-teal-500" viewBox="0 0 30 30">

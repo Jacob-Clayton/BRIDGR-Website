@@ -1,12 +1,10 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import Image from 'next/image';
-import PriceButton from '../components/PriceButton';
 import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
 import { staggerContainer, fadeIn } from '../utils/motion';
-import { TitleText, TypingText, PricingTable } from '../components';
+import { TitleText, PricingTable } from '../components';
 
 const Services = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });

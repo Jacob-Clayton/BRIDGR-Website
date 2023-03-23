@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { TitleText, TypingText, Button } from '../components';
+import { TitleText, TypingText } from '../components';
 import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
@@ -65,8 +65,8 @@ const Story = () => {
                     </div>
                     <div className='relative mt-3'>
                         <button className='bridgr-blue hover:bg-blue-800 text-off-white py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
-                            <a className= "text-sm sm:text-l md:text-xl font-bold hover:text-white duration-400 cursor-pointer " href="https://t.me/bridgr">
-                            Join us</a><Image src="/telegram.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-4" width={20} height={20} />
+                            <a className= "text-sm sm:text-l md:text-xl font-medium hover:text-white duration-400 cursor-pointer" href="https://t.me/bridgr">
+                            Join us</a><Image src="/telegram.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-3" width={20} height={20} />
                         </button>
                     </div>
                 </motion.div>

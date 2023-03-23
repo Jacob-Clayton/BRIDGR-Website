@@ -58,7 +58,7 @@ const Hero = () => {
                 className='2xl:pl-0 px-6 sm:pr-8 pr-4 sm:mt-8 md:mt-10 mt-5'
               >
                   <button className='bridgr-blue hover:bg-blue-800 text-off-white py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
-                    <a className= "text-sm sm:text-l md:text-xl font-bold hover:text-white duration-400 cursor-pointer " href="https://t.me/bridgr">
+                    <a className= "text-sm sm:text-l md:text-xl font-medium hover:text-white duration-400 cursor-pointer " href="https://t.me/bridgr">
                       Join us</a><Image src="/telegram.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-4" width={20} height={20} />
                   </button>
               </motion.div>
@@ -67,7 +67,7 @@ const Hero = () => {
                 className='sm:mt-8 md:mt-10 mt-5'
               >
                   <button className='bridgr-blue hover:bg-blue-800 text-off-white py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
-                    <a className= "text-sm sm:text-l md:text-xl font-bold hover:text-white duration-400 cursor-pointer " href="mailto:bridgrxyz@gmail.com">
+                    <a className= "text-sm sm:text-l md:text-xl font-medium hover:text-white duration-400 cursor-pointer " href="mailto:bridgrxyz@gmail.com">
                       Contact</a><Image src="/email.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-4" width={20} height={20} />
                   </button>
               </motion.div>
