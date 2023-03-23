@@ -206,3 +206,17 @@
   -webkit-text-fill-color: transparent;
   white-space: nowrap;
 }
+
+.magic-border {
+  animation: background-pan 5s linear infinite;
+  background: linear-gradient(
+    to right,
+    rgb(25, 53, 163),
+    #67B4DC,
+    rgb(179, 109, 229),
+    rgb(25, 53, 163)
+  );
+  background-size: 200%;
+  -webkit-background-clip: border-box;
+  white-space: nowrap;
+}

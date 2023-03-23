@@ -55,13 +55,13 @@ const PricingTable = () => {
                     </div>
                 </div>
 
-                <div className="mt-10 xl:mx-6 md:mx-4 mx-2 rounded-2xl ">
+                <div className="mt-10 xl:mx-6 md:mx-4 mx-2 rounded-2xl magic-border p-1">
                     <div className="bg-white rounded-2xl h-full 2xl:w-[330px] xl:w-[320px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
                         <div className="px-4 py-6">
                             <div className="">
                                     <div className="bg-white rounded-lg p-6 sm:px-20 md:px-2 lg:px-8 xl:px-10 ">
                                         <div className="magic-text2">
-                                            <h4 className="text-3xl font-[700] text-center text-primary-black mb-4">Member</h4>
+                                            <h4 className="text-4xl font-[700] text-center text-primary-black mb-4">Member</h4>
                                         </div>
                                     <div class="flex justify-center items-baseline my-8">
                                         <span class="mr-2 text-4xl text-primary-black font-extrabold">$2000</span>
