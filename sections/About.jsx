@@ -71,7 +71,7 @@ const About = () => {
           className='relative'
         >
         <div className="md:mt-20 md:mb-20 mt-10 mb-10">
-        <TypingText title="| Partners" textStyles="text-left" />
+        <TypingText title="Partners" textStyles="text-left px-4" />
           <div className=' place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
             <a className="p-1 col-span-1" href='https://apegang.art/'>
               <Tooltip message={"NFT project founded in May 2021 with a team of Web3 developers, solidity developers, NFT artists and web developers."}>

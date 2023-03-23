@@ -19,39 +19,44 @@ const Story = () => {
 
     return (
         <section className={`${styles.paddings} relative z-10`} id="Story">
-            <div className="feedback-gradient overflow-visible z-0 lg:block hidden" />
+            {/* <div className="feedback-gradient overflow-visible z-0 lg:block hidden" /> */}
+            <TitleText title={<>Our Story</>} textStyles="text-center" />
+
             <motion.div
                 variants={staggerContainer}
                 initial={isLgScreen ? 'hidden' : 'visible'}
                 whileInView="show"
                 viewport={{ once: false, amount: 0.25 }}
-                className={`${styles.innerWidth} mx-auto mt-10 flex flex-col`}
+                className={`${styles.innerWidth} mx-auto mt-10 flex flex-row gap-10`}
             >
-            <TitleText title={<>Our Story</>} textStyles="text-center" />
-            <TypingText title="| Origins " textStyles="text-left mt-10" />
-            <motion.p
-                variants={fadeIn('up', 'tween', 0.2, 1)}
-                className="mt-4 mb-[50px] font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-left text-secondary-white"
-            >
-                Our founders are passionate about Web3 and the endless possibilities of decentralised 
-                online ecosystems powered by blockchain. At the same time, we are saddened whenever we see time, energy, 
-                and money being lost to the bad apples of this Space. So, in late 2022 we started BRIDGR, 
-                a collective of well-established and morally sound Web3 companies.
-                For a better, genuine and collaborative Web3.
-            </motion.p>
+                <div className='flex-1'>
+                    <TypingText title="Story" textStyles="text-center" />
+                    <motion.p
+                        variants={fadeIn('up', 'tween', 0.2, 1)}
+                        className="mt-2 border-[1px] border-white border-opacity-[20%] p-5 rounded-2xl mb-[50px] font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-left text-secondary-white"
+                    >
+                        Our founders love Web3 and the potential of decentralized online systems. 
+                        Unfortunately, we've witnessed good people losing time, energy, and resources to shady players. 
+                        That's why, in late 2022, we created BRIDGR, a network of trustworthy Web3 companies 
+                        working together to provide a more authentic and cooperative Web3 platform.
+                    </motion.p>
+                </div>
             
-            <TypingText title="| Mission " textStyles="text-left" />
-            <motion.p
-                variants={fadeIn('up', 'tween', 0.2, 1)}
-                className="mt-4 font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-left text-secondary-white"
-            >
-                BRIDGR aims to build a thriving and collaborative Web3 ecosystem that is driven by the right motives. 
-                We believe that by bringing together a community of like-minded and well-established Web3 enthusiasts, 
-                we can drive innovation and collaboration towards a more equitable and decentralized future. 
-                Together, we are determined to build a better Web3 for all.
-            </motion.p>
+                <div className='flex-1'>
+                    <TypingText title="Mission" textStyles="text-center" />
+                    <motion.p
+                        variants={fadeIn('up', 'tween', 0.2, 1)}
+                        className="mt-2 border-[1px] border-white border-opacity-[20%] p-5 rounded-2xl font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-left text-secondary-white"
+                    >
+                        BRIDGR's mission is to establish a cooperative Web3 ecosystem guided by positive values. 
+                        We are convinced that by uniting a group of committed and reputable Web3 advocates, 
+                        we can spark creativity and cooperation, leading to a more equitable and decentralized tomorrow. 
+                        Our collective aspiration is to build an improved Web3 that benefits everyone.
+                    </motion.p>
+                </div>            
+            </motion.div>
 
-                <motion.div 
+            <motion.div 
                     className='flex flex-col mt-20 justify-center items-center'
                     variants={fadeIn('up', 'tween', 0.2, 1)}
                 >  
@@ -70,8 +75,6 @@ const Story = () => {
                         </button>
                     </div>
                 </motion.div>
-
-            </motion.div>
         </section>
     );
 };

@@ -35,7 +35,7 @@
 
 .bg-primary-lightBlue {
   --tw-bg-opacity: 1;
-  background-color: rgb(70, 173, 253);
+  background-color: rgb(67, 134, 255);
 }
 
 .bg-primary-darkBlue {
@@ -53,6 +53,11 @@
   background-image: linear-gradient(to bottom, rgb(40 88 176), rgb(22 51 164), rgb(22 51 164), rgb(22 51 164));
 }
 
+.bg-primary-lightBlue-blue {
+  --tw-bg-opacity: 1;
+  background-image: linear-gradient(to bottom, rgb(67, 134, 255), rgb(40 88 176), rgb(40 88 176), rgb(40 88 176));
+}
+
 .bg-primary-blue-darkBlue2 {
   --tw-bg-opacity: 1;
   background-image: linear-gradient(to bottom, rgb(40 88 176), rgb(40 88 176), rgb(40 88 176), rgb(22 51 164));
@@ -63,19 +68,15 @@
   background-image: linear-gradient(to bottom, rgb(40 88 176), rgb(22 51 164), rgb(22 51 164), rgb(22 51 164), rgb(40 88 176));
 }
 
-.bg-primary-darkBlue-blue {
+.bg-primary-blue-lightBlue {
   --tw-bg-opacity: 1;
-  background-image: linear-gradient(to bottom, rgb(22 51 164), rgb(40 88 176), rgb(40 88 176), rgb(40 88 176));
+  background-image: linear-gradient(to bottom, rgb(40 88 176), rgb(67, 134, 255), rgb(67, 134, 255), rgb(67, 134, 255));
 }
 
-.bg-primary-darkBlue-blue2 {
-  --tw-bg-opacity: 1;
-  background-image: linear-gradient(to bottom, rgb(22 51 164), rgb(22 51 164), rgb(22 51 164), rgb(40 88 176));
-}
 
 
 .bg-image {
-  background-image: linear-gradient(to bottom, transparent, transparent, transparent, rgb(40 88 176)), url('/lightbluehorizontal.jpg');
+  background-image: linear-gradient(to bottom, transparent, transparent, transparent, rgb(67, 134, 255)), url('/lightbluehorizontal.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

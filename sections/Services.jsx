@@ -11,13 +11,12 @@ const Services = () => {
 
     return (
         <section className={`${styles.paddings}`} id="Services">
-            
             <motion.div
                 variants={staggerContainer}
                 initial={isLgScreen ? 'hidden' : 'visible'}
                 whileInView="show"
                 viewport={{ once: false, amount: 0.25 }}
-                className={`${styles.innerWidth} mx-auto mt-10 flex flex-col`}
+                className={`${styles.innerWidth} mx-auto mt-20 flex flex-col`}
             >
             <TitleText title={<>Membership</>}textStyles="text-center mb-10" />
                 <motion.p
