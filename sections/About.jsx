@@ -58,7 +58,7 @@ const About = () => {
 
           <div className='flex-1'>
             <p className=" flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px] text-center text-secondary-white">
-              <span className="mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-bold">100,000<span className='ml-1 xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-md align-middle'>+</span></span>
+              <span className="mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-bold">220,000<span className='ml-1 xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-md align-middle'>+</span></span>
               Combined community
             </p>
           </div>
