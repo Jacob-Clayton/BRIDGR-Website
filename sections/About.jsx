@@ -70,11 +70,11 @@ const About = () => {
           whileInView="show"
           className='relative'
         >
-        <div className="md:mt-20 md:mb-20 mt-10 mb-10">
+        <div className="md:mt-20 mt-10">
         <TypingText title="Partners" textStyles="text-left px-4" />
           <div className=' place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
             <a className="p-1 col-span-1" href='https://apegang.art/'>
-              <Tooltip message={"NFT project founded in May 2021 with a team of Web3 developers, solidity developers, NFT artists and web developers."}>
+              <Tooltip message={"The 10th most sold NFT project, founded in May 2021, they have a team of Web developers, blockchain developers, NFT artists and community experts."}>
               <Image 
                 src='/apegang.png' 
                 alt="Ape Gang" 
@@ -178,7 +178,7 @@ const About = () => {
               </Tooltip>
             </a>
             <a className="p-1 col-span-1" href="https://www.crowdfundjunction.com/">
-              <Tooltip message={"DAO community venture capital. They help crypto start-ups through advisory, funding, and marketing. Their DAO also provides entry into highly vetted crypto token offerings."}>
+              <Tooltip message={"Venture Capital DAO. They help crypto start-ups through funding, advisory and marketing and provide entry into highly vetted crypto token offerings."}>
               <Image 
                 src='/cfj.png' 
                 alt="Crowd Fund Junction" 

@@ -24,9 +24,15 @@ function MobileNav({open, setOpen}) {
           </a>
           <a 
             className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
+            href="#Story" 
+            onClick={() => setOpen(false)}>
+            Story
+          </a>
+          <a 
+            className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#Services" 
             onClick={() => setOpen(false)}>
-            Membership
+            Pricing
           </a>
           <a 
             className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
@@ -45,12 +51,6 @@ function MobileNav({open, setOpen}) {
             href="#News" 
             onClick={() => setOpen(false)}>
             News
-          </a>
-          <a 
-            className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
-            href="#Story" 
-            onClick={() => setOpen(false)}>
-            Story
           </a>
           {/* <a 
             className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
@@ -125,16 +125,16 @@ const Navbar = () => {
                       <a href="#About">About</a>
                     </li>
                     <li className="px-3 hover:text-white duration-500">
-                      <a href="#Services">Membership</a>
+                      <a href="#Story">Story</a>
+                    </li>
+                    <li className="px-3 hover:text-white duration-500">
+                      <a href="#Services">Pricing</a>
                     </li>
                     <li className="px-3 hover:text-white duration-500">
                       <a href="#Events">Events</a>
                     </li>
                     <li className="px-3 hover:text-white duration-500">
                       <a href="#Team">Team</a>
-                    </li>
-                    <li className="px-3 hover:text-white duration-500">
-                      <a href="#Story">Story</a>
                     </li>
                     {/* <li className="px-3 hover:text-white duration-500">
                       <a href="#Contact">Contact</a>

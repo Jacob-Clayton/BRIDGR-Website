@@ -15,11 +15,12 @@ const Home = () => (
       </div>
       <div className='bg-primary-lightBlue-blue'>
         <div className="gradient-03 z-0 overflow-visible lg:block hidden" />
-        <Services />
+        <Story />
       </div>
     </div>
     <div className="relative">
       <div className='bg-primary-blue'>
+        <Services />
         {/* <WhatsNew /> */}
       </div>
       {/* <div className="gradient-04 z-0 overflow-visible lg:block hidden" /> */}
@@ -40,13 +41,13 @@ const Home = () => (
         <News />
       </div>
       <div className='bg-primary-blue-lightBlue'>
-        <Story />
+        
       </div>
       <div className='bg-primary-blue'>
         {/* <Contact/> */}
       </div>
     </div>
-    <div className='bg-primary-lightBlue'>
+    <div className='bg-primary-blue'>
       <Footer />
     </div>
   </>

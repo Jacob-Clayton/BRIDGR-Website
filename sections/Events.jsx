@@ -26,8 +26,10 @@ const Events = () => {
           whileInView="show"
           className="mt-10 font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
         >
-          Come along to a 'WEB3 SOCIAL' event near you and network with industry professionals from around the world over drinks.
-          Follow us on <a href='http://twitter.com/brizgrxyz' className='text-white'> Twitter </a> to stay up to date with our events.
+          Recieve worldwide exposure at our 'WEB3 SOCIAL' events. 
+          Your company will be given a professional speech, promotional graphics on screens around the event, plus video and images for your own use.
+          Come along and network with industry professionals from around the world over drinks. It's a blast!
+          Follow us on <a href='http://twitter.com/brizgrxyz' className='text-white font-medium'> Twitter </a> to stay up to date.
         </motion.p>
 
         <motion.div

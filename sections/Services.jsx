@@ -16,9 +16,9 @@ const Services = () => {
                 initial={isLgScreen ? 'hidden' : 'visible'}
                 whileInView="show"
                 viewport={{ once: false, amount: 0.25 }}
-                className={`${styles.innerWidth} mx-auto mt-20 flex flex-col`}
+                className={`${styles.innerWidth} mx-auto mt-10 flex flex-col`}
             >
-            <TitleText title={<>Membership</>}textStyles="text-center mb-10" />
+            <TitleText title={<>Pricing</>}textStyles="text-center mb-10" />
                 <motion.p
                     variants={fadeIn('up', 'tween', 0.2, 1)}
                     initial={isLgScreen ? 'hidden' : 'visible'}
