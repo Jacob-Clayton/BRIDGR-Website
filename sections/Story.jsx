@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { TitleText, TypingText, DescriptionText } from '../components';
+import { TitleText, TypingText, Button } from '../components';
 import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
@@ -63,27 +63,26 @@ const Story = () => {
               </motion.div>
             </div> */}
 
-            {/* <div className='flex flex-row justify-center items-center'>
-                <div className='flex flex-col justify-center items-center'>  
+                <div className='flex flex-col mt-20 justify-center items-center'>  
                     <motion.p
                         variants={fadeIn('up', 'tween', 0.2, 1)}
-                        className="text-center font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-white"
+                        className="text-center font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-off-white"
                     >
-                        Read more about our full services and business model
+                        Read more about our services and offerings
                     </motion.p>   
                     <div className='relative'>
                         <motion.div 
                             variants={fadeIn('up', 'tween', 0.2, 1)}
-                            className='sm:mt-8 md:mt-8 mt-5'
+                            className='mt-5'
                         >
-                            <button className='bg-[#4AA1CF] hover:bg-[#67B4DC] text-off-white py-2 px-6 items-center flex flex-row rounded duration-500'>
-                                <a className= "text-sm sm:text-l md:text-xl font-bold text-white cursor-pointer " href="https://jacobclayton.gitbook.io/bridgr-services/bridgr-collective/partner-program">
+                            <button className='bridgr-blue hover:bg-blue-800 py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
+                                <a className= "text-sm sm:text-l md:text-xl font-normal text-off-white cursor-pointer " href="https://docs.bridgr.xyz">
                                     Whitepaper</a><Image src="/book.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-4" width={20} height={20} />
                             </button>
                         </motion.div>
                     </div>
                 </div>
-            </div> */}
+
             </motion.div>
         </section>
     );

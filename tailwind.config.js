@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const { fontFamily } = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: [
     './app/**/*.{html,js,jsx}',
@@ -8,10 +11,12 @@ module.exports = {
   ],
   mode: 'jit',
   theme: {
-    fontFamily: {
-      sans: ['Helvetica Neue', 'sans-serif'],
-    },
     extend: {
+      fontFamily: {
+        montserrat: ['var(--font-montserrat)', ...fontFamily.sans],
+        poppins: ['var(--font-poppins)', fontFamily.sans],
+        urbanist: ['var(--font-urbanist)', fontFamily.sans],
+      },
       colors: {
         'off-white' : '#EDEFF4',
         'primary-black': '#18181c',

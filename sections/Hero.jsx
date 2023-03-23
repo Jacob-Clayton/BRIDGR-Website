@@ -6,6 +6,18 @@ import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
 import { fadeIn, staggerContainer, textVariant } from '../utils/motion';
 import { useInView } from 'react-intersection-observer';
+import { Montserrat, Poppins } from '@next/font/google'
+
+const montserrat = Montserrat({
+	subsets: ['latin'],
+	variable: '--font-montserrat'
+})
+
+const poppins = Poppins({
+	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+	subsets: ['latin'],
+	variable: '--font-poppins'
+})
 
 
 const Hero = () => {
@@ -14,7 +26,7 @@ const Hero = () => {
 
   return (
     <div className="bg-image">
-    <section id="Home" className={`h-screen flex sm:flex-row flex-col mx-auto text-center sm:text-left ${styles.innerWidth}`}>
+    <section id="Home" className={`h-screen flex sm:flex-row flex-col mx-auto text-center sm:text-left ${styles.innerWidth} ${montserrat.variable} font-montserrat`}>
 
       <motion.div 
         ref={ref}
@@ -37,7 +49,7 @@ const Hero = () => {
               variants={fadeIn('up', 'tween', 0.2, 1)}
               className= {`${styles.xPaddings} sm:mt-8 md:mt-10 font-normal text-center mt-5 lg:max-w-[550px] max-w-[500px] 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[17px] sm:text-[16px] text-[15px] sm:text-left text-off-white`}
             >
-              A collective of Web3 companies offering our combined services and communities to accelerate your growth.
+              A collective of Web3 companies offering our combined services and communities to help you grow.
             </motion.p>
 
             <div className='flex flex-row justify-center sm:justify-start'>
@@ -45,16 +57,16 @@ const Hero = () => {
                 variants={fadeIn('up', 'tween', 0.2, 1)}
                 className='2xl:pl-0 px-6 sm:pr-8 pr-4 sm:mt-8 md:mt-10 mt-5'
               >
-                  <button className='bg-blue-700 hover:bg-blue-600 text-off-white py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
+                  <button className='bridgr-blue hover:bg-blue-800 text-off-white py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
                     <a className= "text-sm sm:text-l md:text-xl font-bold hover:text-white duration-400 cursor-pointer " href="https://t.me/bridgr">
-                      Join Us</a><Image src="/telegram.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-4" width={20} height={20} />
+                      Join us</a><Image src="/telegram.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-4" width={20} height={20} />
                   </button>
               </motion.div>
               <motion.div 
                 variants={fadeIn('up', 'tween', 0.2, 1)}
                 className='sm:mt-8 md:mt-10 mt-5'
               >
-                  <button className='bg-blue-700 hover:bg-blue-600 text-off-white py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
+                  <button className='bridgr-blue hover:bg-blue-800 text-off-white py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
                     <a className= "text-sm sm:text-l md:text-xl font-bold hover:text-white duration-400 cursor-pointer " href="mailto:bridgrxyz@gmail.com">
                       Contact</a><Image src="/email.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-4" width={20} height={20} />
                   </button>

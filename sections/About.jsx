@@ -6,6 +6,13 @@ import Image from 'next/image';
 import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
 import { fadeIn, staggerContainer, footerVariants } from '../utils/motion';
+import { Urbanist } from '@next/font/google';
+
+const urbanist = Urbanist({
+  subsets: ['latin'],
+  variable: '--font-urbanist',
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+})
 
 
 const About = () => {
@@ -22,44 +29,31 @@ const About = () => {
         className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
       >
         {/* <TitleText title={<>About Us</>} textStyles="text-center" /> */}
-      <motion.div className='flex flex-row'>
+      <motion.div 
+        className='flex flex-row w-full mt-20 mb-20'
+        variants={fadeIn('up', 'tween', 0.2, 1)}
+      >
         <div className='flex-1'>
-          <motion.p
-            variants={fadeIn('up', 'tween', 0.2, 1)}
-            className="mt-10 flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px] text-center text-secondary-white"
-          >
-            <span class="mb-2 text-5xl text-off-white font-extrabold">90%</span>
-            of Web3 companies will fail
-          </motion.p>
+          <p className=" flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px] text-center text-secondary-white">
+            <span class="mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-bold">100,000<span className='ml-1 xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-md'>+</span></span>
+            Combined community
+          </p>
+        </div>
+
+        <div className='flex-1 px-2'>
+          <p className=" flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white">
+            <span class="mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-bold">10</span>
+            Web3 companies
+          </p>
         </div>
 
         <div className='flex-1'>
-          <motion.p
-            variants={fadeIn('up', 'tween', 0.2, 1)}
-            className="mt-10 flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
-          >
-            <span class="mb-2 text-5xl text-off-white font-extrabold">100%</span>
-            of those lack a community
-          </motion.p>
-        </div>
-
-        <div className='flex-1'>
-          <motion.p
-            variants={fadeIn('up', 'tween', 0.2, 1)}
-            className="mt-10 flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
-          >
-            <span class="mb-2 text-5xl text-off-white font-extrabold">BRIDGR</span>
-            is a collective of Web3 companies working together to help you succeed
-          </motion.p>
+          <p className=" flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white">
+            <span class={`${urbanist.variable} font-urbanist mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-extrabold`}>BRIDGR</span>
+            Collective of Web3 companies
+          </p>
         </div>
       </motion.div>
-
-      <motion.p
-          variants={fadeIn('up', 'tween', 0.2, 1)}
-          className="mt-20 font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
-        >
-          Join BRIDGR to gain access to all our partner's services, communities and network.
-        </motion.p>
         
         <motion.div 
           variants={footerVariants}
@@ -67,7 +61,7 @@ const About = () => {
           whileInView="show"
           className='relative'
         >
-        <div className="mt-20">
+        <div className="mt-20 mb-20">
         <TypingText title="| Partners" textStyles="text-left" />
         {/* <p className="flex-1 font-thin xl:text-[18px] lg:text-[17px] md:text-[16px] sm:text-[15px] text-[14px] text-secondary-white leading-[32.4px]">
           Companies sharing their services and community under the BRIDGR umbrella.
@@ -192,7 +186,7 @@ const About = () => {
             </a>
           </div>
 
-      <div className="mt-10">
+      {/* <div className="mt-10">
         <TypingText title="| Friends" textStyles="text-left" />
           <div className='mt-5 place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
             
@@ -210,12 +204,7 @@ const About = () => {
               </Tooltip>
             </a>
 
-            {/* <Tooltip message={"✨ Coming soon!"}>
-              <button>Subscribe</button>
-            </Tooltip> */}
-
-
-            {/* <a className="p-1 col-span-1" href='https://twitter.com/youplaceapp'>
+            <a className="p-1 col-span-1" href='https://twitter.com/youplaceapp'>
               <Image 
                 src='/youplacewhite.png' 
                 alt="You Place" 
@@ -225,12 +214,10 @@ const About = () => {
                 width={1000}
                 height={850}
               />
-            </a> */}
+            </a>
 
           </div>
-        </div>
-
-
+        </div> */}
         </div>
       </motion.div>
       </motion.div>

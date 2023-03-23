@@ -25,8 +25,8 @@ const Team = () => {
           className={`${styles.innerWidth} mt-10 font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white`}
         >
           Experienced Web3 professionals with capabilities spanning entrepreneurship, 
-          fundraising, full stack development, game design, metaverse engineering, crypto lawyers, 
-          blockchain university lecturers, NFT artists, solidity developers, marketing, community and project management.
+          fundraising, full stack development, web design, game design, metaverse engineering, crypto law, 
+          university blockchain lecturing, NFT art creation, blockchain development, marketing, community management and project management.
         </motion.p>
         
         <motion.div 

@@ -5,6 +5,24 @@ import '../styles/globals.css';
 import 'tailwindcss/tailwind.css';
 import { useEffect } from 'react'
 import { pageview, GA_TRACKING_ID } from '../lib/analytics'
+import { Montserrat, Poppins, Urbanist } from '@next/font/google'
+
+const montserrat = Montserrat({
+	subsets: ['latin'],
+	variable: '--font-montserrat'
+})
+
+const poppins = Poppins({
+	subsets: ['latin'],
+	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+	variable: '--font-poppins'
+})
+
+const urbanist = Urbanist({
+	subsets: ['latin'],
+	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+	variable: '--font-urbanist',
+  })
 
 const MyApp = ({ Component, pageProps }) => {
   const router = useRouter()
@@ -47,10 +65,10 @@ const MyApp = ({ Component, pageProps }) => {
 			<title>BRIDGR</title>
 			<meta property="og:title" content="BRIDGR" key="title" />
 		</Head>
-		<>
-		<Analytics />
-		<Component {...pageProps} />
-		</>
+		<main className={`${montserrat.variable} font-montserrat`}>
+			<Analytics />
+			<Component {...pageProps} />
+		</main>
 	</>
 	)
 }

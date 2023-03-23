@@ -46,8 +46,8 @@ const CarouselElement = () => {
             className="relative flex-1 flex justify-center items-center"
         >
         <Image
-            src="/planet-09.jpeg"
-            alt="planet-09"
+            src="/kishor-talk.jpeg"
+            alt="kishor"
             className="w-full lg:block hidden lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
             width={1200}
             height={900}
@@ -93,8 +93,8 @@ const CarouselElement = () => {
             className="relative flex-1 flex justify-center items-center"
         >
         <Image
-            src="/planet-09.jpeg"
-            alt="planet-09"
+            src="/kishor-talk.jpeg"
+            alt="kishor"
             className="w-full lg:block hidden lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
             width={1200}
             height={900}
@@ -140,8 +140,8 @@ const CarouselElement = () => {
             className="relative flex-1 flex justify-center items-center"
         >
             <Image
-                src="/planet-09.jpeg"
-                alt="planet-09"
+                src="/kishor-talk.jpeg"
+                alt="kishor"
                 className="w-full lg:block hidden lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
                 width={1200}
                 height={900}
