@@ -29,40 +29,16 @@ const About = () => {
         className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
       >
         {/* <TitleText title={<>About Us</>} textStyles="text-center" /> */}
-        <div className='place-self-start mt-20'>
-          <TypingText title="| Problem" textStyles="text-left" />
-        </div>
         <motion.div 
-          className='w-full flex flex-row items-center mt-5 mb-10'
+          className='w-full flex justify-center mt-20 mb-20'
           variants={fadeIn('up', 'tween', 0.2, 1)}
         >
-
-          <div className='flex-1'>
-            <p className=" flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px] text-center text-secondary-white">
-              <span class="mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-bold">$94<span className='ml-1 xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-md'>b</span></span>
-              raised by Web3 companies
-            </p>
-          </div>
-
-          <div className='flex-1'>
-            <p className=" flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px] text-center text-secondary-white">
-              and yet
-            </p>
-          </div>
-
-          <div className='flex-1'>
-            <p className=" flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px] text-center text-secondary-white">
-              <span class="mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-bold">90<span className='ml-1 xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-md'>%</span></span>
-              of Web3 companies fail
-            </p>
-          </div>
+          <p className='font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white'>
+            Web3 companies raised $94b since 2020 and yet 92% fail. BRIDGR is a collective of Web3 companies offering a unique collaborative platform to accelerate your Web3 growth and help you become a successful business.
+          </p>
         </motion.div>
-
-        <div className='place-self-start mt-20'>
-          <TypingText title="| Solution" textStyles="text-left" />
-        </div>
         <motion.div 
-          className="mx-auto flex flex-row w-full mt-5 mb-20"
+          className="mx-auto flex flex-row w-full mt-20 mb-20"
           variants={fadeIn('up', 'tween', 0.2, 1)}
         >
 
@@ -249,6 +225,7 @@ const About = () => {
           </div>
         </div> */}
         </div>
+
       </motion.div>
       </motion.div>
     </section>
