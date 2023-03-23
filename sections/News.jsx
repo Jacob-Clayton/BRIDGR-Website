@@ -16,12 +16,12 @@ const News = () => {
                         <Image
                             src="/balinews.jpg"
                             alt="bali event"
-                            className="lg:w-[200px] lg:h-[180px] w-[150px] h-[130px] rounded-[32px] object-cover"
+                            className="mx-auto lg:w-[200px] lg:h-[180px] w-[150px] h-[130px] rounded-[32px] object-cover"
                             width={220} height={200}
                         />
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
-                                <h4 className="font-normal text-[17px] sm:text-[19px] md:text-[21px] lg:text-[22px] xl:text-[24px] text-white">
+                                <h4 className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
                                     Beachside in Bali </h4>
                                 <p className="mt-[16px] font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-secondary-white">
                                     We went all tropical and decided to throw a huge red carpet event at the Lighthouse Studios Bali on 
@@ -39,12 +39,12 @@ const News = () => {
                         <Image
                             src="/singaporefeb.jpg"
                             alt="singapore event"
-                            className="lg:w-[200px] lg:h-[180px] w-[150px] h-[130px] rounded-[32px] object-cover"
+                            className="mx-auto lg:w-[200px] lg:h-[180px] w-[150px] h-[130px] rounded-[32px] object-cover"
                             width={220} height={200}
                         />
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
-                                <h4 className="font-normal text-[17px] sm:text-[19px] md:text-[21px] lg:text-[22px] xl:text-[24px] text-white">
+                                <h4 className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
                                     Singapore Social</h4>
                                 <p className="mt-[16px] font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-secondary-white">
                                     Singapore's first NFT bar, The Parlour Singapore, hosted another fantastic sold out 'WEB3 SOCIAL' on 
@@ -62,12 +62,12 @@ const News = () => {
                         <Image
                             src="/istanbulnews.jpg"
                             alt="istanbul event"
-                            className="lg:w-[200px] lg:h-[180px] w-[150px] h-[130px] rounded-[32px] object-cover"
+                            className="mx-auto lg:w-[200px] lg:h-[180px] w-[150px] h-[130px] rounded-[32px] object-cover"
                             width={220} height={200}
                         />
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
-                                <h4 className="font-normal text-[17px] sm:text-[19px] md:text-[21px] lg:text-[22px] xl:text-[24px] text-white">
+                                <h4 className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
                                     Istanbul Blockchain Week</h4>
                                 <p className="mt-[16px] font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-secondary-white">
                                     BRIDGR hosted the official Blockchain Week afterparty at one of our good friend's bar, Youplace, on 

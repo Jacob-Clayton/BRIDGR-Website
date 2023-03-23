@@ -29,31 +29,64 @@ const About = () => {
         className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
       >
         {/* <TitleText title={<>About Us</>} textStyles="text-center" /> */}
-      <motion.div 
-        className='flex flex-row w-full mt-20 mb-20'
-        variants={fadeIn('up', 'tween', 0.2, 1)}
-      >
-        <div className='flex-1'>
-          <p className=" flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px] text-center text-secondary-white">
-            <span class="mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-bold">100,000<span className='ml-1 xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-md'>+</span></span>
-            Combined community
-          </p>
+        <div className='place-self-start mt-20'>
+          <TypingText title="| Problem" textStyles="text-left" />
         </div>
+        <motion.div 
+          className='w-full flex flex-row items-center mt-5 mb-10'
+          variants={fadeIn('up', 'tween', 0.2, 1)}
+        >
 
-        <div className='flex-1 px-2'>
-          <p className=" flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white">
-            <span class="mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-bold">10</span>
-            Web3 companies
-          </p>
-        </div>
+          <div className='flex-1'>
+            <p className=" flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px] text-center text-secondary-white">
+              <span class="mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-bold">$94<span className='ml-1 xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-md'>b</span></span>
+              raised by Web3 companies
+            </p>
+          </div>
 
-        <div className='flex-1'>
-          <p className=" flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white">
-            <span class={`${urbanist.variable} font-urbanist mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-extrabold`}>BRIDGR</span>
-            Collective of Web3 companies
-          </p>
+          <div className='flex-1'>
+            <p className=" flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px] text-center text-secondary-white">
+              and yet
+            </p>
+          </div>
+
+          <div className='flex-1'>
+            <p className=" flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px] text-center text-secondary-white">
+              <span class="mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-bold">90<span className='ml-1 xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-md'>%</span></span>
+              of Web3 companies fail
+            </p>
+          </div>
+        </motion.div>
+
+        <div className='place-self-start mt-20'>
+          <TypingText title="| Solution" textStyles="text-left" />
         </div>
-      </motion.div>
+        <motion.div 
+          className="mx-auto flex flex-row w-full mt-5 mb-20"
+          variants={fadeIn('up', 'tween', 0.2, 1)}
+        >
+
+          <div className='flex-1'>
+            <p className=" flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white">
+              <span class={`${urbanist.variable} font-urbanist mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-extrabold`}>BRIDGR</span>
+              Web3 collective
+            </p>
+          </div>
+
+          <div className='flex-1 px-2'>
+            <p className=" flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white">
+              <span class="mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-bold">10</span>
+              Web3 companies
+            </p>
+          </div>
+
+          <div className='flex-1'>
+            <p className=" flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px] text-center text-secondary-white">
+              <span class="mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-bold">100,000<span className='ml-1 xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-md align-middle'>+</span></span>
+              Combined community
+            </p>
+          </div>
+        </motion.div>
         
         <motion.div 
           variants={footerVariants}
@@ -63,9 +96,6 @@ const About = () => {
         >
         <div className="mt-20 mb-20">
         <TypingText title="| Partners" textStyles="text-left" />
-        {/* <p className="flex-1 font-thin xl:text-[18px] lg:text-[17px] md:text-[16px] sm:text-[15px] text-[14px] text-secondary-white leading-[32.4px]">
-          Companies sharing their services and community under the BRIDGR umbrella.
-        </p> */}
           <div className=' place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
             <a className="p-1 col-span-1" href='https://apegang.art/'>
               <Tooltip message={"NFT project founded in May 2021 with a team of Web3 developers, solidity developers, NFT artists and web developers."}>
