@@ -29,11 +29,11 @@ const Story = () => {
                     variants={fadeIn('up', 'tween', 0.2, 1)}
                     className={`${styles.innerWidth} mx-auto mt-10 flex md:flex-row flex-col md:gap-10`}
                 >
-                    <div className='md:w-[70%] mx-auto'>
+                    <div className='mx-auto'>
                         {/* <TypingText title="Story" textStyles="text-center" /> */}
                         <motion.p
                             variants={fadeIn('up', 'tween', 0.2, 1)}
-                            className="mt-2 border-[1px] border-white border-opacity-[20%] p-5 rounded-2xl mb-[50px] font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-left text-secondary-white"
+                            className="mb-10 font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
                         >
                             Our founders love Web3 and the potential of decentralized online systems. 
                             Unfortunately, we've witnessed good people losing time, energy, and resources to shady players. 
