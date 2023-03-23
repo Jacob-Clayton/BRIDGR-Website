@@ -26,7 +26,7 @@ const Services = () => {
                     variants={fadeIn('up', 'tween', 0.2, 1)}
                     initial={isLgScreen ? 'hidden' : 'visible'}
                     whileInView="show"
-                    className="font-light 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
+                    className="font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
                 >
                     Join the BRIDGR collective as a Friend or full Member, either way you'll become part of the family.
                 </motion.p>

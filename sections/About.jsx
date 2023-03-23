@@ -21,20 +21,44 @@ const About = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
       >
-        <TitleText title={<>About Us</>} textStyles="text-center" />
+        {/* <TitleText title={<>About Us</>} textStyles="text-center" /> */}
+      <motion.div className='flex flex-row'>
+        <div className='flex-1'>
+          <motion.p
+            variants={fadeIn('up', 'tween', 0.2, 1)}
+            className="mt-10 flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px] text-center text-secondary-white"
+          >
+            <span class="mb-2 text-5xl text-off-white font-extrabold">90%</span>
+            of Web3 companies will fail
+          </motion.p>
+        </div>
 
-        <motion.p
+        <div className='flex-1'>
+          <motion.p
+            variants={fadeIn('up', 'tween', 0.2, 1)}
+            className="mt-10 flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
+          >
+            <span class="mb-2 text-5xl text-off-white font-extrabold">100%</span>
+            of those lack a community
+          </motion.p>
+        </div>
+
+        <div className='flex-1'>
+          <motion.p
+            variants={fadeIn('up', 'tween', 0.2, 1)}
+            className="mt-10 flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
+          >
+            <span class="mb-2 text-5xl text-off-white font-extrabold">BRIDGR</span>
+            is a collective of Web3 companies working together to help you succeed
+          </motion.p>
+        </div>
+      </motion.div>
+
+      <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}
-          className="mt-10 font-light 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
+          className="mt-20 font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
         >
-          Looking to accelerate your growth in the world of Web3,
-          or make the jump from Web2?
-          <br/>Look no further than BRIDGR. We are a
-          <span className="font-[500] text-white"> collective </span> 
-          of Web3 companies offering a unique 
-          <span className="font-[500] text-white"> collaborative </span> platform to accelerate your Web3 growth. 
-          By partnering with us you'll gain access to our partner's combined services, communities and network.
-          <br/> Let BRIDGR be the bridge to your Web3 success story.
+          Join BRIDGR to gain access to all our partner's services, communities and network.
         </motion.p>
         
         <motion.div 

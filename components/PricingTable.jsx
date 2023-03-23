@@ -17,14 +17,14 @@ const PricingTable = () => {
                 whileInView="show"
                 className={`${styles.innerWidth} flex flex-col md:flex-row justify-center mx-auto`}
             >
-                <div className="mt-10 xl:mx-4 mx-2">
+                <div className="mt-10 xl:mx-4 mx-2 p-2">
                     <div className="bg-white rounded-lg h-full 2xl:w-[330px] xl:w-[320px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
                         <div className="px-4 py-6">
                             <div className="">
                                     <div className="bg-white rounded-lg p-6 sm:px-20 md:px-2 lg:px-8 xl:px-10">
                                     <h4 className="text-3xl font-normal text-center text-primary-black mb-4">Friend</h4>
                                     <div class="flex justify-center items-baseline my-8">
-                                        <span class="mr-2 text-4xl font-extrabold">$200</span>
+                                        <span class="mr-2 text-4xl text-primary-black font-extrabold">$200</span>
                                         <span class="text-gray-500 dark:text-gray-400">/ lifetime</span>
                                     </div>
                                     <p className="text-gray-700 mb-2">
@@ -49,7 +49,7 @@ const PricingTable = () => {
                                     <div className="bg-white rounded-lg p-6 sm:px-20 md:px-2 lg:px-8 xl:px-10 ">
                                     <h4 className="text-3xl font-normal text-center text-primary-black mb-4">Member</h4>
                                     <div class="flex justify-center items-baseline my-8">
-                                        <span class="mr-2 text-4xl font-extrabold">$2000</span>
+                                        <span class="mr-2 text-4xl text-primary-black font-extrabold">$2000</span>
                                         <span class="text-gray-500 dark:text-gray-400">/ year</span>
                                     </div>
                                     <p className="text-gray-700 mb-2">
@@ -98,14 +98,14 @@ const PricingTable = () => {
                     </div>
                 </div>
 
-                <div className="mt-10 xl:mx-4 mx-2">
+                <div className="mt-10 xl:mx-4 mx-2 p-2">
                     <div className="bg-white rounded-lg h-full 2xl:w-[330px] xl:w-[320px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
                         <div className="px-4 py-6">
                             <div className="">
                                     <div className="bg-white rounded-lg p-6 sm:px-20 md:px-2 lg:px-8 xl:px-10">
                                     <h4 className="text-3xl font-normal text-center text-primary-black mb-4">Custom</h4>
                                     <div class="flex justify-center items-baseline my-8">
-                                        <span class="mr-2 text-4xl font-extrabold">$</span>
+                                        <span class="mr-2 text-4xl text-primary-black font-extrabold">$</span>
                                         <span class="text-gray-500 dark:text-gray-400">/ hour</span>
                                     </div>
                                     <p className="text-gray-700 mb-2">

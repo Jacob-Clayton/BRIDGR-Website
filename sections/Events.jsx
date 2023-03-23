@@ -24,7 +24,7 @@ const Events = () => {
           variants={fadeIn('up', 'tween', 0.2, 1)}
           initial={isLgScreen ? 'hidden' : 'visible'}
           whileInView="show"
-          className="mt-10 font-light 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
+          className="mt-10 font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
         >
           Come along to a 'WEB3 SOCIAL' event near you and network with industry professionals from around the world over drinks.
           Follow us on <a href='http://twitter.com/brizgrxyz' className='text-white'> Twitter </a> to stay up to date with our events.

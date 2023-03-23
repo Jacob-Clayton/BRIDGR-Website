@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Eudoxus Sans", sans-serif;
+  font-family: "Montserrat", "Poppins" sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -71,7 +71,7 @@
 
 
 .bg-image {
-  background-image: linear-gradient(to bottom, transparent, transparent, transparent, rgb(40 88 176 )), url('/lightbluehorizontal.jpg');
+  background-image: linear-gradient(to bottom, transparent, transparent, transparent, rgb(40 88 176)), url('/lightbluehorizontal.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

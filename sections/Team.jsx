@@ -22,7 +22,7 @@ const Team = () => {
         <TitleText title={<>The Team</>} textStyles="text-center" />
         <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}
-          className={`${styles.innerWidth} mt-10 font-light 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white`}
+          className={`${styles.innerWidth} mt-10 font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white`}
         >
           Experienced Web3 professionals with capabilities spanning entrepreneurship, 
           fundraising, full stack development, game design, metaverse engineering, crypto lawyers, 
