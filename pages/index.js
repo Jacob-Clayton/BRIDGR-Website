@@ -34,13 +34,9 @@ const Home = () => (
       </div>
       <div className='bg-primary-lightBlue'>
         <News /> 
+        <Contact/>
+        <Footer />
       </div>
-      <div className='bg-primary-blue'>
-        {/* <Contact/> */}
-      </div>
-    </div>
-    <div className='bg-primary-lightBlue'>
-      <Footer />
     </div>
   </>
 );
