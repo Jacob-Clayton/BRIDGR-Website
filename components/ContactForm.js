@@ -33,7 +33,7 @@ const ContactForm = () => {
 		if (inputs.name && inputs.email && inputs.message) {
 			setForm({ state: 'loading' })
 			try {
-				const res = await fetch(emailServerUrl, {
+				const res = await fetch('/api/contact', {
 					method: 'POST',
 					headers: {
 						'Content-Type': 'application/json',
