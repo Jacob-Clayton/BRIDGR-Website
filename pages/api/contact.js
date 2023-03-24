@@ -1,4 +1,8 @@
 import nodemailer from 'nodemailer'
+import bodyParser from 'body-parser';
+
+app.use(bodyParser.json());
+
 
 export default async function mailer(req, res) {
 	const { name, email, message } = req.body
