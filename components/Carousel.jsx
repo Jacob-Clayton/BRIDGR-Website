@@ -54,7 +54,7 @@ const CarouselElement = () => {
             height={900}
         />
 
-            <motion.div
+            {/* <motion.div
                 variants={zoomIn(0.4, 1)}
                 className="lg:block hidden absolute -left-[10%] top-[3%]"
             >
@@ -65,7 +65,7 @@ const CarouselElement = () => {
                         className="w-[155px] h-[155px] object-contain"
                     />
                 </a>
-            </motion.div>
+            </motion.div> */}
         </motion.div>
     </motion.div>
 
@@ -101,7 +101,7 @@ const CarouselElement = () => {
                 height={900}
             />
 
-            <motion.div
+            {/* <motion.div
                 variants={zoomIn(0.4, 1)}
                 className="lg:block hidden absolute -left-[10%] top-[3%]"
             >
@@ -112,7 +112,7 @@ const CarouselElement = () => {
                     className="w-[155px] h-[155px] object-contain"
                 />
             </a>
-            </motion.div>
+            </motion.div> */}
         </motion.div>
     </motion.div>
 
@@ -147,7 +147,7 @@ const CarouselElement = () => {
                 height={900}
             />
 
-        <motion.div
+        {/* <motion.div
             variants={zoomIn(0.4, 1)}
             className="lg:block hidden absolute -left-[10%] top-[3%]"
         >
@@ -158,7 +158,7 @@ const CarouselElement = () => {
                     className="w-[155px] h-[155px] object-contain"
                 />
             </a>
-        </motion.div>
+        </motion.div> */}
         </motion.div>
     </motion.div>
 
