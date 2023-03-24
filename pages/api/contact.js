@@ -1,15 +1,7 @@
-import express from 'express'
 import nodemailer from 'nodemailer'
 
-const app = express()
-
-// Use the built-in middleware to parse JSON and URL-encoded bodies
-app.use(express.json())
-app.use(express.urlencoded({ extended: true }))
-
-// Define the endpoint
-app.post('/api/contact', async (req, res) => {
-  const { name, email, message } = req.body
+export default async function contact(req, res) {
+	const { name, email, message } = req.body
 
 	const transporter = nodemailer.createTransport({
 		host: 'smtp.gmail.com',
@@ -36,5 +28,3 @@ app.post('/api/contact', async (req, res) => {
 	}
 	return res.status(200).json({ error: '' })
 }
-)
-
