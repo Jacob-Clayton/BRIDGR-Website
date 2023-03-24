@@ -20,7 +20,7 @@ export default async function mailer(req, res) {
 	try {
 		await transporter.sendMail({
 			from: email,
-			to: 'jacobeclayton@gmail.com',
+			to: 'bridgr.web3@gmail.com',
 			subject: `BRIDGR Contact form submission from ${name}`,
 			html: `	<h3>Contact form submission from ${name}</h3><br>
         			<p><strong>Email: </strong> ${email}</p><br>
