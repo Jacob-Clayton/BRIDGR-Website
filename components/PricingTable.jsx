@@ -58,7 +58,7 @@ const PricingTable = () => {
                 <div className="mt-10 xl:mx-6 md:mx-4 mx-2 rounded-2xl magic-border p-1">
                     <div className="relative bg-white rounded-2xl h-full 2xl:w-[330px] xl:w-[320px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
 
-                    <div class="absolute right-0 top-[162px] magic-border w-full h-[1.8rem] flex justify-center items-center text-white font-medium lg:text-[0.98rem] md:text-[0.8rem] text-md transform skew-y-3">
+                    <div class="absolute right-0 top-[163px] magic-border w-full h-[1.6rem] flex justify-center items-center text-white font-medium lg:text-[0.98rem] md:text-[0.8rem] text-md transform skew-y-3">
                         <span className="text-center">Reduced from $2000 until June</span>
                     </div>
 
