@@ -1,10 +1,7 @@
 import Head from 'next/head';
-import Script from 'next/script'
-import { useRouter } from 'next/router'
+import { Analytics } from '@vercel/analytics/react';
 import '../styles/globals.css';
 import 'tailwindcss/tailwind.css';
-import { useEffect } from 'react'
-import { pageview, GA_TRACKING_ID } from '../lib/analytics'
 import { Montserrat, Poppins, Urbanist } from '@next/font/google'
 
 const montserrat = Montserrat({
@@ -25,40 +22,6 @@ const urbanist = Urbanist({
   })
 
 const MyApp = ({ Component, pageProps }) => {
-  const router = useRouter()
-	const isProduction = process.env.NODE_ENV === 'production'
-
-  const Analytics = () =>
-		isProduction && (
-			<>
-				<Script
-					strategy='afterInteractive'
-					src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-				/>
-
-				<Script strategy='afterInteractive' id='ga-script'>
-					{`
-						window.dataLayer = window.dataLayer || [];
-						function gtag(){dataLayer.push(arguments);}
-						gtag('js', new Date());
-						gtag('config', '${GA_TRACKING_ID}', {
-							page_path: window.location.pathname,
-						});
-					`}
-				</Script>
-			</>
-		)
-
-	useEffect(() => {
-		const handleRouteChange = (url) => {
-			pageview(url)
-		}
-		router.events.on('routeChangeComplete', handleRouteChange)
-		return () => {
-			router.events.off('routeChangeComplete', handleRouteChange)
-		}
-	}, [router.events])
-
 	return (
 	<>
 		<Head>
@@ -66,8 +29,8 @@ const MyApp = ({ Component, pageProps }) => {
 			<meta property="og:title" content="BRIDGR" key="title" />
 		</Head>
 		<main className={`${montserrat.variable} font-montserrat`}>
-			<Analytics />
 			<Component {...pageProps} />
+			<Analytics />
 		</main>
 	</>
 	)
