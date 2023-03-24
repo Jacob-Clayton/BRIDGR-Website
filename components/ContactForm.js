@@ -40,8 +40,10 @@ const ContactForm = () => {
 					body: JSON.stringify(inputs),
 				})
 
+				console.log('Response:', res);
+
 				const { error } = await res.json()
-				
+
 				if (error) {
 					setForm({
 						state: 'error',
@@ -63,6 +65,7 @@ const ContactForm = () => {
 			} catch (error) {
 				console.log(error);
 				setForm({
+					state: 'error',
 					message: 'Something went wrong',
 				})
 			}
