@@ -1,6 +1,6 @@
 import nodemailer from 'nodemailer'
 
-const mailer = async (req, res) => {
+export default async function mailer(req, res) {
 	const { name, email, message } = req.body
 
 	const transporter = nodemailer.createTransport({
@@ -28,5 +28,3 @@ const mailer = async (req, res) => {
 	}
 	return res.status(200).json({ error: '' })
 }
-
-export default mailer
