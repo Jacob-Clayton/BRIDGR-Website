@@ -2,6 +2,7 @@ import { useState } from 'react'
 import LoadingSpinner from './LoadingSpinner'
 import { ErrorMessage, SuccessMessage } from './Message'
 
+
 const ContactForm = () => {
 	const [form, setForm] = useState(false)
 	const [inputs, setInputs] = useState({
@@ -32,7 +33,7 @@ const ContactForm = () => {
 		if (inputs.name && inputs.email && inputs.message) {
 			setForm({ state: 'loading' })
 			try {
-				const res = await fetch('/api/contact', {
+				const res = await fetch(emailServerUrl, {
 					method: 'POST',
 					headers: {
 						'Content-Type': 'application/json',
