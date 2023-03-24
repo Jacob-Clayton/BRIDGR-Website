@@ -48,7 +48,7 @@ const PricingTable = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="sm:px-20 px-4 mb-10">
+                        <div className="sm:px-20 md:px-6 lg:px-14 px-4 mb-10">
                             <InfoButton href='https://docs.bridgr.xyz/benefits/for-friends/community-access'>Read More</InfoButton>
                             <PriceButton href='mailto:bridgrxyz@gmail.com'>Register Interest</PriceButton>
                         </div>
@@ -56,16 +56,21 @@ const PricingTable = () => {
                 </div>
 
                 <div className="mt-10 xl:mx-6 md:mx-4 mx-2 rounded-2xl magic-border p-1">
-                    <div className="bg-white rounded-2xl h-full 2xl:w-[330px] xl:w-[320px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
+                    <div className="relative bg-white rounded-2xl h-full 2xl:w-[330px] xl:w-[320px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
+
+                    <div class="absolute right-0 top-[162px] magic-border w-full h-[1.8rem] flex justify-center items-center text-white font-medium lg:text-[0.98rem] md:text-[0.8rem] text-md transform skew-y-3">
+                        <span className="text-center">Reduced from $2000 until June</span>
+                    </div>
+
                         <div className="px-4 py-6">
                             <div className="font-medium">
                                     <div className="bg-white rounded-lg p-6 sm:px-20 md:px-2 lg:px-8 xl:px-10 ">
                                         <div className="magic-text2">
                                             <h4 className="text-4xl font-[700] text-center text-primary-black mb-4">Member</h4>
                                         </div>
-                                    <div class="flex justify-center items-baseline my-8">
-                                        <span class="mr-2 text-4xl text-primary-black font-extrabold">$2000</span>
-                                        <span class="text-gray-400 font-normal">/ year</span>
+                                    <div class="flex justify-center items-baseline my-8 relative">
+                                        <span class="mr-2 text-4xl text-primary-black font-extrabold z-10">$1800</span>
+                                        <span class="text-gray-400 font-normal z-10">/ year</span>                                    
                                     </div>
                                     <p className="text-gray-700 mb-2">
                                         <svg className="inline-block w-4 h-4 mr-2 fill-current text-blue-500" viewBox="0 0 30 30">
@@ -106,7 +111,7 @@ const PricingTable = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="sm:px-20 px-4 mb-10">
+                        <div className="sm:px-20 md:px-6 lg:px-14 px-4 mb-10">
                             <InfoButton href='https://docs.bridgr.xyz/benefits/for-members'>Read More</InfoButton>
                             <PriceButton href='mailto:bridgrxyz@gmail.com'>Register Interest</PriceButton>
                         </div>
@@ -132,7 +137,7 @@ const PricingTable = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="sm:px-20 px-4 mb-10">
+                        <div className="sm:px-20 md:px-6 lg:px-14 px-4 mb-10">
                             <InfoButton href='https://docs.bridgr.xyz/consultancy/web3-consultancy'>Read More</InfoButton>
                             <PriceButton href='mailto:bridgrxyz@gmail.com'>Contact Us</PriceButton>
                         </div>
