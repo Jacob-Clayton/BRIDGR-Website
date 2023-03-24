@@ -41,6 +41,10 @@ const ContactForm = () => {
 					body: JSON.stringify(inputs),
 				})
 
+				if (!res.ok) {
+					throw new Error('Network response was not ok')
+				}
+
 				console.log('Response:', res);
 
 				const { error } = await res.json()
