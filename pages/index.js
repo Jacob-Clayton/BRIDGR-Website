@@ -27,7 +27,7 @@ const Home = () => (
         <Services />
         <Events />
         <News /> 
-        <Contact/>
+        {/* <Contact/> */}
         <Footer />
       </div>
     </div>
