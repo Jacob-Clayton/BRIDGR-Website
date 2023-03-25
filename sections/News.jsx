@@ -19,21 +19,44 @@ const News = () => {
             <div className="gradient-02 overflow-visible z-0 lg:block hidden" />
             <div className={`${styles.innerWidth} mx-auto sm:mt-5 mt-0 flex flex-col`}>
             <TitleText title={<>News</>} textStyles="text-center" />
-                <div className="md:mt-10 mt-5 flex flex-col gap-[30px]">
+                <div className="md:mt-10 mt-5 flex flex-col gap-5">
+
+                    <div className="flex sm:flex-row flex-col gap-4">
+                        <Image
+                            src="/gamehaus.jpg"
+                            alt="nft nyc event"
+                            className="mx-auto lg:w-[180px] lg:h-[180px] w-[150px] h-[150px] rounded-[32px] object-cover"
+                            width={180} height={180}
+                        />
+                        <div className="w-full flex justify-between items-center">
+                            <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
+                                <h4 className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
+                                    NFT NYC </h4>
+                                <p className="mt-[16px] font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white">
+                                    We're hosting a party during NFT NYC with Manifest, the world’s first CryptoPunk NFT band on 
+                                    Apr 12th 2023.</p>
+                            </div>
+                            <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-comes-new-york-city-on-april-12th-during-nft-nyc-b10cc8f063f7'>
+                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white">
+                                        <img src="/arrow.svg" alt="arrow" className="w-[40%] h-[40%] object-contain"/> 
+                                </div>
+                            </a>  
+                        </div>
+                    </div>
 
                     <div className="flex sm:flex-row flex-col gap-4">
                         <Image
                             src="/balinews.jpg"
                             alt="bali event"
-                            className="mx-auto lg:w-[200px] lg:h-[180px] w-[150px] h-[130px] rounded-[32px] object-cover"
-                            width={220} height={200}
+                            className="mx-auto lg:w-[180px] lg:h-[180px] w-[150px] h-[150px] rounded-[32px] object-cover"
+                            width={180} height={180}
                         />
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
                                 <h4 className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
                                     Beachside in Bali </h4>
                                 <p className="mt-[16px] font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white">
-                                    We went all tropical and decided to throw a huge red carpet event at the Lighthouse Studios Bali on 
+                                    We hit the tropics for a red carpet event at the Lighthouse Studios with EDNS and Off-Chain on 
                                     Feb 24th 2023.</p>
                             </div>
                             <a href='https://twitter.com/Bridgrxyz/status/1625104846675386369?s=20'>
@@ -48,8 +71,8 @@ const News = () => {
                         <Image
                             src="/singaporefeb.jpg"
                             alt="singapore event"
-                            className="mx-auto lg:w-[200px] lg:h-[180px] w-[150px] h-[130px] rounded-[32px] object-cover"
-                            width={220} height={200}
+                            className="mx-auto lg:w-[180px] lg:h-[180px] w-[150px] h-[130px] rounded-[32px] object-cover"
+                            width={180} height={180}
                         />
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
@@ -71,8 +94,8 @@ const News = () => {
                         <Image
                             src="/istanbulnews.jpg"
                             alt="istanbul event"
-                            className="mx-auto lg:w-[200px] lg:h-[180px] w-[150px] h-[130px] rounded-[32px] object-cover"
-                            width={220} height={200}
+                            className="mx-auto lg:w-[180px] lg:h-[180px] w-[150px] h-[150px] rounded-[32px] object-cover"
+                            width={180} height={180}
                         />
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
