@@ -58,8 +58,8 @@ const PricingTable = () => {
                 <div className="mt-10 xl:mx-6 md:mx-4 mx-2 rounded-2xl magic-border p-1">
                     <div className="relative bg-white rounded-2xl h-full 2xl:w-[330px] xl:w-[320px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
 
-                    <div class="absolute right-0 top-[163px] magic-border w-full h-[1.6rem] flex justify-center items-center text-white font-medium lg:text-[0.98rem] md:text-[0.8rem] text-md transform skew-y-3">
-                        <span className="text-center">Reduced from $2000 until June</span>
+                    <div class="absolute right-0 top-[163px] magic-border w-full h-[1.6rem] flex justify-center items-center text-white font-medium xl:text-[0.95rem] lg:text-[0.89rem] md:text-[0.67rem] sm:text-lg text-[0.83rem] transform skew-y-3">
+                        <span className="text-center leading-none">Register Interest before June for 20% off</span>
                     </div>
 
                         <div className="px-4 py-6">
@@ -69,7 +69,7 @@ const PricingTable = () => {
                                             <h4 className="text-4xl font-[700] text-center text-primary-black mb-4">Member</h4>
                                         </div>
                                     <div class="flex justify-center items-baseline my-8 relative">
-                                        <span class="mr-2 text-4xl text-primary-black font-extrabold z-10">$1800</span>
+                                        <span class="mr-2 text-4xl text-primary-black font-extrabold z-10">$2000</span>
                                         <span class="text-gray-400 font-normal z-10">/ year</span>                                    
                                     </div>
                                     <p className="text-gray-700 mb-2">
@@ -125,7 +125,7 @@ const PricingTable = () => {
                                     <div className="bg-white rounded-lg p-6 sm:px-20 md:px-2 lg:px-8 xl:px-10">
                                     <h4 className="text-3xl font-medium text-center text-primary-black mb-4">Custom</h4>
                                     <div class="flex justify-center items-baseline my-8">
-                                        <span class="mr-2 text-4xl text-primary-black font-extrabold">$</span>
+                                        <span class="mr-2 text-4xl text-primary-black font-extrabold">$75+</span>
                                         <span class="text-gray-400 font-normal">/ hour</span>
                                     </div>
                                     <p className="text-gray-700 mb-2">

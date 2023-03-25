@@ -15,7 +15,8 @@ const Footer = () => {
       initial={isMdScreen ? 'hidden' : 'visible'}
       whileInView="show"
       className={`${styles.xPaddings} py-8 relative`}
-    >      
+    >
+    
       <div className="footer-gradient opacity-[60%] lg:block hidden" />
       <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
         <div className="flex flex-col">

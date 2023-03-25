@@ -18,8 +18,12 @@ const Home = () => (
       </div>
       <div className='bg-primary-lightBlue'>
         <Services />
+      </div>
+      <div className='bg-primary-darkBlue'>
         <Events />
         <News /> 
+      </div>
+      <div className='bg-primary-darkBlue'>
         {/* <Contact/> */}
         <Footer />
       </div>
