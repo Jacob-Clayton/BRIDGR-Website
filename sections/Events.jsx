@@ -63,7 +63,7 @@ const Events = () => {
 
           <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-comes-new-york-city-on-april-12th-during-nft-nyc-b10cc8f063f7'>
               <div className='absolute 2xl:top-[150px] 2xl:right-[810px] xl:top-[140px] xl:right-[840px] lg:top-[140px] lg:right-[650px] md:top-[120px] md:right-[530px] sm:top-[80px] sm:right-[380px] top-[10px] right-[250px] bg-[#4386FF] bg-opacity-90 shadow-2xl lg:w-[170px] md:w-[150px] sm:w-[130px] w-[110px] rounded-2xl md:p-4 sm:p-3 p-2'>
-                <p className='text-off-white font-bold lg:text-xl md:text-lg md:text-md text-sm'>In America<br/><span className='font-normal lg:text-lg md:text-md sm:text-sm text-xs'>New York City</span></p>
+                <p className='text-off-white font-bold lg:text-xl md:text-lg md:text-md text-sm'>In America:<br/><span className='font-normal lg:text-lg md:text-md sm:text-sm text-xs'>New York City</span></p>
               </div>
           </a>
 
