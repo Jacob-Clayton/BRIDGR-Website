@@ -118,33 +118,33 @@ const Navbar = () => {
               
               <div className='flex justify-end  mr-[2%]'>
                 <div className='lg:flex hidden'>
-                  <ul className="flex lg:text-md xl:text-[1.1rem] items-center font-medium text-off-white cursor-pointer">
+                  <ul className="flex gap-5 lg:text-md xl:text-[1.1rem] items-center font-medium text-off-white cursor-pointer">
                       {/* <li className="px-3 hover:text-white duration-500">
                         <a href="#Home">Home</a>
                       </li> */}
-                      <li className="px-3 hover:text-white duration-500">
+                      <li className="hover:text-white duration-500">
                         <a href="#About">About</a>
                       </li>
-                      <li className="px-3 hover:text-white duration-500">
+                      <li className="hover:text-white duration-500">
                         <a href="#Story">Story</a>
                       </li>
-                      <li className="px-3 hover:text-white duration-500">
+                      <li className="hover:text-white duration-500">
                         <a href="#Team">Team</a>
                       </li>
-                      <li className="px-3 hover:text-white duration-500">
+                      <li className="hover:text-white duration-500">
                         <a href="#Services">Pricing</a>
                       </li>
-                      <li className="px-3 hover:text-white duration-500">
+                      <li className="hover:text-white duration-500">
                         <a href="#Events">Events</a>
                       </li>
                       {/* <li className="px-3 hover:text-white duration-500">
                         <a href="#Contact">Contact</a>
                       </li> */}
-                      <li className="px-3 hover:text-white duration-500">
+                      <li className="hover:text-white duration-500">
                         <a href="https://docs.bridgr.xyz" className='flex flex-1'>Whitepaper<img src="/external-link.svg" className="sm:w-[12px] sm:h-[12px] w-[10px] h-[10px] ml-1"/></a>
                       </li>
                   </ul>
-                  <div className='h-9 w-[0.05rem] bg-white bg-opacity-30 mr-4'/>
+                  <div className='h-9 w-[1px] bg-white bg-opacity-30 mr-4 ml-3'/>
                   <div className="flex items-center gap-3">
                     <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' class='w-[19px] h-[19px] object-contain cursor-pointer'/></a>
                     <a href="https://t.me/bridgr"><img src='/telegram.svg' class='w-[19px] h-[19px] object-contain cursor-pointer'/></a>
