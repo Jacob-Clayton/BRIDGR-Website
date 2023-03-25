@@ -7,7 +7,7 @@ import { Button } from '../components'
 
 function MobileNav({open, setOpen}) {
   return (   
-    <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[45%] bg-primary-black bg-opacity-[95%] rounded-br-[10px] rounded-tl-[10px] rounded-bl-[10px] transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter  `}>
+    <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[50%] bg-primary-black bg-opacity-[95%] rounded-br-[10px] rounded-tl-[10px] rounded-bl-[10px] transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter  `}>
       <div className="z-100 flex flex-col items-center mt-[40%] sm:mt-[38%] md:mt-[35%] lg:mt-[25%]">
 
           <a 
@@ -65,11 +65,11 @@ function MobileNav({open, setOpen}) {
             <Button>Whitepaper</Button>
           </a>
           <div className="flex sm:gap-4 gap-2 fixed bottom-[12%]" id='socials'>
-            <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' className='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
-            <a href="https://t.me/bridgr"><img src='/telegram.svg' className='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
-            <a href="https://discord.com/invite/j2ayV98Dc2"><img src='/discord.svg' className='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
-            <a href="mailto:bridgrxyz@gmail.com"><img src='/email.svg' className='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
-            <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' className='w-[24px] h-[24px] object-contain cursor-pointer'/></a>
+            <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' className='w-[22px] h-[22px] object-contain cursor-pointer'/></a>
+            <a href="https://t.me/bridgr"><img src='/telegram.svg' className='w-[22px] h-[22px] object-contain cursor-pointer'/></a>
+            <a href="https://discord.com/invite/j2ayV98Dc2"><img src='/discord.svg' className='w-[22px] h-[22px] object-contain cursor-pointer'/></a>
+            <a href="mailto:bridgrxyz@gmail.com"><img src='/email.svg' className='w-[22px] h-[22px] object-contain cursor-pointer'/></a>
+            <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' className='w-[21px] h-[21px] object-contain cursor-pointer'/></a>
           </div>
       </div>  
     </div>
@@ -117,32 +117,41 @@ const Navbar = () => {
               </a>
               
               <div className='flex justify-end  mr-[2%]'>
-                <ul className="lg:flex hidden lg:text-md xl:text-[1.1rem] font-medium text-off-white cursor-pointer">
-                    {/* <li className="px-3 hover:text-white duration-500">
-                      <a href="#Home">Home</a>
-                    </li> */}
-                    <li className="px-3 hover:text-white duration-500">
-                      <a href="#About">About</a>
-                    </li>
-                    <li className="px-3 hover:text-white duration-500">
-                      <a href="#Story">Story</a>
-                    </li>
-                    <li className="px-3 hover:text-white duration-500">
-                      <a href="#Team">Team</a>
-                    </li>
-                    <li className="px-3 hover:text-white duration-500">
-                      <a href="#Services">Pricing</a>
-                    </li>
-                    <li className="px-3 hover:text-white duration-500">
-                      <a href="#Events">Events</a>
-                    </li>
-                    {/* <li className="px-3 hover:text-white duration-500">
-                      <a href="#Contact">Contact</a>
-                    </li> */}
-                    <li className="px-3 hover:text-white duration-500">
-                      <a href="https://docs.bridgr.xyz" className='flex flex-1'>Whitepaper<img src="/external-link.svg" className="w-[13px] h-[13px] ml-1"/></a>
-                    </li>
-                </ul>
+                <div className='lg:flex hidden'>
+                  <ul className="flex lg:text-md xl:text-[1.1rem] items-center font-medium text-off-white cursor-pointer">
+                      {/* <li className="px-3 hover:text-white duration-500">
+                        <a href="#Home">Home</a>
+                      </li> */}
+                      <li className="px-3 hover:text-white duration-500">
+                        <a href="#About">About</a>
+                      </li>
+                      <li className="px-3 hover:text-white duration-500">
+                        <a href="#Story">Story</a>
+                      </li>
+                      <li className="px-3 hover:text-white duration-500">
+                        <a href="#Team">Team</a>
+                      </li>
+                      <li className="px-3 hover:text-white duration-500">
+                        <a href="#Services">Pricing</a>
+                      </li>
+                      <li className="px-3 hover:text-white duration-500">
+                        <a href="#Events">Events</a>
+                      </li>
+                      {/* <li className="px-3 hover:text-white duration-500">
+                        <a href="#Contact">Contact</a>
+                      </li> */}
+                      <li className="px-3 hover:text-white duration-500">
+                        <a href="https://docs.bridgr.xyz" className='flex flex-1'>Whitepaper<img src="/external-link.svg" className="sm:w-[12px] sm:h-[12px] w-[10px] h-[10px] ml-1"/></a>
+                      </li>
+                  </ul>
+                  <div className='h-9 w-[0.05rem] bg-white bg-opacity-30 mr-4'/>
+                  <div className="flex items-center gap-3">
+                    <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' class='w-[19px] h-[19px] object-contain cursor-pointer'/></a>
+                    <a href="https://t.me/bridgr"><img src='/telegram.svg' class='w-[19px] h-[19px] object-contain cursor-pointer'/></a>
+                    <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' class='w-[18px] h-[18px] object-contain cursor-pointer'/></a>
+                  </div>
+                </div>
+                
 
                 <MobileNav open={open} setOpen={setOpen} />
                 <div 

@@ -37,7 +37,7 @@ const News = () => {
                                     Apr 12th 2023.</p>
                             </div>
                             <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-comes-new-york-city-on-april-12th-during-nft-nyc-b10cc8f063f7'>
-                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-slate-200 hover:bg-opacity-20">
+                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-slate-200 hover:bg-opacity-20 duration-500">
                                         <img src="/arrow.svg" alt="arrow" className="w-[40%] h-[40%] object-contain"/> 
                                 </div>
                             </a>  
@@ -60,7 +60,7 @@ const News = () => {
                                     Feb 24th 2023.</p>
                             </div>
                             <a href='https://twitter.com/Bridgrxyz/status/1625104846675386369?s=20'>
-                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-slate-200 hover:bg-opacity-20">
+                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-slate-200 hover:bg-opacity-20 duration-500">
                                         <img src="/arrow.svg" alt="arrow" className="w-[40%] h-[40%] object-contain"/> 
                                 </div>
                             </a>  
@@ -83,7 +83,7 @@ const News = () => {
                                     Feb 3rd 2023.</p>
                             </div>
                             <a href='https://twitter.com/Bridgrxyz/status/1622586625552429057?s=20'>
-                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-slate-200 hover:bg-opacity-20">
+                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-slate-200 hover:bg-opacity-20 duration-500">
                                         <img src="/arrow.svg" alt="arrow" className="w-[40%] h-[40%] object-contain" /> 
                                 </div>
                             </a>  
@@ -106,7 +106,7 @@ const News = () => {
                                     Nov 14th 2022.</p>
                             </div>
                             <a href='https://twitter.com/Bridgrxyz/status/1592214170996703232?s=20'>
-                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-slate-200 hover:bg-opacity-20">
+                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-slate-200 hover:bg-opacity-20 duration-500">
                                         <img src="/arrow.svg" alt="arrow" className="w-[40%] h-[40%] object-contain"/> 
                                 </div>
                             </a>  
@@ -126,7 +126,7 @@ const News = () => {
                             </p>
                         </div>
                         <div className='relative mt-3'>
-                            <button className='bridgr-blue hover:bg-blue-800 text-off-white py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
+                            <button className='border-[2px] border-white border-opacity-20 shadow-md hover:bg-slate-200 hover:bg-opacity-10 text-off-white py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
                                 <a className= "text-sm sm:text-l md:text-xl font-medium hover:text-white duration-400 cursor-pointer" href="https://t.me/bridgr">
                                 Join us</a><Image src="/telegram.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-3" width={20} height={20} />
                             </button>
