@@ -28,7 +28,7 @@ const About = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto mb-10 flex-col ${styles.flexCenter}`}
       >
-        {/* <TitleText title={<>About Us</>} textStyles="text-center" /> */}
+        <TitleText title={<>About Us</>} textStyles="text-center" />
         <motion.div 
           className='w-full flex justify-center md:mt-20 md:mb-20 mt-10 mb-10'
           variants={fadeIn('up', 'tween', 0.2, 1)}
