@@ -145,7 +145,7 @@ const Navbar = () => {
                         <a href="https://docs.bridgr.xyz" className='flex flex-1'>Whitepaper<img src="/external-link.svg" className="sm:w-[12px] sm:h-[12px] w-[10px] h-[10px] ml-1"/></a>
                       </li>
                   </ul>
-                  <div className='h-9 w-[1px] bg-white bg-opacity-30 mr-4 ml-3'/>
+                  <div className='h-9 w-[1px] bg-white bg-opacity-20 mr-4 ml-3'/>
                   <div className="flex items-center gap-4">
                     <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' class='w-[18px] h-[18px] object-contain cursor-pointer'/></a>
                     <a href="https://t.me/bridgr"><img src='/telegram.svg' class='w-[18px] h-[18px] object-contain cursor-pointer'/></a>
