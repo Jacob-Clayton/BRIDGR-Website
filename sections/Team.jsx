@@ -43,13 +43,13 @@ const Team = () => {
                 width={270}
                 height={250}
               />
-              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-primary-black bg-opacity-70 text-white text-xs sm:text-sm md:text-md lg:text-md xl:text-lg 2xl:text-xl rounded-bl-[34.8px] rounded-br-[34.8px]">
+              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-2 sm:py-2 md:py-1 lg:py-2 xl:py-1 px-4 bg-primary-black bg-opacity-70 text-white text-xs sm:text-sm md:text-md lg:text-md xl:text-lg 2xl:text-xl rounded-bl-[34.8px] rounded-br-[34.8px]">
                 <p class="mb-0 font-regular ">Mark</p>
                 <p class="mb-0 font-light ">Co-Founder</p>
               </div>
               <div class="absolute bottom-0 right-0 flex flex-col justify-end py-2 px-3 mr-3 mb-0">
-                <a href="https://twitter.com/mepusica"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[23px] xl:h-[23px] object-contain cursor-pointer text-white"></img></a>
-                <a href="https://www.linkedin.com/company/mepusica"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[23px] xl:h-[23px] object-contain cursor-pointer text-white mt-1"></img></a>
+                <a href="https://twitter.com/mepusica"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[19px] lg:h-[19px] xl:w-[20px] xl:h-[20px] object-contain cursor-pointer text-white"></img></a>
+                <a href="https://www.linkedin.com/company/mepusica"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[19px] lg:h-[19px] xl:w-[20px] xl:h-[20px] object-contain cursor-pointer text-white mt-1 xl:mt-2"></img></a>
               </div>
           </div>
       
@@ -62,13 +62,13 @@ const Team = () => {
                 width={270}
                 height={250}
               />
-              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-primary-black bg-opacity-70 text-white text-xs sm:text-sm md:text-md lg:text-md xl:text-lg 2xl:text-xl rounded-bl-[35px] rounded-br-[35px]">
+              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-2 sm:py-2 md:py-1 lg:py-2 xl:py-1 px-4 bg-primary-black bg-opacity-70 text-white text-xs sm:text-sm md:text-md lg:text-md xl:text-lg 2xl:text-xl rounded-bl-[35px] rounded-br-[35px]">
                   <p class='mb-0 font-regular '>Jacob</p>
                   <p class='mb-0 font-light '>Co-Founder</p>
               </div>
               <div class="absolute bottom-0 right-0 flex flex-col justify-end py-2 px-3 mr-3 mb-0">
-                <a href="https://twitter.com/kolsas_eth"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[23px] xl:h-[23px] object-contain cursor-pointer text-white"></img></a>
-                <a href="https://www.linkedin.com/in/jebclayton/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[23px] xl:h-[23px] object-contain cursor-pointer text-white mt-1"></img></a>
+                <a href="https://twitter.com/kolsas_eth"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[19px] lg:h-[19px] xl:w-[20px] xl:h-[20px] object-contain cursor-pointer text-white"></img></a>
+                <a href="https://www.linkedin.com/in/jebclayton/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[19px] lg:h-[19px] xl:w-[20px] xl:h-[20px] object-contain cursor-pointer text-white mt-1 xl:mt-2"></img></a>
               </div>
           </div>
       
@@ -81,13 +81,13 @@ const Team = () => {
                 width={270}
                 height={250}
               />
-              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-primary-black bg-opacity-70 text-white text-xs sm:text-sm md:text-md lg:text-md xl:text-lg 2xl:text-xl rounded-bl-[35px] rounded-br-[35px]">
+              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-2 sm:py-2 md:py-1 lg:py-2 xl:py-1 px-4 bg-primary-black bg-opacity-70 text-white text-xs sm:text-sm md:text-md lg:text-md xl:text-lg 2xl:text-xl rounded-bl-[35px] rounded-br-[35px]">
                   <p className='mb-0 font-regular '>Kishor</p>
                   <p className='mb-0 font-light '>Co-Founder</p>
               </div>
               <div class="absolute bottom-0 right-0 flex flex-col justify-end py-2 px-3 mr-3 mb-0">
-                <a href="https://twitter.com/madforcryptos_"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[23px] xl:h-[23px] object-contain cursor-pointer text-white"></img></a>
-                <a href="https://www.linkedin.com/in/kishormm/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[23px] xl:h-[23px] object-contain cursor-pointer text-white mt-1"></img></a>
+                <a href="https://twitter.com/madforcryptos_"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[19px] lg:h-[19px] xl:w-[20px] xl:h-[20px] object-contain cursor-pointer text-white"></img></a>
+                <a href="https://www.linkedin.com/in/kishormm/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[19px] lg:h-[19px] xl:w-[20px] xl:h-[20px] object-contain cursor-pointer text-white mt-1 xl:mt-2"></img></a>
               </div>
           </div>
       
@@ -100,13 +100,13 @@ const Team = () => {
                 width={270}
                 height={250}
               />
-              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-primary-black bg-opacity-70 text-white text-xs sm:text-sm md:text-md lg:text-md xl:text-lg 2xl:text-xl  rounded-bl-[34.8px] rounded-br-[34.8px]">
+              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-2 sm:py-2 md:py-1 lg:py-2 xl:py-1 px-4 bg-primary-black bg-opacity-70 text-white text-xs sm:text-sm md:text-md lg:text-md xl:text-lg 2xl:text-xl  rounded-bl-[34.8px] rounded-br-[34.8px]">
                   <p className='mb-0 font-regular '>Joss</p>
                   <p className='mb-0 font-light '>Co-Founder</p>
               </div>
               <div class="absolute bottom-0 right-0 flex flex-col justify-end py-2 px-3 mr-3 mb-0">
-                <a href="https://twitter.com/jokongNFT"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[23px] xl:h-[23px] object-contain cursor-pointer text-white"></img></a>
-                <a href="https://www.linkedin.com/company/ape-gang-nft/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[23px] xl:h-[23px] object-contain cursor-pointer text-white mt-1"></img></a>
+                <a href="https://twitter.com/jokongNFT"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[19px] lg:h-[19px] xl:w-[20px] xl:h-[20px] object-contain cursor-pointer text-white"></img></a>
+                <a href="https://www.linkedin.com/company/ape-gang-nft/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[19px] lg:h-[19px] xl:w-[20px] xl:h-[20px] object-contain cursor-pointer text-white mt-1 xl:mt-2"></img></a>
               </div>
           </div>
       
@@ -119,13 +119,13 @@ const Team = () => {
                 width={270}
                 height={250}
               />
-              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-primary-black bg-opacity-70 text-white text-xs sm:text-sm md:text-md lg:text-md xl:text-lg 2xl:text-xl rounded-bl-[35px] rounded-br-[35px]">
+              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-2 sm:py-2 md:py-1 lg:py-2 xl:py-1 px-4 bg-primary-black bg-opacity-70 text-white text-xs sm:text-sm md:text-md lg:text-md xl:text-lg 2xl:text-xl rounded-bl-[35px] rounded-br-[35px]">
                   <p className='mb-0 font-regular '>Hilal</p>
                   <p className='mb-0 font-light '>CryptoFemale</p>
               </div>
               <div class="absolute bottom-0 right-0 flex flex-col justify-end py-2 px-3 mr-3 mb-0">
-                <a href="https://twitter.com/hilal_baktas"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[23px] xl:h-[23px] object-contain cursor-pointer text-white"></img></a>
-                <a href="https://www.linkedin.com/in/hilalbaktas/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[23px] xl:h-[23px] object-contain cursor-pointer text-white mt-1"></img></a>
+                <a href="https://twitter.com/hilal_baktas"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[19px] lg:h-[19px] xl:w-[20px] xl:h-[20px] object-contain cursor-pointer text-white"></img></a>
+                <a href="https://www.linkedin.com/in/hilalbaktas/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[19px] lg:h-[19px] xl:w-[20px] xl:h-[20px] object-contain cursor-pointer text-white mt-1 xl:mt-2"></img></a>
               </div>
           </div>
       
@@ -138,13 +138,13 @@ const Team = () => {
                 width={270}
                 height={250}
               />
-              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-primary-black bg-opacity-70 text-white text-xs sm:text-sm md:text-md lg:text-md xl:text-lg 2xl:text-xl rounded-bl-[35px] rounded-br-[35px]">
+              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-2 sm:py-2 md:py-1 lg:py-2 xl:py-1 px-4 bg-primary-black bg-opacity-70 text-white text-xs sm:text-sm md:text-md lg:text-md xl:text-lg 2xl:text-xl rounded-bl-[35px] rounded-br-[35px]">
                   <p className='mb-0 font-regular'>Sima</p>
                   <p className='mb-0 font-light'>GlobalB</p>
               </div>
               <div class="absolute bottom-0 right-0 flex flex-col justify-end py-2 px-3 mr-3 mb-0">
-                <a href="https://twitter.com/simabaktas"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[23px] xl:h-[23px] object-contain cursor-pointer text-white"></img></a>
-                <a href="https://www.linkedin.com/in/simabaktas/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[23px] xl:h-[23px] object-contain cursor-pointer text-white mt-1"></img></a>
+                <a href="https://twitter.com/simabaktas"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[19px] lg:h-[19px] xl:w-[20px] xl:h-[20px] object-contain cursor-pointer text-white"></img></a>
+                <a href="https://www.linkedin.com/in/simabaktas/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[19px] lg:h-[19px] xl:w-[20px] xl:h-[20px] object-contain cursor-pointer text-white mt-1 xl:mt-2"></img></a>
               </div>
           </div>
       
@@ -157,13 +157,13 @@ const Team = () => {
                 width={270}
                 height={250}
               />
-              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-primary-black bg-opacity-70 text-white text-xs sm:text-sm md:text-md lg:text-md xl:text-lg 2xl:text-xl rounded-bl-[35px] rounded-br-[35px]">
+              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-2 sm:py-2 md:py-1 lg:py-2 xl:py-1 px-4 bg-primary-black bg-opacity-70 text-white text-xs sm:text-sm md:text-md lg:text-md xl:text-lg 2xl:text-xl rounded-bl-[35px] rounded-br-[35px]">
                   <p className='mb-0 font-regular '>Henry</p>
                   <p className='mb-0 font-light'>Ethlas</p>
               </div>
               <div class="absolute bottom-0 right-0 flex flex-col justify-end py-2 px-3 mr-3 mb-0">
-                <a href="https://twitter.com/henry_ethlas"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[23px] xl:h-[23px] object-contain cursor-pointer text-white"></img></a>
-                <a href="https://www.linkedin.com/company/in/henry-foo/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[23px] xl:h-[23px] object-contain cursor-pointer text-white mt-1"></img></a>
+                <a href="https://twitter.com/henry_ethlas"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[19px] lg:h-[19px] xl:w-[20px] xl:h-[20px] object-contain cursor-pointer text-white"></img></a>
+                <a href="https://www.linkedin.com/company/in/henry-foo/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[19px] lg:h-[19px] xl:w-[20px] xl:h-[20px] object-contain cursor-pointer text-white mt-1 xl:mt-2"></img></a>
               </div>
           </div>
       
@@ -176,13 +176,13 @@ const Team = () => {
                 width={270}
                 height={250}
               />
-              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-primary-black bg-opacity-70 text-white text-xs sm:text-sm md:text-md lg:text-md xl:text-lg 2xl:text-xl rounded-bl-[35px] rounded-br-[35px]">
+              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-2 sm:py-2 md:py-1 lg:py-2 xl:py-1 px-4 bg-primary-black bg-opacity-70 text-white text-xs sm:text-sm md:text-md lg:text-md xl:text-lg 2xl:text-xl rounded-bl-[35px] rounded-br-[35px]">
                   <p className='mb-0 font-regular'>Jaye</p>
                   <p className='mb-0 font-light'>The Parlour</p>
               </div>
               <div class="absolute bottom-0 right-0 flex flex-col justify-end py-2 px-3 mr-3 mb-0">
-                <a href="https://twitter.com/jayefunk"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[23px] xl:h-[23px] object-contain cursor-pointer text-white"></img></a>
-                <a href="https://www.linkedin.com/in/jayefoo/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[22px] lg:h-[22px] xl:w-[23px] xl:h-[23px] object-contain cursor-pointer text-white mt-1"></img></a>
+                <a href="https://twitter.com/jayefunk"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[19px] lg:h-[19px] xl:w-[20px] xl:h-[20px] object-contain cursor-pointer text-white"></img></a>
+                <a href="https://www.linkedin.com/in/jayefoo/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[18px] md:h-[18px] lg:w-[19px] lg:h-[19px] xl:w-[20px] xl:h-[20px] object-contain cursor-pointer text-white mt-1 xl:mt-2"></img></a>
               </div>
           </div> 
       </motion.div>
