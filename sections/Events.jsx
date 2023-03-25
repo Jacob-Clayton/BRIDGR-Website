@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import styles from '../styles';
-import { TitleText, TypingText } from '../components';
+import { TitleText, TypingText, MapTooltip } from '../components';
 import { fadeIn, staggerContainer } from '../utils/motion';
 import { useMediaQuery } from 'react-responsive';
 
@@ -39,16 +39,34 @@ const Events = () => {
 
         <motion.div
           variants={fadeIn('up', 'tween', 0.3, 1)}
-          className="relative mx-auto sm:mt-[68px] md:mt-10 mt-5 mb-10 flex w-full lg:h-full md:h-[390px] sm:h-[280px] h-400px"
+          className="relative mx-auto sm:mt-[68px] md:mt-10 mt-5 mb-10 flex w-full h-full "
         >
           <Image 
-            src="/map-bare.png" 
+            src="/map-base.png" 
             alt="map" 
             className="w-full h-full object-cover" 
             quality={100}
             width={1170}
             height={546}
           />
+          <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-a-global-events-platform-for-anyone-interested-in-web3-8f78be3aba14'>
+              <div className='absolute 2xl:top-[140px] 2xl:right-[10px] xl:top-[130px] xl:right-[10px] lg:top-[120px] lg:right-[10px] md:top-[110px] md:right-[0px] sm:top-[110px] sm:right-[0px] top-[5px] right-[0px] bg-[#4386FF] bg-opacity-90 shadow-2xl lg:w-[200px] md:w-[160px] sm:w-[150px] w-[130px] rounded-2xl md:p-4 sm:p-3 p-2'>
+                <p className='text-off-white font-bold lg:text-xl md:text-lg md:text-md text-sm'>In Asia:<br/><span className='font-normal lg:text-lg md:text-md sm:text-sm text-xs'>Singapore, Seoul, Bali and Hanoi.</span></p>
+              </div>
+          </a>
+
+          <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-a-global-events-platform-for-anyone-interested-in-web3-8f78be3aba14'>
+              <div className='absolute z-10 2xl:top-[130px] 2xl:right-[410px] xl:top-[120px] xl:right-[400px] lg:top-[110px] lg:right-[280px] md:top-[95px] md:right-[230px] sm:top-[15px] sm:right-[170px] top-[85px] right-[100px] bg-[#4386FF] bg-opacity-90 shadow-2xl lg:w-[260px] md:w-[240px] sm:w-[200px] w-[170px] rounded-2xl md:p-4 sm:p-3 p-2'>
+                <p className='text-off-white font-bold lg:text-xl md:text-lg md:text-md text-sm'>In Europe:<br/><span className='font-normal lg:text-lg md:text-md sm:text-sm text-xs'>Paris, London, Berlin, Istanbul, Stockholm, Lisbon and Manchester.</span></p>
+              </div>
+          </a>
+
+          <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-comes-new-york-city-on-april-12th-during-nft-nyc-b10cc8f063f7'>
+              <div className='absolute 2xl:top-[150px] 2xl:right-[810px] xl:top-[140px] xl:right-[840px] lg:top-[140px] lg:right-[650px] md:top-[120px] md:right-[530px] sm:top-[80px] sm:right-[380px] top-[10px] right-[250px] bg-[#4386FF] bg-opacity-90 shadow-2xl lg:w-[170px] md:w-[150px] sm:w-[130px] w-[110px] rounded-2xl md:p-4 sm:p-3 p-2'>
+                <p className='text-off-white font-bold lg:text-xl md:text-lg md:text-md text-sm'>In America<br/><span className='font-normal lg:text-lg md:text-md sm:text-sm text-xs'>New York City</span></p>
+              </div>
+          </a>
+
         </motion.div>
       </motion.div>
     </section>

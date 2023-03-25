@@ -11,6 +11,7 @@ import InfoButton from './PriceButton'
 import Loading from './Loading';
 import PricingTable from './PricingTable';
 import Tooltip from './ToolTip';
+import MapTooltip from './MapToolTip';
 import ContactForm from './ContactForm';
 import CarouselElement from './Carousel';
 
@@ -29,6 +30,7 @@ export {
   Footer,
   PricingTable,
   Tooltip,
+  MapTooltip,
   ContactForm,
   CarouselElement,
 };
