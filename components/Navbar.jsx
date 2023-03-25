@@ -8,7 +8,7 @@ import { Button } from '../components'
 function MobileNav({open, setOpen}) {
   return (   
     <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[50%] bridgr-blue rounded-tl-[35px] rounded-bl-[35px] transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter  `}>
-      <div className="z-100 flex flex-col items-center mt-[40%] sm:mt-[38%] md:mt-[35%] lg:mt-[25%] font-normal">
+      <div className="z-100 flex flex-col items-center mt-[20%] sm:mt-[22%] md:mt-[20%] lg:mt-[25%] font-normal">
 
           <a 
             className="text-md sm:text-lg xl:text-lg my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
@@ -59,7 +59,7 @@ function MobileNav({open, setOpen}) {
             Contact
           </a> */}
           <a 
-            className="text-md sm:text-lg md:text-xl my-3 text-off-white duration-500 cursor-pointer" 
+            className="text-md sm:text-lg md:text-xl my-1 text-off-white duration-500 cursor-pointer" 
             href="https://docs.bridgr.xyz" 
             onClick={() => setOpen(false)}>
             <Button>Whitepaper</Button>
