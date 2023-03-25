@@ -128,7 +128,7 @@ const News = () => {
                         <div className='relative mt-3'>
                             <button className='border-[2px] border-white border-opacity-20 shadow-md hover:bg-slate-200 hover:bg-opacity-10 text-off-white py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
                                 <a className= "text-sm sm:text-l md:text-xl font-medium hover:text-white duration-400 cursor-pointer" href="https://t.me/bridgr">
-                                Join us</a><Image src="/telegram.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-3" width={20} height={20} />
+                                Join us</a><Image src="/telegram.svg" className="sm:w-[20px] sm:h-[20px] w-[16px] h-[16px] ml-3" width={20} height={20} alt="telegram"/>
                             </button>
                         </div>
                     </motion.div>

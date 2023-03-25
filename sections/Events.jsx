@@ -43,7 +43,7 @@ const Events = () => {
         >
           <Image 
             src="/map-base.png" 
-            alt="map" 
+            alt="world map" 
             className="w-full h-full object-cover" 
             quality={100}
             width={1170}

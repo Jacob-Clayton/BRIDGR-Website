@@ -34,11 +34,11 @@ const Footer = () => {
               © 2023 BRIDGR. All rights reserved.
             </p>
             <div className="flex gap-5">
-              <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' class='w-[20px] h-[20px] object-contain cursor-pointer'/></a>
-              <a href="https://t.me/bridgr"><img src='/telegram.svg' class='w-[20px] h-[20px] object-contain cursor-pointer'/></a>
-              <a href="https://discord.com/invite/j2ayV98Dc2"><img src='/discord.svg' class='w-[20px] h-[20px] object-contain cursor-pointer'/></a>
-              <a href="mailto:bridgrxyz@gmail.com"><img src='/email.svg' class='w-[19px] h-[19px] object-contain cursor-pointer'/></a>
-              <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' class='w-[19px] h-[19px] object-contain cursor-pointer'/></a>
+              <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' class='w-[20px] h-[20px] object-contain cursor-pointer' alt='twitter'/></a>
+              <a href="https://t.me/bridgr"><img src='/telegram.svg' class='w-[20px] h-[20px] object-contain cursor-pointer' alt='telegram'/></a>
+              <a href="https://discord.com/invite/j2ayV98Dc2"><img src='/discord.svg' class='w-[20px] h-[20px] object-contain cursor-pointer' alt='discord'/></a>
+              <a href="mailto:bridgrxyz@gmail.com"><img src='/email.svg' class='w-[19px] h-[19px] object-contain cursor-pointer' alt='email'/></a>
+              <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' class='w-[19px] h-[19px] object-contain cursor-pointer' alt='linkedin'/></a>
             </div>
           </div>
         </div>

@@ -50,7 +50,7 @@ const CarouselElement = () => {
         >
         <Image
             src="/mark_talk.jpg"
-            alt="mark"
+            alt="mark talking"
             className="w-full lg:block hidden lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
             width={900}
             height={900}
@@ -97,7 +97,7 @@ const CarouselElement = () => {
         >
             <Image
                 src="/kishor-talk.jpeg"
-                alt="kishor"
+                alt="kishor talking"
                 className="w-full lg:block hidden lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
                 width={1000}
                 height={900}
