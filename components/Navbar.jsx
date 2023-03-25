@@ -142,7 +142,7 @@ const Navbar = () => {
                         <a href="#Contact">Contact</a>
                       </li> */}
                       <li className="hover:text-white duration-500">
-                        <a href="https://docs.bridgr.xyz" className='flex flex-1'>Whitepaper<img src="/external-link.svg" className="sm:w-[12px] sm:h-[12px] w-[10px] h-[10px] ml-1"/></a>
+                        <a href="https://docs.bridgr.xyz" className='flex flex-1'>Whitepaper<img src="/external-link.svg" className="sm:w-[12px] sm:h-[12px] w-[10px] h-[10px] ml-1" alt='external link'/></a>
                       </li>
                   </ul>
                   <div className='h-9 w-[1px] bg-white bg-opacity-20 mr-4 ml-3'/>
