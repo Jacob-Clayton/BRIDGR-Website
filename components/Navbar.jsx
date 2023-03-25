@@ -7,47 +7,47 @@ import { Button } from '../components'
 
 function MobileNav({open, setOpen}) {
   return (   
-    <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[50%] bg-primary-black bg-opacity-[95%] rounded-br-[10px] rounded-tl-[10px] rounded-bl-[10px] transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter  `}>
-      <div className="z-100 flex flex-col items-center mt-[40%] sm:mt-[38%] md:mt-[35%] lg:mt-[25%]">
+    <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[50%] bridgr-blue rounded-tl-[35px] rounded-bl-[35px] transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter  `}>
+      <div className="z-100 flex flex-col items-center mt-[40%] sm:mt-[38%] md:mt-[35%] lg:mt-[25%] font-normal">
 
           <a 
-            className="text-md sm:text-lg xl:text-lg font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
+            className="text-md sm:text-lg xl:text-lg my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#Home" 
             onClick={() => setOpen(false)}>
             Home
           </a>
           <a 
-            className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
+            className="text-md sm:text-lg md:text-xl my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#About" 
             onClick={() => setOpen(false)}>
             About
           </a>
           <a 
-            className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
+            className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
             href="#Story" 
             onClick={() => setOpen(false)}>
             Story
           </a>
           <a 
-            className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
+            className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
             href="#Team" 
             onClick={() => setOpen(false)}>
             Team
           </a>
           <a 
-            className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
+            className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
             href="#Services" 
             onClick={() => setOpen(false)}>
             Pricing
           </a>
           <a 
-            className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
+            className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
             href="#Events" 
             onClick={() => setOpen(false)}>
             Events
           </a>
           <a 
-            className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
+            className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
             href="#News" 
             onClick={() => setOpen(false)}>
             News
@@ -59,17 +59,18 @@ function MobileNav({open, setOpen}) {
             Contact
           </a> */}
           <a 
-            className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white duration-500 cursor-pointer" 
-            href="https://jacobclayton.gitbook.io/bridgr-services/" 
+            className="text-md sm:text-lg md:text-xl my-3 text-off-white duration-500 cursor-pointer" 
+            href="https://docs.bridgr.xyz" 
             onClick={() => setOpen(false)}>
             <Button>Whitepaper</Button>
           </a>
+          <div className='w-[160px] sm:w-[200px] h-[1px] bg-white bg-opacity-30 fixed bottom-[18%]'/>
           <div className="flex sm:gap-4 gap-2 fixed bottom-[12%]" id='socials'>
             <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' className='w-[22px] h-[22px] object-contain cursor-pointer'/></a>
             <a href="https://t.me/bridgr"><img src='/telegram.svg' className='w-[22px] h-[22px] object-contain cursor-pointer'/></a>
             <a href="https://discord.com/invite/j2ayV98Dc2"><img src='/discord.svg' className='w-[22px] h-[22px] object-contain cursor-pointer'/></a>
-            <a href="mailto:bridgrxyz@gmail.com"><img src='/email.svg' className='w-[22px] h-[22px] object-contain cursor-pointer'/></a>
-            <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' className='w-[21px] h-[21px] object-contain cursor-pointer'/></a>
+            <a href="mailto:bridgrxyz@gmail.com"><img src='/email.svg' className='w-[21px] h-[21px] object-contain cursor-pointer'/></a>
+            <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' className='w-[20px] h-[20px] object-contain cursor-pointer'/></a>
           </div>
       </div>  
     </div>
@@ -145,10 +146,10 @@ const Navbar = () => {
                       </li>
                   </ul>
                   <div className='h-9 w-[1px] bg-white bg-opacity-30 mr-4 ml-3'/>
-                  <div className="flex items-center gap-3">
-                    <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' class='w-[19px] h-[19px] object-contain cursor-pointer'/></a>
-                    <a href="https://t.me/bridgr"><img src='/telegram.svg' class='w-[19px] h-[19px] object-contain cursor-pointer'/></a>
-                    <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' class='w-[18px] h-[18px] object-contain cursor-pointer'/></a>
+                  <div className="flex items-center gap-4">
+                    <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' class='w-[18px] h-[18px] object-contain cursor-pointer'/></a>
+                    <a href="https://t.me/bridgr"><img src='/telegram.svg' class='w-[18px] h-[18px] object-contain cursor-pointer'/></a>
+                    <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' class='w-[17px] h-[17px] object-contain cursor-pointer'/></a>
                   </div>
                 </div>
                 
