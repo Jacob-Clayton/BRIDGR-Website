@@ -36,7 +36,7 @@ const Team = () => {
         >
           <div className="relative sm:max-w-max max-w-[150px]">
               <Image 
-                src='/mark_1.png' 
+                src='/mark_gray.png' 
                 alt="Mark" 
                 className=" bold rounded-bl-[35px] rounded-br-[35px] sm:rounded-tr-[0px] sm:rounded-tl-[0px] rounded-tr-[35px] rounded-tl-[35px]"
                 quality={100}
