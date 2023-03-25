@@ -18,7 +18,7 @@ const Story = () => {
             </div>
             {/* <div className="feedback-gradient overflow-visible z-0 lg:block hidden" /> */}
             <motion.div 
-                className='sm:mt-20 mt-10'
+                className='md:mt-20 sm:mt-10 mt-5'
                 variants={staggerContainer}
                 initial={isLgScreen ? 'hidden' : 'visible'}
                 whileInView="show"
@@ -27,13 +27,13 @@ const Story = () => {
             <TitleText title={<>Our Story</>} textStyles="text-center" />
                 <motion.div
                     variants={fadeIn('up', 'tween', 0.2, 1)}
-                    className={`${styles.innerWidth} mx-auto mt-10 flex md:flex-row flex-col md:gap-10`}
+                    className={`${styles.innerWidth} mx-auto md:mt-10 mt-5 flex md:flex-row flex-col md:gap-10`}
                 >
                     <div className='mx-auto'>
                         {/* <TypingText title="Story" textStyles="text-center" /> */}
                         <motion.p
                             variants={fadeIn('up', 'tween', 0.2, 1)}
-                            className="mb-10 font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
+                            className="mb-10 font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-center text-secondary-white"
                         >
                             Our founders love Web3 and the potential of decentralized online systems. 
                             Unfortunately, we've witnessed good people losing time, energy, and resources to shady players. 

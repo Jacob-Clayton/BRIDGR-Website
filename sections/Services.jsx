@@ -16,14 +16,14 @@ const Services = () => {
                 initial={isLgScreen ? 'hidden' : 'visible'}
                 whileInView="show"
                 viewport={{ once: false, amount: 0.25 }}
-                className={`${styles.innerWidth} mx-auto sm:mt-20 mt-10 flex flex-col`}
+                className={`${styles.innerWidth} mx-auto md:mt-20 sm:mt-10 mt-5 flex flex-col`}
             >
-            <TitleText title={<>Pricing</>}textStyles="text-center mb-10" />
+            <TitleText title={<>Pricing</>}textStyles="text-center" />
                 <motion.p
                     variants={fadeIn('up', 'tween', 0.2, 1)}
                     initial={isLgScreen ? 'hidden' : 'visible'}
                     whileInView="show"
-                    className="font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
+                    className="md:mt-10 mt-5 font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-center text-secondary-white"
                 >
                     Become a Member to gain access to all our partner's services, communities and network.
                 </motion.p>

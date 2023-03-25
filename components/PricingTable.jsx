@@ -30,7 +30,7 @@ const PricingTable = () => {
                 whileInView="show"
                 className={`${styles.innerWidth} flex flex-col md:flex-row justify-center mx-auto`}
             >
-                <div className="mt-10 xl:mx-4 mx-2 p-2">
+                <div className="md:mt-10 mt-5 xl:mx-4 mx-2 p-2">
                     <div className="bg-white rounded-2xl h-full 2xl:w-[330px] xl:w-[320px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
                         <div className="px-4 py-6">
                             <div className="font-medium">

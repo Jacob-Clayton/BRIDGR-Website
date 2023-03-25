@@ -22,14 +22,14 @@ const Events = () => {
         initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto sm:mt-20 mt-10 flex flex-col`}
+        className={`${styles.innerWidth} mx-auto md:mt-20 sm:mt-10 mt-5 flex flex-col`}
       >
         <TitleText title={(<>Web3 Events</>)} textStyles="text-center" />
         <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}
           initial={isLgScreen ? 'hidden' : 'visible'}
           whileInView="show"
-          className="mt-10 font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white"
+          className="md:mt-10 mt-5 font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-center text-secondary-white"
         >
           Recieve worldwide exposure at our 'WEB3 SOCIAL' events. 
           Your company will be given a professional speech, promotional graphics on screens around the event, plus video and images for your own use.
@@ -39,7 +39,7 @@ const Events = () => {
 
         <motion.div
           variants={fadeIn('up', 'tween', 0.3, 1)}
-          className="relative mx-auto sm:mt-[68px] mt-10 mb-10 flex w-full lg:h-full md:h-[390px] sm:h-[280px] h-400px"
+          className="relative mx-auto sm:mt-[68px] md:mt-10 mt-5 mb-10 flex w-full lg:h-full md:h-[390px] sm:h-[280px] h-400px"
         >
           <Image 
             src="/map-bare.png" 

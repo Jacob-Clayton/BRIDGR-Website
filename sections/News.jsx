@@ -17,9 +17,9 @@ const News = () => {
     return (
         <section className={`${styles.paddings} relative z-10`} id="News">
             <div className="gradient-02 overflow-visible z-0 lg:block hidden" />
-            <div className={`${styles.innerWidth} mx-auto sm:mt-10 mt-5 flex flex-col`}>
+            <div className={`${styles.innerWidth} mx-auto sm:mt-5 mt-0 flex flex-col`}>
             <TitleText title={<>News</>} textStyles="text-center" />
-                <div className="mt-10 flex flex-col gap-[30px]">
+                <div className="md:mt-10 mt-5 flex flex-col gap-[30px]">
 
                     <div className="flex sm:flex-row flex-col gap-4">
                         <Image
@@ -32,7 +32,7 @@ const News = () => {
                             <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
                                 <h4 className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
                                     Beachside in Bali </h4>
-                                <p className="mt-[16px] font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-secondary-white">
+                                <p className="mt-[16px] font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white">
                                     We went all tropical and decided to throw a huge red carpet event at the Lighthouse Studios Bali on 
                                     Feb 24th 2023.</p>
                             </div>
@@ -55,7 +55,7 @@ const News = () => {
                             <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
                                 <h4 className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
                                     Singapore Social</h4>
-                                <p className="mt-[16px] font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-secondary-white">
+                                <p className="mt-[16px] font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white">
                                     Singapore's first NFT bar, The Parlour Singapore, hosted another fantastic sold out 'WEB3 SOCIAL' on 
                                     Feb 3rd 2023.</p>
                             </div>
@@ -78,7 +78,7 @@ const News = () => {
                             <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
                                 <h4 className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
                                     Istanbul Blockchain Week</h4>
-                                <p className="mt-[16px] font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-secondary-white">
+                                <p className="mt-[16px] font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white">
                                     BRIDGR hosted the official Blockchain Week afterparty at one of our good friend's bar, Youplace, on 
                                     Nov 14th 2022.</p>
                             </div>
