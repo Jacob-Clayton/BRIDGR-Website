@@ -47,10 +47,10 @@ const CarouselElement = () => {
             className="relative flex-1 flex justify-center items-center"
         >
         <Image
-            src="/kishor-talk.jpeg"
-            alt="kishor"
+            src="/mark_talk.jpg"
+            alt="mark"
             className="w-full lg:block hidden lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
-            width={1200}
+            width={900}
             height={900}
         />
 
@@ -97,7 +97,7 @@ const CarouselElement = () => {
                 src="/kishor-talk.jpeg"
                 alt="kishor"
                 className="w-full lg:block hidden lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
-                width={1200}
+                width={1000}
                 height={900}
             />
 
@@ -116,7 +116,7 @@ const CarouselElement = () => {
         </motion.div>
     </motion.div>
 
-    <motion.div className="mx-auto flex lg:flex-row flex-col gap-6">
+    {/* <motion.div className="mx-auto flex lg:flex-row flex-col gap-6">
         <motion.div
             variants={fadeIn('right', 'tween', 0.2, 1)}
             className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#ffffff] border-opacity-[30%] text-left relative"
@@ -146,21 +146,8 @@ const CarouselElement = () => {
                 width={1200}
                 height={900}
             />
-
-        {/* <motion.div
-            variants={zoomIn(0.4, 1)}
-            className="lg:block hidden absolute -left-[10%] top-[3%]"
-        >
-            <a href='https://t.me/bridgr'>
-                <img
-                    src="/stamp2.png"
-                    alt="stamp"
-                    className="w-[155px] h-[155px] object-contain"
-                />
-            </a>
-        </motion.div> */}
         </motion.div>
-    </motion.div>
+    </motion.div> */}
 
     </Carousel>
     </motion.div>
