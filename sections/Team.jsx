@@ -49,7 +49,7 @@ const Team = () => {
               </div>
               <div class="absolute bottom-0 right-0 flex flex-col justify-end py-2 px-3 mr-3 xl:mb-1 mb-0">
                 <a href="https://twitter.com/mepusica"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white" alt='twitter'></img></a>
-                <a href="https://www.linkedin.com/company/mepusica"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white mt-1 lg:mt-2 xl:mt-2" alt='linkedin'></img></a>
+                <a href="https://www.linkedin.com/in/mepusica"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white mt-1 lg:mt-2 xl:mt-2" alt='linkedin'></img></a>
               </div>
           </div>
       
@@ -163,7 +163,7 @@ const Team = () => {
               </div>
               <div class="absolute bottom-0 right-0 flex flex-col justify-end py-2 px-3 mr-3 xl:mb-1 mb-0">
                 <a href="https://twitter.com/henry_ethlas"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white" alt='twitter'></img></a>
-                <a href="https://www.linkedin.com/company/in/henry-foo/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white mt-1 lg:mt-2 xl:mt-2" alt='linkedin'></img></a>
+                <a href="https://www.linkedin.com/in/henry-foo/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white mt-1 lg:mt-2 xl:mt-2" alt='linkedin'></img></a>
               </div>
           </div>
       
