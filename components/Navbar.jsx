@@ -36,7 +36,7 @@ function MobileNav({open, setOpen}) {
           </a>
           <a 
             className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
-            href="#Services" 
+            href="#Pricing" 
             onClick={() => setOpen(false)}>
             Pricing
           </a>
@@ -133,7 +133,7 @@ const Navbar = () => {
                         <a href="#Team">Team</a>
                       </li>
                       <li className="hover:text-white duration-500">
-                        <a href="#Services">Pricing</a>
+                        <a href="#Pricing">Pricing</a>
                       </li>
                       <li className="hover:text-white duration-500">
                         <a href="#Events">Events</a>

@@ -6,11 +6,11 @@ import styles from '../styles';
 import { staggerContainer, fadeIn } from '../utils/motion';
 import { TitleText, PricingTable } from '../components';
 
-const Services = () => {
+const Pricing = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
 
     return (
-        <section className={`${styles.paddings}`} id="Services">
+        <section className={`${styles.paddings}`} id="Pricing">
             <motion.div
                 variants={staggerContainer}
                 initial={isLgScreen ? 'hidden' : 'visible'}
@@ -110,4 +110,4 @@ const Services = () => {
     );
 };
 
-export default Services;
+export default Pricing;

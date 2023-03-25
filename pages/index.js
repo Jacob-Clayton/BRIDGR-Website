@@ -1,5 +1,5 @@
 import { Footer, Navbar } from '../components';
-import { About, Story, Quotes, Hero, Team, Services, Events, News, Contact } from '../sections';
+import { About, Story, Quotes, Hero, Team, Pricing, Events, News, Contact } from '../sections';
 
 const Home = () => (
   <>
@@ -17,7 +17,7 @@ const Home = () => (
         <Quotes />
       </div>
       <div className='bg-primary-lightBlue'>
-        <Services />
+        <Pricing />
       </div>
       <div className='bg-primary-darkBlue'>
         <Events />
