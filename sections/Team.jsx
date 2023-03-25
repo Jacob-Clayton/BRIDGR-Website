@@ -36,15 +36,15 @@ const Team = () => {
         >
           <div className="relative sm:max-w-max max-w-[150px]">
               <Image 
-                src='/mepusica.png' 
-                alt="Mepusica" 
+                src='/mark_1.png' 
+                alt="Mark" 
                 className=" bold rounded-bl-[35px] rounded-br-[35px] sm:rounded-tr-[0px] sm:rounded-tl-[0px] rounded-tr-[35px] rounded-tl-[35px]"
                 quality={100}
                 width={270}
                 height={250}
               />
-              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-primary-black bg-opacity-70 text-white text-xs sm:text-sm md:text-md lg:text-md xl:text-lg 2xl:text-xl rounded-bl-[35px] rounded-br-[35px]">
-                <p class="mb-0 font-regular ">Mepusica</p>
+              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-primary-black bg-opacity-70 text-white text-xs sm:text-sm md:text-md lg:text-md xl:text-lg 2xl:text-xl rounded-bl-[34.8px] rounded-br-[34.8px]">
+                <p class="mb-0 font-regular ">Mark</p>
                 <p class="mb-0 font-light ">Co-Founder</p>
               </div>
               <div class="absolute bottom-0 right-0 flex flex-col justify-end py-2 px-3 mr-3 mb-0">
@@ -100,7 +100,7 @@ const Team = () => {
                 width={270}
                 height={250}
               />
-              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-primary-black bg-opacity-70 text-white text-xs sm:text-sm md:text-md lg:text-md xl:text-lg 2xl:text-xl  rounded-bl-[35px] rounded-br-[35px]">
+              <div class="absolute overflow-hidden w-full bottom-0 left-0 py-1 px-4 bg-primary-black bg-opacity-70 text-white text-xs sm:text-sm md:text-md lg:text-md xl:text-lg 2xl:text-xl  rounded-bl-[34.8px] rounded-br-[34.8px]">
                   <p className='mb-0 font-regular '>Joss</p>
                   <p className='mb-0 font-light '>Co-Founder</p>
               </div>

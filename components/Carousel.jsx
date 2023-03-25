@@ -38,7 +38,9 @@ const CarouselElement = () => {
             </div>
 
             <p className="mt-[24px] font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white">
-                Our shared worldwide community offers immense strength in fostering a sense of belonging, collaboration, and collective action towards a common goal. Our global community leverages their collective strength to increase visibility for all partners, members and friends.
+                "Our shared worldwide community offers immense strength in fostering a sense of belonging, collaboration, 
+                and collective action towards a common goal. Our global community leverages their collective strength to 
+                increase visibility for all partners, members and friends."
             </p>
         </motion.div>
 
