@@ -37,7 +37,7 @@ const News = () => {
                                     Apr 12th 2023.</p>
                             </div>
                             <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-comes-new-york-city-on-april-12th-during-nft-nyc-b10cc8f063f7'>
-                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white">
+                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-slate-200 hover:bg-opacity-20">
                                         <img src="/arrow.svg" alt="arrow" className="w-[40%] h-[40%] object-contain"/> 
                                 </div>
                             </a>  
@@ -60,7 +60,7 @@ const News = () => {
                                     Feb 24th 2023.</p>
                             </div>
                             <a href='https://twitter.com/Bridgrxyz/status/1625104846675386369?s=20'>
-                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white">
+                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-slate-200 hover:bg-opacity-20">
                                         <img src="/arrow.svg" alt="arrow" className="w-[40%] h-[40%] object-contain"/> 
                                 </div>
                             </a>  
@@ -83,7 +83,7 @@ const News = () => {
                                     Feb 3rd 2023.</p>
                             </div>
                             <a href='https://twitter.com/Bridgrxyz/status/1622586625552429057?s=20'>
-                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white">
+                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-slate-200 hover:bg-opacity-20">
                                         <img src="/arrow.svg" alt="arrow" className="w-[40%] h-[40%] object-contain" /> 
                                 </div>
                             </a>  
@@ -106,7 +106,7 @@ const News = () => {
                                     Nov 14th 2022.</p>
                             </div>
                             <a href='https://twitter.com/Bridgrxyz/status/1592214170996703232?s=20'>
-                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white">
+                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-slate-200 hover:bg-opacity-20">
                                         <img src="/arrow.svg" alt="arrow" className="w-[40%] h-[40%] object-contain"/> 
                                 </div>
                             </a>  
