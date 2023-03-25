@@ -21,6 +21,7 @@ const CarouselElement = () => {
     <Carousel 
         showThumbs={false}
         selectedItem={1}
+        infiniteLoop={true}
     >
 
     <motion.div className="mx-auto flex lg:flex-row flex-col gap-6">
@@ -99,8 +100,9 @@ const CarouselElement = () => {
                 src="/kishor-talk.jpeg"
                 alt="kishor talking"
                 className="w-full lg:block hidden lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
-                width={1000}
-                height={900}
+                width={610}
+                height={610}
+                quality={95}
             />
 
             {/* <motion.div
