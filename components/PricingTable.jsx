@@ -117,7 +117,7 @@ const PricingTable = () => {
                         <div className="px-4 py-6">
                             <div className="font-medium">
                                     <div className="bg-white rounded-lg p-6 sm:px-20 md:px-2 lg:px-8 xl:px-10">
-                                    <h4 className="text-3xl font-medium text-center text-primary-black mb-4">Custom</h4>
+                                    <h4 className="text-3xl font-medium text-center text-primary-black mb-4">Consult</h4>
                                     <div class="flex justify-center items-baseline my-8">
                                         <span class="mr-2 text-4xl text-primary-black font-extrabold">$150</span>
                                         <span class="text-gray-400 font-normal">/ hour</span>
