@@ -37,9 +37,9 @@ const Footer = () => {
               <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' class='w-[20px] h-[20px] object-contain cursor-pointer' alt='twitter'/></a>
               <a href="https://t.me/bridgr"><img src='/telegram.svg' class='w-[20px] h-[20px] object-contain cursor-pointer' alt='telegram'/></a>
               <a href="https://discord.com/invite/j2ayV98Dc2"><img src='/discord.svg' class='w-[20px] h-[20px] object-contain cursor-pointer' alt='discord'/></a>
-              <a href="mailto:bridgrxyz@gmail.com"><img src='/email.svg' class='w-[19px] h-[19px] object-contain cursor-pointer' alt='email'/></a>
+              <a href="mailto:bridgrxyz@gmail.com"><img src='/email.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' alt='email'/></a>
               <a href='https://medium.com/@bridgrxyz' ><img src='/medium.svg' class='w-[20px] h-[20px] object-contain cursor-pointer' alt='medium'/></a>
-              <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' alt='linkedin'/></a>
+              <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' class='w-[16px] h-[16px] object-contain cursor-pointer' alt='linkedin'/></a>
             </div>
           </div>
         </div>
