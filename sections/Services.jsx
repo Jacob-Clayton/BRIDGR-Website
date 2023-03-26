@@ -22,10 +22,10 @@ const Services = () => {
                 <TitleText title={<>Services</>}textStyles="text-center" />
                 <div className='md:mt-10 mt-5 justify-center'>
 
-                <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 xl:ml-[7%] lg:ml-[10%] sm:ml-[12%] ml-[30%] place-items-start sm:gap-y-10 gap-y-6 gap-x-6'>
+                <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 xl:ml-[7%] lg:ml-[10%] sm:ml-[12%] ml-[22%] place-items-start sm:gap-y-10 gap-y-6 gap-x-6'>
 
                     <div class="relative text-off-white">
-                        <p className="font-semibold xl:text-2xl md:text-xl text-lg text-left mb-2">
+                        <p className="font-medium xl:text-2xl md:text-xl text-lg text-left mb-2">
                             Visibility</p>
                         <ul className='list-disc list-inside 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white'>
                             <li>Global events</li>
@@ -40,7 +40,7 @@ const Services = () => {
                     </div>
 
                     <div class="relative text-off-white">
-                        <p className="font-semibold xl:text-2xl md:text-xl text-lg text-left mb-2">
+                        <p className="font-medium xl:text-2xl md:text-xl text-lg text-left mb-2">
                             Business Building</p>
                             <ul className='list-disc list-inside 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white'>
                                 <li>Focus groups</li>
@@ -54,7 +54,7 @@ const Services = () => {
                     </div>
 
                     <div class="relative text-off-white">
-                        <p className="font-semibold xl:text-2xl md:text-xl text-lg text-left mb-2">
+                        <p className="font-medium xl:text-2xl md:text-xl text-lg text-left mb-2">
                                 Access Investors</p>
                             <ul className='list-disc list-inside 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white'>
                                 <li>Access our VCs</li>
@@ -68,7 +68,7 @@ const Services = () => {
                     </div>
 
                     <div class="relative text-off-white">
-                        <p className="font-semibold xl:text-2xl md:text-xl text-lg text-left mb-2">
+                        <p className="font-medium xl:text-2xl md:text-xl text-lg text-left mb-2">
                             Web3 Education</p>
                             <ul className='list-disc list-inside 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white'>
                                 <li>Workships</li>
@@ -82,7 +82,7 @@ const Services = () => {
                     </div>
 
                     <div class="relative text-off-white">
-                        <p className="font-semibold xl:text-2xl md:text-xl text-lg text-left mb-2">
+                        <p className="font-medium xl:text-2xl md:text-xl text-lg text-left mb-2">
                                 Web3 Legal Services</p>
                             <ul className='list-disc list-inside 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white'>
                                 <li>Corporate law</li>
@@ -96,7 +96,7 @@ const Services = () => {
                     </div>
 
                     <div class="relative text-off-white">
-                        <p className="font-semibold xl:text-2xl md:text-xl text-lg text-left mb-2">
+                        <p className="font-medium xl:text-2xl md:text-xl text-lg text-left mb-2">
                                 Web3 Consultancy</p>
                             <ul className='list-disc list-inside 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white'>
                                 <li>Website development</li>
