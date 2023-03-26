@@ -138,7 +138,7 @@ const About = () => {
               />
               </Tooltip>
             </a>
-            <a className="p-1 col-span-1 md:block hidden" href="https://twitter.com/theparloursg">
+            <a className="p-1 col-span-1" href="https://twitter.com/theparloursg">
             <Tooltip message={"Global chain of NFT bar & lounges. Starting out as Singapore’s 1st NFT bar & lounge. They are now opening their second location in Seoul, South Korea."}>
             <Image 
               src='/parlourQR.png' 
@@ -192,12 +192,12 @@ const About = () => {
             </a>
           </div>
 
-      {/* <div className="mt-10">
-        <TypingText title="| Friends" textStyles="text-left" />
-          <div className='mt-5 place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
+      <div className="mt-10">
+        <TypingText title="Friends" textStyles="text-left px-4" />
+          <div className='place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
             
             <a className="p-1 col-span-1" href='https://www.edns.domains/'>
-              <Tooltip message={"Decentralized name service built on Polygon. EDNS provide domain names for Web3, including NFT, crypto wallets, web hosting, DeFi ID, and GameFi ID and are expanding to support more blockchains."}>
+              <Tooltip message={"Decentralized name service built on Polygon. Providing domain names for Web3, including NFT, crypto wallets, web hosting, DeFi ID, and GameFi ID."}>
               <Image 
                 src='/edns.png' 
                 alt="EDNS" 
@@ -211,19 +211,36 @@ const About = () => {
             </a>
 
             <a className="p-1 col-span-1" href='https://twitter.com/youplaceapp'>
-              <Image 
-                src='/youplacewhite.png' 
-                alt="You Place" 
-                className="max-w-[70%]" 
-                style={{opacity:'0.95'}}
-                quality={100}
-                width={1000}
-                height={850}
-              />
+              <Tooltip message={'Istanbul based Web3 event space, coworking space, community hub, cafe and bar.'}>
+                <Image 
+                  src='/youplacewhite.png' 
+                  alt="You Place" 
+                  className="max-w-[70%]" 
+                  style={{opacity:'0.95'}}
+                  quality={100}
+                  width={1000}
+                  height={850}
+                />
+              </Tooltip>
+            </a>
+
+            <a className="p-1 col-span-1" href='https://wearelight.house/'>
+              <Tooltip message={"Bali based multi-level podcast & video production complex, creative space, entrepreneur community, cafe, bar and events space."}>
+                <Image 
+                  src='/lighthouse.png' 
+                  alt="Lighthouse Studios Bali" 
+                  className="max-w-[70%]" 
+                  style={{opacity:'0.95'}}
+                  quality={100}
+                  width={600}
+                  height={500}
+                />
+              </Tooltip>
             </a>
 
           </div>
-        </div> */}
+        </div>
+
         </div>
 
       </motion.div>
