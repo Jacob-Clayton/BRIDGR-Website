@@ -36,6 +36,12 @@ function MobileNav({open, setOpen}) {
           </a>
           <a 
             className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
+            href="#Services" 
+            onClick={() => setOpen(false)}>
+            Services
+          </a>
+          <a 
+            className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
             href="#Pricing" 
             onClick={() => setOpen(false)}>
             Pricing
@@ -64,8 +70,8 @@ function MobileNav({open, setOpen}) {
             onClick={() => setOpen(false)}>
             <Button>Whitepaper</Button>
           </a>
-          <div className='w-[160px] sm:w-[200px] h-[1px] bg-white bg-opacity-30 fixed bottom-[19%]'/>
-          <div className="flex sm:gap-4 gap-2 fixed bottom-[12%]" id='socials'>
+          <div className='w-[160px] sm:w-[200px] h-[1px] bg-white bg-opacity-30 fixed bottom-[15%]'/>
+          <div className="flex sm:gap-4 gap-2 fixed bottom-[8%]" id='socials'>
             <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' alt='twitter'/></a>
             <a href="https://t.me/bridgr"><img src='/telegram.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' alt='telegram'/></a>
             <a href="https://discord.com/invite/j2ayV98Dc2"><img src='/discord.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' alt='discord'/></a>
@@ -126,11 +132,14 @@ const Navbar = () => {
                       <li className="hover:text-white duration-500">
                         <a href="#About">About</a>
                       </li>
-                      <li className="hover:text-white duration-500">
+                      {/* <li className="hover:text-white duration-500">
                         <a href="#Story">Story</a>
-                      </li>
+                      </li> */}
                       <li className="hover:text-white duration-500">
                         <a href="#Team">Team</a>
+                      </li>
+                      <li className="hover:text-white duration-500">
+                        <a href="#Services">Services</a>
                       </li>
                       <li className="hover:text-white duration-500">
                         <a href="#Pricing">Pricing</a>
