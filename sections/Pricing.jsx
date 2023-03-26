@@ -25,7 +25,10 @@ const Pricing = () => {
                     whileInView="show"
                     className="md:mt-10 mt-5 font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-center text-secondary-white"
                 >
-                    Become a Member to gain access to all our partner's services, communities and network.
+                    Become a Friend to increase your visibility at our global 'WEB3 SOCIAL' events. <br/>
+                    Become a Member to gain full access to all our services plus our combined global community. <br/>
+                    Don't need the full package? Then we have a consultancy service to build your Web3 product from the ground up.
+
                 </motion.p>
                 <PricingTable/>                
             </motion.div>
