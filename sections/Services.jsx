@@ -44,7 +44,7 @@ const Services = () => {
                             Business Building</p>
                             <ul className='list-disc list-inside 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white'>
                                 <li>Focus groups</li>
-                                <li>Collaboration</li>
+                                <li>Connections</li>
                                 <li>Entrepreneurship</li>
                             </ul>
                         {/* <p className="md:mt-[16px] mt-[10px] font-normal xl:text-[19px] lg:text-[18px] md:text-[17px] sm:text-[16px] text-[15px] text-[#B0B0B0]">
