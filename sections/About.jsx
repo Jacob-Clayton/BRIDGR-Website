@@ -78,7 +78,7 @@ const About = () => {
               <Image 
                 src='/apegang.png' 
                 alt="Ape Gang" 
-                className="max-w-[80%]" 
+                className="max-w-[90%]" 
                 style={{opacity:'0.95'}}
                 quality={100}
                 width={938}
@@ -104,7 +104,7 @@ const About = () => {
               <Image 
                 src='/madfornft.png' 
                 alt="Mad for NFTs" 
-                className="max-w-[80%]" 
+                className="max-w-[85%]" 
                 style={{opacity:'0.95'}}
                 quality={100}
                 width={1092}
@@ -130,7 +130,7 @@ const About = () => {
               <Image 
                 src='/globalb.png' 
                 alt="GlobalB" 
-                className="max-w-[80%]" 
+                className="max-w-[85%]" 
                 style={{opacity:'0.95'}}
                 quality={100}
                 width={832}
@@ -143,7 +143,7 @@ const About = () => {
             <Image 
               src='/parlourQR.png' 
               alt="The Parlour Global" 
-              className="max-w-[70%]" 
+              className="max-w-[65%]" 
               style={{opacity:'0.95'}}
               quality={100}
               width={600}
@@ -156,7 +156,7 @@ const About = () => {
               <Image 
                 src='/bighaus.png' 
                 alt="Bighaus" 
-                className="max-w-[80%] max-h-14" 
+                className="max-w-[70%]" 
                 style={{opacity:'0.95'}}
                 quality={100}
                 width={1000}
@@ -169,7 +169,7 @@ const About = () => {
               <Image 
                 src='/boredislandgroup.png' 
                 alt="Bored Island Group" 
-                className="max-w-[80%]" 
+                className="max-w-[90%]" 
                 style={{opacity:'0.95'}}
                 quality={100}
                 width={1000}
@@ -182,7 +182,7 @@ const About = () => {
               <Image 
                 src='/cfj.png' 
                 alt="Crowd Fund Junction" 
-                className="max-w-[80%]" 
+                className="max-w-[100%]" 
                 style={{opacity:'0.95'}}
                 quality={100}
                 width={1240}
@@ -201,7 +201,7 @@ const About = () => {
               <Image 
                 src='/edns.png' 
                 alt="EDNS" 
-                className="max-w-[80%]" 
+                className="max-w-[90%]" 
                 style={{opacity:'0.95'}}
                 quality={100}
                 width={800}
@@ -215,7 +215,7 @@ const About = () => {
                 <Image 
                   src='/youplacewhite.png' 
                   alt="You Place" 
-                  className="max-w-[70%]" 
+                  className="max-w-[65%]" 
                   style={{opacity:'0.95'}}
                   quality={100}
                   width={600}
@@ -229,7 +229,7 @@ const About = () => {
                 <Image 
                   src='/lighthouse.png' 
                   alt="Lighthouse Studios Bali" 
-                  className="max-w-[70%]" 
+                  className="max-w-[65%]" 
                   style={{opacity:'0.95'}}
                   quality={100}
                   width={600}
