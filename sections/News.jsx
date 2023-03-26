@@ -18,7 +18,12 @@ const News = () => {
         <section className={`${styles.paddings} relative z-10`} id="News">
             <div className="gradient-02 overflow-visible z-0 lg:block hidden" />
             <div className={`${styles.innerWidth} mx-auto sm:mt-5 mt-0 flex flex-col`}>
-            <TitleText title={<>News</>} textStyles="text-center" />
+                <TitleText title={<>News</>} textStyles="text-center" />
+
+                <p className="md:mt-10 mt-5 font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-center justify-center text-secondary-white">
+                    Read more about out latest news and events on<a href='https://medium.com/@bridgrxyz' className='text-white font-medium'> Medium.</a>
+                </p>
+                
                 <div className="md:mt-10 mt-5 flex flex-col gap-5">
 
                     <div className="flex sm:flex-row flex-col gap-4">

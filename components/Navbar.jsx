@@ -64,7 +64,7 @@ function MobileNav({open, setOpen}) {
             onClick={() => setOpen(false)}>
             <Button>Whitepaper</Button>
           </a>
-          <div className='w-[160px] sm:w-[200px] h-[1px] bg-white bg-opacity-30 fixed bottom-[18%]'/>
+          <div className='w-[160px] sm:w-[200px] h-[1px] bg-white bg-opacity-30 fixed bottom-[19%]'/>
           <div className="flex sm:gap-4 gap-2 fixed bottom-[12%]" id='socials'>
             <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' alt='twitter'/></a>
             <a href="https://t.me/bridgr"><img src='/telegram.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' alt='telegram'/></a>
@@ -142,7 +142,7 @@ const Navbar = () => {
                         <a href="#Contact">Contact</a>
                       </li> */}
                       <li className="hover:text-white duration-500">
-                        <a href="https://docs.bridgr.xyz" className='flex flex-1'>Whitepaper<img src="/external-link.svg" className="sm:w-[12px] sm:h-[12px] w-[10px] h-[10px] ml-1" alt='external link'/></a>
+                        <a href="https://docs.bridgr.xyz" className='flex flex-1'>Whitepaper<img src="/external-link.svg" className="sm:w-[11px] sm:h-[11px] w-[10px] h-[10px] ml-[1px]" alt='external link'/></a>
                       </li>
                   </ul>
                   <div className='h-9 w-[1px] bg-white bg-opacity-20 mr-4 ml-3'/>
