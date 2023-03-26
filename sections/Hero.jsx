@@ -19,15 +19,12 @@ const poppins = Poppins({
 	variable: '--font-poppins'
 })
 
-
 const Hero = () => {
   const isLgScreen = useMediaQuery({ minWidth: 1024 });
   const { ref, inView } = useInView({ threshold: 0, triggerOnce: false });
 
   return (
-    <div className="bg-image">
     <section id="Home" className={`h-screen flex sm:flex-row flex-col mx-auto text-center sm:text-left ${styles.innerWidth} ${montserrat.variable} font-montserrat`}>
-
       <motion.div 
         ref={ref}
         animate={inView ? "show" : "hidden"}
@@ -88,10 +85,9 @@ const Hero = () => {
           priority
           className="absolute w-[85%] sm:w-[50%] md:w-[50%] lg:w-[45%] xl:w-[42%] 2xl:w-[36%] max-w-[900px] 2xl:right-[17%] z-10 opacity-[90%]" 
         /> */}
-        <div className="absolute z-[0] w-[40%] h-[50%] rounded-full gradient-01 opacity-[25%] lg:block hidden" />
+        {/* <div className="absolute z-[0] w-[40%] h-[50%] rounded-full gradient-01 opacity-[25%] lg:block hidden" /> */}
       </div>
   </section>
-  </div>
 );
 };
 

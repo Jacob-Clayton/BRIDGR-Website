@@ -165,7 +165,7 @@ const About = () => {
               </Tooltip>
             </a>
             <a className="p-1 col-span-1" href="https://boredisland.group/">
-              <Tooltip message={"Advisory service to monetize your NFT intellectual property. They provide solutions in analysis, valuation, legal compliance, and marketing strategy. "}>
+              <Tooltip message={"Advisory service to monetize NFT intellectual property. They provide solutions in analysis, valuation, legal compliance, and marketing strategy."}>
               <Image 
                 src='/boredislandgroup.png' 
                 alt="Bored Island Group" 
@@ -197,15 +197,15 @@ const About = () => {
           <div className='place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
             
             <a className="p-1 col-span-1" href='https://www.edns.domains/'>
-              <Tooltip message={"Decentralized name service built on Polygon. Providing domain names for Web3, including NFT, crypto wallets, web hosting, DeFi ID, and GameFi ID."}>
+              <Tooltip message={"Decentralized name service providing domain names for Web3, including NFT, crypto wallets, web hosting, DeFi ID, and GameFi ID."}>
               <Image 
                 src='/edns.png' 
                 alt="EDNS" 
                 className="max-w-[80%]" 
                 style={{opacity:'0.95'}}
                 quality={100}
-                width={938}
-                height={249}
+                width={800}
+                height={300}
               />
               </Tooltip>
             </a>
@@ -218,14 +218,14 @@ const About = () => {
                   className="max-w-[70%]" 
                   style={{opacity:'0.95'}}
                   quality={100}
-                  width={1000}
-                  height={850}
+                  width={600}
+                  height={600}
                 />
               </Tooltip>
             </a>
 
             <a className="p-1 col-span-1" href='https://wearelight.house/'>
-              <Tooltip message={"Bali based multi-level podcast & video production complex, creative space, entrepreneur community, cafe, bar and events space."}>
+              <Tooltip message={"Lighthouse studios Bali. A multi-level podcast & video production complex, creative space, entrepreneur community, cafe, bar and events space."}>
                 <Image 
                   src='/lighthouse.png' 
                   alt="Lighthouse Studios Bali" 
