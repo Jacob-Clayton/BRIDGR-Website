@@ -55,7 +55,7 @@ const PricingTable = () => {
                         </div>
                     </div>
                 </div>
-                
+
                 <div className="md:mt-10 mt-5 xl:mx-4 mx-2 p-2">
                     <div className="bg-white rounded-2xl h-full 2xl:w-[330px] xl:w-[320px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
                         <div className="px-4 py-6">
@@ -85,7 +85,7 @@ const PricingTable = () => {
                     <div className="relative bg-white rounded-2xl h-full 2xl:w-[330px] xl:w-[320px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
 
                     <div class="absolute right-0 top-[163px] magic-border w-full h-[1.6rem] flex justify-center items-center text-white font-medium xl:text-[0.95rem] lg:text-[0.89rem] md:text-[0.67rem] sm:text-lg text-[0.83rem] transform skew-y-3">
-                        <span className="text-center leading-none">Register Interest before June for 20% off</span>
+                        <span className="text-center leading-none">Register interest before June for 20% off</span>
                     </div>
 
                         <div className="px-4 py-6">
