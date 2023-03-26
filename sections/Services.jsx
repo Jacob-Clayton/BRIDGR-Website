@@ -41,20 +41,6 @@ const Services = () => {
 
                     <div class="relative text-off-white">
                         <p className="font-semibold xl:text-2xl md:text-xl text-lg text-left mb-2">
-                            Web3 Education</p>
-                            <ul className='list-disc list-inside 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white'>
-                                <li>Workships</li>
-                                <li>Seminars</li>
-                                <li>Training</li>
-                            </ul>
-                            {/* <p className=" md:mt-[16px] mt-[10px] font-normal xl:text-[19px] lg:text-[18px] md:text-[17px] sm:text-[16px] text-[15px] text-[#B0B0B0]">
-                                We arrange weekly seminars conducted by Web3 industry experts. Can you afford to miss out?
-                                <a href='https://docs.bridgr.xyz/' className='text-white'> Read more...</a>
-                            </p> */}
-                    </div>
-
-                    <div class="relative text-off-white">
-                        <p className="font-semibold xl:text-2xl md:text-xl text-lg text-left mb-2">
                             Business Building</p>
                             <ul className='list-disc list-inside 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white'>
                                 <li>Focus groups</li>
@@ -79,6 +65,20 @@ const Services = () => {
                                 We provide direct access to multiple VC investors with a solid track record of investing in Web3 startups.
                             <a href='https://docs.bridgr.xyz/' className='text-white'> Read more...</a>
                         </p> */}
+                    </div>
+
+                    <div class="relative text-off-white">
+                        <p className="font-semibold xl:text-2xl md:text-xl text-lg text-left mb-2">
+                            Web3 Education</p>
+                            <ul className='list-disc list-inside 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white'>
+                                <li>Workships</li>
+                                <li>Seminars</li>
+                                <li>Training</li>
+                            </ul>
+                            {/* <p className=" md:mt-[16px] mt-[10px] font-normal xl:text-[19px] lg:text-[18px] md:text-[17px] sm:text-[16px] text-[15px] text-[#B0B0B0]">
+                                We arrange weekly seminars conducted by Web3 industry experts. Can you afford to miss out?
+                                <a href='https://docs.bridgr.xyz/' className='text-white'> Read more...</a>
+                            </p> */}
                     </div>
 
                     <div class="relative text-off-white">
