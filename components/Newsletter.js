@@ -34,7 +34,7 @@ export default function Newsletter() {
     }
 
     return (
-        <form onSubmit={handleSubmit(onSubmit)} className={`lg:w-[500px] md:w-[320px] sm:w-[300px] w-[250px]`}>
+        <form onSubmit={handleSubmit(onSubmit)} className={`lg:w-[500px] md:w-[320px] sm:w-[300px] w-full`}>
             <div className="mx-auto">
                 <input {...register("email")} required aria-required={true} placeholder="Email" type='email' className="mt-2 bg-transparent w-full input px-2 py-1 rounded-md font-normal text-secondary-white"></input>
                 <div className="h-[1px] w-full bg-white bg-opacity-20 mx-auto"/>

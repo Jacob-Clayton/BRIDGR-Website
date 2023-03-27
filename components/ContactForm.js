@@ -33,7 +33,7 @@ export default function ContactForm() {
 		}
 
 	return (
-		<form className='lg:w-[500px] md:w-[320px] sm:w-[300px] w-[250px] mx-auto flex flex-col' onSubmit={handleSubmit(onSubmit)}>
+		<form className='lg:w-[500px] md:w-[320px] sm:w-[300px] w-full mx-auto flex flex-col' onSubmit={handleSubmit(onSubmit)}>
 			<input
 				{...register("name")}
 				id='name'
@@ -61,7 +61,7 @@ export default function ContactForm() {
 				id='subject'
 				aria-label='Subject field for Contact form'
 				aria-required={false}
-				placeholder='Subject: i.e. Inquiry / Membership...'
+				placeholder='Subject: Inquiry / Membership...'
 				type='text'
 				required
 				className='input px-2 py-1 rounded-md font-normal bg-transparent text-secondary-white'
