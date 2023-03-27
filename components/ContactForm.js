@@ -38,6 +38,7 @@ export default function ContactForm() {
 				{...register("name")}
 				id='name'
 				aria-label='Name field for Contact form'
+				aria-required={true}
 				placeholder='Name'
 				type='text'
 				required
@@ -48,6 +49,7 @@ export default function ContactForm() {
 				{...register("email")}
 				id='email'
 				aria-label='Email field for Contact form'
+				aria-required={true}
 				placeholder='Email'
 				type='email'
 				required
@@ -58,6 +60,7 @@ export default function ContactForm() {
 				{...register("message")}
 				id='message'
 				aria-label='Message field for Contact form'
+				aria-required={true}
 				placeholder='Message'
 				type='text'
 				rows='5'
