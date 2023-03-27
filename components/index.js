@@ -14,6 +14,7 @@ import Tooltip from './ToolTip';
 import MapTooltip from './MapToolTip';
 import ContactForm from './ContactForm';
 import CarouselElement from './Carousel';
+import Newsletter from './Newsletter';
 
 export {
   Navbar,
@@ -32,5 +33,6 @@ export {
   Tooltip,
   MapTooltip,
   ContactForm,
+  Newsletter,
   CarouselElement,
 };

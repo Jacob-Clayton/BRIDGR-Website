@@ -11,16 +11,6 @@ const ContactForm = () => {
 		message: '',
 	})
 
-	const contactEvent = async () => {
-		const { event } = await import('../lib/analytics')
-		event({
-			action: 'contact',
-			category: 'Contact',
-			label: 'Contact',
-			value: '',
-		})
-	}
-
 	const handleChange = (e) => {
 		setInputs((prev) => ({
 			...prev,
@@ -111,8 +101,8 @@ const ContactForm = () => {
 				className='input mb-4 px-2 py-1 rounded-md font-normal'
 			/>
 			<div className='flex flex-col items-center'>
-                <button type='submit' className='mx-auto bg-blue-700 hover:bg-blue-600 text-off-white py-2 px-6 items-center flex flex-row rounded duration-500'>
-                    <p className= "text-sm sm:text-l md:text-xl font-bold hover:text-white duration-400 cursor-pointer ">
+                <button type='submit' className='border-[2px] border-white border-opacity-20 shadow-md hover:bg-blue-800 hover:bg-opacity-20 text-off-white py-[0.1rem] px-4 rounded-2xl duration-500 text-md sm:text-md md:text-lg font-medium hover:text-white duration-400 cursor-pointer '>
+                    <p className= "text-sm sm:text-l md:text-xl font-medium hover:text-white duration-400 cursor-pointer ">
                         Send</p>
                 </button>
 				<span className='mt-2'>
