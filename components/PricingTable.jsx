@@ -51,7 +51,7 @@ const PricingTable = () => {
                         </div>
                         <div className="sm:px-20 md:px-6 lg:px-14 px-4 mb-10">
                             <InfoButton href='https://docs.bridgr.xyz/consultancy/web3-consultancy'>Read More</InfoButton>
-                            <PriceButton href='mailto:bridgrxyz@gmail.com'>Contact Us</PriceButton>
+                            <PriceButton href='#Contact'>Contact Us</PriceButton>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ const PricingTable = () => {
                         </div>
                         <div className="sm:px-20 md:px-6 lg:px-14 px-4 mb-10">
                             <InfoButton href='https://docs.bridgr.xyz/benefits/for-friends/community-access'>Read More</InfoButton>
-                            <PriceButton href='mailto:bridgrxyz@gmail.com'>Register Interest</PriceButton>
+                            <PriceButton href='#Contact'>Register Interest</PriceButton>
                         </div>
                     </div>
                 </div>
@@ -133,7 +133,7 @@ const PricingTable = () => {
                         </div>
                         <div className="sm:px-20 md:px-6 lg:px-14 px-4 mb-10">
                             <InfoButton href='https://docs.bridgr.xyz/benefits/for-members'>Read More</InfoButton>
-                            <PriceButton href='mailto:bridgrxyz@gmail.com'>Register Interest</PriceButton>
+                            <PriceButton href='#Contact'>Register Interest</PriceButton>
                         </div>
                     </div>
                 </div>
