@@ -33,7 +33,7 @@ const Footer = () => {
             <p className="font-normal text-[11px] sm:text-[12px] md:text-[12px] lg:text-[14px] text-off-white text-center opacity-[50%]">
               © 2023 BRIDGR. All rights reserved.
             </p>
-            <div className="flex gap-5">
+            <div className="flex gap-4">
               <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' class='w-[20px] h-[20px] object-contain cursor-pointer' alt='twitter'/></a>
               <a href="https://t.me/bridgr"><img src='/telegram.svg' class='w-[20px] h-[20px] object-contain cursor-pointer' alt='telegram'/></a>
               <a href="https://discord.com/invite/j2ayV98Dc2"><img src='/discord.svg' class='w-[20px] h-[20px] object-contain cursor-pointer' alt='discord'/></a>
