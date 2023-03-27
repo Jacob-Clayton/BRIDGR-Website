@@ -123,7 +123,7 @@ const News = () => {
                         className='flex flex-col mt-20 justify-center items-center'
                         variants={fadeIn('up', 'tween', 0.2, 1)}
                     >  
-                        <div className='mb-5'>
+                        <div className='sm:mb-10 mb-5'>
                             <p className="flex flex-col font-normal 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px] text-center text-secondary-white">
                                 <span className=" mb-1 lg:text-3xl md:text-2xl text-xl text-off-white font-bold">
                                     We are the<span className={`${urbanist.variable} font-urbanist lg:text-4xl md:text-3xl text-2xl text-off-white font-extrabold`}> BRIDGR </span> 
