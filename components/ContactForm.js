@@ -56,6 +56,17 @@ export default function ContactForm() {
 				className='input px-2 py-1 rounded-md font-normal bg-transparent text-secondary-white'
 			/>
 			<div className='w-full h-[1px] bg-white bg-opacity-20 mb-2'/>
+			<input
+				{...register("subject")}
+				id='subject'
+				aria-label='Subject field for Contact form'
+				aria-required={false}
+				placeholder='Subject: i.e. Inquiry / Friend / Membership..'
+				type='text'
+				required
+				className='input px-2 py-1 rounded-md font-normal bg-transparent text-secondary-white'
+			/>
+			<div className='w-full h-[1px] bg-white bg-opacity-20 mb-2'/>
 			<textarea
 				{...register("message")}
 				id='message'
