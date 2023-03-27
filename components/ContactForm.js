@@ -61,7 +61,7 @@ export default function ContactForm() {
 				id='subject'
 				aria-label='Subject field for Contact form'
 				aria-required={false}
-				placeholder='Subject: i.e. Inquiry / Friend / Membership..'
+				placeholder='Subject: i.e. Inquiry / Membership..'
 				type='text'
 				required
 				className='input px-2 py-1 rounded-md font-normal bg-transparent text-secondary-white'
