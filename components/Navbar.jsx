@@ -58,12 +58,12 @@ function MobileNav({open, setOpen}) {
             onClick={() => setOpen(false)}>
             News
           </a>
-          {/* <a 
+          <a 
             className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
             href="#Contact" 
             onClick={() => setOpen(false)}>
             Contact
-          </a> */}
+          </a>
           <a 
             className="text-md sm:text-lg md:text-xl my-1 text-off-white duration-500 cursor-pointer" 
             href="https://docs.bridgr.xyz" 
@@ -125,7 +125,7 @@ const Navbar = () => {
               
               <div className='flex justify-end  mr-[2%]'>
                 <div className='lg:flex hidden'>
-                  <ul className="flex gap-5 lg:text-md xl:text-[1.1rem] items-center font-medium text-off-white cursor-pointer">
+                  <ul className="flex gap-4 lg:text-md xl:text-[1.1rem] items-center font-medium text-off-white cursor-pointer">
                       {/* <li className="px-3 hover:text-white duration-500">
                         <a href="#Home">Home</a>
                       </li> */}
@@ -147,15 +147,15 @@ const Navbar = () => {
                       <li className="hover:text-white duration-500">
                         <a href="#Events">Events</a>
                       </li>
-                      {/* <li className="px-3 hover:text-white duration-500">
+                      <li className="hover:text-white duration-500">
                         <a href="#Contact">Contact</a>
-                      </li> */}
+                      </li>
                       <li className="hover:text-white duration-500">
                         <a href="https://docs.bridgr.xyz" className='flex flex-1'>Whitepaper<img src="/external-link.svg" className="sm:w-[11px] sm:h-[11px] w-[10px] h-[10px] ml-[1px]" alt='external link'/></a>
                       </li>
                   </ul>
-                  <div className='h-9 w-[1px] bg-white bg-opacity-20 mr-4 ml-3'/>
-                  <div className="flex items-center gap-4">
+                  <div className='h-9 w-[1px] bg-white bg-opacity-20 mr-3 ml-2'/>
+                  <div className="flex items-center gap-3">
                     <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' alt='twitter'/></a>
                     <a href="https://t.me/bridgr"><img src='/telegram.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' alt='telegram'/></a>
                     <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' class='w-[17px] h-[17px] object-contain cursor-pointer' alt='linkedin'/></a>

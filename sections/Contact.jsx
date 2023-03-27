@@ -9,9 +9,9 @@ export default function Contact() {
   return (
     <section className={`${styles.paddings} relative z-10`} id='Contact'>
       <div className={`${styles.innerWidth} mx-auto`}>
-        {/* <TitleText title={<>Contact</>} textStyles="text-center mb-10" /> */}
+        <TitleText title={<>Contact</>} textStyles="text-center mb-10" />
         <div className='flex flex-col lg:flex-row w-full items-center justify-around'>
-          {/* <ContactForm /> */}
+          <ContactForm />
         </div>
         <div className='text-center'>
         </div>

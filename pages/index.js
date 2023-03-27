@@ -25,7 +25,7 @@ const Home = () => (
         <News /> 
       </div>
       <div className='bg-primary-darkBlue'>
-        {/* <Contact/> */}
+        <Contact/>
         <Footer />
       </div>
     </div>

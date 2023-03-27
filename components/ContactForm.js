@@ -1,110 +1,72 @@
 import { useState } from 'react'
+import axios from 'axios';
+import { useForm } from "react-hook-form";
 import LoadingSpinner from './LoadingSpinner'
 import { ErrorMessage, SuccessMessage } from './Message'
 
 
-const ContactForm = () => {
-	const [form, setForm] = useState(false)
-	const [inputs, setInputs] = useState({
-		name: '',
-		email: '',
-		message: '',
-	})
+export default function ContactForm() {
+    const {
+        register,
+        handleSubmit,
+        formState: { isSubmitting },
+    } = useForm();
+    const [form, setForm] = useState(false)
 
-	const handleChange = (e) => {
-		setInputs((prev) => ({
-			...prev,
-			[e.target.id]: e.target.value,
-		}))
-	}
-
-	const onSubmitForm = async (e) => {
-		e.preventDefault()
-		if (inputs.name && inputs.email && inputs.message) {
+		function onSubmit(data) {
 			setForm({ state: 'loading' })
-			try {
-				const res = await fetch('/api/contact', {
-					method: 'POST',
-					headers: {
-						'Content-Type': 'application/json',
-					},
-					body: JSON.stringify(inputs),
-				})
-
-				if (!res.ok) {
-					throw new Error('Network response was not ok')
-				}
-
-				console.log('Response:', res);
-
-				const { error } = await res.json()
-
-				if (error) {
-					setForm({
-						state: 'error',
-						message: error,
-					})
-					return
-				}
-
+			axios
+			.post("https://eoskorpqc8rpsfw.m.pipedream.net", data)
+			.then((response) => {
 				setForm({
 					state: 'success',
 					message: 'Sent Successfully',
-				})
-				contactEvent()
-				setInputs({
-					name: '',
-					email: '',
-					message: '',
-				})
-			} catch (error) {
-				console.log(error);
+				});
+			})
+			.catch((e) => {
+				console.error(e);
 				setForm({
 					state: 'error',
-					message: 'Something went wrong',
-				})
-			}
+					message: error,
+				});
+			});
 		}
-	}
 
 	return (
-		<form className='w-[550px] mx-auto flex flex-col' onSubmit={(e) => onSubmitForm(e)}>
+		<form className='lg:w-[500px] md:w-[320px] sm:w-[300px] w-[250px] mx-auto flex flex-col' onSubmit={handleSubmit(onSubmit)}>
 			<input
+				{...register("name")}
 				id='name'
 				aria-label='Name field for Contact form'
-				value={inputs.name}
-				onChange={handleChange}
 				placeholder='Name'
 				type='text'
 				required
-				className='input mb-4 px-2 py-1 rounded-md font-normal'
+				className='input px-2 py-1 rounded-md font-normal bg-transparent text-secondary-white'
 			/>
+			<div className='w-full h-[1px] bg-white bg-opacity-20 mb-2'/>
 			<input
+				{...register("email")}
 				id='email'
 				aria-label='Email field for Contact form'
-				value={inputs.email}
-				onChange={handleChange}
 				placeholder='Email'
 				type='email'
 				required
-				className='input mb-4 px-2 py-1 rounded-md font-normal'
+				className='input px-2 py-1 rounded-md font-normal bg-transparent text-secondary-white'
 			/>
+			<div className='w-full h-[1px] bg-white bg-opacity-20 mb-2'/>
 			<textarea
+				{...register("message")}
 				id='message'
 				aria-label='Message field for Contact form'
-				value={inputs.message}
-				onChange={(e) => handleChange(e)}
 				placeholder='Message'
 				type='text'
 				rows='5'
 				required
-				className='input mb-4 px-2 py-1 rounded-md font-normal'
+				className='input px-2 py-1 rounded-md font-normal bg-transparent text-secondary-white'
 			/>
+			<div className='w-full h-[1px] bg-white bg-opacity-20 mb-2'/>
 			<div className='flex flex-col items-center'>
-                <button type='submit' className='border-[2px] border-white border-opacity-20 shadow-md hover:bg-blue-800 hover:bg-opacity-20 text-off-white py-[0.1rem] px-4 rounded-2xl duration-500 text-md sm:text-md md:text-lg font-medium hover:text-white duration-400 cursor-pointer '>
-                    <p className= "text-sm sm:text-l md:text-xl font-medium hover:text-white duration-400 cursor-pointer ">
-                        Send</p>
-                </button>
+                <button role="submit" className=" mt-2 border-[2px] flex mx-auto border-white border-opacity-20 shadow-md hover:shadow-lg hover:bg-white hover:bg-opacity-5 text-off-white py-1 px-4 rounded-2xl font-normal xl:text-xl lg:text-lg md:text-md text-sm hover:text-white duration-500 cursor-pointer ">{isSubmitting ? "Submitting" : "Send"}</button>
 				<span className='mt-2'>
 					{form.state === 'loading' && <LoadingSpinner />}
 					{form.state === 'error' ? (
@@ -117,7 +79,5 @@ const ContactForm = () => {
 				</span>
 			</div>
 		</form>
-	)
-}
-
-export default ContactForm
+	);
+};
