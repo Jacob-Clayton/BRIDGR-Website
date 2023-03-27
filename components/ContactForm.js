@@ -80,7 +80,7 @@ export default function ContactForm() {
 			/>
 			<div className='w-full h-[1px] bg-white bg-opacity-20 mb-2'/>
 			<div className='flex flex-col items-center'>
-                <button role="submit" className=" mt-2 border-[2px] flex mx-auto border-white border-opacity-20 shadow-md hover:shadow-lg hover:bg-white hover:bg-opacity-5 text-off-white py-1 px-4 rounded-2xl font-normal xl:text-xl lg:text-lg md:text-md text-sm hover:text-white duration-500 cursor-pointer ">{isSubmitting ? "Submitting" : "Send"}</button>
+                <button role="submit" className=" mt-2 border-[2px] flex mx-auto border-white border-opacity-20 shadow-md hover:shadow-lg hover:bg-white hover:bg-opacity-10 text-off-white py-1 px-4 rounded-2xl font-normal xl:text-xl lg:text-lg md:text-md text-sm hover:text-white duration-500 cursor-pointer ">{isSubmitting ? "Submitting" : "Send"}</button>
 				<span className='mt-2'>
 					{form.state === 'loading' && <LoadingSpinner />}
 					{form.state === 'error' ? (

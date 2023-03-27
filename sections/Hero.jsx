@@ -35,7 +35,7 @@ const Hero = () => {
         className={`flex-2 ${styles.flexStart} mx-auto flex-col sm:self-center mt-[38%] sm:mt-[17%] md:mt-0 z-20`}
       >
         <div>
-          <motion.h1 variants={textVariant(0.2)} className={`${styles.heroHeading} 2xl:px-0 px-6 flex-1`}>
+          <motion.h1 variants={textVariant(0.2)} className={`${styles.heroHeading} 2xl:px-0 sm:px-6 px-2 flex-1`}>
             The Best of Web3
           </motion.h1>
           <motion.h1 variants={textVariant(0.25)} className={`${styles.heroHeading} 2xl:px-0 px-6 flex-1`}>
@@ -54,7 +54,7 @@ const Hero = () => {
                 variants={fadeIn('up', 'tween', 0.2, 1)}
                 className='2xl:pl-0 px-6 sm:pr-8 pr-4 sm:mt-8 md:mt-10 mt-5'
               >
-                  <button className='border-[2px] border-white border-opacity-20 shadow-md hover:bg-blue-800 hover:bg-opacity-30 text-off-white py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
+                  <button className='border-[2px] border-white border-opacity-20 shadow-md hover:bg-white hover:bg-opacity-10 text-off-white py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
                     <a className= "text-sm sm:text-l md:text-xl font-medium hover:text-white duration-400 cursor-pointer " href="https://t.me/bridgr">
                       Join us</a><Image src="/telegram.svg" className="sm:w-[22px] sm:h-[22px] w-[18px] h-[18px] ml-3" width={20} height={20} alt="telegram"/>
                   </button>
@@ -63,9 +63,9 @@ const Hero = () => {
                 variants={fadeIn('up', 'tween', 0.2, 1)}
                 className='sm:mt-8 md:mt-10 mt-5'
               >
-                  <button className='border-[2px] border-white border-opacity-20 shadow-md hover:bg-blue-800 hover:bg-opacity-20 text-off-white py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
+                  <button className='border-[2px] border-white border-opacity-20 shadow-md hover:bg-white hover:bg-opacity-10 text-off-white py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
                     <a className= "text-sm sm:text-l md:text-xl font-medium hover:text-white duration-400 cursor-pointer " href="#Contact">
-                      Contact</a><Image src="/email.svg" className="sm:w-[19px] sm:h-[19px] w-[16px] h-[16px] ml-3" width={20} height={20} alt="email"/>
+                      Contact</a><Image src="/email.svg" className="sm:w-[22px] sm:h-[22px] w-[18px] h-[18px] ml-3" width={20} height={20} alt="email"/>
                   </button>
               </motion.div>
             </div>
