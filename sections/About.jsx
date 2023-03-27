@@ -227,9 +227,9 @@ const About = () => {
             <a className="p-1 col-span-1" href='https://wearelight.house/'>
               <Tooltip message={"Lighthouse studios Bali. A multi-level podcast & video production complex, creative space, entrepreneur community, cafe, bar and events space."}>
                 <Image 
-                  src='/lighthouse.png' 
+                  src='/lighthouse_com.png' 
                   alt="Lighthouse Studios Bali" 
-                  className="max-w-[65%]" 
+                  className="max-w-[80%]" 
                   style={{opacity:'0.95'}}
                   quality={100}
                   width={600}
