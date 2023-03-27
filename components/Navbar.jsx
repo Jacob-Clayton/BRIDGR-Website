@@ -11,13 +11,13 @@ function MobileNav({open, setOpen}) {
       <div className="z-100 flex flex-col items-center mt-[20%] sm:mt-[22%] md:mt-[20%] lg:mt-[25%] font-normal">
 
           <a 
-            className="text-md sm:text-lg xl:text-lg my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
+            className="text-md sm:text-lg xl:text-lg my-3 text-off-white cursor-pointer" 
             href="#Home" 
             onClick={() => setOpen(false)}>
             Home
           </a>
           <a 
-            className="text-md sm:text-lg md:text-xl my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
+            className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
             href="#About" 
             onClick={() => setOpen(false)}>
             About
@@ -59,13 +59,13 @@ function MobileNav({open, setOpen}) {
             News
           </a>
           <a 
-            className="text-md sm:text-lg md:text-xl font-medium my-3 text-off-white hover:text-[#67B4DC] duration-500 cursor-pointer" 
+            className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
             href="#Contact" 
             onClick={() => setOpen(false)}>
             Contact
           </a>
           <a 
-            className="text-md sm:text-lg md:text-xl my-1 text-off-white duration-500 cursor-pointer" 
+            className="text-md sm:text-lg md:text-xl my-1 text-off-white cursor-pointer" 
             href="https://docs.bridgr.xyz" 
             onClick={() => setOpen(false)}>
             <Button>Whitepaper</Button>
