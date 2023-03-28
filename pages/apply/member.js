@@ -22,9 +22,12 @@ export default function member() {
 					<TitleText title={(<><span className={`${urbanist.variable} font-urbanist text-off-white font-extrabold`}> BRIDGR </span>  Membership</>)} textStyles="mt-20 text-center" />
 					<p className="mt-10 font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-center text-secondary-white">Register your interest in becoming a member and we'll get back to you to discuss!</p>
 					<MemberForm/>
-					<button className='mx-auto mt-20 border-[2px] border-white border-opacity-20 shadow-md hover:bg-white hover:bg-opacity-10 text-off-white py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
-						<Link className= "text-sm sm:text-l md:text-xl font-medium hover:text-white duration-400 cursor-pointer " href="/#Pricing">
-						Go Back</Link><Image src="/arrow.svg" className="sm:w-[20px] sm:h-[20px] w-[18px] h-[18px] ml-3" width={20} height={20} alt="email"/>
+					<button className='mx-auto mt-20 border-[2px] border-white border-opacity-20 shadow-md hover:bg-white hover:bg-opacity-10 text-off-white py-1 pl-6 pr-5 items-center flex flex-row rounded-2xl duration-500'>
+						<Link className= "font-normal xl:text-xl lg:text-lg md:text-md text-sm hover:text-white duration-400 cursor-pointer " href="/#Pricing">
+							Go Back</Link>
+							<object className='ml-1 w-[40px] h-[40px]' type="image/svg+xml" data="/bridgrlogoanimatedslow.svg">
+								<img src="/bridgrlogoanimatedslow.svg" alt='bridgr logo animated'/>
+							</object>
 					</button>
 				</div>
 			</div>
