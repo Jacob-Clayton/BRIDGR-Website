@@ -15,6 +15,7 @@ import MapTooltip from './MapToolTip';
 import ContactForm from './ContactForm';
 import CarouselElement from './Carousel';
 import Newsletter from './Newsletter';
+import MemberForm from './MemberForm';
 
 export {
   Navbar,
@@ -35,4 +36,5 @@ export {
   ContactForm,
   Newsletter,
   CarouselElement,
+  MemberForm,
 };

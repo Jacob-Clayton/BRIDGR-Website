@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
@@ -10,57 +11,58 @@ function MobileNav({open, setOpen}) {
     <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[50%] bridgr-blue rounded-tl-[35px] rounded-bl-[35px] transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter  `}>
       <div className="z-100 flex flex-col items-center mt-[20%] sm:mt-[22%] md:mt-[20%] lg:mt-[25%] font-normal">
 
-          <a 
+          <Link 
             className="text-md sm:text-lg xl:text-lg my-3 text-off-white cursor-pointer" 
-            href="#Home" 
+            href="/" 
             onClick={() => setOpen(false)}>
             Home
-          </a>
+          </Link>
           <a 
             className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
-            href="#About" 
+            href="/#About" 
             onClick={() => setOpen(false)}>
+            
             About
           </a>
           <a 
             className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
-            href="#Story" 
+            href="/#Story" 
             onClick={() => setOpen(false)}>
             Story
           </a>
           <a 
             className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
-            href="#Team" 
+            href="/#Team" 
             onClick={() => setOpen(false)}>
             Team
           </a>
           <a 
             className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
-            href="#Services" 
+            href="/#Services" 
             onClick={() => setOpen(false)}>
             Services
           </a>
           {/* <a 
             className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
-            href="#Pricing" 
+            href="/#Pricing" 
             onClick={() => setOpen(false)}>
             Pricing
           </a> */}
           <a 
             className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
-            href="#Events" 
+            href="/#Events" 
             onClick={() => setOpen(false)}>
             Events
           </a>
           <a 
             className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
-            href="#News" 
+            href="/#News" 
             onClick={() => setOpen(false)}>
             News
           </a>
           <a 
             className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
-            href="#Contact" 
+            href="/#Contact" 
             onClick={() => setOpen(false)}>
             Contact
           </a>
@@ -113,7 +115,7 @@ const Navbar = () => {
           />
           <div className=' fixed top-0 pt-4 z-50 w-full backdrop-blur-sm'>
             <div className='flex justify-between items-center '>
-              <a href='#Home'>
+              <Link href='/'>
                 <Image
                   src="/bridgrlogo.png" 
                   alt="bridgr logo"
@@ -121,34 +123,34 @@ const Navbar = () => {
                   height={60} 
                   width={180} 
                 />
-              </a>
+              </Link>
               
               <div className='flex justify-end  mr-[2%]'>
                 <div className='lg:flex hidden'>
                   <ul className="flex gap-4 lg:text-md xl:text-[1.1rem] items-center font-medium text-off-white cursor-pointer">
                       {/* <li className="px-3 hover:text-white duration-500">
-                        <a href="#Home">Home</a>
+                        <Link href="/">Home</Link>
                       </li> */}
                       <li className="hover:text-white duration-500">
-                        <a href="#About">About</a>
+                        <a href="/#About">About</a>
                       </li>
                       {/* <li className="hover:text-white duration-500">
-                        <a href="#Story">Story</a>
+                        <a href="/#Story">Story</a>
                       </li> */}
                       <li className="hover:text-white duration-500">
-                        <a href="#Team">Team</a>
+                        <a href="/#Team">Team</a>
                       </li>
                       <li className="hover:text-white duration-500">
-                        <a href="#Services">Services</a>
+                        <a href="/#Services">Services</a>
                       </li>
                       {/* <li className="hover:text-white duration-500">
-                        <a href="#Pricing">Pricing</a>
+                        <a href="/#Pricing">Pricing</a>
                       </li> */}
                       <li className="hover:text-white duration-500">
-                        <a href="#Events">Events</a>
+                        <a href="/#Events">Events</a>
                       </li>
                       <li className="hover:text-white duration-500">
-                        <a href="#Contact">Contact</a>
+                        <a href="/#Contact">Contact</a>
                       </li>
                       <li className="hover:text-white duration-500">
                         <a href="https://docs.bridgr.xyz" className='flex flex-1'>Whitepaper<img src="/external-link.svg" className="sm:w-[11px] sm:h-[11px] w-[10px] h-[10px] ml-[1px]" alt='external link'/></a>

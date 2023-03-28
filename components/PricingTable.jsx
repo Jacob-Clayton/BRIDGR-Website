@@ -133,7 +133,7 @@ const PricingTable = () => {
                         </div>
                         <div className="sm:px-20 md:px-6 lg:px-14 px-4 mb-10">
                             <InfoButton href='https://docs.bridgr.xyz/benefits/for-members'>Read More</InfoButton>
-                            <PriceButton href='#Contact'>Register Interest</PriceButton>
+                            <PriceButton href='/apply/member'>Register Interest</PriceButton>
                         </div>
                     </div>
                 </div>
