@@ -53,7 +53,7 @@ const CarouselElement = () => {
                 alt="mark talking"
                 className="w-full lg:block hidden lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
                 width={900}
-                height={900}
+                height={700}
             />
             </motion.div>
         </motion.div>
@@ -86,8 +86,8 @@ const CarouselElement = () => {
                     src="/kishor-talk.jpeg"
                     alt="kishor talking"
                     className="w-full lg:block hidden lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
-                    width={610}
-                    height={610}
+                    width={910}
+                    height={710}
                     quality={95}
                 />
                 {/* <motion.div
@@ -105,7 +105,7 @@ const CarouselElement = () => {
             </motion.div>
         </motion.div>
 
-        {/* <motion.div className="mx-auto flex lg:flex-row flex-col gap-6">
+        <motion.div className="mx-auto flex lg:flex-row flex-col gap-6">
             <motion.div
                 variants={fadeIn('right', 'tween', 0.2, 1)}
                 className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#ffffff] border-opacity-[30%] text-left relative"
@@ -120,7 +120,7 @@ const CarouselElement = () => {
                 </div>
 
             <p className="mt-[24px] font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white">
-                A collaborative web3 company like BRIDGR is the way to go because it recognizes the importance of the people behind the technology. It fosters a culture of openness, transparency, and shared decision-making. It empowers partners, members and friends to have a more meaningful role in shaping the direction of the company and the companies we help build.
+                A collaborative web3 company like BRIDGR really recognizes the importance of the people behind the technology by fostering a culture of openness, transparency, and shared decision-making. It empowers partners, members and friends to have a more meaningful role in shaping the direction of the company and the companies we help build.
             </p>
             </motion.div>
 
@@ -129,14 +129,15 @@ const CarouselElement = () => {
                 className="relative flex-1 flex justify-center items-center"
             >
                 <Image
-                    src="/kishor-talk.jpeg"
-                    alt="kishor"
+                    src="/jacob_talk.jpg"
+                    alt="Jacob Talking"
                     className="w-full lg:block hidden lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
-                    width={1200}
-                    height={900}
+                    width={910}
+                    height={710}
+                    quality={95}
                 />
             </motion.div>
-        </motion.div> */}
+        </motion.div>
 
         </Carousel>
     </motion.div>
