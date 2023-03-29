@@ -34,7 +34,7 @@ const About = () => {
           variants={fadeIn('up', 'tween', 0.2, 1)}
         >
           <p className='font-normal 2xl:text-[22px] xl:text-xl md:text-lg text-md text-center text-off-white'>
-            Web3 companies have raised $94 billion since 2016, yet 9 out of 10 fail.<span className={`${urbanist.variable} font-urbanist font-extrabold`}> BRIDGR </span>is here to change that!
+            Web3 companies raised $94 billion since 2016, yet 9 out of 10 fail.<span className={`${urbanist.variable} font-urbanist font-extrabold`}> BRIDGR </span>is here to change that!
           </p>
         </motion.div>
         <motion.div 
