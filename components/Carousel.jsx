@@ -120,7 +120,7 @@ const CarouselElement = () => {
                 </div>
 
             <p className="mt-[24px] font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white">
-                A collaborative web3 company like BRIDGR really recognizes the importance of the people behind the technology by fostering a culture of openness, transparency, and shared decision-making. It empowers partners, members and friends to have a more meaningful role in shaping the direction of the company and the companies we help build.
+                "A collaborative web3 company like BRIDGR really recognizes the importance of the people behind the technology by fostering a culture of openness, transparency, and shared decision-making. It empowers partners, members and friends to have a more meaningful role in shaping the direction of the company and the companies we help build."
             </p>
             </motion.div>
 
