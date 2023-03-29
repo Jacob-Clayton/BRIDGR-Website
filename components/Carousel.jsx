@@ -86,8 +86,8 @@ const CarouselElement = () => {
                     src="/kishor-talk.jpeg"
                     alt="kishor talking"
                     className="w-full lg:block hidden lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
-                    width={1920}
-                    height={950}
+                    width={610}
+                    height={610}
                     quality={95}
                 />
                 {/* <motion.div
