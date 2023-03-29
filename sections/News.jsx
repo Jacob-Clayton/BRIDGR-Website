@@ -35,16 +35,12 @@ const News = () => {
                             className="mx-auto lg:w-[180px] lg:h-[180px] w-[150px] h-[150px] rounded-[32px] object-cover"
                             width={180} height={180}
                         />
-                        <Link href="https://www.eventbrite.com/e/web3-social-by-bridgr-istanbul-01042023-tickets-593434417317" aria-label='istanbul keynote event tickets'>
-                            <div className='absolute bottom-2 left-2 flex lg:w-[165px] w-[150px] h-[30px] rounded-2xl justify-center items-center bg-primary-black bg-opacity-70 text-off-white font-medium xl:text-xl md:text-lg text-md'>
-                                Book Now
-                            </div>
-                        </Link>
-                        
                         <div className="w-full flex justify-between items-center">
-                            <div className="flex-1 md:ml-[48px] flex flex-col max-w-[650px]">
+                            <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
+                            <a href='https://medium.com/@bridgrxyz/web3-social-on-april-1st-in-istanbul-solidarity-donations-through-web3-b1839981ed9a'>
                                 <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
                                     Istanbul Keynote Panel</p>
+                            </a>
                                 <p className="mt-[16px] font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white">
                                     Panel to raise awareness on how Web3 technologies can be implemented during emergency situations like the February earthquake, with networking afterwards on 
                                     Apr 1st 2023.</p>
@@ -64,15 +60,12 @@ const News = () => {
                             className="mx-auto lg:w-[180px] lg:h-[180px] w-[150px] h-[150px] rounded-[32px] object-cover"
                             width={180} height={180}
                         />
-                        {/* <Link href="https://www.eventbrite.com/e/web3-social-by-bridgr-istanbul-01042023-tickets-593434417317" aria-label='istanbul keynote event tickets'>
-                            <div className='absolute bottom-2 left-2 flex lg:w-[165px] w-[150px] h-[30px] rounded-2xl justify-center items-center bg-primary-black bg-opacity-70 text-off-white font-medium xl:text-xl md:text-lg text-md'>
-                                Book Now
-                            </div>
-                        </Link> */}
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
-                                <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
-                                    NFT NYC </p>
+                                <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-comes-new-york-city-on-april-12th-during-nft-nyc-b10cc8f063f7'>
+                                    <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
+                                        NFT NYC </p>
+                                </a>
                                 <p className="mt-[16px] font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white">
                                     We're hosting a party during NFT NYC with Manifest, the world’s first CryptoPunk NFT band on 
                                     Apr 12th 2023.</p>
@@ -94,8 +87,10 @@ const News = () => {
                         />
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
-                                <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
-                                    Beachside in Bali </p>
+                                <a href='https://twitter.com/Bridgrxyz/status/1625104846675386369?s=20'>
+                                    <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
+                                        Beachside in Bali </p>
+                                </a>
                                 <p className="mt-[16px] font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white">
                                     We hit the tropics for a red carpet event at the Lighthouse Studios with EDNS and Off-Chain on 
                                     Feb 24th 2023.</p>
@@ -117,8 +112,10 @@ const News = () => {
                         />
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
-                                <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
-                                    Singapore Social</p>
+                                <a href='https://twitter.com/Bridgrxyz/status/1622586625552429057?s=20'>
+                                    <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
+                                        Singapore Social</p>
+                                </a>
                                 <p className="mt-[16px] font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white">
                                     Singapore's first NFT bar, The Parlour Singapore, hosted another fantastic sold out 'WEB3 SOCIAL' on 
                                     Feb 3rd 2023.</p>
@@ -140,8 +137,10 @@ const News = () => {
                         />
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
-                                <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
-                                    Istanbul Blockchain Week</p>
+                                <a href='https://twitter.com/Bridgrxyz/status/1592214170996703232?s=20'>
+                                    <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
+                                        Istanbul Blockchain Week</p>
+                                </a>
                                 <p className="mt-[16px] font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white">
                                     BRIDGR hosted the official Istanbul Blockchain Week afterparty at our friend's bar YouPlace, on 
                                     Nov 14th 2022.</p>
