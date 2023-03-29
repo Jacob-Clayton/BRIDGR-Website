@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--font-montserrat), 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: var(--font-montserrat), sans-serif;
   scroll-behavior: smooth;
 }
 
