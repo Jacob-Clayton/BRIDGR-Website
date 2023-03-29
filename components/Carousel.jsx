@@ -29,9 +29,9 @@ const CarouselElement = () => {
                 className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#ffffff] border-opacity-[30%] text-left relative"
             >
                 <div>
-                    <h4 className="font-normal sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
+                    <p className="font-normal sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
                         Mark
-                    </h4>
+                    </p>
                     <p className="mt-[8px] font-light sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
                         Founder of BRIDGR
                     </p>
@@ -64,9 +64,9 @@ const CarouselElement = () => {
                 className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#ffffff] border-opacity-[30%] text-left relative"
             >
                 <div>
-                    <h4 className="font-normal sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
+                    <p className="font-normal sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
                         Kishor
-                    </h4>
+                    </p>
                     <p className="mt-[8px] font-light sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
                         Founder of BRIDGR
                     </p>
@@ -86,8 +86,8 @@ const CarouselElement = () => {
                     src="/kishor-talk.jpeg"
                     alt="kishor talking"
                     className="w-full lg:block hidden lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
-                    width={610}
-                    height={610}
+                    width={1920}
+                    height={950}
                     quality={95}
                 />
                 {/* <motion.div
