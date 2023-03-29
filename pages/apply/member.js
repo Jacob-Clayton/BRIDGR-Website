@@ -15,9 +15,9 @@ const urbanist = Urbanist({
 export default function member() {
     return (
 		<>
-		<Navbar />
-			<div className={`${styles.paddings} relative bg-primary-lightBlue min-h-screen`}>
-				<div className={`${styles.innerWidth} mx-auto`}>
+			<div className={`relative bg-primary-lightBlue min-h-screen`}>
+				<Navbar />
+				<div className={`${styles.innerWidth} ${styles.paddings} mx-auto`}>
 					<TitleText title={(<><span className={`${urbanist.variable} font-urbanist text-off-white font-extrabold`}>BRIDGR </span>Membership</>)} textStyles="mt-20 text-center" />
 					<p className="mt-10 font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-center text-secondary-white">
 						Register your interest in becoming a member and we'll get back to you to discuss!
