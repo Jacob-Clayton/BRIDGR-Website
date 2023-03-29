@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import styles from '../styles';
-import { TitleText, TypingText, MapTooltip } from '../components';
+import { TitleText } from '../components';
 import { fadeIn, staggerContainer } from '../utils/motion';
 import { useMediaQuery } from 'react-responsive';
 
@@ -21,7 +21,7 @@ const Events = () => {
         variants={staggerContainer}
         initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
+        viewport={{ once: false, amount: 0.01 }}
         className={`${styles.innerWidth} mx-auto md:mt-20 sm:mt-10 mt-5 flex flex-col`}
       >
         <TitleText title={(<>Web3 Events</>)} textStyles="text-center" />

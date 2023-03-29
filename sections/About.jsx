@@ -25,7 +25,7 @@ const About = () => {
         variants={staggerContainer}
         initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
+        viewport={{ once: false, amount: 0.2 }}
         className={`${styles.innerWidth} mx-auto mb-10 flex-col ${styles.flexCenter}`}
       >
         <TitleText title={<>About Us</>} textStyles="text-center" />

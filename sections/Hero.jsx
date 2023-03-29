@@ -31,7 +31,7 @@ const Hero = () => {
         variants={staggerContainer}
         initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
-        viewport={{ once: false, amount: 0.2 }}
+        viewport={{ once: false, amount: 0.01 }}
         className={`flex-2 ${styles.flexStart} mx-auto flex-col sm:self-center mt-[38%] sm:mt-[17%] md:mt-0 z-20`}
       >
         <div>

@@ -17,7 +17,7 @@ const Services = () => {
                 variants={fadeIn('up', 'tween', 0.3, 1)}
                 initial={isLgScreen ? 'hidden' : 'visible'}
                 whileInView="show"
-                viewport={{ once: false, amount: 0.25 }}
+                viewport={{ once: false, amount: 0.01 }}
             >
                 <TitleText title={<>Services</>}textStyles="text-center" />
                 <div className='md:mt-10 mt-5 justify-center'>

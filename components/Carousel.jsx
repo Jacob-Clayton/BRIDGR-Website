@@ -14,7 +14,7 @@ const CarouselElement = () => {
         variants={staggerContainer}
         initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
+        viewport={{ once: false, amount: 0.01 }}
         className={`${styles.innerWidth} mx-auto`}
     >
         <Carousel 

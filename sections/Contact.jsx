@@ -5,6 +5,7 @@ import styles from '../styles';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../utils/motion';
 import { Urbanist } from '@next/font/google';
+import { useMediaQuery } from 'react-responsive';
 
 const urbanist = Urbanist({
   subsets: ['latin'],
@@ -14,6 +15,7 @@ const urbanist = Urbanist({
 
 
 export default function Contact() {  
+  const isLgScreen = useMediaQuery({ minWidth: 1024 });
   
   return (
     <section className={`${styles.paddings} relative z-10`} id='Contact'>
@@ -22,7 +24,8 @@ export default function Contact() {
         <motion.div 
           className='flex flex-col lg:flex-row w-full items-center justify-around'
           variants={fadeIn('up', 'tween', 0.2, 1)}
-          initial="hidden"
+          initial={isLgScreen ? 'hidden' : 'visible'}
+          viewport={{ once: false, amount: 0.01 }}
           whileInView="show"
         >
           <ContactForm />
@@ -30,7 +33,8 @@ export default function Contact() {
         <motion.div 
           className='flex flex-col md:mt-10 mt-5 justify-center items-center'
           variants={fadeIn('up', 'tween', 0.2, 1)}
-          initial="hidden"
+          initial={isLgScreen ? 'hidden' : 'visible'}
+          viewport={{ once: false, amount: 0.01 }}
           whileInView="show"
         >  
           {/* <div className=''>
