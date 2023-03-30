@@ -27,9 +27,9 @@ export default function member() {
 						<Link className= "font-normal xl:text-xl lg:text-lg md:text-md text-sm hover:text-white duration-400 cursor-pointer " href="/#Pricing">
 							Go Back
 						</Link>
-						<object className='ml-1 w-[30px] h-[30px]' type="image/svg+xml" data="/bridgrlogoanimatedslow.svg">
+						{/* <object className='ml-1 w-[30px] h-[30px]' type="image/svg+xml" data="/bridgrlogoanimatedslow.svg">
 							<img src="/bridgrlogoanimatedslow.svg" alt='bridgr logo animated'/>
-						</object>
+						</object> */}
 					</button>
 				</div>
 			</div>
