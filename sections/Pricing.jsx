@@ -16,7 +16,7 @@ const Pricing = () => {
                 initial={isLgScreen ? 'hidden' : 'visible'}
                 whileInView="show"
                 viewport={{ once: false, amount: 0.1 }}
-                className={`${styles.innerWidth} mx-auto mt-0 flex flex-col`}
+                className={`${styles.innerWidth} mx-auto flex flex-col`}
             >
             <TitleText title={<>Pricing</>}textStyles="text-center" />
                 {/* <motion.p
