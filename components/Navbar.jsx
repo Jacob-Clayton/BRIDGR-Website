@@ -111,10 +111,10 @@ const Navbar = () => {
             variants={navVariants}
             initial="hidden"
             whileInView="show"
-            className={`${styles.xPaddings} py-8 navbar absolute inset-0`}
+            className={`${styles.xPaddings} navbar absolute inset-0`}
           />
-          <div className=' fixed top-0 pt-4 z-50 w-full backdrop-blur-sm'>
-            <div className='flex justify-between items-center '>
+          <div className='fixed top-0 pt-2 pb-0 z-50 w-full backdrop-blur-lg'>
+            <div className='flex justify-between'>
               <Link href='/'>
                 <Image
                   src="/bridgrlogo.png" 
@@ -125,7 +125,7 @@ const Navbar = () => {
                 />
               </Link>
               
-              <div className='flex justify-end  mr-[2%]'>
+              <div className='flex justify-end mr-[2%]'>
                 <div className='lg:flex hidden'>
                   <ul className="flex gap-4 lg:text-md xl:text-[1.1rem] items-center font-medium text-off-white cursor-pointer">
                       {/* <li className="px-3 hover:text-white duration-500">

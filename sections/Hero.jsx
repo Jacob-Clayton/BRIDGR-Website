@@ -72,11 +72,13 @@ const Hero = () => {
           </div>
       </motion.div>
 
-      <div className={`flex flex-1 mx-auto mt-0 sm:mt-[18%] md:mt-0 lg:mt-[2%] xl:mt-[2%] 2xl:mt-[4%] items-center sm:justify-end justify-center`}>
+      <div className='flex flex-1' />
+
+      {/* <div className={`flex flex-1 mx-auto mt-0 sm:mt-[18%] md:mt-0 lg:mt-[2%] xl:mt-[2%] 2xl:mt-[4%] items-center sm:justify-end justify-center`}>
       <object className='absolute w-[85%] sm:w-[50%] md:w-[50%] lg:w-[45%] xl:w-[42%] 2xl:w-[38%] max-w-[900px] 2xl:right-[16%] z-10 opacity-[90%]' type="image/svg+xml" data="bridgrlogoanimatedslow.svg">
         <img src="bridgrlogoanimatedslow.svg" alt='bridgr logo animated'/>
       </object>
-        {/* <Image 
+        <Image 
           src='/bridgrlogoanimated.svg' 
           alt="cover" 
           quality={95}
@@ -84,9 +86,8 @@ const Hero = () => {
           height={1500}
           priority
           className="absolute w-[85%] sm:w-[50%] md:w-[50%] lg:w-[45%] xl:w-[42%] 2xl:w-[36%] max-w-[900px] 2xl:right-[17%] z-10 opacity-[90%]" 
-        /> */}
-        {/* <div className="absolute z-[0] w-[40%] h-[50%] rounded-full gradient-01 opacity-[25%] lg:block hidden" /> */}
-      </div>
+        />
+      </div> */}
   </section>
 );
 };

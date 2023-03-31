@@ -44,7 +44,7 @@
 }
 
 .bg-image {
-  background-image: linear-gradient(to bottom, transparent, transparent, transparent, rgb(67, 134, 255)), url('/lightbluehorizontal_op.jpg');
+  background-image: linear-gradient(to bottom, rgb(67, 134, 255, 0.7), rgb(67, 134, 255, 0.4), rgb(67, 134, 255, 0.3), rgb(67, 134, 255)), url('/blueglobe.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
