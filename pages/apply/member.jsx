@@ -20,7 +20,7 @@ export default function member() {
 				<div className={`${styles.innerWidth} flex flex-col mx-auto mt-5 sm:mt-10 md:mt-20`}>
 					<TitleText title={(<><span className={`${urbanist.variable} font-urbanist text-off-white font-extrabold`}>BRIDGR </span>Membership</>)} textStyles="text-center" />
 					<p className="mt-10 font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-center text-secondary-white">
-						Register your interest in becoming a member and we'll get back to you for a chat
+						Register your interest in becoming a member and we'll get back to you for a chat.
 					</p>
 					<MemberForm/>
 					<button className='mx-auto mt-10 border-[2px] border-white border-opacity-20 shadow-md hover:bg-white hover:bg-opacity-10 text-off-white py-1 pl-6 pr-5 items-center flex flex-row rounded-2xl duration-500'>
