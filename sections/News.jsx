@@ -42,7 +42,7 @@ const News = () => {
                                         NFT NYC </p>
                                 </a>
                                 <p className="mt-[16px] font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white">
-                                    We're hosting a party during NFT NYC with Manifest, the world’s first CryptoPunk NFT band on 
+                                    We're hosting an NFT.NYC after party with a CryptoPunk band performance, free beers and NFT prizes on 
                                     Apr 12th 2023.</p>
                             </div>
                             <a href='https://www.eventbrite.sg/e/nftnyc-after-party-on-april-12th-gamehaus-new-york-tickets-605643825987'>
