@@ -139,7 +139,7 @@ export default function MemberForm() {
 			<div className='flex flex-col items-center'>
                 <button 
 					role="submit" 
-					className=" mt-2 border-[2px] flex mx-auto border-white border-opacity-20 shadow-md hover:shadow-lg hover:bg-white hover:bg-opacity-10 text-off-white py-2 px-6 rounded-2xl font-normal xl:text-xl lg:text-lg md:text-md text-sm hover:text-white duration-500 cursor-pointer "
+					className=" mt-2 border-[1px] flex mx-auto border-white border-opacity-30 shadow-md hover:shadow-lg hover:bg-white hover:bg-opacity-10 text-off-white py-2 px-6 rounded-2xl font-normal xl:text-xl lg:text-lg md:text-md text-sm hover:text-white duration-500 cursor-pointer "
 				>
 					{isSubmitting ? "Submitting" : "Register Interest"}
 				</button>

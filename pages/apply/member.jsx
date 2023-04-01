@@ -23,7 +23,7 @@ export default function member() {
 						Register your interest in becoming a member and we'll get back to you for a chat.
 					</p>
 					<MemberForm/>
-					<button className='mx-auto mt-10 border-[2px] border-white border-opacity-20 shadow-md hover:bg-white hover:bg-opacity-10 text-off-white py-1 pl-6 pr-5 items-center flex flex-row rounded-2xl duration-500'>
+					<button className='mx-auto mt-10 border-[1px] border-white border-opacity-30 shadow-md hover:bg-white hover:bg-opacity-10 text-off-white py-1 pl-6 pr-5 items-center flex flex-row rounded-2xl duration-500'>
 						<Link className= "font-normal xl:text-xl lg:text-lg md:text-md text-sm hover:text-white duration-400 cursor-pointer " href="/#Pricing">
 							Go Back
 						</Link>
