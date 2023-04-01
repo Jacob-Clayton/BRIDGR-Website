@@ -30,7 +30,7 @@ const News = () => {
 
                 <div className="relative flex sm:flex-row flex-col gap-4">
                         <Image
-                            src="/gamehaus.jpg"
+                            src="/gamehaus_game.jpg"
                             alt="nft nyc event"
                             className="mx-auto lg:w-[180px] lg:h-[180px] w-[150px] h-[150px] rounded-[32px] object-cover"
                             width={180} height={180}
