@@ -62,7 +62,7 @@ const News = () => {
                         />
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
-                                <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-comes-new-york-city-on-april-12th-during-nft-nyc-b10cc8f063f7'>
+                                <a href='https://www.eventbrite.sg/e/nftnyc-after-party-on-april-12th-gamehaus-new-york-tickets-605643825987'>
                                     <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
                                         NFT NYC </p>
                                 </a>
@@ -70,7 +70,7 @@ const News = () => {
                                     We're hosting a party during NFT NYC with Manifest, the world’s first CryptoPunk NFT band on 
                                     Apr 12th 2023.</p>
                             </div>
-                            <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-comes-new-york-city-on-april-12th-during-nft-nyc-b10cc8f063f7'>
+                            <a href='https://www.eventbrite.sg/e/nftnyc-after-party-on-april-12th-gamehaus-new-york-tickets-605643825987'>
                                 <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-white hover:bg-opacity-10 duration-500">
                                         <img src="/arrow.svg" alt="arrow" className="w-[40%] h-[40%] object-contain"/> 
                                 </div>
