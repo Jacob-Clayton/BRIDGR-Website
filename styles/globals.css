@@ -166,10 +166,10 @@
   animation: background-pan 5s linear infinite;
   background: linear-gradient(
     to right,
-    rgb(25, 53, 163),
+    rgb(67, 134, 255),
     #67B4DC,
     rgb(179, 109, 229),
-    rgb(25, 53, 163)
+    rgb(67, 134, 255)
   );
   background-size: 200%;
   -webkit-background-clip: text;
