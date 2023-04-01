@@ -35,12 +35,12 @@ const Hero = () => {
         className={`flex-2 ${styles.flexStart} mx-auto flex-col sm:self-center mt-[38%] sm:mt-[17%] md:mt-0 z-20`}
       >
         <div>
-          <motion.h1 variants={textVariant(0.2)} className={`${styles.heroHeading} 2xl:px-0 sm:px-6 px-2 flex-1`}>
+          <motion.p variants={textVariant(0.2)} className={`${styles.heroHeading} 2xl:px-0 sm:px-6 px-2 flex-1`}>
             Accelerate your Web3 business
-          </motion.h1>
-          <motion.h1 variants={textVariant(0.25)} className={`${styles.heroHeading} 2xl:px-0 px-6 flex-1`}>
+          </motion.p>
+          {/* <motion.h1 variants={textVariant(0.25)} className={`${styles.heroHeading} 2xl:px-0 px-6 flex-1`}>
             
-          </motion.h1>
+          </motion.h1> */}
         
           <motion.p
               variants={fadeIn('up', 'tween', 0.2, 1)}
