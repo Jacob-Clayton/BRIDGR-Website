@@ -36,10 +36,10 @@ const Hero = () => {
       >
         <div>
           <motion.h1 variants={textVariant(0.2)} className={`${styles.heroHeading} 2xl:px-0 sm:px-6 px-2 flex-1`}>
-            The Best of Web3
+            Accelerate your Web3 business
           </motion.h1>
           <motion.h1 variants={textVariant(0.25)} className={`${styles.heroHeading} 2xl:px-0 px-6 flex-1`}>
-            in one place
+            
           </motion.h1>
         
           <motion.p
