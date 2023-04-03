@@ -38,7 +38,12 @@ export default function Newsletter() {
             <div className="mx-auto">
                 <input {...register("email")} required aria-required={true} placeholder="Email" type='email' className="mt-2 bg-transparent w-full input px-2 py-1 rounded-md font-normal text-secondary-white"></input>
                 <div className="h-[1px] w-full bg-white bg-opacity-20 mx-auto"/>
-                <button role="submit" className=" mt-4 border-[1px] flex mx-auto border-white border-opacity-30 shadow-md hover:shadow-lg hover:bg-white hover:bg-opacity-10 text-off-white py-1 px-4 rounded-2xl font-normal xl:text-xl lg:text-lg md:text-md text-sm hover:text-white duration-500 cursor-pointer ">{isSubmitting ? "Submitting" : "Join Newsletter"}</button>
+                <button 
+                    role="button" 
+                    className=" mt-4 border-[1px] flex mx-auto border-white border-opacity-30 shadow-md hover:shadow-lg hover:bg-white hover:bg-opacity-10 text-off-white py-1 px-4 rounded-2xl font-normal xl:text-xl lg:text-lg md:text-md text-sm hover:text-white duration-500 cursor-pointer "
+                >
+                    {isSubmitting ? "Submitting" : "Join Newsletter"}
+                </button>
 
                 <span className='mt-2 flex justify-center'>
                     {form.state === 'loading' && <LoadingSpinner />}
