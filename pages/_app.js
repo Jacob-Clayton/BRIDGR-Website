@@ -3,6 +3,7 @@ import { Analytics } from '@vercel/analytics/react';
 import '../styles/globals.css';
 import 'tailwindcss/tailwind.css';
 import { Montserrat, Poppins, Urbanist } from '@next/font/google'
+import { Html } from 'next/document';
 
 const montserrat = Montserrat({
 	subsets: ['latin'],
@@ -23,7 +24,7 @@ const urbanist = Urbanist({
 
 const MyApp = ({ Component, pageProps }) => {
 	return (
-	<>
+	<Html lang='en'>
 		<Head>
 			<title>BRIDGR</title>
 			<meta property="og:title" content="BRIDGR" key="title" />
@@ -32,7 +33,7 @@ const MyApp = ({ Component, pageProps }) => {
 			<Component {...pageProps} />
 			<Analytics />
 		</main>
-	</>
+	</Html>
 	)
 }
 
