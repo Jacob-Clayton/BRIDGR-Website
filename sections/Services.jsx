@@ -25,7 +25,7 @@ const Services = () => {
                 <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 place-items-center sm:gap-y-10 gap-y-6 gap-x-6'>
 
                     <div className="relative text-off-white sm:py-8 sm:px-10 py-4 px-5 rounded-[32px] border-[1px] border-[#ffffff] border-opacity-30">
-                    <img src="/worldwide.svg" className='sm:w-[50px] sm:h-[50px] w-[30px] h-[30px] mb-2 mx-auto'/>
+                    <img src="/worldwide.svg" alt='visibility' className='sm:w-[50px] sm:h-[50px] w-[30px] h-[30px] mb-2 mx-auto'/>
                             <p className="font-medium xl:text-2xl md:text-xl text-lg text-center mb-2">
                                 Visibility</p>                        
                         <ul className='list-disc list-inside 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white'>
@@ -41,7 +41,7 @@ const Services = () => {
                     </div>
 
                     <div className="relative text-off-white sm:p-8 py-4 px-3 rounded-[32px] border-[1px] border-[#ffffff] border-opacity-30">
-                        <img src="/construction.svg" className='sm:w-[50px] sm:h-[50px] w-[30px] h-[30px] mb-2 mx-auto'/>
+                        <img src="/construction.svg" alt='business building' className='sm:w-[50px] sm:h-[50px] w-[30px] h-[30px] mb-2 mx-auto'/>
                         <p className="font-medium xl:text-2xl md:text-xl text-lg text-center mb-2">
                             Business Building</p>
                             <ul className='list-disc list-inside 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white'>
@@ -56,7 +56,7 @@ const Services = () => {
                     </div>
 
                     <div className="relative text-off-white sm:py-8 sm:px-11 py-4 px-5 rounded-[32px] border-[1px] border-[#ffffff] border-opacity-[30%]">
-                        <img src="/investor.svg" className='sm:w-[50px] sm:h-[50px] w-[30px] h-[30px] mb-2 mx-auto'/>
+                        <img src="/investor.svg" alt='investors' className='sm:w-[50px] sm:h-[50px] w-[30px] h-[30px] mb-2 mx-auto'/>
                         <p className="font-medium xl:text-2xl md:text-xl text-lg text-center mb-2">
                                 Access Investors</p>
                             <ul className='list-disc list-inside 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white'>
@@ -71,7 +71,7 @@ const Services = () => {
                     </div>
 
                     <div className="relative text-off-white sm:py-8 sm:px-10 py-4 px-4 rounded-[32px] border-[1px] border-[#ffffff] border-opacity-[30%]">
-                        <img src="/certificate.svg" className='sm:w-[50px] sm:h-[50px] w-[30px] h-[30px] mb-2 mx-auto'/>
+                        <img src="/certificate.svg" alt='education' className='sm:w-[50px] sm:h-[50px] w-[30px] h-[30px] mb-2 mx-auto'/>
                         <p className="font-medium xl:text-2xl md:text-xl text-lg text-center mb-2">
                             Web3 Education</p>
                             <ul className='list-disc list-inside 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white'>
@@ -86,7 +86,7 @@ const Services = () => {
                     </div>
 
                     <div className="relative text-off-white sm:py-8 sm:px-10 p-4 rounded-[32px] border-[1px] border-[#ffffff] border-opacity-[30%]">
-                        <img src="/law.svg" className='sm:w-[50px] sm:h-[50px] w-[30px] h-[30px] mb-2 mx-auto'/>
+                        <img src="/law.svg" alt='legal services' className='sm:w-[50px] sm:h-[50px] w-[30px] h-[30px] mb-2 mx-auto'/>
                         <p className="font-medium xl:text-2xl md:text-xl text-lg text-center mb-2">
                                 Web3 Legal Services</p>
                             <ul className='list-disc list-inside 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white'>
@@ -101,7 +101,7 @@ const Services = () => {
                     </div>
 
                     <div className="relative text-off-white sm:p-8 py-4 px-4 rounded-[32px] border-[1px] border-[#ffffff] border-opacity-[30%]">
-                        <img src="/computer.svg" className='sm:w-[50px] sm:h-[50px] w-[30px] h-[30px] mb-2 mx-auto'/>
+                        <img src="/computer.svg" alt='consultancy' className='sm:w-[50px] sm:h-[50px] w-[30px] h-[30px] mb-2 mx-auto'/>
                         <p className="font-medium xl:text-2xl md:text-xl text-lg text-center mb-2">
                                 Web3 Consultancy</p>
                             <ul className='list-disc list-inside 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white'>
