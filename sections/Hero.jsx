@@ -1,11 +1,7 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
-import { fadeIn, staggerContainer, textVariant } from '../utils/motion';
-import { useInView } from 'react-intersection-observer';
 import { Montserrat, Poppins } from '@next/font/google'
 
 const montserrat = Montserrat({
@@ -20,57 +16,40 @@ const poppins = Poppins({
 })
 
 const Hero = () => {
-  const isLgScreen = useMediaQuery({ minWidth: 1024 });
-  const { ref, inView } = useInView({ threshold: 0, triggerOnce: false });
 
   return (
     <section id="Home" className={`h-screen flex sm:flex-row flex-col mx-auto text-center sm:text-left ${styles.innerWidth} ${montserrat.variable} font-montserrat`}>
-      <motion.div 
-        ref={ref}
-        animate={inView ? "show" : "hidden"}
-        variants={staggerContainer}
-        initial={isLgScreen ? 'hidden' : 'visible'}
-        whileInView="show"
-        viewport={{ once: false, amount: 0.01 }}
+      <div 
         className={`flex-2 ${styles.flexStart} mx-auto flex-col sm:self-center mt-[38%] sm:mt-[17%] md:mt-0 z-20`}
       >
         <div>
-          <motion.p variants={textVariant(0.2)} className={`${styles.heroHeading} 2xl:px-0 sm:px-6 px-2 flex-1`}>
+          <p className={`${styles.heroHeading} 2xl:px-0 sm:px-6 px-2 flex-1`}>
             Accelerate your Web3 business
-          </motion.p>
+          </p>
           {/* <motion.h1 variants={textVariant(0.25)} className={`${styles.heroHeading} 2xl:px-0 px-6 flex-1`}>
             
           </motion.h1> */}
         
-          <motion.p
-              variants={fadeIn('up', 'tween', 0.2, 1)}
-              className= {`${styles.xPaddings} sm:mt-8 md:mt-10 font-normal text-center mt-5 xl:max-w-[700px] lg:max-w-[600px] md:max-w-[550px] sm:max-w-[500px] max-w-[500px] 2xl:text-2xl xl:text-xl md:text-lg text-md sm:text-left text-secondary-white`}
-            >
+          <p className= {`${styles.xPaddings} sm:mt-8 md:mt-10 font-normal text-center mt-5 xl:max-w-[700px] lg:max-w-[600px] md:max-w-[550px] sm:max-w-[500px] max-w-[500px] 2xl:text-2xl xl:text-xl md:text-lg text-md sm:text-left text-secondary-white`}>
               A collective of Web3 companies offering our combined services and communities to help you grow.
-            </motion.p>
+            </p>
 
             <div className='flex flex-row justify-center sm:justify-start'>
-              <motion.div 
-                variants={fadeIn('up', 'tween', 0.2, 1)}
-                className='2xl:pl-0 px-6 sm:pr-8 pr-4 sm:mt-8 md:mt-10 mt-5'
-              >
+              <div className='2xl:pl-0 px-6 sm:pr-8 pr-4 sm:mt-8 md:mt-10 mt-5'>
                   <button className='border-[1px] border-white border-opacity-30 shadow-md hover:bg-white hover:bg-opacity-10 text-off-white py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
                     <a className= "text-sm sm:text-l md:text-xl font-medium hover:text-white duration-400 cursor-pointer " href="https://t.me/bridgr">
                       Join us</a><Image src="/telegram.svg" className="sm:w-[22px] sm:h-[22px] w-[18px] h-[18px] ml-3" width={20} height={20} alt="telegram"/>
                   </button>
-              </motion.div>
-              <motion.div 
-                variants={fadeIn('up', 'tween', 0.2, 1)}
-                className='sm:mt-8 md:mt-10 mt-5'
-              >
+              </div>
+              <div className='sm:mt-8 md:mt-10 mt-5'>
                   <button className='border-[1px] border-white border-opacity-30 shadow-md hover:bg-white hover:bg-opacity-10 text-off-white py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
                     <a className= "text-sm sm:text-l md:text-xl font-medium hover:text-white duration-400 cursor-pointer " href="#Contact">
                       Contact</a><Image src="/email.svg" className="sm:w-[22px] sm:h-[22px] w-[18px] h-[18px] ml-3" width={20} height={20} alt="email"/>
                   </button>
-              </motion.div>
+              </div>
             </div>
           </div>
-      </motion.div>
+      </div>
 
       <div className='flex flex-1' />
 
