@@ -24,16 +24,16 @@ const urbanist = Urbanist({
 
 const MyApp = ({ Component, pageProps }) => {
 	return (
-	<Html lang='en'>
+	<>
 		<Head>
 			<title>BRIDGR</title>
-			<meta property="og:title" content="BRIDGR" key="title" />
+			<meta property="og:title" lang='en' content="BRIDGR" key="title" />
 		</Head>
 		<main className={`${montserrat.variable} font-montserrat`}>
 			<Component {...pageProps} />
 			<Analytics />
 		</main>
-	</Html>
+	</>
 	)
 }
 
