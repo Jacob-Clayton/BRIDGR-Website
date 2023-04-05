@@ -3,11 +3,8 @@
 import styles from '../styles';
 import { TitleText } from '../components';
 import Image from 'next/image';
-import { motion } from 'framer-motion';
-import { fadeIn } from '../utils/motion';
 import { Urbanist } from '@next/font/google';
-import { Newsletter } from '../components';
-import Link from 'next/link';
+
 
 const urbanist = Urbanist({
     subsets: ['latin'],
@@ -19,6 +16,9 @@ const News = () => {
     return (
         <section className={`${styles.paddings} relative z-10`} id="News">
             <div className="gradient-02 overflow-visible z-0 lg:block hidden" />
+            <div className=' bg-primary-lightBlue rounded-[100px] pt-10 pb-20 mx-auto w-[70%]'>
+
+            
             <div className={`${styles.innerWidth} mx-auto flex flex-col`}>
                 <TitleText title={<>News</>} textStyles="text-center" />
 
@@ -153,6 +153,7 @@ const News = () => {
                         </div>
                     </div>
 
+                </div>
                 </div>
             </div>
         </section>

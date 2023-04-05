@@ -82,7 +82,7 @@ export default function ContactForm() {
 			<div className='flex flex-col items-center'>
                 <button 
 					role="button" 
-					className=" mt-2 border-[1px] flex mx-auto border-white border-opacity-30 shadow-md hover:shadow-lg hover:bg-white hover:bg-opacity-10 text-off-white py-1 px-4 rounded-2xl font-normal xl:text-xl lg:text-lg md:text-md text-sm hover:text-white duration-500 cursor-pointer "
+					className=" mt-2 border-[1px] flex mx-auto border-white border-opacity-30 shadow-md hover:shadow-lg hover:bg-white hover:bg-opacity-10 text-off-white py-1 px-4 rounded-lg font-normal xl:text-xl lg:text-lg md:text-md text-sm hover:text-white duration-500 cursor-pointer "
 				>
 					{isSubmitting ? "Submitting" : "Send"}
 				</button>

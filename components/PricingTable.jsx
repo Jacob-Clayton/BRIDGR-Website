@@ -76,7 +76,7 @@ const PricingTable = () => {
                         </div>
                         <div className="sm:px-20 md:px-6 lg:px-14 px-4 sm:mb-10 mb-5">
                             <InfoButton href='https://docs.bridgr.xyz/benefits/for-friends/community-access'>Read More</InfoButton>
-                            <PriceButton href='#Contact'>Register Interest</PriceButton>
+                            <PriceButton href='#Contact'>Contact Us</PriceButton>
                         </div>
                     </div>
                 </div>
