@@ -16,7 +16,7 @@ const News = () => {
     return (
         <section className={`${styles.paddings} relative z-10`} id="News">
             <div className="gradient-02 overflow-visible z-0 lg:block hidden" />
-            <div className=' bg-primary-lightBlue rounded-[100px] pt-10 pb-20 mx-auto w-[70%]'>
+            <div className=' bg-primary-lightBlue rounded-[100px] pt-10 pb-20 mx-auto w-full'>
 
             
             <div className={`${styles.innerWidth} mx-auto flex flex-col`}>
@@ -26,7 +26,7 @@ const News = () => {
                     Read more about out latest news and events on<a href='https://medium.com/@bridgrxyz' className='text-white font-medium'> Medium.</a>
                 </p>
                 
-                <div className="md:mt-10 mt-5 flex flex-col gap-5">
+                <div className="md:mt-10 mt-5 flex flex-col gap-5 text-center sm:text-left">
 
                 <div className="relative flex sm:flex-row flex-col gap-4">
                         <Image
