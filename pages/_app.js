@@ -3,11 +3,10 @@ import { Analytics } from '@vercel/analytics/react';
 import '../styles/globals.css';
 import 'tailwindcss/tailwind.css';
 import { Montserrat, Poppins, Urbanist } from '@next/font/google'
-import { Html } from 'next/document';
 
 const montserrat = Montserrat({
 	subsets: ['latin'],
-	variable: '--font-montserrat'
+	variable: '--font-montserrat',
 })
 
 const poppins = Poppins({

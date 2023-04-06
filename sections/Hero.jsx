@@ -2,17 +2,12 @@
 
 import Image from 'next/image';
 import styles from '../styles';
-import { Montserrat, Poppins } from '@next/font/google'
+import { Montserrat } from '@next/font/google'
 
 const montserrat = Montserrat({
 	subsets: ['latin'],
-	variable: '--font-montserrat'
-})
-
-const poppins = Poppins({
-	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-	subsets: ['latin'],
-	variable: '--font-poppins'
+	variable: '--font-montserrat',
+  display: 'swap',
 })
 
 const Hero = () => {
