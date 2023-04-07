@@ -58,7 +58,7 @@ const Hero = () => {
         <div className='flex sm:flex-row flex-col'>
         <div className='w-[2px] h-[460px] sm:block hidden rounded-2xl my-auto bg-white bg-opacity-30 mr-12' />
         <div className='w-[350px] h-[1px] block sm:hidden rounded-2xl mx-auto bg-white bg-opacity-30 mb-10' />
-          <div className="flex sm:flex-col items-center flex-row my-auto sm:gap-12 gap-8 rounded-[50px] bg-[#4386ff] bg-opacity-60 px-6 sm:py-8 py-4">
+          <div className="flex sm:flex-col items-center flex-row my-auto sm:gap-12 gap-8 rounded-[50px] bg-[#4386ff] bg-opacity-50 px-6 sm:py-8 py-4">
             <div className='flex-1'>
               <p className={`${poppins.variable} font-poppins flex flex-col font-light 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white`}>
                 <span className={`${urbanist.variable} font-urbanist mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-xl text-lg text-off-white font-extrabold`}>Global</span>
