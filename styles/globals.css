@@ -59,6 +59,22 @@
   );
 }
 
+@media screen and (min-width: 640px) {
+  .strip-gradient {
+    background: linear-gradient(to bottom,
+      transparent,
+      #00000001,
+      #00000028,
+      #00000060,
+      #00000060,
+      #00000060,
+      #00000028,
+      #00000001,
+      transparent
+    );
+  }
+}
+
 .gradient-02 {
   position: absolute;
   width: 200px;

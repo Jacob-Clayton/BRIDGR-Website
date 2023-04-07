@@ -56,24 +56,24 @@ const Hero = () => {
 
       <div className={`flex-1 mx-auto my-auto`}>
         <div className='flex sm:flex-row flex-col'>
-        <div className='w-[2px] h-[460px] sm:block hidden rounded-2xl my-auto bg-white bg-opacity-30 mr-12' />
-        <div className='w-[350px] h-[1px] block sm:hidden rounded-2xl mx-auto bg-white bg-opacity-30 mb-10' />
-          <div className="flex sm:flex-col items-center flex-row my-auto sm:gap-12 gap-8 rounded-[50px] bg-[#4386ff] bg-opacity-50 px-6 sm:py-8 py-4">
-            <div className='flex-1'>
+        {/* <div className='w-[2px] h-[460px] sm:block hidden rounded-2xl my-auto bg-white bg-opacity-30 mr-12' /> */}
+        <div className='w-[350px] h-[1px] block sm:hidden rounded-2xl mx-auto bg-white bg-opacity-30 mb-6' />
+          <div className="flex sm:flex-col items-center justify-center xl:gap-14 lg:gap-12 md:gap-14 sm:gap-14 gap-8 flex-row my-auto strip-gradient sm:h-screen px-6 sm:py-8 py-4">
+            <div className=''>
               <p className={`${poppins.variable} font-poppins flex flex-col font-light 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white`}>
                 <span className={`${urbanist.variable} font-urbanist mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-xl text-lg text-off-white font-extrabold`}>Global</span>
                 Web3 events
               </p>
             </div>
 
-            <div className='flex-1'>
+            <div className=''>
               <p className={`${poppins.variable} font-poppins flex flex-col font-light 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white`}>
                 <span className={`${urbanist.variable} font-urbanist mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-xl text-lg text-off-white font-extrabold`}>10</span>
                 Partners
               </p>
             </div>
 
-            <div className='flex-1'>
+            <div className=''>
               <p className={`${poppins.variable} font-poppins flex flex-col font-light 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px] text-center text-secondary-white`}>
                 <span className={`${urbanist.variable} font-urbanist mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-xl text-lg text-off-white font-extrabold`}>220,000<span className='ml-1 xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-md align-middle'>+</span></span>
                 Community
