@@ -28,14 +28,14 @@ const PricingTable = () => {
                 variants={fadeIn('up', 'tween', 0.2, 1)}
                 initial={isLgScreen ? 'hidden' : 'visible'}
                 whileInView="show"
-                className={`${styles.innerWidth} flex flex-col md:flex-row justify-center mx-auto md:mt-10 mt-5 lg:gap-8 md:gap-6 gap-4`}
+                className={`${styles.innerWidth} flex flex-col md:flex-row justify-center mx-auto md:mt-10 mt-5 xl:gap-12 lg:gap-10 md:gap-6 sm:gap-4 gap-2`}
             >
                 <div className="p-1">
-                    <div className="bg-white rounded-2xl h-full 2xl:w-[330px] xl:w-[320px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
-                        <div className="px-4 py-6">
+                    <div className="bg-white rounded-2xl h-full 2xl:w-[330px] xl:w-[320px] lg:w-[280px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
+                        <div className="px-2 py-6">
                             <div className="font-medium">
-                                <div className="bg-white rounded-lg p-6 sm:px-20 md:px-2 lg:px-8 xl:px-10">
-                                    <p className="text-4xl font-bold text-center text-[#4386ff] mb-4">Consult</p>
+                                <div className="bg-white rounded-lg p-6 sm:px-20 md:px-2 lg:px-6 xl:px-8">
+                                    <p className="text-3xl font-medium text-center text-[#4386ff]">Consult</p>
                                     <div class="flex justify-center items-baseline my-8">
                                         <span class="mr-2 text-4xl text-primary-black font-extrabold">$150</span>
                                         <span class="text-gray-400 font-normal">/ hour</span>
@@ -57,11 +57,11 @@ const PricingTable = () => {
                 </div>
 
                 <div className="p-1">
-                    <div className="bg-white rounded-2xl h-full 2xl:w-[330px] xl:w-[320px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
+                    <div className="bg-white rounded-2xl h-full 2xl:w-[330px] xl:w-[320px] lg:w-[280px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
                         <div className="px-4 py-6">
                             <div className="font-medium">
-                                    <div className="bg-white rounded-lg p-6 sm:px-20 md:px-2 lg:px-8 xl:px-10">
-                                    <p className="text-4xl font-bold text-center text-[#4386ff] mb-4">Friend</p>
+                                    <div className="bg-white rounded-lg p-6 sm:px-20 md:px-2 lg:px-6 xl:px-8">
+                                    <p className="text-3xl font-medium text-center text-[#4386ff]">Friend</p>
                                     <div class="flex justify-center items-baseline my-8">
                                         <span class=" mr-2 text-4xl text-primary-black font-extrabold">$200</span>
                                         <span class="text-gray-400 font-normal">/ lifetime</span>
@@ -82,17 +82,17 @@ const PricingTable = () => {
                 </div>
 
                 <div className="rounded-2xl magic-border p-1">
-                    <div className="relative bg-white rounded-2xl h-full 2xl:w-[330px] xl:w-[320px] lg:w-[300px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
+                    <div className="relative bg-white rounded-2xl h-full 2xl:w-[330px] xl:w-[320px] lg:w-[280px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
 
-                    <div class="absolute right-0 top-[163px] magic-border w-full h-[1.6rem] flex justify-center items-center text-white font-medium xl:text-[0.95rem] lg:text-[0.89rem] md:text-[0.67rem] sm:text-lg text-[0.83rem] transform skew-y-3">
+                    <div class="absolute right-0 top-[163px] magic-border w-full lg:h-[1.5rem] md:h-[1.3rem] h-[1.5rem] flex justify-center items-center text-white font-medium xl:text-[0.9rem] lg:text-[0.83rem] md:text-[0.68rem] sm:text-lg text-[0.83rem] transform skew-y-3">
                         <span className="text-center leading-none">Register interest before June for 20% off</span>
                     </div>
 
                         <div className="px-4 py-6">
                             <div className="font-medium text-gray-700">
-                                    <div className="bg-white rounded-lg p-6 sm:px-20 md:px-2 lg:px-8 xl:px-10 ">
+                                    <div className="bg-white rounded-lg p-6 sm:px-20 md:px-2 lg:px-6 xl:px-8 ">
                                         <div className="magic-text2">
-                                            <p className="text-4xl font-bold text-center text-primary-black mb-4">Member</p>
+                                            <p className="text-3xl font-medium text-center text-primary-black">Member</p>
                                         </div>
                                     <div class="flex justify-center items-baseline my-8 relative">
                                         <span class="mr-2 text-4xl text-primary-black font-extrabold z-10">$2000</span>

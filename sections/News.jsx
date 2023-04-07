@@ -16,8 +16,6 @@ const News = () => {
     return (
         <section className={`${styles.paddings} relative z-10`} id="News">
             <div className="gradient-02 overflow-visible z-0 lg:block hidden" />
-            <div className=' bg-primary-lightBlue rounded-[100px] pt-10 pb-20 mx-auto w-full'>
-
             
             <div className={`${styles.innerWidth} mx-auto flex flex-col`}>
                 <TitleText title={<>News</>} textStyles="text-center" />
@@ -155,7 +153,6 @@ const News = () => {
 
                 </div>
                 </div>
-            </div>
         </section>
     );
 };

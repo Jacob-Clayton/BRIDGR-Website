@@ -29,7 +29,7 @@ const About = () => {
         viewport={{ once: false, amount: 0.2 }}
         className={`${styles.innerWidth} mx-auto mb-10 flex-col ${styles.flexCenter}`}
       >
-        <TitleText title={<>About Us</>} textStyles="text-center" />
+        {/* <TitleText title={<>About Us</>} textStyles="text-center" />
         <motion.div 
           className='w-full flex justify-center md:mt-20 md:mb-20 mt-10 mb-10'
           variants={fadeIn('up', 'tween', 0.2, 1)}
@@ -37,8 +37,8 @@ const About = () => {
           <p className='font-normal 2xl:text-[22px] xl:text-xl md:text-lg text-md text-center text-off-white'>
             Web3 companies raised $94 billion since 2016, yet 9 out of 10 fail.<span className={`${urbanist.variable} font-urbanist font-extrabold`}> BRIDGR </span>is here to change that!
           </p>
-        </motion.div>
-        <motion.div 
+        </motion.div> */}
+        {/* <motion.div 
           className="mx-auto flex flex-row w-full md:mt-20 md:mb-20 mt-10 mb-10"
           variants={fadeIn('up', 'tween', 0.2, 1)}
         >
@@ -63,7 +63,7 @@ const About = () => {
               Combined community
             </p>
           </div>
-        </motion.div>
+        </motion.div> */}
         
         <motion.div 
           variants={footerVariants}
@@ -71,7 +71,7 @@ const About = () => {
           whileInView="show"
           className='relative'
         >
-        <div className="md:mt-20 mt-10 mb-6">
+        <div className="mb-6">
         <TypingText title="Partners" textStyles="text-left px-4" />
           <div className=' place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
             <a className="p-1 col-span-1" href='https://apegang.art/'>

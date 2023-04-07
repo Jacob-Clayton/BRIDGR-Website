@@ -5,6 +5,14 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
 import { Button } from '../components'
+import { Poppins } from '@next/font/google';
+
+const poppins = Poppins({
+	subsets: ['latin'],
+	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+	variable: '--font-poppins',
+  display: 'swap',
+})
 
 function MobileNav({open, setOpen}) {
   return (   
@@ -111,7 +119,7 @@ const Navbar = () => {
               
               <div className='flex justify-end mr-[2%]'>
                 <div className='lg:flex hidden'>
-                  <ul className="flex gap-4 lg:text-md xl:text-[1.1rem] items-center font-medium text-off-white cursor-pointer">
+                  <ul className={`${poppins.variable} font-poppins flex gap-4 lg:text-md xl:text-[1.1rem] items-center font-medium text-off-white cursor-pointer`}>
                       {/* <li className="px-3 hover:text-white duration-500">
                         <Link href="/">Home</Link>
                       </li> */}
