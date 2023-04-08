@@ -5,6 +5,14 @@ import { TitleText, TypingText } from '../components';
 import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
+import { Poppins } from '@next/font/google';
+
+const poppins = Poppins({
+	subsets: ['latin'],
+	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+	variable: '--font-poppins',
+    display: 'swap',
+})
 
 const Story = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
@@ -33,7 +41,7 @@ const Story = () => {
                         {/* <TypingText title="Story" textStyles="text-center" /> */}
                         <motion.p
                             variants={fadeIn('up', 'tween', 0.2, 1)}
-                            className="mb-10 font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-center text-secondary-white"
+                            className={` ${poppins.variable} ${styles.descriptionText} font-poppins mb-10 text-center`}
                         >
                             Our founders love Web3 and the potential of decentralized online systems. 
                             Unfortunately, we've witnessed good people losing time, energy, and resources to shady players. 

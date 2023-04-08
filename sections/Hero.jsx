@@ -30,11 +30,11 @@ const Hero = () => {
     <section id="Home" className={` h-screen flex mx-auto text-center ${styles.innerWidth} ${montserrat.variable} font-montserrat`}>
       <div className='flex sm:flex-row flex-col my-auto sm:gap-0 gap-10'>      
       <div className={`flex-2 flex-col items-center self-center z-20`}>
-          <p className={`${styles.heroHeading} sm:text-left text-center 2xl:px-0 sm:px-6 px-6`}>
+          <p className={`${styles.heroHeading} sm:text-left text-center 2xl:px-0 sm:px-6 px-0`}>
             Accelerate your Web3 business
           </p>
           <div className='sm:mt-8 md:mt-10 mt-5 xl:max-w-[700px] lg:max-w-[600px] md:max-w-[550px] sm:max-w-[500px] max-w-[500px]'>
-          <p className= {`${styles.xPaddings} ${poppins.variable} font-poppins font-light sm:text-left text-center 2xl:text-2xl xl:text-xl md:text-lg text-md text-secondary-white`}>
+          <p className= {`${styles.xPaddings} ${poppins.variable} font-poppins font-light sm:text-left text-center 2xl:text-2xl xl:text-xl md:text-xl sm:text-lg text-md text-secondary-white`}>
               We are a collective of Web3 companies offering our combined strength to help you grow.
             </p>
           </div>
@@ -59,26 +59,37 @@ const Hero = () => {
         {/* <div className='w-[2px] h-[460px] sm:block hidden rounded-2xl my-auto bg-white bg-opacity-30 mr-12' /> */}
         <div className='w-[350px] h-[1px] block sm:hidden rounded-2xl mx-auto bg-white bg-opacity-30 mb-6' />
           <div className="flex sm:flex-col items-center justify-center xl:gap-14 lg:gap-12 md:gap-14 sm:gap-14 gap-8 flex-row my-auto strip-gradient sm:h-screen px-6 sm:py-8 py-4">
-            <div className=''>
-              <p className={`${poppins.variable} font-poppins flex flex-col font-light 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white`}>
-                <span className={`${urbanist.variable} font-urbanist mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-xl text-lg text-off-white font-extrabold`}>Global</span>
-                Web3 events
-              </p>
-            </div>
 
             <div className=''>
-              <p className={`${poppins.variable} font-poppins flex flex-col font-light 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[13px] text-center text-secondary-white`}>
-                <span className={`${urbanist.variable} font-urbanist mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-xl text-lg text-off-white font-extrabold`}>10</span>
+              <p className={`${poppins.variable} font-poppins flex flex-col font-light 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[16px] text-[15px] text-center text-secondary-white`}>
+                <span className={`${urbanist.variable} font-urbanist mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-extrabold`}>
+                  10
+                </span>
                 Partners
               </p>
             </div>
 
             <div className=''>
-              <p className={`${poppins.variable} font-poppins flex flex-col font-light 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[15px] text-[14px] text-center text-secondary-white`}>
-                <span className={`${urbanist.variable} font-urbanist mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-xl text-lg text-off-white font-extrabold`}>220,000<span className='ml-1 xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-md align-middle'>+</span></span>
+              <p className={`${poppins.variable} font-poppins flex flex-col font-light 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[16px] text-[15px] text-center text-secondary-white`}>
+                <span className={`${urbanist.variable} font-urbanist mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-extrabold`}>
+                  220,000
+                    <span className='ml-1 xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-md align-middle'>
+                      +
+                    </span>
+                </span>
                 Community
               </p>
             </div>
+
+            <div className=''>
+              <p className={`${poppins.variable} font-poppins flex flex-col font-light 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[16px] text-[15px] text-center text-secondary-white`}>
+                <span className={`${urbanist.variable} font-urbanist mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-extrabold`}>
+                  Global
+                </span>
+                Web3 events
+              </p>
+            </div>
+
           </div>
         </div>
       </div>

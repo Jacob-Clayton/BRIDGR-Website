@@ -17,71 +17,71 @@ const poppins = Poppins({
 function MobileNav({open, setOpen}) {
   return (   
     <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[50%] bg-primary-lightBlue rounded-tl-[35px] rounded-bl-[35px] transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter  `}>
-      <div className="z-100 flex flex-col items-center mt-[20%] sm:mt-[22%] md:mt-[20%] lg:mt-[25%] font-normal">
+      <div className={`${poppins.variable} font-poppins text-off-white gap-6 z-100 flex flex-col items-center mt-[20%] sm:mt-[22%] md:mt-[20%] lg:mt-[25%] font-normal`}>
 
           <Link 
-            className="text-md sm:text-lg xl:text-lg my-3 text-off-white cursor-pointer" 
+            className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
             href="/" 
             onClick={() => setOpen(false)}>
             Home
           </Link>
           <a 
-            className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
+            className={`font-poppins text-md sm:text-lg md:text-xl cursor-pointer`} 
             href="/#About" 
             onClick={() => setOpen(false)}>
             
             About
           </a>
           <a 
-            className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
+            className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
             href="/#Story" 
             onClick={() => setOpen(false)}>
             Story
           </a>
           <a 
-            className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
+            className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
             href="/#Team" 
             onClick={() => setOpen(false)}>
             Team
           </a>
           <a 
-            className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
+            className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
             href="/#Services" 
             onClick={() => setOpen(false)}>
             Services
           </a>
           {/* <a 
-            className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
+            className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
             href="/#Pricing" 
             onClick={() => setOpen(false)}>
             Pricing
           </a> */}
           <a 
-            className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
+            className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
             href="/#Events" 
             onClick={() => setOpen(false)}>
             Events
           </a>
           <a 
-            className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
+            className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
             href="/#News" 
             onClick={() => setOpen(false)}>
             News
           </a>
           <a 
-            className="text-md sm:text-lg md:text-xl my-3 text-off-white cursor-pointer" 
+            className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
             href="/#Contact" 
             onClick={() => setOpen(false)}>
             Contact
           </a>
           <a 
-            className="text-md sm:text-lg md:text-xl my-1 text-off-white cursor-pointer" 
+            className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
             href="https://docs.bridgr.xyz" 
             onClick={() => setOpen(false)}>
             <Button>Whitepaper</Button>
           </a>
-          <div className='w-[160px] sm:w-[200px] h-[1px] bg-white bg-opacity-30 fixed bottom-[15%]'/>
-          <div className="flex sm:gap-4 gap-2 fixed bottom-[8%]" id='socials'>
+          <div className='w-[160px] sm:w-[200px] h-[1px] bg-white bg-opacity-30 fixed bottom-[16%]'/>
+          <div className="flex sm:gap-4 gap-2 fixed bottom-[9%]" id='socials'>
             <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' alt='twitter'/></a>
             <a href="https://t.me/bridgr"><img src='/telegram.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' alt='telegram'/></a>
             <a href="https://discord.com/invite/j2ayV98Dc2"><img src='/discord.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' alt='discord'/></a>
@@ -105,7 +105,7 @@ const Navbar = () => {
             whileInView="show"
             className={`${styles.xPaddings} navbar absolute inset-0`}
           />
-          <div className='fixed top-0 pt-2 pb-1 z-50 w-full backdrop-blur-sm'>
+          <div className='fixed top-0 pt-3 pb-2 z-50 w-full backdrop-blur-sm'>
             <div className='flex justify-between'>
               <Link href='/'>
                 <Image

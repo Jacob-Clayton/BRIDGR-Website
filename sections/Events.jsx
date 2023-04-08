@@ -6,6 +6,14 @@ import styles from '../styles';
 import { TitleText } from '../components';
 import { fadeIn, staggerContainer } from '../utils/motion';
 import { useMediaQuery } from 'react-responsive';
+import { Poppins } from '@next/font/google';
+
+const poppins = Poppins({
+	subsets: ['latin'],
+	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+	variable: '--font-poppins',
+    display: 'swap',
+})
 
 const Events = () => {
   const isLgScreen = useMediaQuery({ minWidth: 1024 });
@@ -29,7 +37,7 @@ const Events = () => {
           variants={fadeIn('up', 'tween', 0.2, 1)}
           initial={isLgScreen ? 'hidden' : 'visible'}
           whileInView="show"
-          className="md:mt-10 mt-5 font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-center text-secondary-white"
+          className={`${styles.descriptionText} ${poppins.variable} font-poppins md:mt-10 mt-5 text-center`}
         >
           Recieve worldwide exposure at our 'WEB3 SOCIAL' events. 
           Your company will be given a professional speech, promotional graphics on screens around the event, plus video and images for your own use.
@@ -51,19 +59,34 @@ const Events = () => {
           />
           <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-a-global-events-platform-for-anyone-interested-in-web3-8f78be3aba14' aria-label="Bridgr's web3 social event platform details">
               <div className='absolute hover:bg-opacity-100 2xl:top-[140px] 2xl:right-[62px] xl:top-[130px] xl:right-[58px] lg:top-[100px] lg:right-[10px] md:top-[110px] md:right-[0px] sm:top-[110px] sm:right-[0px] top-[5px] right-0 bg-[#1935a4] bg-opacity-70 border-[1px] border-white border-opacity-30 shadow-lg hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[200px] md:w-[160px] sm:w-[150px] w-[130px] rounded-2xl md:p-4 sm:p-3 p-2'>
-                <p className='text-off-white font-bold lg:text-xl md:text-lg md:text-md text-sm'>In Asia:<br/><span className='font-normal lg:text-lg md:text-md sm:text-sm text-xs'>Singapore, Seoul, Bali and Hanoi.</span></p>
+                <p className='text-off-white font-bold lg:text-xl md:text-lg md:text-md text-sm'>
+                  In Asia:<br/>
+                  <span className='font-normal lg:text-lg md:text-md sm:text-sm text-xs'>
+                    Singapore, Seoul, Bali and Hanoi.
+                  </span>
+                </p>
               </div>
           </a>
 
           <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-a-global-events-platform-for-anyone-interested-in-web3-8f78be3aba14' aria-label="Bridgr's web3 social event platform details">
               <div className='absolute hover:bg-opacity-100 2xl:top-[130px] 2xl:right-[510px] xl:top-[120px] xl:right-[470px] lg:top-[90px] lg:right-[280px] md:top-[95px] md:right-[230px] sm:top-[15px] sm:right-[170px] top-[85px] right-[100px] bg-[#1935a4] bg-opacity-70 border-[1px] border-white border-opacity-30 shadow-xl hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[260px] md:w-[240px] sm:w-[200px] w-[170px] rounded-2xl md:p-4 sm:p-3 p-2'>
-                <p className='text-off-white font-bold lg:text-xl md:text-lg md:text-md text-sm'>In Europe:<br/><span className='font-normal lg:text-lg md:text-md sm:text-sm text-xs'>Paris, London, Berlin, Istanbul, Stockholm, Lisbon and Manchester.</span></p>
+                <p className='text-off-white font-bold lg:text-xl md:text-lg md:text-md text-sm'>
+                  In Europe:<br/>
+                  <span className='font-normal lg:text-lg md:text-md sm:text-sm text-xs'>
+                    Paris, London, Berlin, Istanbul, Stockholm, Lisbon and Manchester.
+                  </span>
+                </p>
               </div>
           </a>
 
           <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-comes-new-york-city-on-april-12th-during-nft-nyc-b10cc8f063f7' aria-label="Details on bridgr's web3 social event during NFT NYC">
               <div className='absolute hover:bg-opacity-100 2xl:top-[150px] 2xl:right-[980px] xl:top-[140px] xl:right-[900px] lg:top-[120px] lg:right-[650px] md:top-[120px] md:right-[530px] sm:top-[80px] sm:right-[380px] top-[10px] left-0 bg-[#1935a4] bg-opacity-70 border-[1px] border-white border-opacity-30 shadow-xl hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[170px] md:w-[150px] sm:w-[130px] w-[110px] rounded-2xl md:p-4 sm:p-3 p-2'>
-                <p className='text-off-white font-bold lg:text-xl md:text-lg md:text-md text-sm'>In America:<br/><span className='font-normal lg:text-lg md:text-md sm:text-sm text-xs'>New York City</span></p>
+                <p className='text-off-white font-bold lg:text-xl md:text-lg md:text-md text-sm'>
+                  In America:<br/>
+                  <span className='font-normal lg:text-lg md:text-md sm:text-sm text-xs'>
+                    New York City
+                  </span>
+                </p>
               </div>
           </a>
 

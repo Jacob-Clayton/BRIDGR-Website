@@ -5,6 +5,14 @@ import { fadeIn, staggerContainer } from "../utils/motion";
 import Image from "next/image";
 import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
+import { Poppins } from '@next/font/google';
+
+const poppins = Poppins({
+	subsets: ['latin'],
+	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+	variable: '--font-poppins',
+    display: 'swap',
+})
 
 const CarouselElement = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
@@ -37,7 +45,7 @@ const CarouselElement = () => {
                     </p>
                 </div>
 
-                <p className="mt-[24px] font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white">
+                <p className={`${styles.descriptionText} ${poppins.variable} font-poppins mt-[24px]`}>
                     "Our shared worldwide community offers immense strength in fostering a sense of belonging, collaboration, 
                     and collective action towards a common goal. Our global community leverages their collective strength to 
                     increase visibility for all partners, members and friends."
@@ -72,7 +80,7 @@ const CarouselElement = () => {
                     </p>
                 </div>
 
-                <p className="mt-[24px] font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white">
+                <p className={`${styles.descriptionText} ${poppins.variable} font-poppins mt-[24px]`}>
                     “Community is everything in Web3, it's also a huge struggle for companies joining. BRIDGR helps solve this by 
                     providing immediate access to a worldwide Web3 community ontop of a full suite of technical services.”
                 </p>
@@ -119,8 +127,10 @@ const CarouselElement = () => {
                     </p>
                 </div>
 
-            <p className="mt-[24px] font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white">
-                "A collaborative web3 company like BRIDGR really recognizes the importance of the people behind the technology by fostering a culture of openness, transparency, and shared decision-making. It empowers partners, members and friends to have a more meaningful role in shaping the direction of the company and the companies we help build."
+            <p className={`${styles.descriptionText} ${poppins.variable} font-poppins mt-[24px]`}>
+                "Working as a collective like BRIDGR fosters a culture of transparency and shared decision-making.
+                It empowers everyone to work as one in shaping the direction of the company and the companies 
+                we help build."
             </p>
             </motion.div>
 

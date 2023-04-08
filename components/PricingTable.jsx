@@ -33,14 +33,14 @@ const PricingTable = () => {
                 <div className="p-1">
                     <div className="bg-white rounded-2xl h-full 2xl:w-[330px] xl:w-[320px] lg:w-[280px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
                         <div className="px-2 py-6">
-                            <div className="font-medium">
+                            <div className="font-normal">
                                 <div className="bg-white rounded-lg p-6 sm:px-20 md:px-2 lg:px-6 xl:px-8">
                                     <p className="text-3xl font-medium text-center text-[#4386ff]">Consult</p>
                                     <div class="flex justify-center items-baseline my-8">
                                         <span class="mr-2 text-4xl text-primary-black font-extrabold">$150</span>
-                                        <span class="text-gray-400 font-normal">/ hour</span>
+                                        <span class={`${poppins.variable} font-poppins text-gray-400 font-medium`}>/ hour</span>
                                     </div>
-                                    <p className="text-gray-700 mb-2">
+                                    <p className={`${poppins.variable} font-poppins text-gray-600 mb-2`}>
                                         <svg className="inline-block w-4 h-4 mr-2 fill-current text-teal-500" viewBox="0 0 30 30">
                                         <path d="M 27.5 7.53125 L 24.464844 4.542969 C 24.15625 4.238281 23.65625 4.238281 23.347656 4.542969 L 11.035156 16.667969 L 6.824219 12.523438 C 6.527344 12.230469 6 12.230469 5.703125 12.523438 L 2.640625 15.539062 C 2.332031 15.84375 2.332031 16.335938 2.640625 16.640625 L 10.445312 24.324219 C 10.59375 24.472656 10.796875 24.554688 11.007812 24.554688 C 11.214844 24.554688 11.417969 24.472656 11.566406 24.324219 L 27.5 8.632812 C 27.648438 8.488281 27.734375 8.289062 27.734375 8.082031 C 27.734375 7.875 27.648438 7.679688 27.5 7.53125 Z M 27.5 7.53125 " fill-opacity="1" fill-rule="nonzero"/>
                                         </svg>
@@ -59,14 +59,14 @@ const PricingTable = () => {
                 <div className="p-1">
                     <div className="bg-white rounded-2xl h-full 2xl:w-[330px] xl:w-[320px] lg:w-[280px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
                         <div className="px-4 py-6">
-                            <div className="font-medium">
+                            <div className="font-normal">
                                     <div className="bg-white rounded-lg p-6 sm:px-20 md:px-2 lg:px-6 xl:px-8">
                                     <p className="text-3xl font-medium text-center text-[#4386ff]">Friend</p>
                                     <div class="flex justify-center items-baseline my-8">
                                         <span class=" mr-2 text-4xl text-primary-black font-extrabold">$200</span>
-                                        <span class="text-gray-400 font-normal">/ lifetime</span>
+                                        <span class={`${poppins.variable} font-poppins text-gray-400 font-normal`}>/ lifetime</span>
                                     </div>
-                                    <p className="text-gray-700 mb-2">
+                                    <p className={`${poppins.variable} font-poppins text-gray-600 mb-2`}>
                                         <svg className="inline-block w-4 h-4 mr-2 fill-current text-blue-500" viewBox="0 0 30 30">
                                         <path d="M 27.5 7.53125 L 24.464844 4.542969 C 24.15625 4.238281 23.65625 4.238281 23.347656 4.542969 L 11.035156 16.667969 L 6.824219 12.523438 C 6.527344 12.230469 6 12.230469 5.703125 12.523438 L 2.640625 15.539062 C 2.332031 15.84375 2.332031 16.335938 2.640625 16.640625 L 10.445312 24.324219 C 10.59375 24.472656 10.796875 24.554688 11.007812 24.554688 C 11.214844 24.554688 11.417969 24.472656 11.566406 24.324219 L 27.5 8.632812 C 27.648438 8.488281 27.734375 8.289062 27.734375 8.082031 C 27.734375 7.875 27.648438 7.679688 27.5 7.53125 Z M 27.5 7.53125 " fill-opacity="1" fill-rule="nonzero"/>                                </svg>
                                         Visibilty
@@ -84,45 +84,45 @@ const PricingTable = () => {
                 <div className="rounded-2xl magic-border p-1">
                     <div className="relative bg-white rounded-2xl h-full 2xl:w-[330px] xl:w-[320px] lg:w-[280px] md:w-[230px] flex flex-col justify-between shadow-2xl overflow-hidden">
 
-                    <div class="absolute right-0 top-[163px] magic-border w-full lg:h-[1.5rem] md:h-[1.3rem] h-[1.5rem] flex justify-center items-center text-white font-medium xl:text-[0.9rem] lg:text-[0.83rem] md:text-[0.68rem] sm:text-lg text-[0.83rem] transform skew-y-3">
-                        <span className="text-center leading-none">Register interest before June for 20% off</span>
+                    <div class="absolute right-0 top-[163px] magic-border w-full lg:h-[1.5rem] md:h-[1.3rem] h-[1.5rem] flex justify-center items-center text-white font-medium xl:text-[0.91rem] lg:text-[0.85rem] md:text-[0.7rem] sm:text-lg text-[0.81rem] transform skew-y-3">
+                        <p className={`${poppins.variable} font-poppins text-center leading-none`}>Register interest before June for 20% off</p>
                     </div>
 
                         <div className="px-4 py-6">
-                            <div className="font-medium text-gray-700">
+                            <div className="font-normal text-gray-600">
                                     <div className="bg-white rounded-lg p-6 sm:px-20 md:px-2 lg:px-6 xl:px-8 ">
                                         <div className="magic-text2">
-                                            <p className="text-3xl font-medium text-center text-primary-black">Member</p>
+                                            <p className="text-3xl font-medium text-center">Member</p>
                                         </div>
                                     <div class="flex justify-center items-baseline my-8 relative">
                                         <span class="mr-2 text-4xl text-primary-black font-extrabold z-10">$2000</span>
-                                        <span class="text-gray-400 font-normal z-10">/ year</span>                                    
+                                        <span class={`${poppins.variable} font-poppins text-gray-400 font-normal z-10`}>/ year</span>                                    
                                     </div>
-                                    <p className="mb-2">
+                                    <p className={`${poppins.variable} font-poppins mb-2`}>
                                         <svg className="inline-block w-4 h-4 mr-2 fill-current text-blue-500" viewBox="0 0 30 30">
                                         <path d="M 27.5 7.53125 L 24.464844 4.542969 C 24.15625 4.238281 23.65625 4.238281 23.347656 4.542969 L 11.035156 16.667969 L 6.824219 12.523438 C 6.527344 12.230469 6 12.230469 5.703125 12.523438 L 2.640625 15.539062 C 2.332031 15.84375 2.332031 16.335938 2.640625 16.640625 L 10.445312 24.324219 C 10.59375 24.472656 10.796875 24.554688 11.007812 24.554688 C 11.214844 24.554688 11.417969 24.472656 11.566406 24.324219 L 27.5 8.632812 C 27.648438 8.488281 27.734375 8.289062 27.734375 8.082031 C 27.734375 7.875 27.648438 7.679688 27.5 7.53125 Z M 27.5 7.53125 " fill-opacity="1" fill-rule="nonzero"/>
                                         </svg>
                                         Visibilty
                                     </p>
-                                    <p className="mb-2">
+                                    <p className={`${poppins.variable} font-poppins mb-2`}>
                                         <svg className="inline-block w-4 h-4 mr-2 fill-current text-violet-500" viewBox="0 0 30 30">
                                         <path d="M 27.5 7.53125 L 24.464844 4.542969 C 24.15625 4.238281 23.65625 4.238281 23.347656 4.542969 L 11.035156 16.667969 L 6.824219 12.523438 C 6.527344 12.230469 6 12.230469 5.703125 12.523438 L 2.640625 15.539062 C 2.332031 15.84375 2.332031 16.335938 2.640625 16.640625 L 10.445312 24.324219 C 10.59375 24.472656 10.796875 24.554688 11.007812 24.554688 C 11.214844 24.554688 11.417969 24.472656 11.566406 24.324219 L 27.5 8.632812 C 27.648438 8.488281 27.734375 8.289062 27.734375 8.082031 C 27.734375 7.875 27.648438 7.679688 27.5 7.53125 Z M 27.5 7.53125 " fill-opacity="1" fill-rule="nonzero"/>
                                         </svg>
                                         Business Building
                                     </p>
-                                    <p className="mb-2">
+                                    <p className={`${poppins.variable} font-poppins mb-2`}>
                                         <svg className="inline-block w-4 h-4 mr-2 fill-current text-violet-500" viewBox="0 0 30 30">
                                         <path d="M 27.5 7.53125 L 24.464844 4.542969 C 24.15625 4.238281 23.65625 4.238281 23.347656 4.542969 L 11.035156 16.667969 L 6.824219 12.523438 C 6.527344 12.230469 6 12.230469 5.703125 12.523438 L 2.640625 15.539062 C 2.332031 15.84375 2.332031 16.335938 2.640625 16.640625 L 10.445312 24.324219 C 10.59375 24.472656 10.796875 24.554688 11.007812 24.554688 C 11.214844 24.554688 11.417969 24.472656 11.566406 24.324219 L 27.5 8.632812 C 27.648438 8.488281 27.734375 8.289062 27.734375 8.082031 C 27.734375 7.875 27.648438 7.679688 27.5 7.53125 Z M 27.5 7.53125 " fill-opacity="1" fill-rule="nonzero"/>
                                         </svg>
                                         Access Investors
                                     </p>
-                                    <p className="mb-2">
+                                    <p className={`${poppins.variable} font-poppins mb-2`}>
                                         <svg className="inline-block w-4 h-4 mr-2 fill-current text-violet-500" viewBox="0 0 30 30">
                                         <path d="M 27.5 7.53125 L 24.464844 4.542969 C 24.15625 4.238281 23.65625 4.238281 23.347656 4.542969 L 11.035156 16.667969 L 6.824219 12.523438 C 6.527344 12.230469 6 12.230469 5.703125 12.523438 L 2.640625 15.539062 C 2.332031 15.84375 2.332031 16.335938 2.640625 16.640625 L 10.445312 24.324219 C 10.59375 24.472656 10.796875 24.554688 11.007812 24.554688 C 11.214844 24.554688 11.417969 24.472656 11.566406 24.324219 L 27.5 8.632812 C 27.648438 8.488281 27.734375 8.289062 27.734375 8.082031 C 27.734375 7.875 27.648438 7.679688 27.5 7.53125 Z M 27.5 7.53125 " fill-opacity="1" fill-rule="nonzero"/>
                                         </svg>
                                         Web3 Education
                                     </p>
-                                    <p className="mb-2">
+                                    <p className={`${poppins.variable} font-poppins mb-2`}>
                                         <svg className="inline-block w-4 h-4 mr-2 fill-current text-violet-500" viewBox="0 0 30 30">
                                         <path d="M 27.5 7.53125 L 24.464844 4.542969 C 24.15625 4.238281 23.65625 4.238281 23.347656 4.542969 L 11.035156 16.667969 L 6.824219 12.523438 C 6.527344 12.230469 6 12.230469 5.703125 12.523438 L 2.640625 15.539062 C 2.332031 15.84375 2.332031 16.335938 2.640625 16.640625 L 10.445312 24.324219 C 10.59375 24.472656 10.796875 24.554688 11.007812 24.554688 C 11.214844 24.554688 11.417969 24.472656 11.566406 24.324219 L 27.5 8.632812 C 27.648438 8.488281 27.734375 8.289062 27.734375 8.082031 C 27.734375 7.875 27.648438 7.679688 27.5 7.53125 Z M 27.5 7.53125 " fill-opacity="1" fill-rule="nonzero"/>
                                         </svg>

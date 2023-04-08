@@ -6,6 +6,14 @@ import styles from '../styles';
 import { staggerContainer, fadeIn } from '../utils/motion';
 import { TitleText } from '../components';
 import { useMediaQuery } from 'react-responsive';
+import { Poppins } from '@next/font/google';
+
+const poppins = Poppins({
+	subsets: ['latin'],
+	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+	variable: '--font-poppins',
+    display: 'swap',
+})
 
 const Team = () => {
   const isLgScreen = useMediaQuery({ minWidth: 1024 });
@@ -22,7 +30,7 @@ const Team = () => {
         <TitleText title={<>The Team</>} textStyles="text-center" />
         <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}
-          className={`${styles.innerWidth} md:mt-10 mt-5 font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-center text-secondary-white`}
+          className={`${styles.innerWidth} ${poppins.variable} ${styles.descriptionText} font-poppins md:mt-10 mt-5 text-center`}
         >
           Experienced Web3 professionals with capabilities spanning entrepreneurship, 
           fundraising, full stack development, web design, game design, metaverse engineering, crypto law, 
@@ -30,7 +38,7 @@ const Team = () => {
         </motion.p>
         
         <motion.div 
-          className=' place-items-center grid grid-cols-2 md:grid-cols-4 sm:gap-10 lg:gap-16 xl:gap-20 gap-5 md:gap-y-10 gap-y-5 sm:mt-12 md:mt-16 mt-8' 
+          className=' place-items-center grid grid-cols-2 md:grid-cols-4 sm:gap-x-[100px] sm:gap-y-4 md:gap-x-2 md:gap-y-2 lg:gap-x-20 lg:gap-y-8 xl:gap-x-[100px] xl:gap-y-10 gap-x-4 gap-y-4 sm:mt-12 md:mt-16 mt-8' 
           id='team'
           variants={fadeIn('left', 'tween', 0.2, 1)}
         >

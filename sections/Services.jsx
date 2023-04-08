@@ -5,12 +5,20 @@ import { useMediaQuery } from 'react-responsive';
 import { TitleText } from '../components';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../utils/motion';
+import { Poppins } from '@next/font/google';
+
+const poppins = Poppins({
+	subsets: ['latin'],
+	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+	variable: '--font-poppins',
+    display: 'swap',
+})
 
 const Services = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
 
     return(
-        <section className={`${styles.paddings} `} id="Services">
+        <section className={`${styles.paddings} ${poppins.variable} font-poppins`} id="Services">
             <motion.div 
                 className={`${styles.innerWidth} md:mt-20 sm:mt-10 mt-5 mx-auto`} 
                 id='details'
@@ -28,7 +36,7 @@ const Services = () => {
                     <img src="/worldwide.svg" alt='visibility' className='sm:w-[50px] sm:h-[50px] w-[30px] h-[30px] mb-2 mx-auto'/>
                             <p className="font-medium xl:text-2xl md:text-xl text-lg text-center mb-2">
                                 Visibility</p>                        
-                        <ul className='list-disc list-inside 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white'>
+                        <ul className=' list-disc list-inside 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white'>
                             <li>Global events</li>
                             <li>Shared community</li>
                             <li>Collaboration</li>
