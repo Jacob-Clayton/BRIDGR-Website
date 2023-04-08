@@ -26,7 +26,7 @@ const Story = () => {
             </div>
             {/* <div className="feedback-gradient overflow-visible z-0 lg:block hidden" /> */}
             <motion.div 
-                className='md:mt-20 sm:mt-10 mt-5'
+                className='2xl:mt-[150px] xl:mt-20 md:mt-20 sm:mt-10 mt-5'
                 variants={staggerContainer}
                 initial={isLgScreen ? 'hidden' : 'visible'}
                 whileInView="show"

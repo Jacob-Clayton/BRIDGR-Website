@@ -69,7 +69,7 @@ const About = () => {
           variants={footerVariants}
           initial={isLgScreen ? 'hidden' : 'visible'}
           whileInView="show"
-          className='relative'
+          className='relative '
         >
         <div className="mb-6">
         <TypingText title="Partners" textStyles="text-left px-4" />

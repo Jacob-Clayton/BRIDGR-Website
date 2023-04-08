@@ -30,7 +30,7 @@ const Events = () => {
         initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.01 }}
-        className={`${styles.innerWidth} mx-auto md:mt-20 sm:mt-10 mt-5 flex flex-col`}
+        className={`${styles.innerWidth} mx-auto 2xl:mt-[150px] xl:mt-20 md:mt-20 sm:mt-10 mt-5 flex flex-col`}
       >
         <TitleText title={(<>Web3 Events</>)} textStyles="text-center" />
         <motion.p

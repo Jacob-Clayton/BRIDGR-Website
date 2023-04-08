@@ -33,7 +33,7 @@ const Hero = () => {
           <p className={`${styles.heroHeading} sm:text-left text-center 2xl:px-0 sm:px-6 px-0`}>
             Accelerate your Web3 business
           </p>
-          <div className='sm:mt-8 md:mt-10 mt-5 xl:max-w-[700px] lg:max-w-[600px] md:max-w-[550px] sm:max-w-[500px] max-w-[500px]'>
+          <div className='sm:mt-8 md:mt-10 mt-5 sm:mx-[0px] mx-auto xl:max-w-[700px] lg:max-w-[600px] md:max-w-[550px] sm:max-w-[500px] max-w-[500px]'>
           <p className= {`${styles.xPaddings} ${poppins.variable} font-poppins font-light sm:text-left text-center 2xl:text-2xl xl:text-xl md:text-xl sm:text-lg text-md text-secondary-white`}>
               We are a collective of Web3 companies offering our combined strength to help you grow.
             </p>

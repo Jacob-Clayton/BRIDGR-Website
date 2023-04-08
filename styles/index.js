@@ -1,5 +1,5 @@
 const styles = {
-  innerWidth: 'xl:max-w-[1280px] w-[95%]',
+  innerWidth: 'xl:max-w-[1280px] sm:w-[90%] md:w-[80%] w-[95%]',
   interWidth: 'lg:w-[80%] w-[100%]',
 
   paddings: 'sm:p-16 xs:p-8 px-9 py-12',

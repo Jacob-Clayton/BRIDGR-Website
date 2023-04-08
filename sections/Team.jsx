@@ -30,7 +30,7 @@ const Team = () => {
         <TitleText title={<>The Team</>} textStyles="text-center" />
         <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}
-          className={`${styles.innerWidth} ${poppins.variable} ${styles.descriptionText} font-poppins md:mt-10 mt-5 text-center`}
+          className={`${styles.innerWidth} ${poppins.variable} ${styles.descriptionText} font-poppins md:mt-10 mt-5 mx-auto text-center`}
         >
           Experienced Web3 professionals with capabilities spanning entrepreneurship, 
           fundraising, full stack development, web design, game design, metaverse engineering, crypto law, 
@@ -38,7 +38,7 @@ const Team = () => {
         </motion.p>
         
         <motion.div 
-          className=' place-items-center grid grid-cols-2 md:grid-cols-4 sm:gap-x-[100px] sm:gap-y-4 md:gap-x-2 md:gap-y-2 lg:gap-x-20 lg:gap-y-8 xl:gap-x-[100px] xl:gap-y-10 gap-x-4 gap-y-4 sm:mt-12 md:mt-16 mt-8' 
+          className=' place-items-center grid grid-cols-2 md:grid-cols-4 sm:gap-x-[100px] sm:gap-y-4 md:gap-x-2 md:gap-y-2 lg:gap-x-8 lg:gap-y-8 xl:gap-x-[60px] xl:gap-y-10 2xl:gap-x-[110px] gap-x-4 gap-y-4 sm:mt-12 md:mt-16 mt-8' 
           id='team'
           variants={fadeIn('left', 'tween', 0.2, 1)}
         >
