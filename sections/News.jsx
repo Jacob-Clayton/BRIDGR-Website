@@ -34,7 +34,7 @@ const News = () => {
                             width={180} height={180}
                         />
                         <div className="w-full flex justify-between items-center">
-                            <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
+                            <div className="flex-1 md:ml-[62px] flex flex-col">
                                 <a href='https://www.eventbrite.sg/e/nftnyc-after-party-on-april-12th-gamehaus-new-york-tickets-605643825987'>
                                     <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
                                         NFT NYC </p>
@@ -44,7 +44,7 @@ const News = () => {
                                     Apr 12th 2023.</p>
                             </div>
                             <a href='https://www.eventbrite.sg/e/nftnyc-after-party-on-april-12th-gamehaus-new-york-tickets-605643825987'>
-                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-white hover:bg-opacity-10 duration-500">
+                                <div className="lg:flex hidden items-center justify-center ml-20 w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-white hover:bg-opacity-10 duration-500">
                                         <img src="/arrow.svg" alt="arrow" className="w-[40%] h-[40%] object-contain"/> 
                                 </div>
                             </a>  
@@ -59,7 +59,7 @@ const News = () => {
                             width={180} height={180}
                         />
                         <div className="w-full flex justify-between items-center">
-                            <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
+                            <div className="flex-1 md:ml-[62px] flex flex-col ">
                             <a href='https://medium.com/@bridgrxyz/web3-social-on-april-1st-in-istanbul-solidarity-donations-through-web3-b1839981ed9a'>
                                 <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
                                     Istanbul Keynote Panel</p>
@@ -69,7 +69,7 @@ const News = () => {
                                     Apr 1st 2023.</p>
                             </div>
                             <a href='https://medium.com/@bridgrxyz/web3-social-on-april-1st-in-istanbul-solidarity-donations-through-web3-b1839981ed9a'>
-                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-white hover:bg-opacity-10 duration-500">
+                                <div className="lg:flex hidden items-center justify-center ml-20 w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-white hover:bg-opacity-10 duration-500">
                                         <img src="/arrow.svg" alt="arrow" className="w-[40%] h-[40%] object-contain"/> 
                                 </div>
                             </a>  
@@ -84,7 +84,7 @@ const News = () => {
                             width={180} height={180}
                         />
                         <div className="w-full flex justify-between items-center">
-                            <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
+                            <div className="flex-1 md:ml-[62px] flex flex-col">
                                 <a href='https://twitter.com/Bridgrxyz/status/1625104846675386369?s=20'>
                                     <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
                                         Beachside in Bali </p>
@@ -94,7 +94,7 @@ const News = () => {
                                     Feb 24th 2023.</p>
                             </div>
                             <a href='https://twitter.com/Bridgrxyz/status/1625104846675386369?s=20'>
-                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-white hover:bg-opacity-10 duration-500">
+                                <div className="lg:flex hidden items-center justify-center ml-20 w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-white hover:bg-opacity-10 duration-500">
                                         <img src="/arrow.svg" alt="arrow" className="w-[40%] h-[40%] object-contain"/> 
                                 </div>
                             </a>  
@@ -109,7 +109,7 @@ const News = () => {
                             width={180} height={180}
                         />
                         <div className="w-full flex justify-between items-center">
-                            <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
+                            <div className="flex-1 md:ml-[62px] flex flex-col">
                                 <a href='https://twitter.com/Bridgrxyz/status/1622586625552429057?s=20'>
                                     <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
                                         Singapore Social</p>
@@ -119,7 +119,7 @@ const News = () => {
                                     Feb 3rd 2023.</p>
                             </div>
                             <a href='https://twitter.com/Bridgrxyz/status/1622586625552429057?s=20'>
-                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-white hover:bg-opacity-10 duration-500">
+                                <div className="lg:flex hidden items-center justify-center ml-20 w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-white hover:bg-opacity-10 duration-500">
                                         <img src="/arrow.svg" alt="arrow" className="w-[40%] h-[40%] object-contain" /> 
                                 </div>
                             </a>  
@@ -134,7 +134,7 @@ const News = () => {
                             width={180} height={180}
                         />
                         <div className="w-full flex justify-between items-center">
-                            <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">
+                            <div className="flex-1 md:ml-[62px] flex flex-col">
                                 <a href='https://twitter.com/Bridgrxyz/status/1592214170996703232?s=20'>
                                     <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
                                         Istanbul Blockchain Week</p>
@@ -144,7 +144,7 @@ const News = () => {
                                     Nov 14th 2022.</p>
                             </div>
                             <a href='https://twitter.com/Bridgrxyz/status/1592214170996703232?s=20'>
-                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-white hover:bg-opacity-10 duration-500">
+                                <div className="lg:flex hidden items-center justify-center ml-20 w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-white hover:bg-opacity-10 duration-500">
                                         <img src="/arrow.svg" alt="arrow" className="w-[40%] h-[40%] object-contain"/> 
                                 </div>
                             </a>  

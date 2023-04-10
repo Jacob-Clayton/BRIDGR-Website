@@ -30,7 +30,7 @@ const Team = () => {
         <TitleText title={<>The Team</>} textStyles="text-center" />
         <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}
-          className={`${styles.innerWidth} ${poppins.variable} ${styles.descriptionText} font-poppins md:mt-10 mt-5 mx-auto text-center`}
+          className={`${poppins.variable} ${styles.descriptionText} font-poppins md:mt-10 mt-5 mx-auto text-left`}
         >
           Experienced Web3 professionals with capabilities spanning entrepreneurship, 
           fundraising, full stack development, web design, game design, metaverse engineering, crypto law, 

@@ -25,13 +25,13 @@ function MobileNav({open, setOpen}) {
             onClick={() => setOpen(false)}>
             Home
           </Link>
-          <a 
+          {/* <a 
             className={`font-poppins text-md sm:text-lg md:text-xl cursor-pointer`} 
             href="/#About" 
             onClick={() => setOpen(false)}>
             
             About
-          </a>
+          </a> */}
           <a 
             className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
             href="/#Story" 
@@ -50,12 +50,12 @@ function MobileNav({open, setOpen}) {
             onClick={() => setOpen(false)}>
             Services
           </a>
-          {/* <a 
+          <a 
             className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
             href="/#Pricing" 
             onClick={() => setOpen(false)}>
             Pricing
-          </a> */}
+          </a>
           <a 
             className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
             href="/#Events" 
@@ -111,7 +111,7 @@ const Navbar = () => {
                 <Image
                   src="/bridgrlogo.png" 
                   alt="bridgr logo"
-                  className='flex justify-start 2xl:w-[170px] sm:w-[150px] w-[100px]' 
+                  className='flex justify-start 2xl:w-[150px] sm:w-[120px] w-[100px]' 
                   height={60} 
                   width={180} 
                 />
@@ -123,9 +123,9 @@ const Navbar = () => {
                       {/* <li className="px-3 hover:text-white duration-500">
                         <Link href="/">Home</Link>
                       </li> */}
-                      <li className="hover:text-white duration-500">
+                      {/* <li className="hover:text-white duration-500">
                         <a href="/#About">About</a>
-                      </li>
+                      </li> */}
                       {/* <li className="hover:text-white duration-500">
                         <a href="/#Story">Story</a>
                       </li> */}
@@ -145,7 +145,7 @@ const Navbar = () => {
                         <a href="/#Contact">Contact</a>
                       </li>
                       <li className="hover:text-white duration-500">
-                        <a href="https://docs.bridgr.xyz" className='flex flex-1'>Whitepaper<img src="/external-link.svg" className="sm:w-[11px] sm:h-[11px] w-[10px] h-[10px] ml-[1px]" alt='external link'/></a>
+                        <a href="https://docs.bridgr.xyz" className='flex'>Whitepaper<img src="/external-link.svg" className="sm:w-[10px] sm:h-[10px] w-[9px] h-[9px] ml-[1px]" alt='external link'/></a>
                       </li>
                   </ul>
                   <div className='h-9 w-[1px] bg-white bg-opacity-20 mr-3 ml-2'/>
