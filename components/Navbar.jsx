@@ -105,19 +105,19 @@ const Navbar = () => {
             whileInView="show"
             className={`${styles.xPaddings} navbar absolute inset-0`}
           />
-          <div className='fixed top-0 pt-3 pb-2 z-50 w-full backdrop-blur-sm'>
-            <div className='flex justify-between'>
+          <div className={`fixed top-0 pt-3 pb-2 z-50 w-full backdrop-blur-sm`}>
+            <div className={`${styles.innerWidth} flex mx-auto justify-between`}>
               <Link href='/'>
                 <Image
                   src="/bridgrlogo.png" 
                   alt="bridgr logo"
-                  className='flex flex-start md:ml-20 sm:ml-10 ml-5 2xl:w-[170px] sm:w-[150px] w-[100px]' 
+                  className='flex justify-start 2xl:w-[170px] sm:w-[150px] w-[100px]' 
                   height={60} 
                   width={180} 
                 />
               </Link>
               
-              <div className='flex justify-end mr-[2%]'>
+              <div className='flex justify-end'>
                 <div className='lg:flex hidden'>
                   <ul className={`${poppins.variable} font-poppins flex gap-4 lg:text-md xl:text-[1.1rem] items-center font-medium text-off-white cursor-pointer`}>
                       {/* <li className="px-3 hover:text-white duration-500">

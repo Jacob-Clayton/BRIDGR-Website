@@ -40,13 +40,13 @@ const Hero = () => {
           </div>
           <div className="flex flex-row justify-center sm:justify-start">
             <div className='2xl:pl-0 px-6 sm:pr-8 pr-4 sm:mt-8 md:mt-10 mt-5'>
-                <button className="border-[1px] border-white border-opacity-30 shadow-md hover:bg-white hover:bg-opacity-5 text-off-white py-2 px-6 items-center flex flex-row rounded-lg duration-500">
+                <button className="border-[1px] border-white border-opacity-30 shadow-md hover:bg-white hover:bg-opacity-10 text-off-white py-2 px-6 items-center flex flex-row rounded-lg duration-500">
                   <a className={`${poppins.variable} font-poppins text-sm sm:text-l md:text-xl font-normal hover:text-white duration-400 cursor-pointer " href="https://t.me/bridgr`}>
                     Join us</a><Image src="/telegram.svg" className="sm:w-[22px] sm:h-[22px] w-[18px] h-[18px] ml-3" width={20} height={20} alt="telegram"/>
                 </button>
             </div>
             <div className='sm:mt-8 md:mt-10 mt-5'>
-                <button className='border-[1px] border-white border-opacity-30 shadow-md hover:bg-white hover:bg-opacity-5 text-off-white py-2 px-6 items-center flex flex-row rounded-lg duration-500'>
+                <button className='border-[1px] border-white border-opacity-30 shadow-md hover:bg-white hover:bg-opacity-10 text-off-white py-2 px-6 items-center flex flex-row rounded-lg duration-500'>
                   <a className={`${poppins.variable} font-poppins text-sm sm:text-l md:text-xl font-normal hover:text-white duration-400 cursor-pointer " href="#Contact`}>
                     Contact</a><Image src="/email.svg" className="sm:w-[22px] sm:h-[22px] w-[18px] h-[18px] ml-3" width={20} height={20} alt="email"/>
                 </button>
@@ -72,7 +72,7 @@ const Hero = () => {
             <div className=''>
               <p className={`${poppins.variable} font-poppins flex flex-col font-light 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[16px] text-[15px] text-center text-secondary-white`}>
                 <span className={`${urbanist.variable} font-urbanist mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-extrabold`}>
-                  220,000
+                  250,000
                     <span className='ml-1 xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-md align-middle'>
                       +
                     </span>

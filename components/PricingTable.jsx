@@ -4,18 +4,13 @@ import { motion } from 'framer-motion';
 import { useMediaQuery } from 'react-responsive';
 import { fadeIn } from '../utils/motion';
 import styles from "../styles";
-import { Urbanist, Poppins } from "@next/font/google";
-
-const urbanist = Urbanist({
-    subsets: ['latin'],
-    variable: '--font-urbanist',
-    weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-})
+import { Poppins } from "@next/font/google";
 
 const poppins = Poppins({
 	subsets: ['latin'],
 	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-	variable: '--font-poppins'
+	variable: '--font-poppins',
+    display: 'swap',
 })
 
 
