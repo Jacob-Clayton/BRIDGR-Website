@@ -17,6 +17,7 @@ import CarouselElement from './Carousel';
 import Newsletter from './Newsletter';
 import MemberForm from './MemberForm';
 import FriendForm from './FriendForm';
+import MemberHome from './MemberHome';
 
 export {
   Navbar,
@@ -39,4 +40,5 @@ export {
   CarouselElement,
   MemberForm,
   FriendForm,
+  MemberHome,
 };

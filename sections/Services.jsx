@@ -33,9 +33,9 @@ const Services = () => {
                 <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 place-items-center sm:gap-y-10 gap-y-6 gap-x-6'>
 
                     <div className="relative text-off-white sm:py-8 sm:px-10 py-4 px-5 rounded-[32px] border-[1px] border-[#ffffff] border-opacity-30">
-                    <img src="/worldwide.svg" alt='visibility' className='sm:w-[50px] sm:h-[50px] w-[30px] h-[30px] mb-2 mx-auto'/>
-                            <p className="font-medium xl:text-2xl md:text-xl text-lg text-center mb-2">
-                                Visibility</p>                        
+                        <img src="/worldwide.svg" alt='visibility' className='sm:w-[50px] sm:h-[50px] w-[30px] h-[30px] mb-2 mx-auto'/>
+                        <p className="font-medium xl:text-2xl md:text-xl text-lg text-center mb-2">
+                            Visibility</p>                        
                         <ul className=' list-disc list-inside 2xl:text-[21px] xl:text-xl md:text-lg text-md text-secondary-white'>
                             <li>Global events</li>
                             <li>Shared community</li>
