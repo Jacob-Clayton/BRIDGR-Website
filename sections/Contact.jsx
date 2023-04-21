@@ -45,7 +45,6 @@ export default function Contact() {
                   Together we are stronger
               </p>
           </div> */}
-          <Newsletter />
           {/* <div className='relative mt-3'>
               <button className='border-[2px] border-white border-opacity-20 shadow-md hover:bg-slate-200 hover:bg-opacity-10 text-off-white py-2 px-6 items-center flex flex-row rounded-2xl duration-500'>
                   <a className= "text-sm sm:text-l md:text-xl font-medium hover:text-white duration-400 cursor-pointer" href="https://t.me/bridgr">
