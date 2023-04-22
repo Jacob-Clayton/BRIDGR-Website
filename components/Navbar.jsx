@@ -82,8 +82,8 @@ function MobileNav({open, setOpen}) {
               Whitepaper<img src="/external-link.svg" className="sm:w-[10px] sm:h-[10px] w-[9px] h-[9px] ml-[2px]" alt='external link'/>
             </button>
           </a> */}
-          <div className='w-[160px] sm:w-[200px] h-[1px] rounded-xl mt-4 bg-white bg-opacity-20'/>
-          <div className="flex sm:gap-4 gap-3 " id='socials'>
+          <div className='w-[160px] sm:w-[200px] h-[1px] rounded-xl bg-white bg-opacity-20 fixed bottom-[16%]'/>
+          <div className="flex sm:gap-4 gap-3 fixed bottom-[9%] " id='socials'>
             <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' alt='twitter'/></a>
             <a href="https://t.me/bridgr"><img src='/telegram.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' alt='telegram'/></a>
             <a href="https://discord.com/invite/j2ayV98Dc2"><img src='/discord.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' alt='discord'/></a>
