@@ -20,7 +20,7 @@ const Footer = () => {
     
       <div className="footer-gradient opacity-[60%] lg:block hidden" />
       <div className={`${styles.innerWidth} mx-auto flex flex-col`}>
-        <div className="mb-[30px] mt-[0px] h-[1px] bg-white opacity-30" />
+        <div className="mb-[30px] mt-[0px] h-[1px] bg-white opacity-20" />
         <div className="flex flex-row items-center justify-between">
           <Image 
             src="/bridgrlogo.png" 

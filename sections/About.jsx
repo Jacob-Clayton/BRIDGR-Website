@@ -1,19 +1,11 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { TypingText, TitleText, Tooltip } from '../components';
+import { TypingText, Tooltip } from '../components';
 import Image from 'next/image';
 import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
-import { fadeIn, staggerContainer, footerVariants } from '../utils/motion';
-import { Urbanist } from '@next/font/google';
-
-const urbanist = Urbanist({
-  subsets: ['latin'],
-  variable: '--font-urbanist',
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  display: 'swap',
-})
+import { staggerContainer, footerVariants } from '../utils/motion';
 
 
 const About = () => {
