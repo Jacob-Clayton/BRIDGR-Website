@@ -1,6 +1,6 @@
 'use client';
 
-import { MemberHome, Navbar, TitleText } from "../../components";
+import { MemberHome, NavbarWide } from "../../components";
 import styles from "../../styles";
 import Link from "next/link";
 import { Urbanist } from '@next/font/google';
@@ -16,8 +16,8 @@ const urbanist = Urbanist({
 export default function home() {
     return (
 		<>
-            <div className="bg-primary-lightBlue min-h-screen">
-                <Navbar />
+            <div className="bg-primary-lightBlue min-h-screen overflow-hidden">
+                <NavbarWide />
                 <MemberHome />
             </div>
 		</>
