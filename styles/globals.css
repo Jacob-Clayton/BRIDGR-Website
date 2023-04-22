@@ -43,19 +43,19 @@
   background-color: rgb(43, 121, 173);
 }
 
-.bg-primary-darkBlue-1 {
+.bg-primary-darkBlue-old {
   --tw-bg-opacity: 1;
   background-color: rgb(53, 79, 97);
 }
 
-.bg-image {
+.bg-image-old {
   background-image: linear-gradient(to bottom, rgb(67, 134, 255, 0.7), rgb(67, 134, 255, 0.5), rgb(67, 134, 255, 0.4), rgb(67, 134, 255, 0.4), rgb(67, 134, 255)), url('/blueglobe_comp.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.bg-image-1 {
+.bg-image {
   background-image: linear-gradient(to bottom, rgb(55, 156, 224, 0.7), rgb(55, 156, 224, 0.5), rgb(55, 156, 224, 0.4), rgb(55, 156, 224, 0.4), rgb(55, 156, 224)), url('/blueglobe_comp.jpeg');
   background-size: cover;
   background-position: center;
