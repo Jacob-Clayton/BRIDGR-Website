@@ -107,7 +107,7 @@ const Navbar = () => {
             whileInView="show"
             className={`${styles.xPaddings} navbar absolute inset-0`}
           />
-          <div className={`fixed top-0 pt-3 pb-2 z-50 w-full backdrop-blur-sm`}>
+          <div className={`fixed top-0 pt-3 pb-2 z-50 w-full backdrop-blur-sm border-white border-b-[1px] border-opacity-10`}>
             <div className={`${styles.innerWidth} flex mx-auto justify-between`}>
               <Link href='/'>
                 <Image

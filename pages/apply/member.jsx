@@ -17,7 +17,7 @@ export default function member() {
     return (
 		<>
 			<Navbar />
-			<div className={`${styles.paddings} relative bg-primary-lightBlue min-h-screen`}>
+			<div className={`${styles.paddings} relative bg-primary-darkBlue min-h-screen`}>
 				<div className={`${styles.innerWidth} flex flex-col mx-auto mt-5 sm:mt-10 md:mt-20`}>
 					<TitleText title={(<><span className={`${urbanist.variable} font-urbanist text-off-white font-extrabold`}>BRIDGR </span>Membership</>)} textStyles="text-center" />
 					<p className="mt-10 font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-center text-secondary-white">
