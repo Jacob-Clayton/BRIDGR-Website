@@ -16,7 +16,7 @@ const urbanist = Urbanist({
 export default function home() {
     return (
 		<>
-            <div className="bg-primary-lightBlue min-h-screen overflow-hidden">
+            <div className="bg-primary-darkBlue min-h-screen overflow-hidden">
                 <NavbarWide />
                 <MemberHome />
             </div>
