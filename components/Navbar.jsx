@@ -74,14 +74,14 @@ function MobileNav({open, setOpen}) {
             onClick={() => setOpen(false)}>
             Contact
           </a>
-          <a 
+          {/* <a 
             className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
             href="https://docs.bridgr.xyz" 
             onClick={() => setOpen(false)}>
             <button className='border-[1px] border-white border-opacity-30 text-off-white py-1 px-4 items-start flex flex-row shadow-md rounded-lg duration-500'>
               Whitepaper<img src="/external-link.svg" className="sm:w-[10px] sm:h-[10px] w-[9px] h-[9px] ml-[2px]" alt='external link'/>
             </button>
-          </a>
+          </a> */}
           <div className='w-[160px] sm:w-[200px] h-[1px] bg-white bg-opacity-30 fixed bottom-[16%]'/>
           <div className="flex sm:gap-4 gap-2 fixed bottom-[9%]" id='socials'>
             <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' alt='twitter'/></a>
@@ -120,7 +120,7 @@ const Navbar = () => {
               </Link>
               
               <div className='flex justify-end'>
-                <div className='lg:flex hidden'>
+                <div className='lg:flex hidden gap-3'>
                   <ul className={`${poppins.variable} font-poppins flex gap-4 lg:text-md xl:text-[1.1rem] items-center font-medium text-off-white cursor-pointer`}>
                       {/* <li className="px-3 hover:text-white duration-500">
                         <Link href="/">Home</Link>
@@ -137,20 +137,20 @@ const Navbar = () => {
                       <li className="hover:text-white duration-500">
                         <a href="/#Services">Services</a>
                       </li>
-                      {/* <li className="hover:text-white duration-500">
+                      <li className="hover:text-white duration-500">
                         <a href="/#Pricing">Pricing</a>
-                      </li> */}
+                      </li>
                       <li className="hover:text-white duration-500">
                         <a href="/#Events">Events</a>
                       </li>
                       <li className="hover:text-white duration-500">
                         <a href="/#Contact">Contact</a>
                       </li>
-                      <li className="hover:text-white duration-500">
+                      {/* <li className="hover:text-white duration-500">
                         <a href="https://docs.bridgr.xyz" className='flex'>Whitepaper<img src="/external-link.svg" className="sm:w-[10px] sm:h-[10px] w-[9px] h-[9px] ml-[1px]" alt='external link'/></a>
-                      </li>
+                      </li> */}
                   </ul>
-                  <div className='h-9 w-[1px] bg-white bg-opacity-20 mr-3 ml-2'/>
+                  <div className='h-9 w-[1px] bg-white bg-opacity-20'/>
                   <div className="flex items-center gap-3">
                     <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' alt='twitter'/></a>
                     <a href="https://t.me/bridgr"><img src='/telegram.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' alt='telegram'/></a>

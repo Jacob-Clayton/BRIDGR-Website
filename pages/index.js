@@ -3,7 +3,7 @@ import { About, Story, Quotes, Hero, Team, Services, Pricing, Events, News, Cont
 
 const Home = () => (
   <>
-    <div className="bg-image bg-primary-lightBlue overflow-hidden">
+    <div className="bg-image-1 bg-primary-lightBlue overflow-hidden">
       <Navbar />
       <Hero/>
     </div>
