@@ -24,9 +24,9 @@ const News = () => {
                     Read more about out latest news and events on<a href='https://medium.com/@bridgrxyz' className='text-white font-medium'> Medium.</a>
                 </p>
                 
-                <div className="md:mt-10 mt-5 flex flex-col gap-5 text-center sm:text-left">
+                <div className="md:mt-10 mt-5 flex flex-col gap-10 sm:gap-5 text-center sm:text-left">
 
-                <div className="relative flex sm:flex-row flex-col gap-4">
+                    <div className="relative flex sm:flex-row flex-col gap-4">
                         <Image
                             src="/gamehaus_game.jpg"
                             alt="nft nyc event"
