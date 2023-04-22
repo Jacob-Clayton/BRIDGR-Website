@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
         <div className='flex flex-row mt-6 mb-6 gap-4 justify-between'>
           <Newsletter />
-          <a className="cursor-pointer hover:shadow-lg hover:bg-white hover:bg-opacity-10" href="https://calendly.com/bridgrxyz/30min-call" >
+          <a className="cursor-pointer rounded-lg hover:shadow-lg hover:bg-white hover:bg-opacity-10" href="https://calendly.com/bridgrxyz/30min-call" >
             <Button>Book Call</Button>
           </a>      
         </div>

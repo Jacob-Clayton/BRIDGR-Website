@@ -16,7 +16,7 @@ const poppins = Poppins({
 
 function MobileNav({open, setOpen}) {
   return (   
-    <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[50%] bg-primary-lightBlue rounded-tl-[35px] rounded-bl-[35px] transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter  `}>
+    <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[50%] bg-primary-lightBlue rounded-tl-[35px] rounded-bl-[35px] border-l-[1px] border-white border-opacity-30 transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter  `}>
       <div className={`${poppins.variable} font-poppins text-off-white gap-6 z-100 flex flex-col items-center mt-[20%] sm:mt-[22%] md:mt-[20%] lg:mt-[25%] font-normal`}>
 
           <Link 
@@ -78,7 +78,9 @@ function MobileNav({open, setOpen}) {
             className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
             href="https://docs.bridgr.xyz" 
             onClick={() => setOpen(false)}>
-            <Button>Whitepaper</Button>
+            <button className='border-[1px] border-white border-opacity-30 text-off-white py-1 px-4 items-start flex flex-row shadow-md rounded-lg duration-500'>
+              Whitepaper<img src="/external-link.svg" className="sm:w-[10px] sm:h-[10px] w-[9px] h-[9px] ml-[2px]" alt='external link'/>
+            </button>
           </a>
           <div className='w-[160px] sm:w-[200px] h-[1px] bg-white bg-opacity-30 fixed bottom-[16%]'/>
           <div className="flex sm:gap-4 gap-2 fixed bottom-[9%]" id='socials'>

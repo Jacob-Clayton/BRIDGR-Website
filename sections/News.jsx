@@ -40,7 +40,7 @@ const News = () => {
                                         NFT NYC </p>
                                 </a>
                                 <p className={`${styles.descriptionText} ${poppins.variable} font-poppins mt-[16px]`}>
-                                    We're hosting an NFT.NYC after party with a CryptoPunk band performance, live DJ and NFT prizes on 
+                                    We hosted a sold out NFT.NYC after party with the worlds first CryptoPunk band, live DJ and NFT prizes on 
                                     Apr 12th 2023.</p>
                             </div>
                             <a href='https://www.eventbrite.sg/e/nftnyc-after-party-on-april-12th-gamehaus-new-york-tickets-605643825987'>
