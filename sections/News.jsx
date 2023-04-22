@@ -18,13 +18,11 @@ const News = () => {
             <div className="gradient-02 overflow-visible z-0 lg:block hidden" />
             
             <div className={`${styles.innerWidth} mx-auto flex flex-col`}>
-                <TitleText title={<>News</>} textStyles="text-center" />
-
-                <p className={`${styles.descriptionText} ${poppins.variable} font-poppins md:mt-10 mt-5 text-center`}>
-                    Read more about out latest news and events on<a href='https://medium.com/@bridgrxyz' className='text-white font-medium'> Medium.</a>
-                </p>
-                
-                <div className="md:mt-10 mt-5 flex flex-col gap-10 sm:gap-5 text-center sm:text-left">
+                {/* <TitleText title={<>News</>} textStyles="text-center" /> */}
+                {/* <p className={`${styles.descriptionText} ${poppins.variable} font-poppins text-center`}>
+                    Read more about our latest events and news on<a href='https://medium.com/@bridgrxyz' className='text-white font-medium'> Medium.</a>
+                </p> */}
+                <div className="flex flex-col gap-10 sm:gap-5 text-center sm:text-left">
 
                     <div className="relative flex sm:flex-row flex-col gap-4">
                         <Image

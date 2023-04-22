@@ -125,7 +125,7 @@ export default function MemberHome() {
                         To help you build your Web3 business we have a team of partners who cover a wide range of expertise to help you.
                         If you would like to access their combined services and combined community of 250,000+ please apply to become a member of BRIDGR.
                     </p>
-                    <div className='sm:mt-10 mt-5 place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
+                    <div className='sm:mt-20 mt-10 place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
                         <a className="p-1 col-span-1" href='https://apegang.art/'>
                         <Tooltip message={"The 10th most sold NFT project, founded in May 2021, they have a team of Web developers, blockchain developers, NFT artists and community experts."}>
                         <Image 

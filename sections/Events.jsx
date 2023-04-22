@@ -47,7 +47,7 @@ const Events = () => {
 
         <motion.div
           variants={fadeIn('up', 'tween', 0.3, 1)}
-          className="relative mx-auto sm:mt-[68px] md:mt-10 mt-5 mb-10 flex w-full h-full "
+          className="relative mx-auto md:mt-20 sm:mt-10 mt-5 flex w-full h-full "
         >
           <Image 
             src="/map-base.png" 

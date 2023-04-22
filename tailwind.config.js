@@ -16,6 +16,7 @@ module.exports = {
         montserrat: ['var(--font-montserrat)', ...fontFamily.sans],
         poppins: ['var(--font-poppins)', fontFamily.sans],
         urbanist: ['var(--font-urbanist)', fontFamily.sans],
+        jost: ['var(--font-jost)', fontFamily.sans]
       },
       colors: {
         'off-white' : '#EDEFF4',

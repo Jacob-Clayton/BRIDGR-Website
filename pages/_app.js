@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { Analytics } from '@vercel/analytics/react';
 import '../styles/globals.css';
 import 'tailwindcss/tailwind.css';
-import { Montserrat, Poppins, Urbanist } from '@next/font/google'
+import { Montserrat, Poppins, Urbanist, Jost } from '@next/font/google'
 
 const montserrat = Montserrat({
 	subsets: ['latin'],
@@ -21,6 +21,13 @@ const urbanist = Urbanist({
 	subsets: ['latin'],
 	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
 	variable: '--font-urbanist',
+	display: 'swap',
+})
+
+const jost = Jost({
+	subsets: ['latin'],
+	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+	variable: '--font-jost',
 	display: 'swap',
 })
 

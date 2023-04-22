@@ -2,18 +2,11 @@
 
 import Image from 'next/image';
 import styles from '../styles';
-import { Montserrat, Urbanist, Poppins } from '@next/font/google'
+import { Montserrat, Poppins } from '@next/font/google'
 
 const montserrat = Montserrat({
 	subsets: ['latin'],
 	variable: '--font-montserrat',
-  display: 'swap',
-})
-
-const urbanist = Urbanist({
-  subsets: ['latin'],
-  variable: '--font-urbanist',
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   display: 'swap',
 })
 
@@ -62,7 +55,7 @@ const Hero = () => {
 
             <div className=''>
               <p className={`${poppins.variable} font-poppins flex flex-col font-light 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[16px] text-[15px] text-center text-secondary-white`}>
-                <span className={`${urbanist.variable} font-urbanist mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-extrabold`}>
+                <span className={`mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-semibold`}>
                   10
                 </span>
                 Partners
@@ -71,7 +64,7 @@ const Hero = () => {
 
             <div className=''>
               <p className={`${poppins.variable} font-poppins flex flex-col font-light 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[16px] text-[15px] text-center text-secondary-white`}>
-                <span className={`${urbanist.variable} font-urbanist mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-extrabold`}>
+                <span className={`mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-semibold`}>
                   250,000
                     <span className='ml-1 xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-md align-middle'>
                       +
@@ -83,7 +76,7 @@ const Hero = () => {
 
             <div className=''>
               <p className={`${poppins.variable} font-poppins flex flex-col font-light 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[16px] text-[15px] text-center text-secondary-white`}>
-                <span className={`${urbanist.variable} font-urbanist mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-extrabold`}>
+                <span className={`mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-semibold`}>
                   Global
                 </span>
                 Web3 events
