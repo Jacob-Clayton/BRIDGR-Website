@@ -12,7 +12,7 @@ const Home = () => (
         <About />
       </div>
       <div className='bg-primary-darkBlue'>
-        <Story />
+        {/* <Story /> */}
         <Team />
         <Quotes />
       </div>

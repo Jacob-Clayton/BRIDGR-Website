@@ -46,9 +46,9 @@ const CarouselElement = () => {
                 </div>
 
                 <p className={`${styles.descriptionText} ${poppins.variable} font-poppins mt-[24px]`}>
-                    "Our shared worldwide community offers immense strength in fostering a sense of belonging, collaboration, 
-                    and collective action towards a common goal. Our global community leverages their collective strength to 
-                    increase visibility for all partners, members and friends."
+                    "We've witnessed good people losing time and resources to shady players. 
+                    That's why, in late 2022, we created BRIDGR, a network of trustworthy Web3 companies 
+                    working together to provide a more authentic and cooperative Web3 platform."
                 </p>
             </motion.div>
 

@@ -20,7 +20,7 @@ const Services = () => {
     return(
         <section className={`${styles.paddings} ${poppins.variable} font-poppins`} id="Services">
             <motion.div 
-                className={`${styles.innerWidth} 2xl:mt-[150px] xl:mt-20 md:mt-20 sm:mt-10 mt-5 mx-auto`} 
+                className={`${styles.innerWidth} 2xl:mt-[80px] md:mt-12 sm:mt-10 mt-4 mx-auto`} 
                 id='details'
                 variants={fadeIn('up', 'tween', 0.3, 1)}
                 initial={isLgScreen ? 'hidden' : 'visible'}

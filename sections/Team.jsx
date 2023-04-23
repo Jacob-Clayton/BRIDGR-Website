@@ -20,21 +20,26 @@ const Team = () => {
 
   return (
     <section className={`${styles.paddings} relative z-10`} id="Team">
+      <div className='wave-blue'>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#379CE0" fill-opacity="1" d="M0,128L120,112C240,96,480,64,720,64C960,64,1200,96,1320,112L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
+        </svg>
+    </div>
       <motion.div
         variants={staggerContainer}
         initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.01 }}
-        className={`${styles.innerWidth} mx-auto mt-0 flex flex-col`}
+        className={`${styles.innerWidth} mx-auto 2xl:mt-[80px] md:mt-12 sm:mt-10 mt-4 flex flex-col`}
       >
         <TitleText title={<>The Team</>} textStyles="text-center" />
         <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}
           className={`${poppins.variable} ${styles.descriptionText} font-poppins md:mt-10 mt-5 mx-auto text-left`}
         >
-          Experienced Web3 professionals with capabilities spanning entrepreneurship, 
-          fundraising, full stack development, web design, game design, metaverse engineering, crypto law, 
-          university blockchain lecturing, NFT art creation, blockchain development, marketing, community management and project management.
+          We are experienced Web3 professionals with capabilities spanning entrepreneurship, 
+          fundraising, full stack development, web design, game design, metaverse engineering, crypto law,
+          blockchain development, marketing and community building.
         </motion.p>
         
         <motion.div 
