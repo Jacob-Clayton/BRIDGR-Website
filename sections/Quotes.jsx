@@ -8,7 +8,7 @@ const Quotes = () => {
 
   return (
     <div className='relative'>
-      <motion.section className={`${styles.paddings} flex`}>
+      <motion.section className={`${styles.xPaddings} flex`}>
         <CarouselElement/>
       </motion.section>
       <div className='wave-blue2'>
