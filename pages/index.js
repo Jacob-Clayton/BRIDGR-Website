@@ -12,8 +12,8 @@ const Home = () => (
         <About />
       </div>
       <div className='bg-primary-darkBlue'>
-        {/* <Story /> */}
         <Team />
+        {/* <Story /> */}
         <Quotes />
       </div>
       <div className='bg-primary-lightBlue'>
