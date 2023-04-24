@@ -49,7 +49,7 @@ const Team = () => {
 
             <div class="flex p-2 xl:w-1/3 lg:w-1/2 w-full">
               <div class="h-full w-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/Mark.png"/>
+                <img alt="team" class="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/mark_gray.png"/>
                 <div class="flex-grow">
                   <h2 class="text-off-white title-font font-medium">Mark </h2>
                   <p class="">CEO & Co-founder</p>
@@ -63,7 +63,7 @@ const Team = () => {
 
             <div class="p-2 xl:w-1/3 lg:w-1/2 w-full">
               <div class="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/Kishor.png"/>
+                <img alt="team" class="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/Kishor.png"/>
                 <div class="flex-grow">
                   <h2 class="text-off-white title-font font-medium">Kishor</h2>
                   <p class="">Co-founder</p>
@@ -77,7 +77,7 @@ const Team = () => {
 
             <div class="p-2 xl:w-1/3 lg:w-1/2 w-full">
               <div class="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/Jacob.png"/>
+                <img alt="team" class="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/Jacob.png"/>
                 <div class="flex-grow">
                   <h2 class="text-off-white title-font font-medium">Jacob Clayton</h2>
                   <p class="">CTO & Co-founder</p>
@@ -91,7 +91,7 @@ const Team = () => {
 
             <div class="p-2 xl:w-1/3 lg:w-1/2 w-full">
               <div class="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/Sima.png"/>
+                <img alt="team" class="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/Sima.png"/>
                 <div class="flex-grow">
                   <h2 class="text-off-white title-font font-medium">Sima Baktas</h2>
                   <p class="">Crypto Laywer & Founder of GlobalB</p>
@@ -105,7 +105,7 @@ const Team = () => {
 
             <div class="p-2 xl:w-1/3 lg:w-1/2 w-full">
               <div class="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="Hilal.png"/>
+                <img alt="team" class="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="Hilal.png"/>
                 <div class="flex-grow">
                   <h2 class="text-off-white title-font font-medium">Hilal Baktas</h2>
                   <p class="">Founder of CryptoFemale & GlobalB</p>
@@ -119,7 +119,7 @@ const Team = () => {
 
             <div class="p-2 xl:w-1/3 lg:w-1/2 w-full">
               <div class="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="Henry.png"/>
+                <img alt="team" class="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="Henry.png"/>
                 <div class="flex-grow">
                   <h2 class="text-off-white title-font font-medium">Henry</h2>
                   <p class="">Founder of Ethlas Gaming Metaverse</p>
@@ -133,7 +133,7 @@ const Team = () => {
 
             <div class="p-2 xl:w-1/3 lg:w-1/2 w-full">
               <div class="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
-                <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="Jaye.png"/>
+                <img alt="team" class="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="Jaye.png"/>
                 <div class="flex-grow">
                   <h2 class="text-off-white title-font font-medium">Jaye Foo</h2>
                   <p class="">Founder of Bored Island Group, Parlour Global & Bighaus</p>

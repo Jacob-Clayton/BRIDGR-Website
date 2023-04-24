@@ -37,7 +37,7 @@ const Events = () => {
           variants={fadeIn('up', 'tween', 0.2, 1)}
           initial={isLgScreen ? 'hidden' : 'visible'}
           whileInView="show"
-          className={`${styles.descriptionText} ${poppins.variable} font-poppins md:mt-10 mt-5 text-left`}
+          className={`${styles.descriptionText} ${poppins.variable} font-poppins mx-auto md:mt-10 mt-5 w-3/4 text-center`}
         >
           Recieve worldwide exposure at our 'WEB3 SOCIAL' events. 
           Your company will be given a professional speech, promotional graphics on screens around the event, plus video and images for your own use.
@@ -47,7 +47,7 @@ const Events = () => {
 
         <motion.div
           variants={fadeIn('up', 'tween', 0.3, 1)}
-          className="relative mx-auto md:mt-20 sm:mt-10 mt-5 flex w-full h-full "
+          className="relative mx-auto lg:mt-12 md:mt-10 mt-5 flex w-full h-full "
         >
           <Image 
             src="/map-base.png" 

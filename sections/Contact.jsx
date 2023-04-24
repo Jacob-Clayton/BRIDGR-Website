@@ -30,7 +30,7 @@ export default function Contact() {
     <section className={`${styles.paddings} relative z-10`} id='Contact'>
       <div className={`${styles.innerWidth} mx-auto`}>
         <TitleText title={<>Contact</>} textStyles="text-center sm:mb-10 mb-5" />
-        <p className={`${styles.descriptionText} ${poppins.variable} font-poppins text-center`}>
+        <p className={`${styles.descriptionText} ${poppins.variable} font-poppins mx-auto w-1/2 text-center`}>
           Connect with us via the contact form, send us an 
             <a href='mailto:bridgrxyz@gmail.com' className='text-white font-medium'> email </a>
           or book a 30-minute
