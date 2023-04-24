@@ -34,8 +34,8 @@ const Team = () => {
       >
         <TitleText title={<>Our Team</>} textStyles="text-center" />
 
-        <div class=" mx-auto text-secondary-white">
-          <div class="flex flex-col text-center w-full">
+        <div className=" mx-auto text-secondary-white">
+          <div className="flex flex-col text-center w-full">
             <motion.p
               variants={fadeIn('up', 'tween', 0.2, 1)}
               className={`${poppins.variable} ${styles.descriptionText} font-poppins md:mt-10 mt-5 lg:w-3/4 mx-auto text-center`}
@@ -45,102 +45,102 @@ const Team = () => {
               blockchain development, marketing and community building.
             </motion.p>
           </div>
-          <div class="flex flex-wrap justify-center -m-2 md:mt-10 mt-5">
+          <div className="flex flex-wrap justify-center -m-2 md:mt-10 mt-5">
 
-            <div class="flex p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div class="h-full w-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
-                <img alt="team" class="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/mark_gray.png"/>
-                <div class="flex-grow">
-                  <h2 class="text-off-white title-font font-medium">Mark </h2>
-                  <p class="">Co-founder</p>
+            <div className="flex p-2 xl:w-1/3 lg:w-1/2 w-full">
+              <div className="h-full w-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
+                <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/mark_gray.png"/>
+                <div className="flex-grow">
+                  <h2 className="text-off-white title-font font-medium">Mark </h2>
+                  <p className="">Co-founder</p>
                 </div>
-                <div class="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
-                  <a href="https://twitter.com/mepusica"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white" alt='twitter'></img></a>
-                  <a href="https://www.linkedin.com/in/mepusica"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white mt-2" alt='linkedin'></img></a>
+                <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
+                  <a href="https://twitter.com/mepusica"><img src="/twitter.svg" className="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white" alt='twitter'></img></a>
+                  <a href="https://www.linkedin.com/in/mepusica"><img src="/linkedin.svg" className="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white mt-2" alt='linkedin'></img></a>
                 </div>
               </div>
             </div>
 
-            <div class="p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div class="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
-                <img alt="team" class="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/kishor.png"/>
-                <div class="flex-grow">
-                  <h2 class="text-off-white title-font font-medium">Kishor</h2>
-                  <p class="">Director & Co-founder</p>
+            <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
+              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
+                <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/kishor.png"/>
+                <div className="flex-grow">
+                  <h2 className="text-off-white title-font font-medium">Kishor</h2>
+                  <p className="">Director & Co-founder</p>
                 </div>
-                <div class="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
-                  <a href="https://twitter.com/madforcryptos_"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white" alt='twitter'></img></a>
-                  <a href="https://www.linkedin.com/in/kishormm/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white mt-2" alt='linkedin'></img></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div class="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
-                <img alt="team" class="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/jacob.png"/>
-                <div class="flex-grow">
-                  <h2 class="text-off-white title-font font-medium">Jacob Clayton</h2>
-                  <p class="">CTO & Co-founder</p>
-                </div>
-                <div class="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
-                  <a href="https://twitter.com/kolsas_eth"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white" alt='twitter'></img></a>
-                  <a href="https://www.linkedin.com/in/jebclayton/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white mt-2" alt='linkedin'></img></a>
+                <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
+                  <a href="https://twitter.com/madforcryptos_"><img src="/twitter.svg" className="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white" alt='twitter'></img></a>
+                  <a href="https://www.linkedin.com/in/kishormm/"><img src="/linkedin.svg" className="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white mt-2" alt='linkedin'></img></a>
                 </div>
               </div>
             </div>
 
-            <div class="p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div class="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
-                <img alt="team" class="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/sima.png"/>
-                <div class="flex-grow">
-                  <h2 class="text-off-white title-font font-medium">Sima Baktas</h2>
-                  <p class="">Crypto Laywer & Founder of GlobalB</p>
+            <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
+              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
+                <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/jacob.png"/>
+                <div className="flex-grow">
+                  <h2 className="text-off-white title-font font-medium">Jacob Clayton</h2>
+                  <p className="">CTO & Co-founder</p>
                 </div>
-                <div class="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
-                  <a href="https://twitter.com/simabaktas"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white" alt='twitter'></img></a>
-                  <a href="https://www.linkedin.com/in/simabaktas/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white mt-2" alt='linkedin'></img></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div class="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
-                <img alt="team" class="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="hilal.png"/>
-                <div class="flex-grow">
-                  <h2 class="text-off-white title-font font-medium">Hilal Baktas</h2>
-                  <p class="">Founder of CryptoFemale & GlobalB</p>
-                </div>
-                <div class="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
-                  <a href="https://twitter.com/hilal_baktas"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white" alt='twitter'></img></a>
-                  <a href="https://www.linkedin.com/in/hilalbaktas/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white mt-2" alt='linkedin'></img></a>
+                <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
+                  <a href="https://twitter.com/kolsas_eth"><img src="/twitter.svg" className="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white" alt='twitter'></img></a>
+                  <a href="https://www.linkedin.com/in/jebclayton/"><img src="/linkedin.svg" className="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white mt-2" alt='linkedin'></img></a>
                 </div>
               </div>
             </div>
 
-            <div class="p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div class="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
-                <img alt="team" class="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="henry.png"/>
-                <div class="flex-grow">
-                  <h2 class="text-off-white title-font font-medium">Henry</h2>
-                  <p class="">Founder of Ethlas Gaming Metaverse</p>
+            <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
+              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
+                <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/sima.png"/>
+                <div className="flex-grow">
+                  <h2 className="text-off-white title-font font-medium">Sima Baktas</h2>
+                  <p className="">Crypto Laywer & Founder of GlobalB</p>
                 </div>
-                <div class="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
-                  <a href="https://twitter.com/henry_ethlas"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white" alt='twitter'></img></a>
-                  <a href="https://www.linkedin.com/in/henry-foo/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white mt-2" alt='linkedin'></img></a>
+                <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
+                  <a href="https://twitter.com/simabaktas"><img src="/twitter.svg" className="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white" alt='twitter'></img></a>
+                  <a href="https://www.linkedin.com/in/simabaktas/"><img src="/linkedin.svg" className="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white mt-2" alt='linkedin'></img></a>
                 </div>
               </div>
             </div>
 
-            <div class="p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div class="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
-                <img alt="team" class="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="Jaye.png"/>
-                <div class="flex-grow">
-                  <h2 class="text-off-white title-font font-medium">Jaye Foo</h2>
-                  <p class="">Founder of Bored Island Group, Parlour Global & Bighaus</p>
+            <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
+              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
+                <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="hilal.png"/>
+                <div className="flex-grow">
+                  <h2 className="text-off-white title-font font-medium">Hilal Baktas</h2>
+                  <p className="">Founder of CryptoFemale & GlobalB</p>
                 </div>
-                <div class="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
-                  <a href="https://twitter.com/jayefunk"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white" alt='twitter'></img></a>
-                  <a href="https://www.linkedin.com/in/jayefoo/"><img src="/linkedin.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white mt-2" alt='linkedin'></img></a>
+                <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
+                  <a href="https://twitter.com/hilal_baktas"><img src="/twitter.svg" className="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white" alt='twitter'></img></a>
+                  <a href="https://www.linkedin.com/in/hilalbaktas/"><img src="/linkedin.svg" className="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white mt-2" alt='linkedin'></img></a>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
+              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
+                <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="henry.png"/>
+                <div className="flex-grow">
+                  <h2 className="text-off-white title-font font-medium">Henry</h2>
+                  <p className="">Founder of Ethlas Gaming Metaverse</p>
+                </div>
+                <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
+                  <a href="https://twitter.com/henry_ethlas"><img src="/twitter.svg" className="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white" alt='twitter'></img></a>
+                  <a href="https://www.linkedin.com/in/henry-foo/"><img src="/linkedin.svg" className="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white mt-2" alt='linkedin'></img></a>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
+              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
+                <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="Jaye.png"/>
+                <div className="flex-grow">
+                  <h2 className="text-off-white title-font font-medium">Jaye Foo</h2>
+                  <p className="">Founder of Bored Island Group, Parlour Global & Bighaus</p>
+                </div>
+                <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
+                  <a href="https://twitter.com/jayefunk"><img src="/twitter.svg" className="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white" alt='twitter'></img></a>
+                  <a href="https://www.linkedin.com/in/jayefoo/"><img src="/linkedin.svg" className="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white mt-2" alt='linkedin'></img></a>
                 </div>
               </div>
             </div>
