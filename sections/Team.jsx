@@ -30,7 +30,7 @@ const Team = () => {
         initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.01 }}
-        className={`${styles.innerWidth} mx-auto 2xl:mt-[80px] md:mt-12 sm:mt-10 mt-4 flex flex-col`}
+        className={`${styles.innerWidth} mx-auto 2xl:mt-[100px] md:mt-12 sm:mt-10 mt-4 flex flex-col`}
       >
         <TitleText title={<>Our Team</>} textStyles="text-center" />
 

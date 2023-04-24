@@ -26,8 +26,8 @@ const Quotes = () => {
             variants={fadeIn('up', 'tween', 0.2, 1)}
             className={`${poppins.variable} ${styles.descriptionText}  font-poppins md:mt-10 mt-5 lg:w-3/4 mx-auto text-center`}
           >
-            Our founders love Web3 and the potential of decentralized online systems. 
-            Unfortunately, we've witnessed good people losing time, energy, and resources to shady players. 
+            Our founders love Web3 and the possibilities it brings. 
+            Unfortunately, we've witnessed good people losing time and resources to shady players. 
             That's why, in late 2022, we created BRIDGR, a network of trustworthy Web3 companies 
             working together to provide a more authentic and cooperative Web3 platform.
           </motion.p>

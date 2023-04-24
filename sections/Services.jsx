@@ -2,10 +2,11 @@
 
 import styles from '../styles';
 import { useMediaQuery } from 'react-responsive';
-import { TitleText } from '../components';
+import { TitleText, InfoTip } from '../components';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../utils/motion';
 import { Poppins } from '@next/font/google';
+import Link from 'next/link';
 
 const poppins = Poppins({
 	subsets: ['latin'],
@@ -20,7 +21,7 @@ const Services = () => {
     return(
         <section className={`${styles.paddings} ${poppins.variable} font-poppins`} id="Services">
             <motion.div 
-                className={`${styles.innerWidth} 2xl:mt-[80px] md:mt-12 sm:mt-10 mt-4 mx-auto`} 
+                className={`${styles.innerWidth} 2xl:mt-[100px] md:mt-12 sm:mt-10 mt-4 mx-auto`} 
                 id='details'
                 variants={fadeIn('up', 'tween', 0.3, 1)}
                 initial={isLgScreen ? 'hidden' : 'visible'}
@@ -31,10 +32,10 @@ const Services = () => {
 
 
                 <section className={`text-secondary-white ${poppins.variable} font-poppins`}>
-                    <div className="container md:mt-10 mt-5 mx-auto">
+                    <div className="container xl:mt-20 md:mt-10 mt-5 mx-auto">
                         <div className="flex flex-wrap -m-4">
                         <div className="xl:w-1/3 md:w-1/2 w-full p-4">
-                            <div className="border border-white border-opacity-70 p-6 rounded-lg">
+                            <div className="relative border border-white border-opacity-70 p-6 rounded-lg">
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-[#379CE0] mb-4">
                                 <img src="/worldwide.svg" alt='visibility' className=' p-[0.35rem] mx-auto'/>
                             </div>
@@ -44,10 +45,19 @@ const Services = () => {
                                 <li>Shared community</li>
                                 <li>Collaboration</li>
                             </ul>
+                            <InfoTip message={"Read more"}>
+                                <Link href="https://docs.bridgr.xyz/benefits/for-members/game-integration">
+                                    <svg class="w-5 h-5 absolute right-5 bottom-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </Link>
+                            </InfoTip>
                             </div>
                         </div>
                         <div className="xl:w-1/3 md:w-1/2 w-full p-4">
-                            <div className="border border-white border-opacity-70 p-6 rounded-lg">
+                            <div className="relative border border-white border-opacity-70 p-6 rounded-lg">
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-[#379CE0] mb-4">
                                 <img src="/construction.svg" alt='business building' className='p-[0.35rem] mx-auto'/>
                             </div>
@@ -57,10 +67,19 @@ const Services = () => {
                                 <li>New revenue streams</li>
                                 <li>Entrepreneurship</li>
                             </ul>
+                            <InfoTip message={"Read more"}>
+                                <Link href="https://docs.bridgr.xyz/benefits/for-members/web3-business-building">
+                                    <svg class="w-5 h-5 absolute right-5 bottom-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </Link>
+                            </InfoTip>
                             </div>
                         </div>
                         <div className="xl:w-1/3 md:w-1/2 w-full p-4">
-                            <div className="border border-white border-opacity-70 p-6 rounded-lg">
+                            <div className="relative border border-white border-opacity-70 p-6 rounded-lg">
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-[#379CE0] mb-4">
                                 <svg className="svg-icon p-1" viewBox="0 0 20 20">
                                     <path fill="#379CE0" d="M10.001,9.658c-2.567,0-4.66-2.089-4.66-4.659c0-2.567,2.092-4.657,4.66-4.657s4.657,2.09,4.657,4.657C14.658,7.569,12.569,9.658,10.001,9.658z M10.001,1.8c-1.765,0-3.202,1.437-3.202,3.2c0,1.766,1.437,3.202,3.202,3.202c1.765,0,3.199-1.436,3.199-3.202C13.201,3.236,11.766,1.8,10.001,1.8z"></path>
@@ -74,10 +93,19 @@ const Services = () => {
                                 <li>Pitch deck building</li>
                                 <li>Pitch to investors</li>
                             </ul>
+                            <InfoTip message={"Read more"}>
+                                <Link href="https://docs.bridgr.xyz/benefits/for-members/access-investors">
+                                    <svg class="w-5 h-5 absolute right-5 bottom-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </Link>
+                            </InfoTip>
                             </div>
                         </div>
                         <div className="xl:w-1/3 md:w-1/2 w-full p-4">
-                            <div className="border border-white border-opacity-70 p-6 rounded-lg">
+                            <div className="relative border border-white border-opacity-70 p-6 rounded-lg">
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-[#379CE0] mb-4">
                                 <img src="/certificate.svg" alt='education' className='p-[0.3rem] mx-auto'/>
                             </div>
@@ -87,10 +115,19 @@ const Services = () => {
                                 <li>Workships</li>
                                 <li>Seminars</li>
                             </ul>
+                            <InfoTip message={"Read more"}>
+                                <Link href="https://docs.bridgr.xyz/benefits/for-members/education">
+                                    <svg class="w-5 h-5 absolute right-5 bottom-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </Link>
+                            </InfoTip>
                             </div>
                         </div>
                         <div className="xl:w-1/3 md:w-1/2 w-full p-4">
-                            <div className="border border-white border-opacity-70 p-6 rounded-lg">
+                            <div className="relative border border-white border-opacity-70 p-6 rounded-lg">
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-[#379CE0] mb-4">
                                 <img src="/law.svg" alt='legal services' className='p-1 mx-auto'/>
                             </div>
@@ -100,10 +137,20 @@ const Services = () => {
                                 <li>Blockchain adoption</li>
                                 <li>IP law</li>
                             </ul>
+                            <InfoTip message={"Read more"}>
+                                <Link href="https://docs.bridgr.xyz/benefits/for-members/legal">
+                                    <svg class="w-5 h-5 absolute right-5 bottom-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </Link>
+                            </InfoTip>
                             </div>
+
                         </div>
                         <div className="xl:w-1/3 md:w-1/2 w-full p-4">
-                            <div className="border border-white border-opacity-70 p-6 rounded-lg">
+                            <div className="relative border border-white border-opacity-70 p-6 rounded-lg">
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-[#379CE0] mb-4">
                                 <img src="/computer.svg" alt='consultancy' className='p-[0.3rem]'/>
                             </div>
@@ -113,7 +160,17 @@ const Services = () => {
                                 <li>Smart contract builds</li>
                                 <li>Smart contract audits</li>
                             </ul>
+                            <InfoTip message={"Read more"}>
+                                <Link href="https://docs.bridgr.xyz/consultancy/web3-consultancy">
+                                    <svg class="w-5 h-5 absolute right-5 bottom-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </Link>
+                            </InfoTip>
                             </div>
+                            
                         </div>
                         </div>
                     </div>
