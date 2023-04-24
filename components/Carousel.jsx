@@ -35,7 +35,7 @@ const CarouselElement = () => {
         <motion.div className="mx-auto flex lg:flex-row flex-col gap-6">
             <motion.div
                 variants={fadeIn('right', 'tween', 0.2, 1)}
-                className="flex-[0.5] xl:max-w-[370px] lg:max-w-[320px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-lg border-[1px] border-[#ffffff] border-opacity-[30%] text-left relative"
+                className="flex-[0.5] xl:max-w-[370px] lg:max-w-[320px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-lg border-[1px] border-white border-opacity-[30%] text-left relative"
             >
                 <div>
                     <p className="font-normal sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
