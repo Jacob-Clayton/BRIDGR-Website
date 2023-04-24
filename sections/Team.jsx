@@ -52,7 +52,7 @@ const Team = () => {
                 <img alt="team" class="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/mark_gray.png"/>
                 <div class="flex-grow">
                   <h2 class="text-off-white title-font font-medium">Mark </h2>
-                  <p class="">CEO & Co-founder</p>
+                  <p class="">Co-founder</p>
                 </div>
                 <div class="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
                   <a href="https://twitter.com/mepusica"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white" alt='twitter'></img></a>
@@ -66,7 +66,7 @@ const Team = () => {
                 <img alt="team" class="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/Kishor.png"/>
                 <div class="flex-grow">
                   <h2 class="text-off-white title-font font-medium">Kishor</h2>
-                  <p class="">Co-founder</p>
+                  <p class="">Director & Co-founder</p>
                 </div>
                 <div class="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
                   <a href="https://twitter.com/madforcryptos_"><img src="/twitter.svg" class="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white" alt='twitter'></img></a>
