@@ -17,7 +17,7 @@ const poppins = Poppins({
 function MobileNav({open, setOpen}) {
   return (   
     <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[50%] bg-primary-lightBlue rounded-tl-[35px] rounded-bl-[35px] border-l-[1px] border-white border-opacity-20 transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter `}>
-      <div className={`${poppins.variable} font-poppins text-off-white gap-5 z-100 flex flex-col items-center mt-[20%] sm:mt-[22%] md:mt-[20%] lg:mt-[25%] font-normal`}>
+      <div className={`${poppins.variable} font-poppins text-[#fafafa] gap-5 z-100 flex flex-col items-center mt-[20%] sm:mt-[22%] md:mt-[20%] lg:mt-[25%] font-normal`}>
 
           <Link 
             className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
@@ -121,7 +121,7 @@ const Navbar = () => {
               
               <div className='flex justify-end'>
                 <div className='lg:flex hidden gap-3'>
-                  <ul className={`${poppins.variable} font-poppins flex gap-4 lg:text-md xl:text-[1.1rem] items-center font-medium text-off-white cursor-pointer`}>
+                  <ul className={`${poppins.variable} font-poppins flex gap-4 lg:text-md xl:text-[1.1rem] items-center font-medium text-[#fafafa] cursor-pointer`}>
                       {/* <li className="px-3 hover:text-white duration-500">
                         <Link href="/">Home</Link>
                       </li> */}
@@ -150,7 +150,7 @@ const Navbar = () => {
                         <a href="https://docs.bridgr.xyz" className='flex'>Whitepaper<img src="/external-link.svg" className="sm:w-[10px] sm:h-[10px] w-[9px] h-[9px] ml-[1px]" alt='external link'/></a>
                       </li> */}
                   </ul>
-                  <div className='h-9 w-[1px] bg-white bg-opacity-20'/>
+                  <div className='h-9 w-[1px] bg-white bg-opacity-30'/>
                   <div className="flex items-center gap-3">
                     <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' alt='twitter'/></a>
                     <a href="https://t.me/bridgr"><img src='/telegram.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' alt='telegram'/></a>
