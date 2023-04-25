@@ -34,16 +34,15 @@ const Footer = () => {
             <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' class='w-[20px] h-[20px] object-contain cursor-pointer' alt='twitter'/></a>
             <a href="https://t.me/bridgr"><img src='/telegram.svg' class='w-[20px] h-[20px] object-contain cursor-pointer' alt='telegram'/></a>
             <a href="https://discord.com/invite/j2ayV98Dc2"><img src='/discord.svg' class='w-[20px] h-[20px] object-contain cursor-pointer' alt='discord'/></a>
-            <a href="mailto:bridgrxyz@gmail.com"><img src='/email.svg' class='w-[19px] h-[19px] object-contain cursor-pointer' alt='email'/></a>
             <a href='https://medium.com/@bridgrxyz' ><img src='/medium.svg' class='w-[20px] h-[20px] object-contain cursor-pointer' alt='medium'/></a>
-            <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' class='w-[16px] h-[16px] object-contain cursor-pointer' alt='linkedin'/></a>
+            <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' class='w-[17px] h-[17px] object-contain cursor-pointer' alt='linkedin'/></a>
+            <a href="mailto:bridgrxyz@gmail.com"><img src='/email.svg' class='w-[20px] h-[20px] object-contain cursor-pointer' alt='email'/></a>
+            <a href='https://calendly.com/bridgrxyz/30min-call' ><img src='/phone.svg' class='w-[17px] h-[17px] object-contain cursor-pointer' alt='video call'/></a>
+
           </div>
         </div>
-        <div className='flex flex-row mt-6 mb-6 gap-4 justify-between'>
-          <Newsletter />
-          <a className="cursor-pointer rounded-lg hover:shadow-lg hover:bg-white hover:bg-opacity-10" href="https://calendly.com/bridgrxyz/30min-call" >
-            <Button>Book Call</Button>
-          </a>      
+        <div className='flex flex-row mt-6 mb-6 gap-4 justify-center'>
+          <Newsletter />     
         </div>
         <div>
           <p className="font-normal text-[11px] sm:text-[12px] md:text-[12px] lg:text-[14px] text-off-white text-center opacity-[50%]">
