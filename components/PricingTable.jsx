@@ -59,7 +59,7 @@ const PricingTable = () => {
                                         <span className="text-sm font-medium tracking-wide ml-1 text-secondary-white">/ lifetime</span>
                                     </span>
                                 </div>
-                                <p className="leading-relaxed">Global exposure at our Web3 events with a media package for self promotion.</p>
+                                <p className="leading-relaxed">Global Web3 events exposure with a media package for self promotion plus engagement with our shared community.</p>
                                 <ul className="flex-1 space-y-2">
                                     <li className="flex items-center space-x-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#379CE0" className="flex-shrink-0 w-6 h-6">
