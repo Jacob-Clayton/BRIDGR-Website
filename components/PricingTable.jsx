@@ -29,7 +29,7 @@ const PricingTable = () => {
                     <div className="flex flex-wrap items-stretch -mx-4">
 
                         <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
-                            <div className="flex flex-col p-6 space-y-6 rounded-md shadow sm:p-8 bg-[#fafafa] text-gray-900">
+                            <div className="flex flex-col p-6 space-y-6 rounded-md shadow sm:p-8 bg-off-white text-gray-900">
                                 <div className="space-y-2">
                                     <h4 className="xl:text-2xl lg:text-xl text-2xl font-bold text-[#379CE0]">Consult us</h4>
                                     <span className="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-4xl sm:text-5xl text-4xl font-bold ">$150
@@ -45,14 +45,14 @@ const PricingTable = () => {
                                         <span>Web3 Consultancy</span>
                                     </li>
                                 </ul>
-                                <a rel="noopener noreferrer" href="#Contact" className="inline-block w-full px-5 py-3 font-bold tracking-wider text-center rounded bg-[#379CE0] text-[#fafafa]">
+                                <a rel="noopener noreferrer" href="#Contact" className="inline-block w-full px-5 py-3 font-bold tracking-wider text-center rounded bg-[#379CE0] text-off-white">
                                     Contact Us
                                 </a>
                             </div>
                         </div>
 
                         <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
-                            <div className="flex flex-col p-6 space-y-6 rounded-md shadow sm:p-8 bg-[#fafafa] text-gray-900">
+                            <div className="flex flex-col p-6 space-y-6 rounded-md shadow sm:p-8 bg-off-white text-gray-900">
                                 <div className="space-y-2">
                                     <h4 className="xl:text-2xl lg:text-xl text-2xl font-bold text-[#379CE0]">Friend</h4>
                                     <span className="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-4xl sm:text-5xl text-4xl font-bold">$200
@@ -68,14 +68,14 @@ const PricingTable = () => {
                                         <span>Visibility</span>
                                     </li>
                                 </ul>
-                                <a rel="noopener noreferrer" href="#Contact" className="inline-block w-full px-5 py-3 font-bold tracking-wider text-center rounded bg-[#379CE0] text-[#fafafa]">
+                                <a rel="noopener noreferrer" href="#Contact" className="inline-block w-full px-5 py-3 font-bold tracking-wider text-center rounded bg-[#379CE0] text-off-white">
                                     Contact Us
                                 </a>
                             </div>
                         </div>
 
                         <div className="w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
-                            <div className="p-6 space-y-6 rounded-md shadow sm:p-8 bg-[#fafafa]">
+                            <div className="p-6 space-y-6 rounded-md shadow sm:p-8 bg-off-white">
                                 <div className="space-y-2">
                                     <h4 className="xl:text-2xl lg:text-xl text-2xl font-bold text-[#379CE0]">Member</h4>
                                     <span className="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-4xl sm:text-5xl text-4xl font-bold">$2000
@@ -115,7 +115,7 @@ const PricingTable = () => {
                                         <span>Web3 Legal Services</span>
                                     </li>
                                 </ul>
-                                <a rel="noopener noreferrer" href="/apply/member" className="inline-block w-full px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#379CE0] text-[#fafafa]">
+                                <a rel="noopener noreferrer" href="/apply/member" className="inline-block w-full px-5 py-3 font-semibold tracking-wider text-center rounded bg-[#379CE0] text-off-white">
                                     Register Interest
                                 </a>
                             </div>

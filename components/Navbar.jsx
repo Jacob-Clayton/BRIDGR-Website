@@ -17,7 +17,7 @@ const poppins = Poppins({
 function MobileNav({open, setOpen}) {
   return (   
     <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[50%] bg-primary-lightBlue rounded-tl-[35px] rounded-bl-[35px] border-l-[1px] border-white border-opacity-20 transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter `}>
-      <div className={`${poppins.variable} font-poppins text-[#fafafa] gap-5 z-100 flex flex-col items-center mt-[20%] sm:mt-[22%] md:mt-[20%] lg:mt-[25%] font-normal`}>
+      <div className={`${poppins.variable} font-poppins text-off-white gap-5 z-100 flex flex-col items-center mt-[20%] sm:mt-[22%] md:mt-[20%] lg:mt-[25%] font-normal`}>
 
           <Link 
             className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
@@ -121,7 +121,7 @@ const Navbar = () => {
               
               <div className='flex justify-end'>
                 <div className='lg:flex hidden gap-3'>
-                  <ul className={`${poppins.variable} font-poppins flex gap-4 lg:text-md xl:text-[1.1rem] items-center font-medium text-[#fafafa] cursor-pointer`}>
+                  <ul className={`${poppins.variable} font-poppins flex gap-4 lg:text-md xl:text-[1.1rem] items-center font-medium text-off-white cursor-pointer`}>
                       {/* <li className="px-3 hover:text-white duration-500">
                         <Link href="/">Home</Link>
                       </li> */}

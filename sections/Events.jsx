@@ -58,7 +58,7 @@ const Events = () => {
             height={546}
           />
           <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-a-global-events-platform-for-anyone-interested-in-web3-8f78be3aba14' aria-label="Bridgr's web3 social event platform details">
-              <div className='absolute hover:bg-opacity-100 2xl:top-[140px] 2xl:right-[62px] xl:top-[130px] xl:right-[58px] lg:top-[100px] lg:right-[10px] md:top-[110px] md:right-[0px] sm:top-[110px] sm:right-[0px] top-[5px] right-0 bg-[#2B79AD] bg-opacity-70 border-[1px] border-white border-opacity-30 shadow-lg hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[200px] md:w-[160px] sm:w-[150px] w-[130px] rounded-lg md:p-4 sm:p-3 p-2'>
+              <div className='absolute hover:bg-opacity-100 2xl:top-[140px] 2xl:right-[62px] xl:top-[130px] xl:right-[58px] lg:top-[100px] lg:right-[10px] md:top-[110px] md:right-[0px] sm:top-[110px] sm:right-[0px] top-[1px] right-0 bg-[#2B79AD] bg-opacity-70 border-[1px] border-white border-opacity-30 shadow-lg hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[200px] md:w-[160px] sm:w-[150px] w-[130px] rounded-lg md:p-4 sm:p-3 p-2'>
                 <p className='text-off-white font-bold lg:text-xl md:text-lg md:text-md text-sm'>
                   In Asia:<br/>
                   <span className='font-normal lg:text-lg md:text-md sm:text-sm text-xs'>
@@ -69,7 +69,7 @@ const Events = () => {
           </a>
 
           <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-a-global-events-platform-for-anyone-interested-in-web3-8f78be3aba14' aria-label="Bridgr's web3 social event platform details">
-              <div className='absolute hover:bg-opacity-100 2xl:top-[130px] 2xl:right-[510px] xl:top-[120px] xl:right-[470px] lg:top-[90px] lg:right-[280px] md:top-[95px] md:right-[230px] sm:top-[15px] sm:right-[170px] top-[85px] right-[100px] bg-[#2B79AD] bg-opacity-70 border-[1px] border-white border-opacity-30 shadow-xl hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[260px] md:w-[240px] sm:w-[200px] w-[170px] rounded-lg md:p-4 sm:p-3 p-2'>
+              <div className='absolute hover:bg-opacity-100 2xl:top-[130px] 2xl:right-[510px] xl:top-[120px] xl:right-[470px] lg:top-[90px] lg:right-[280px] md:top-[0px] md:right-[165px] sm:top-[15px] sm:right-[170px] top-[85px] right-[100px] bg-[#2B79AD] bg-opacity-70 border-[1px] border-white border-opacity-30 shadow-xl hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[300px] md:w-[290px] sm:w-[200px] w-[170px] rounded-lg md:p-4 sm:p-3 p-2'>
                 <p className='text-off-white font-bold lg:text-xl md:text-lg md:text-md text-sm'>
                   In Europe:<br/>
                   <span className='font-normal lg:text-lg md:text-md sm:text-sm text-xs'>
@@ -80,11 +80,11 @@ const Events = () => {
           </a>
 
           <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-comes-new-york-city-on-april-12th-during-nft-nyc-b10cc8f063f7' aria-label="Details on bridgr's web3 social event during NFT NYC">
-              <div className='absolute hover:bg-opacity-100 2xl:top-[150px] 2xl:right-[980px] xl:top-[140px] xl:right-[900px] lg:top-[120px] lg:right-[650px] md:top-[120px] md:right-[530px] sm:top-[80px] sm:right-[380px] top-[10px] left-0 bg-[#2B79AD] bg-opacity-70 border-[1px] border-white border-opacity-30 shadow-xl hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[170px] md:w-[150px] sm:w-[130px] w-[110px] rounded-lg md:p-4 sm:p-3 p-2'>
+              <div className='absolute hover:bg-opacity-100 2xl:top-[150px] 2xl:right-[980px] xl:top-[140px] xl:right-[900px] lg:top-[120px] lg:right-[650px] md:top-[120px] md:right-[530px] sm:top-[80px] sm:right-[380px] top-[1px] left-0 bg-[#2B79AD] bg-opacity-70 border-[1px] border-white border-opacity-30 shadow-xl hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[170px] md:w-[150px] sm:w-[130px] w-[110px] rounded-lg md:p-4 sm:p-3 p-2'>
                 <p className='text-off-white font-bold lg:text-xl md:text-lg md:text-md text-sm'>
                   In America:<br/>
                   <span className='font-normal lg:text-lg md:text-md sm:text-sm text-xs'>
-                    New York City
+                    New York City & Miami.
                   </span>
                 </p>
               </div>

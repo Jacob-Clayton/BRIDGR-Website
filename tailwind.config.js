@@ -19,7 +19,7 @@ module.exports = {
         jost: ['var(--font-jost)', fontFamily.sans]
       },
       colors: {
-        'off-white' : '#EDEFF4',
+        'off-white' : '#fafafa',
         'primary-black': '#18181c',
         'secondary-white': '#c7c7c7',
         'purple' : '#6446A3',
