@@ -1,19 +1,11 @@
 'use client';
 
-import { TitleText, ContactForm, Newsletter } from '../components';
+import { TitleText, ContactForm } from '../components';
 import styles from '../styles';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../utils/motion';
-import { Urbanist, Poppins } from '@next/font/google';
+import { Poppins } from '@next/font/google';
 import { useMediaQuery } from 'react-responsive';
-import Image from 'next/image';
-
-const urbanist = Urbanist({
-  subsets: ['latin'],
-  variable: '--font-urbanist',
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  display: 'swap',
-})
 
 const poppins = Poppins({
 	subsets: ['latin'],
@@ -27,25 +19,62 @@ export default function Contact() {
   const isLgScreen = useMediaQuery({ minWidth: 1024 });
   
   return (
-    <section className={`${styles.paddings} relative z-10`} id='Contact'>
+    <section className={`${styles.paddings} ${poppins.variable} relative z-10`} id='Contact'>
       <div className={`${styles.innerWidth} mx-auto`}>
-        <TitleText title={<>Contact</>} textStyles="text-center sm:mb-10 mb-5" />
-        <p className={`${styles.descriptionText} ${poppins.variable} font-poppins mx-auto w-1/2 text-center`}>
-          Connect with us via the contact form, send us an 
-            <a href='mailto:bridgrxyz@gmail.com' className='text-white font-medium'> email </a>
-          or book a 30-minute
-            <a href='https://calendly.com/bridgrxyz/30min-call' className='text-white font-medium'> call </a>
-          to talk to us face to face.
-        </p>
-        <motion.div 
-          className='sm:mt-10 mt-5 flex flex-col lg:flex-row w-full items-center justify-around'
-          variants={fadeIn('up', 'tween', 0.2, 1)}
-          initial={isLgScreen ? 'hidden' : 'visible'}
-          viewport={{ once: false, amount: 0.01 }}
-          whileInView="show"
-        >
-          <ContactForm />
-        </motion.div>
+        <TitleText title={<>Contact</>} textStyles="text-center" />
+        <div className='flex sm:flex-row flex-col gap-10 mx-auto sm:mt-10 mt-5'>
+
+          <div className='flex flex-col sm:w-1/2 w-full mx-auto text-secondary-white sm:py-2'>
+            <p className={`${styles.descriptionText} font-poppins mx-auto lg:w-2/3 w-full text-center`}>
+              Connect with us via the contact form, send an email or book a video call to talk to us face to face.
+            </p>
+
+            <div className="mx-auto md:mt-10 sm:mt-8 mt-5">
+              <div className="space-y-4">
+
+                <p className="flex items-center font-poppins">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="white" className="w-5 h-5 mr-2 sm:mr-6">
+                    <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd"></path>
+                  </svg>
+                  <span>Based in Singapore</span>
+                </p>
+                
+                <p className="flex items-center font-poppins">
+                  <a href='https://calendly.com/bridgrxyz/30min-call' className='flex items-center'>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="white" className="w-5 h-5 mr-2 sm:mr-6">
+                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+                  </svg>
+                  <span>Book call here</span>
+                  </a>
+                </p>
+                
+                <p className="flex items-center font-poppins">
+                <a href='mailto:bridgrxyz@gmail.com' className='flex items-center'>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="white" className="w-5 h-5 mr-2 sm:mr-6">
+                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                  </svg>
+                  <span>bridgrxyz@gmail.com</span>
+                  </a>
+                </p>
+
+              </div>
+            </div>
+
+          </div>
+          
+          <motion.div 
+            className='flex sm:w-1/2 w-full mx-auto items-center'
+            variants={fadeIn('up', 'tween', 0.2, 1)}
+            initial={isLgScreen ? 'hidden' : 'visible'}
+            viewport={{ once: false, amount: 0.01 }}
+            whileInView="show"
+          >
+            <ContactForm />
+          </motion.div>
+
+        </div>
+        
         {/* <motion.div 
           className='flex flex-col md:mt-10 mt-5 justify-center items-center'
           variants={fadeIn('up', 'tween', 0.2, 1)}
