@@ -61,7 +61,7 @@ const PricingTable = () => {
                                     </span>
                                 </div>
                                 <p className="leading-relaxed">Global events exposure plus media package and engagement with our shared community.
-                                    <Link href="https://docs.bridgr.xyz/benefits/for-friends" className='font-medium'> Read more.</Link>
+                                    <Link href="https://docs.bridgr.xyz/benefits/for-friends" className='font-semibold'> Read more.</Link>
                                 </p>
                                 <ul className="flex-1 space-y-2">
                                     <li className="flex items-center space-x-2">
