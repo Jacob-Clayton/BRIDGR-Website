@@ -32,10 +32,10 @@ export default function MemberHome() {
                         The BRIDGR business model canvas to help you build and improve your Web3 company.
                     </p>
 				</div>
-                <div className="sm:mt-10 mt-5 border-[3px] bg-off-white bg-opacity-[95%] border-black border-opacity-80 rounded-2xl text-gray-700">
+                <div className="sm:mt-10 mt-5 bg-off-white bg-opacity-[95%] shadow-lg rounded-2xl text-gray-700">
                     <div className="">
                         <div className="flex lg:flex-row flex-col mx-auto">
-                            <div className="flex-1 border-[1px] border-black border-opacity-10 rounded-tl-2xl px-3 py-3">
+                            <div className="flex-1 border-[1px] border-black border-opacity-10 rounded-tl-2xl px-4 py-3">
                                 <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Key Partners</p>
                                 <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
                                 <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah.</p>
@@ -55,7 +55,7 @@ export default function MemberHome() {
                                 </ul>
                             </div>
                             <div className="flex flex-col flex-1">
-                                <div className=" border-[1px] border-black border-opacity-10 px-3 py-3">
+                                <div className=" border-[1px] border-black border-opacity-10 px-4 py-3">
                                     <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Key Activites</p>
                                     <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
                                     <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah.</p>
@@ -70,7 +70,7 @@ export default function MemberHome() {
                                     <p className="font-poppins">How BRIDGR can help:</p>
                                 </div>
                             </div>
-                            <div className="flex-1 border-[1px] border-black border-opacity-10 px-3 py-3">
+                            <div className="flex-1 border-[1px] border-black border-opacity-10 px-4 py-3">
                                 <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Value Propositions</p>
                                 <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
                                 <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah.</p>
@@ -78,14 +78,14 @@ export default function MemberHome() {
                                 <p className="font-poppins">How BRIDGR can help:</p>
                             </div>
                             <div className="flex flex-1 flex-col">
-                                <div className="border-[1px] border-black border-opacity-10 px-3 py-3">
+                                <div className="border-[1px] border-black border-opacity-10 px-4 py-3">
                                     <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Customer Relations</p>
                                     <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
                                     <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah.</p>
                                     <br/>
                                     <p className="font-poppins">How BRIDGR can help:</p>
                                 </div>
-                                <div className="border-[1px] border-black border-opacity-10 px-3 py-3">
+                                <div className="border-[1px] border-black border-opacity-10 px-4 py-3">
                                     <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Channels</p>
                                     <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
                                     <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah.</p>
@@ -93,7 +93,7 @@ export default function MemberHome() {
                                     <p className="font-poppins">How BRIDGR can help:</p>
                                 </div>
                             </div>
-                            <div className="flex-1 border-[1px] border-black border-opacity-10 rounded-tr-2xl px-3 py-3">
+                            <div className="flex-1 border-[1px] border-black border-opacity-10 rounded-tr-2xl px-4 py-3">
                                 <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Customer Segments</p>
                                 <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
                                 <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah.</p>
@@ -102,14 +102,14 @@ export default function MemberHome() {
                             </div>
                         </div>
                         <div className="flex md:flex-row flex-col mx-auto">
-                            <div className="flex-1 border-[1px] border-black border-opacity-10 rounded-bl-2xl px-3 py-3">
+                            <div className="flex-1 border-[1px] border-black border-opacity-10 rounded-bl-2xl px-4 py-3">
                                 <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Cost Structure</p>
                                 <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
                                 <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah.</p>
                                 <br/>
                                 <p className="font-poppins">How BRIDGR can help:</p>
                             </div>
-                            <div className="flex-1 border-[1px] border-black border-opacity-10 rounded-br-2xl px-3 py-3">
+                            <div className="flex-1 border-[1px] border-black border-opacity-10 rounded-br-2xl px-4 py-3">
                                 <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Revenue Streams</p>
                                 <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
                                 <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah.</p>
@@ -125,7 +125,7 @@ export default function MemberHome() {
                         To help you build your Web3 business we have a team of partners who cover a wide range of expertise to help you.
                         If you would like to access their combined services and combined community of 250,000+ please apply to become a member of BRIDGR.
                     </p>
-                    <div className='sm:mt-20 mt-10 place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
+                    <div className='w-5/6 mx-auto sm:mt-20 mt-10 place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
                         <a className="p-1 col-span-1" href='https://apegang.art/'>
                         <Tooltip message={"The 10th most sold NFT project, founded in May 2021, they have a team of Web developers, blockchain developers, NFT artists and community experts."}>
                         <Image 
