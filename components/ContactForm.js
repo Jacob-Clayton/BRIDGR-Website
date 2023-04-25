@@ -40,7 +40,7 @@ export default function ContactForm() {
 		}
 
 	return (
-		<form className={`${poppins.variable} font-poppins lg:w-[600px] md:w-[550px] sm:w-[500px] w-full mx-auto flex flex-col`} onSubmit={handleSubmit(onSubmit)}>
+		<form className={`${poppins.variable} gap-2 font-poppins lg:w-[600px] md:w-[550px] sm:w-[500px] w-full mx-auto flex flex-col`} onSubmit={handleSubmit(onSubmit)}>
 			<input
 				{...register("name")}
 				id='name'
@@ -49,9 +49,8 @@ export default function ContactForm() {
 				placeholder='Name'
 				type='text'
 				required
-				className='input px-2 py-1 rounded-md font-normal bg-transparent text-secondary-white'
+				className='input px-2 py-1 bg-off-white rounded-md font-normal '
 			/>
-			<div className='w-full h-[1px] bg-white bg-opacity-20 mb-2'/>
 			<input
 				{...register("email")}
 				id='email'
@@ -60,9 +59,8 @@ export default function ContactForm() {
 				placeholder='Email'
 				type='email'
 				required
-				className='input px-2 py-1 rounded-md font-normal bg-transparent text-secondary-white'
+				className='input px-2 py-1 bg-off-white rounded-md font-normal'
 			/>
-			<div className='w-full h-[1px] bg-white bg-opacity-20 mb-2'/>
 			<input
 				{...register("subject")}
 				id='subject'
@@ -71,9 +69,8 @@ export default function ContactForm() {
 				placeholder='Subject'
 				type='text'
 				required
-				className='input px-2 py-1 rounded-md font-normal bg-transparent text-secondary-white'
+				className='input px-2 py-1 bg-off-white rounded-md font-normal '
 			/>
-			<div className='w-full h-[1px] bg-white bg-opacity-20 mb-2'/>
 			<textarea
 				{...register("message")}
 				id='message'
@@ -83,13 +80,12 @@ export default function ContactForm() {
 				type='text'
 				rows='5'
 				required
-				className='input px-2 py-1 rounded-md font-normal bg-transparent text-secondary-white'
+				className='input px-2 py-1 bg-off-white rounded-md font-normal'
 			/>
-			<div className='w-full h-[1px] bg-white bg-opacity-20 mb-2'/>
 			<div className='flex flex-col items-center'>
                 <button 
 					role="button" 
-					className=" mt-2 border-[1px] flex mx-auto border-white border-opacity-30 shadow-md hover:shadow-lg hover:bg-white hover:bg-opacity-10 text-off-white py-1 px-4 rounded-lg font-normal xl:text-xl lg:text-lg md:text-md text-sm hover:text-white duration-500 cursor-pointer "
+					className=" mt-2 border-[1px] flex mx-auto border-white border-opacity-30 shadow-md hover:shadow-lg hover:bg-white hover:bg-opacity-10 text-off-white px-4 py-1 rounded-md font-normal lg:text-lg md:text-md text-sm hover:text-white duration-500 cursor-pointer "
 				>
 					{isSubmitting ? "Submitting" : "Send"}
 				</button>

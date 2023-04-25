@@ -22,7 +22,13 @@ export default function Contact() {
     <section className={`${styles.paddings} ${poppins.variable} relative z-10`} id='Contact'>
       <div className={`${styles.innerWidth} mx-auto`}>
         <TitleText title={<>Contact</>} textStyles="text-center" />
-        <div className='flex sm:flex-row flex-col gap-10 mx-auto sm:mt-10 mt-5'>
+        <motion.div 
+          className='flex sm:flex-row flex-col gap-10 mx-auto sm:mt-10 mt-5'
+          variants={fadeIn('up', 'tween', 0.2, 1)}
+          initial={isLgScreen ? 'hidden' : 'visible'}
+          viewport={{ once: false, amount: 0.01 }}
+          whileInView="show"
+        >
 
           <div className='flex flex-col sm:w-1/2 w-full mx-auto text-secondary-white sm:py-2'>
             <p className={`${styles.descriptionText} font-poppins mx-auto lg:w-2/3 w-full text-center`}>
@@ -30,7 +36,7 @@ export default function Contact() {
             </p>
 
             <div className="mx-auto md:mt-10 sm:mt-8 mt-5">
-              <div className="space-y-4">
+              <div className="space-y-4 text-off-white">
 
                 <p className="flex items-center font-poppins">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="white" className="w-5 h-5 mr-2 sm:mr-6">
@@ -57,23 +63,15 @@ export default function Contact() {
                   <span>bridgrxyz@gmail.com</span>
                   </a>
                 </p>
-
               </div>
             </div>
-
           </div>
           
-          <motion.div 
-            className='flex sm:w-1/2 w-full mx-auto items-center'
-            variants={fadeIn('up', 'tween', 0.2, 1)}
-            initial={isLgScreen ? 'hidden' : 'visible'}
-            viewport={{ once: false, amount: 0.01 }}
-            whileInView="show"
-          >
+          <div className='flex sm:w-1/2 w-full mx-auto items-center'>
             <ContactForm />
-          </motion.div>
+          </div>
 
-        </div>
+        </motion.div>
         
         {/* <motion.div 
           className='flex flex-col md:mt-10 mt-5 justify-center items-center'
