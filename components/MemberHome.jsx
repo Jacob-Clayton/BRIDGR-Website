@@ -32,10 +32,10 @@ export default function MemberHome() {
                         The BRIDGR business model canvas to help you build and improve your Web3 company.
                     </p>
 				</div>
-                <div className="sm:mt-10 mt-5 bg-off-white bg-opacity-[95%] shadow-lg rounded-2xl text-gray-700">
+                <div className="sm:mt-10 mt-5 bg-off-white bg-opacity-[95%] shadow-lg rounded-md text-gray-700">
                     <div className="">
                         <div className="flex lg:flex-row flex-col mx-auto">
-                            <div className="flex-1 border-[1px] border-black border-opacity-10 rounded-tl-2xl px-4 py-3">
+                            <div className="flex-1 border-[1px] border-black border-opacity-10 rounded-tl-md px-4 py-3">
                                 <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Key Partners</p>
                                 <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
                                 <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah.</p>
@@ -93,7 +93,7 @@ export default function MemberHome() {
                                     <p className="font-poppins">How BRIDGR can help:</p>
                                 </div>
                             </div>
-                            <div className="flex-1 border-[1px] border-black border-opacity-10 rounded-tr-2xl px-4 py-3">
+                            <div className="flex-1 border-[1px] border-black border-opacity-10 rounded-tr-md px-4 py-3">
                                 <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Customer Segments</p>
                                 <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
                                 <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah.</p>
@@ -102,14 +102,14 @@ export default function MemberHome() {
                             </div>
                         </div>
                         <div className="flex md:flex-row flex-col mx-auto">
-                            <div className="flex-1 border-[1px] border-black border-opacity-10 rounded-bl-2xl px-4 py-3">
+                            <div className="flex-1 border-[1px] border-black border-opacity-10 rounded-bl-md px-4 py-3">
                                 <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Cost Structure</p>
                                 <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
                                 <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah.</p>
                                 <br/>
                                 <p className="font-poppins">How BRIDGR can help:</p>
                             </div>
-                            <div className="flex-1 border-[1px] border-black border-opacity-10 rounded-br-2xl px-4 py-3">
+                            <div className="flex-1 border-[1px] border-black border-opacity-10 rounded-br-md px-4 py-3">
                                 <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Revenue Streams</p>
                                 <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
                                 <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah.</p>

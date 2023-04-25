@@ -1,10 +1,9 @@
-import PriceButton from "./PriceButton";
-import InfoButton from "./InfoButton";
 import { motion } from 'framer-motion';
 import { useMediaQuery } from 'react-responsive';
 import { fadeIn } from '../utils/motion';
-import styles from "../styles";
 import { Poppins } from "@next/font/google";
+import InfoTip from './InfoTip';
+import Link from 'next/link';
 
 const poppins = Poppins({
 	subsets: ['latin'],
@@ -36,7 +35,9 @@ const PricingTable = () => {
                                         <span className="text-sm font-medium tracking-wide ml-1 text-secondary-white">/ hour</span>
                                     </span>
                                 </div>
-                                <p className="mt-3 leading-relaxed ">Technical consultancy specialising in smart contracts and website builds.</p>
+                                <p className="mt-3 leading-relaxed ">Technical consultancy specialising in smart contracts and website builds.
+                                    <Link href="https://docs.bridgr.xyz/consultancy/web3-consultancy" className='font-semibold'> Read more.</Link>
+                                </p>
                                 <ul className="flex-1 mb-6 ">
                                     <li className="flex mb-2 space-x-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 text-[#379CE0]">
@@ -59,7 +60,9 @@ const PricingTable = () => {
                                         <span className="text-sm font-medium tracking-wide ml-1 text-secondary-white">/ lifetime</span>
                                     </span>
                                 </div>
-                                <p className="leading-relaxed">Global Web3 events exposure with a media package for self promotion plus engagement with our shared community.</p>
+                                <p className="leading-relaxed">Global events exposure plus media package and engagement with our shared community.
+                                    <Link href="https://docs.bridgr.xyz/benefits/for-friends" className='font-medium'> Read more.</Link>
+                                </p>
                                 <ul className="flex-1 space-y-2">
                                     <li className="flex items-center space-x-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#379CE0" className="flex-shrink-0 w-6 h-6">
@@ -82,7 +85,9 @@ const PricingTable = () => {
                                         <span className="text-sm font-medium tracking-wide ml-1 text-secondary-white">/ year</span>
                                     </span>
                                 </div>
-                                <p className="leading-relaxed">Register interest before June for 20% off.</p>
+                                <p className="leading-relaxed">Register interest before June for 20% off.
+                                    <Link href="https://docs.bridgr.xyz/benefits/for-members" className='font-semibold'> Read more.</Link>
+                                </p>
                                 <ul className="space-y-2">
                                     <li className="flex items-start space-x-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 text-[#379CE0]">
