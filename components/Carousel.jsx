@@ -42,13 +42,13 @@ const CarouselElement = () => {
                         Mark
                     </p>
                     <p className="mt-[8px] font-light sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-                        CEO & Co-founder
+                        Co-founder
                     </p>
                 </div>
 
-                <p className={`${styles.descriptionText} ${poppins.variable} font-poppins mt-[24px]`}>
+                <p className={`${styles.descriptionText} ${poppins.variable} font-poppins sm:mt-6 mt-4`}>
                     "We've witnessed good people losing time and resources to shady players. 
-                    That's why, in late 2022, we created BRIDGR, a network of trustworthy Web3 companies 
+                    That's why we created BRIDGR, a network of trustworthy Web3 companies 
                     working together to provide a more authentic and cooperative Web3 platform."
                 </p>
             </motion.div>
@@ -60,7 +60,7 @@ const CarouselElement = () => {
             <Image
                 src="/mark_talk.jpg"
                 alt="mark talking"
-                className="w-full lg:block hidden lg:h-[480px] h-auto min-h-[210px] object-cover rounded-lg"
+                className="w-full lg:block hidden xl:h-[480px] lg:h-[440px] md:h-[400px] sm:h-[400px] h-[320px] min-h-[210px] object-cover rounded-lg"
                 width={900}
                 height={700}
             />
@@ -77,11 +77,11 @@ const CarouselElement = () => {
                         Kishor
                     </p>
                     <p className="mt-[8px] font-light sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-                        Co-founder
+                        Director & Co-founder
                     </p>
                 </div>
 
-                <p className={`${styles.descriptionText} ${poppins.variable} font-poppins mt-[24px]`}>
+                <p className={`${styles.descriptionText} ${poppins.variable} font-poppins sm:mt-6 mt-4`}>
                     “Community is everything in Web3, it's also a huge struggle for companies joining. BRIDGR helps solve this by 
                     providing immediate access to a worldwide Web3 community ontop of a full suite of technical services.”
                 </p>
@@ -94,7 +94,7 @@ const CarouselElement = () => {
                 <Image
                     src="/kishor-talk.jpeg"
                     alt="kishor talking"
-                    className="w-full lg:block hidden lg:h-[480px] h-auto min-h-[210px] object-cover rounded-lg"
+                    className="w-full lg:block hidden xl:h-[480px] lg:h-[440px] md:h-[400px] sm:h-[400px] h-[320px] min-h-[210px] object-cover rounded-lg"
                     width={910}
                     height={710}
                     quality={95}
@@ -116,7 +116,7 @@ const CarouselElement = () => {
                     </p>
                 </div>
 
-            <p className={`${styles.descriptionText} ${poppins.variable} font-poppins mt-[24px]`}>
+            <p className={`${styles.descriptionText} ${poppins.variable} font-poppins sm:mt-6 mt-4`}>
                 "Working as a collective like BRIDGR fosters a culture of transparency and shared decision-making.
                 It empowers everyone to work as one in shaping the direction of the company and the companies 
                 we help build."
@@ -130,7 +130,7 @@ const CarouselElement = () => {
                 <Image
                     src="/jacob_talk.jpg"
                     alt="Jacob Talking"
-                    className="w-full lg:block hidden lg:h-[480px] h-auto min-h-[210px] object-cover rounded-lg"
+                    className="w-full lg:block hidden xl:h-[480px] lg:h-[440px] md:h-[400px] sm:h-[400px] h-[320px] min-h-[210px] object-cover rounded-lg"
                     width={910}
                     height={710}
                     quality={95}
