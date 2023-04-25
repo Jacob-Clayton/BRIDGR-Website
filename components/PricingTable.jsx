@@ -54,12 +54,12 @@ const PricingTable = () => {
                         <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
                             <div className="flex flex-col p-6 space-y-6 rounded-md shadow sm:p-8 bg-[#fafafa] text-gray-900">
                                 <div className="space-y-2">
-                                    <h4 className="xl:text-2xl lg:text-xl text-2xl font-bold text-[#379CE0]">Events Package</h4>
+                                    <h4 className="xl:text-2xl lg:text-xl text-2xl font-bold text-[#379CE0]">Friend</h4>
                                     <span className="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-4xl sm:text-5xl text-4xl font-bold">$200
                                         <span className="text-sm font-medium tracking-wide ml-1 text-secondary-white">/ lifetime</span>
                                     </span>
                                 </div>
-                                <p className="leading-relaxed">Global exposure at our Web3 events with media package for self promotion.</p>
+                                <p className="leading-relaxed">Global exposure at our Web3 events with a media package for self promotion.</p>
                                 <ul className="flex-1 space-y-2">
                                     <li className="flex items-center space-x-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#379CE0" className="flex-shrink-0 w-6 h-6">
