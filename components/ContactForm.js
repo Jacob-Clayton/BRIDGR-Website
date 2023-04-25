@@ -40,7 +40,7 @@ export default function ContactForm() {
 		}
 
 	return (
-		<form className={`${poppins.variable} gap-2 font-poppins lg:w-[600px] md:w-[550px] sm:w-[500px] w-full mx-auto flex flex-col`} onSubmit={handleSubmit(onSubmit)}>
+		<form className={`${poppins.variable} gap-2 font-poppins sm:w-3/4 w-full mx-auto flex flex-col`} onSubmit={handleSubmit(onSubmit)}>
 			<input
 				{...register("name")}
 				id='name'
