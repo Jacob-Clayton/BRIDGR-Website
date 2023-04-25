@@ -71,7 +71,7 @@ const About = () => {
               <Image 
                 src='/apegang.png' 
                 alt="Ape Gang" 
-                className="max-w-[90%]" 
+                className="sm:max-w-[90%]" 
                 style={{opacity:'0.95'}}
                 quality={100}
                 width={938}
@@ -84,7 +84,7 @@ const About = () => {
               <Image 
                 src='/ethlas.png' 
                 alt="Ethlas" 
-                className="max-w-[80%]" 
+                className="sm:max-w-[80%]" 
                 style={{opacity:'0.95'}}
                 quality={100}
                 width={1531}
@@ -97,7 +97,7 @@ const About = () => {
               <Image 
                 src='/madfornft.png' 
                 alt="Mad for NFTs" 
-                className="max-w-[85%]" 
+                className="sm:max-w-[85%]" 
                 style={{opacity:'0.95'}}
                 quality={100}
                 width={1092}
@@ -110,7 +110,7 @@ const About = () => {
               <Image 
                 src='/cryptofemale.png' 
                 alt="Crypto Female" 
-                className="max-w-[80%]" 
+                className="sm:max-w-[80%]" 
                 style={{opacity:'0.95'}}
                 quality={100}
                 width={1000}
@@ -123,7 +123,7 @@ const About = () => {
               <Image 
                 src='/globalb.png' 
                 alt="GlobalB" 
-                className="max-w-[85%]" 
+                className="sm:max-w-[85%]" 
                 style={{opacity:'0.95'}}
                 quality={100}
                 width={832}
@@ -136,7 +136,7 @@ const About = () => {
             <Image 
               src='/parlourQR.png' 
               alt="The Parlour Global" 
-              className="max-w-[65%]" 
+              className="sm:max-w-[65%] max-w-[80%]" 
               style={{opacity:'0.95'}}
               quality={100}
               width={600}
@@ -149,7 +149,7 @@ const About = () => {
               <Image 
                 src='/bighaus.png' 
                 alt="Bighaus" 
-                className="max-w-[70%]" 
+                className="sm:max-w-[70%] max-w-[80%]" 
                 style={{opacity:'0.95'}}
                 quality={100}
                 width={1000}
@@ -162,7 +162,7 @@ const About = () => {
               <Image 
                 src='/boredislandgroup.png' 
                 alt="Bored Island Group" 
-                className="max-w-[90%]" 
+                className="sm:max-w-[90%]" 
                 style={{opacity:'0.95'}}
                 quality={100}
                 width={1000}
@@ -194,7 +194,7 @@ const About = () => {
               <Image 
                 src='/edns.png' 
                 alt="EDNS" 
-                className="max-w-[90%]" 
+                className="sm:max-w-[90%] max-w-[100%]" 
                 style={{opacity:'0.95'}}
                 quality={100}
                 width={800}
@@ -208,7 +208,7 @@ const About = () => {
                 <Image 
                   src='/youplacewhite.png' 
                   alt="You Place" 
-                  className="max-w-[65%]" 
+                  className="sm:max-w-[65%] max-w-[80%]" 
                   style={{opacity:'0.95'}}
                   quality={100}
                   width={600}
@@ -222,7 +222,7 @@ const About = () => {
                 <Image 
                   src='/lighthouse_com.png' 
                   alt="Lighthouse Studios Bali" 
-                  className="max-w-[80%]" 
+                  className="sm:max-w-[80%] max-w-[90%]" 
                   style={{opacity:'0.95'}}
                   quality={100}
                   width={600}

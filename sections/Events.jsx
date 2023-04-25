@@ -37,7 +37,7 @@ const Events = () => {
           variants={fadeIn('up', 'tween', 0.2, 1)}
           initial={isLgScreen ? 'hidden' : 'visible'}
           whileInView="show"
-          className={`${styles.descriptionText} ${poppins.variable} font-poppins mx-auto md:mt-10 mt-5 w-3/4 text-center`}
+          className={`${styles.descriptionText} ${poppins.variable} font-poppins mx-auto md:mt-10 mt-5 lg:w-3/4 w-full text-center`}
         >
           Recieve worldwide exposure at our 'WEB3 SOCIAL' events. 
           Your company will be given a professional speech, promotional graphics on screens around the event, plus video and images for your own use.

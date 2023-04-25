@@ -34,15 +34,15 @@ function MobileNav({open, setOpen}) {
           </a> */}
           <a 
             className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
-            href="/#Story" 
-            onClick={() => setOpen(false)}>
-            Story
-          </a>
-          <a 
-            className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
             href="/#Team" 
             onClick={() => setOpen(false)}>
             Team
+          </a>
+          <a 
+            className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
+            href="/#Story" 
+            onClick={() => setOpen(false)}>
+            Story
           </a>
           <a 
             className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
@@ -128,12 +128,12 @@ const Navbar = () => {
                       {/* <li className="hover:text-white duration-500">
                         <a href="/#About">About</a>
                       </li> */}
-                      {/* <li className="hover:text-white duration-500">
-                        <a href="/#Story">Story</a>
-                      </li> */}
                       <li className="hover:text-white duration-500">
                         <a href="/#Team">Team</a>
                       </li>
+                      {/* <li className="hover:text-white duration-500">
+                        <a href="/#Story">Story</a>
+                      </li> */}
                       <li className="hover:text-white duration-500">
                         <a href="/#Services">Services</a>
                       </li>
