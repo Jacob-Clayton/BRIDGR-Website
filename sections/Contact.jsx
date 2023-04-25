@@ -31,7 +31,7 @@ export default function Contact() {
         >
 
           <div className='flex flex-col sm:w-1/2 w-full mx-auto text-secondary-white sm:py-2'>
-            <p className={`${styles.descriptionText} font-poppins mx-auto lg:w-2/3 sm:w-3/4 w-5/6 text-center`}>
+            <p className={`${styles.descriptionText} font-poppins mx-auto md:w-3/4 w-5/6 text-center`}>
               Connect with us via the contact form, send an email or book a video call to talk to us face to face.
             </p>
 
