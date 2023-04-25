@@ -46,8 +46,8 @@ export default function Newsletter() {
             <div className={`${poppins.variable} font-poppins mx-auto flex flex-row items-center content-center`}>
 
 
-            <div className="container mx-auto flex flex-col justify-center p-4 sm:space-y-8 space-y-4 md:p-10 lg:space-y-0 lg:space-x-8 lg:justify-between lg:flex-row">
-                <div className="flex flex-col space-y-2 text-center lg:text-left">
+            <div className="container mx-auto flex flex-col justify-center p-4 sm:space-y-8 space-y-4 md:p-8 lg:space-y-0 lg:space-x-8 lg:justify-between lg:flex-row">
+                <div className="flex flex-col space-y-1 text-center lg:text-left">
                     <h1 className="text-xl font-semibold leading-none text-off-white">Stay in the loop</h1>
                     <p className="text-md text-secondary-white">Subscribe to our newsletter for the latest information on our Web3 events.</p>
                 </div>
