@@ -64,7 +64,7 @@ const About = () => {
           className='relative '
         >
         <div className="mb-6">
-        <TypingText title="Partners" textStyles="text-left px-4" />
+        <TypingText title="Partners" textStyles="text-left sm:px-3 px-2" />
           <div className=' place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
             <a className="p-1 col-span-1" href='https://apegang.art/'>
               <Tooltip message={"The 10th most sold NFT project, founded in May 2021, they have a team of Web developers, blockchain developers, NFT artists and community experts."}>
@@ -111,7 +111,7 @@ const About = () => {
                 src='/cryptofemale.png' 
                 alt="Crypto Female" 
                 className="max-w-[80%]" 
-                style={{opacity:'0.85'}}
+                style={{opacity:'0.95'}}
                 quality={100}
                 width={1000}
                 height={596}
@@ -186,7 +186,7 @@ const About = () => {
           </div>
 
       <div className="mt-10">
-        <TypingText title="Friends" textStyles="text-left px-4" />
+        <TypingText title="Friends" textStyles="text-left sm:px-3 px-2" />
           <div className='place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
             
             <a className="p-1 col-span-1" href='https://www.edns.domains/'>

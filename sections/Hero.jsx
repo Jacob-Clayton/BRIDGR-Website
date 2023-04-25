@@ -41,7 +41,7 @@ const Hero = () => {
             <div className='sm:mt-8 md:mt-10 mt-5'>
                 <button className='border-[1px] border-white border-opacity-30 shadow-md hover:bg-white hover:bg-opacity-10 text-off-white py-2 px-5 items-center flex flex-row rounded-lg duration-500'>
                   <a className={`${poppins.variable} font-poppins text-sm sm:text-l md:text-xl font-normal hover:text-white duration-400 cursor-pointer`} href="#Contact">
-                    Contact</a><Image src="/email.svg" className="sm:w-[22px] sm:h-[22px] w-[18px] h-[18px] ml-3" width={20} height={20} alt="email"/>
+                    Contact</a><Image src="/email.svg" className="sm:w-[24px] sm:h-[24px] w-[20px] h-[20px] ml-3" width={20} height={20} alt="email"/>
                 </button>
             </div>
           </div>
