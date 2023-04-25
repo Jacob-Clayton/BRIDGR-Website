@@ -31,12 +31,12 @@ export default function Contact() {
         >
 
           <div className='flex flex-col sm:w-1/2 w-full mx-auto text-secondary-white sm:py-2'>
-            <p className={`${styles.descriptionText} font-poppins mx-auto lg:w-3/4 w-full text-center`}>
+            <p className={`${styles.descriptionText} font-poppins mx-auto lg:w-2/3 w-full text-center`}>
               Connect with us via the contact form, send an email or book a video call to talk to us face to face.
             </p>
 
             <div className="mx-auto md:mt-10 sm:mt-8 mt-5">
-              <div className="space-y-4">
+              <div className="sm:space-y-3 space-y-1">
 
                 <p className="flex items-center font-poppins">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="white" className="w-5 h-5 mr-2 sm:mr-6">
@@ -50,7 +50,7 @@ export default function Contact() {
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="white" className="w-5 h-5 mr-2 sm:mr-6">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
                   </svg>
-                  <span>Book a call</span>
+                  <span className='underline'>Book a call</span>
                   </a>
                 </p>
                 
