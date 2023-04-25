@@ -36,7 +36,7 @@ export default function Contact() {
             </p>
 
             <div className="mx-auto md:mt-10 sm:mt-8 mt-5">
-              <div className="space-y-4 text-off-white">
+              <div className="space-y-4">
 
                 <p className="flex items-center font-poppins">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="white" className="w-5 h-5 mr-2 sm:mr-6">
@@ -66,7 +66,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          
+
           <div className='flex sm:w-1/2 w-full mx-auto items-center'>
             <ContactForm />
           </div>
