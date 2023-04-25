@@ -23,7 +23,7 @@ export default function Contact() {
       <div className={`${styles.innerWidth} mx-auto`}>
         <TitleText title={<>Contact</>} textStyles="text-center" />
         <motion.div 
-          className='flex relative sm:flex-row flex-col gap-10 mx-auto sm:mt-10 mt-5'
+          className='flex relative sm:flex-row flex-col mx-auto sm:mt-10 mt-5 sm:gap-0 gap-6'
           variants={fadeIn('up', 'tween', 0.2, 1)}
           initial={isLgScreen ? 'hidden' : 'visible'}
           viewport={{ once: false, amount: 0.01 }}
@@ -31,7 +31,7 @@ export default function Contact() {
         >
 
           <div className='flex flex-col sm:w-1/2 w-full mx-auto text-secondary-white sm:py-2'>
-            <p className={`${styles.descriptionText} font-poppins mx-auto lg:w-2/3 w-full text-center`}>
+            <p className={`${styles.descriptionText} font-poppins mx-auto lg:w-2/3 sm:w-3/4 w-5/6 text-center`}>
               Connect with us via the contact form, send an email or book a video call to talk to us face to face.
             </p>
 
@@ -66,6 +66,8 @@ export default function Contact() {
               </div>
             </div>
           </div>
+
+          <div className='sm:block hidden bg-white bg-opacity-30 rounded-full w-[1px] h-[280px]' />
 
           <div className='flex sm:w-1/2 w-full mx-auto items-center'>
             <ContactForm />
