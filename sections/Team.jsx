@@ -133,7 +133,7 @@ const Team = () => {
 
             <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
               <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
-                <Image alt="team" width={150} height={150} className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/jaye.png"/>
+                <Image alt="team" width={150} height={150} className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/jayefoo.png"/>
                 <div className="flex-grow">
                   <p className="text-off-white title-font font-medium">Jaye Foo</p>
                   <p className="">Founder of Bored Island Group, Parlour Global & Bighaus</p>
