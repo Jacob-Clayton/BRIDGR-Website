@@ -22,7 +22,7 @@ const Hero = () => {
   return (
     <section id="Home" className={` h-screen flex mx-auto text-center ${styles.innerWidth} ${montserrat.variable} font-montserrat`}>
       <div className='flex sm:flex-row flex-col my-auto sm:gap-0 gap-10'>      
-      <div className={`flex-2 flex-col items-center self-center z-20`}>
+      <div className={`w-3/4 flex-col items-center self-center z-20`}>
           <p className={`${styles.heroHeading} sm:text-left text-center 2xl:px-0 sm:px-6 px-0`}>
             Accelerate your Web3 business
           </p>
@@ -47,7 +47,7 @@ const Hero = () => {
           </div>
       </div>
 
-      <div className={`flex-1 mx-auto my-auto`}>
+      <div className={`w-1/4 mx-auto my-auto`}>
         <div className='flex sm:flex-row flex-col'>
         {/* <div className='w-[2px] h-[460px] sm:block hidden rounded-2xl my-auto bg-white bg-opacity-30 mr-12' /> */}
         <div className='w-[350px] h-[1px] block sm:hidden rounded-2xl mx-auto bg-white bg-opacity-30 mb-8 mt-5' />
@@ -65,9 +65,9 @@ const Hero = () => {
             <div className=''>
               <p className={`${poppins.variable} font-poppins flex flex-col font-light 2xl:text-[21px] xl:text-[19px] lg:text-[18px] md:text-[16px] sm:text-[16px] text-[15px] text-center text-secondary-white`}>
                 <span className={`mb-2 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl text-off-white font-semibold`}>
-                  250,000
-                    <span className='ml-1 xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-md align-middle'>
-                      +
+                  250
+                    <span className='ml-1 xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl text-lg align-bottom'>
+                      K
                     </span>
                 </span>
                 Community
