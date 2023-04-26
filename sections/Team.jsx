@@ -49,7 +49,7 @@ const Team = () => {
 
             <div className="flex p-2 xl:w-1/3 lg:w-1/2 w-full">
               <div className="h-full w-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
-                <Image alt="team" width={150} height={150} className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/mark_gray.png"/>
+                <Image alt="team" width={150} height={150} className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/mark.png"/>
                 <div className="flex-grow">
                   <p className="text-off-white title-font font-medium">Mark </p>
                   <p className="">Co-founder</p>
