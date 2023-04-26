@@ -84,11 +84,11 @@ function MobileNav({open, setOpen}) {
           </a> */}
           <div className='w-[160px] sm:w-[200px] h-[1px] bg-white bg-opacity-30 fixed bottom-[16%]'/>
           <div className="flex sm:gap-4 gap-2 fixed bottom-[9%]" id='socials'>
-            <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' alt='twitter'/></a>
-            <a href="https://t.me/bridgr"><img src='/telegram.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' alt='telegram'/></a>
-            <a href="https://discord.com/invite/j2ayV98Dc2"><img src='/discord.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' alt='discord'/></a>
-            <a href="mailto:bridgrxyz@gmail.com"><img src='/email.svg' className='w-[21px] h-[21px] object-contain cursor-pointer' alt='email'/></a>
-            <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' className='w-[20px] h-[20px] object-contain cursor-pointer' alt='linkedin'/></a>
+            <a href="https://twitter.com/bridgrxyz"><Image src='/twitter.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' width={20} height={20} alt='twitter'/></a>
+            <a href="https://t.me/bridgr"><Image src='/telegram.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' width={20} height={20} alt='telegram'/></a>
+            <a href="https://discord.com/invite/j2ayV98Dc2"><Image src='/discord.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' width={20} height={20} alt='discord'/></a>
+            <a href="mailto:bridgrxyz@gmail.com"><Image src='/email.svg' className='w-[21px] h-[21px] object-contain cursor-pointer' width={20} height={20} alt='email'/></a>
+            <a href='https://www.linkedin.com/company/bridgr-xyz' ><Image src='/linkedin.svg' className='w-[20px] h-[20px] object-contain cursor-pointer' width={20} height={20} alt='linkedin'/></a>
           </div>
       </div>  
     </div>
@@ -152,9 +152,9 @@ const Navbar = () => {
                   </ul>
                   <div className='h-9 w-[1px] bg-white bg-opacity-20'/>
                   <div className="flex items-center gap-3">
-                    <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' alt='twitter'/></a>
-                    <a href="https://t.me/bridgr"><img src='/telegram.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' alt='telegram'/></a>
-                    <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' class='w-[17px] h-[17px] object-contain cursor-pointer' alt='linkedin'/></a>
+                    <a href="https://twitter.com/bridgrxyz"><Image src='/twitter.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' width={20} height={20} alt='twitter'/></a>
+                    <a href="https://t.me/bridgr"><Image src='/telegram.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' width={20} height={20} alt='telegram'/></a>
+                    <a href='https://www.linkedin.com/company/bridgr-xyz' ><Image src='/linkedin.svg' class='w-[17px] h-[17px] object-contain cursor-pointer' width={20} height={20} alt='linkedin'/></a>
                   </div>
                 </div>
                 

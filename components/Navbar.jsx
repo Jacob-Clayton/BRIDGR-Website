@@ -84,11 +84,11 @@ function MobileNav({open, setOpen}) {
           </a> */}
           <div className='w-[160px] sm:w-[200px] h-[1px] rounded-xl bg-white bg-opacity-20 fixed bottom-[16%]'/>
           <div className="flex sm:gap-4 gap-3 fixed bottom-[9%] " id='socials'>
-            <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' alt='twitter'/></a>
-            <a href="https://t.me/bridgr"><img src='/telegram.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' alt='telegram'/></a>
-            <a href="https://discord.com/invite/j2ayV98Dc2"><img src='/discord.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' alt='discord'/></a>
-            <a href="mailto:bridgrxyz@gmail.com"><img src='/email.svg' className='w-[21px] h-[21px] object-contain cursor-pointer' alt='email'/></a>
-            <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' className='w-[20px] h-[20px] object-contain cursor-pointer' alt='linkedin'/></a>
+            <a href="https://twitter.com/bridgrxyz"><Image src='/twitter.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' width={20} height={20} alt='twitter'/></a>
+            <a href="https://t.me/bridgr"><Image src='/telegram.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' width={20} height={20} alt='telegram'/></a>
+            <a href="https://discord.com/invite/j2ayV98Dc2"><Image src='/discord.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' width={20} height={20} alt='discord'/></a>
+            <a href="mailto:bridgrxyz@gmail.com"><Image src='/email.svg' className='w-[21px] h-[21px] object-contain cursor-pointer' width={20} height={20} alt='email'/></a>
+            <a href='https://www.linkedin.com/company/bridgr-xyz' ><Image src='/linkedin.svg' className='w-[20px] h-[20px] object-contain cursor-pointer' width={20} height={20} alt='linkedin'/></a>
           </div>
       </div>  
     </div>
@@ -121,40 +121,40 @@ const Navbar = () => {
               
               <div className='flex justify-end'>
                 <div className='lg:flex hidden gap-3'>
-                  <ul className={`${poppins.variable} font-poppins flex gap-4 lg:text-md xl:text-[1.1rem] items-center font-medium text-off-white cursor-pointer`}>
-                      {/* <li className="px-3 hover:text-white hover-underline-animation duration-500">
+                  <ul className={`${poppins.variable} font-poppins flex gap-4 lg:text-md xl:text-[1.1rem] items-center font-normal text-off-white hover:text-white cursor-pointer`}>
+                      {/* <li className="hover-underline-animation duration-500">
                         <Link href="/">Home</Link>
                       </li> */}
-                      {/* <li className="hover:text-white hover-underline-animation duration-500">
+                      {/* <li className=" hover-underline-animation duration-500">
                         <a href="/#About">About</a>
                       </li> */}
-                      <li className="hover:text-white hover-underline-animation duration-500">
+                      <li className="hover-underline-animation duration-500">
                         <a href="/#Team">Team</a>
                       </li>
-                      {/* <li className="hover:text-white hover-underline-animation duration-500">
+                      {/* <li className=" hover-underline-animation duration-500">
                         <a href="/#Story">Story</a>
                       </li> */}
-                      <li className="hover:text-white hover-underline-animation duration-500">
+                      <li className=" hover-underline-animation duration-500">
                         <a href="/#Services">Services</a>
                       </li>
-                      <li className="hover:text-white hover-underline-animation duration-500">
+                      <li className=" hover-underline-animation duration-500">
                         <a href="/#Pricing">Pricing</a>
                       </li>
-                      <li className="hover:text-white hover-underline-animation duration-500">
+                      <li className=" hover-underline-animation duration-500">
                         <a href="/#Events">Events</a>
                       </li>
-                      <li className="hover:text-white hover-underline-animation duration-500">
+                      <li className=" hover-underline-animation duration-500">
                         <a href="/#Contact">Contact</a>
                       </li>
-                      {/* <li className="hover:text-white hover-underline-animation duration-500">
+                      {/* <li className=" hover-underline-animation duration-500">
                         <a href="https://docs.bridgr.xyz" className='flex'>Whitepaper<img src="/external-link.svg" className="sm:w-[10px] sm:h-[10px] w-[9px] h-[9px] ml-[1px]" alt='external link'/></a>
                       </li> */}
                   </ul>
-                  <div className='h-9 w-[1px] bg-white bg-opacity-30'/>
+                  <div className='h-8 w-[1px] bg-white bg-opacity-30'/>
                   <div className="flex items-center gap-3">
-                    <a href="https://twitter.com/bridgrxyz"><img src='/twitter.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' alt='twitter'/></a>
-                    <a href="https://t.me/bridgr"><img src='/telegram.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' alt='telegram'/></a>
-                    <a href='https://www.linkedin.com/company/bridgr-xyz' ><img src='/linkedin.svg' class='w-[17px] h-[17px] object-contain cursor-pointer' alt='linkedin'/></a>
+                    <a href="https://twitter.com/bridgrxyz"><Image src='/twitter.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' width={20} height={20} alt='twitter'/></a>
+                    <a href="https://t.me/bridgr"><Image src='/telegram.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' width={20} height={20} alt='telegram'/></a>
+                    <a href='https://www.linkedin.com/company/bridgr-xyz' ><Image src='/linkedin.svg' class='w-[17px] h-[17px] object-contain cursor-pointer' width={20} height={20} alt='linkedin'/></a>
                   </div>
                 </div>
                 
