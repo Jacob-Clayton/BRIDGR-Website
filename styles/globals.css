@@ -56,7 +56,7 @@
 }
 
 .bg-image {
-  background-image: linear-gradient(to bottom, rgb(55, 156, 224, 0.7), rgb(55, 156, 224, 0.5), rgb(55, 156, 224, 0.4), rgb(55, 156, 224, 0.4), rgb(55, 156, 224)), url('/blueglobe_comp.jpeg');
+  background-image: linear-gradient(to bottom, rgb(55, 156, 224, 0.9), rgb(55, 156, 224, 0.7), rgb(55, 156, 224, 0.6), rgb(55, 156, 224, 0.7), rgb(55, 156, 224)), url('/blueglobe_comp.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
