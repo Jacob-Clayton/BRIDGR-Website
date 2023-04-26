@@ -20,7 +20,7 @@ const Footer = () => {
     
       <div className="footer-gradient opacity-[60%] lg:block hidden" />
       <div className={`${styles.innerWidth} mx-auto flex flex-col`}>
-        <div className="mb-6 mt-0 h-[1px] bg-white opacity-20" />
+        <div className="mb-3 mt-0 h-[1px] bg-white opacity-20" />
         <div className="flex flex-row items-center justify-between">
           <Image 
             src="/bridgrlogo.png" 
@@ -41,10 +41,10 @@ const Footer = () => {
 
           </div>
         </div>
-        <div className='flex mt-1 mb-1 mx-auto'>
+        <div className='flex my-2 justify-center'>
           <Newsletter />     
         </div>
-        <div>
+        <div className='flex flex-row mx-auto mt-2'>
           <p className="font-normal text-[11px] sm:text-[12px] md:text-[12px] lg:text-[14px] text-secondary-white text-center opacity-70">
             © 2023 BRIDGR. All rights reserved.
           </p>

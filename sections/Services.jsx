@@ -35,7 +35,7 @@ const Services = () => {
                     <div className="container xl:mt-20 md:mt-10 mt-5 mx-auto">
                         <div className="flex flex-wrap -m-4">
                         <div className="xl:w-1/3 md:w-1/2 w-full p-4">
-                            <div className="relative border border-white border-opacity-70 p-6 rounded-lg">
+                            <div className="relative border border-white border-opacity-30 p-6 rounded-lg">
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-off-white text-[#379CE0] mb-4">
                                 <img src="/worldwide.svg" alt='visibility' className=' p-[0.35rem] mx-auto'/>
                             </div>
@@ -57,7 +57,7 @@ const Services = () => {
                             </div>
                         </div>
                         <div className="xl:w-1/3 md:w-1/2 w-full p-4">
-                            <div className="relative border border-white border-opacity-70 p-6 rounded-lg">
+                            <div className="relative border border-white border-opacity-30 p-6 rounded-lg">
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-off-white text-[#379CE0] mb-4">
                                 <img src="/construction.svg" alt='business building' className='p-[0.35rem] mx-auto'/>
                             </div>
@@ -79,7 +79,7 @@ const Services = () => {
                             </div>
                         </div>
                         <div className="xl:w-1/3 md:w-1/2 w-full p-4">
-                            <div className="relative border border-white border-opacity-70 p-6 rounded-lg">
+                            <div className="relative border border-white border-opacity-30 p-6 rounded-lg">
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-off-white text-[#379CE0] mb-4">
                                 <svg className="svg-icon p-1" viewBox="0 0 20 20">
                                     <path fill="#379CE0" d="M10.001,9.658c-2.567,0-4.66-2.089-4.66-4.659c0-2.567,2.092-4.657,4.66-4.657s4.657,2.09,4.657,4.657C14.658,7.569,12.569,9.658,10.001,9.658z M10.001,1.8c-1.765,0-3.202,1.437-3.202,3.2c0,1.766,1.437,3.202,3.202,3.202c1.765,0,3.199-1.436,3.199-3.202C13.201,3.236,11.766,1.8,10.001,1.8z"></path>
@@ -105,7 +105,7 @@ const Services = () => {
                             </div>
                         </div>
                         <div className="xl:w-1/3 md:w-1/2 w-full p-4">
-                            <div className="relative border border-white border-opacity-70 p-6 rounded-lg">
+                            <div className="relative border border-white border-opacity-30 p-6 rounded-lg">
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-off-white text-[#379CE0] mb-4">
                                 <img src="/certificate.svg" alt='education' className='p-[0.3rem] mx-auto'/>
                             </div>
@@ -127,7 +127,7 @@ const Services = () => {
                             </div>
                         </div>
                         <div className="xl:w-1/3 md:w-1/2 w-full p-4">
-                            <div className="relative border border-white border-opacity-70 p-6 rounded-lg">
+                            <div className="relative border border-white border-opacity-30 p-6 rounded-lg">
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-off-white text-[#379CE0] mb-4">
                                 <img src="/law.svg" alt='legal services' className='p-1 mx-auto'/>
                             </div>
@@ -150,7 +150,7 @@ const Services = () => {
 
                         </div>
                         <div className="xl:w-1/3 md:w-1/2 w-full p-4">
-                            <div className="relative border border-white border-opacity-70 p-6 rounded-lg">
+                            <div className="relative border border-white border-opacity-30 p-6 rounded-lg">
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-off-white text-[#379CE0] mb-4">
                                 <img src="/computer.svg" alt='consultancy' className='p-[0.3rem]'/>
                             </div>
