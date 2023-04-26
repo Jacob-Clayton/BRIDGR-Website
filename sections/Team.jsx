@@ -51,7 +51,7 @@ const Team = () => {
               <div className="h-full w-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
                 <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/mark_gray.png"/>
                 <div className="flex-grow">
-                  <h2 className="text-off-white title-font font-medium">Mark </h2>
+                  <p className="text-off-white title-font font-medium">Mark </p>
                   <p className="">Co-founder</p>
                 </div>
                 <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
@@ -65,7 +65,7 @@ const Team = () => {
               <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
                 <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/kishor.png"/>
                 <div className="flex-grow">
-                  <h2 className="text-off-white title-font font-medium">Kishor</h2>
+                  <p className="text-off-white title-font font-medium">Kishor</p>
                   <p className="">Director & Co-founder</p>
                 </div>
                 <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
@@ -79,7 +79,7 @@ const Team = () => {
               <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
                 <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/jacob.png"/>
                 <div className="flex-grow">
-                  <h2 className="text-off-white title-font font-medium">Jacob Clayton</h2>
+                  <p className="text-off-white title-font font-medium">Jacob Clayton</p>
                   <p className="">CTO & Co-founder</p>
                 </div>
                 <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
@@ -93,7 +93,7 @@ const Team = () => {
               <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
                 <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/sima.png"/>
                 <div className="flex-grow">
-                  <h2 className="text-off-white title-font font-medium">Sima Baktas</h2>
+                  <p className="text-off-white title-font font-medium">Sima Baktas</p>
                   <p className="">Crypto Laywer & Founder of GlobalB</p>
                 </div>
                 <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
@@ -107,7 +107,7 @@ const Team = () => {
               <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
                 <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="hilal.png"/>
                 <div className="flex-grow">
-                  <h2 className="text-off-white title-font font-medium">Hilal Baktas</h2>
+                  <p className="text-off-white title-font font-medium">Hilal Baktas</p>
                   <p className="">Founder of CryptoFemale & GlobalB</p>
                 </div>
                 <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
@@ -121,7 +121,7 @@ const Team = () => {
               <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
                 <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="henry.png"/>
                 <div className="flex-grow">
-                  <h2 className="text-off-white title-font font-medium">Henry Foo</h2>
+                  <p className="text-off-white title-font font-medium">Henry Foo</p>
                   <p className="">Founder of Ethlas & Web3 Software Engineer</p>
                 </div>
                 <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
@@ -133,9 +133,9 @@ const Team = () => {
 
             <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
               <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
-                <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="Jaye.png"/>
+                <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="jaye.png"/>
                 <div className="flex-grow">
-                  <h2 className="text-off-white title-font font-medium">Jaye Foo</h2>
+                  <p className="text-off-white title-font font-medium">Jaye Foo</p>
                   <p className="">Founder of Bored Island Group, Parlour Global & Bighaus</p>
                 </div>
                 <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
