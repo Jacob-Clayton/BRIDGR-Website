@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
 import { footerVariants } from '../utils/motion';
-import { Newsletter, Button } from '../components';
+import { Newsletter } from '../components';
 
 const Footer = () => {
   const isMdScreen = useMediaQuery({ minWidth: 768 });
