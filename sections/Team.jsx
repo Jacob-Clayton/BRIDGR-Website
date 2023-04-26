@@ -121,8 +121,8 @@ const Team = () => {
               <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
                 <img alt="team" className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="henry.png"/>
                 <div className="flex-grow">
-                  <h2 className="text-off-white title-font font-medium">Henry</h2>
-                  <p className="">Founder of Ethlas Gaming Metaverse</p>
+                  <h2 className="text-off-white title-font font-medium">Henry Foo</h2>
+                  <p className="">Founder of Ethlas & Web3 Software Engineer</p>
                 </div>
                 <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
                   <a href="https://twitter.com/henry_ethlas"><img src="/twitter.svg" className="w-[16px] h-[16px] sm:w-[20px] sm:h-[20px] md:w-[16px] md:h-[16px] lg:w-[17px] lg:h-[17px] xl:w-[18px] xl:h-[18px] object-contain cursor-pointer text-white" alt='twitter'></img></a>

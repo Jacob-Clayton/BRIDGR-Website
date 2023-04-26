@@ -122,31 +122,31 @@ const Navbar = () => {
               <div className='flex justify-end'>
                 <div className='lg:flex hidden gap-3'>
                   <ul className={`${poppins.variable} font-poppins flex gap-4 lg:text-md xl:text-[1.1rem] items-center font-medium text-off-white cursor-pointer`}>
-                      {/* <li className="px-3 hover:text-white duration-500">
+                      {/* <li className="px-3 hover:text-white hover-underline-animation duration-500">
                         <Link href="/">Home</Link>
                       </li> */}
-                      {/* <li className="hover:text-white duration-500">
+                      {/* <li className="hover:text-white hover-underline-animation duration-500">
                         <a href="/#About">About</a>
                       </li> */}
-                      {/* <li className="hover:text-white duration-500">
+                      {/* <li className="hover:text-white hover-underline-animation duration-500">
                         <a href="/#Story">Story</a>
                       </li> */}
-                      <li className="hover:text-white duration-500">
+                      <li className="hover:text-white hover-underline-animation duration-500">
                         <a href="/#Team">Team</a>
                       </li>
-                      <li className="hover:text-white duration-500">
+                      <li className="hover:text-white hover-underline-animation duration-500">
                         <a href="/#Services">Services</a>
                       </li>
-                      <li className="hover:text-white duration-500">
+                      <li className="hover:text-white hover-underline-animation duration-500">
                         <a href="/#Pricing">Pricing</a>
                       </li>
-                      <li className="hover:text-white duration-500">
+                      <li className="hover:text-white hover-underline-animation duration-500">
                         <a href="/#Events">Events</a>
                       </li>
-                      <li className="hover:text-white duration-500">
+                      <li className="hover:text-white hover-underline-animation duration-500">
                         <a href="/#Contact">Contact</a>
                       </li>
-                      {/* <li className="hover:text-white duration-500">
+                      {/* <li className="hover:text-white hover-underline-animation duration-500">
                         <a href="https://docs.bridgr.xyz" className='flex'>Whitepaper<img src="/external-link.svg" className="sm:w-[10px] sm:h-[10px] w-[9px] h-[9px] ml-[1px]" alt='external link'/></a>
                       </li> */}
                   </ul>

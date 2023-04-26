@@ -85,7 +85,7 @@ const PricingTable = () => {
                                         <span className="text-sm font-medium tracking-wide ml-1 text-secondary-white">/ year</span>
                                     </span>
                                 </div>
-                                <p className="leading-relaxed">Register interest before June for 20% off.
+                                <p className="leading-relaxed">Get full access to our partners combined services and communities. Register interest before June for 20% off.
                                     <Link href="https://docs.bridgr.xyz/benefits/for-members" className='font-semibold'> Read more.</Link>
                                 </p>
                                 <ul className="space-y-2">
