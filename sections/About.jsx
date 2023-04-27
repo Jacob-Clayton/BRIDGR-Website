@@ -82,9 +82,9 @@ const About = () => {
             <a className="p-1 col-span-1" href='https://ethlas.com/'>
               <Tooltip message={"Team of 30+ Web3 infrastructure engineers based in Singapore with over 2 million users on their gaming metaverse."}>
               <Image 
-                src='/ethlas.png' 
+                src='/ethlas_white.png' 
                 alt="Ethlas" 
-                className="sm:max-w-[80%]" 
+                className="sm:max-w-[90%]" 
                 style={{opacity:'0.95'}}
                 quality={100}
                 width={1531}
