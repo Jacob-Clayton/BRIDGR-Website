@@ -19,7 +19,7 @@ const Footer = () => {
     >
     
       <div className="footer-gradient opacity-[60%] lg:block hidden" />
-      <div className={`${styles.innerWidth} mx-auto flex flex-col`}>
+      <div className={`${styles.interWidth} mx-auto flex flex-col`}>
     
         <div className='flex sm:flex-row flex-col justify-between items-center mb-4'>
           <div className='space-y-5'>
