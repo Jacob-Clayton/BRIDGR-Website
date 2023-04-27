@@ -63,7 +63,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className='sm:block hidden bg-white bg-opacity-30 rounded-full w-[1px] h-[280px]' />
+          <div className='sm:block hidden bg-white bg-opacity-20 rounded-full w-[1px] h-[280px]' />
 
           <div className='flex sm:w-1/2 w-full mx-auto items-center'>
             <ContactForm />
