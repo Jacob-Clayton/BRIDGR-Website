@@ -68,7 +68,7 @@ const About = () => {
         <TypingText title="Partners" textStyles="text-left sm:px-3 px-2" />
           <div className=' place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
             <a className="p-1 col-span-1" href='https://apegang.art/'>
-              <Tooltip message={"The 10th most sold NFT project, founded in May 2021, they have a team of Web developers, blockchain developers, NFT artists and community experts."}>
+              <Tooltip message={"The 10th most sold NFT project, founded in May 2021. They have a team of Web devs, blockchain devs, NFT artists and community builders."}>
               <Image 
                 src='/apegang.png' 
                 alt="Ape Gang" 
@@ -107,7 +107,7 @@ const About = () => {
               </Tooltip>
             </a>
             <a className="p-1 col-span-1" href='https://www.cryptofemale.org/'>
-              <Tooltip message={"Global women's crypto community empowering women in Web3 and helping them to get into the industry."}>
+              <Tooltip message={"Global women's crypto community empowering women to get into the Web3 industry."}>
               <Image 
                 src='/cryptofemale.png' 
                 alt="Crypto Female" 
@@ -219,7 +219,7 @@ const About = () => {
             </a>
 
             <a className="p-1 col-span-1" href='https://wearelight.house/'>
-              <Tooltip message={"Lighthouse studios Bali. A multi-level podcast & video production complex, creative space, entrepreneur community, cafe, bar and events space."}>
+              <Tooltip message={"Bali based multi-level podcast & video production complex, creative space, entrepreneur community, cafe, bar and events space."}>
                 <Image 
                   src='/lighthouse_com.png' 
                   alt="Lighthouse Studios Bali" 
