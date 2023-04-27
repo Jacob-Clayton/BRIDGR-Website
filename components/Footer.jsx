@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="footer-gradient opacity-[60%] lg:block hidden" />
       <div className={`${styles.innerWidth} mx-auto flex flex-col`}>
     
-        <div className='flex sm:flex-row flex-col justify-between items-center mb-2'>
+        <div className='flex sm:flex-row flex-col justify-between items-center mb-4'>
           <div className='space-y-4'>
             <Image 
               src="/bridgrlogo.png" 
@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className=" mb-3 mt-3 h-[1px] bg-white opacity-20" />
+        <div className=" my-3 h-[1px] bg-white opacity-20" />
 
         <div className="flex flex-row items-center justify-between mx-auto">
             <p className="font-normal text-[11px] sm:text-[12px] md:text-[12px] lg:text-[14px] text-secondary-white text-center opacity-70">

@@ -48,7 +48,7 @@ export default function Newsletter() {
 
             <div className=" container flex flex-col ">
                 <div className="flex flex-col text-left mb-1">
-                    <p className="text-md text-secondary-white">Subscribe for updates.</p>
+                    <p className="text-md text-secondary-white">Subscribe for updates</p>
                 </div>
                 <div className="relative flex flex-row items-center self-center justify-center flex-shrink-0 shadow-md rounded-md">
                     <div className="flex flex-row sm:w-[370px] w-full">
