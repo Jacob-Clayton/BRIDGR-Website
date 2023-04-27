@@ -20,7 +20,7 @@ const poppins = Poppins({
 const Hero = () => {
 
   return (
-    <section id="Home" className={` h-screen flex mx-auto text-center ${styles.innerWidth} ${montserrat.variable} font-montserrat`}>
+    <section id="Home" className={` h-screen flex mx-auto text-center ${styles.interWidth} ${montserrat.variable} font-montserrat`}>
       <div className='flex sm:flex-row flex-col my-auto sm:gap-0 gap-10'>      
       <div className={`sm:w-3/4 w-full flex-col items-center self-center z-20`}>
           <p className={`${styles.heroHeading} sm:text-left text-center 2xl:px-0 sm:px-6 px-0`}>

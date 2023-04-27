@@ -107,8 +107,8 @@ const Navbar = () => {
             whileInView="show"
             className={`${styles.xPaddings} navbar absolute inset-0`}
           />
-          <div className={`fixed top-0 pt-3 pb-2 z-50 w-full backdrop-blur-sm border-white border-b-[1px] border-opacity-10`}>
-            <div className={`${styles.innerWidth} flex mx-auto justify-between`}>
+          <div className={`fixed top-0 pt-4 pb-3 z-50 w-full backdrop-blur-sm border-white border-b-[1px] border-opacity-10`}>
+            <div className={`${styles.interWidth} flex mx-auto justify-between`}>
               <Link href='/'>
                 <Image
                   src="/bridgrlogo.png" 
@@ -150,7 +150,7 @@ const Navbar = () => {
                         <a href="https://docs.bridgr.xyz" className='flex'>Whitepaper<img src="/external-link.svg" className="sm:w-[10px] sm:h-[10px] w-[9px] h-[9px] ml-[1px]" alt='external link'/></a>
                       </li> */}
                   </ul>
-                  <div className='h-8 w-[1px] bg-white bg-opacity-30'/>
+                  <div className='h-9 w-[1px] bg-white bg-opacity-30'/>
                   <div className="flex items-center gap-3">
                     <a href="https://twitter.com/bridgrxyz"><Image src='/twitter.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' width={20} height={20} alt='twitter'/></a>
                     <a href="https://t.me/bridgr"><Image src='/telegram.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' width={20} height={20} alt='telegram'/></a>
@@ -161,7 +161,7 @@ const Navbar = () => {
 
                 <MobileNav open={open} setOpen={setOpen} />
                 <div 
-                  className="flex lg:hidden group z-50 relative mt-1 md:mr-20 sm:mr-10 mr-5 w-6 h-6 cursor-pointer flex-col justify-between" 
+                  className="flex lg:hidden group z-50 relative md:mr-20 w-6 h-6 cursor-pointer flex-col justify-between" 
                   alt="menu"
                   onClick={() => {setOpen(!open)}}
                 >
