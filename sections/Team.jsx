@@ -37,7 +37,10 @@ const Team = () => {
         <div className=" mx-auto text-secondary-white">
           <div className="flex flex-col text-center w-full">
             <motion.p
-              variants={fadeIn('up', 'tween', 0.2, 1)}
+              variants={fadeIn('up', 'tween', 0.05, 1)}
+              initial={isLgScreen ? 'hidden' : 'visible'}
+              whileInView="show"
+              viewport={{ once: false, amount: 0.01 }}
               className={`${poppins.variable} ${styles.descriptionText} font-poppins md:mt-10 mt-5 lg:w-3/4 mx-auto text-center`}
             >
               We are experienced Web3 professionals with capabilities spanning entrepreneurship, 
@@ -45,7 +48,13 @@ const Team = () => {
               blockchain development, marketing and community building.
             </motion.p>
           </div>
-          <div className="flex flex-wrap justify-center -m-2 md:mt-10 mt-5">
+          <motion.div 
+            variants={fadeIn('up', 'tween', 0.05, 1)}
+            initial={isLgScreen ? 'hidden' : 'visible'}
+            whileInView="show"
+            viewport={{ once: false, amount: 0.01 }}
+            className="flex flex-wrap justify-center -m-2 md:mt-10 mt-5"
+          >
 
             <div className="flex p-2 xl:w-1/3 lg:w-1/2 w-full">
               <div className="h-full w-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
@@ -145,7 +154,7 @@ const Team = () => {
               </div>
             </div>
 
-          </div>
+          </motion.div>
         </div>
       </motion.div>
     </section>

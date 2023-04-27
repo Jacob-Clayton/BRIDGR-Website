@@ -5,7 +5,7 @@ import { TypingText, Tooltip } from '../components';
 import Image from 'next/image';
 import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
-import { staggerContainer, footerVariants } from '../utils/motion';
+import { staggerContainer, fadeIn } from '../utils/motion';
 
 
 const About = () => {
@@ -58,10 +58,11 @@ const About = () => {
         </motion.div> */}
         
         <motion.div 
-          variants={footerVariants}
+          variants={fadeIn('up', 'tween', 0.05, 1)}
           initial={isLgScreen ? 'hidden' : 'visible'}
           whileInView="show"
-          className='relative '
+          viewport={{ once: false, amount: 0.01 }}
+          className='relative'
         >
         <div className="mb-6">
         <TypingText title="Partners" textStyles="text-left sm:px-3 px-2" />
@@ -230,8 +231,8 @@ const About = () => {
                 />
               </Tooltip>
             </a>
-
           </div>
+
         </div>
 
         </div>

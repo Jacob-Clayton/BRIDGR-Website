@@ -25,14 +25,14 @@ export default function Contact() {
         <TitleText title={<>Contact</>} textStyles="text-center" />
         <motion.div 
           className='flex relative sm:flex-row flex-col mx-auto sm:mt-10 mt-5 sm:gap-0 gap-6'
-          variants={fadeIn('up', 'tween', 0.2, 1)}
+          variants={fadeIn('up', 'tween', 0.05, 1)}
           initial={isLgScreen ? 'hidden' : 'visible'}
           viewport={{ once: false, amount: 0.01 }}
           whileInView="show"
         >
 
           <div className='flex flex-col sm:w-1/2 w-full mx-auto text-secondary-white sm:py-2'>
-            <p className={`${styles.descriptionText} font-poppins mx-auto md:w-3/4 w-5/6 text-center`}>
+            <p className={`${styles.descriptionText} font-poppins mx-auto lg:w-4/5 md:w-3/4 w-5/6 text-center`}>
               Connect with us via the contact form, send an email or book a video call to talk to us face to face.
             </p>
 
@@ -49,14 +49,14 @@ export default function Contact() {
                 <p className="flex items-center font-poppins">
                   <a href='https://calendly.com/bridgrxyz/30min-call' className='flex items-center'>
                   <Image src='/phone.svg' width={20} height={20} className="w-5 h-5 mr-2 sm:mr-6"/>
-                  <span className='underline'>Book a call</span>
+                  <span className='hover-underline-animation'>Book a call</span>
                   </a>
                 </p>
                 
-                <p className="flex items-center font-poppins">
+                <p className="flex items-center font-poppins ">
                 <a href='mailto:bridgrxyz@gmail.com' className='flex items-center'>
                   <Image src='/email.svg' width={20} height={20} className='w-5 h-5 mr-2 sm:mr-6'/>
-                  <span>bridgrxyz@gmail.com</span>
+                  <span className='hover-underline-animation'>bridgrxyz@gmail.com</span>
                   </a>
                 </p>
               </div>

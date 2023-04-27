@@ -150,7 +150,7 @@ const Navbar = () => {
                         <a href="https://docs.bridgr.xyz" className='flex'>Whitepaper<img src="/external-link.svg" className="sm:w-[10px] sm:h-[10px] w-[9px] h-[9px] ml-[1px]" alt='external link'/></a>
                       </li> */}
                   </ul>
-                  <div className='h-9 w-[1px] bg-white bg-opacity-30'/>
+                  <div className='h-9 w-[1px] bg-white bg-opacity-20'/>
                   <div className="flex items-center gap-3">
                     <a href="https://twitter.com/bridgrxyz"><Image src='/twitter.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' width={20} height={20} alt='twitter'/></a>
                     <a href="https://t.me/bridgr"><Image src='/telegram.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' width={20} height={20} alt='telegram'/></a>

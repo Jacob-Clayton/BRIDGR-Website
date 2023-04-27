@@ -34,7 +34,7 @@ const Events = () => {
       >
         <TitleText title={(<>Web3 Events</>)} textStyles="text-center" />
         <motion.p
-          variants={fadeIn('up', 'tween', 0.2, 1)}
+          variants={fadeIn('up', 'tween', 0.05, 1)}
           initial={isLgScreen ? 'hidden' : 'visible'}
           whileInView="show"
           className={`${styles.descriptionText} ${poppins.variable} font-poppins mx-auto md:mt-10 mt-5 lg:w-3/4 w-full text-center`}

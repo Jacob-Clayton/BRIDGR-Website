@@ -23,7 +23,7 @@ const Services = () => {
             <motion.div 
                 className={`${styles.innerWidth} 2xl:mt-[100px] md:mt-12 sm:mt-10 mt-4 mx-auto`} 
                 id='details'
-                variants={fadeIn('up', 'tween', 0.3, 1)}
+                variants={fadeIn('up', 'tween', 0.05, 1)}
                 initial={isLgScreen ? 'hidden' : 'visible'}
                 whileInView="show"
                 viewport={{ once: false, amount: 0.01 }}
