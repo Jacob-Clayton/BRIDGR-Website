@@ -161,7 +161,7 @@ const Navbar = () => {
 
                 <MobileNav open={open} setOpen={setOpen} />
                 <div 
-                  className="flex lg:hidden group z-50 relative md:mr-20 w-6 h-6 cursor-pointer flex-col justify-between" 
+                  className="flex lg:hidden group z-50 relative w-6 h-6 cursor-pointer flex-col justify-between" 
                   alt="menu"
                   onClick={() => {setOpen(!open)}}
                 >
