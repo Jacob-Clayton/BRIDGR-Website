@@ -22,7 +22,7 @@ const Hero = () => {
   return (
     <section id="Home" className={` h-screen flex mx-auto text-center ${styles.interWidth} ${montserrat.variable} font-montserrat`}>
       <div className='flex sm:flex-row flex-col my-auto sm:gap-0 gap-10'>      
-      <div className={`sm:w-3/4 w-full flex-col items-center self-center z-20`}>
+      <div className={`xl:w-2/3 sm:w-3/4 w-full flex-col items-center self-center z-20`}>
           <p className={`${styles.heroHeading} sm:text-left text-center 2xl:px-0 sm:px-6 px-0`}>
             Accelerate your Web3 business
           </p>
@@ -49,7 +49,7 @@ const Hero = () => {
 
       <div className='w-[320px] h-[1px] block sm:hidden rounded-2xl mx-auto bg-white bg-opacity-30 mb-5 mt-5' />
 
-      <div className={`sm:w-1/4 mx-auto my-auto`}>
+      <div className={`xl:1/3 sm:w-1/4 mx-auto my-auto`}>
         <div className='flex sm:flex-row flex-col justify-end'>
         {/* <div className='w-[2px] h-[460px] sm:block hidden rounded-2xl my-auto bg-white bg-opacity-30 mr-12' /> */}
         
