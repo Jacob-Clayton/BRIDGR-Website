@@ -23,6 +23,7 @@ module.exports = {
         'primary-black': '#18181c',
         'secondary-white': '#c7c7c7',
         'purple' : '#6446A3',
+        'lightblue' :'rgb(55, 156, 224)',
       },
       transitionTimingFunction: {
         'out-flex': 'cubic-bezier(0.05, 0.6, 0.4, 0.9)',
