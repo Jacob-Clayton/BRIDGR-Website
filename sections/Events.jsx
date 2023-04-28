@@ -49,7 +49,7 @@ const Events = () => {
             height={546}
           />
           <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-a-global-events-platform-for-anyone-interested-in-web3-8f78be3aba14' aria-label="Bridgr's web3 social event platform details">
-              <div className='absolute hover:bg-opacity-100 2xl:top-[140px] 2xl:right-[62px] xl:top-[130px] xl:right-[58px] lg:top-[100px] lg:right-[10px] md:top-[110px] md:right-[0px] sm:top-[110px] sm:right-[0px] top-[1px] right-0 bg-cetecean-blue bg-opacity-70 border-[1px] border-white border-opacity-20 shadow-lg hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[200px] md:w-[160px] sm:w-[150px] w-[130px] rounded md:p-4 sm:p-3 p-2'>
+              <div className='absolute hover:bg-opacity-100 2xl:top-[140px] 2xl:right-[75px] xl:top-[130px] xl:right-[58px] lg:top-[100px] lg:right-[10px] md:top-[110px] md:right-[0px] sm:top-[110px] sm:right-[0px] top-[1px] right-0 bg-cetecean-blue bg-opacity-70 border-[1px] border-white border-opacity-20 shadow-lg hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[200px] md:w-[160px] sm:w-[150px] w-[130px] rounded md:p-4 sm:p-3 p-2'>
                 <p className='text-off-white font-bold lg:text-xl md:text-lg md:text-md text-sm'>
                   In Asia:<br/>
                   <span className='font-normal lg:text-lg md:text-md sm:text-sm text-xs'>
@@ -60,7 +60,7 @@ const Events = () => {
           </a>
 
           <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-a-global-events-platform-for-anyone-interested-in-web3-8f78be3aba14' aria-label="Bridgr's web3 social event platform details">
-              <div className='absolute hover:bg-opacity-100 2xl:top-[130px] 2xl:right-[510px] xl:top-[120px] xl:right-[470px] lg:top-[90px] lg:right-[280px] md:top-[0px] md:right-[165px] sm:top-[15px] sm:right-[170px] top-[85px] right-[100px] bg-cetecean-blue bg-opacity-70 border-[1px] border-white border-opacity-20 shadow-lg hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[300px] md:w-[290px] sm:w-[200px] w-[170px] rounded md:p-4 sm:p-3 p-2'>
+              <div className='absolute hover:bg-opacity-100 2xl:top-[130px] 2xl:right-[40%] xl:top-[120px] xl:right-[38%] lg:top-[90px] lg:right-[32%] md:top-[0px] md:right-[30%] sm:top-[15px] sm:right-[30%] top-[85px] right-[26%] bg-cetecean-blue bg-opacity-70 border-[1px] border-white border-opacity-20 shadow-lg hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[300px] md:w-[290px] sm:w-[200px] w-[170px] rounded md:p-4 sm:p-3 p-2'>
                 <p className='text-off-white font-bold lg:text-xl md:text-lg md:text-md text-sm'>
                   In Europe:<br/>
                   <span className='font-normal lg:text-lg md:text-md sm:text-sm text-xs'>
