@@ -13,10 +13,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        rubik: ['var(--font-rubik)', ...fontFamily.sans],
         montserrat: ['var(--font-montserrat)', ...fontFamily.sans],
         poppins: ['var(--font-poppins)', fontFamily.sans],
         urbanist: ['var(--font-urbanist)', fontFamily.sans],
-        jost: ['var(--font-jost)', fontFamily.sans]
+        
       },
       colors: {
         'off-white' : '#fafafa',

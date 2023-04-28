@@ -4,7 +4,7 @@ import { DescriptionText, TitleText, Tooltip } from "../components";
 import styles from "../styles";
 import Link from "next/link";
 import Image from "next/image";
-import { Urbanist, Poppins } from '@next/font/google';
+import { Urbanist } from '@next/font/google';
 
 const urbanist = Urbanist({
 	subsets: ['latin'],
@@ -13,22 +13,14 @@ const urbanist = Urbanist({
 	display: 'swap',
 })
 
-const poppins = Poppins({
-	subsets: ['latin'],
-	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-	variable: '--font-poppins',
-	display: 'swap',
-})
-
-
 export default function MemberHome() {
     return (
 		<section className={``}>
-            <div className={`${styles.interWidth} ${poppins.variable} mx-auto`}>
+            <div className={`${styles.interWidth} mx-auto`}>
 				<div className="flex flex-col mx-auto mt-5 sm:mt-10 md:mt-20">
 					<TitleText title={(<>Member Home</>)} textStyles="text-center" 
                     />
-                    <p className={`sm:mt-8 mt-5 ${poppins.variable} ${styles.descriptionText} font-poppins text-center`}>
+                    <p className={`sm:mt-8 mt-5 ${styles.descriptionText} text-center`}>
                         The BRIDGR business model canvas to help you build and improve your Web3 company.
                     </p>
 				</div>
@@ -36,92 +28,92 @@ export default function MemberHome() {
                     <div className="">
                         <div className="flex lg:flex-row flex-col mx-auto">
                             <div className="flex-1 border-[1px] border-black border-opacity-10 rounded-tl-md px-4 py-3">
-                                <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Key Partners</p>
+                                <p className={`font-medium xl:text-xl md:text-lg text-md mb-2`}>Key Partners</p>
                                 <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
-                                <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah.</p>
+                                <p className="">more text about the header above. blah blah. more text about the header above. blah blah.</p>
                                 <br/>
-                                <p className="font-poppins">How BRIDGR can help:</p>
+                                <p className="">How BRIDGR can help:</p>
                                 <ul className="list-disc list-inside px-1">
-                                    <li className="font-poppins">Ethlas</li>
-                                    <li className="font-poppins">Ape Gang</li>
-                                    <li className="font-poppins">Mad for NFTs</li>
-                                    <li className="font-poppins">Crowd Fund Junction</li>
-                                    <li className="font-poppins">Crypto Female</li>
-                                    <li className="font-poppins">GlobalB Company</li>
-                                    <li className="font-poppins">GlobalB Law</li>
-                                    <li className="font-poppins">The Parlour Global</li>
-                                    <li className="font-poppins">Bighaus</li>
-                                    <li className="font-poppins">Bored Island Group</li>
+                                    <li className="">Ethlas</li>
+                                    <li className="">Ape Gang</li>
+                                    <li className="">Mad for NFTs</li>
+                                    <li className="">Crowd Fund Junction</li>
+                                    <li className="">Crypto Female</li>
+                                    <li className="">GlobalB Company</li>
+                                    <li className="">GlobalB Law</li>
+                                    <li className="">The Parlour Global</li>
+                                    <li className="">Bighaus</li>
+                                    <li className="">Bored Island Group</li>
                                 </ul>
                             </div>
                             <div className="flex flex-col flex-1">
                                 <div className=" border-[1px] border-black border-opacity-10 px-4 py-3">
-                                    <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Key Activites</p>
+                                    <p className={` font-medium xl:text-xl md:text-lg text-md mb-2`}>Key Activites</p>
                                     <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
-                                    <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah.</p>
+                                    <p className="">more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah.</p>
                                     <br/>
-                                    <p className="font-poppins">How BRIDGR can help:</p>
+                                    <p className="">How BRIDGR can help:</p>
                                 </div>
                                 <div className=" border-[1px] border-black border-opacity-10 px-3 py-3">
-                                    <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Key Resources</p>
+                                    <p className={` font-medium xl:text-xl md:text-lg text-md mb-2`}>Key Resources</p>
                                     <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
-                                    <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah.</p>
+                                    <p className="">more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah.</p>
                                     <br/>
-                                    <p className="font-poppins">How BRIDGR can help:</p>
+                                    <p className="">How BRIDGR can help:</p>
                                 </div>
                             </div>
                             <div className="flex-1 border-[1px] border-black border-opacity-10 px-4 py-3">
-                                <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Value Propositions</p>
+                                <p className={` font-medium xl:text-xl md:text-lg text-md mb-2`}>Value Propositions</p>
                                 <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
-                                <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah.</p>
+                                <p className="">more text about the header above. blah blah. more text about the header above. blah blah.</p>
                                 <br/>
-                                <p className="font-poppins">How BRIDGR can help:</p>
+                                <p className="">How BRIDGR can help:</p>
                             </div>
                             <div className="flex flex-1 flex-col">
                                 <div className="border-[1px] border-black border-opacity-10 px-4 py-3">
-                                    <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Customer Relations</p>
+                                    <p className={` font-medium xl:text-xl md:text-lg text-md mb-2`}>Customer Relations</p>
                                     <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
-                                    <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah.</p>
+                                    <p className="">more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah.</p>
                                     <br/>
-                                    <p className="font-poppins">How BRIDGR can help:</p>
+                                    <p className="">How BRIDGR can help:</p>
                                 </div>
                                 <div className="border-[1px] border-black border-opacity-10 px-4 py-3">
-                                    <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Channels</p>
+                                    <p className={` font-medium xl:text-xl md:text-lg text-md mb-2`}>Channels</p>
                                     <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
-                                    <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah.</p>
+                                    <p className="">more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah.</p>
                                     <br/>
-                                    <p className="font-poppins">How BRIDGR can help:</p>
+                                    <p className="">How BRIDGR can help:</p>
                                 </div>
                             </div>
                             <div className="flex-1 border-[1px] border-black border-opacity-10 rounded-tr-md px-4 py-3">
-                                <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Customer Segments</p>
+                                <p className={` font-medium xl:text-xl md:text-lg text-md mb-2`}>Customer Segments</p>
                                 <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
-                                <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah.</p>
+                                <p className="">more text about the header above. blah blah. more text about the header above. blah blah.</p>
                                 <br/>
-                                <p className="font-poppins">How BRIDGR can help:</p>
+                                <p className="">How BRIDGR can help:</p>
                             </div>
                         </div>
                         <div className="flex md:flex-row flex-col mx-auto">
                             <div className="flex-1 border-[1px] border-black border-opacity-10 rounded-bl-md px-4 py-3">
-                                <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Cost Structure</p>
+                                <p className={` font-medium xl:text-xl md:text-lg text-md mb-2`}>Cost Structure</p>
                                 <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
-                                <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah.</p>
+                                <p className="">more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah.</p>
                                 <br/>
-                                <p className="font-poppins">How BRIDGR can help:</p>
+                                <p className="">How BRIDGR can help:</p>
                             </div>
                             <div className="flex-1 border-[1px] border-black border-opacity-10 rounded-br-md px-4 py-3">
-                                <p className={`font-poppins font-medium xl:text-xl md:text-lg text-md mb-2`}>Revenue Streams</p>
+                                <p className={` font-medium xl:text-xl md:text-lg text-md mb-2`}>Revenue Streams</p>
                                 <div className="w-full h-[1px] bg-black bg-opacity-20 mb-2" />
-                                <p className="font-poppins">more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah.</p>
+                                <p className="">more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah. more text about the header above. blah blah.</p>
                                 <br/>
-                                <p className="font-poppins">How BRIDGR can help:</p>
+                                <p className="">How BRIDGR can help:</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div className="mb-20">
-                    <p className={`${styles.descriptionText} ${poppins.variable} sm:mt-20 mt-10 font-poppins text-center`}>
+                    <p className={`${styles.descriptionText} sm:mt-20 mt-10 text-center`}>
                         To help you build your Web3 business we have a team of partners who cover a wide range of expertise to help you.
                         If you would like to access their combined services and combined community of 250,000+ please apply to become a member of BRIDGR.
                     </p>

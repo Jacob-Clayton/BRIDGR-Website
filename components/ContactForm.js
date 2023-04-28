@@ -3,14 +3,6 @@ import axios from 'axios';
 import { useForm } from "react-hook-form";
 import LoadingSpinner from './LoadingSpinner'
 import { ErrorMessage, SuccessMessage } from './Message'
-import { Poppins } from '@next/font/google';
-
-const poppins = Poppins({
-	subsets: ['latin'],
-	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-	variable: '--font-poppins',
-	display: 'swap',
-})
 
 export default function ContactForm() {
     const {
@@ -40,7 +32,7 @@ export default function ContactForm() {
 		}
 
 	return (
-		<form className={`${poppins.variable} gap-2 font-poppins sm:w-3/4 w-full mx-auto flex flex-col`} onSubmit={handleSubmit(onSubmit)}>
+		<form className={`gap-2 sm:w-3/4 w-full mx-auto flex flex-col`} onSubmit={handleSubmit(onSubmit)}>
 			<input
 				{...register("name")}
 				id='name'

@@ -19,7 +19,7 @@ const Services = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
 
     return(
-        <section className={`${styles.paddings} ${poppins.variable} font-poppins`} id="Services">
+        <section className={`${styles.paddings}`} id="Services">
             <motion.div 
                 className={`${styles.innerWidth} 2xl:mt-[100px] md:mt-12 sm:mt-10 mt-4 mx-auto`} 
                 id='details'
@@ -31,7 +31,7 @@ const Services = () => {
                 <TitleText title={<>Services</>}textStyles="text-center" />
 
 
-                <section className={`text-secondary-white ${poppins.variable} font-poppins`}>
+                <section className={`text-secondary-white`}>
                     <div className="container xl:mt-20 md:mt-10 mt-5 mx-auto">
                         <div className="flex flex-wrap -m-4">
                         <div className="xl:w-1/3 md:w-1/2 w-full p-4">
@@ -39,8 +39,8 @@ const Services = () => {
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-off-white text-[#379CE0] mb-4">
                                 <img src="/worldwide.svg" alt='visibility' className=' p-[0.35rem] mx-auto'/>
                             </div>
-                            <p className="text-xl text-off-white title-font mb-2 font-poppins">Visibility</p>
-                            <ul className='list-disc list-inside leading-relaxed text-lg font-poppins'>
+                            <p className="text-2xl text-off-white title-font mb-2 ">Visibility</p>
+                            <ul className='list-disc list-inside leading-relaxed text-lg '>
                                 <li>Global events exposure</li>
                                 <li>Community of 250,000+</li>
                                 <li>Media Packages</li>
@@ -61,8 +61,8 @@ const Services = () => {
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-off-white text-[#379CE0] mb-4">
                                 <img src="/construction.svg" alt='business building' className='p-[0.35rem] mx-auto'/>
                             </div>
-                            <p className="text-xl text-off-white title-font mb-2 font-poppins">Business Building</p>
-                            <ul className='list-disc list-inside leading-relaxed text-lg font-poppins'>
+                            <p className="text-2xl text-off-white title-font mb-2">Business Building</p>
+                            <ul className='list-disc list-inside leading-relaxed text-lg'>
                                 <li>Focus groups</li>
                                 <li>New revenue streams</li>
                                 <li>Entrepreneurship</li>
@@ -87,8 +87,8 @@ const Services = () => {
                                     <path fill="#379CE0" d="M9.939,19.658c0,0-0.003,0-0.006,0c-0.347-0.003-0.646-0.253-0.709-0.596L7.462,9.567C7.389,9.172,7.65,8.79,8.046,8.718C8.442,8.643,8.82,8.906,8.894,9.301l1.076,5.796l1.158-5.741c0.08-0.394,0.461-0.655,0.86-0.569c0.396,0.08,0.649,0.464,0.569,0.859l-1.904,9.427C10.585,19.413,10.286,19.658,9.939,19.658z"></path>
                                 </svg>                            
                             </div>
-                            <p className="text-xl text-off-white title-font mb-2 font-poppins">Access Investors</p>
-                            <ul className='list-disc list-inside leading-relaxed text-lg font-poppins'>
+                            <p className="text-2xl text-off-white title-font mb-2">Access Investors</p>
+                            <ul className='list-disc list-inside leading-relaxed text-lg'>
                                 <li>Access our VCs</li>
                                 <li>Pitch deck building</li>
                                 <li>Pitch to investors</li>
@@ -109,8 +109,8 @@ const Services = () => {
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-off-white text-[#379CE0] mb-4">
                                 <img src="/certificate.svg" alt='education' className='p-[0.3rem] mx-auto'/>
                             </div>
-                            <p className="text-xl text-off-white title-font mb-2 font-poppins">Web3 Education</p>
-                            <ul className='list-disc list-inside leading-relaxed text-lg font-poppins'>
+                            <p className="text-2xl text-off-white title-font mb-2">Web3 Education</p>
+                            <ul className='list-disc list-inside leading-relaxed text-lg'>
                                 <li>Training Certificates</li>
                                 <li>Workships</li>
                                 <li>Seminars</li>
@@ -131,8 +131,8 @@ const Services = () => {
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-off-white text-[#379CE0] mb-4">
                                 <img src="/law.svg" alt='legal services' className='p-1 mx-auto'/>
                             </div>
-                            <p className="text-xl text-off-white title-font mb-2 font-poppins">Web3 Legal Services</p>
-                            <ul className='list-disc list-inside leading-relaxed text-lg font-poppins'>
+                            <p className="text-2xl text-off-white title-font mb-2">Web3 Legal Services</p>
+                            <ul className='list-disc list-inside leading-relaxed text-lg'>
                                 <li>Corporate law</li>
                                 <li>Blockchain adoption</li>
                                 <li>IP law</li>
@@ -154,8 +154,8 @@ const Services = () => {
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-off-white text-[#379CE0] mb-4">
                                 <img src="/computer.svg" alt='consultancy' className='p-[0.3rem]'/>
                             </div>
-                            <p className="text-xl text-off-white title-font mb-2 font-poppins">Web3 Consultancy</p>
-                            <ul className='text-lg list-disc list-inside leading-relaxed font-poppins'>
+                            <p className="text-2xl text-off-white title-font mb-2">Web3 Consultancy</p>
+                            <ul className='text-lg list-disc list-inside leading-relaxed'>
                                 <li>Web3 website integration</li>
                                 <li>Smart contract builds</li>
                                 <li>Smart contract audits</li>

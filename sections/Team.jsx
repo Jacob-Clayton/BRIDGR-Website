@@ -6,14 +6,6 @@ import styles from '../styles';
 import { staggerContainer, fadeIn } from '../utils/motion';
 import { TitleText } from '../components';
 import { useMediaQuery } from 'react-responsive';
-import { Poppins } from '@next/font/google';
-
-const poppins = Poppins({
-	subsets: ['latin'],
-	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-	variable: '--font-poppins',
-  display: 'swap',
-})
 
 const Team = () => {
   const isLgScreen = useMediaQuery({ minWidth: 1024 });
@@ -41,7 +33,7 @@ const Team = () => {
               initial={isLgScreen ? 'hidden' : 'visible'}
               whileInView="show"
               viewport={{ once: false, amount: 0.01 }}
-              className={`${poppins.variable} ${styles.descriptionText} font-poppins md:mt-10 mt-5 lg:w-3/4 mx-auto text-center`}
+              className={`${styles.descriptionText} md:mt-10 mt-5 lg:w-3/4 mx-auto text-center`}
             >
               We are experienced Web3 professionals with capabilities spanning entrepreneurship, 
               fundraising, full stack development, web design, game design, metaverse engineering, crypto law,

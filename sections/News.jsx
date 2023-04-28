@@ -3,14 +3,6 @@
 import styles from '../styles';
 import { TitleText } from '../components';
 import Image from 'next/image';
-import { Poppins } from '@next/font/google';
-
-const poppins = Poppins({
-	subsets: ['latin'],
-	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-	variable: '--font-poppins',
-    display: 'swap',
-})
 
 const News = () => {
     return (
@@ -37,7 +29,7 @@ const News = () => {
                                     <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
                                         NFT NYC </p>
                                 </a>
-                                <p className={`${styles.descriptionText} ${poppins.variable} font-poppins mt-2`}>
+                                <p className={`${styles.descriptionText} mt-2`}>
                                     We hosted a sold out NFT.NYC after party with the worlds first CryptoPunk band, live DJ and NFT prizes on 
                                     Apr 12th 2023.</p>
                             </div>
@@ -65,7 +57,7 @@ const News = () => {
                                 <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
                                     Istanbul Keynote Panel</p>
                             </a>
-                                <p className={`${styles.descriptionText} ${poppins.variable} font-poppins mt-2`}>
+                                <p className={`${styles.descriptionText} mt-2`}>
                                     How Web3 technologies can be implemented during situations like the February earthquake, with networking afterwards on 
                                     Apr 1st 2023.</p>
                             </div>
@@ -92,7 +84,7 @@ const News = () => {
                                     <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
                                         Beachside in Bali </p>
                                 </a>
-                                <p className={`${styles.descriptionText} ${poppins.variable} font-poppins mt-2`}>
+                                <p className={`${styles.descriptionText} mt-2`}>
                                     We hit the tropics for a red carpet event at the Lighthouse Studios with EDNS and Off-Chain on 
                                     Feb 24th 2023.</p>
                             </div>
@@ -120,7 +112,7 @@ const News = () => {
                                     <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
                                         Singapore Social</p>
                                 </a>
-                                <p className={`${styles.descriptionText} ${poppins.variable} font-poppins mt-2`}>
+                                <p className={`${styles.descriptionText} mt-2`}>
                                     Singapore's first NFT bar, The Parlour Singapore, hosted another fantastic sold out 'WEB3 SOCIAL' on 
                                     Feb 3rd 2023.</p>
                             </div>
@@ -147,7 +139,7 @@ const News = () => {
                                     <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
                                         Istanbul Blockchain Week</p>
                                 </a>
-                                <p className={`${styles.descriptionText} ${poppins.variable} font-poppins mt-2`}>
+                                <p className={`${styles.descriptionText} mt-2`}>
                                     BRIDGR hosted the official Istanbul Blockchain Week afterparty at our friend's bar YouPlace, on 
                                     Nov 14th 2022.</p>
                             </div>

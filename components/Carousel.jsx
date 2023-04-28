@@ -5,14 +5,6 @@ import { fadeIn, staggerContainer } from "../utils/motion";
 import Image from "next/image";
 import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
-import { Poppins } from '@next/font/google';
-
-const poppins = Poppins({
-	subsets: ['latin'],
-	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-	variable: '--font-poppins',
-    display: 'swap',
-})
 
 const CarouselElement = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
@@ -46,7 +38,7 @@ const CarouselElement = () => {
                     </p>
                 </div>
 
-                <p className={`${styles.descriptionText} ${poppins.variable} font-poppins sm:mt-6 mt-4`}>
+                <p className={`${styles.descriptionText} sm:mt-6 mt-4`}>
                     "We've witnessed good people losing time and resources to shady players. 
                     That's why we created BRIDGR, a network of trustworthy Web3 companies 
                     working together to provide a more authentic and cooperative Web3 platform."
@@ -81,7 +73,7 @@ const CarouselElement = () => {
                     </p>
                 </div>
 
-                <p className={`${styles.descriptionText} ${poppins.variable} font-poppins sm:mt-6 mt-4`}>
+                <p className={`${styles.descriptionText} sm:mt-6 mt-4`}>
                     “Community is everything in Web3, it's also a huge struggle for companies joining. BRIDGR helps solve this by 
                     providing immediate access to a worldwide Web3 community ontop of a full suite of technical services.”
                 </p>
@@ -116,7 +108,7 @@ const CarouselElement = () => {
                     </p>
                 </div>
 
-            <p className={`${styles.descriptionText} ${poppins.variable} font-poppins sm:mt-6 mt-4`}>
+            <p className={`${styles.descriptionText} sm:mt-6 mt-4`}>
                 "Working as a collective like BRIDGR fosters a culture of transparency and shared decision-making.
                 It empowers everyone to work as one in shaping the direction of the company and the companies 
                 we help build."

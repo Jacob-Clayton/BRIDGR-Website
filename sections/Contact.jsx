@@ -4,23 +4,14 @@ import { TitleText, ContactForm } from '../components';
 import styles from '../styles';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../utils/motion';
-import { Poppins } from '@next/font/google';
 import { useMediaQuery } from 'react-responsive';
 import Image from 'next/image';
-
-const poppins = Poppins({
-	subsets: ['latin'],
-	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-	variable: '--font-poppins',
-	display: 'swap',
-})
-
 
 export default function Contact() {  
   const isLgScreen = useMediaQuery({ minWidth: 1024 });
   
   return (
-    <section className={`${styles.paddings} ${poppins.variable} relative z-10`} id='Contact'>
+    <section className={`${styles.paddings} relative z-10`} id='Contact'>
       <div className={`${styles.innerWidth} mx-auto`}>
         <TitleText title={<>Contact</>} textStyles="text-center" />
         <motion.div 
@@ -32,28 +23,28 @@ export default function Contact() {
         >
 
           <div className='flex flex-col sm:w-1/2 w-full mx-auto text-secondary-white sm:py-2'>
-            <p className={`${styles.descriptionText} font-poppins mx-auto lg:w-4/5 md:w-3/4 w-5/6 text-center`}>
+            <p className={`${styles.descriptionText} mx-auto lg:w-4/5 md:w-3/4 w-5/6 text-center`}>
               Connect with us via the contact form, send an email or book a video call to talk to us face to face.
             </p>
 
             <div className="mx-auto md:mt-10 sm:mt-8 mt-5">
               <div className="sm:space-y-3 space-y-1">
 
-                <p className="flex items-center font-poppins">
+                <p className="flex items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="white" className="w-5 h-5 mr-2 sm:mr-6">
                     <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd"></path>
                   </svg>
                   <span>Singapore & UK</span>
                 </p>
                 
-                <p className="flex items-center font-poppins">
+                <p className="flex items-center">
                   <a href='https://calendly.com/bridgrxyz/30min-call' className='flex items-center'>
                   <Image src='/phone.svg' width={20} height={20} className="w-5 h-5 mr-2 sm:mr-6"/>
                   <span className='hover-underline-animation'>Book a call</span>
                   </a>
                 </p>
                 
-                <p className="flex items-center font-poppins ">
+                <p className="flex items-center ">
                 <a href='mailto:bridgrxyz@gmail.com' className='flex items-center'>
                   <Image src='/email.svg' width={20} height={20} className='w-5 h-5 mr-2 sm:mr-6'/>
                   <span className='hover-underline-animation'>bridgrxyz@gmail.com</span>

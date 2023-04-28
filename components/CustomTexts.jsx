@@ -7,7 +7,7 @@ import { useMediaQuery } from 'react-responsive';
 export const TypingText = ({ title, textStyles }) => (
   <motion.p
     variants={textContainer}
-    className={`font-normal text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[14px] text-secondary-white ${textStyles}`}
+    className={`font-normal text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px] 2xl:text-[15px] text-secondary-white ${textStyles}`}
   >
     {Array.from(title).map((letter, index) => (
       <motion.span variants={textVariant2} key={index}>
@@ -25,7 +25,7 @@ export const TitleText = ({ title, textStyles }) => {
     variants={textVariant2}
     initial={isLgScreen ? 'hidden' : 'visible'}
     whileInView="show"
-    className={`font-[700] md:text-[48px] sm:text-[45px] text-[35px] text-[#fafafa] ${textStyles}`}
+    className={`font-[600] md:text-[48px] sm:text-[45px] text-[35px] text-[#fafafa] ${textStyles}`}
   >
     {title}
   </motion.h2>

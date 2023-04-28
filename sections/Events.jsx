@@ -6,14 +6,6 @@ import styles from '../styles';
 import { TitleText } from '../components';
 import { fadeIn, staggerContainer } from '../utils/motion';
 import { useMediaQuery } from 'react-responsive';
-import { Poppins } from '@next/font/google';
-
-const poppins = Poppins({
-	subsets: ['latin'],
-	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-	variable: '--font-poppins',
-    display: 'swap',
-})
 
 const Events = () => {
   const isLgScreen = useMediaQuery({ minWidth: 1024 });
@@ -37,7 +29,7 @@ const Events = () => {
           variants={fadeIn('up', 'tween', 0.05, 1)}
           initial={isLgScreen ? 'hidden' : 'visible'}
           whileInView="show"
-          className={`${styles.descriptionText} ${poppins.variable} font-poppins mx-auto md:mt-10 mt-5 lg:w-3/4 w-full text-center`}
+          className={`${styles.descriptionText} mx-auto md:mt-10 mt-5 lg:w-3/4 w-full text-center`}
         >
           Recieve worldwide exposure at our 'WEB3 SOCIAL' events. 
           Your company will be given a professional speech, promotional graphics on screens around the event, plus video and images for your own use.

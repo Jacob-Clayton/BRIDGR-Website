@@ -1,17 +1,7 @@
 import { motion } from 'framer-motion';
 import { useMediaQuery } from 'react-responsive';
 import { fadeIn } from '../utils/motion';
-import { Poppins } from "@next/font/google";
-import InfoTip from './InfoTip';
 import Link from 'next/link';
-
-const poppins = Poppins({
-	subsets: ['latin'],
-	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-	variable: '--font-poppins',
-    display: 'swap',
-})
-
 
 const PricingTable = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
@@ -23,7 +13,7 @@ const PricingTable = () => {
                     variants={fadeIn('up', 'tween', 0.05, 1)}
                     initial={isLgScreen ? 'hidden' : 'visible'}
                     whileInView="show"
-                    className={` ${poppins.variable} mx-auto`}
+                    className={` mx-auto`}
                 >
                     <div className="flex flex-wrap items-stretch -mx-4">
 

@@ -7,13 +7,11 @@ import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
 import { staggerContainer, fadeIn } from '../utils/motion';
 
-
 const About = () => {
   const isLgScreen = useMediaQuery({ minWidth: 1024 });
 
   return (
     <section className={`${styles.paddings} relative z-10`} id="About" >
-      {/* <div className="gradient-02 overflow-visible z-0 lg:block hidden" /> */}
       <motion.div
         variants={staggerContainer}
         initial={isLgScreen ? 'hidden' : 'visible'}

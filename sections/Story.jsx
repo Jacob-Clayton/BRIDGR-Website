@@ -5,14 +5,6 @@ import { TitleText, CarouselElement } from '../components';
 import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
-import { Poppins } from '@next/font/google';
-
-const poppins = Poppins({
-	subsets: ['latin'],
-	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-	variable: '--font-poppins',
-    display: 'swap',
-})
 
 const Story = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
@@ -31,7 +23,7 @@ const Story = () => {
 
                 <motion.p
                     variants={fadeIn('up', 'tween', 0.2, 1)}
-                    className={`${poppins.variable} ${styles.descriptionText}  font-poppins md:mt-10 mt-5 lg:w-3/4 mx-auto text-center`}
+                    className={`${styles.descriptionText} md:mt-10 mt-5 lg:w-3/4 mx-auto text-center`}
                 >
                     Our founders love Web3 and the possibilities it brings. 
                     Unfortunately, we've witnessed good people losing time and resources to shady players. 

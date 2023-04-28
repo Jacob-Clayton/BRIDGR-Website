@@ -4,20 +4,11 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
-import { Button } from '../components'
-import { Poppins } from '@next/font/google';
-
-const poppins = Poppins({
-	subsets: ['latin'],
-	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-	variable: '--font-poppins',
-  display: 'swap',
-})
 
 function MobileNav({open, setOpen}) {
   return (   
     <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[50%] bg-primary-lightBlue rounded-tl-[35px] rounded-bl-[35px] border-l-[1px] border-white border-opacity-20 transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter `}>
-      <div className={`${poppins.variable} font-poppins text-off-white gap-5 z-100 flex flex-col items-center mt-[20%] sm:mt-[22%] md:mt-[20%] lg:mt-[25%] font-normal`}>
+      <div className={` text-off-white gap-5 z-100 flex flex-col items-center mt-[20%] sm:mt-[22%] md:mt-[20%] lg:mt-[25%] font-normal`}>
 
           <Link 
             className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
@@ -118,7 +109,7 @@ const Navbar = () => {
               
               <div className='flex items-center'>
                 <div className='lg:flex hidden h-full gap-4'>
-                  <ul className={`${poppins.variable} font-poppins flex gap-4 lg:text-md xl:text-[1.1rem] items-center font-normal text-off-white hover:text-white cursor-pointer`}>
+                  <ul className={`flex gap-4 md:text-md xl:text-lg items-center font-normal text-off-white hover:text-white cursor-pointer`}>
                       {/* <li className="hover-underline-animation duration-500">
                         <Link href="/">Home</Link>
                       </li> */}
