@@ -23,7 +23,9 @@ module.exports = {
         'off-white' : '#fafafa',
         'primary-black': '#18181c',
         'secondary-white': '#c7c7c7',
-        'purple' : '#6446A3',
+        'cetecean-blue' : '#170C4D',
+        'violet' : '#8769EB',
+        'lavender' : '#B395F5',
         'lightblue' :'rgb(55, 156, 224)',
       },
       transitionTimingFunction: {

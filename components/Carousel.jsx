@@ -15,7 +15,7 @@ const CarouselElement = () => {
         initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.01 }}
-        className={`mx-auto md:mt-10 mt-8`}
+        className={`mx-auto md:mt-10 mt-8 text-off-white`}
     >
         <Carousel 
             showThumbs={false}
@@ -27,18 +27,18 @@ const CarouselElement = () => {
         <motion.div className="mx-auto flex lg:flex-row flex-col gap-6">
             <motion.div
                 variants={fadeIn('right', 'tween', 0.2, 1)}
-                className="flex-[0.5] xl:max-w-[370px] lg:max-w-[320px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-lg border-[1px] border-white border-opacity-[30%] text-left relative"
+                className="flex-[0.5] xl:max-w-[370px] lg:max-w-[320px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded border-[1px] border-white border-opacity-20 text-left relative"
             >
                 <div>
-                    <p className="font-normal sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
+                    <p className="font-bold sm:text-[32px] text-[26px]">
                         Mark
                     </p>
-                    <p className="mt-[8px] font-light sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
+                    <p className={`${styles.descriptionText}`}>
                         Co-founder
                     </p>
                 </div>
 
-                <p className={`${styles.descriptionText} sm:mt-6 mt-4`}>
+                <p className={`${styles.descriptionText} sm:mt-4 mt-2`}>
                     "We've witnessed good people losing time and resources to shady players. 
                     That's why we created BRIDGR, a network of trustworthy Web3 companies 
                     working together to provide a more authentic and cooperative Web3 platform."
@@ -52,7 +52,7 @@ const CarouselElement = () => {
             <Image
                 src="/mark_talk.jpg"
                 alt="mark talking"
-                className="w-full lg:block hidden xl:h-[480px] lg:h-[440px] md:h-[400px] sm:h-[400px] h-[320px] min-h-[210px] object-cover rounded-lg"
+                className="w-full lg:block hidden xl:h-[480px] lg:h-[440px] md:h-[400px] sm:h-[400px] h-[320px] min-h-[210px] object-cover rounded"
                 width={900}
                 height={700}
             />
@@ -62,14 +62,14 @@ const CarouselElement = () => {
         <motion.div className="mx-auto flex lg:flex-row flex-col gap-6">
             <motion.div
                 variants={fadeIn('right', 'tween', 0.2, 1)}
-                className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-lg border-[1px] border-[#ffffff] border-opacity-[30%] text-left relative"
+                className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded border-[1px] border-white border-opacity-20 text-left relative"
             >
                 <div>
-                    <p className="font-normal sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
+                    <p className="font-bold sm:text-[32px] text-[26px]">
                         Kishor
                     </p>
-                    <p className="mt-[8px] font-light sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-                        Director & Co-founder
+                    <p className={`${styles.descriptionText}`}>
+                        Co-founder
                     </p>
                 </div>
 
@@ -86,7 +86,7 @@ const CarouselElement = () => {
                 <Image
                     src="/kishor-talk.jpeg"
                     alt="kishor talking"
-                    className="w-full lg:block hidden xl:h-[480px] lg:h-[440px] md:h-[400px] sm:h-[400px] h-[320px] min-h-[210px] object-cover rounded-lg"
+                    className="w-full lg:block hidden xl:h-[480px] lg:h-[440px] md:h-[400px] sm:h-[400px] h-[320px] min-h-[210px] object-cover rounded"
                     width={910}
                     height={710}
                     quality={95}
@@ -97,14 +97,14 @@ const CarouselElement = () => {
         <motion.div className="mx-auto flex lg:flex-row flex-col gap-6">
             <motion.div
                 variants={fadeIn('right', 'tween', 0.2, 1)}
-                className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-lg border-[1px] border-[#ffffff] border-opacity-[30%] text-left relative"
+                className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded border-[1px] border-white border-opacity-20 text-left relative"
             >
                 <div>
-                    <h4 className="font-normal sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
+                    <h4 className="font-bold sm:text-[32px] text-[26px]">
                         Jacob
                     </h4>
-                    <p className="mt-[8px] font-light sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-                        CTO & Co-founder
+                    <p className={`${styles.descriptionText}`}>
+                        Co-founder
                     </p>
                 </div>
 
@@ -122,7 +122,7 @@ const CarouselElement = () => {
                 <Image
                     src="/jacob_talk.jpg"
                     alt="Jacob Talking"
-                    className="w-full lg:block hidden xl:h-[480px] lg:h-[440px] md:h-[400px] sm:h-[400px] h-[320px] min-h-[210px] object-cover rounded-lg"
+                    className="w-full lg:block hidden xl:h-[480px] lg:h-[440px] md:h-[400px] sm:h-[400px] h-[320px] min-h-[210px] object-cover rounded"
                     width={910}
                     height={710}
                     quality={95}

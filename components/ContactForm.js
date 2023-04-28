@@ -41,7 +41,7 @@ export default function ContactForm() {
 				placeholder='Name'
 				type='text'
 				required
-				className='input px-2 py-1 bg-off-white rounded-md font-normal '
+				className='input px-2 py-1 bg-off-white rounded font-regular '
 			/>
 			<input
 				{...register("email")}
@@ -51,7 +51,7 @@ export default function ContactForm() {
 				placeholder='Email'
 				type='email'
 				required
-				className='input px-2 py-1 bg-off-white rounded-md font-normal'
+				className='input px-2 py-1 bg-off-white rounded font-regular'
 			/>
 			<input
 				{...register("subject")}
@@ -61,7 +61,7 @@ export default function ContactForm() {
 				placeholder='Subject'
 				type='text'
 				required
-				className='input px-2 py-1 bg-off-white rounded-md font-normal '
+				className='input px-2 py-1 bg-off-white rounded font-regular '
 			/>
 			<textarea
 				{...register("message")}
@@ -72,12 +72,12 @@ export default function ContactForm() {
 				type='text'
 				rows='5'
 				required
-				className='input px-2 py-1 bg-off-white rounded-md font-normal'
+				className='input px-2 py-1 bg-off-white rounded font-regular'
 			/>
 			<div className='flex flex-col items-center'>
                 <button 
 					role="button" 
-					className=" mt-2 border-[1px] flex mx-auto border-white border-opacity-30 shadow-md hover:shadow-lg hover:bg-white hover:bg-opacity-10 text-off-white px-4 py-1 rounded-md font-normal lg:text-lg md:text-md text-sm hover:text-white duration-500 cursor-pointer "
+					className="flex mx-auto bg-violet text-off-white px-5 py-1 rounded font-regular lg:text-lg md:text-md text-sm cursor-pointer "
 				>
 					{isSubmitting ? "Submitting" : "Send"}
 				</button>

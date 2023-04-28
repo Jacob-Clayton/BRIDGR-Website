@@ -46,9 +46,9 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className=" my-3 h-[1px] bg-white opacity-20" />
+        <div className="my-3 h-[1px] w-full bg-white opacity-20" />
 
-        <div className="flex flex-row items-center justify-between mx-auto">
+        <div className="flex mx-auto mt-3">
             <p className="font-normal text-[11px] sm:text-[12px] md:text-[12px] lg:text-[14px] text-secondary-white text-center opacity-80">
               © 2023 BRIDGR. All rights reserved.
             </p>

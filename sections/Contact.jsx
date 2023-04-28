@@ -22,7 +22,7 @@ export default function Contact() {
           whileInView="show"
         >
 
-          <div className='flex flex-col sm:w-1/2 w-full mx-auto text-secondary-white sm:py-2'>
+          <div className='flex flex-col sm:w-1/2 w-full mx-auto text-off-white sm:py-2'>
             <p className={`${styles.descriptionText} mx-auto lg:w-4/5 md:w-3/4 w-5/6 text-center`}>
               Connect with us via the contact form, send an email or book a video call to talk to us face to face.
             </p>

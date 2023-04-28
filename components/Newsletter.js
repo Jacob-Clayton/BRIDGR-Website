@@ -3,14 +3,6 @@ import axios from "axios";
 import { useForm } from "react-hook-form";
 import LoadingSpinner from './LoadingSpinner'
 import { ErrorMessage, SuccessMessage } from './Message'
-import { Poppins } from '@next/font/google';
-
-const poppins = Poppins({
-	subsets: ['latin'],
-	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-	variable: '--font-poppins',
-	display: 'swap',
-})
 
 export default function Newsletter() {
     const {
@@ -43,17 +35,17 @@ export default function Newsletter() {
 
     return (
         <form onSubmit={handleSubmit(onSubmit)} className={``}>
-            <div className={`${poppins.variable} font-poppins flex flex-row`}>
+            <div className={`flex flex-row`}>
 
 
             <div className="flex flex-col mx-auto">
                 <div className="sm:text-left text-center mb-1">
-                    <p className="text-md text-secondary-white">Subscribe for updates</p>
+                    <p className="text-md text-off-white">Subscribe for updates</p>
                 </div>
                 <div className="relative flex flex-row flex-shrink-0 shadow rounded-md">
                     <div className="flex flex-row sm:w-[370px] w-full">
-                        <input {...register("email")} required aria-required={true} type='email' placeholder="example@email.com" className="w-4/6 px-3 py-1 rounded-l-md sm:w-2/3"/>
-                        <button role="button" className="w-2/6 px-3 py-1 font-normal lg:text-lg md:text-md text-sm rounded-r-md sm:w-1/3 border border-white border-opacity-30 text-off-white">
+                        <input {...register("email")} required aria-required={true} type='email' placeholder="example@email.com" className="w-4/6 px-3 py-1 rounded-l sm:w-2/3"/>
+                        <button role="button" className="w-2/6 px-3 py-1 font-regular lg:text-lg md:text-md text-sm rounded-r sm:w-1/3 bg-violet text-off-white">
                             {isSubmitting ? "Submitting" : "Subscribe"}
                         </button>
                         

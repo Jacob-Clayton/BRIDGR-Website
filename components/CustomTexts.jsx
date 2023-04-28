@@ -25,7 +25,7 @@ export const TitleText = ({ title, textStyles }) => {
     variants={textVariant2}
     initial={isLgScreen ? 'hidden' : 'visible'}
     whileInView="show"
-    className={`font-[600] md:text-[48px] sm:text-[45px] text-[35px] text-[#fafafa] ${textStyles}`}
+    className={`font-bold xl:text-5xl lg:text-5xl md:text-5xl sm:text-4xl text-3xl text-off-white ${textStyles}`}
   >
     {title}
   </motion.h2>

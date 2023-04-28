@@ -34,8 +34,8 @@ export default function MemberForm() {
 		}
 
 	return (
-		<form className='mt-10 lg:w-[650px] md:w-[550px] sm:w-[500px] w-full mx-auto flex flex-col' onSubmit={handleSubmit(onSubmit)}>
-			<span>
+		<form className='mt-10 gap-2 lg:w-[650px] md:w-[550px] sm:w-[500px] w-full mx-auto flex flex-col font-normal text-off-white' onSubmit={handleSubmit(onSubmit)}>
+			<span className='space-x-3'>
                 <input
                     {...register("firstname")}
                     id='firstname'
@@ -44,7 +44,7 @@ export default function MemberForm() {
                     placeholder='First Name'
                     type='text'
                     required
-                    className='w-[50%] input px-2 py-1 rounded-md font-normal bg-transparent text-secondary-white'
+                    className='w-[49%] input px-2 py-1 rounded bg-off-white'
                 />
                 <input
                     {...register("lastname")}
@@ -54,15 +54,11 @@ export default function MemberForm() {
                     placeholder='Last Name'
                     type='text'
                     required
-                    className='w-[50%] input px-2 py-1 rounded-md font-normal bg-transparent text-secondary-white'
+                    className='w-[49%] input px-2 py-1 rounded bg-off-white'
                 />
 			</span>
-			<span className='flex justify-between w-full'>
-				<div className='w-[48%] h-[1px] bg-white bg-opacity-20 mb-2'/>
-				<div className='w-[50%] h-[1px] bg-white bg-opacity-20 mb-2'/>
-			</span>
 
-			<span>
+			<span className='space-x-3'>
 				<input
 					{...register("company")}
 					id='company'
@@ -71,7 +67,7 @@ export default function MemberForm() {
 					placeholder='Company'
 					type='text'
 					required
-					className='w-[50%] input px-2 py-1 rounded-md font-normal bg-transparent text-secondary-white'
+					className='w-[49%] input px-2 py-1 rounded bg-off-white'
 				/>
 				<input
 					{...register("link")}
@@ -81,15 +77,11 @@ export default function MemberForm() {
 					placeholder='Website / Social'
 					type='url'
 					required
-					className='w-[50%] input px-2 py-1 rounded-md font-normal bg-transparent text-secondary-white'
+					className='w-[49%] input px-2 py-1 rounded bg-off-white'
 				/>
 			</span>
-			<span className='flex justify-between w-full'>
-				<div className='w-[48%] h-[1px] bg-white bg-opacity-20 mb-2'/>
-				<div className='w-[50%] h-[1px] bg-white bg-opacity-20 mb-2'/>
-			</span>
 
-			<span>
+			<span className='space-x-3'>
 			<input
 					{...register("email")}
 					id='email'
@@ -98,7 +90,7 @@ export default function MemberForm() {
 					placeholder='Email'
 					type='email'
 					required
-					className='w-[50%] input px-2 py-1 rounded-md font-normal bg-transparent text-secondary-white'
+					className='w-[49%] input px-2 py-1 rounded bg-off-white'
 				/>
 				<input
 					{...register("location")}
@@ -108,22 +100,17 @@ export default function MemberForm() {
 					placeholder='Country'
 					type='Location'
 					required
-					className='w-[50%] input px-2 py-1 rounded-md font-normal bg-transparent text-secondary-white'
+					className='w-[49%] input px-2 py-1 rounded bg-off-white'
 				/>
-			</span>
-			<span className='flex justify-between w-full'>
-				<div className='w-[48%] h-[1px] bg-white bg-opacity-20 mb-2'/>
-				<div className='w-[50%] h-[1px] bg-white bg-opacity-20 mb-2'/>
 			</span>
 
 			<p
                 {...register("subject")}
 				id='subject'
 				aria-label='Subject field for Application form'
-				className='input px-2 py-1 rounded-md font-normal bg-transparent text-secondary-white'
+				className='input px-2 py-1 rounded bg-off-white text-gray-700'
             >Subject: Membership
 			</p>
-			<div className='w-full h-[1px] bg-white bg-opacity-20 mb-2'/>
 			<textarea
 				{...register("message")}
 				id='message'
@@ -133,13 +120,13 @@ export default function MemberForm() {
 				type='text'
 				rows='5'
 				required
-				className='input px-2 py-1 rounded-md font-normal bg-transparent text-secondary-white'
+				className='input px-2 py-1 rounded bg-off-white'
 			/>
-			<div className='w-full h-[1px] bg-white bg-opacity-20 mb-2'/>
+
 			<div className='flex flex-col items-center'>
                 <button 
 					role="button" 
-					className=" mt-2 border-[1px] flex mx-auto border-white border-opacity-30 shadow-md hover:shadow-lg hover:bg-white hover:bg-opacity-10 text-off-white py-2 px-6 rounded-lg font-normal xl:text-xl lg:text-lg md:text-md text-sm hover:text-white duration-500 cursor-pointer "
+					className=" mt-2 bg-violet py-2 px-6 rounded font-normal lg:text-lg md:text-md text-sm cursor-pointer "
 				>
 					{isSubmitting ? "Submitting" : "Register Interest"}
 				</button>

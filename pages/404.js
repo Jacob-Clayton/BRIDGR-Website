@@ -8,10 +8,10 @@ const NotFoundPage = () => {
     return (
         <>
         <Navbar />
-        <section className={`${styles.paddings} relative bg-primary-darkBlue min-h-screen`}>
+        <section className={`${styles.paddings} relative bg-cetecean-blue min-h-screen`}>
                 <div className={`${styles.innerWidth} mx-auto mt-5 sm:mt-10 md:mt-20`}>
                     <TitleText title={<>404: Page Not Found</>}textStyles="text-center" />
-                    <p className="mt-10 font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-center text-secondary-white">
+                    <p className="mt-10 font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-center text-off-white">
                         Sorry, there is nothing to see here
 					</p>
                     <div className='mt-10 flex flex-row gap-6 justify-center'>

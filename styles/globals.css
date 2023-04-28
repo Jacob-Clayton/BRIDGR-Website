@@ -24,13 +24,13 @@
   filter: blur(170px);
 }
 
-.bridgr-blue {
-  background-color: rgb(25, 53, 163);
+.bg-cetecean-blue {
+  background-color: #170c4d;
 }
 
 .bg-primary-blue {
   --tw-bg-opacity: 1;
-  background-color: rgb(40 88 176 / var(--tw-bg-opacity));
+  background-color: rgb(40 88 176);
 }
 
 .bg-primary-lightBlue {
@@ -46,13 +46,6 @@
 .bg-primary-darkBlue-old {
   --tw-bg-opacity: 1;
   background-color: rgb(53, 79, 97);
-}
-
-.bg-image-old {
-  background-image: linear-gradient(to bottom, rgb(67, 134, 255, 0.7), rgb(67, 134, 255, 0.5), rgb(67, 134, 255, 0.4), rgb(67, 134, 255, 0.4), rgb(67, 134, 255)), url('/blueglobe_comp.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .bg-image {

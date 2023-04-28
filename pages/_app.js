@@ -2,20 +2,7 @@ import Head from 'next/head';
 import { Analytics } from '@vercel/analytics/react';
 import '../styles/globals.css';
 import 'tailwindcss/tailwind.css';
-import { Montserrat, Urbanist, Rubik } from '@next/font/google'
-
-const montserrat = Montserrat({
-	subsets: ['latin'],
-	variable: '--font-montserrat',
-	display: 'swap',
-})
-
-const urbanist = Urbanist({
-	subsets: ['latin'],
-	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-	variable: '--font-urbanist',
-	display: 'swap',
-})
+import { Rubik } from '@next/font/google'
 
 const rubik = Rubik({
 	subsets: ['latin'],
@@ -38,6 +25,4 @@ const MyApp = ({ Component, pageProps }) => {
 	</>
 	)
 }
-
-
 export default MyApp;

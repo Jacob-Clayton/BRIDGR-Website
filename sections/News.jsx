@@ -9,7 +9,7 @@ const News = () => {
         <section className={`${styles.paddings} relative z-10`} id="News">
             <div className="gradient-02 overflow-visible z-0 lg:block hidden" />
             
-            <div className={`${styles.innerWidth} mx-auto flex flex-col`}>
+            <div className={`${styles.innerWidth} mx-auto flex flex-col text-off-white`}>
                 {/* <TitleText title={<>News</>} textStyles="text-center" /> */}
                 {/* <p className={`${styles.descriptionText} ${poppins.variable} font-poppins text-center`}>
                     Read more about our latest events and news on<a href='https://medium.com/@bridgrxyz' className='text-white font-medium'> Medium.</a>
@@ -26,7 +26,7 @@ const News = () => {
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 flex flex-col">
                                 <a href='https://www.eventbrite.sg/e/nftnyc-after-party-on-april-12th-gamehaus-new-york-tickets-605643825987'>
-                                    <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
+                                    <p className="mx-auto sm:mx-0 md:text-2xl sm:text-xl text-2xl font-bold">
                                         NFT NYC </p>
                                 </a>
                                 <p className={`${styles.descriptionText} mt-2`}>
@@ -54,7 +54,7 @@ const News = () => {
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 flex flex-col ">
                             <a href='https://medium.com/@bridgrxyz/web3-social-on-april-1st-in-istanbul-solidarity-donations-through-web3-b1839981ed9a'>
-                                <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
+                                <p className="mx-auto sm:mx-0 md:text-2xl sm:text-xl text-2xl font-bold">
                                     Istanbul Keynote Panel</p>
                             </a>
                                 <p className={`${styles.descriptionText} mt-2`}>
@@ -81,7 +81,7 @@ const News = () => {
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 flex flex-col">
                                 <a href='https://twitter.com/Bridgrxyz/status/1625104846675386369?s=20'>
-                                    <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
+                                    <p className="mx-auto sm:mx-0 md:text-2xl sm:text-xl text-2xl font-bold">
                                         Beachside in Bali </p>
                                 </a>
                                 <p className={`${styles.descriptionText} mt-2`}>
@@ -109,7 +109,7 @@ const News = () => {
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 flex flex-col">
                                 <a href='https://twitter.com/Bridgrxyz/status/1622586625552429057?s=20'>
-                                    <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
+                                    <p className="mx-auto sm:mx-0 md:text-2xl sm:text-xl text-2xl font-bold">
                                         Singapore Social</p>
                                 </a>
                                 <p className={`${styles.descriptionText} mt-2`}>
@@ -136,7 +136,7 @@ const News = () => {
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 flex flex-col">
                                 <a href='https://twitter.com/Bridgrxyz/status/1592214170996703232?s=20'>
-                                    <p className="mx-auto sm:mx-0 font-normal text-xl sm:text-xl md:text-2xl lg:text-2xl text-white">
+                                    <p className="mx-auto sm:mx-0 md:text-2xl sm:text-xl text-2xl font-bold">
                                         Istanbul Blockchain Week</p>
                                 </a>
                                 <p className={`${styles.descriptionText} mt-2`}>

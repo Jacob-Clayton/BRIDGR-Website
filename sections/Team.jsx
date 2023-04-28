@@ -12,17 +12,17 @@ const Team = () => {
 
   return (
     <section className={`${styles.paddings} relative z-10`} id="Team">
-      <div className='wave-blue'>
+      {/* <div className='wave-blue'>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path fill="#379CE0" fill-opacity="1" d="M0,128L120,112C240,96,480,64,720,64C960,64,1200,96,1320,112L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
+          <path fill="#170c4d" fill-opacity="1" d="M0,128L120,112C240,96,480,64,720,64C960,64,1200,96,1320,112L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
           </svg>
-      </div>
+      </div> */}
       <motion.div
         variants={staggerContainer}
         initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.01 }}
-        className={`${styles.innerWidth} mx-auto 2xl:mt-[100px] md:mt-12 sm:mt-10 mt-4 flex flex-col`}
+        className={`${styles.innerWidth} mx-auto md:mt-12 sm:mt-10 mt-4 flex flex-col`}
       >
         <TitleText title={<>Our Team</>} textStyles="text-center" />
 
@@ -48,11 +48,11 @@ const Team = () => {
             className="flex flex-wrap justify-center -m-2 md:mt-10 mt-5"
           >
 
-            <div className="flex p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div className="h-full w-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
+            <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
+              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded">
                 <Image alt="team" width={150} height={150} className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/mark.png"/>
                 <div className="flex-grow">
-                  <p className="text-off-white title-font font-medium">Mark </p>
+                  <p className={`${styles.descriptionText}`}>Mark </p>
                   <p className="">Co-founder</p>
                 </div>
                 <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
@@ -63,10 +63,10 @@ const Team = () => {
             </div>
 
             <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
+              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded">
                 <Image alt="team" width={150} height={150} className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/kishor.png"/>
                 <div className="flex-grow">
-                  <p className="text-off-white title-font font-medium">Kishor</p>
+                  <p className={`${styles.descriptionText}`}>Kishor</p>
                   <p className="">Co-founder</p>
                 </div>
                 <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
@@ -77,10 +77,10 @@ const Team = () => {
             </div>
 
             <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
+              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded">
                 <Image alt="team" width={150} height={150} className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/jacob.png"/>
                 <div className="flex-grow">
-                  <p className="text-off-white title-font font-medium">Jacob Clayton</p>
+                  <p className={`${styles.descriptionText}`}>Jacob Clayton</p>
                   <p className="">Co-founder</p>
                 </div>
                 <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
@@ -91,10 +91,10 @@ const Team = () => {
             </div>
 
             <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
+              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded">
                 <Image alt="team" width={150} height={150} className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/sima.png"/>
                 <div className="flex-grow">
-                  <p className="text-off-white title-font font-medium">Sima Baktas</p>
+                  <p className={`${styles.descriptionText}`}>Sima Baktas</p>
                   <p className="">Crypto Laywer & Founder of GlobalB</p>
                 </div>
                 <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
@@ -105,10 +105,10 @@ const Team = () => {
             </div>
 
             <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
+              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded">
                 <Image alt="team" width={150} height={150} className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/hilal.png"/>
                 <div className="flex-grow">
-                  <p className="text-off-white title-font font-medium">Hilal Baktas</p>
+                  <p className={`${styles.descriptionText}`}>Hilal Baktas</p>
                   <p className="">Founder of CryptoFemale & GlobalB</p>
                 </div>
                 <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
@@ -119,10 +119,10 @@ const Team = () => {
             </div>
 
             <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
+              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded">
                 <Image alt="team" width={150} height={150} className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/henry.png"/>
                 <div className="flex-grow">
-                  <p className="text-off-white title-font font-medium">Henry Foo</p>
+                  <p className={`${styles.descriptionText}`}>Henry Foo</p>
                   <p className="">Founder of Ethlas & Web3 Software Engineer</p>
                 </div>
                 <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
@@ -133,10 +133,10 @@ const Team = () => {
             </div>
 
             <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded-md">
+              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded">
                 <Image alt="team" width={150} height={150} className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/jayefoo.png"/>
                 <div className="flex-grow">
-                  <p className="text-off-white title-font font-medium">Jaye Foo</p>
+                  <p className={`${styles.descriptionText}`}>Jaye Foo</p>
                   <p className="">Founder of Bored Island Group, Parlour Global & Bighaus</p>
                 </div>
                 <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2">
