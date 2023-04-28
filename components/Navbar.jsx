@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
 import { motion } from 'framer-motion';
@@ -7,7 +7,7 @@ import { navVariants } from '../utils/motion';
 
 function MobileNav({open, setOpen}) {
   return (   
-    <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[50%] bg-primary-lightBlue rounded-tl-[35px] rounded-bl-[35px] border-l-[1px] border-white border-opacity-20 transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter `}>
+    <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[50%] bg-cetecean-blue rounded-tl rounded-bl border-l-[1px] border-white border-opacity-20 transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter `}>
       <div className={` text-off-white gap-5 z-100 flex flex-col items-center mt-[20%] sm:mt-[22%] md:mt-[20%] lg:mt-[25%] font-normal`}>
 
           <Link 
@@ -88,14 +88,10 @@ function MobileNav({open, setOpen}) {
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
+
     return (
         <motion.nav id="navbar">
-          <motion.div 
-            variants={navVariants}
-            initial="hidden"
-            whileInView="show"
-            className={`fixed top-0 lg:h-[65px] md:h-[62px] sm:h-[60px] h-[55px] flex z-50 duration-300 w-full bg-cetecean-blue border-white border-b-[1px] border-opacity-20`}
-          >
+          <div className={`fixed top-0 lg:h-[65px] md:h-[62px] sm:h-[60px] h-[55px] flex z-50 duration-300 w-full bg-cetecean-blue border-white border-b-[1px] border-opacity-20`}>
             <div className={`${styles.interWidth} flex mx-auto justify-between`}>
               <Link className='flex items-center' href='/'>
                 <Image
@@ -161,7 +157,7 @@ const Navbar = () => {
               </div>
               
               </div>
-            </motion.div>
+            </div>
         </motion.nav>
     );
 };
