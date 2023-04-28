@@ -156,7 +156,7 @@ const Services = () => {
                             </div>
                             <p className="text-xl text-off-white title-font mb-2 font-poppins">Web3 Consultancy</p>
                             <ul className='text-lg list-disc list-inside leading-relaxed font-poppins'>
-                                <li>Website development</li>
+                                <li>Web3 website integration</li>
                                 <li>Smart contract builds</li>
                                 <li>Smart contract audits</li>
                             </ul>

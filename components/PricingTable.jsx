@@ -35,7 +35,7 @@ const PricingTable = () => {
                                         <span className="text-sm font-medium tracking-wide ml-1 text-secondary-white">/ hour</span>
                                     </span>
                                 </div>
-                                <p className="mt-3 leading-relaxed ">Technical consultancy specialising in smart contracts and website builds.
+                                <p className="mt-3 leading-relaxed ">Technical consultancy specialising in smart contracts.
                                     <Link href="https://docs.bridgr.xyz/consultancy/web3-consultancy" className='font-semibold'> Read more.</Link>
                                 </p>
                                 <ul className="flex-1 mb-6 ">
