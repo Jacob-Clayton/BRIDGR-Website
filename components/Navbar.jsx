@@ -104,7 +104,7 @@ const Navbar = () => {
               </Link>
               
               <div className='flex items-center'>
-                <div className='lg:flex hidden h-full gap-4'>
+                <div className='lg:flex hidden h-full gap-5'>
                   <ul className={`flex gap-4 md:text-md xl:text-lg items-center font-normal text-off-white hover:text-white cursor-pointer`}>
                       {/* <li className="hover-underline-animation duration-500">
                         <Link href="/">Home</Link>
