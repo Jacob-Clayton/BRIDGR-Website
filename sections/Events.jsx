@@ -41,8 +41,7 @@ const Events = () => {
         >
           Recieve worldwide exposure at our 'WEB3 SOCIAL' events. 
           Your company will be given a professional speech, promotional graphics on screens around the event, plus video and images for your own use.
-          Come along and network with industry professionals from around the world over drinks. It's a blast!
-          Follow us on <a href='http://twitter.com/brizgrxyz' className='text-white font-medium'> Twitter </a> to stay up to date.
+          Follow us on <a href='http://twitter.com/brizgrxyz' className='text-white font-medium'> Twitter </a> and <a href='https://medium.com/@bridgrxyz' className='text-white font-medium'>Medium</a> to stay up to date.
         </motion.p>
 
         <motion.div
