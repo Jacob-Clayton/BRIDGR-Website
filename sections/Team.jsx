@@ -49,7 +49,7 @@ const Team = () => {
           >
 
             <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded">
+              <div className="h-full flex items-center border-gray-500 border-opacity-30 border p-4 rounded">
                 <Image alt="team" width={150} height={150} className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/mark.png"/>
                 <div className="flex-grow">
                   <p className={`${styles.descriptionText}`}>Mark </p>
@@ -63,7 +63,7 @@ const Team = () => {
             </div>
 
             <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded">
+              <div className="h-full flex items-center border-gray-500 border-opacity-30 border p-4 rounded">
                 <Image alt="team" width={150} height={150} className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/kishor.png"/>
                 <div className="flex-grow">
                   <p className={`${styles.descriptionText}`}>Kishor</p>
@@ -77,7 +77,7 @@ const Team = () => {
             </div>
 
             <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded">
+              <div className="h-full flex items-center border-gray-500 border-opacity-30 border p-4 rounded">
                 <Image alt="team" width={150} height={150} className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/jacob.png"/>
                 <div className="flex-grow">
                   <p className={`${styles.descriptionText}`}>Jacob Clayton</p>
@@ -91,7 +91,7 @@ const Team = () => {
             </div>
 
             <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded">
+              <div className="h-full flex items-center border-gray-500 border-opacity-30 border p-4 rounded">
                 <Image alt="team" width={150} height={150} className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/sima.png"/>
                 <div className="flex-grow">
                   <p className={`${styles.descriptionText}`}>Sima Baktas</p>
@@ -105,7 +105,7 @@ const Team = () => {
             </div>
 
             <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded">
+              <div className="h-full flex items-center border-gray-500 border-opacity-30 border p-4 rounded">
                 <Image alt="team" width={150} height={150} className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/hilal.png"/>
                 <div className="flex-grow">
                   <p className={`${styles.descriptionText}`}>Hilal Baktas</p>
@@ -119,7 +119,7 @@ const Team = () => {
             </div>
 
             <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded">
+              <div className="h-full flex items-center border-gray-500 border-opacity-30 border p-4 rounded">
                 <Image alt="team" width={150} height={150} className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/henry.png"/>
                 <div className="flex-grow">
                   <p className={`${styles.descriptionText}`}>Henry Foo</p>
@@ -133,7 +133,7 @@ const Team = () => {
             </div>
 
             <div className="p-2 xl:w-1/3 lg:w-1/2 w-full">
-              <div className="h-full flex items-center border-white border-opacity-20 border p-4 rounded">
+              <div className="h-full flex items-center border-gray-500 border-opacity-30 border p-4 rounded">
                 <Image alt="team" width={150} height={150} className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/jayefoo.png"/>
                 <div className="flex-grow">
                   <p className={`${styles.descriptionText}`}>Jaye Foo</p>

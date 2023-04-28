@@ -90,7 +90,7 @@ const Navbar = () => {
 
     return (
         <motion.nav id="navbar">
-          <div className={`fixed top-0 lg:h-[65px] md:h-[62px] sm:h-[60px] h-[55px] flex z-50 duration-300 w-full bg-cetecean-blue border-white border-b-[1px] border-opacity-20`}>
+          <div className={`fixed top-0 lg:h-[65px] md:h-[62px] sm:h-[60px] h-[55px] flex z-50 duration-300 w-full bg-cetecean-blue border-gray-500 border-b-[1px] border-opacity-30`}>
             <div className={`${styles.interWidth} flex mx-auto justify-between`}>
               <Link className='flex items-center' href='/'>
                 <Image
@@ -133,7 +133,7 @@ const Navbar = () => {
                         <a href="https://docs.bridgr.xyz" className='flex'>Whitepaper<img src="/external-link.svg" className="sm:w-[10px] sm:h-[10px] w-[9px] h-[9px] ml-[1px]" alt='external link'/></a>
                       </li> */}
                   </ul>
-                  <div className='h-full w-[1px] bg-white bg-opacity-20'/>
+                  <div className='h-full w-[1px] bg-gray-500 bg-opacity-30'/>
                   <div className="flex items-center gap-3">
                     <a href="https://twitter.com/bridgrxyz"><Image src='/twitter.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' width={20} height={20} alt='twitter'/></a>
                     <a href="https://t.me/bridgr"><Image src='/telegram.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' width={20} height={20} alt='telegram'/></a>
