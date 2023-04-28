@@ -94,7 +94,7 @@ const Navbar = () => {
             variants={navVariants}
             initial="hidden"
             whileInView="show"
-            className={`fixed top-0 lg:h-[65px] md:h-[62px] sm:h-[60px] h-[55px] flex z-50 duration-300 w-full backdrop-blur-sm border-white border-b-[1px] border-opacity-20`}
+            className={`fixed top-0 lg:h-[65px] md:h-[62px] sm:h-[60px] h-[55px] flex z-50 duration-300 w-full bg-cetecean-blue border-white border-b-[1px] border-opacity-20`}
           >
             <div className={`${styles.interWidth} flex mx-auto justify-between`}>
               <Link className='flex items-center' href='/'>

@@ -20,13 +20,13 @@ const Hero = () => {
           <div className="flex flex-row justify-center sm:justify-start gap-2">
             <div className='2xl:pl-0 px-6 sm:pr-8 sm:mt-8 md:mt-10 mt-5'>
                 <button className="bg-off-white text-primary-black py-2 px-6 items-center flex flex-row rounded">
-                  <a className={` text-sm sm:text-l md:text-xl font-normal hover:text-white cursor-pointer`} href="https://twitter.com/bridgrxyz">
+                  <a className={` text-sm sm:text-lg md:text-xl font-normal hover:text-white cursor-pointer`} href="https://twitter.com/bridgrxyz">
                     Follow</a><Image src="/twitterB.svg" className="sm:w-[22px] sm:h-[22px] w-[18px] h-[18px] ml-3" width={20} height={20} alt="twitter"/>
                 </button>
             </div>
             <div className='sm:mt-8 md:mt-10 mt-5'>
                 <button className=' bg-violet text-off-white py-2 px-5 items-center flex flex-row rounded'>
-                  <a className={` text-sm sm:text-l md:text-xl font-normal cursor-pointer`} href="#Contact">
+                  <a className={` text-sm sm:text-lg md:text-xl font-normal cursor-pointer`} href="#Contact">
                     Contact</a><Image src="/email.svg" className="sm:w-[24px] sm:h-[24px] w-[20px] h-[20px] ml-3" width={20} height={20} alt="email"/>
                 </button>
             </div>
