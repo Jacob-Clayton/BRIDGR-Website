@@ -90,7 +90,7 @@ const Navbar = () => {
 
     return (
         <motion.nav id="navbar">
-          <div className={`fixed top-0 lg:h-[65px] md:h-[62px] sm:h-[60px] h-[55px] flex z-50 duration-300 w-full bg-cetecean-blue border-gray-500 border-b-[1px] border-opacity-30`}>
+          <div className={`fixed top-0 lg:h-[65px] md:h-[62px] sm:h-[60px] h-[55px] flex z-50 w-full bg-cetecean-blue border-gray-500 border-b-[1px] border-opacity-30`}>
             <div className={`${styles.interWidth} flex mx-auto justify-between`}>
               <Link className='flex items-center' href='/'>
                 <Image
