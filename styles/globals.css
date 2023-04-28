@@ -75,13 +75,13 @@
   .strip-gradient {
     background: linear-gradient(to bottom,
       transparent,
-      rgb(55, 156, 224, 0.01),
-      rgb(55, 156, 224, 0.4),
-      rgb(55, 156, 224, 0.8),
-      rgb(55, 156, 224, 0.8),
-      rgb(55, 156, 224, 0.8),
-      rgb(55, 156, 224, 0.4),
-      rgb(55, 156, 224, 0.01),
+      #0b0b0b01,
+      #0b0b0b35,
+      #0b0b0b85,
+      #0b0b0b85,
+      #0b0b0b85,
+      #0b0b0b40,
+      #0b0b0b01,
       transparent
     );
   }
