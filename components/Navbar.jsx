@@ -97,30 +97,27 @@ function MobileNav({open, setOpen}) {
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
-    
     return (
-
-        <motion.nav>
+        <motion.nav id="navbar">
           <motion.div 
             variants={navVariants}
             initial="hidden"
             whileInView="show"
-            className={`${styles.xPaddings} navbar absolute inset-0`}
-          />
-          <div className={`fixed top-0 pt-4 pb-3 z-50 w-full backdrop-blur-sm border-white border-b-[1px] border-opacity-10`}>
+            className={`fixed top-0 lg:h-[65px] md:h-[62px] sm:h-[60px] h-[55px] flex z-50 duration-300 w-full backdrop-blur-sm border-white border-b-[1px] border-opacity-20`}
+          >
             <div className={`${styles.interWidth} flex mx-auto justify-between`}>
-              <Link href='/'>
+              <Link className='flex items-center' href='/'>
                 <Image
                   src="/bridgrlogo.png" 
                   alt="bridgr logo"
-                  className='flex justify-start 2xl:w-[150px] sm:w-[120px] w-[100px]' 
+                  className='2xl:w-[150px] sm:w-[120px] w-[100px]' 
                   height={60} 
                   width={180} 
                 />
               </Link>
               
-              <div className='flex justify-end'>
-                <div className='lg:flex hidden gap-3'>
+              <div className='flex items-center'>
+                <div className='lg:flex hidden h-full gap-4'>
                   <ul className={`${poppins.variable} font-poppins flex gap-4 lg:text-md xl:text-[1.1rem] items-center font-normal text-off-white hover:text-white cursor-pointer`}>
                       {/* <li className="hover-underline-animation duration-500">
                         <Link href="/">Home</Link>
@@ -150,7 +147,7 @@ const Navbar = () => {
                         <a href="https://docs.bridgr.xyz" className='flex'>Whitepaper<img src="/external-link.svg" className="sm:w-[10px] sm:h-[10px] w-[9px] h-[9px] ml-[1px]" alt='external link'/></a>
                       </li> */}
                   </ul>
-                  <div className='h-9 w-[1px] bg-white bg-opacity-20'/>
+                  <div className='h-full w-[1px] bg-white bg-opacity-20'/>
                   <div className="flex items-center gap-3">
                     <a href="https://twitter.com/bridgrxyz"><Image src='/twitter.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' width={20} height={20} alt='twitter'/></a>
                     <a href="https://t.me/bridgr"><Image src='/telegram.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' width={20} height={20} alt='telegram'/></a>
@@ -172,9 +169,8 @@ const Navbar = () => {
                 </div>
               </div>
               
-              
-            </div>
-          </div>
+              </div>
+            </motion.div>
         </motion.nav>
     );
 };

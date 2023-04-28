@@ -1,6 +1,6 @@
 'use client';
 
-import { MemberHome, NavbarWide } from "../../components";
+import { MemberHome, Navbar } from "../../components";
 import styles from "../../styles";
 import Link from "next/link";
 import { Urbanist } from '@next/font/google';
@@ -17,7 +17,7 @@ export default function home() {
     return (
 		<>
             <div className="bg-primary-darkBlue min-h-screen overflow-hidden">
-                <NavbarWide />
+                <Navbar />
                 <MemberHome />
             </div>
 		</>

@@ -1,5 +1,4 @@
 import Navbar from './Navbar';
-import NavbarWide from './NavbarWide';
 import { TypingText, TitleText, DescriptionText } from './CustomTexts';
 import ExploreCard from './ExploreCard';
 import StartSteps from './StartSteps';
@@ -23,7 +22,6 @@ import MemberHome from './MemberHome';
 
 export {
   Navbar,
-  NavbarWide,
   TitleText,
   TypingText,
   DescriptionText,
