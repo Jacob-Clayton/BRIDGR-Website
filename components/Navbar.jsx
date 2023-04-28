@@ -7,74 +7,73 @@ import { navVariants } from '../utils/motion';
 
 function MobileNav({open, setOpen}) {
   return (   
-    <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[50%] bg-cetecean-blue rounded-tl rounded-bl border-l-[1px] border-white border-opacity-20 transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter `}>
-      <div className={` text-off-white gap-5 z-100 flex flex-col items-center mt-[20%] sm:mt-[22%] md:mt-[20%] lg:mt-[25%] font-normal`}>
+    <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[55%] bg-cetecean-blue rounded-tl rounded-bl border-l-[1px] border-white border-opacity-20 transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter `}>
+      <div className={`text-off-white text-md sm:text-lg md:text-xl gap-5 z-100 flex flex-col items-center mt-[20%] sm:mt-[22%] md:mt-[20%] lg:mt-[25%] font-normal`}>
 
           <Link 
-            className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
+            className=" cursor-pointer" 
             href="/" 
             onClick={() => setOpen(false)}>
             Home
           </Link>
           {/* <a 
-            className={`font-poppins text-md sm:text-lg md:text-xl cursor-pointer`} 
+            className={`cursor-pointer`} 
             href="/#About" 
             onClick={() => setOpen(false)}>
-            
             About
           </a> */}
           <a 
-            className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
+            className="cursor-pointer" 
             href="/#Team" 
             onClick={() => setOpen(false)}>
             Team
           </a>
           <a 
-            className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
+            className="cursor-pointer" 
             href="/#Story" 
             onClick={() => setOpen(false)}>
             Story
           </a>
           <a 
-            className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
+            className="cursor-pointer" 
             href="/#Services" 
             onClick={() => setOpen(false)}>
             Services
           </a>
           <a 
-            className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
+            className="cursor-pointer" 
             href="/#Pricing" 
             onClick={() => setOpen(false)}>
             Pricing
           </a>
           <a 
-            className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
+            className="cursor-pointer" 
             href="/#Events" 
             onClick={() => setOpen(false)}>
             Events
           </a>
           {/* <a 
-            className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
+            className="cursor-pointer" 
             href="/#News" 
             onClick={() => setOpen(false)}>
             News
           </a> */}
           <a 
-            className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
+            className="cursor-pointer" 
             href="/#Contact" 
             onClick={() => setOpen(false)}>
             Contact
           </a>
-          {/* <a 
-            className="font-poppins text-md sm:text-lg md:text-xl cursor-pointer" 
+          <a 
+            className="cursor-pointer" 
             href="https://docs.bridgr.xyz" 
             onClick={() => setOpen(false)}>
-            <button className='border-[1px] border-white border-opacity-30 text-off-white py-1 px-4 items-start flex flex-row shadow-md rounded-lg duration-500'>
+            <button className='bg-lavender py-2 px-5 items-start flex flex-row rounded'>
               Whitepaper<img src="/external-link.svg" className="sm:w-[10px] sm:h-[10px] w-[9px] h-[9px] ml-[2px]" alt='external link'/>
             </button>
-          </a> */}
-          <div className='w-[160px] sm:w-[200px] h-[1px] rounded-xl bg-white bg-opacity-20 fixed bottom-[16%]'/>
-          <div className="flex sm:gap-4 gap-3 fixed bottom-[9%] " id='socials'>
+          </a>
+          <div className='w-full h-[1px] rounded-xl bg-white bg-opacity-20 fixed bottom-[17%]'/>
+          <div className="flex sm:gap-4 gap-3 fixed bottom-[10%] " id='socials'>
             <a href="https://twitter.com/bridgrxyz"><Image src='/twitter.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' width={20} height={20} alt='twitter'/></a>
             <a href="https://t.me/bridgr"><Image src='/telegram.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' width={20} height={20} alt='telegram'/></a>
             <a href="https://discord.com/invite/j2ayV98Dc2"><Image src='/discord.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' width={20} height={20} alt='discord'/></a>

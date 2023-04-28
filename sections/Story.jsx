@@ -10,7 +10,7 @@ const Story = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
 
     return (
-        <section>
+        <section id='Story' className='relative'>
             <div className={`${styles.innerWidth} mx-auto relative`}>
                 <motion.section 
                     className={`${styles.xPaddings} flex flex-col`}
