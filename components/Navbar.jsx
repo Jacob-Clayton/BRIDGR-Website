@@ -9,7 +9,7 @@ import { navVariants } from '../utils/motion';
 function MobileNav({open, setOpen}) {
   return (   
     <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[55%] bg-cetecean-blue rounded-tl rounded-bl border-l-[1px] border-gray-500 border-opacity-30 transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter `}>
-      <div className={`text-off-white text-md sm:text-lg md:text-xl gap-5 z-100 flex flex-col items-center mt-[20%] sm:mt-[22%] md:mt-[20%] lg:mt-[25%] font-normal`}>
+      <div className={`${styles.descriptionText} gap-5 z-100 flex flex-col items-center mt-[20%] sm:mt-[22%] md:mt-[20%] lg:mt-[25%]`}>
 
           <Link 
             className=" cursor-pointer" 
