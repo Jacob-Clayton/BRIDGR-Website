@@ -21,7 +21,7 @@ const Hero = () => {
             Accelerate Your Web3 Business.
           </p>
           <div className='sm:mt-6 md:mt-8 mt-5 sm:mx-[0px] mx-auto xl:max-w-[700px] lg:max-w-[600px] md:max-w-[550px] sm:max-w-[500px] max-w-[500px]'>
-          <p className= {`${styles.xPaddings} xl:w-3/4 sm:w-4/5 font-light sm:text-left text-center 2xl:text-2xl xl:text-xl md:text-xl sm:text-lg text-md text-off-white`}>
+          <p className= {`${styles.xPaddings} xl:w-3/4 sm:w-4/5 font-normal sm:text-left text-center 2xl:text-2xl xl:text-xl md:text-xl sm:text-lg text-md text-off-white`}>
               We are a collective of Web3 companies offering our combined strength to help you grow.
             </p>
           </div>

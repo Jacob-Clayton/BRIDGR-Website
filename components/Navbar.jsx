@@ -5,6 +5,14 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
+import localFont from '@next/font/local';
+
+const britanica = localFont({ 
+	src: '../public/fonts/Britanica-BlackSemiExpanded.ttf',
+  weight: '900',
+	variable: '--font-britanica',
+	display: 'swap',
+});
 
 function MobileNav({open, setOpen}) {
   return (   
@@ -90,7 +98,7 @@ const Navbar = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <motion.nav id="navbar">
+        <motion.nav id="navbar" className={`${britanica.variable}`}>
           <div className={`fixed top-0 lg:h-[65px] md:h-[62px] sm:h-[60px] h-[55px] flex z-50 w-full bg-cetecean-blue border-gray-500 border-b-[1px] border-opacity-30`}>
             <div className={`${styles.interWidth} ${styles.descriptionText} flex mx-auto justify-between`}>
               <Link className='flex items-center' href='/'>

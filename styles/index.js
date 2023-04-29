@@ -19,7 +19,7 @@ const styles = {
 
   // hero section
   heroHeading:
-      'font-bold 2xl:text-[90px] xl:text-[80px] lg:text-[70px] md:text-[60px] sm:text-[50px] text-[35px] 2xl:leading-[100px] xl:leading-[90px] lg:leading-[80px] md:leading-[70px] sm:leading-[60px] leading-[45px] text-violet',
+      'font-bold 2xl:text-[102px] xl:text-[89px] lg:text-[70px] md:text-[65px] sm:text-[55px] text-[43px] 2xl:leading-[100px] xl:leading-[90px] lg:leading-[80px] md:leading-[70px] sm:leading-[60px] leading-[45px] text-violet',
   heroDText:
       'md:w-[212px] sm:w-[80px] w-[60px] md:h-[108px] sm:h-[48px] h-[38px] md:border-[18px] border-[9px] rounded-r-[50px] border-white sm:mx-2 mx-[6px]',
 };

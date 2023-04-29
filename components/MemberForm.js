@@ -5,6 +5,7 @@ import axios from 'axios';
 import { useForm } from "react-hook-form";
 import LoadingSpinner from '../components/LoadingSpinner'
 import { ErrorMessage, SuccessMessage } from '../components/Message'
+import styles from '../styles';
 
 export default function MemberForm() {
     const {
@@ -108,8 +109,8 @@ export default function MemberForm() {
                 {...register("subject")}
 				id='subject'
 				aria-label='Subject field for Application form'
-				className='input px-2 py-1 rounded bg-off-white text-gray-700'
-            >Subject: Membership
+				className='input px-2 py-1 rounded bg-off-white text-primary-black'
+            >Subject: Bridgr Membership
 			</p>
 			<textarea
 				{...register("message")}
@@ -118,7 +119,7 @@ export default function MemberForm() {
 				aria-required={true}
 				placeholder='Message'
 				type='text'
-				rows='5'
+				rows='8'
 				required
 				className='input px-2 py-1 rounded bg-off-white'
 			/>
@@ -126,7 +127,7 @@ export default function MemberForm() {
 			<div className='flex flex-col items-center'>
                 <button 
 					role="button" 
-					className=" mt-2 bg-violet py-2 px-6 rounded font-normal lg:text-lg md:text-md text-sm cursor-pointer "
+					className={` ${styles.descriptionText} mt-2 bg-violet py-2 px-6 rounded cursor-pointer`} 
 				>
 					{isSubmitting ? "Submitting" : "Register Interest"}
 				</button>
