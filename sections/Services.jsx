@@ -159,9 +159,9 @@ const Services = () => {
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-off-white mb-4">
                                 <img src="/computer.svg" alt='consultancy' className='p-[0.3rem]'/>
                             </div>
-                            <p className={`${styles.subheaderText} mb-2`}>Web3 Consultancy</p>
+                            <p className={`${styles.subheaderText} mb-2`}>Software Development</p>
                             <ul className={`${styles.descriptionText} list-disc list-inside`}>
-                                <li>Web3 website integration</li>
+                                <li>Web3 website builds</li>
                                 <li>Smart contract builds</li>
                                 <li>Smart contract audits</li>
                             </ul>

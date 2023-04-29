@@ -16,9 +16,9 @@ const PricingTable = () => {
                     whileInView="show"
                     className={` mx-auto`}
                 >
-                    <div className="flex flex-wrap items-stretch -mx-4">
+                    <div className="flex flex-wrap justify-center items-stretch -mx-6">
 
-                        <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
+                        {/* <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
                             <div className="flex flex-col p-6 space-y-6 rounded sm:p-8 bg-off-white">
                                 <div className="space-y-2">
                                     <p className={`${styles.subheaderText} text-violet`}>Consult us</p>
@@ -27,7 +27,7 @@ const PricingTable = () => {
                                     </span>
                                 </div>
                                 <p className={`${styles.descriptionText} text-primary-black`}>Technical consultancy specialising in smart contracts.
-                                    <Link href="https://docs.bridgr.xyz/consultancy/web3-consultancy" className='font-semibold'> Read more.</Link>
+                                    <Link href="https://docs.bridgr.xyz/consultancy/web3-consultancy" className='font-medium'> Read more.</Link>
                                 </p>
                                 <ul className={`${styles.descriptionText} text-primary-black lg:space-y-2 space-y-1 flex-1`}>
                                     <li className="flex mb-2 space-x-2">
@@ -41,9 +41,9 @@ const PricingTable = () => {
                                     Contact Us
                                 </a>
                             </div>
-                        </div>
+                        </div> */}
 
-                        <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
+                        <div className="flex w-full mb-8 sm:px-4 md:w-1/2 xl:w-1/3 lg:mb-0">
                             <div className="flex flex-col p-6 space-y-6 rounded sm:p-8 bg-off-white">
                                 <div className="space-y-2">
                                     <p className={`${styles.subheaderText} text-violet`}>Friend</p>
@@ -51,8 +51,8 @@ const PricingTable = () => {
                                         <span className="text-sm font-medium tracking-wide ml-1">/ lifetime</span>
                                     </span>
                                 </div>
-                                <p className={`${styles.descriptionText} text-primary-black`}>Global events and media package plus engagement from our shared community.
-                                    <Link href="https://docs.bridgr.xyz/benefits/for-friends" className='font-semibold'> Read more.</Link>
+                                <p className={`${styles.descriptionText} text-primary-black`}>Global events and media package with engagement from our shared community.
+                                    <Link href="https://docs.bridgr.xyz/benefits/for-friends" className='font-medium'> Read more.</Link>
                                 </p>
                                 <ul className={`${styles.descriptionText} text-primary-black lg:space-y-2 space-y-1 flex-1`}>
                                     <li className="flex items-center space-x-2">
@@ -68,7 +68,7 @@ const PricingTable = () => {
                             </div>
                         </div>
 
-                        <div className="w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
+                        <div className="w-full mb-8 sm:px-4 md:w-1/2 xl:w-1/3 lg:mb-0">
                             <div className="p-6 space-y-6 rounded sm:p-8 bg-off-white">
                                 <div className="space-y-2">
                                     <p className={`${styles.subheaderText} text-violet`}>Member</p>
@@ -76,8 +76,8 @@ const PricingTable = () => {
                                         <span className="text-sm font-medium tracking-wide ml-1">/ year</span>
                                     </span>
                                 </div>
-                                <p className={`${styles.descriptionText} text-primary-black`}>Access to our partners combined services and communities.
-                                    <Link href="https://docs.bridgr.xyz/benefits/for-members" className='font-semibold'> Read more.</Link>
+                                <p className={`${styles.descriptionText} text-primary-black`}>Everything from Friend plus access to our partners combined services and communities.
+                                    <Link href="https://docs.bridgr.xyz/benefits/for-members" className='font-medium'> Read more.</Link>
                                 </p>
                                 <ul className={`${styles.descriptionText} text-primary-black lg:space-y-2 space-y-1`}>
                                     <li className="flex items-start space-x-2">
