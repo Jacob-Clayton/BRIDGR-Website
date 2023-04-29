@@ -40,7 +40,7 @@ const Services = () => {
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-off-white mb-4">
                                 <img src="/worldwide.svg" alt='visibility' className=' p-[0.35rem] mx-auto'/>
                             </div>
-                            <p className={`${styles.subheaderText}`}>Visibility</p>
+                            <p className={`${styles.subheaderText} mb-2`}>Visibility</p>
                             <ul className={`${styles.descriptionText} list-disc list-inside`}>
                                 <li>Global events exposure</li>
                                 <li>Community of 250,000+</li>
@@ -63,7 +63,7 @@ const Services = () => {
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-off-white mb-4">
                                 <img src="/construction.svg" alt='business building' className='p-[0.35rem] mx-auto'/>
                             </div>
-                            <p className={`${styles.subheaderText}`}>Business Building</p>
+                            <p className={`${styles.subheaderText} mb-2`}>Business Building</p>
                             <ul className={`${styles.descriptionText} list-disc list-inside`}>
                                 <li>Focus groups</li>
                                 <li>New revenue streams</li>
@@ -90,7 +90,7 @@ const Services = () => {
                                     <path fill="#170c4d" d="M9.939,19.658c0,0-0.003,0-0.006,0c-0.347-0.003-0.646-0.253-0.709-0.596L7.462,9.567C7.389,9.172,7.65,8.79,8.046,8.718C8.442,8.643,8.82,8.906,8.894,9.301l1.076,5.796l1.158-5.741c0.08-0.394,0.461-0.655,0.86-0.569c0.396,0.08,0.649,0.464,0.569,0.859l-1.904,9.427C10.585,19.413,10.286,19.658,9.939,19.658z"></path>
                                 </svg>                            
                             </div>
-                            <p className={`${styles.subheaderText}`}>Access Investors</p>
+                            <p className={`${styles.subheaderText} mb-2`}>Access Investors</p>
                             <ul className={`${styles.descriptionText} list-disc list-inside`}>
                                 <li>Access our VCs</li>
                                 <li>Pitch deck building</li>
@@ -113,7 +113,7 @@ const Services = () => {
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-off-white mb-4">
                                 <img src="/certificate.svg" alt='education' className='p-[0.3rem] mx-auto'/>
                             </div>
-                            <p className={`${styles.subheaderText}`}>Web3 Education</p>
+                            <p className={`${styles.subheaderText} mb-2`}>Web3 Education</p>
                             <ul className={`${styles.descriptionText} list-disc list-inside`}>
                                 <li>Training Certificates</li>
                                 <li>Workships</li>
@@ -136,7 +136,7 @@ const Services = () => {
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-off-white mb-4">
                                 <img src="/law.svg" alt='legal services' className='p-1 mx-auto'/>
                             </div>
-                            <p className={`${styles.subheaderText}`}>Web3 Legal Services</p>
+                            <p className={`${styles.subheaderText} mb-2`}>Web3 Legal Services</p>
                             <ul className={`${styles.descriptionText} list-disc list-inside`}>
                                 <li>Corporate law</li>
                                 <li>Blockchain adoption</li>
@@ -159,7 +159,7 @@ const Services = () => {
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-off-white mb-4">
                                 <img src="/computer.svg" alt='consultancy' className='p-[0.3rem]'/>
                             </div>
-                            <p className={`${styles.subheaderText}`}>Web3 Consultancy</p>
+                            <p className={`${styles.subheaderText} mb-2`}>Web3 Consultancy</p>
                             <ul className={`${styles.descriptionText} list-disc list-inside`}>
                                 <li>Web3 website integration</li>
                                 <li>Smart contract builds</li>

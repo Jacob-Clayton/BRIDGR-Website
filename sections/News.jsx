@@ -26,7 +26,7 @@ const News = () => {
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 flex flex-col">
                                 <a href='https://www.eventbrite.sg/e/nftnyc-after-party-on-april-12th-gamehaus-new-york-tickets-605643825987'>
-                                    <p className={`mx-auto ${styles.headerText} `}>NFT NYC </p>
+                                    <p className={`mx-auto ${styles.headerText} mb-2`}>NFT NYC </p>
                                 </a>
                                 <p className={`${styles.descriptionText}`}>
                                     We hosted a sold out NFT.NYC after party with the worlds first CryptoPunk band, live DJ and NFT prizes on 
@@ -53,7 +53,7 @@ const News = () => {
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 flex flex-col ">
                             <a href='https://medium.com/@bridgrxyz/web3-social-on-april-1st-in-istanbul-solidarity-donations-through-web3-b1839981ed9a'>
-                                <p className={`mx-auto ${styles.headerText} `}>Istanbul Keynote Panel</p>
+                                <p className={`mx-auto ${styles.headerText} mb-2`}>Istanbul Keynote Panel</p>
                             </a>
                                 <p className={`${styles.descriptionText}`}>
                                     How Web3 technologies can be implemented during situations like the February earthquake, with networking afterwards on 
@@ -79,7 +79,7 @@ const News = () => {
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 flex flex-col">
                                 <a href='https://twitter.com/Bridgrxyz/status/1625104846675386369?s=20'>
-                                    <p className={`mx-auto ${styles.headerText} `}>Beachside in Bali </p>
+                                    <p className={`mx-auto ${styles.headerText} mb-2`}>Beachside in Bali </p>
                                 </a>
                                 <p className={`${styles.descriptionText}`}>
                                     We hit the tropics for a red carpet event at the Lighthouse Studios with EDNS and Off-Chain on 
@@ -106,7 +106,7 @@ const News = () => {
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 flex flex-col">
                                 <a href='https://twitter.com/Bridgrxyz/status/1622586625552429057?s=20'>
-                                    <p className={`mx-auto ${styles.headerText}`}>Singapore Social</p>
+                                    <p className={`mx-auto ${styles.headerText} mb-2`}>Singapore Social</p>
                                 </a>
                                 <p className={`${styles.descriptionText}`}>
                                     Singapore's first NFT bar, The Parlour Singapore, hosted another fantastic sold out 'WEB3 SOCIAL' on 
@@ -132,7 +132,7 @@ const News = () => {
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 flex flex-col">
                                 <a href='https://twitter.com/Bridgrxyz/status/1592214170996703232?s=20'>
-                                    <p className={`mx-auto ${styles.headerText}`}>Istanbul Blockchain Week</p>
+                                    <p className={`mx-auto ${styles.headerText} mb-2`}>Istanbul Blockchain Week</p>
                                 </a>
                                 <p className={`${styles.descriptionText}`}>
                                     BRIDGR hosted the official Istanbul Blockchain Week afterparty at our friend's bar YouPlace, on 

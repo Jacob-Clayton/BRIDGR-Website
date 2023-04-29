@@ -21,7 +21,7 @@ const PricingTable = () => {
                         <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
                             <div className="flex flex-col p-6 space-y-6 rounded sm:p-8 bg-off-white">
                                 <div className="space-y-2">
-                                    <h4 className="xl:text-2xl lg:text-xl text-2xl font-bold text-violet">Consult us</h4>
+                                    <p className={`${styles.subheaderText} text-violet`}>Consult us</p>
                                     <span className="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-4xl sm:text-5xl text-4xl font-bold text-cetecean-blue">$150
                                         <span className="text-sm font-medium tracking-wide ml-1">/ hour</span>
                                     </span>
@@ -46,7 +46,7 @@ const PricingTable = () => {
                         <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
                             <div className="flex flex-col p-6 space-y-6 rounded sm:p-8 bg-off-white">
                                 <div className="space-y-2">
-                                    <h4 className="xl:text-2xl lg:text-xl text-2xl font-bold text-violet">Friend</h4>
+                                    <p className={`${styles.subheaderText} text-violet`}>Friend</p>
                                     <span className="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-4xl sm:text-5xl text-4xl font-bold text-cetecean-blue">$200
                                         <span className="text-sm font-medium tracking-wide ml-1">/ lifetime</span>
                                     </span>
@@ -71,7 +71,7 @@ const PricingTable = () => {
                         <div className="w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
                             <div className="p-6 space-y-6 rounded sm:p-8 bg-off-white">
                                 <div className="space-y-2">
-                                    <h4 className="xl:text-2xl lg:text-xl text-2xl font-bold text-violet">Member</h4>
+                                    <p className={`${styles.subheaderText} text-violet`}>Member</p>
                                     <span className="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-4xl sm:text-5xl text-4xl font-bold text-cetecean-blue">$2000
                                         <span className="text-sm font-medium tracking-wide ml-1">/ year</span>
                                     </span>
