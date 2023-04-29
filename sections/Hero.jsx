@@ -12,12 +12,12 @@ const Hero = () => {
           <p className={`${styles.heroHeading} sm:text-left text-center 2xl:px-0 sm:px-6 px-0`}>
             Accelerate your Web3 business
           </p>
-          <div className='sm:mt-8 md:mt-10 mt-5 sm:mx-[0px] mx-auto xl:max-w-[700px] lg:max-w-[600px] md:max-w-[550px] sm:max-w-[500px] max-w-[500px]'>
+          <div className='sm:mt-6 md:mt-8 mt-5 sm:mx-[0px] mx-auto xl:max-w-[700px] lg:max-w-[600px] md:max-w-[550px] sm:max-w-[500px] max-w-[500px]'>
           <p className= {`${styles.xPaddings} xl:w-3/4 sm:w-4/5 font-light sm:text-left text-center 2xl:text-2xl xl:text-xl md:text-xl sm:text-lg text-md text-off-white`}>
               We are a collective of Web3 companies offering our combined strength to help you grow.
             </p>
           </div>
-          <div className={`${styles.xPaddings} flex flex-row justify-center sm:justify-start sm:gap-8 gap-6 sm:mt-8 md:mt-10 mt-5`}>
+          <div className={`${styles.xPaddings} flex flex-row justify-center sm:justify-start sm:gap-8 gap-6 sm:mt-8 md:mt-10 mt-6`}>
             <div className=''>
                 <button className="bg-off-white text-primary-black py-2 px-6 items-center flex flex-row rounded">
                   <a className={` text-sm sm:text-lg md:text-xl font-normal cursor-pointer`} href="https://twitter.com/bridgrxyz">
