@@ -117,7 +117,7 @@ export default function MemberHome() {
                         To help you build your Web3 business we have a team of partners who cover a wide range of expertise to help you.
                         If you would like to access their combined services and combined community of 250,000+ please apply to become a member of BRIDGR.
                     </p>
-                    <div className='w-5/6 mx-auto sm:mt-20 mt-10 place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
+                    <div className={`${styles.innerWidth} mx-auto sm:mt-20 mt-10 place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3`}>
                         <a className="p-1 col-span-1" href='https://apegang.art/'>
                         <Tooltip message={"The 10th most sold NFT project, founded in May 2021, they have a team of Web developers, blockchain developers, NFT artists and community experts."}>
                         <Image 
@@ -134,9 +134,9 @@ export default function MemberHome() {
                         <a className="p-1 col-span-1" href='https://ethlas.com/'>
                         <Tooltip message={"Team of 30+ Web3 infrastructure engineers based in Singapore with over 2 million users on their gaming metaverse."}>
                         <Image 
-                            src='/ethlas.png' 
+                            src='/ethlas_white.png' 
                             alt="Ethlas" 
-                            className="max-w-[80%]" 
+                            className="max-w-[90%]" 
                             style={{opacity:'0.95'}}
                             quality={100}
                             width={1531}
@@ -163,7 +163,7 @@ export default function MemberHome() {
                             src='/cryptofemale.png' 
                             alt="Crypto Female" 
                             className="max-w-[80%]" 
-                            style={{opacity:'0.85'}}
+                            style={{opacity:'0.95'}}
                             quality={100}
                             width={1000}
                             height={596}
@@ -228,7 +228,7 @@ export default function MemberHome() {
                             src='/cfj.png' 
                             alt="Crowd Fund Junction" 
                             className="max-w-[100%]" 
-                            style={{opacity:'0.95'}}
+                            style={{opacity:'0.99'}}
                             quality={100}
                             width={1240}
                             height={399}
@@ -237,13 +237,10 @@ export default function MemberHome() {
                         </a>
                     </div>
                     <div>
-                        <button className='mx-auto sm:mt-20 mt-10 border-[1px] border-white border-opacity-30 shadow-md hover:bg-white hover:bg-opacity-10 text-off-white py-1 px-6 items-center flex flex-row rounded-lg duration-500'>
-                            <Link className= "font-normal xl:text-xl lg:text-lg md:text-md text-sm hover:text-white duration-400 cursor-pointer " href="/">
-                                Go Back
+                        <button className='mx-auto sm:mt-20 mt-10 bg-off-white py-2 px-6 items-center flex flex-row rounded'>
+                            <Link className= {`${styles.descriptionText} text-primary-black cursor-pointer `} href="/">
+                                Go Home
                             </Link>
-                            {/* <object className='ml-1 w-[30px] h-[30px]' type="image/svg+xml" data="/bridgrlogoanimatedslow.svg">
-                                <img src="/bridgrlogoanimatedslow.svg" alt='bridgr logo animated'/>
-                            </object> */}
                         </button>
                     </div>
                 </div>

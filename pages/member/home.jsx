@@ -5,7 +5,7 @@ import { MemberHome, Navbar } from "../../components";
 export default function home() {
     return (
 		<>
-            <div className="bg-primary-darkBlue min-h-screen overflow-hidden">
+            <div className="bg-cetecean-blue min-h-screen overflow-hidden">
                 <Navbar />
                 <MemberHome />
             </div>
