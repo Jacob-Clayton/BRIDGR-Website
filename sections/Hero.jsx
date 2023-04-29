@@ -17,14 +17,14 @@ const Hero = () => {
               We are a collective of Web3 companies offering our combined strength to help you grow.
             </p>
           </div>
-          <div className="flex flex-row justify-center sm:justify-start gap-2">
-            <div className='2xl:pl-0 px-6 sm:pr-8 sm:mt-8 md:mt-10 mt-5'>
+          <div className={`${styles.xPaddings} flex flex-row justify-center sm:justify-start sm:gap-8 gap-6 sm:mt-8 md:mt-10 mt-5`}>
+            <div className=''>
                 <button className="bg-off-white text-primary-black py-2 px-6 items-center flex flex-row rounded">
                   <a className={` text-sm sm:text-lg md:text-xl font-normal cursor-pointer`} href="https://twitter.com/bridgrxyz">
                     Follow</a><Image src="/twitterB.svg" className="sm:w-[22px] sm:h-[22px] w-[18px] h-[18px] ml-3" width={20} height={20} alt="twitter"/>
                 </button>
             </div>
-            <div className='sm:mt-8 md:mt-10 mt-5'>
+            <div className=''>
                 <button className=' bg-violet text-off-white py-2 px-5 items-center flex flex-row rounded'>
                   <a className={` text-sm sm:text-lg md:text-xl font-normal cursor-pointer`} href="#Contact">
                     Contact</a><Image src="/email.svg" className="sm:w-[24px] sm:h-[24px] w-[20px] h-[20px] ml-3" width={20} height={20} alt="email"/>
@@ -34,7 +34,7 @@ const Hero = () => {
       </div>
 
       <div className='w-[320px] h-[1px] block sm:hidden rounded-2xl mx-auto bg-white bg-opacity-20 mb-5 mt-5' />
-      <div className='w-[1px] h-[380px] sm:block hidden rounded-2xl my-auto bg-white bg-opacity-20' />
+      <div className='w-[1px] h-[360px] sm:block hidden rounded-2xl my-auto bg-white bg-opacity-20' />
         <div className='sm:w-1/4 flex sm:flex-row flex-col'>
         
           <div className="flex sm:flex-col flex-row items-center justify-center mx-auto my-auto xl:gap-14 lg:gap-12 md:gap-14 sm:gap-14 gap-6">

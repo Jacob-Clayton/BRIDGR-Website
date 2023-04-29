@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import ReactDOM from "react-dom";
 import Image from 'next/image'
 import Link from 'next/link';
 import { motion } from 'framer-motion';
