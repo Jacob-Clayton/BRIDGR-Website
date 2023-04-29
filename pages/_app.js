@@ -9,14 +9,14 @@ const rubik = Rubik({
 	weight: 'variable',
 	variable: '--font-rubik',
 	display: 'swap',
-})
+});
 
 const MyApp = ({ Component, pageProps }) => {
 	return (
 	<>
 		<Head>
-			<title>BRIDGR</title>
-			<meta property="og:title" lang='en' content="BRIDGR" key="title" />
+			<title>Bridgr</title>
+			<meta property="og:title" lang='en' content="Bridgr" key="title" />
 		</Head>
 		<main className={`${rubik.variable} font-rubik`}>
 			<Component {...pageProps} />
