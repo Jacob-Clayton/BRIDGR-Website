@@ -95,11 +95,11 @@ const Navbar = () => {
             <div className={`${styles.interWidth} flex mx-auto justify-between`}>
               <Link className='flex items-center' href='/'>
                 <Image
-                  src="/bridgrlogo.png" 
+                  src="/b-logo-02.png" 
                   alt="bridgr logo"
-                  className='2xl:w-[150px] sm:w-[120px] w-[100px]' 
-                  height={60} 
-                  width={180} 
+                  className='2xl:w-[170px] xl:w-[160px] lg:w-[150px] md:w-[130px] sm:w-[120px] w-[110px]' 
+                  height={100} 
+                  width={1000} 
                 />
               </Link>
               

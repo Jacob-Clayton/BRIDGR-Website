@@ -8,7 +8,7 @@ const PricingTable = () => {
 
     return (
         <>
-            <section className="text-gray-900 md:mt-10 mt-5">
+            <section className="text-gray-900 xl:mt-20 md:mt-10 mt-5">
                 <motion.div
                     variants={fadeIn('up', 'tween', 0.05, 1)}
                     initial={isLgScreen ? 'hidden' : 'visible'}

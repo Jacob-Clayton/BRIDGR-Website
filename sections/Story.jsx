@@ -11,7 +11,7 @@ const Story = () => {
 
     return (
         <section id='Story' className='relative'>
-            <div className={`${styles.innerWidth} mx-auto relative`}>
+            <div className={`${styles.innerWidth} mx-auto xl:mt-20 md:mt-10 mt-5 relative`}>
                 <motion.section 
                     className={`${styles.xPaddings} flex flex-col`}
                     variants={staggerContainer}

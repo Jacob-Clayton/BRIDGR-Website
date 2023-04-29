@@ -24,7 +24,7 @@ const Footer = () => {
         <div className='flex sm:flex-row flex-col justify-between items-center mb-4'>
           <div className='space-y-5'>
             <Image 
-              src="/bridgrlogo.png" 
+              src="/b-logo-02.png" 
               alt="bridgr logo"
               className='w-[80px] sm:w-[130px] sm:mx-0 mx-auto'
               quality={100}
@@ -50,7 +50,7 @@ const Footer = () => {
 
         <div className="flex mx-auto mt-3">
             <p className="font-normal text-[11px] sm:text-[12px] md:text-[12px] lg:text-[14px] text-gray-600 text-center">
-              © 2023 BRIDGR. All rights reserved.
+              © 2023 Bridgr. All rights reserved.
             </p>
         </div>
         

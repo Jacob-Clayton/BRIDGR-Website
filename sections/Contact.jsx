@@ -11,8 +11,8 @@ export default function Contact() {
   const isLgScreen = useMediaQuery({ minWidth: 1024 });
   
   return (
-    <section className={`${styles.paddings} relative z-10`} id='Contact'>
-      <div className={`${styles.innerWidth} mx-auto`}>
+    <section className={`${styles.paddings} relative  z-10`} id='Contact'>
+      <div className={`${styles.innerWidth} mx-auto xl:mt-12 md:mt-10 mt-5`}>
         <TitleText title={<>Contact</>} textStyles="text-center" />
         <motion.div 
           className='flex relative sm:flex-row flex-col mx-auto sm:mt-10 mt-5 sm:gap-0 gap-6'

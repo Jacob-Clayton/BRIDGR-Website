@@ -3,6 +3,14 @@
 import { motion } from 'framer-motion';
 import { textContainer, textVariant2 } from '../utils/motion';
 import { useMediaQuery } from 'react-responsive';
+import localFont from '@next/font/local';
+
+const britanica = localFont({ 
+	src: '../public/fonts/Britanica-BlackSemiExpanded.ttf',
+  weight: '900',
+	variable: '--font-britanica',
+	display: 'swap',
+});
 
 export const TypingText = ({ title, textStyles }) => (
   <motion.p
@@ -25,7 +33,7 @@ export const TitleText = ({ title, textStyles }) => {
     variants={textVariant2}
     initial={isLgScreen ? 'hidden' : 'visible'}
     whileInView="show"
-    className={`font-bold xl:text-5xl lg:text-5xl md:text-5xl sm:text-4xl text-3xl text-off-white ${textStyles}`}
+    className={`${britanica.variable} font-britanica xl:text-6xl lg:text-5xl md:text-5xl sm:text-5xl text-4xl text-off-white ${textStyles}`}
   >
     {title}
   </motion.h2>

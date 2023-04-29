@@ -1,7 +1,7 @@
 const Head = () => (
   <>
-    <title>BRIDGR</title>
-    <meta property="og:title" content="BRIDGR" key="title" />
+    <title>Bridgr</title>
+    <meta property="og:title" content="Bridgr" key="title" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta lang="en" />
     <link rel="icon" href="/favicon.ico" />   
