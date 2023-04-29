@@ -34,7 +34,7 @@ export default function MemberForm() {
 		}
 
 	return (
-		<form className='mt-10 gap-2 lg:w-[650px] md:w-[550px] sm:w-[500px] w-full mx-auto flex flex-col font-normal text-off-white' onSubmit={handleSubmit(onSubmit)}>
+		<form className='mt-10 gap-2 lg:w-[650px] md:w-[550px] sm:w-[500px] w-full mx-auto flex flex-col font-normal text-primary-black' onSubmit={handleSubmit(onSubmit)}>
 			<span className='space-x-3'>
                 <input
                     {...register("firstname")}

@@ -92,7 +92,7 @@ const Navbar = () => {
     return (
         <motion.nav id="navbar">
           <div className={`fixed top-0 lg:h-[65px] md:h-[62px] sm:h-[60px] h-[55px] flex z-50 w-full bg-cetecean-blue border-gray-500 border-b-[1px] border-opacity-30`}>
-            <div className={`${styles.interWidth} flex mx-auto justify-between`}>
+            <div className={`${styles.interWidth} ${styles.descriptionText} flex mx-auto justify-between`}>
               <Link className='flex items-center' href='/'>
                 <Image
                   src="/b-logo-02.png" 
@@ -105,7 +105,7 @@ const Navbar = () => {
               
               <div className='flex items-center'>
                 <div className='lg:flex hidden h-full gap-5'>
-                  <ul className={`flex gap-4 md:text-md xl:text-lg items-center font-normal text-off-white hover:text-white cursor-pointer`}>
+                  <ul className={`flex gap-4 items-center hover:text-white cursor-pointer`}>
                       {/* <li className="hover-underline-animation duration-500">
                         <Link href="/">Home</Link>
                       </li> */}
