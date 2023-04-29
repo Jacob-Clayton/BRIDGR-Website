@@ -14,7 +14,7 @@ const styles = {
   navPadding: 'pt-[98px]',
 
   headerText: 'font-medium 2xl:text-3xl xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl 2xl:leading-[50px] xl:leading-[45px] lg:leading-[40px] md:leading-[40px] sm:leading-[35px] leading-[35px] text-off-white',
-  subheaderText: 'font-semibold 2xl:text-2xl xl:text-2xl md:text-xl sm:text-xl text-lg 2xl:leading-[45px] xl:leading-[40px] lg:leading-[40px] md:leading-[35px] sm:leading-[35px] leading-[30px] text-off-white',
+  subheaderText: 'font-semibold 2xl:text-2xl xl:text-2xl md:text-xl sm:text-xl text-lg 2xl:leading-[40px] xl:leading-[40px] lg:leading-[40px] md:leading-[35px] sm:leading-[35px] leading-[30px] text-off-white',
   descriptionText: 'font-regular 2xl:text-xl xl:text-xl md:text-lg sm:text-md text-md text-off-white',
 
   // hero section

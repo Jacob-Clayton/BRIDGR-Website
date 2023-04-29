@@ -3,6 +3,7 @@ import axios from "axios";
 import { useForm } from "react-hook-form";
 import LoadingSpinner from './LoadingSpinner'
 import { ErrorMessage, SuccessMessage } from './Message'
+import styles from "../styles";
 
 export default function Newsletter() {
     const {
@@ -38,14 +39,14 @@ export default function Newsletter() {
             <div className={`flex flex-row`}>
 
 
-            <div className="flex flex-col mx-auto">
+            <div className={`flex flex-col mx-auto`}>
                 <div className="sm:text-left text-center mb-1">
                     <p className="text-md text-off-white">Subscribe for updates</p>
                 </div>
                 <div className="relative flex flex-row flex-shrink-0 shadow rounded-md">
-                    <div className="flex flex-row sm:w-[370px] w-full">
-                        <input {...register("email")} required aria-required={true} type='email' placeholder="example@email.com" className="w-4/6 px-3 py-1 rounded-l sm:w-2/3"/>
-                        <button role="button" className="w-2/6 px-3 py-1 font-regular lg:text-lg md:text-md text-sm rounded-r sm:w-1/3 bg-violet text-off-white">
+                    <div className="flex flex-row md:w-[390px] sm:w-[350px] w-full">
+                        <input {...register("email")} required aria-required={true} type='email' placeholder="example@email.com" className="w-4/6 px-3 py-2 rounded-l sm:w-2/3"/>
+                        <button role="button" className={`${styles.descriptionText} w-2/6 px-3 py-2 rounded-r sm:w-1/3 bg-violet`}>
                             {isSubmitting ? "Submitting" : "Subscribe"}
                         </button>
                         

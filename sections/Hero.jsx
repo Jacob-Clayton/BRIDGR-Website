@@ -27,9 +27,9 @@ const Hero = () => {
           </div>
           <div className={`${styles.xPaddings} flex flex-row justify-center sm:justify-start sm:gap-8 gap-6 sm:mt-8 md:mt-10 mt-6`}>
             <div className=''>
-                <button className="bg-off-white text-primary-black py-2 px-6 items-center flex flex-row rounded">
+                <button className="bg-violet text-off-white py-2 px-6 items-center flex flex-row rounded">
                   <a className={` text-sm sm:text-lg md:text-xl font-normal cursor-pointer`} href="https://twitter.com/bridgrxyz">
-                    Follow</a><Image src="/twitterB.svg" className="sm:w-[22px] sm:h-[22px] w-[18px] h-[18px] ml-3" width={20} height={20} alt="twitter"/>
+                    Follow</a><Image src="/twitter.svg" className="sm:w-[22px] sm:h-[22px] w-[18px] h-[18px] ml-3" width={20} height={20} alt="twitter"/>
                 </button>
             </div>
             <div className=''>

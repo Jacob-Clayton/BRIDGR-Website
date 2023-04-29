@@ -30,7 +30,7 @@ const CarouselElement = () => {
                 className="flex-[0.5] xl:max-w-[370px] lg:max-w-[320px] flex justify-end flex-col sm:gradient-05 sm:p-8 p-4 rounded border-[1px] border-gray-500 border-opacity-30 text-left relative"
             >
                 <div>
-                    <p className="font-bold sm:text-[32px] text-[26px]">
+                    <p className={`${styles.headerText}`}>
                         Mark
                     </p>
                     <p className={`${styles.descriptionText}`}>
@@ -65,7 +65,7 @@ const CarouselElement = () => {
                 className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col sm:gradient-05 sm:p-8 p-4 rounded border-[1px] border-gray-500 border-opacity-30 text-left relative"
             >
                 <div>
-                    <p className="font-bold sm:text-[32px] text-[26px]">
+                    <p className={`${styles.headerText}`}>
                         Kishor
                     </p>
                     <p className={`${styles.descriptionText}`}>
@@ -73,7 +73,7 @@ const CarouselElement = () => {
                     </p>
                 </div>
 
-                <p className={`${styles.descriptionText} sm:mt-6 mt-4`}>
+                <p className={`${styles.descriptionText} sm:mt-4 mt-2`}>
                     “Community is everything in Web3, it's also a huge struggle for companies joining. BRIDGR helps solve this by 
                     providing immediate access to a worldwide Web3 community ontop of a full suite of technical services.”
                 </p>
@@ -100,7 +100,7 @@ const CarouselElement = () => {
                 className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col sm:gradient-05 sm:p-8 p-4 rounded border-[1px] border-gray-500 border-opacity-30 text-left relative"
             >
                 <div>
-                    <h4 className="font-bold sm:text-[32px] text-[26px]">
+                    <h4 className={`${styles.headerText}`}>
                         Jacob
                     </h4>
                     <p className={`${styles.descriptionText}`}>
@@ -108,7 +108,7 @@ const CarouselElement = () => {
                     </p>
                 </div>
 
-            <p className={`${styles.descriptionText} sm:mt-6 mt-4`}>
+            <p className={`${styles.descriptionText} sm:mt-4 mt-2`}>
                 "Working as a collective like BRIDGR fosters a culture of transparency and shared decision-making.
                 It empowers everyone to work as one in shaping the direction of the company and the companies 
                 we help build."

@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { useMediaQuery } from 'react-responsive';
 import { fadeIn } from '../utils/motion';
 import Link from 'next/link';
+import styles from '../styles';
 
 const PricingTable = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
@@ -25,10 +26,10 @@ const PricingTable = () => {
                                         <span className="text-sm font-medium tracking-wide ml-1">/ hour</span>
                                     </span>
                                 </div>
-                                <p className="mt-3 leading-relaxed ">Technical consultancy specialising in smart contracts.
+                                <p className={`${styles.descriptionText} text-primary-black`}>Technical consultancy specialising in smart contracts.
                                     <Link href="https://docs.bridgr.xyz/consultancy/web3-consultancy" className='font-semibold'> Read more.</Link>
                                 </p>
-                                <ul className="flex-1 mb-6 ">
+                                <ul className={`${styles.descriptionText} text-primary-black lg:space-y-2 space-y-1 flex-1`}>
                                     <li className="flex mb-2 space-x-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 ">
                                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
@@ -36,7 +37,7 @@ const PricingTable = () => {
                                         <span>Web3 Consultancy</span>
                                     </li>
                                 </ul>
-                                <a rel="noopener noreferrer" href="#Contact" className="inline-block w-full px-5 py-3 font-bold tracking-wider text-center rounded bg-violet text-off-white">
+                                <a rel="noopener noreferrer" href="#Contact" className={`${styles.descriptionText} inline-block w-full px-5 py-3 text-center rounded bg-violet text-off-white`}>
                                     Contact Us
                                 </a>
                             </div>
@@ -50,10 +51,10 @@ const PricingTable = () => {
                                         <span className="text-sm font-medium tracking-wide ml-1">/ lifetime</span>
                                     </span>
                                 </div>
-                                <p className="leading-relaxed">Global events exposure plus media package and engagement with our shared community.
+                                <p className={`${styles.descriptionText} text-primary-black`}>Global events and media package plus engagement from our shared community.
                                     <Link href="https://docs.bridgr.xyz/benefits/for-friends" className='font-semibold'> Read more.</Link>
                                 </p>
-                                <ul className="flex-1 space-y-2">
+                                <ul className={`${styles.descriptionText} text-primary-black lg:space-y-2 space-y-1 flex-1`}>
                                     <li className="flex items-center space-x-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
                                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
@@ -61,7 +62,7 @@ const PricingTable = () => {
                                         <span>Visibility</span>
                                     </li>
                                 </ul>
-                                <a rel="noopener noreferrer" href="#Contact" className="inline-block w-full px-5 py-3 font-bold tracking-wider text-center rounded bg-violet text-off-white">
+                                <a rel="noopener noreferrer" href="#Contact" className={` ${styles.descriptionText} inline-block w-full px-5 py-3 text-center rounded bg-violet text-off-white`}>
                                     Contact Us
                                 </a>
                             </div>
@@ -75,10 +76,10 @@ const PricingTable = () => {
                                         <span className="text-sm font-medium tracking-wide ml-1">/ year</span>
                                     </span>
                                 </div>
-                                <p className="leading-relaxed">Get full access to our partners combined services and communities. Register interest before June for 20% off.
+                                <p className={`${styles.descriptionText} text-primary-black`}>Access to our partners combined services and communities.
                                     <Link href="https://docs.bridgr.xyz/benefits/for-members" className='font-semibold'> Read more.</Link>
                                 </p>
-                                <ul className="space-y-2">
+                                <ul className={`${styles.descriptionText} text-primary-black lg:space-y-2 space-y-1`}>
                                     <li className="flex items-start space-x-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
                                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
@@ -110,7 +111,7 @@ const PricingTable = () => {
                                         <span>Web3 Legal Services</span>
                                     </li>
                                 </ul>
-                                <a rel="noopener noreferrer" href="/apply/member" className="inline-block w-full px-5 py-3 font-semibold tracking-wider text-center rounded bg-violet text-off-white">
+                                <a rel="noopener noreferrer" href="/apply/member" className={` ${styles.descriptionText} inline-block w-full px-5 py-3 text-center rounded bg-violet text-off-white`}>
                                     Register Interest
                                 </a>
                             </div>

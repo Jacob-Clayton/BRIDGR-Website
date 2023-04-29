@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useForm } from "react-hook-form";
 import LoadingSpinner from './LoadingSpinner'
 import { ErrorMessage, SuccessMessage } from './Message'
+import styles from '../styles';
 
 export default function ContactForm() {
     const {
@@ -32,7 +33,7 @@ export default function ContactForm() {
 		}
 
 	return (
-		<form className={`gap-2 sm:w-3/4 w-full mx-auto flex flex-col`} onSubmit={handleSubmit(onSubmit)}>
+		<form className={`text-primary-black gap-2 sm:w-3/4 w-full mx-auto flex flex-col`} onSubmit={handleSubmit(onSubmit)}>
 			<input
 				{...register("name")}
 				id='name'
@@ -77,7 +78,7 @@ export default function ContactForm() {
 			<div className='flex flex-col items-center'>
                 <button 
 					role="button" 
-					className="flex mx-auto bg-violet text-off-white px-5 py-1 rounded font-regular lg:text-lg md:text-md text-sm cursor-pointer "
+					className={`${styles.descriptionText} flex mx-auto bg-violet text-off-white px-5 py-2 rounded cursor-pointer`}
 				>
 					{isSubmitting ? "Submitting" : "Send"}
 				</button>
