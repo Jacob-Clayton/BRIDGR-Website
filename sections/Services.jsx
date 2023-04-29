@@ -42,8 +42,8 @@ const Services = () => {
                             </div>
                             <p className={`${styles.subheaderText} mb-2`}>Visibility</p>
                             <ul className={`${styles.descriptionText} list-disc list-inside`}>
-                                <li>Global events exposure</li>
-                                <li>Community of 250,000+</li>
+                                <li>Global events</li>
+                                <li>Community of 250k+</li>
                                 <li>Media Packages</li>
                             </ul>
                             <InfoTip message={"Read more"}>
@@ -159,7 +159,7 @@ const Services = () => {
                             <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-off-white mb-4">
                                 <img src="/computer.svg" alt='consultancy' className='p-[0.3rem]'/>
                             </div>
-                            <p className={`${styles.subheaderText} mb-2`}>Software Development</p>
+                            <p className={`${styles.subheaderText} mb-2`}>Web3 Development</p>
                             <ul className={`${styles.descriptionText} list-disc list-inside`}>
                                 <li>Web3 website builds</li>
                                 <li>Smart contract builds</li>
