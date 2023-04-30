@@ -25,7 +25,7 @@ const News = () => {
                         />
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 flex flex-col">
-                                <a href='https://www.eventbrite.sg/e/nftnyc-after-party-on-april-12th-gamehaus-new-york-tickets-605643825987'>
+                                <a href='https://www.ledropwithcheese.com/post/web3-social-by-bridgr-eden-roc-hotel-may-18th-2023-from-2-5pm'>
                                     <p className={`mx-auto ${styles.headerText} mb-2`}>Bitcoin Miami</p>
                                 </a>
                                 <p className={`${styles.descriptionText}`}>

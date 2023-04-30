@@ -116,6 +116,7 @@
   filter: blur(150px);
 }
 
+/* magic animations */
 @keyframes background-pan {
   from {
     background-position: 0%;
@@ -169,6 +170,7 @@
   white-space: nowrap;
 }
 
+/* section divider waves */
 .wave-blue {
   position: absolute;
   left: 0;
@@ -185,6 +187,7 @@
   z-index: 0;
 }
 
+/* Text underline animation */
 .hover-underline-animation {
   display: inline-block;
   position: relative;
@@ -208,6 +211,7 @@
   transform-origin: bottom left;
 }
 
+/* Navbar */
 .navbar {
   position: fixed;
   top: 0;

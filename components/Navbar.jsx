@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from 'react'
-import ReactDOM from "react-dom";
+import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import styles from '../styles';
-import { navVariants } from '../utils/motion';
 import localFont from '@next/font/local';
 import classnames from "classnames";
 
@@ -16,10 +14,21 @@ const britanica = localFont({
 });
 
 function MobileNav({open, setOpen}) {
-  return (   
-    <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[55%] bg-cetecean-blue rounded-tl rounded-bl border-l-[1px] border-gray-500 border-opacity-30 transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-100 ease-in-out filter `}>
-      <div className={`${styles.descriptionText} gap-5 z-100 flex flex-col items-center mt-[20%] sm:mt-[22%] md:mt-[20%] lg:mt-[25%]`}>
+  useEffect(() => {
+    const handleScroll = () => {
+      setOpen(false);
+    };
 
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [setOpen]);
+
+  return (   
+    <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[55%] bg-cetecean-blue rounded-tl rounded-bl border-l-[1px] border-gray-500 border-opacity-30 transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-200 ease-in-out filter `}>
+      <div className={`${styles.descriptionText} gap-5 z-100 flex flex-col items-center mt-[20%] sm:mt-[22%] md:mt-[20%] lg:mt-[25%]`}>
           <Link 
             className=" cursor-pointer" 
             href="/" 
