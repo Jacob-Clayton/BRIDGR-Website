@@ -11,17 +11,17 @@ const NotFoundPage = () => {
         <section className={`${styles.paddings} relative bg-cetecean-blue min-h-screen`}>
                 <div className={`${styles.innerWidth} mx-auto mt-5 sm:mt-10 md:mt-20`}>
                     <TitleText title={<>404: Page Not Found</>}textStyles="text-center" />
-                    <p className="mt-10 font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-center text-off-white">
+                    <p className={`${styles.descriptionText} text-center mt-10 `}>
                         Sorry, there is nothing to see here
 					</p>
                     <div className='mt-10 flex flex-row gap-6 justify-center'>
-                        <button className='border-[1px] border-white border-opacity-30 shadow-md hover:bg-white hover:bg-opacity-10 text-off-white py-1 px-4 items-center rounded-lg duration-500'>
-                            <Link className= "font-normal xl:text-xl lg:text-lg md:text-md text-sm hover:text-white duration-400 cursor-pointer" href="/">
+                        <button className='bg-violet py-2 px-5 items-center rounded'>
+                            <Link className= {`${styles.descriptionText} cursor-pointer`} href="/">
                                 Home
                             </Link>
                         </button>
-                        <button className='border-[1px] border-white border-opacity-30 shadow-md hover:bg-white hover:bg-opacity-10 text-off-white py-1 px-4 items-center rounded-lg duration-500'>
-                            <Link className= "font-normal xl:text-xl lg:text-lg md:text-md text-sm hover:text-white duration-400 cursor-pointer" href="/#Contact">
+                        <button className='bg-violet py-1 px-4 items-center rounded'>
+                            <Link className= {`${styles.descriptionText} cursor-pointer`} href="/#Contact">
                                 Contact Us
                             </Link>
                         </button>

@@ -1,10 +1,10 @@
-import { Footer, Navbar } from '../components';
+import { Footer, Nav } from '../components';
 import { About, Story, Hero, Team, Services, Pricing, Events, News, Contact } from '../sections';
 
 const Home = () => (
   <>
     <div className="bg-cetecean-blue overflow-hidden">
-      <Navbar />
+      <Nav />
       <Hero/>
     </div>
     <div className="relative">
