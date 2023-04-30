@@ -33,13 +33,13 @@ const Footer = () => {
               width={1346}
             />   
             <div className="flex flex-row gap-4 items-center">
-              <a href="https://twitter.com/bridgrxyz"><Image src='/twitter.svg' class='w-[20px] h-[20px] object-contain cursor-pointer' width={20} height={20} alt='twitter'/></a>
-              <a href="https://t.me/bridgr"><Image src='/telegram.svg' class='w-[20px] h-[20px] object-contain cursor-pointer' width={20} height={20} alt='telegram'/></a>
-              <a href="https://discord.com/invite/j2ayV98Dc2"><Image src='/discord.svg' class='w-[20px] h-[20px] object-contain cursor-pointer' width={20} height={20} alt='discord'/></a>
-              <a href='https://medium.com/@bridgrxyz' ><Image src='/medium.svg' class='w-[20px] h-[20px] object-contain cursor-pointer' width={20} height={20} alt='medium'/></a>
-              <a href='https://www.linkedin.com/company/bridgr-xyz' ><Image src='/linkedin.svg' class='w-[17px] h-[17px] object-contain cursor-pointer' width={20} height={20} alt='linkedin'/></a>
-              <a href="mailto:bridgrxyz@gmail.com"><Image src='/email.svg' class='w-[20px] h-[20px] object-contain cursor-pointer' width={20} height={20} alt='email'/></a>
-              <a href='https://calendly.com/bridgrxyz/30min-call' ><Image src='/phone.svg' class='w-[18px] h-[18px] object-contain cursor-pointer' width={20} height={20} alt='video call'/></a>
+              <a href="https://twitter.com/bridgrxyz"><Image src='/twitter.svg' className='w-[20px] h-[20px] object-contain cursor-pointer' width={20} height={20} alt='twitter'/></a>
+              <a href="https://t.me/bridgr"><Image src='/telegram.svg' className='w-[20px] h-[20px] object-contain cursor-pointer' width={20} height={20} alt='telegram'/></a>
+              <a href="https://discord.com/invite/j2ayV98Dc2"><Image src='/discord.svg' className='w-[20px] h-[20px] object-contain cursor-pointer' width={20} height={20} alt='discord'/></a>
+              {/* <a href='https://medium.com/@bridgrxyz' ><Image src='/medium.svg' className='w-[20px] h-[20px] object-contain cursor-pointer' width={20} height={20} alt='medium'/></a> */}
+              <a href='https://www.linkedin.com/company/bridgr-xyz' ><Image src='/linkedin.svg' className='w-[18px] h-[18px] object-contain cursor-pointer' width={20} height={20} alt='linkedin'/></a>
+              {/* <a href="mailto:bridgrxyz@gmail.com"><Image src='/email.svg' className='w-[20px] h-[20px] object-contain cursor-pointer' width={20} height={20} alt='email'/></a> */}
+              {/* <a href='https://calendly.com/bridgrxyz/30min-call' ><Image src='/phone.svg' className='w-[18px] h-[18px] object-contain cursor-pointer' width={20} height={20} alt='video call'/></a> */}
             </div>
           </div>
           <div className='sm:mt-0 mt-4'>
