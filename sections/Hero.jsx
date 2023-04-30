@@ -42,7 +42,8 @@ const Hero = () => {
       </div>
 
       <div className='w-[320px] h-[1px] block sm:hidden rounded-2xl mx-auto bg-white bg-opacity-20 mb-5 mt-5' />
-      <div className='w-[1px] h-[360px] sm:block hidden rounded-2xl my-auto bg-white bg-opacity-20' />
+      <div className='w-[1px] h-[350px] sm:block hidden rounded-2xl my-auto bg-white bg-opacity-20' />
+
         <div className='sm:w-1/4 flex sm:flex-row flex-col text-off-white text-center'>
         
           <div className="flex sm:flex-col flex-row items-center justify-center mx-auto my-auto xl:gap-14 lg:gap-12 md:gap-14 sm:gap-14 gap-6">
