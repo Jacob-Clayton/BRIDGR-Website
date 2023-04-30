@@ -18,6 +18,32 @@ const News = () => {
 
                     <div className="relative flex sm:flex-row flex-col xl:gap-20 lg:gap-12 md:gap-8 sm:gap-6 gap-2">
                         <Image
+                            src="/edenroc.webp"
+                            alt="nft nyc event"
+                            className="mx-auto lg:w-[180px] lg:h-[180px] w-[150px] h-[150px] rounded object-cover"
+                            width={180} height={180}
+                        />
+                        <div className="w-full flex justify-between items-center">
+                            <div className="flex-1 flex flex-col">
+                                <a href='https://www.eventbrite.sg/e/nftnyc-after-party-on-april-12th-gamehaus-new-york-tickets-605643825987'>
+                                    <p className={`mx-auto ${styles.headerText} mb-2`}>Bitcoin Miami</p>
+                                </a>
+                                <p className={`${styles.descriptionText}`}>
+                                    Come join us at the iconic beachside Eden Roc Hotel on May 18th, enjoy the beach and network with some of the brightest minds in Web3. Tickets coming soon.</p>
+                            </div>
+                            
+                        </div>
+                        <div className='flex my-auto'>
+                            <a href='https://www.ledropwithcheese.com/post/web3-social-by-bridgr-eden-roc-hotel-may-18th-2023-from-2-5pm'>
+                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-white hover:bg-opacity-10 duration-500">
+                                        <Image src="/arrow.svg" alt="arrow" width={40} height={40} className="w-[40%] h-[40%] object-contain"/> 
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="relative flex sm:flex-row flex-col xl:gap-20 lg:gap-12 md:gap-8 sm:gap-6 gap-2">
+                        <Image
                             src="/gamehaus_game.jpg"
                             alt="nft nyc event"
                             className="mx-auto lg:w-[180px] lg:h-[180px] w-[150px] h-[150px] rounded object-cover"
