@@ -11,17 +11,18 @@ const Footer = () => {
   const isMdScreen = useMediaQuery({ minWidth: 768 });
 
   return (
-    <motion.footer
-      variants={footerVariants}
-      initial={isMdScreen ? 'hidden' : 'visible'}
-      whileInView="show"
-      className={` py-10 relative h-full`}
-    >
+    <footer className={` sm:pt-14 pt-8 relative h-full`}>
+      <div className="absolute top-0 h-[1px] w-full bg-gray-500 opacity-20" />
+      <div className="footer-gradient opacity-[20%] lg:block hidden" />
+
+      <motion.div 
+        className={`${styles.interWidth} mx-auto flex flex-col`}
+        variants={footerVariants}
+        initial={isMdScreen ? 'hidden' : 'visible'}
+        whileInView="show"
+      >
     
-      <div className="footer-gradient opacity-[60%] lg:block hidden" />
-      <div className={`${styles.interWidth} mx-auto flex flex-col`}>
-    
-        <div className='flex sm:flex-row flex-col justify-between items-center mb-4'>
+        <div className='flex sm:flex-row gap-2 sm:gap-0 flex-col justify-between items-center mb-6'>
           <div className='space-y-5'>
             <Image 
               src="/b-logo-02.png" 
@@ -48,14 +49,14 @@ const Footer = () => {
         
         <div className="my-3 h-[1px] w-full bg-gray-500 opacity-30" />
 
-        <div className="flex mx-auto mt-3">
-            <p className="font-normal text-[11px] sm:text-[12px] md:text-[12px] lg:text-[14px] text-secondary-white text-center">
+        <div className="flex mx-auto mt-3 mb-5">
+            <p className="font-normal text-[11px] sm:text-[12px] md:text-[12px] lg:text-[14px] text-gray-600 text-center">
               © 2023 Bridgr. All rights reserved.
             </p>
         </div>
         
-      </div>
-    </motion.footer>
+      </motion.div>
+    </footer>
   );
 };
 

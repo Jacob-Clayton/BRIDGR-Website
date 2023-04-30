@@ -27,7 +27,7 @@ const CarouselElement = () => {
         <motion.div className="mx-auto flex lg:flex-row flex-col gap-6">
             <motion.div
                 variants={fadeIn('right', 'tween', 0.2, 1)}
-                className="flex-[0.5] xl:max-w-[370px] lg:max-w-[320px] flex justify-end flex-col sm:gradient-05 sm:p-8 p-4 rounded border-[1px] border-gray-500 border-opacity-30 text-left relative"
+                className="flex-[0.5] xl:max-w-[370px] lg:max-w-[320px] flex justify-end flex-col sm:p-8 p-4 rounded border-[1px] border-gray-500 border-opacity-30 text-left relative"
             >
                 <div>
                     <p className={`${styles.headerText}`}>
@@ -62,7 +62,7 @@ const CarouselElement = () => {
         <motion.div className="mx-auto flex lg:flex-row flex-col gap-6">
             <motion.div
                 variants={fadeIn('right', 'tween', 0.2, 1)}
-                className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col sm:gradient-05 sm:p-8 p-4 rounded border-[1px] border-gray-500 border-opacity-30 text-left relative"
+                className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col sm:p-8 p-4 rounded border-[1px] border-gray-500 border-opacity-30 text-left relative"
             >
                 <div>
                     <p className={`${styles.headerText}`}>
@@ -97,7 +97,7 @@ const CarouselElement = () => {
         <motion.div className="mx-auto flex lg:flex-row flex-col gap-6">
             <motion.div
                 variants={fadeIn('right', 'tween', 0.2, 1)}
-                className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col sm:gradient-05 sm:p-8 p-4 rounded border-[1px] border-gray-500 border-opacity-30 text-left relative"
+                className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col sm:p-8 p-4 rounded border-[1px] border-gray-500 border-opacity-30 text-left relative"
             >
                 <div>
                     <h4 className={`${styles.headerText}`}>

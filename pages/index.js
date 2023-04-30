@@ -26,7 +26,7 @@ const Home = () => (
       <div className='bg-cetecean-blue'>
         <Contact/>
       </div>
-      <div className='bg-cetecean-blue'>
+      <div className='bg-primary-black'>
         <Footer />
       </div>
     </div>

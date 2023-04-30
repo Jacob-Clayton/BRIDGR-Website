@@ -19,7 +19,9 @@ const Services = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
 
     return(
-        <section className={`${styles.paddings}`} id="Services">
+        <section className={`${styles.paddings} relative`} id="Services">
+            <div className='gradient-03 z-0 lg:block hidden' />
+
             <motion.div 
                 className={`${styles.innerWidth} 2xl:mt-[100px] md:mt-12 sm:mt-10 mt-4 mx-auto`} 
                 id='details'

@@ -24,6 +24,8 @@ const Events = () => {
         viewport={{ once: false, amount: 0.01 }}
         className={`${styles.innerWidth} mx-auto md:mt-20 sm:mt-10 mt-5 flex flex-col`}
       >
+        <div className='gradient-04 z-0 lg:block hidden' />
+
         <TitleText title={(<>Web3 Events</>)} textStyles="text-center" />
         <motion.p
           variants={fadeIn('up', 'tween', 0.05, 1)}

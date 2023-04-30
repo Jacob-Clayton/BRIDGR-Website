@@ -20,8 +20,8 @@ const News = () => {
                         <Image
                             src="/edenroc.webp"
                             alt="nft nyc event"
-                            className="mx-auto lg:w-[180px] lg:h-[180px] w-[150px] h-[150px] rounded object-cover"
-                            width={180} height={180}
+                            className="mx-auto lg:w-[180px] lg:h-[180px] sm:w-[150px] sm:h-[150px] w-[120px] h-[120px] rounded object-cover"
+                            width={250} height={250}
                         />
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 flex flex-col">
@@ -46,7 +46,7 @@ const News = () => {
                         <Image
                             src="/gamehaus_game.jpg"
                             alt="nft nyc event"
-                            className="mx-auto lg:w-[180px] lg:h-[180px] w-[150px] h-[150px] rounded object-cover"
+                            className="mx-auto lg:w-[180px] lg:h-[180px] sm:w-[150px] sm:h-[150px] w-[120px] h-[120px] rounded object-cover"
                             width={180} height={180}
                         />
                         <div className="w-full flex justify-between items-center">
@@ -73,7 +73,7 @@ const News = () => {
                         <Image
                             src="/istanbul_dj.jpg"
                             alt="istanbul event"
-                            className="mx-auto lg:w-[180px] lg:h-[180px] w-[150px] h-[150px] rounded object-cover"
+                            className="mx-auto lg:w-[180px] lg:h-[180px] sm:w-[150px] sm:h-[150px] w-[120px] h-[120px] rounded object-cover"
                             width={180} height={180}
                         />
                         <div className="w-full flex justify-between items-center">
@@ -99,7 +99,7 @@ const News = () => {
                         <Image
                             src="/balinews.jpg"
                             alt="bali event"
-                            className="mx-auto lg:w-[180px] lg:h-[180px] w-[150px] h-[150px] rounded object-cover"
+                            className="mx-auto lg:w-[180px] lg:h-[180px] sm:w-[150px] sm:h-[150px] w-[120px] h-[120px] rounded object-cover"
                             width={180} height={180}
                         />
                         <div className="w-full flex justify-between items-center">
@@ -126,7 +126,7 @@ const News = () => {
                         <Image
                             src="/singaporefeb.jpg"
                             alt="singapore event"
-                            className="mx-auto lg:w-[180px] lg:h-[180px] w-[150px] h-[130px] rounded object-cover"
+                            className="mx-auto lg:w-[180px] lg:h-[180px] sm:w-[150px] sm:h-[150px] w-[120px] h-[120px] rounded object-cover"
                             width={180} height={180}
                         />
                         <div className="w-full flex justify-between items-center">
@@ -152,7 +152,7 @@ const News = () => {
                         <Image
                             src="/istanbulnews.jpg"
                             alt="istanbul event"
-                            className="mx-auto lg:w-[180px] lg:h-[180px] w-[150px] h-[150px] rounded object-cover"
+                            className="mx-auto lg:w-[180px] lg:h-[180px] sm:w-[150px] sm:h-[150px] w-[120px] h-[120px] rounded object-cover"
                             width={180} height={180}
                         />
                         <div className="w-full flex justify-between items-center">

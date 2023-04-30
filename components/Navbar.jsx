@@ -112,7 +112,7 @@ const Navbar = () => {
               </Link>
               
               <div className='flex items-center'>
-                <div className='lg:flex hidden h-full gap-5'>
+                <div className='md:flex hidden h-full gap-5'>
                   <ul className={`flex gap-4 items-center hover:text-white cursor-pointer`}>
                       {/* <li className="hover-underline-animation duration-500">
                         <Link href="/">Home</Link>
@@ -153,7 +153,7 @@ const Navbar = () => {
 
                 <MobileNav open={open} setOpen={setOpen} />
                 <div 
-                  className="flex lg:hidden group z-50 relative w-6 h-6 cursor-pointer flex-col justify-between" 
+                  className="flex md:hidden group z-50 relative w-6 h-6 cursor-pointer flex-col justify-between" 
                   alt="menu"
                   onClick={() => {setOpen(!open)}}
                 >
