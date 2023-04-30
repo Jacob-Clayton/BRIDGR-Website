@@ -100,7 +100,7 @@ const Navbar = ({ visible }) => {
 
     return (
         <motion.nav id="navbar" className={classnames("navbar", {"navbar--hidden": !visible})}>
-          <div className={` ${britanica.variable} fixed lg:h-[65px] md:h-[62px] sm:h-[60px] h-[55px] flex w-full bg-cetecean-blue border-gray-500 border-b-[1px] border-opacity-30`}>
+          <div className={` ${britanica.variable} fixed lg:h-[70px] md:h-[62px] sm:h-[60px] h-[55px] flex w-full bg-cetecean-blue border-gray-500 border-b-[1px] border-opacity-30`}>
             <div className={`${styles.interWidth} ${styles.descriptionText} flex mx-auto justify-between`}>
               <Link className='flex items-center' href='/'>
                 <Image
