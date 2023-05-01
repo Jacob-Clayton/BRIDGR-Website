@@ -1,5 +1,5 @@
 import { Footer, Nav } from '../components';
-import { About, Story, Hero, Team, Services, NewServices, Pricing, Events, News, Contact } from '../sections';
+import { About, Story, Hero, Team, NewServices, Pricing, Events, News, Contact } from '../sections';
 
 const Home = () => (
   <>
@@ -12,7 +12,6 @@ const Home = () => (
         <About />
         <Team />
         <Story />
-        {/* <Services /> */}
         <NewServices />
         <Pricing />
         <Events />
