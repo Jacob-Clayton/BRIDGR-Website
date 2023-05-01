@@ -10,7 +10,7 @@ const Services = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
 
     return(
-        <section className={` relative md:mt-20 sm:mt-10 mt-5`} id="Services">
+        <section className={`relative md:mt-20 sm:mt-10 mt-5`} id="Services">
             <div className='gradient-04 z-0 lg:block hidden' />
 
             <motion.div 
