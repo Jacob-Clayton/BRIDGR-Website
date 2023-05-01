@@ -51,7 +51,7 @@ const News = () => {
                         />
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 flex flex-col">
-                                <a href='https://www.eventbrite.sg/e/nftnyc-after-party-on-april-12th-gamehaus-new-york-tickets-605643825987'>
+                                <a href='https://twitter.com/Bridgrxyz/status/1650437870321291269?s=20'>
                                     <p className={`mx-auto ${styles.headerText} mb-2`}>NFT NYC </p>
                                 </a>
                                 <p className={`${styles.descriptionText}`}>
@@ -61,7 +61,7 @@ const News = () => {
                             
                         </div>
                         <div className='flex my-auto'>
-                            <a href='https://www.eventbrite.sg/e/nftnyc-after-party-on-april-12th-gamehaus-new-york-tickets-605643825987'>
+                            <a href='https://twitter.com/Bridgrxyz/status/1650437870321291269?s=20'>
                                 <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-white hover:bg-opacity-10 duration-500">
                                         <Image src="/arrow.svg" alt="arrow" width={40} height={40} className="w-[40%] h-[40%] object-contain"/> 
                                 </div>
