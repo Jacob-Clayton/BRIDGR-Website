@@ -38,7 +38,7 @@ const Services = () => {
                                     <p className={`${styles.subheaderText} sm:text-right text-left lg:mb-2 sm:mb-1 text-lavender`}>Visibility</p>
                                     <p className={`${styles.descriptionText} sm:text-right text-left`}>
                                         Global web3 events with exposure from our shared community of 250,000+ people.
-                                            <span href='https://docs.bridgr.xyz/benefits/for-members/game-integration' className='hover-underline-animation cursor-pointer'>
+                                            <span href='https://docs.bridgr.xyz/benefits/for-members/increased-visibility' className='hover-underline-animation cursor-pointer'>
                                                 &nbsp;Read more.
                                             </span>
                                     </p>
