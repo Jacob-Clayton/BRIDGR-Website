@@ -30,7 +30,7 @@ const Services = () => {
 
                     <div className='flex h-full sm:flex-row flex-col gap-2'>
 
-                        <div className=' flex flex-col mx-auto sm:w-1/2 w-full sm:gap-2 gap-4 sm:p-2 sm:px-3 p-2 h-full sm:border-[1px] border-[0px] rounded border-lavender border-opacity-100'>
+                        <div className=' flex flex-col mx-auto sm:w-1/2 w-full sm:gap-2 gap-4 sm:p-2 sm:px-3 p-2 h-full sm:border-[1px] border-[0px] rounded border-lavender border-opacity-0'>
 
                             <div className='flex sm:flex-row flex-col-reverse justify-end h-1/3 xl:pr-[100px] lg:pr-[50px] md:pr-[20px] sm:pr-[20px] border-[1px] sm:border-[0px] border-gray-500 border-opacity-30 rounded sm:p-0 p-4 gap-2 sm:gap-0'>
                                 <div className='flex flex-col my-auto xl:w-2/3 w-full'>
@@ -83,7 +83,7 @@ const Services = () => {
 
                         </div>
 
-                        <div className='flex flex-col sm:w-1/2 w-full mx-auto sm:gap-2 gap-4 sm:p-2 sm:px-3 p-2 h-full sm:border-[1px] border-[0px] rounded border-lavender border-opacity-100'>
+                        <div className='flex flex-col sm:w-1/2 w-full mx-auto sm:gap-2 gap-4 sm:p-2 sm:px-3 p-2 h-full sm:border-[1px] border-[0px] rounded border-lavender border-opacity-0'>
 
                             <div className='flex sm:flex-row flex-col justify-start h-1/3 xl:pl-[100px] lg:pl-[50px] md:pl-[20px] sm:pl-[20px] border-[1px] sm:border-[0px] border-gray-500 border-opacity-30 rounded sm:p-0 p-4 gap-2 sm:gap-0'>
                                 <div className="lg:w-16 lg:h-16 sm:w-10 sm:h-10 w-9 h-9 lg:mr-6 mr-3 sm:ml-0 ml-3 flex my-auto items-center flex-shrink-0 rounded-full bg-off-white">
