@@ -29,7 +29,11 @@ const News = () => {
                                     <p className={`mx-auto ${styles.headerText} mb-2`}>Bitcoin Miami</p>
                                 </a>
                                 <p className={`${styles.descriptionText}`}>
-                                    Come join us at the iconic beachside Eden Roc Hotel on May 18th, enjoy the beach and network with some of the brightest minds in Web3. Tickets coming soon.</p>
+                                    Come join us at the iconic beachside Eden Roc Hotel on May 18th, enjoy the beach and network with some of the brightest minds in Web3. Tickets coming soon.
+                                </p>
+                                <p className={`${styles.descriptionText} text-secondary-white mt-1`}>
+                                    May 18th 2023
+                                </p>
                             </div>
                             
                         </div>
@@ -55,8 +59,11 @@ const News = () => {
                                     <p className={`mx-auto ${styles.headerText} mb-2`}>NFT NYC </p>
                                 </a>
                                 <p className={`${styles.descriptionText}`}>
-                                    We hosted a sold out NFT.NYC after party with the worlds first CryptoPunk band, live DJ and NFT prizes on 
-                                    Apr 12th 2023.</p>
+                                    We hosted a sold out NFT.NYC after party with the worlds first CryptoPunk band, live DJ and NFT prizes.
+                                </p>
+                                <p className={`${styles.descriptionText} text-secondary-white mt-1`}>
+                                    April 12th 2023
+                                </p>
                             </div>
                             
                         </div>
@@ -82,8 +89,11 @@ const News = () => {
                                 <p className={`mx-auto ${styles.headerText} mb-2`}>Istanbul Keynote Panel</p>
                             </a>
                                 <p className={`${styles.descriptionText}`}>
-                                    How Web3 technologies can be implemented during emergencies like the February earthquake, with networking afterwards on 
-                                    Apr 1st 2023.</p>
+                                    How Web3 technologies can be implemented during emergencies like the February earthquake and networking.
+                                </p>
+                                <p className={`${styles.descriptionText} text-secondary-white mt-1`}>
+                                    April 1st 2023
+                                </p>
                             </div>
                         </div>
                         <div className='flex my-auto'>
@@ -108,8 +118,11 @@ const News = () => {
                                     <p className={`mx-auto ${styles.headerText} mb-2`}>Beachside in Bali </p>
                                 </a>
                                 <p className={`${styles.descriptionText}`}>
-                                    We hit the tropics and threw a red carpet event in Bali with EDNS and Off-Chain on 
-                                    Feb 24th 2023.</p>
+                                    We hit the tropics and threw a red carpet event in Bali with EDNS and Off-Chain.
+                                </p>
+                                <p className={`${styles.descriptionText} text-secondary-white mt-1`}>
+                                    Feb 24th 2023
+                                </p>
                             </div>
                             
                         </div>
@@ -135,8 +148,11 @@ const News = () => {
                                     <p className={`mx-auto ${styles.headerText} mb-2`}>Singapore Social</p>
                                 </a>
                                 <p className={`${styles.descriptionText}`}>
-                                    Singapore's first NFT bar, The Parlour Singapore, hosted a sold out 'WEB3 SOCIAL' on 
-                                    Feb 3rd 2023.</p>
+                                    Singapore's first NFT bar, The Parlour Singapore, hosted a sold out 'WEB3 SOCIAL'.
+                                </p>
+                                <p className={`${styles.descriptionText} text-secondary-white mt-1`}>
+                                    Feb 3rd 2023
+                                </p>
                             </div>
                         </div>
                         <div className='flex my-auto'>
@@ -161,8 +177,11 @@ const News = () => {
                                     <p className={`mx-auto ${styles.headerText} mb-2`}>Istanbul Blockchain Week</p>
                                 </a>
                                 <p className={`${styles.descriptionText}`}>
-                                    BRIDGR hosted the official Istanbul Blockchain Week afterparty at YouPlace, on 
-                                    Nov 14th 2022.</p>
+                                    BRIDGR hosted the official Istanbul Blockchain Week afterparty at YouPlace.
+                                </p>
+                                <p className={`${styles.descriptionText} mt-1`}>
+                                    Nov 14th 2022
+                                </p>
                             </div>
                         </div>
                         <div className='flex my-auto'>

@@ -15,7 +15,7 @@ const styles = {
 
   headerText: 'font-medium 2xl:text-3xl xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl text-off-white',
   subheaderText: 'font-semibold 2xl:text-2xl xl:text-2xl md:text-xl sm:text-xl text-lg text-off-white',
-  descriptionText: 'font-regular 2xl:text-lg xl:text-lg md:text-lg sm:text-md text-md text-off-white',
+  descriptionText: 'font-regular 2xl:text-lg xl:text-lg md:text-lg sm:text-md text-sm text-off-white',
 
   // hero section
   heroHeading:

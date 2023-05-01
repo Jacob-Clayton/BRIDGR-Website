@@ -51,7 +51,7 @@ const Events = () => {
             height={546}
           />
           <a href='https://twitter.com/Bridgrxyz/status/1622586625552429057?s=20' aria-label="Bridgr's web3 social event platform details">
-              <div className='absolute hover:bg-opacity-100 2xl:top-[140px] 2xl:right-[75px] xl:top-[130px] xl:right-[58px] lg:top-[100px] lg:right-[10px] md:top-[110px] md:right-[0px] sm:top-[110px] sm:right-[0px] top-[1px] right-0 bg-cetecean-blue bg-opacity-80 border-[1px] border-gray-500 border-opacity-30 shadow-lg hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[200px] md:w-[160px] sm:w-[150px] w-[130px] rounded md:p-4 sm:p-3 p-2'>
+              <div className='absolute hover:bg-opacity-100 2xl:top-[140px] 2xl:right-[75px] xl:top-[130px] xl:right-[58px] lg:top-[100px] lg:right-[10px] md:top-[110px] md:right-[0px] sm:top-[110px] sm:right-[0px] top-[1px] right-0 bg-cetecean-blue bg-opacity-80 border-[1px] border-gray-500 border-opacity-30 shadow-lg hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[200px] md:w-[160px] sm:w-[150px] w-[140px] rounded md:p-4 sm:p-3 p-2'>
                 <p className={`${styles.subheaderText}`}>
                   Asia:
                 </p>
@@ -62,7 +62,7 @@ const Events = () => {
           </a>
 
           <a href='https://twitter.com/Bridgrxyz/status/1644964278833905667?s=20' aria-label="Bridgr's web3 social event platform details">
-              <div className='absolute hover:bg-opacity-100 2xl:top-[130px] 2xl:right-[40%] xl:top-[120px] xl:right-[38%] lg:top-[90px] lg:right-[32%] md:top-[0px] md:right-[30%] sm:top-[15px] sm:right-[30%] top-[85px] right-[26%] bg-cetecean-blue bg-opacity-80 border-[1px] border-gray-500 border-opacity-30 shadow-lg hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[300px] md:w-[290px] sm:w-[200px] w-[170px] rounded md:p-4 sm:p-3 p-2'>
+              <div className='absolute hover:bg-opacity-100 2xl:top-[130px] 2xl:right-[40%] xl:top-[120px] xl:right-[38%] lg:top-[90px] lg:right-[32%] md:top-[0px] md:right-[30%] sm:top-[15px] sm:right-[30%] top-[90px] right-[26%] bg-cetecean-blue bg-opacity-80 border-[1px] border-gray-500 border-opacity-30 shadow-lg hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[300px] md:w-[290px] sm:w-[200px] w-[180px] rounded md:p-4 sm:p-3 p-2'>
                 <p className={`${styles.subheaderText}`}>
                   Europe:
                 </p>
