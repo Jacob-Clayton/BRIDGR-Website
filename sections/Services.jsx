@@ -5,15 +5,7 @@ import { useMediaQuery } from 'react-responsive';
 import { TitleText, InfoTip } from '../components';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../utils/motion';
-import { Poppins } from '@next/font/google';
 import Link from 'next/link';
-
-const poppins = Poppins({
-	subsets: ['latin'],
-	weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-	variable: '--font-poppins',
-    display: 'swap',
-})
 
 const Services = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
@@ -23,7 +15,7 @@ const Services = () => {
             <div className='gradient-03 z-0 lg:block hidden' />
 
             <motion.div 
-                className={`${styles.innerWidth} 2xl:mt-[100px] md:mt-12 sm:mt-10 mt-4 mx-auto`} 
+                className={`${styles.innerWidth} md:mt-20 sm:mt-10 mt-5 mx-auto`} 
                 id='details'
                 variants={fadeIn('up', 'tween', 0.05, 1)}
                 initial={isLgScreen ? 'hidden' : 'visible'}
@@ -168,7 +160,7 @@ const Services = () => {
                                 <li>Smart contract audits</li>
                             </ul>
                             <InfoTip message={"Read more"}>
-                                <Link href="https://docs.bridgr.xyz/consultancy/web3-consultancy">
+                                <Link href="https://docs.bridgr.xyz/benefits/for-members/web3-development">
                                     <svg class="w-5 h-5 absolute right-5 bottom-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

@@ -1,5 +1,5 @@
 import { Footer, Nav } from '../components';
-import { About, Story, Hero, Team, Services, Pricing, Events, News, Contact } from '../sections';
+import { About, Story, Hero, Team, Services, NewServices, Pricing, Events, News, Contact } from '../sections';
 
 const Home = () => (
   <>
@@ -10,20 +10,13 @@ const Home = () => (
     <div className="relative">
       <div className='bg-cetecean-blue'>
         <About />
-      </div>
-      <div className='bg-cetecean-blue'>
         <Team />
         <Story />
-      </div>
-      <div className='bg-cetecean-blue'>
-        <Services />
+        {/* <Services /> */}
+        <NewServices />
         <Pricing />
-      </div>
-      <div className='bg-cetecean-blue'>
         <Events />
         <News /> 
-      </div>
-      <div className='bg-cetecean-blue'>
         <Contact/>
       </div>
       <div className='bg-primary-black'>
