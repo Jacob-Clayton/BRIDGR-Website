@@ -35,7 +35,7 @@ const Events = () => {
         >
           Recieve worldwide exposure at our 'WEB3 SOCIAL' events. 
           Your company will be given a professional speech, promotional graphics on screens around the event, plus video and images for your own use.
-          Follow us on <a href='http://twitter.com/brizgrxyz' className='text-white font-medium'> Twitter </a> and <a href='https://medium.com/@bridgrxyz' className='text-white font-medium'>Medium</a> to stay up to date.
+          Follow us on <a href='http://twitter.com/brizgrxyz' className='text-white font-semibold hover-underline-animation'> Twitter </a> and <a href='https://medium.com/@bridgrxyz' className='text-white font-semibold hover-underline-animation'>Medium</a> to stay up to date.
         </motion.p>
 
         <motion.div
@@ -50,35 +50,35 @@ const Events = () => {
             width={1170}
             height={546}
           />
-          <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-a-global-events-platform-for-anyone-interested-in-web3-8f78be3aba14' aria-label="Bridgr's web3 social event platform details">
+          <a href='https://twitter.com/Bridgrxyz/status/1622586625552429057?s=20' aria-label="Bridgr's web3 social event platform details">
               <div className='absolute hover:bg-opacity-100 2xl:top-[140px] 2xl:right-[75px] xl:top-[130px] xl:right-[58px] lg:top-[100px] lg:right-[10px] md:top-[110px] md:right-[0px] sm:top-[110px] sm:right-[0px] top-[1px] right-0 bg-cetecean-blue bg-opacity-80 border-[1px] border-gray-500 border-opacity-30 shadow-lg hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[200px] md:w-[160px] sm:w-[150px] w-[130px] rounded md:p-4 sm:p-3 p-2'>
-                <p className='text-off-white font-bold lg:text-xl md:text-lg md:text-md text-sm'>
-                  In Asia:<br/>
-                  <span className='font-normal lg:text-lg md:text-md sm:text-sm text-xs'>
-                    Singapore, Seoul, Bali and Hanoi.
-                  </span>
+                <p className={`${styles.subheaderText}`}>
+                  Asia:
+                </p>
+                <p className={`${styles.descriptionText}`}>
+                  Singapore, Seoul, Bali and Hanoi.
                 </p>
               </div>
           </a>
 
-          <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-a-global-events-platform-for-anyone-interested-in-web3-8f78be3aba14' aria-label="Bridgr's web3 social event platform details">
+          <a href='https://twitter.com/Bridgrxyz/status/1644964278833905667?s=20' aria-label="Bridgr's web3 social event platform details">
               <div className='absolute hover:bg-opacity-100 2xl:top-[130px] 2xl:right-[40%] xl:top-[120px] xl:right-[38%] lg:top-[90px] lg:right-[32%] md:top-[0px] md:right-[30%] sm:top-[15px] sm:right-[30%] top-[85px] right-[26%] bg-cetecean-blue bg-opacity-80 border-[1px] border-gray-500 border-opacity-30 shadow-lg hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[300px] md:w-[290px] sm:w-[200px] w-[170px] rounded md:p-4 sm:p-3 p-2'>
-                <p className='text-off-white font-bold lg:text-xl md:text-lg md:text-md text-sm'>
-                  In Europe:<br/>
-                  <span className='font-normal lg:text-lg md:text-md sm:text-sm text-xs'>
-                    Paris, London, Berlin, Istanbul, Stockholm, Lisbon and Manchester.
-                  </span>
+                <p className={`${styles.subheaderText}`}>
+                  Europe:
+                </p>
+                <p className={`${styles.descriptionText}`}>
+                  Paris, London, Berlin, Istanbul, Stockholm, Lisbon and Manchester.
                 </p>
               </div>
           </a>
 
-          <a href='https://medium.com/@bridgrxyz/web3-social-by-bridgr-comes-new-york-city-on-april-12th-during-nft-nyc-b10cc8f063f7' aria-label="Details on bridgr's web3 social event during NFT NYC">
-              <div className='absolute hover:bg-opacity-100 2xl:top-[150px] 2xl:right-[980px] xl:top-[140px] xl:right-[900px] lg:top-[120px] lg:right-[650px] md:top-[120px] md:right-[530px] sm:top-[80px] sm:right-[380px] top-[1px] left-0 bg-cetecean-blue bg-opacity-80 border-[1px] border-gray-500 border-opacity-30 shadow-lg hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[170px] md:w-[150px] sm:w-[130px] w-[110px] rounded md:p-4 sm:p-3 p-2'>
-                <p className='text-off-white font-bold lg:text-xl md:text-lg md:text-md text-sm'>
-                  In America:<br/>
-                  <span className='font-normal lg:text-lg md:text-md sm:text-sm text-xs'>
-                    New York City & Miami.
-                  </span>
+          <a href='https://twitter.com/Bridgrxyz/status/1650437870321291269?s=20' aria-label="Details on bridgr's web3 social event during NFT NYC">
+              <div className='absolute hover:bg-opacity-100 2xl:top-[150px] 2xl:right-[980px] xl:top-[140px] xl:right-[900px] lg:top-[120px] lg:right-[650px] md:top-[140px] md:right-[530px] sm:top-[80px] sm:right-[380px] top-[1px] left-0 bg-cetecean-blue bg-opacity-80 border-[1px] border-gray-500 border-opacity-30 shadow-lg hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[170px] md:w-[150px] sm:w-[130px] w-[110px] rounded md:p-4 sm:p-3 p-2'>
+                <p className={`${styles.subheaderText}`}>
+                  America:
+                </p>
+                <p className={`${styles.descriptionText}`}>
+                  New York City & Miami.
                 </p>
               </div>
           </a>

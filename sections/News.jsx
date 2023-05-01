@@ -78,7 +78,7 @@ const News = () => {
                         />
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 flex flex-col ">
-                            <a href='https://medium.com/@bridgrxyz/web3-social-on-april-1st-in-istanbul-solidarity-donations-through-web3-b1839981ed9a'>
+                            <a href='https://twitter.com/Bridgrxyz/status/1644964278833905667?s=20'>
                                 <p className={`mx-auto ${styles.headerText} mb-2`}>Istanbul Keynote Panel</p>
                             </a>
                                 <p className={`${styles.descriptionText}`}>
@@ -87,7 +87,7 @@ const News = () => {
                             </div>
                         </div>
                         <div className='flex my-auto'>
-                            <a href='https://medium.com/@bridgrxyz/web3-social-on-april-1st-in-istanbul-solidarity-donations-through-web3-b1839981ed9a'>
+                            <a href='https://twitter.com/Bridgrxyz/status/1644964278833905667?s=20'>
                                 <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-white hover:bg-opacity-10 duration-500">
                                         <Image src="/arrow.svg" alt="arrow" width={40} height={40} className="w-[40%] h-[40%] object-contain"/> 
                                 </div>
