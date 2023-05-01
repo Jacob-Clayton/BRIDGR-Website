@@ -12,11 +12,11 @@ export default function Nav() {
     
     function handleScroll() {
         const currentYOffset = window.pageYOffset;
-        const top50Pixels = currentYOffset <= 50;
+        const top60Pixels = currentYOffset <= 60;
         const visible = yOffset >= currentYOffset;
 
         setYOffset(currentYOffset);
-        setVisible(top50Pixels || visible);
+        setVisible(top60Pixels || visible);
     }
 
     return (
