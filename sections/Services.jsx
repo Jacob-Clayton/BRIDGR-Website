@@ -43,7 +43,7 @@ const Services = () => {
                                     </p>
                                 </div>
                                 <div className="lg:w-16 lg:h-16 sm:w-10 sm:h-10 w-9 h-9 lg:ml-6 ml-3 flex my-auto items-center flex-shrink-0 rounded-full bg-off-white">
-                                    <img src="/worldwide.svg" alt='visibility' className='lg:p-3 md:p-2 p-[0.35rem] mx-auto'/>
+                                    <img src="/globe.png" alt='visibility' className='lg:p-2 md:p-[0.3rem] p-[0.35rem] mx-auto'/>
                                 </div>
                             </div>
 
@@ -58,7 +58,7 @@ const Services = () => {
                                     </p>                              
                                 </div>
                                 <div className="lg:w-16 lg:h-16 sm:w-10 sm:h-10 w-9 h-9 lg:ml-6 ml-3 flex my-auto items-center flex-shrink-0 rounded-full bg-off-white">
-                                    <img src="/construction.svg" alt='visibility' className='lg:p-3 md:p-2 p-[0.35rem] mx-auto'/>
+                                    <img src="/support.png" alt='visibility' className='lg:p-[0.7rem] md:p-2 p-[0.4rem] mx-auto'/>
                                 </div>
                             </div>
                             
@@ -73,11 +73,7 @@ const Services = () => {
                                     </p>
                                 </div>
                                 <div className="lg:w-16 lg:h-16 sm:w-10 sm:h-10 w-9 h-9 lg:ml-6 ml-3 flex my-auto items-center flex-shrink-0 rounded-full bg-off-white">
-                                    <svg className="lg:p-3 md:p-2 p-[0.35rem]" viewBox="0 0 20 20">
-                                        <path fill="#170c4d" d="M10.001,9.658c-2.567,0-4.66-2.089-4.66-4.659c0-2.567,2.092-4.657,4.66-4.657s4.657,2.09,4.657,4.657C14.658,7.569,12.569,9.658,10.001,9.658z M10.001,1.8c-1.765,0-3.202,1.437-3.202,3.2c0,1.766,1.437,3.202,3.202,3.202c1.765,0,3.199-1.436,3.199-3.202C13.201,3.236,11.766,1.8,10.001,1.8z"></path>
-                                        <path fill="#170c4d" d="M9.939,19.658c-0.091,0-0.179-0.017-0.268-0.051l-7.09-2.803c-0.276-0.108-0.461-0.379-0.461-0.678c0-4.343,3.535-7.876,7.881-7.876c4.343,0,7.878,3.533,7.878,7.876c0,0.302-0.182,0.572-0.464,0.68l-7.213,2.801C10.118,19.64,10.03,19.658,9.939,19.658z M3.597,15.639l6.344,2.507l6.464-2.512c-0.253-3.312-3.029-5.927-6.404-5.927C6.623,9.707,3.848,12.326,3.597,15.639z"></path>
-                                        <path fill="#170c4d" d="M9.939,19.658c0,0-0.003,0-0.006,0c-0.347-0.003-0.646-0.253-0.709-0.596L7.462,9.567C7.389,9.172,7.65,8.79,8.046,8.718C8.442,8.643,8.82,8.906,8.894,9.301l1.076,5.796l1.158-5.741c0.08-0.394,0.461-0.655,0.86-0.569c0.396,0.08,0.649,0.464,0.569,0.859l-1.904,9.427C10.585,19.413,10.286,19.658,9.939,19.658z"></path>
-                                    </svg>                                  
+                                    <img src="/finance.png" alt='visibility' className='lg:p-2 md:p-2 p-[0.35rem] mx-auto'/>
                                 </div>
                             </div>
 
@@ -87,7 +83,7 @@ const Services = () => {
 
                             <div className='flex sm:flex-row flex-col justify-start h-1/3 xl:pl-[100px] lg:pl-[50px] md:pl-[20px] sm:pl-[20px] border-[1px] sm:border-[0px] border-gray-500 border-opacity-30 rounded sm:p-0 p-4 gap-2 sm:gap-0'>
                                 <div className="lg:w-16 lg:h-16 sm:w-10 sm:h-10 w-9 h-9 lg:mr-6 mr-3 sm:ml-0 ml-3 flex my-auto items-center flex-shrink-0 rounded-full bg-off-white">
-                                    <img src="/certificate.svg" alt='visibility' className='lg:p-3 md:p-2 p-[0.35rem] mx-auto'/>
+                                    <img src="/diploma.png" alt='visibility' className='lg:p-[0.8rem] md:p-2 p-[0.4rem] mx-auto'/>
                                 </div>
                                 <div className='flex flex-col my-auto xl:w-2/3 w-full'>
                                     <p className={`${styles.subheaderText} text-lavender lg:mb-2 sm:mb-1`}>Web3 Education</p>
@@ -102,7 +98,7 @@ const Services = () => {
 
                             <div className='flex sm:flex-row flex-col justify-end h-1/3 xl:pl-[70px] lg:pl-[55px] md:pl-[90px] sm:pl-[70px] border-[1px] sm:border-[0px] border-gray-500 border-opacity-30 rounded sm:p-0 p-4 gap-2 sm:gap-0'>
                                 <div className="lg:w-16 lg:h-16 sm:w-10 sm:h-10 w-9 h-9 lg:mr-6 mr-3 sm:ml-0 ml-3 flex my-auto items-center flex-shrink-0 rounded-full bg-off-white">
-                                    <img src="/law.svg" alt='visibility' className='lg:p-3 md:p-2 p-[0.35rem] mx-auto'/>
+                                    <img src="/scales.png" alt='visibility' className='lg:p-[0.62rem] md:p-2 p-[0.35rem] mx-auto'/>
                                 </div>
                                 <div className='flex flex-col my-auto lg:w-2/3 w-full'>
                                     <p className={`${styles.subheaderText} text-lavender lg:mb-2 sm:mb-1`}>Legal Services</p>
@@ -117,7 +113,7 @@ const Services = () => {
 
                             <div className='flex sm:flex-row flex-col justify-start h-1/3 xl:pl-[100px] lg:pl-[50px] md:pl-[20px] sm:pl-[20px] border-[1px] sm:border-[0px] border-gray-500 border-opacity-30 rounded sm:p-0 p-4 gap-2 sm:gap-0'>
                                 <div className="lg:w-16 lg:h-16 sm:w-10 sm:h-10 w-9 h-9 lg:mr-6 mr-3 sm:ml-0 ml-3 flex my-auto items-center flex-shrink-0 rounded-full bg-off-white">
-                                    <img src="/computer.svg" alt='visibility' className='lg:p-3 md:p-2 p-[0.35rem] mx-auto'/>
+                                    <img src="/code.png" alt='visibility' className='lg:p-[0.65rem] md:p-2 p-[0.35rem] mx-auto'/>
                                 </div>
                                 <div className='flex flex-col my-auto xl:w-2/3 w-full'>
                                     <p className={`${styles.subheaderText} text-lavender lg:mb-2 sm:mb-1`}>Web3 Development</p>
