@@ -30,7 +30,7 @@ const CarouselElement = () => {
                 className="flex-[0.5] xl:max-w-[370px] lg:max-w-[320px] flex justify-end flex-col sm:p-8 p-4 rounded border-[1px] border-gray-500 border-opacity-30 text-left relative"
             >
                 <div>
-                    <p className={`${styles.headerText}`}>
+                    <p className={`${styles.subheaderText} text-lavender`}>
                         Mark
                     </p>
                     <p className={`${styles.descriptionText}`}>
@@ -65,7 +65,7 @@ const CarouselElement = () => {
                 className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col sm:p-8 p-4 rounded border-[1px] border-gray-500 border-opacity-30 text-left relative"
             >
                 <div>
-                    <p className={`${styles.headerText}`}>
+                    <p className={`${styles.subheaderText} text-lavender`}>
                         Kishor
                     </p>
                     <p className={`${styles.descriptionText}`}>
@@ -100,7 +100,7 @@ const CarouselElement = () => {
                 className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col sm:p-8 p-4 rounded border-[1px] border-gray-500 border-opacity-30 text-left relative"
             >
                 <div>
-                    <h4 className={`${styles.headerText}`}>
+                    <h4 className={`${styles.subheaderText} text-lavender`}>
                         Jacob
                     </h4>
                     <p className={`${styles.descriptionText}`}>
