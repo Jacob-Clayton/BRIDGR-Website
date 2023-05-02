@@ -1,12 +1,12 @@
 'use client';
 
-import { MemberHome, Navbar } from "../../components";
+import { MemberHome, Nav } from "../../components";
 
 export default function home() {
     return (
 		<>
             <div className="bg-cetecean-blue min-h-screen overflow-hidden">
-                <Navbar />
+                <Nav />
                 <MemberHome />
             </div>
 		</>

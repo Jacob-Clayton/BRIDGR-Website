@@ -51,7 +51,7 @@ const PricingTable = () => {
                                 </span>
                             </div>
                             <p className={`${styles.descriptionText} text-primary-black`}>Global events and media package with engagement from our shared community.
-                                <Link href="https://docs.bridgr.xyz/benefits/for-friends" className='font-medium'> Read more.</Link>
+                                <Link href="https://docs.bridgr.xyz/benefits/for-friends" className='font-medium hover-underline-animation-b'>&nbsp;Read more.</Link>
                             </p>
                             <ul className={`${styles.descriptionText} text-primary-black lg:space-y-2 space-y-1 flex-1`}>
                                 <li className="flex items-center space-x-2">
@@ -61,9 +61,9 @@ const PricingTable = () => {
                                     <span>Visibility</span>
                                 </li>
                             </ul>
-                            <a rel="noopener noreferrer" href="#Contact" className={` ${styles.descriptionText} inline-block w-full px-5 py-3 text-center rounded bg-violet text-off-white`}>
+                            <Link rel="noopener noreferrer" href="#Contact" className={` ${styles.descriptionText} inline-block w-full px-5 py-3 text-center rounded bg-violet text-off-white`}>
                                 Contact Us
-                            </a>
+                            </Link>
                         </div>
                     </div>
 
@@ -76,7 +76,7 @@ const PricingTable = () => {
                                 </span>
                             </div>
                             <p className={`${styles.descriptionText} text-primary-black`}>Everything from Friend plus access to our partners combined services and communities.
-                                <Link href="https://docs.bridgr.xyz/benefits/for-members" className='font-medium'> Read more.</Link>
+                                <Link href="https://docs.bridgr.xyz/benefits/for-members" className='font-medium hover-underline-animation-b'>&nbsp;Read more.</Link>
                             </p>
                             <ul className={`${styles.descriptionText} text-primary-black lg:space-y-2 space-y-1`}>
                                 <li className="flex items-start space-x-2">
@@ -110,9 +110,9 @@ const PricingTable = () => {
                                     <span>Web3 Legal Services</span>
                                 </li>
                             </ul>
-                            <a rel="noopener noreferrer" href="/apply/member" className={` ${styles.descriptionText} inline-block w-full px-5 py-3 text-center rounded bg-violet text-off-white`}>
+                            <Link rel="noopener noreferrer" href="/apply/member" className={` ${styles.descriptionText} inline-block w-full px-5 py-3 text-center rounded bg-violet text-off-white`}>
                                 Register Interest
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     

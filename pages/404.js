@@ -1,13 +1,13 @@
 'use client';
 import styles from '../styles';
-import { Navbar, TitleText } from '../components';
+import { Nav, TitleText } from '../components';
 import Link from 'next/link';
 
 
 const NotFoundPage = () => {
     return (
         <>
-        <Navbar />
+        <Nav />
         <section className={`${styles.paddings} relative bg-cetecean-blue min-h-screen`}>
                 <div className={`${styles.innerWidth} mx-auto mt-5 sm:mt-10 md:mt-20`}>
                     <TitleText title={<>404: Page Not Found</>}textStyles="text-center" />

@@ -5,6 +5,7 @@ import { useMediaQuery } from 'react-responsive';
 import { TitleText } from '../components';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../utils/motion';
+import Link from 'next/link';
 
 const Services = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
@@ -37,9 +38,9 @@ const Services = () => {
                                     <p className={`${styles.subheaderText} sm:text-right text-left lg:mb-2 sm:mb-1 text-lavender`}>Visibility</p>
                                     <p className={`${styles.descriptionText} sm:text-right text-left`}>
                                         Global web3 events with exposure from our shared community of 250,000+ people.
-                                            <span href='https://docs.bridgr.xyz/benefits/for-members/increased-visibility' className='hover-underline-animation cursor-pointer'>
+                                            <Link href='https://docs.bridgr.xyz/benefits/for-members/increased-visibility' className='hover-underline-animation font-medium'>
                                                 &nbsp;Read more.
-                                            </span>
+                                            </Link>
                                     </p>
                                 </div>
                                 <div className="lg:w-16 lg:h-16 sm:w-10 sm:h-10 w-9 h-9 lg:ml-6 ml-3 flex my-auto items-center flex-shrink-0 rounded-full bg-off-white">
@@ -52,9 +53,9 @@ const Services = () => {
                                     <p className={`${styles.subheaderText} sm:text-right text-left lg:mb-2 sm:mb-1 text-lavender`}>Business Building</p>
                                     <p className={`${styles.descriptionText} sm:text-right text-left`}>
                                         Advice and assistance to build your business from the ground up.
-                                            <span href='https://docs.bridgr.xyz/benefits/for-members/web3-business-building' className='hover-underline-animation cursor-pointer'>
+                                            <Link href='https://docs.bridgr.xyz/benefits/for-members/web3-business-building' className='hover-underline-animation font-medium'>
                                                 &nbsp;Read more.
-                                            </span>
+                                            </Link>
                                     </p>                              
                                 </div>
                                 <div className="lg:w-16 lg:h-16 sm:w-10 sm:h-10 w-9 h-9 lg:ml-6 ml-3 flex my-auto items-center flex-shrink-0 rounded-full bg-off-white">
@@ -67,9 +68,9 @@ const Services = () => {
                                     <p className={`${styles.subheaderText} sm:text-right text-left lg:mb-2 sm:mb-1 text-lavender`}>Access Investors</p>
                                     <p className={`${styles.descriptionText} sm:text-right text-left w-full`}>
                                         Direct access to investors and help building your pitch.
-                                            <span href='https://docs.bridgr.xyz/benefits/for-members/access-investors' className='hover-underline-animation cursor-pointer'>
+                                            <Link href='https://docs.bridgr.xyz/benefits/for-members/access-investors' className='hover-underline-animation font-medium'>
                                                 &nbsp;Read more.
-                                            </span>
+                                            </Link>
                                     </p>
                                 </div>
                                 <div className="lg:w-16 lg:h-16 sm:w-10 sm:h-10 w-9 h-9 lg:ml-6 ml-3 flex my-auto items-center flex-shrink-0 rounded-full bg-off-white">
@@ -89,9 +90,9 @@ const Services = () => {
                                     <p className={`${styles.subheaderText} text-lavender lg:mb-2 sm:mb-1`}>Web3 Education</p>
                                     <p className={`${styles.descriptionText}`}>
                                         Workshops, seminars and training certificates.
-                                        <span href='https://docs.bridgr.xyz/benefits/for-members/education' className='hover-underline-animation cursor-pointer'>
+                                        <Link href='https://docs.bridgr.xyz/benefits/for-members/education' className='hover-underline-animation font-medium'>
                                             &nbsp;Read more.
-                                        </span>
+                                        </Link>
                                     </p>                                
                                 </div>
                             </div>
@@ -104,9 +105,9 @@ const Services = () => {
                                     <p className={`${styles.subheaderText} text-lavender lg:mb-2 sm:mb-1`}>Legal Services</p>
                                     <p className={`${styles.descriptionText}`}>
                                         Blockchain, cryptocurrency, AI, IP and corporate law specialists.
-                                        <span href='https://docs.bridgr.xyz/benefits/for-members/legal' className='hover-underline-animation cursor-pointer'>
+                                        <Link href='https://docs.bridgr.xyz/benefits/for-members/legal' className='hover-underline-animation font-medium'>
                                             &nbsp;Read more.
-                                        </span>
+                                        </Link>
                                     </p>                                
                                 </div>
                             </div>
@@ -119,9 +120,9 @@ const Services = () => {
                                     <p className={`${styles.subheaderText} text-lavender lg:mb-2 sm:mb-1`}>Web3 Development</p>
                                     <p className={`${styles.descriptionText}`}>
                                         Web3 integrated websites, smart contracts, audits, plus NFT utility development.
-                                        <span href='https://docs.bridgr.xyz/benefits/for-members/web3-development' className='hover-underline-animation cursor-pointer'>
+                                        <Link href='https://docs.bridgr.xyz/benefits/for-members/web3-development' className='hover-underline-animation font-medium'>
                                             &nbsp;Read more.
-                                        </span>
+                                        </Link>
                                     </p>                                
                                 </div>
                             </div>
