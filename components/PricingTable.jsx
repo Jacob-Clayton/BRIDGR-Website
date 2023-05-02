@@ -50,8 +50,8 @@ const PricingTable = () => {
                                     <span className="text-sm font-medium tracking-wide ml-1">/ lifetime</span>
                                 </span>
                             </div>
-                            <p className={`${styles.descriptionText} text-primary-black`}>Global events and media package with engagement from our shared community.
-                                <Link href="https://docs.bridgr.xyz/benefits/for-friends" className='font-medium hover-underline-animation-b'>&nbsp;Read more.</Link>
+                            <p className={`${styles.descriptionText} text-primary-black`}>Global events and media package with engagement from our shared community.&nbsp;
+                                <Link href="https://docs.bridgr.xyz/benefits/for-friends" className='font-medium hover-underline-animation-b'>Read more.</Link>
                             </p>
                             <ul className={`${styles.descriptionText} text-primary-black lg:space-y-[0.2rem] space-y-[0.1rem] flex-1`}>
                                 <li className="flex items-center space-x-2">
@@ -75,8 +75,8 @@ const PricingTable = () => {
                                     <span className="text-sm font-medium tracking-wide ml-1">/ year</span>
                                 </span>
                             </div>
-                            <p className={`${styles.descriptionText} text-primary-black`}>Everything from Friend plus access to our partners combined services and communities.
-                                <Link href="https://docs.bridgr.xyz/benefits/for-members" className='font-medium hover-underline-animation-b'>&nbsp;Read more.</Link>
+                            <p className={`${styles.descriptionText} text-primary-black`}>Everything from Friend plus access to our partners combined services and communities.&nbsp;
+                                <Link href="https://docs.bridgr.xyz/benefits/for-members" className='font-medium hover-underline-animation-b'>Read more.</Link>
                             </p>
                             <ul className={`${styles.descriptionText} text-primary-black lg:space-y-[0.2rem] space-y-[0.1rem]`}>
                                 <li className="flex items-start space-x-2">

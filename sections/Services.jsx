@@ -36,9 +36,9 @@ const Services = () => {
                                 <div className='flex flex-col my-auto xl:w-2/3 w-full'>
                                     <p className={`${styles.subheaderText} sm:text-right text-left lg:mb-2 sm:mb-1 text-lavender`}>Visibility</p>
                                     <p className={`${styles.descriptionText} sm:text-right text-left`}>
-                                        Global web3 events with exposure from our shared community of 250,000+ people.
+                                        Global web3 events with exposure from our shared community of 250,000+ people.&nbsp;
                                             <Link href='https://docs.bridgr.xyz/benefits/for-members/increased-visibility' className='hover-underline-animation font-medium'>
-                                                &nbsp;Read more.
+                                                Read more.
                                             </Link>
                                     </p>
                                 </div>
@@ -51,9 +51,9 @@ const Services = () => {
                                 <div className='flex flex-col my-auto lg:w-2/3 w-full'>
                                     <p className={`${styles.subheaderText} sm:text-right text-left lg:mb-2 sm:mb-1 text-lavender`}>Business Building</p>
                                     <p className={`${styles.descriptionText} sm:text-right text-left`}>
-                                        Advice and assistance to build your business from the ground up.
+                                        Advice and assistance to build your business from the ground up.&nbsp;
                                             <Link href='https://docs.bridgr.xyz/benefits/for-members/web3-business-building' className='hover-underline-animation font-medium'>
-                                                &nbsp;Read more.
+                                                Read more.
                                             </Link>
                                     </p>                              
                                 </div>
@@ -66,9 +66,9 @@ const Services = () => {
                                 <div className='flex flex-col my-auto xl:w-2/3 w-full'>
                                     <p className={`${styles.subheaderText} sm:text-right text-left lg:mb-2 sm:mb-1 text-lavender`}>Access Investors</p>
                                     <p className={`${styles.descriptionText} sm:text-right text-left w-full`}>
-                                        Direct access to investors and help building your pitch.
+                                        Direct access to investors and help building your pitch.&nbsp;
                                             <Link href='https://docs.bridgr.xyz/benefits/for-members/access-investors' className='hover-underline-animation font-medium'>
-                                                &nbsp;Read more.
+                                                Read more.
                                             </Link>
                                     </p>
                                 </div>
@@ -88,9 +88,9 @@ const Services = () => {
                                 <div className='flex flex-col my-auto xl:w-2/3 w-full'>
                                     <p className={`${styles.subheaderText} text-lavender lg:mb-2 sm:mb-1`}>Web3 Education</p>
                                     <p className={`${styles.descriptionText}`}>
-                                        Workshops, seminars and training certificates.
+                                        Workshops, seminars and training certificates.&nbsp;
                                         <Link href='https://docs.bridgr.xyz/benefits/for-members/education' className='hover-underline-animation font-medium'>
-                                            &nbsp;Read more.
+                                            Read more.
                                         </Link>
                                     </p>                                
                                 </div>
@@ -103,9 +103,9 @@ const Services = () => {
                                 <div className='flex flex-col my-auto lg:w-2/3 w-full'>
                                     <p className={`${styles.subheaderText} text-lavender lg:mb-2 sm:mb-1`}>Legal Services</p>
                                     <p className={`${styles.descriptionText}`}>
-                                        Blockchain, cryptocurrency, AI, IP and corporate law specialists.
+                                        Blockchain, cryptocurrency, AI, IP and corporate law specialists.&nbsp;
                                         <Link href='https://docs.bridgr.xyz/benefits/for-members/legal' className='hover-underline-animation font-medium'>
-                                            &nbsp;Read more.
+                                            Read more.
                                         </Link>
                                     </p>                                
                                 </div>
@@ -118,9 +118,9 @@ const Services = () => {
                                 <div className='flex flex-col my-auto xl:w-2/3 w-full'>
                                     <p className={`${styles.subheaderText} text-lavender lg:mb-2 sm:mb-1`}>Web3 Development</p>
                                     <p className={`${styles.descriptionText}`}>
-                                        Web3 integrated websites, smart contracts, audits, plus NFT utility development.
+                                        Web3 integrated websites, smart contracts, audits, plus NFT utility development.&nbsp;
                                         <Link href='https://docs.bridgr.xyz/benefits/for-members/web3-development' className='hover-underline-animation font-medium'>
-                                            &nbsp;Read more.
+                                            Read more.
                                         </Link>
                                     </p>                                
                                 </div>
