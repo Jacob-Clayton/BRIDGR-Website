@@ -1,32 +1,34 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Logos } from '../components';
+import { Logos, TitleText } from '../components';
 import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
-import { staggerContainer } from '../utils/motion';
+import { staggerContainer, fadeIn } from '../utils/motion';
 
 const About = () => {
   const isLgScreen = useMediaQuery({ minWidth: 1024 });
 
   return (
-    <section className={`${styles.paddings} relative z-10`} id="About" >
+    <section className={`${styles.paddings} relative z-10 `} id="About" >
       <motion.div
         variants={staggerContainer}
         initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.2 }}
-        className={`${styles.innerWidth} mx-auto flex-col ${styles.flexCenter}`}
+        className={`${styles.innerWidth} mx-auto flex-col md:mt-10 mt-5 ${styles.flexCenter}`}
       >
-        {/* <TitleText title={<>About Us</>} textStyles="text-center" />
-        <motion.div 
-          className='w-full flex justify-center md:mt-20 md:mb-20 mt-10 mb-10'
-          variants={fadeIn('up', 'tween', 0.2, 1)}
+        <TitleText title={<>About Us</>} textStyles="text-center" />
+        <motion.p
+          variants={fadeIn('up', 'tween', 0.05, 1)}
+          initial={isLgScreen ? 'hidden' : 'visible'}
+          whileInView="show"
+          viewport={{ once: false, amount: 0.01 }}
+          className={`${styles.descriptionText} md:mt-10 mt-5 lg:w-3/4 w-full mx-auto text-center`}
         >
-          <p className='font-normal 2xl:text-[22px] xl:text-xl md:text-lg text-md text-center text-off-white'>
-            Web3 companies raised $94 billion since 2016, yet 9 out of 10 fail.<span className={`${urbanist.variable} font-urbanist font-extrabold`}> BRIDGR </span>is here to change that!
-          </p>
-        </motion.div> */}
+          The Bridgr collective is made up of 10 Web3 companies from around the world covering every area of the industry. 
+          Each reputable and acomplished in their own right, when grouped as one we are formidable collective working to provide our members with everything needed to become a successful Web3 business.
+        </motion.p>
         {/* <motion.div 
           className="mx-auto flex flex-row w-full md:mt-20 md:mb-20 mt-10 mb-10"
           variants={fadeIn('up', 'tween', 0.2, 1)}
@@ -53,7 +55,9 @@ const About = () => {
             </p>
           </div>
         </motion.div> */}
-        <Logos />
+        <div className='md:mt-10 mt-5'>
+          <Logos />
+        </div>
       </motion.div>
     </section>
   );

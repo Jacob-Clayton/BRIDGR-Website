@@ -15,7 +15,7 @@ const CarouselElement = () => {
         initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.01 }}
-        className={`mx-auto md:mt-10 mt-8 text-off-white`}
+        className={`mx-auto`}
     >
         <Carousel 
             showThumbs={false}

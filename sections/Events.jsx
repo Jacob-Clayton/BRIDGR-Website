@@ -17,7 +17,7 @@ const Events = () => {
         initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.01 }}
-        className={`${styles.innerWidth} mx-auto md:mt-20 sm:mt-10 mt-5 flex flex-col`}
+        className={`${styles.innerWidth} mx-auto md:mt-10 mt-5 flex flex-col`}
       >
         <div className='gradient-04 z-0 lg:block hidden' />
 
@@ -28,7 +28,7 @@ const Events = () => {
           whileInView="show"
           className={`${styles.descriptionText} mx-auto md:mt-10 mt-5 lg:w-3/4 w-full text-center`}
         >
-          Recieve worldwide exposure at our 'WEB3 SOCIAL' events. 
+          Recieve worldwide exposure at our Web3 events. 
           Your company will be given a professional speech, promotional graphics on screens around the event, plus video and images for your own use.
           Follow us on <a href='http://twitter.com/brizgrxyz' className='text-white font-semibold hover-underline-animation'> Twitter </a> and <a href='https://medium.com/@bridgrxyz' className='text-white font-semibold hover-underline-animation'>Medium</a> to stay up to date.
         </motion.p>

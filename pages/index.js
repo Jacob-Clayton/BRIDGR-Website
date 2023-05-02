@@ -1,5 +1,5 @@
 import { Footer, Nav } from '../components';
-import { About, Story, Hero, Team, Services, Pricing, Events, News, Contact } from '../sections';
+import { Hero, About, Team, Story, Services, Pricing, Events, News, Contact } from '../sections';
 
 const Home = () => (
   <>

@@ -1,7 +1,6 @@
 import Hero from './Hero';
 import About from './About';
 import GetStarted from './GetStarted';
-import WhatsNew from './WhatsNew';
 import Team from './Team';
 import Services from './Services';
 import Pricing from './Pricing';
@@ -16,7 +15,6 @@ export {
   Pricing,
   Services,
   GetStarted,
-  WhatsNew,
   Events,
   Team,
   News,

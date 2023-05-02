@@ -28,15 +28,15 @@ const PricingTable = () => {
                             <p className={`${styles.descriptionText} text-primary-black`}>Technical consultancy specialising in smart contracts.
                                 <Link href="https://docs.bridgr.xyz/consultancy/web3-consultancy" className='font-medium'> Read more.</Link>
                             </p>
-                            <ul className={`${styles.descriptionText} text-primary-black lg:space-y-2 space-y-1 flex-1`}>
+                            <ul className={`${styles.descriptionText} text-primary-black lg:space-y-[0.2rem] space-y-[0.1rem] flex-1`}>
                                 <li className="flex mb-2 space-x-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#180D4C" className="flex-shrink-0 w-6 h-6 ">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                                     </svg>
                                     <span>Web3 Consultancy</span>
                                 </li>
                             </ul>
-                            <a rel="noopener noreferrer" href="#Contact" className={`${styles.descriptionText} inline-block w-full px-5 py-3 text-center rounded bg-violet text-off-white`}>
+                            <a rel="noopener noreferrer" href="#Contact" className={`${styles.descriptionText} inline-block w-full px-5 py-3 text-center rounded bg-violet`}>
                                 Contact Us
                             </a>
                         </div>
@@ -53,15 +53,15 @@ const PricingTable = () => {
                             <p className={`${styles.descriptionText} text-primary-black`}>Global events and media package with engagement from our shared community.
                                 <Link href="https://docs.bridgr.xyz/benefits/for-friends" className='font-medium hover-underline-animation-b'>&nbsp;Read more.</Link>
                             </p>
-                            <ul className={`${styles.descriptionText} text-primary-black lg:space-y-2 space-y-1 flex-1`}>
+                            <ul className={`${styles.descriptionText} text-primary-black lg:space-y-[0.2rem] space-y-[0.1rem] flex-1`}>
                                 <li className="flex items-center space-x-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#180D4C" className="flex-shrink-0 w-6 h-6">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>Visibility</span>
+                                    <p>Visibility</p>
                                 </li>
                             </ul>
-                            <Link rel="noopener noreferrer" href="#Contact" className={` ${styles.descriptionText} inline-block w-full px-5 py-3 text-center rounded bg-violet text-off-white`}>
+                            <Link rel="noopener noreferrer" href="#Contact" className={` ${styles.descriptionText} inline-block w-full px-5 py-3 text-center rounded bg-violet`}>
                                 Contact Us
                             </Link>
                         </div>
@@ -78,39 +78,45 @@ const PricingTable = () => {
                             <p className={`${styles.descriptionText} text-primary-black`}>Everything from Friend plus access to our partners combined services and communities.
                                 <Link href="https://docs.bridgr.xyz/benefits/for-members" className='font-medium hover-underline-animation-b'>&nbsp;Read more.</Link>
                             </p>
-                            <ul className={`${styles.descriptionText} text-primary-black lg:space-y-2 space-y-1`}>
+                            <ul className={`${styles.descriptionText} text-primary-black lg:space-y-[0.2rem] space-y-[0.1rem]`}>
                                 <li className="flex items-start space-x-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#180D4C" className="flex-shrink-0 w-6 h-6">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>Visibility</span>
+                                    <p>Visibility</p>
                                 </li>
                                 <li className="flex items-start space-x-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#180D4C" className="flex-shrink-0 w-6 h-6">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>Business Building</span>
+                                    <p>Business Building</p>
                                 </li>
                                 <li className="flex items-start space-x-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#180D4C" className="flex-shrink-0 w-6 h-6">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>Access Investors</span>
+                                    <p>Access Investors</p>
                                 </li>
                                 <li className="flex items-start space-x-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#180D4C" className="flex-shrink-0 w-6 h-6">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>Web3 Education</span>
+                                    <p>Web3 Education</p>
                                 </li>
                                 <li className="flex items-start space-x-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#180D4C" className="flex-shrink-0 w-6 h-6">
                                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                                     </svg>
-                                    <span>Web3 Legal Services</span>
+                                    <p>Web3 Legal Services</p>
+                                </li>
+                                <li className="flex items-start space-x-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#180D4C" className="flex-shrink-0 w-6 h-6">
+                                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+                                    </svg>
+                                    <p>Web3 Development</p>
                                 </li>
                             </ul>
-                            <Link rel="noopener noreferrer" href="/apply/member" className={` ${styles.descriptionText} inline-block w-full px-5 py-3 text-center rounded bg-violet text-off-white`}>
+                            <Link rel="noopener noreferrer" href="/apply/member" className={` ${styles.descriptionText} inline-block w-full px-5 py-3 text-center rounded bg-violet`}>
                                 Register Interest
                             </Link>
                         </div>

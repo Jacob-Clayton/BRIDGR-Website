@@ -13,6 +13,7 @@ const Services = () => {
     return(
         <section className={`${styles.yPaddings} relative xl:mt-20 md:mt-10 mt-5`} id="Services">
             <div className='gradient-04 z-0 lg:block hidden' />
+            <TitleText title={<>Services</>}textStyles="text-center" />
             <motion.div 
                 className={`${styles.interWidth} mx-auto`} 
                 id='details'
@@ -21,8 +22,6 @@ const Services = () => {
                 whileInView="show"
                 viewport={{ once: false, amount: 0.01 }}
             >
-                <TitleText title={<>Services</>}textStyles="text-center" />
-
                 <div className='xl:mt-20 sm:mt-10 mt-5 lg:h-[500px] md:h-[560px] sm:h-[480px] h-full relative'>
 
                     <div className='absolute sm:block hidden xl:w-[240px] xl:h-[240px] lg:w-[180px] lg:h-[180px] md:w-[140px] md:h-[140px] sm:w-[120px] sm:h-[120px] w-[100px] h-[100px] bg-cetecean-blue border-lavender border-[2px] rounded-full top-0 bottom-0 right-0 left-0 mx-auto my-auto'>
@@ -30,7 +29,7 @@ const Services = () => {
                     </div>
 
                     <div className='flex h-full sm:flex-row flex-col gap-2'>
-
+                        
                         <div className=' flex flex-col mx-auto sm:w-1/2 w-full sm:gap-2 gap-4 sm:p-2 sm:px-3 p-2 h-full sm:border-[1px] border-[0px] rounded border-lavender border-opacity-0'>
 
                             <div className='flex sm:flex-row flex-col-reverse justify-end h-1/3 xl:pr-[100px] lg:pr-[50px] md:pr-[20px] sm:pr-[20px] border-[1px] sm:border-[0px] border-gray-500 border-opacity-30 rounded sm:p-0 p-4 gap-2 sm:gap-0'>

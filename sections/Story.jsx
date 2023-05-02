@@ -11,9 +11,9 @@ const Story = () => {
 
     return (
         <section id='Story' className='relative'>
-            <div className={`${styles.innerWidth} mx-auto xl:mt-20 md:mt-10 mt-5 relative`}>
+            <div className={`${styles.innerWidth} mx-auto md:mt-10 mt-5 relative`}>
                 <motion.section 
-                    className={`${styles.xPaddings} flex flex-col`}
+                    className={`${styles.paddings} flex flex-col`}
                     variants={staggerContainer}
                     initial={isLgScreen ? 'hidden' : 'visible'}
                     whileInView="show"
@@ -23,7 +23,7 @@ const Story = () => {
 
                 <motion.p
                     variants={fadeIn('up', 'tween', 0.2, 1)}
-                    className={`${styles.descriptionText} md:mt-10 mt-5 lg:w-3/4 mx-auto text-center`}
+                    className={`${styles.descriptionText} md:mt-10 mt-5 lg:w-3/4 w-full mx-auto text-center`}
                 >
                     Our founders love Web3 and the possibilities it brings. 
                     Unfortunately, we've witnessed good people losing time and resources to shady players. 

@@ -12,34 +12,26 @@ const Team = () => {
 
   return (
     <section className={`${styles.paddings} relative z-10`} id="Team">
-      {/* <div className='wave-blue'>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path fill="#170c4d" fill-opacity="1" d="M0,128L120,112C240,96,480,64,720,64C960,64,1200,96,1320,112L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
-          </svg>
-      </div> */}
       <motion.div
         variants={staggerContainer}
         initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.01 }}
-        className={`${styles.innerWidth} mx-auto xl:mt-20 md:mt-10 mt-5 flex flex-col`}
+        className={`${styles.innerWidth} mx-auto md:mt-10 mt-5 flex flex-col`}
       >
         <TitleText title={<>Our Team</>} textStyles="text-center" />
-
-        <div className=" mx-auto text-secondary-white">
-          <div className="flex flex-col text-center w-full">
-            <motion.p
-              variants={fadeIn('up', 'tween', 0.05, 1)}
-              initial={isLgScreen ? 'hidden' : 'visible'}
-              whileInView="show"
-              viewport={{ once: false, amount: 0.01 }}
-              className={`${styles.descriptionText} md:mt-10 mt-5 lg:w-3/4 mx-auto text-center`}
-            >
-              We are experienced Web3 professionals with capabilities spanning entrepreneurship, 
-              fundraising, full stack development, web design, game design, metaverse engineering, crypto law,
-              blockchain development, marketing and community building.
-            </motion.p>
-          </div>
+        <div className="mx-auto text-secondary-white">
+          <motion.p
+            variants={fadeIn('up', 'tween', 0.05, 1)}
+            initial={isLgScreen ? 'hidden' : 'visible'}
+            whileInView="show"
+            viewport={{ once: false, amount: 0.01 }}
+            className={`${styles.descriptionText} md:mt-10 mt-5 lg:w-3/4 w-full mx-auto text-center`}
+          >
+            We are experienced Web3 professionals with capabilities spanning entrepreneurship, 
+            fundraising, full stack development, web design, game design, metaverse engineering, crypto law,
+            blockchain development, marketing and community building.
+          </motion.p>
           <motion.div 
             variants={fadeIn('up', 'tween', 0.05, 1)}
             initial={isLgScreen ? 'hidden' : 'visible'}

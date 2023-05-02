@@ -29,7 +29,7 @@ const News = () => {
                                     <p className={`mx-auto ${styles.subheaderText} text-lavender`}>Bitcoin Miami</p>
                                 </a>
                                 <p className={`${styles.descriptionText}`}>
-                                    Come join us at the iconic beachside Eden Roc Hotel on May 18th, enjoy the beach and network with some of the brightest minds in Web3. Tickets coming soon.
+                                    Come join us in Miami, enjoy the beach and network with some of the brightest minds in Web3. Tickets coming soon.
                                 </p>
                                 <p className={`${styles.descriptionText} text-secondary-white`}>
                                     May 18th 2023
@@ -59,7 +59,7 @@ const News = () => {
                                     <p className={`mx-auto ${styles.subheaderText} text-lavender`}>NFT NYC </p>
                                 </a>
                                 <p className={`${styles.descriptionText}`}>
-                                    We hosted a sold out NFT.NYC after party with the worlds first CryptoPunk band, live DJ and NFT prizes.
+                                    NFT.NYC after party with the worlds first CryptoPunk band, live DJ and NFT prizes.
                                 </p>
                                 <p className={`${styles.descriptionText} text-secondary-white`}>
                                     April 12th 2023
@@ -89,7 +89,7 @@ const News = () => {
                                 <p className={`mx-auto ${styles.subheaderText} text-lavender`}>Istanbul Keynote Panel</p>
                             </a>
                                 <p className={`${styles.descriptionText}`}>
-                                    How Web3 technologies can be implemented during emergencies like the February earthquake and networking.
+                                    Discussing how Web3 can help during emergencies like the February earthquake.
                                 </p>
                                 <p className={`${styles.descriptionText} text-secondary-white`}>
                                     April 1st 2023

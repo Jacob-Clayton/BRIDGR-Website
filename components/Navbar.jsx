@@ -35,12 +35,12 @@ function MobileNav({open, setOpen}) {
             onClick={() => setOpen(false)}>
             Home
           </Link>
-          {/* <a 
+          <a 
             className={`cursor-pointer`} 
             href="/#About" 
             onClick={() => setOpen(false)}>
             About
-          </a> */}
+          </a>
           <a 
             className="cursor-pointer" 
             href="/#Team" 
@@ -120,16 +120,16 @@ const Navbar = ({ visible }) => {
                   width={1000} 
                 />
               </Link>
-              
+
               <div className='flex items-center'>
                 <div className='md:flex hidden h-full gap-5'>
                   <ul className={`flex gap-4 items-center hover:text-white cursor-pointer`}>
                       {/* <li className="hover-underline-animation duration-500">
                         <Link href="/">Home</Link>
                       </li> */}
-                      {/* <li className=" hover-underline-animation duration-500">
+                      <li className=" hover-underline-animation duration-500">
                         <a href="/#About">About</a>
-                      </li> */}
+                      </li>
                       <li className="hover-underline-animation duration-500">
                         <a href="/#Team">Team</a>
                       </li>
