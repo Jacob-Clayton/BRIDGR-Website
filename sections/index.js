@@ -4,7 +4,6 @@ import GetStarted from './GetStarted';
 import WhatsNew from './WhatsNew';
 import Team from './Team';
 import Services from './Services';
-import NewServices from './NewServices';
 import Pricing from './Pricing';
 import Story from './Story';
 import Events from './Events';
@@ -16,7 +15,6 @@ export {
   About,
   Pricing,
   Services,
-  NewServices,
   GetStarted,
   WhatsNew,
   Events,
