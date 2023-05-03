@@ -47,7 +47,7 @@ const PricingTable = () => {
                             <div className="space-y-2">
                                 <p className={`${styles.subheaderText} text-violet`}>Friend</p>
                                 <span className="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-4xl sm:text-5xl text-4xl font-bold text-cetecean-blue">$200
-                                    <span className="text-sm font-medium tracking-wide ml-1">/ lifetime</span>
+                                    <span className="sm:text-sm sm:leading[20px] text-[13px] leading-[18px] font-medium tracking-wide ml-1">/ lifetime</span>
                                 </span>
                             </div>
                             <p className={`${styles.descriptionText} text-primary-black`}>Global events and media package with engagement from our shared community.&nbsp;
@@ -72,10 +72,10 @@ const PricingTable = () => {
                             <div className="space-y-2">
                                 <p className={`${styles.subheaderText} text-violet`}>Member</p>
                                 <span className="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-4xl sm:text-5xl text-4xl font-bold text-cetecean-blue">$2000
-                                    <span className="text-sm font-medium tracking-wide ml-1">/ year</span>
+                                    <span className="sm:text-sm sm:leading[20px] text-[13px] leading-[18px] font-medium tracking-wide ml-1">/ year</span>
                                 </span>
                             </div>
-                            <p className={`${styles.descriptionText} text-primary-black`}>Everything from Friend plus access to our partners combined services and communities.&nbsp;
+                            <p className={`${styles.descriptionText} text-primary-black`}>Everything from Friend included, plus access to our partners combined services.&nbsp;
                                 <Link href="https://docs.bridgr.xyz/benefits/for-members" className='font-medium hover-underline-animation-b'>Read more.</Link>
                             </p>
                             <ul className={`${styles.descriptionText} text-primary-black lg:space-y-[0.2rem] space-y-[0.1rem]`}>

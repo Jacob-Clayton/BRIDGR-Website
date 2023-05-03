@@ -11,7 +11,7 @@ export default function member() {
 			<div className={`${styles.paddings} relative bg-cetecean-blue min-h-screen`}>
 				<div className={`${styles.innerWidth} flex flex-col mx-auto mt-5 sm:mt-10 md:mt-20`}>
 					<TitleText title={(<>Bridgr Membership</>)} textStyles="text-center" />
-					<p className={`${styles.descriptionText} mt-10 text-center`} >
+					<p className={`${styles.descriptionText} mx-auto mt-10 lg:w-3/4 w-full text-center`} >
 						Please register your interest in becoming a member of Bridgr here and we'll get back to you to discuss how Bridgr and our partners can best be deployed to help your Web3 business succeed.
 					</p>
 					<MemberForm/>

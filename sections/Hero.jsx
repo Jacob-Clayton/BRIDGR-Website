@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from '../styles';
 import localFont from '@next/font/local';
 
@@ -27,15 +28,15 @@ const Hero = () => {
           </div>
           <div className={`${styles.xPaddings} flex flex-row justify-center sm:justify-start sm:gap-8 gap-6 sm:mt-8 md:mt-10 mt-6`}>
             <div className=''>
-                <button className="bg-violet text-off-white py-2 px-6 items-center flex flex-row rounded">
-                  <a className={` text-sm sm:text-lg md:text-xl font-normal cursor-pointer`} href="https://twitter.com/bridgrxyz">
-                    Follow</a><Image src="/twitter.svg" className="sm:w-[22px] sm:h-[22px] w-[18px] h-[18px] ml-3" width={20} height={20} alt="twitter"/>
+                <button className="bg-violet border border-violet text-off-white py-2 px-6 items-center flex flex-row rounded">
+                  <Link className={`${styles.descriptionText}`} href="/apply/member">
+                    Register Interest</Link>
                 </button>
             </div>
             <div className=''>
-                <button className=' bg-violet text-off-white py-2 px-5 items-center flex flex-row rounded'>
-                  <a className={` text-sm sm:text-lg md:text-xl font-normal cursor-pointer`} href="#Contact">
-                    Contact</a><Image src="/email.svg" className="sm:w-[24px] sm:h-[24px] w-[20px] h-[20px] ml-3" width={20} height={20} alt="email"/>
+                <button className='border border-violet text-off-white py-2 px-5 items-center flex flex-row rounded'>
+                  <Link className={`${styles.descriptionText}`} href="#Contact">
+                    Contact</Link>
                 </button>
             </div>
           </div>

@@ -24,7 +24,7 @@ const News = () => {
                             width={250} height={250}
                         />
                         <div className="w-full flex justify-between items-center">
-                            <div className="flex-1 flex flex-col">
+                            <div className="flex-1 flex flex-col gap-1">
                                 <a href='https://www.ledropwithcheese.com/post/web3-social-by-bridgr-eden-roc-hotel-may-18th-2023-from-2-5pm'>
                                     <p className={`mx-auto ${styles.headerText}`}>Bitcoin Miami</p>
                                 </a>
@@ -54,7 +54,7 @@ const News = () => {
                             width={180} height={180}
                         />
                         <div className="w-full flex justify-between items-center">
-                            <div className="flex-1 flex flex-col">
+                            <div className="flex-1 flex flex-col gap-1">
                                 <a href='https://twitter.com/Bridgrxyz/status/1650437870321291269?s=20'>
                                     <p className={`mx-auto ${styles.headerText}`}>NFT NYC </p>
                                 </a>
@@ -84,10 +84,10 @@ const News = () => {
                             width={180} height={180}
                         />
                         <div className="w-full flex justify-between items-center">
-                            <div className="flex-1 flex flex-col ">
-                            <a href='https://twitter.com/Bridgrxyz/status/1644964278833905667?s=20'>
-                                <p className={`mx-auto ${styles.headerText}`}>Istanbul Keynote Panel</p>
-                            </a>
+                            <div className="flex-1 flex flex-col gap-1">
+                                <a href='https://twitter.com/Bridgrxyz/status/1644964278833905667?s=20'>
+                                    <p className={`mx-auto ${styles.headerText}`}>Istanbul Keynote Panel</p>
+                                </a>
                                 <p className={`${styles.descriptionText}`}>
                                     Discussing how Web3 can help during emergencies like the February earthquake.
                                 </p>
@@ -113,7 +113,7 @@ const News = () => {
                             width={180} height={180}
                         />
                         <div className="w-full flex justify-between items-center">
-                            <div className="flex-1 flex flex-col">
+                            <div className="flex-1 flex flex-col gap-1">
                                 <a href='https://twitter.com/Bridgrxyz/status/1625104846675386369?s=20'>
                                     <p className={`mx-auto ${styles.headerText}`}>Beachside in Bali </p>
                                 </a>
@@ -143,7 +143,7 @@ const News = () => {
                             width={180} height={180}
                         />
                         <div className="w-full flex justify-between items-center">
-                            <div className="flex-1 flex flex-col">
+                            <div className="flex-1 flex flex-col gap-1">
                                 <a href='https://twitter.com/Bridgrxyz/status/1622586625552429057?s=20'>
                                     <p className={`mx-auto ${styles.headerText}`}>Singapore Social</p>
                                 </a>
@@ -172,7 +172,7 @@ const News = () => {
                             width={180} height={180}
                         />
                         <div className="w-full flex justify-between items-center">
-                            <div className="flex-1 flex flex-col">
+                            <div className="flex-1 flex flex-col gap-1">
                                 <a href='https://twitter.com/Bridgrxyz/status/1592214170996703232?s=20'>
                                     <p className={`mx-auto ${styles.headerText}`}>Istanbul Blockchain Week</p>
                                 </a>
