@@ -22,11 +22,11 @@ const Hero = () => {
             Accelerate Your Web3 Business.
           </p>
           <div className='sm:mt-6 md:mt-8 mt-5 sm:mx-[0px] mx-auto'>
-          <p className= {`${styles.xPaddings} ${styles.descriptionText} 2xl:w-1/2 md:w-2/3 sm:text-left text-center`}>
-              We are a collective of Web3 companies offering our combined strength to help you grow.
+          <p className= {`${styles.xPaddings} font-regular 2xl:text-[24px] xl:text-[21px] md:text-lg sm:text-[17px] text-md 2xl:leading-[27px] xl:leading-[26px] lg:leading-[25px] md:leading-[24px] sm:leading-[22px] leading-[21px] text-off-white sm:w-2/3 sm:text-left text-center`}>
+              We are a collective of Web3 companies offering our combined strength to help you succeed.
             </p>
           </div>
-          <div className={`${styles.xPaddings} flex flex-row justify-center sm:justify-start sm:gap-8 gap-6 sm:mt-8 md:mt-10 mt-6`}>
+          <div className={`${styles.xPaddings} flex flex-row justify-center sm:justify-start sm:gap-8 gap-4 sm:mt-8 md:mt-10 mt-6`}>
             <div className=''>
                 <button className="bg-violet border border-violet text-off-white py-2 px-6 items-center flex flex-row rounded">
                   <Link className={`${styles.descriptionText}`} href="/apply/member">
