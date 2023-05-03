@@ -12,10 +12,11 @@ export default function member() {
 				<div className={`${styles.innerWidth} flex flex-col mx-auto mt-5 sm:mt-10 md:mt-20`}>
 					<TitleText title={(<>Bridgr Membership</>)} textStyles="text-center" />
 					<p className={`${styles.descriptionText} mx-auto mt-10 lg:w-3/4 w-full text-center`} >
-						Please register your interest in becoming a member of Bridgr here and we'll get back to you to discuss how Bridgr and our partners can best be deployed to help your Web3 business succeed.
+						Register your interest in becoming a member of Bridgr to gain access to our collective's combined services
+						and we'll get back to you to discuss how we can best be deployed to help your Web3 business succeed.
 					</p>
 					<MemberForm/>
-					<button className='mx-auto mt-10 bg-off-white py-1 px-6 items-center flex rounded'>
+					<button className='mx-auto mt-10 bg-off-white py-2 px-6 items-center flex rounded'>
 						<Link className= {`${styles.descriptionText} text-primary-black cursor-pointer`} href="/#Pricing">
 							Go Back
 						</Link>
