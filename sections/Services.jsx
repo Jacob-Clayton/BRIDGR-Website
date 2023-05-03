@@ -4,18 +4,34 @@ import styles from '../styles';
 import { useMediaQuery } from 'react-responsive';
 import { TitleText } from '../components';
 import { motion } from 'framer-motion';
-import { fadeIn } from '../utils/motion';
+import { staggerContainer, fadeIn } from '../utils/motion';
 import Link from 'next/link';
 
 const Services = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
 
     return(
-        <section className={`${styles.yPaddings} relative xl:mt-20 md:mt-10 mt-5`} id="Services">
+        <section className={`${styles.interWidth} mx-auto relative xl:mt-20 md:mt-10 mt-5`} id="Services">
             <div className='gradient-04 z-0 lg:block hidden' />
+
+            <motion.div
+                className={`${styles.paddings} flex flex-col`}
+                variants={staggerContainer}
+                initial={isLgScreen ? 'hidden' : 'visible'}
+                whileInView="show"
+                viewport={{ once: false, amount: 0.01 }}
+            >
             <TitleText title={<>Services</>}textStyles="text-center" />
+            {/* <motion.p
+                variants={fadeIn('up', 'tween', 0.2, 1)}
+                initial={isLgScreen ? 'hidden' : 'visible'}
+                whileInView="show"
+                className={`${styles.descriptionText} md:mt-10 mt-5 2xl:w-1/2 xl:w-4/6 lg:w-3/4 w-full mx-auto text-center`}
+            >
+                Let Bridgr build your Web3 business 
+            </motion.p> */}
             <motion.div 
-                className={`${styles.interWidth} mx-auto`} 
+                className={`mx-auto`} 
                 id='details'
                 variants={fadeIn('up', 'tween', 0.05, 1)}
                 initial={isLgScreen ? 'hidden' : 'visible'}
@@ -129,7 +145,8 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-                
+                </motion.div>
+
             </motion.div>
         </section>
     );
