@@ -16,9 +16,9 @@ export default function member() {
 						and we'll get back to you to discuss how we can best be deployed to help your Web3 business succeed.
 					</p>
 					<MemberForm/>
-					<button className='mx-auto mt-10 bg-off-white py-2 px-6 items-center flex rounded'>
-						<Link className= {`${styles.descriptionText} text-primary-black cursor-pointer`} href="/#Pricing">
-							Go Back
+					<button className='mx-auto mt-10 border border-violet py-2 px-6 items-center flex rounded'>
+						<Link className= {`${styles.descriptionText}`} href="/">
+							Back
 						</Link>
 					</button>
 				</div>

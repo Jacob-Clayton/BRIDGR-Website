@@ -36,7 +36,7 @@ export default function MemberForm() {
 
 	return (
 		<form className='mt-10 gap-2 lg:w-[650px] md:w-[550px] sm:w-[500px] w-full mx-auto flex flex-col font-normal text-primary-black' onSubmit={handleSubmit(onSubmit)}>
-			<span className='space-x-3'>
+			<span className='lg:space-x-3 space-x-2'>
                 <input
                     {...register("firstname")}
                     id='firstname'
@@ -59,7 +59,7 @@ export default function MemberForm() {
                 />
 			</span>
 
-			<span className='space-x-3'>
+			<span className='lg:space-x-3 space-x-2'>
 				<input
 					{...register("company")}
 					id='company'
@@ -82,7 +82,7 @@ export default function MemberForm() {
 				/>
 			</span>
 
-			<span className='space-x-3'>
+			<span className='lg:space-x-3 space-x-2'>
 			<input
 					{...register("email")}
 					id='email'

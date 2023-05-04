@@ -9,7 +9,7 @@ export default function MemberHome() {
 		<section className={`${styles.paddings}`}>
             <div className={`${styles.interWidth} mx-auto`}>
 				<div className="flex flex-col mx-auto mt-5 sm:mt-10 md:mt-20">
-					<TitleText title={(<>Member Home</>)} textStyles="text-center" 
+					<TitleText title={(<>Web3 Business Model</>)} textStyles="text-center" 
                     />
                     <p className={`sm:mt-8 mt-5 ${styles.descriptionText} text-center`}>
                         The BRIDGR business model canvas to help you build and improve your Web3 company.
