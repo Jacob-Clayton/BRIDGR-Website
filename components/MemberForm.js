@@ -35,7 +35,7 @@ export default function MemberForm() {
 		}
 
 	return (
-		<form className='mt-10 gap-2 lg:w-[650px] md:w-[550px] sm:w-[500px] w-full mx-auto flex flex-col font-normal text-primary-black' onSubmit={handleSubmit(onSubmit)}>
+		<form className='mt-10 gap-2 xl:w-[750px] lg:w-[700px] md:w-[600px] w-full mx-auto flex flex-col font-normal text-primary-black' onSubmit={handleSubmit(onSubmit)}>
 			<span className='lg:space-x-3 space-x-2'>
                 <input
                     {...register("firstname")}
@@ -127,7 +127,7 @@ export default function MemberForm() {
 			<div className='flex flex-col items-center'>
                 <button 
 					role="button" 
-					className={` ${styles.descriptionText} mt-2 bg-violet py-2 px-6 rounded cursor-pointer`} 
+					className={` ${styles.descriptionText} mt-1 bg-violet py-2 px-6 rounded cursor-pointer`} 
 				>
 					{isSubmitting ? "Submitting" : "Register Interest"}
 				</button>
