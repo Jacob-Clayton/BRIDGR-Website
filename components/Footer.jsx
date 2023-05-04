@@ -11,7 +11,7 @@ const Footer = () => {
   const isMdScreen = useMediaQuery({ minWidth: 768 });
 
   return (
-    <footer className={` sm:pt-14 pt-8 relative h-full overflow-hidden`}>
+    <footer className={`bg-primary-black sm:pt-14 pt-8 relative h-full overflow-hidden`}>
       <div className="absolute top-0 h-[1px] w-full bg-gray-500 opacity-20" />
       <div className="footer-gradient opacity-[20%] lg:block hidden" />
 

@@ -1,7 +1,7 @@
-import { Nav, Footer, TitleText } from "../components";
-import styles from "../styles";
+import { Nav, Footer, TitleText } from "../../components";
+import styles from "../../styles";
 import { motion } from "framer-motion";
-import { fadeIn } from "../utils/motion";
+import { fadeIn } from "../../utils/motion";
 import { useMediaQuery } from 'react-responsive';
 import Link from "next/link";
 
@@ -20,10 +20,10 @@ export default function Learn() {
                         whileInView="show"
                         className={`${styles.descriptionText} mx-auto md:mt-10 mt-5 lg:w-3/4 w-full text-center`}
                     >
-                        Learn from us here.
+                        Learn from us. Check out our free Web3 business model!
                     </motion.p>
-                    <button className='mx-auto mt-10 bg-off-white py-2 px-6 items-center flex rounded'>
-						<Link className= {`${styles.descriptionText} text-primary-black cursor-pointer`} href="/learn/businessmodel">
+                    <button className='flex mx-auto mt-10 bg-off-white py-2 px-6 items-center rounded'>
+						<Link className= {`${styles.descriptionText} text-primary-black`} href="/learn/businessmodel">
 							Business Model
 						</Link>
 					</button>

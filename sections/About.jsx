@@ -55,7 +55,7 @@ const About = () => {
             </p>
           </div>
         </motion.div> */}
-        <div className='md:mt-10 mt-5'>
+        <div className='lg:mt-12 md:mt-10 mt-5'>
           <Logos />
         </div>
       </motion.div>

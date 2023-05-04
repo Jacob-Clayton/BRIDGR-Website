@@ -79,7 +79,7 @@ function MobileNav({open, setOpen}) {
           </a> */}
           <a 
             className="cursor-pointer" 
-            href="/#Contact" 
+            href="/contact" 
             onClick={() => setOpen(false)}>
             Contact
           </a>
@@ -146,7 +146,7 @@ const Navbar = ({ visible }) => {
                         <a href="/#Events">Events</a>
                       </li>
                       <li className=" hover-underline-animation duration-500">
-                        <a href="/#Contact">Contact</a>
+                        <a href="/contact">Contact</a>
                       </li>
                       {/* <li className=" hover-underline-animation duration-500">
                         <a href="https://docs.bridgr.xyz" className='flex'>Whitepaper<img src="/external-link.svg" className="sm:w-[10px] sm:h-[10px] w-[9px] h-[9px] ml-[1px]" alt='external link'/></a>

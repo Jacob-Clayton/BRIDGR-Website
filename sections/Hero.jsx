@@ -32,7 +32,7 @@ const Hero = () => {
                 Register Interest</Link>
             </button>
             <button className='border border-violet text-off-white py-2 px-6 items-center flex flex-row rounded'>
-              <Link className={`${styles.descriptionText}`} href="#Contact">
+              <Link className={`${styles.descriptionText}`} href="/contact">
                 Contact</Link>
             </button>
           </div>

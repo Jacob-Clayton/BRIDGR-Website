@@ -18,9 +18,7 @@ const Home = () => (
         <News /> 
         <Contact/>
       </div>
-      <div className='bg-primary-black'>
         <Footer />
-      </div>
     </div>
   </>
 );
