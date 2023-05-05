@@ -15,14 +15,14 @@ export default function Contact() {
       <div className={`${styles.innerWidth} mx-auto xl:mt-12 md:mt-10 mt-5`}>
         <TitleText title={<>Contact</>} textStyles="text-center" />
         <motion.div 
-          className='flex relative sm:flex-row flex-col mx-auto sm:mt-10 mt-5 sm:gap-0 gap-6'
+          className='flex relative md:flex-row flex-col mx-auto sm:mt-10 mt-5 md:gap-0 gap-6'
           variants={fadeIn('up', 'tween', 0.05, 1)}
           initial={isLgScreen ? 'hidden' : 'visible'}
           viewport={{ once: false, amount: 0.01 }}
           whileInView="show"
         >
-          <div className={`flex flex-col sm:w-1/2 w-full mx-auto text-off-white sm:py-2`}>
-            <p className={`${styles.descriptionText} mx-auto lg:w-4/5 md:w-3/4 w-5/6 text-center`}>
+          <div className={`flex flex-col md:w-1/2 w-full mx-auto text-off-white sm:py-2`}>
+            <p className={`${styles.descriptionText} mx-auto lg:w-4/5 md:w-3/4 w-full text-center`}>
               Connect with us via the contact form, send an email or book a video call to talk to us face to face.
             </p>
 
@@ -53,9 +53,9 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className='sm:block hidden bg-white bg-opacity-20 rounded-full w-[1px] h-[280px]' />
+          <div className='md:block hidden bg-white bg-opacity-20 rounded-full w-[1px] h-[280px]' />
 
-          <div className='flex sm:w-1/2 w-full mx-auto items-center'>
+          <div className='flex md:w-1/2 w-full mx-auto items-center'>
             <ContactForm />
           </div>
 

@@ -9,7 +9,7 @@ export default function ContactPage() {
     return (
         <>
 		<section className={`${styles.paddings} bg-cetecean-blue`}>
-            <div className={`${styles.interWidth} mx-auto h-full overflow-hidden`}>
+            <div className={` mx-auto h-full overflow-hidden`}>
                 <Nav />
                 <div className={``}>
                     <Contact />

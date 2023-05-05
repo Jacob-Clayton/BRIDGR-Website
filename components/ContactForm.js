@@ -33,7 +33,7 @@ export default function ContactForm() {
 		}
 
 	return (
-		<form className={`text-primary-black gap-2 sm:w-3/4 w-full mx-auto flex flex-col`} onSubmit={handleSubmit(onSubmit)}>
+		<form className={`text-primary-black gap-2 md:w-3/4 w-full mx-auto flex flex-col`} onSubmit={handleSubmit(onSubmit)}>
 			<input
 				{...register("name")}
 				id='name'
