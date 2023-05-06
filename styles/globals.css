@@ -15,10 +15,11 @@
 }
 
 .bg-image {
-  background-image: linear-gradient(to bottom, rgb(55, 156, 224, 0.9), rgb(55, 156, 224, 0.7), rgb(55, 156, 224, 0.6), rgb(55, 156, 224, 0.7), rgb(55, 156, 224)), url('/blueglobe_comp.jpeg');
+  background-image: url('/lines_com.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: #180D4C;
 }
 
 .hero-gradient {
