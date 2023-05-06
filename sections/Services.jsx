@@ -36,7 +36,7 @@ const Services = () => {
                         <motion.div 
                             className='absolute sm:block hidden xl:w-[240px] xl:h-[240px] lg:w-[180px] lg:h-[180px] md:w-[140px] md:h-[140px] sm:w-[120px] sm:h-[120px] w-[100px] h-[100px] bg-cetecean-blue border-lavender border-[2px] rounded-full top-0 bottom-0 right-0 left-0 mx-auto my-auto'
                             id='details'
-                            variants={zoomIn(0.05)}
+                            variants={zoomIn(0.05, 0.7)}
                             initial={isLgScreen ? 'hidden' : 'visible'}
                             whileInView="show"
                             viewport={{ once: false, amount: 0.01 }}
