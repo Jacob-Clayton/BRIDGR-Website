@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { TypingText, Tooltip } from '../components';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useMediaQuery } from 'react-responsive';
 import { fadeIn } from '../utils/motion';
 
@@ -20,7 +21,8 @@ const Logos = () => {
         <div className="mb-6">
         <TypingText title="Partners" textStyles="text-left sm:px-3 px-2" />
             <div className=' place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
-                <a className="p-1 col-span-1" href='https://apegang.art/'>
+                
+                <Link className="p-1 col-span-1" href='https://apegang.art/'>
                 <Tooltip message={"The 10th most sold NFT project, founded in May 2021. They have a team of Web devs, blockchain devs, NFT artists and community builders."}>
                 <Image 
                     src='/apegang.png' 
@@ -32,8 +34,9 @@ const Logos = () => {
                     height={249}
                 />
                 </Tooltip>
-                </a>
-                <a className="p-1 col-span-1" href='https://ethlas.com/'>
+                </Link>
+
+                <Link className="p-1 col-span-1" href='https://ethlas.com/'>
                 <Tooltip message={"Team of 30+ Web3 infrastructure engineers based in Singapore with over 2 million users on their gaming metaverse."}>
                 <Image 
                     src='/ethlas_white.png' 
@@ -45,8 +48,9 @@ const Logos = () => {
                     height={681}
                 />
                 </Tooltip>
-                </a>
-                <a className="p-1 col-span-1" href='https://madfornfts.com/'>
+                </Link>
+
+                <Link className="p-1 col-span-1" href='https://madfornfts.com/'>
                 <Tooltip message={"NFT launch partner for brands, celebrities, fashion, art and influencers. They help to create, launch and market NFTs."}>
                 <Image 
                     src='/madfornft.png' 
@@ -58,8 +62,9 @@ const Logos = () => {
                     height={586}
                 />
                 </Tooltip>
-                </a>
-                <a className="p-1 col-span-1" href='https://www.cryptofemale.org/'>
+                </Link>
+
+                <Link className="p-1 col-span-1" href='https://www.cryptofemale.org/'>
                 <Tooltip message={"Global women's crypto community empowering women to get into the Web3 industry."}>
                 <Image 
                     src='/cryptofemale.png' 
@@ -71,8 +76,9 @@ const Logos = () => {
                     height={596}
                 />
                 </Tooltip>
-                </a>
-                <a className="p-1 col-span-1" href='https://globalb.com.tr/'>
+                </Link>
+
+                <Link className="p-1 col-span-1" href='https://globalb.com.tr/'>
                 <Tooltip message={"GlobalB Company provides training, consultancy and organisational development for emerging technology sectors like blockchain & cryptocurrency."}>
                 <Image 
                     src='/globalb.png' 
@@ -84,21 +90,23 @@ const Logos = () => {
                     height={372}
                 />
                 </Tooltip>
-                </a>
-                <a className="p-1 col-span-1" href="https://twitter.com/theparloursg">
+                </Link>
+
+                <Link className="p-1 col-span-1" href="https://twitter.com/theparloursg">
                 <Tooltip message={"Global chain of NFT bar & lounges. Starting out as Singapore’s 1st NFT bar & lounge. They are now opening their second location in Seoul, South Korea."}>
                 <Image 
-                src='/parlourQR.png' 
-                alt="The Parlour Global" 
-                className="sm:max-w-[65%] max-w-[80%]" 
-                style={{opacity:'0.95'}}
-                quality={100}
-                width={600}
-                height={500}
+                    src='/parlourQR.png' 
+                    alt="The Parlour Global" 
+                    className="sm:max-w-[65%] max-w-[80%]" 
+                    style={{opacity:'0.95'}}
+                    quality={100}
+                    width={600}
+                    height={500}
                 />
                 </Tooltip>
-                </a>
-                <a className="p-1 col-span-1" href="">
+                </Link>
+
+                <Link className="p-1 col-span-1" href="">
                 <Tooltip message={"NFT art gallery in Singapore providing a platform and revenue stream for NFT artists and collectors."}>
                 <Image 
                     src='/bighaus.png' 
@@ -110,8 +118,9 @@ const Logos = () => {
                     height={700}
                 />
                 </Tooltip>
-                </a>
-                <a className="p-1 col-span-1" href="https://boredisland.group/">
+                </Link>
+
+                <Link className="p-1 col-span-1" href="https://boredisland.group/">
                 <Tooltip message={"Advisory service to monetize NFT intellectual property. They provide solutions in analysis, valuation, legal compliance, and marketing strategy."}>
                 <Image 
                     src='/boredislandgroup.png' 
@@ -123,8 +132,9 @@ const Logos = () => {
                     height={600}
                 />
                 </Tooltip>
-                </a>
-                <a className="p-1 col-span-1" href="https://www.crowdfundjunction.com/">
+                </Link>
+
+                <Link className="p-1 col-span-1" href="https://www.crowdfundjunction.com/">
                 <Tooltip message={"Venture Capital DAO. They help crypto start-ups through funding, advisory and marketing and provide entry into highly vetted crypto token offerings."}>
                 <Image 
                     src='/cfj.png' 
@@ -136,14 +146,28 @@ const Logos = () => {
                     height={399}
                 />
                 </Tooltip>
-                </a>
+                </Link>
             </div>
 
             <div className="mt-10">
                 <TypingText title="Friends" textStyles="text-left sm:px-3 px-2" />
                 <div className='place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
                     
-                    <a className="p-1 col-span-1" href='https://www.edns.domains/'>
+                    <Link className="p-1 col-span-1" href='https://nordek.io/'>
+                    <Tooltip message={"Lightspeed Blockchain Ecosystem for Payments and Gaming."}>
+                        <Image 
+                        src='/nordek.png' 
+                        alt="Nordek" 
+                        className="sm:max-w-[95%] max-w-[100%]" 
+                        style={{opacity:'0.95'}}
+                        quality={100}
+                        width={600}
+                        height={500}
+                        />
+                    </Tooltip>
+                    </Link>
+
+                    <Link className="p-1 col-span-1" href='https://www.edns.domains/'>
                     <Tooltip message={"Decentralized name service providing domain names for Web3, including NFT, crypto wallets, web hosting, DeFi ID, and GameFi ID."}>
                     <Image 
                         src='/edns.png' 
@@ -155,9 +179,9 @@ const Logos = () => {
                         height={300}
                     />
                     </Tooltip>
-                    </a>
+                    </Link>
 
-                    <a className="p-1 col-span-1" href='https://twitter.com/youplaceapp'>
+                    <Link className="p-1 col-span-1" href='https://twitter.com/youplaceapp'>
                     <Tooltip message={'Istanbul based Web3 event space, coworking space, community hub, cafe and bar.'}>
                         <Image 
                         src='/youplacewhite.png' 
@@ -169,21 +193,22 @@ const Logos = () => {
                         height={600}
                         />
                     </Tooltip>
-                    </a>
+                    </Link>
 
-                    <a className="p-1 col-span-1" href='https://wearelight.house/'>
+                    <Link className="p-1 col-span-1" href='https://wearelight.house/'>
                     <Tooltip message={"Bali based multi-level podcast & video production complex, creative space, entrepreneur community, cafe, bar and events space."}>
                         <Image 
                         src='/lighthouse_com.png' 
                         alt="Lighthouse Studios Bali" 
-                        className="sm:max-w-[80%] max-w-[90%]" 
+                        className="sm:max-w-[75%] max-w-[90%]" 
                         style={{opacity:'0.95'}}
                         quality={100}
                         width={600}
                         height={500}
                         />
                     </Tooltip>
-                    </a>
+                    </Link>
+
                 </div>
             </div>
         </div>
