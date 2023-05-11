@@ -18,7 +18,7 @@ const Hero = () => {
     <section id="Home" className={` h-screen flex mx-auto text-center ${styles.innerWidth} ${britanica.variable} `}>
       <div className='flex sm:flex-row flex-col my-auto sm:gap-0 gap-10'>      
       <div className={`sm:w-3/4 w-full flex-col items-center self-center z-20`}>
-          <p className={`${styles.heroHeading} font-britanica sm:text-left text-center 2xl:px-0 sm:px-6 px-0`}>
+          <p className={`${styles.heroHeading} font-britanica text-violet sm:text-left text-center 2xl:px-0 sm:px-6 px-0`}>
             Accelerate Your Web3 Business.
           </p>
           <div className='sm:mt-6 md:mt-8 mt-5 sm:mx-[0px] mx-auto'>

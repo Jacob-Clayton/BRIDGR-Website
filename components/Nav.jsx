@@ -19,9 +19,18 @@ export default function Nav() {
         setVisible(top60Pixels || visible);
     }
 
+    const navbarStyle = {
+        backgroundColor: visible && yOffset <= 60 ? "transparent" : "#180D4C",
+        backdropFilter: visible && yOffset <= 60 ? "blur(3px)" : "none",
+        transition: "0.5s ease-in-out",
+    };
+    if (scrollY < 240) {
+        navbarStyle.backgroundColor = "transparent"
+    }
+
     return (
         <>
-        <Navbar visible={visible} />
+            <Navbar visible={visible} style={navbarStyle} />
         </>
     );
 };

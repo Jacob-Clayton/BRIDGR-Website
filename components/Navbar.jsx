@@ -104,12 +104,15 @@ function MobileNav({open, setOpen}) {
   );
 };
 
-const Navbar = ({ visible }) => {
+const Navbar = ({ visible, style }) => {
     const [open, setOpen] = useState(false);
 
     return (
-        <motion.nav id="navbar" className={classnames("navbar", {"navbar--hidden": !visible})}>
-          <div className={` ${britanica.variable} fixed lg:h-[75px] md:h-[65px] sm:h-[60px] h-[55px] flex w-full bg-cetecean-blue border-gray-500 border-b-[1px] border-opacity-30`}>
+        <motion.nav 
+          id="navbar" 
+          style={style}
+          className={classnames("navbar", {"navbar--hidden": !visible}, "fixed lg:h-[75px] md:h-[65px] sm:h-[60px] h-[55px] flex w-full border-gray-500 border-b-[1px] border-opacity-30")}
+        >
             <div className={`${styles.interWidth} ${styles.descriptionText} flex mx-auto justify-between`}>
               <Link className='flex items-center' href='/'>
                 <Image
@@ -123,7 +126,7 @@ const Navbar = ({ visible }) => {
 
               <div className='flex items-center'>
                 <div className='md:flex hidden h-full gap-5'>
-                  <ul className={`flex gap-4 items-center hover:text-white cursor-pointer`}>
+                  <ul className={` flex gap-4 items-center hover:text-white cursor-pointer`}>
                       {/* <li className="hover-underline-animation duration-500">
                         <Link href="/">Home</Link>
                       </li> */}
@@ -175,7 +178,6 @@ const Navbar = ({ visible }) => {
               </div>
               
               </div>
-            </div>
         </motion.nav>
     );
 };
