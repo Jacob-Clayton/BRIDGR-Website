@@ -24,7 +24,7 @@ export default function Nav() {
         backdropFilter: visible && yOffset <= 60 ? "blur(3px)" : "none",
         transition: "0.5s ease-in-out",
     };
-    if (scrollY < 240) {
+    if (yOffset < 240) {
         navbarStyle.backgroundColor = "transparent"
     }
 
