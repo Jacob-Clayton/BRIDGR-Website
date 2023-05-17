@@ -27,7 +27,7 @@ function MobileNav({open, setOpen}) {
   }, [setOpen]);
 
   return (   
-    <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[55%] bg-cetecean-blue rounded-tl rounded-bl border-l-[1px] border-gray-500 border-opacity-30 transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-200 ease-in-out filter `}>
+    <div className={`absolute z-50 top-0 right-0 h-screen 2xl:w-[15%] xl:w-[20%] lg:w-[25%] md:w-[35%] sm:w-[40%] w-[55%] bg-image rounded-tl rounded-bl border-l-[1px] border-gray-500 border-opacity-30 transform ${open ? "right-0" : "transform translate-x-full"} transition-transform duration-200 ease-in-out filter `}>
       <div className={`${styles.descriptionText} gap-5 z-100 flex flex-col items-center mt-[20%] sm:mt-[22%] md:mt-[20%] lg:mt-[25%]`}>
           <Link 
             className=" cursor-pointer" 
@@ -47,12 +47,12 @@ function MobileNav({open, setOpen}) {
             onClick={() => setOpen(false)}>
             Team
           </a>
-          <a 
+          {/* <a 
             className="cursor-pointer" 
             href="/#Story" 
             onClick={() => setOpen(false)}>
             Story
-          </a>
+          </a> */}
           <a 
             className="cursor-pointer" 
             href="/#Services" 
