@@ -75,7 +75,7 @@ const PricingTable = () => {
                                     <span className="sm:text-sm sm:leading[20px] text-[13px] leading-[18px] font-medium tracking-wide ml-1">/ year</span>
                                 </span>
                             </div>
-                            <p className={`${styles.descriptionText} text-primary-black`}>Everything from Friend included, plus access to our partners combined services.&nbsp;
+                            <p className={`${styles.descriptionText} text-primary-black`}>Everything from Friend included, plus access to our partners' combined services.&nbsp;
                                 <Link href="https://docs.bridgr.xyz/benefits/for-members" className='font-medium hover-underline-animation-b'>Read more.</Link>
                             </p>
                             <ul className={`${styles.descriptionText} text-primary-black lg:space-y-[0.1rem] space-y-[0.05rem]`}>
