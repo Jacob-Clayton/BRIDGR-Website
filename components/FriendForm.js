@@ -5,6 +5,7 @@ import axios from 'axios';
 import { useForm } from "react-hook-form";
 import LoadingSpinner from '../components/LoadingSpinner'
 import { ErrorMessage, SuccessMessage } from '../components/Message'
+import styles from '../styles';
 
 export default function FriendForm() {
     const {
@@ -34,7 +35,7 @@ export default function FriendForm() {
 		}
 
 	return (
-		<form className='mt-10 lg:w-[650px] md:w-[550px] sm:w-[500px] w-full mx-auto flex flex-col' onSubmit={handleSubmit(onSubmit)}>
+		<form className='mt-10 lg:w-1/2 md:w-[550px] sm:w-[500px] w-full mx-auto flex flex-col' onSubmit={handleSubmit(onSubmit)}>
 			<span>
                 <input
                     {...register("firstname")}
@@ -140,7 +141,7 @@ export default function FriendForm() {
 			<div className='flex flex-col items-center'>
                 <button 
 					role="submit" 
-					className=" mt-2 border-[2px] flex mx-auto border-white border-opacity-20 shadow-md hover:shadow-lg hover:bg-white hover:bg-opacity-10 text-off-white py-2 px-6 rounded-2xl font-normal xl:text-xl lg:text-lg md:text-md text-sm hover:text-white duration-500 cursor-pointer "
+					className={`${styles.descriptionText} my-1 border-[1px] bg-violet flex mx-auto border-violet py-2 px-6 rounded`}
 				>
 					{isSubmitting ? "Submitting" : "Register Interest"}
 				</button>

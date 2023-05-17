@@ -127,7 +127,7 @@ export default function MemberForm() {
 			<div className='flex flex-col items-center'>
                 <button 
 					role="button" 
-					className={` ${styles.descriptionText} mt-1 bg-violet py-2 px-6 rounded cursor-pointer`} 
+					className={` ${styles.descriptionText} my-1 bg-violet py-2 px-6 rounded cursor-pointer`} 
 				>
 					{isSubmitting ? "Submitting" : "Register Interest"}
 				</button>

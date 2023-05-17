@@ -1,6 +1,6 @@
 'use client';
 
-import { MemberForm, Nav, TitleText, BackButton } from "../../components";
+import { MemberForm, Nav, TitleText, Button } from "../../components";
 import styles from "../../styles";
 import Link from "next/link";
 
@@ -16,11 +16,11 @@ export default function member() {
 						and we'll get back to you to discuss how we can best be deployed to help your Web3 business succeed.
 					</p>
 					<MemberForm/>
-					<button className='mx-auto mt-5 border border-violet py-2 px-6 items-center flex rounded'>
+					<Button>
 						<Link className= {`${styles.descriptionText}`} href="/">
 							Back
 						</Link>
-					</button>
+					</Button>
 				</div>
 			</div>
 		</>

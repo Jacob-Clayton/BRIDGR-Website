@@ -61,7 +61,7 @@ const PricingTable = () => {
                                     <p>Visibility</p>
                                 </li>
                             </ul>
-                            <Link rel="noopener noreferrer" href="#Contact" className={` ${styles.descriptionText} inline-block w-full px-5 py-3 text-center rounded bg-violet`}>
+                            <Link rel="noopener noreferrer" href="/contact" className={` ${styles.descriptionText} inline-block w-full px-5 py-3 text-center rounded bg-violet`}>
                                 Contact Us
                             </Link>
                         </div>
