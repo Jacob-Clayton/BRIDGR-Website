@@ -25,11 +25,11 @@ const News = () => {
                         />
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 flex flex-col gap-1">
-                                <a href='https://www.ledropwithcheese.com/post/web3-social-by-bridgr-eden-roc-hotel-may-18th-2023-from-2-5pm'>
+                                <a href='https://www.eventbrite.sg/e/bitcoin-2023-miami-beach-side-networking-on-may-18th-eden-roc-hotel-tickets-632009837437'>
                                     <p className={`mx-auto ${styles.headerText}`}>Bitcoin Miami</p>
                                 </a>
                                 <p className={`${styles.descriptionText}`}>
-                                    Come join us in Miami, enjoy the beach and network with some of the brightest minds in Web3. Tickets coming soon.
+                                    Come join us in Miami, enjoy the beach and network with some of the brightest minds in Web3. Tickets available now.
                                 </p>
                                 <p className={` text-secondary-white`}>
                                     May 18th 2023
@@ -38,7 +38,7 @@ const News = () => {
                             
                         </div>
                         <div className='flex my-auto'>
-                            <a href='https://www.ledropwithcheese.com/post/web3-social-by-bridgr-eden-roc-hotel-may-18th-2023-from-2-5pm'>
+                            <a href='https://www.eventbrite.sg/e/bitcoin-2023-miami-beach-side-networking-on-may-18th-eden-roc-hotel-tickets-632009837437'>
                                 <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-white hover:bg-opacity-10 duration-500">
                                         <Image src="/arrow.svg" alt="arrow" width={40} height={40} className="w-[40%] h-[40%] object-contain"/> 
                                 </div>
