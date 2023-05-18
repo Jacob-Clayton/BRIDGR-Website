@@ -25,7 +25,7 @@ const Footer = () => {
         <div className='flex sm:flex-row gap-2 sm:gap-0 flex-col justify-between items-center mb-6'>
           <div className='space-y-5'>
             <Image 
-              src="/b-logo-02.png" 
+              src="/b-logo-colour-text-white.svg" 
               alt="bridgr logo"
               className='w-[80px] sm:w-[130px] sm:mx-0 mx-auto'
               quality={100}
