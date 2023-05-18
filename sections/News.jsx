@@ -29,7 +29,7 @@ const News = () => {
                                     <p className={`mx-auto ${styles.headerText}`}>Bitcoin Miami</p>
                                 </a>
                                 <p className={`${styles.descriptionText}`}>
-                                    Come join us in Miami, enjoy the beach and network with some of the brightest minds in Web3. Tickets available now.
+                                    We hosted a beachside social with some of the brightest minds in Web3.
                                 </p>
                                 <p className={` text-secondary-white`}>
                                     May 18th 2023

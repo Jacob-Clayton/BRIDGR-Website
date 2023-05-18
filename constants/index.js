@@ -37,7 +37,7 @@ export const learnArticles = [
     date: '18th May 2023',
     type: 'Education',
     imgUrl: '/mark_talk.jpg',
-    title: 'Building Strong Partnerships In Web3',
+    title: 'Building Partnerships In Web3',
     description: `Theft of private keys, obtaining users' authorisation or compromise of 3rd party smart contracts`,
   },
   {
