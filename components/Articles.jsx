@@ -23,9 +23,13 @@ const Artcles = () => {
                                 <p className="text-violet mb-1 text-sm">{article.type}</p>
                                 <p className={`${styles.subheaderText} mb-2`}>{article.title}</p>
                                 <p className="">{article.description}</p>
-                                <span className="flex flex-row justify-center mt-6 items-baseline">
-                                    <img className="xl:max-w-[100px] max-w-[70px] xl:max-h-[45px] sm:max-h-[40px] max-h-[38px]" src={article.logo} alt="article logo"/>
-                                </span>
+                                <div className="flex flex-col justify-end place-content-end mt-4">
+                                    <span className="flex flex-row justify-between items-center">
+                                        <p className="text-sm">{article.date}</p>
+                                        <img className="xl:max-w-[100px] max-w-[70px] xl:max-h-[45px] sm:max-h-[40px] max-h-[38px]" src={article.logo} alt="article logo"/>
+                                    </span>
+                                </div>
+                                
                             </div>
                             </Link>
                     </div>

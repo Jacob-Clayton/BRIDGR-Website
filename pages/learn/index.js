@@ -12,7 +12,7 @@ export default function Learn() {
                 <div className={`${styles.interWidth} mx-auto md:mt-20 sm:mt-10 mt-5`}>
                     <TitleText title={(<>Learn</>)} textStyles="text-center" />
                     <p className={`${styles.descriptionText} mx-auto md:mt-10 mt-5 lg:w-3/4 w-full text-center`}>
-                        Learn from us. Check out our articles!
+                        Learn with us. Check out our articles from Bridgr's partners.
                     </p>
                     <Articles/>
                 </div>
