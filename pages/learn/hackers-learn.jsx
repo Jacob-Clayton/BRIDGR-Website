@@ -1,7 +1,8 @@
 'use client';
 
-import { Nav } from "../../components";
+import { Button, Footer, Nav } from "../../components";
 import styles from "../../styles";
+import Link from "next/link";
 
 export default function hackersLearn() {
     return (
@@ -11,7 +12,8 @@ export default function hackersLearn() {
             <div className={`${styles.articleWidth} mx-auto w-full mt-20 p-8 py-12 bg-off-white rounded-lg`}>
                 <article className={`${styles.descriptionText} text-primary-black`}>
                     <div className="w-full mx-auto">
-                        <p className="text-sm text-violet">Education</p>
+                        <img className="max-h-[100px] rounded" src='/fraud_news.jpg' alt="article logo"/>
+                        <p className="text-sm text-violet mt-3 mb-1">Education</p>
                         <p className={`${styles.headerText} text-primary-black`}>3 Ways Hackers Attack Enterprises and Learn Private Keys</p>
                     </div>
                     <div className="mt-10">
@@ -22,9 +24,26 @@ export default function hackersLearn() {
                         <p className={`${styles.subheaderText} text-primary-black mt-6`}>3. Compromise of 3rd Party Smart Contracts</p>
                         The attacker takes advantage of vulnerabilities in smart contracts and transfers user assets that are temporarily owned by the contract address.
                     </div>
+                    <div className="flex flex-col justify-end place-content-end mt-10 bg-lavender rounded px-4 py-2">
+                        <span className="flex flex-row justify-between items-center">
+                            <p className="text-sm text-off-white">18th May 2023</p>
+                            <div className="flex flex-row gap-4 items-center">
+                                <p className="text-sm text-off-white">By</p>
+                                <Link href={'https://ethlas.com/'}>
+                                    <img className="xl:max-w-[100px] max-w-[70px] xl:max-h-[45px] sm:max-h-[40px] max-h-[38px]" src='/ethlas_white.png' alt="article logo"/>
+                                </Link>
+                            </div>
+                        </span>
+                    </div>
                 </article>
             </div>
+            <div className="mt-10">
+                <Link href={'/learn'}>
+                    <Button>Back</Button>
+                </Link>
+            </div>
 		</section>
+        <Footer/>
         </>
 	);
 };
