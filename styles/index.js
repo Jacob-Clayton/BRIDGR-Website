@@ -1,6 +1,7 @@
 const styles = {
     innerWidth: 'xl:max-w-[1280px] sm:w-[90%] md:w-[80%] w-[95%]',
     interWidth: '2xl:w-[90%] sm:w-[90%] w-[95%]',
+    articleWidth: 'xl:max-w-[1000px] sm:w-[90%] md:w-[80%] w-[95%]',
 
     paddings: 'sm:p-16 xs:p-8 px-9 py-12',
     yPaddings: '2xl:py-20 sm:py-16 xs:py-8 py-12',

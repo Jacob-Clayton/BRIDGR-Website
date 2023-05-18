@@ -20,7 +20,8 @@ import Newsletter from './Newsletter';
 import MemberForm from './MemberForm';
 import FriendForm from './FriendForm';
 import MemberHome from './MemberHome';
-import Logos from './Logos'
+import Logos from './Logos';
+import Articles from './Articles';
 
 export {
   Navbar,
@@ -47,4 +48,5 @@ export {
   FriendForm,
   MemberHome,
   Logos,
+  Articles,
 };

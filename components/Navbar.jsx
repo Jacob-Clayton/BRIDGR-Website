@@ -116,7 +116,7 @@ const Navbar = ({ visible, style }) => {
             <div className={`${styles.interWidth} ${styles.descriptionText} flex mx-auto justify-between`}>
               <Link className='flex items-center' href='/'>
                 <Image
-                  src="/b-logo-02.png" 
+                  src="/b-logo-colour-text-white.svg" 
                   alt="bridgr logo"
                   className='2xl:w-[170px] xl:w-[160px] lg:w-[150px] md:w-[130px] sm:w-[120px] w-[110px]' 
                   height={100} 
