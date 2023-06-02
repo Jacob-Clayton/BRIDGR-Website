@@ -16,12 +16,42 @@ const News = () => {
                 </p> */}
                 <div className="flex flex-col gap-4 sm:gap-5 text-center sm:text-left">
 
+                <div className="relative flex sm:flex-row flex-col xl:gap-20 lg:gap-12 md:gap-8 sm:gap-6 gap-2">
+                        <Image
+                            src="/draperhouse.jpeg"
+                            alt="India event"
+                            className="mx-auto lg:w-[180px] lg:h-[180px] sm:w-[150px] sm:h-[150px] w-[120px] h-[120px] rounded object-cover"
+                            width={500} height={500}
+                        />
+                        <div className="w-full flex justify-between items-center">
+                            <div className="flex-1 flex flex-col gap-1">
+                                <a href='https://medium.com/@bridgrxyz/cryptofemale-india-celebrate-their-first-offline-event-on-june-16th-in-bangalore-supported-by-cdd5d6ecf571'>
+                                    <p className={`mx-auto ${styles.headerText}`}>Web3 Social India</p>
+                                </a>
+                                <p className={`${styles.descriptionText}`}>
+                                    Bridgr is hosting CryptoFemale India's first Web3 social in India's 'Silicon Valley', Bangalore.
+                                </p>
+                                <p className={` text-secondary-white`}>
+                                    June 16th 2023
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <div className='flex my-auto'>
+                            <a href='https://medium.com/@bridgrxyz/cryptofemale-india-celebrate-their-first-offline-event-on-june-16th-in-bangalore-supported-by-cdd5d6ecf571'>
+                                <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white hover:bg-white hover:bg-opacity-10 duration-500">
+                                        <Image src="/arrow.svg" alt="arrow" width={40} height={40} className="w-[40%] h-[40%] object-contain"/> 
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
                     <div className="relative flex sm:flex-row flex-col xl:gap-20 lg:gap-12 md:gap-8 sm:gap-6 gap-2">
                         <Image
                             src="/edenroc.webp"
                             alt="nft nyc event"
                             className="mx-auto lg:w-[180px] lg:h-[180px] sm:w-[150px] sm:h-[150px] w-[120px] h-[120px] rounded object-cover"
-                            width={250} height={250}
+                            width={500} height={500}
                         />
                         <div className="w-full flex justify-between items-center">
                             <div className="flex-1 flex flex-col gap-1">

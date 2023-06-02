@@ -209,6 +209,20 @@ const Logos = () => {
                     </Tooltip>
                     </Link>
 
+                    <Link className="p-1 col-span-1" href='https://www.quillaudits.com/smart-contract-audit'>
+                    <Tooltip message={"Smart Contracts Auditing Services, DeFi Safety Audits."}>
+                        <Image 
+                        src='/QA_Extended_white.png' 
+                        alt="Quill Qudits" 
+                        className="max-w-[100%]" 
+                        style={{opacity:'0.95'}}
+                        quality={100}
+                        width={600}
+                        height={500}
+                        />
+                    </Tooltip>
+                    </Link>
+
                 </div>
             </div>
         </div>
