@@ -10,10 +10,10 @@ const Story = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
 
     return (
-        <section id='Story' className='relative'>
+        <section id='Story' className={`${styles.paddings} relative`}>
             <div className={`${styles.innerWidth} mx-auto md:mt-10 mt-5 relative`}>
                 <motion.section 
-                    className={`${styles.paddings} flex flex-col`}
+                    className={` flex flex-col`}
                     variants={staggerContainer}
                     initial={isLgScreen ? 'hidden' : 'visible'}
                     whileInView="show"
