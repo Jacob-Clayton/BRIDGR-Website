@@ -17,25 +17,24 @@ const News = () => {
                 {/* <p className={`${styles.descriptionText} ${poppins.variable} font-poppins text-center`}>
                     Read more about our latest events and news on<a href='https://medium.com/@bridgrxyz' className='text-white font-medium'> Medium.</a>
                 </p> */}
-                <div className="flex flex-col gap-4 sm:gap-5 text-center sm:text-left">
+                <div className="flex flex-col gap-5 sm:gap-6 text-center sm:text-left">
                     {reversedNewsArticles.map((news) => {
                         return( 
-                            <div key={news.index} className="relative flex sm:flex-row flex-col xl:gap-20 lg:gap-12 md:gap-8 sm:gap-6 gap-2">
+                            <div key={news.index} className="relative flex flex-row xl:gap-20 lg:gap-12 md:gap-8 sm:gap-6 gap-4">
                                 <Image
                                     src={news.imgUrl}
                                     alt={news.altText}
-                                    className="mx-auto lg:w-[180px] lg:h-[180px] sm:w-[150px] sm:h-[150px] w-[120px] h-[120px] rounded object-cover"
+                                    className="sm:mx-auto my-auto lg:w-[180px] lg:h-[180px] sm:w-[150px] sm:h-[150px] w-[100px] h-[100px] rounded object-cover"
                                     width={500} height={500}
                                 />
                                 <div className="w-full flex justify-between items-center">
                                     <div className="flex-1 flex flex-col gap-1">
                                         <a href={news.link}>
-                                            <p className={`mx-auto ${styles.headerText}`}>{news.title}</p>
+                                            <p className={`${styles.subheaderText} text-left`}>{news.title}</p>
                                         </a>
-                                        <p className={`${styles.descriptionText}`}>{news.description}</p>
-                                        <p className={`text-secondary-white`}>{news.date}</p>
+                                        <p className={`${styles.descriptionText} text-left`}>{news.description}</p>
+                                        <p className={`text-secondary-white text-left sm:block hidden`}>{news.date}</p>
                                     </div>
-                                    
                                 </div>
                                 <div className='flex my-auto'>
                                     <a href={news.link}>

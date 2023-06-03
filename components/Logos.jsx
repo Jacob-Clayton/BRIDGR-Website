@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useMediaQuery } from 'react-responsive';
 import { fadeIn } from '../utils/motion';
+import { friendLogos, partnerLogos } from '../constants';
 
 const Logos = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
@@ -153,75 +154,23 @@ const Logos = () => {
                 <TypingText title="Friends" textStyles="text-left sm:px-3 px-2" />
                 <div className='place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
                     
-                    <Link className="p-1 col-span-1" href='https://nordek.io/'>
-                    <Tooltip message={"Lightspeed Blockchain Ecosystem for Payments and Gaming."}>
-                        <Image 
-                        src='/nordek.png' 
-                        alt="Nordek" 
-                        className="sm:max-w-[95%] max-w-[100%]" 
-                        style={{opacity:'0.95'}}
-                        quality={100}
-                        width={600}
-                        height={500}
-                        />
-                    </Tooltip>
-                    </Link>
-
-                    <Link className="p-1 col-span-1" href='https://www.edns.domains/'>
-                    <Tooltip message={"Decentralized name service providing domain names for Web3, including NFT, crypto wallets, web hosting, DeFi ID, and GameFi ID."}>
-                    <Image 
-                        src='/edns.png' 
-                        alt="EDNS" 
-                        className="sm:max-w-[90%] max-w-[100%]" 
-                        style={{opacity:'0.95'}}
-                        quality={100}
-                        width={800}
-                        height={300}
-                    />
-                    </Tooltip>
-                    </Link>
-
-                    <Link className="p-1 col-span-1" href='https://twitter.com/youplaceapp'>
-                    <Tooltip message={'Istanbul based Web3 event space, coworking space, community hub, cafe and bar.'}>
-                        <Image 
-                        src='/youplacewhite.png' 
-                        alt="You Place" 
-                        className="sm:max-w-[65%] max-w-[80%]" 
-                        style={{opacity:'0.95'}}
-                        quality={100}
-                        width={600}
-                        height={600}
-                        />
-                    </Tooltip>
-                    </Link>
-
-                    <Link className="p-1 col-span-1" href='https://wearelight.house/'>
-                    <Tooltip message={"Bali based multi-level podcast & video production complex, creative space, entrepreneur community, cafe, bar and events space."}>
-                        <Image 
-                        src='/lighthouse_com.png' 
-                        alt="Lighthouse Studios Bali" 
-                        className="sm:max-w-[75%] max-w-[90%]" 
-                        style={{opacity:'0.95'}}
-                        quality={100}
-                        width={600}
-                        height={500}
-                        />
-                    </Tooltip>
-                    </Link>
-
-                    <Link className="p-1 col-span-1" href='https://www.quillaudits.com/smart-contract-audit'>
-                    <Tooltip message={"Smart Contracts Auditing Services, DeFi Safety Audits."}>
-                        <Image 
-                        src='/QA_Extended_White.png' 
-                        alt="Quill Audits" 
-                        className="max-w-[100%]" 
-                        style={{opacity:'0.95'}}
-                        quality={100}
-                        width={600}
-                        height={500}
-                        />
-                    </Tooltip>
-                    </Link>
+                    {friendLogos.map((friend) => {
+                        return (
+                        <Link className="p-1 col-span-1" href={friend.link}>
+                            <Tooltip message={friend.message}>
+                                <Image 
+                                src={friend.imgUrl} 
+                                alt={friend.altText} 
+                                className={friend.maxWidth}
+                                style={{opacity:'0.95'}}
+                                quality={100}
+                                width={600}
+                                height={400}
+                                />
+                            </Tooltip>
+                        </Link>
+                        )
+                    })}
 
                 </div>
             </div>

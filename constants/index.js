@@ -2,7 +2,7 @@ export const newsArticles = [
   {
     index: '01',
     title: 'Istanbul Blockchain Week',
-    description: 'Bridgr hosted the official Istanbul Blockchain Week afterparty at YouPlace.',
+    description: 'Bridgr hosted the official Istanbul Blockchain Week afterparty.',
     date: 'Nov 14th 2022',
     link: 'https://twitter.com/Bridgrxyz/status/1592214170996703232?s=20',
     imgUrl: '/istanbulnews.jpg',
@@ -11,7 +11,7 @@ export const newsArticles = [
   {
     index: '02',
     title: 'Singapore Social',
-    description: "Singapore's first NFT bar The Parlour Singapore hosted a sold out Bridgr Web3 Social.",
+    description: "Singapore's first NFT bar hosted a sold out Bridgr Web3 Social.",
     date: 'Feb 3rd 2023',
     link: 'https://twitter.com/Bridgrxyz/status/1622586625552429057?s=20',
     imgUrl: '/singaporefeb.jpg',
@@ -20,7 +20,7 @@ export const newsArticles = [
   {
     index: '03',
     title: 'Beachside in Bali',
-    description: 'We hit the tropics and threw a red carpet event in Bali with EDNS and Off-Chain.',
+    description: 'We hit the tropics and threw a red carpet event in Bali.',
     date: 'Feb 24th 2023',
     link: 'https://twitter.com/Bridgrxyz/status/1625104846675386369?s=20',
     imgUrl: '/balinews.jpg',
@@ -29,7 +29,7 @@ export const newsArticles = [
   {
     index: '04',
     title: 'Istanbul Keynote Panel',
-    description: 'Discussing how Web3 can help during emergencies like the February earthquake.',
+    description: "How Web3 can help in emergencies like Turkey's earthquakes.",
     date: 'April 1st 2023',
     link: 'https://twitter.com/Bridgrxyz/status/1644964278833905667?s=20',
     imgUrl: '/istanbul_dj.jpg',
@@ -38,7 +38,7 @@ export const newsArticles = [
   {
     index: '05',
     title: 'NFT NYC',
-    description: 'NFT.NYC after party with the worlds first CryptoPunk band, live DJ and NFT prizes.',
+    description: 'NFT.NYC after party with the worlds first CryptoPunk band and live DJ.',
     date: 'April 12th 2023',
     link: 'https://twitter.com/Bridgrxyz/status/1650437870321291269?s=20',
     imgUrl: '/gamehaus_game.jpg',
@@ -128,63 +128,120 @@ export const learnArticles = [
   },
 ];
 
-export const startingFeatures = [
-  'Get in touch with us',
-  'Let us know how we can help you',
-  'We’ll get to work right away',
-];
+export const partnerLogos = [
+  {
+    index: '01',
+    link: '',
+    message: '',
+    imgUrl: '',
+    altText: '',
+    maxWidth: '',
+  },
+  {
+    index: '02',
+    link: '',
+    message: '',
+    imgUrl: '',
+    altText: '',
+    maxWidth: '',
+  },
+  {
+    index: '03',
+    link: '',
+    message: '',
+    imgUrl: '',
+    altText: '',
+    maxWidth: '',
+  },
+  {
+    index: '04',
+    link: '',
+    message: '',
+    imgUrl: '',
+    altText: '',
+    maxWidth: '',
+  },
+  {
+    index: '05',
+    link: '',
+    message: '',
+    imgUrl: '',
+    altText: '',
+    maxWidth: '',
+  },
+  {
+    index: '06',
+    link: '',
+    message: '',
+    imgUrl: '',
+    altText: '',
+    maxWidth: '',
+  },
+  {
+    index: '07',
+    link: '',
+    message: '',
+    imgUrl: '',
+    altText: '',
+    maxWidth: '',
+  },
+  {
+    index: '08',
+    link: '',
+    message: '',
+    imgUrl: '',
+    altText: '',
+    maxWidth: '',
+  },
+  {
+    index: '09',
+    link: '',
+    message: '',
+    imgUrl: '',
+    altText: '',
+    maxWidth: '',
+  },
+]
 
-export const newFeatures = [
+export const friendLogos = [
   {
-    imgUrl: '/vrpano.svg',
-    title: 'Global Reach',
-    subtitle:
-        'We have partners ready to help you from across the world, their network and expertise becomes yours the second we work together.',
+    index: '01',
+    link: 'https://www.quillaudits.com/smart-contract-audit',
+    message: 'Smart Contracts Auditing Services, DeFi Safety Audits.',
+    imgUrl: '/QA_Extended_White.png',
+    altText: 'Quill Audits',
+    maxWidth: 'max-w-[100%]',
   },
   {
-    imgUrl: '/headset.svg',
-    title: 'Shared Community',
-    subtitle:
-        "We provide immediate access to our network of communities worldwide. Skip the hard part and join our shared community.",
-  },
-];
-
-export const insights = [
-  {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
-    subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+    index: '02',
+    link: 'https://nordek.io/',
+    message: 'Lightspeed Blockchain Ecosystem for Payments and Gaming.',
+    imgUrl: '/nordek.png',
+    altText: 'Nordek',
+    maxWidth: 'sm:max-w-[95%] max-w-[100%]',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
-    subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+    index: '03',
+    link: 'https://www.edns.domains/',
+    message: 'Decentralized name service providing domain names for Web3, including NFT, crypto wallets, web hosting, DeFi ID, and GameFi ID.',
+    imgUrl: '/edns.png',
+    altText: 'EDNS',
+    maxWidth: 'sm:max-w-[90%] max-w-[100%]',
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
-    subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
-  },
-];
-
-export const socials = [
-  {
-    name: 'twitter',
-    url: '/twitter.svg',
+    index: '04',
+    link: 'https://twitter.com/youplaceapp',
+    message: 'Istanbul based Web3 event space, coworking space, community hub, cafe and bar.',
+    imgUrl: '/youplacewhite.png',
+    altText: 'You Place',
+    maxWidth: 'sm:max-w-[65%] max-w-[80%]',
   },
   {
-    name: 'linkedin',
-    url: '/linkedin.svg',
-  },
-  {
-    name: 'instagram',
-    url: '/instagram.svg',
-  },
-  {
-    name: 'facebook',
-    url: '/facebook.svg',
-  },
-];
+    index: '05',
+    link: 'https://wearelight.house/',
+    message: 'Bali based multi-level podcast & video production complex, creative space, entrepreneur community, cafe, bar and events space.',
+    imgUrl: '/lighthouse_com.png',
+    altText: 'Lighthouse Studios Bali',
+    maxWidth: 'sm:max-w-[75%] max-w-[90%]',
+  }
+]
