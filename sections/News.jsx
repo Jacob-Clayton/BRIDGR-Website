@@ -20,12 +20,12 @@ const News = () => {
                 <div className="flex flex-col gap-5 sm:gap-6 text-center sm:text-left">
                     {reversedNewsArticles.map((news) => {
                         return( 
-                            <div key={news.index} className="relative flex flex-row xl:gap-20 lg:gap-12 md:gap-8 sm:gap-6 gap-4">
+                            <div key={news.index} className="relative flex flex-row xl:gap-16 lg:gap-12 md:gap-8 sm:gap-6 gap-4">
                                 <Image
                                     src={news.imgUrl}
                                     alt={news.altText}
-                                    className="sm:mx-auto my-auto lg:w-[180px] lg:h-[180px] sm:w-[150px] sm:h-[150px] w-[100px] h-[100px] rounded object-cover"
-                                    width={500} height={500}
+                                    className="sm:mx-auto my-auto xl:w-[180px] xl:h-[180px] lg:w-[170px] lg:h-[170px] sm:w-[130px] sm:h-[130px] w-[90px] h-[90px] rounded object-cover"
+                                    width={700} height={700} quality={100}
                                 />
                                 <div className="w-full flex justify-between items-center">
                                     <div className="flex-1 flex flex-col gap-1">

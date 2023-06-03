@@ -8,7 +8,7 @@ const PricingTable = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
 
     return (
-        <section className="text-gray-900 xl:mt-20 md:mt-10 mt-5">
+        <section className={`${styles.paddings} text-gray-900 xl:mt-20 md:mt-10 mt-5`}>
             <motion.div
                 variants={fadeIn('up', 'tween', 0.05, 1)}
                 initial={isLgScreen ? 'hidden' : 'visible'}
@@ -42,7 +42,7 @@ const PricingTable = () => {
                         </div>
                     </div> */}
 
-                    <div className="flex w-full mb-8 sm:px-4 md:w-1/2 xl:w-1/3 lg:mb-0">
+                    <div className="flex w-full mb-8 sm:px-4 lg:w-1/2 2xl:w-1/3 lg:mb-0">
                         <div className="flex flex-col p-6 space-y-6 rounded sm:p-8 bg-off-white">
                             <div className="space-y-2">
                                 <p className={`${styles.subheaderText} text-violet`}>Friend</p>
@@ -67,7 +67,7 @@ const PricingTable = () => {
                         </div>
                     </div>
 
-                    <div className="w-full mb-8 sm:px-4 md:w-1/2 xl:w-1/3 lg:mb-0">
+                    <div className="w-full mb-8 sm:px-4 lg:w-1/2 2xl:w-1/3 lg:mb-0">
                         <div className="p-6 space-y-6 rounded sm:p-8 bg-off-white">
                             <div className="space-y-2">
                                 <p className={`${styles.subheaderText} text-violet`}>Member</p>
