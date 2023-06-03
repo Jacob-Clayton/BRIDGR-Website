@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { useMediaQuery } from 'react-responsive';
 import styles from '../styles';
-import { staggerContainer, fadeIn } from '../utils/motion';
+import { staggerContainer } from '../utils/motion';
 import { TitleText, PricingTable } from '../components';
 
 const Pricing = () => {
