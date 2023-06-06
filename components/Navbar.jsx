@@ -104,14 +104,14 @@ function MobileNav({open, setOpen}) {
   );
 };
 
-const Navbar = ({ visible, style }) => {
+const Navbar = ({ visible, style, top }) => {
     const [open, setOpen] = useState(false);
 
     return (
         <motion.nav 
           id="navbar" 
           style={style}
-          className={classnames("navbar", {"navbar--hidden": !visible}, "fixed lg:h-[75px] md:h-[65px] sm:h-[60px] h-[55px] flex w-full border-gray-500 border-b-[1px] border-opacity-30")}
+          className={classnames("navbar", {"navbar--hidden": !visible}, `${top} fixed lg:h-[75px] md:h-[65px] sm:h-[60px] h-[55px] flex w-full border-gray-500 border-b-[1px] border-opacity-30`)}
         >
             <div className={`${styles.interWidth} ${styles.descriptionText} flex mx-auto justify-between`}>
               <Link className='flex items-center' href='/'>

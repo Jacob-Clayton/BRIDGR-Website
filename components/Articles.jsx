@@ -17,7 +17,8 @@ const Artcles = () => {
                                 <div className="flex flex-col justify-end place-content-end mt-4">
                                     <span className="flex flex-row justify-between items-center">
                                         <p className="text-sm">{article.date}</p>
-                                        <img className="xl:max-w-[100px] max-w-[70px] xl:max-h-[45px] sm:max-h-[40px] max-h-[38px]" src={article.logo} alt="article logo"/>
+                                        <p className="text-sm">{article.author}</p>
+                                        {/* <img className="xl:max-w-[100px] max-w-[70px] xl:max-h-[45px] sm:max-h-[40px] max-h-[38px]" src={article.logo} alt="article logo"/> */}
                                     </span>
                                 </div>
                             </div>

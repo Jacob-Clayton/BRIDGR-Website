@@ -1,4 +1,4 @@
-import { Nav, Footer, TitleText, Articles } from "../../components";
+import { Footer, TitleText, Articles, Navbar } from "../../components";
 import styles from "../../styles";
 import { useMediaQuery } from 'react-responsive';
 import { motion } from "framer-motion";
@@ -9,7 +9,7 @@ export default function Learn() {
 
     return (
         <section className="relative">
-            <Nav />
+            <Navbar top={'top-0 bg-cetecean-blue'} />
             <motion.div 
                 variants={staggerContainer}
                 initial={isLgScreen ? 'hidden' : 'visible'}

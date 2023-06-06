@@ -1,14 +1,14 @@
 'use client';
 
-import { Button, Footer, Nav } from "../../components";
+import { Button, Footer, Navbar } from "../../components";
 import styles from "../../styles";
 import Link from "next/link";
 
 export default function hackersLearn() {
     return (
         <>
-        <Nav />
-		<section className={`${styles.paddings} bg-cetecean-blue min-h-screen overflow-hidden`}>
+        <Navbar top={'top-0 bg-cetecean-blue'} />
+		<section className={`${styles.yPaddings} bg-cetecean-blue min-h-screen overflow-hidden`}>
             <div className={`${styles.articleWidth} mx-auto w-full mt-20 p-8 py-12 bg-off-white rounded-lg`}>
                 <article className={`${styles.descriptionText} text-primary-black`}>
                     <div className="w-full mx-auto">
