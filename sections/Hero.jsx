@@ -29,7 +29,7 @@ const Hero = () => {
           <div className={`${styles.xPaddings} flex flex-row justify-center sm:justify-start sm:gap-8 gap-4 sm:mt-8 md:mt-10 mt-6`}>
             <button className="bg-violet border border-violet text-off-white py-2 px-6 items-center flex flex-row rounded">
               <Link className={`${styles.descriptionText}`} href="/apply/member">
-                Register Interest</Link>
+                Join Us</Link>
             </button>
             <button className='border border-violet text-off-white py-2 px-6 items-center flex flex-row rounded'>
               <Link className={`${styles.descriptionText}`} href="/contact">

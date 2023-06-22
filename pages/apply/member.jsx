@@ -17,7 +17,7 @@ export default function member() {
 					</p>
 					<MemberForm/>
 					<Button>
-						<Link className= {`${styles.descriptionText}`} href="/#Pricing">
+						<Link className= {`${styles.descriptionText}`} href="/">
 							Back
 						</Link>
 					</Button>
