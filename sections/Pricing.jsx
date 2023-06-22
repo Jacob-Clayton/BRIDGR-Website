@@ -19,17 +19,6 @@ const Pricing = () => {
                 className={`${styles.innerWidth} mx-auto flex flex-col`}
             >
             <TitleText title={<>Pricing</>}textStyles="text-center" />
-                {/* <motion.p
-                    variants={fadeIn('up', 'tween', 0.2, 1)}
-                    initial={isLgScreen ? 'hidden' : 'visible'}
-                    whileInView="show"
-                    className="md:mt-10 mt-5 font-normal 2xl:text-[21px] xl:text-xl md:text-lg text-md text-center text-secondary-white"
-                >
-                    Become a Friend to increase your visibility at our global 'WEB3 SOCIAL' events. <br/>
-                    Become a Member to gain full access to all our services plus our combined global community. <br/>
-                    Don't need the full package? Then we have a consultancy service to build your Web3 product from the ground up.
-
-                </motion.p> */}
                 <PricingTable/>                
             </motion.div>
         </section>

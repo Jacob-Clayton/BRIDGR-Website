@@ -14,7 +14,7 @@ const styles = {
     flexEnd: 'flex justify-end',
     navPadding: 'pt-[98px]',
 
-    headerText: 'font-medium 2xl:text-3xl xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl text-off-white',
+    headerText: 'font-medium 2xl:text-4xl xl:text-3xl lg:text-2xl md:text-2xl sm:text-2xl text-2xl text-off-white',
     subheaderText: 'font-semibold 2xl:text-2xl xl:text-2xl md:text-xl sm:text-xl text-lg text-off-white',
     descriptionText: 'font-regular 2xl:text-xl xl:text-[19px] md:text-lg sm:text-[17px] text-md 2xl:leading-[27px] xl:leading-[26px] lg:leading-[25px] md:leading-[24px] sm:leading-[22px] leading-[21px] text-off-white',
 

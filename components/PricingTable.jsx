@@ -8,44 +8,120 @@ const PricingTable = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
 
     return (
-        <section className={`${styles.paddings} text-gray-900 xl:mt-20 md:mt-10 mt-5`}>
+        <section className={`${styles.paddings} text-gray-900 md:mt-8 mt-5`}>
             <motion.div
                 variants={fadeIn('up', 'tween', 0.05, 1)}
                 initial={isLgScreen ? 'hidden' : 'visible'}
                 whileInView="show"
                 className={` mx-auto`}
             >
-                <div className="flex flex-wrap justify-center items-stretch -mx-6">
+                <div className="flex flex-wrap justify-center items-stretch">
 
-                    {/* <div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
-                        <div className="flex flex-col p-6 space-y-6 rounded sm:p-8 bg-off-white">
-                            <div className="space-y-2">
-                                <p className={`${styles.subheaderText} text-violet`}>Consult us</p>
-                                <span className="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-4xl sm:text-5xl text-4xl font-bold text-cetecean-blue">$150
-                                    <span className="text-sm font-medium tracking-wide ml-1">/ hour</span>
-                                </span>
+                    <div className="mx-auto">
+                        <div className="grid grid-cols-1 md:items-stretch md:grid-cols-2 gap-x-12 lg:gap-x-20 gap-y-10">
+                            <div className="flex flex-col justify-start lg:py-8">
+                                <h2 className={`${styles.headerText} lg:w-3/4`}>Join our global web3 events series</h2>
+
+                                <div className="mt-10">
+                                    <div className="flex items-center">
+                                        <svg className="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                            <path
+                                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                            />
+                                        </svg>
+                                        <svg className="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                            <path
+                                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                            />
+                                        </svg>
+                                        <svg className="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                            <path
+                                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                            />
+                                        </svg>
+                                        <svg className="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                            <path
+                                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                            />
+                                        </svg>
+                                        <svg className="w-6 h-6 text-orange-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                            <path
+                                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                                            />
+                                        </svg>
+                                    </div>
+
+                                    <blockquote className="mt-2">
+                                        <p className={`${styles.descriptionText}`}>Bridgr made it so simple. My company got exposure at events all around the world. I just joined Bridgr and they took care of the rest.</p>
+                                    </blockquote>
+
+                                    <div className="flex items-center mt-6">
+                                        <img className="flex-shrink-0 object-cover w-10 h-10 rounded-full" src="/hilal.png" alt="" />
+                                        <div className="ml-4">
+                                            <p className="text-base font-semibold text-white">Hilal</p>
+                                            <p className="mt-px text-sm text-gray-400">CryptoFemale</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <p className={`${styles.descriptionText} text-primary-black`}>Technical consultancy specialising in smart contracts.
-                                <Link href="https://docs.bridgr.xyz/consultancy/web3-consultancy" className='font-medium'> Read more.</Link>
-                            </p>
-                            <ul className={`${styles.descriptionText} text-primary-black lg:space-y-[0.2rem] space-y-[0.1rem] flex-1`}>
-                                <li className="flex mb-2 space-x-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#180D4C" className="flex-shrink-0 w-6 h-6 ">
-                                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-                                    </svg>
-                                    <span>Web3 Consultancy</span>
-                                </li>
-                            </ul>
-                            <a rel="noopener noreferrer" href="#Contact" className={`${styles.descriptionText} inline-block w-full px-5 py-3 text-center rounded bg-violet`}>
-                                Contact Us
-                            </a>
-                        </div>
-                    </div> */}
 
-                    <div className="flex w-full mb-8 sm:px-4 lg:w-1/2 2xl:w-1/3 lg:mb-0">
+                            <div className="">
+                                <div className="overflow-hidden bg-off-white rounded">
+                                    <div className="p-10">
+                                        <div className="space-y-2">
+                                            <p className={`${styles.subheaderText} text-lavender`}>Member</p>
+                                            <span className="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-4xl sm:text-5xl text-4xl font-bold text-cetecean-blue">$200
+                                                <span className="text-sm text-gray-500 font-medium ml-1">/ year</span>
+                                            </span>
+                                        </div>
+
+                                        <ul className="flex flex-col mt-8 space-y-4">
+                                            <li className="inline-flex items-center space-x-2">
+                                                <svg className="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                                </svg>
+                                                <p className={`${styles.descriptionText} text-primary-black`}> Global Web3 events </p>
+                                            </li>
+
+                                            <li className="inline-flex items-center space-x-2">
+                                                <svg className="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                                </svg>
+                                                <p className={`${styles.descriptionText} text-primary-black`}> Combined community </p>
+                                            </li>
+
+                                            <li className="inline-flex items-center space-x-2">
+                                                <svg className="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                                </svg>
+                                                <p className={`${styles.descriptionText} text-primary-black`}> Educational content </p>
+                                            </li>
+
+                                            <li className="inline-flex items-center space-x-2">
+                                                <svg className="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                                </svg>
+                                                <p className={`${styles.descriptionText} text-primary-black`}> Support network </p>
+                                            </li>
+                                        </ul>
+
+                                        <Link rel="noopener noreferrer" href="/apply/member" title="" className="inline-flex items-center justify-center w-full px-8 py-4 mt-10 font-semibold text-off-white transition-all duration-200 rounded bg-gradient-to-r from-lavender to-violet hover:opacity-80 focus:opacity-80" role="button"> 
+                                            Join
+                                        </Link>
+                                        <div className="flex items-center mt-5">
+                                            <Link href={'https://docs.bridgr.xyz/benefits/for-members'} className="ml-2 text-sm text-gray-500 hover-underline-animation-b"> More Information </Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    {/* <div className="flex w-full mb-8 sm:px-4 lg:w-1/2 2xl:w-1/3 lg:mb-0">
                         <div className="flex flex-col p-6 space-y-6 rounded sm:p-8 bg-off-white">
                             <div className="space-y-2">
-                                <p className={`${styles.subheaderText} text-violet`}>Friend</p>
+                                <p className={`${styles.subheaderText} text-lavender`}>Friend</p>
                                 <span className="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-4xl sm:text-5xl text-4xl font-bold text-cetecean-blue">$200
                                     <span className="sm:text-sm sm:leading[20px] text-[13px] leading-[18px] font-medium tracking-wide ml-1">/ lifetime</span>
                                 </span>
@@ -70,7 +146,7 @@ const PricingTable = () => {
                     <div className="w-full mb-8 sm:px-4 lg:w-1/2 2xl:w-1/3 lg:mb-0">
                         <div className="p-6 space-y-6 rounded sm:p-8 bg-off-white">
                             <div className="space-y-2">
-                                <p className={`${styles.subheaderText} text-violet`}>Member</p>
+                                <p className={`${styles.subheaderText} text-lavender`}>Member</p>
                                 <span className="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-4xl sm:text-5xl text-4xl font-bold text-cetecean-blue">$2000
                                     <span className="sm:text-sm sm:leading[20px] text-[13px] leading-[18px] font-medium tracking-wide ml-1">/ year</span>
                                 </span>
@@ -120,7 +196,7 @@ const PricingTable = () => {
                                 Register Interest
                             </Link>
                         </div>
-                    </div>
+                    </div> */}
                     
                 </div>
             </motion.div>

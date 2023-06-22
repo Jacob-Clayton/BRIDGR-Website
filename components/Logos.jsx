@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useMediaQuery } from 'react-responsive';
 import { fadeIn } from '../utils/motion';
-import { friendLogos, partnerLogos } from '../constants';
+import { memberLogos } from '../constants';
 
 const Logos = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
@@ -20,19 +20,19 @@ const Logos = () => {
             className='relative mb-6'
         > 
         
-            <TypingText title="Partners" textStyles="text-left sm:px-3 px-2" />
-            <div className=' place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
-                {partnerLogos.map((partner) => {
+            <TypingText title="Members" textStyles="text-left sm:px-3 px-2" />
+            <div className=' place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-6 gap-6 sm:gap-y-6 gap-y-3'>
+                {memberLogos.map((member) => {
                     return (
-                        <Link className="p-1 col-span-1" href={partner.link}>
-                            <Tooltip message={partner.message}>
+                        <Link className="p-1 col-span-1" href={member.link}>
+                            <Tooltip message={member.message}>
                                 <Image 
-                                    src={partner.imgUrl} 
-                                    alt={partner.altText}
-                                    className={partner.maxWidth} 
+                                    src={member.imgUrl} 
+                                    alt={member.altText}
+                                    className={member.maxWidth}
                                     style={{opacity:'0.95'}}
                                     quality={100}
-                                    width={938}
+                                    width={800}
                                     height={400}
                                 />
                             </Tooltip>
@@ -41,7 +41,7 @@ const Logos = () => {
                 })}
             </div>
 
-            <TypingText title="Friends" textStyles="text-left sm:px-3 px-2 mt-10" />
+            {/* <TypingText title="Friends" textStyles="text-left sm:px-3 px-2 mt-10" />
             <div className='place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
                 {friendLogos.map((friend) => {
                     return (
@@ -60,7 +60,7 @@ const Logos = () => {
                     </Link>
                     )
                 })}
-            </div>
+            </div> */}
 
     </motion.div>
     );
