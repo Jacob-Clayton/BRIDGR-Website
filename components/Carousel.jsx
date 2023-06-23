@@ -89,7 +89,7 @@ const CarouselElement = () => {
                     className="w-full lg:block hidden xl:h-[480px] lg:h-[440px] md:h-[400px] sm:h-[400px] h-[320px] min-h-[210px] object-cover rounded"
                     width={910}
                     height={710}
-                    quality={95}
+                    quality={90}
                 />
             </motion.div>
         </motion.div>

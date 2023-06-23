@@ -17,7 +17,7 @@ const Team = () => {
         initial={isLgScreen ? 'hidden' : 'visible'}
         whileInView="show"
         viewport={{ once: false, amount: 0.01 }}
-        className={`${styles.innerWidth} mx-auto md:mt-10 mt-5 flex flex-col`}
+        className={`${styles.innerWidth} mx-auto md:mt-10 mt-5`}
       >
         <TitleText title={<>Our Team</>} textStyles="text-center" />
         <div className="mx-auto text-secondary-white">
@@ -88,6 +88,7 @@ const Team = () => {
 
           </motion.div>
         </div>
+
         <CarouselElement />
       </motion.div>
     </section>
