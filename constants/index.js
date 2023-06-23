@@ -56,7 +56,7 @@ export const newsArticles = [
   {
     index: '07',
     title: 'Web3 Social India',
-    description: "Bridgr is hosting CryptoFemale India's first Web3 social in India's 'Silicon Valley', Bangalore.",
+    description: "Bridgr hosted CryptoFemale India's first Web3 social in India's 'Silicon Valley', Bangalore.",
     date: 'June 16th 2023',
     link: 'https://medium.com/@bridgrxyz/cryptofemale-india-celebrate-their-first-offline-event-on-june-16th-in-bangalore-supported-by-cdd5d6ecf571',
     imgUrl: '/draperhouse.jpeg',

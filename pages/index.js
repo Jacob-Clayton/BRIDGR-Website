@@ -1,5 +1,5 @@
 import { Footer, Nav } from '../components';
-import { Hero, About, Team, Story, Services, Pricing, Events, News, Contact } from '../sections';
+import { Hero, About, Team, Services, Pricing, Events, News, Contact } from '../sections';
 
 const Home = () => (
   <>
@@ -11,7 +11,6 @@ const Home = () => (
       <div className='bg-cetecean-blue'>
         <About />
         <Team />
-        <Story />
         <Services />
         <Pricing />
         <Events />

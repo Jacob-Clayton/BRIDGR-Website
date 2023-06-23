@@ -51,7 +51,7 @@ const Events = () => {
                   Asia
                 </p>
                 <p className={`${styles.descriptionText}`}>
-                  Singapore, Seoul, Bali and Hanoi.
+                  Singapore, India, Seoul, Bali and Hanoi.
                 </p>
               </div>
           </a>

@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { useMediaQuery } from 'react-responsive';
 import { fadeIn } from '../utils/motion';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from '../styles';
 
 const PricingTable = () => {
@@ -20,7 +21,7 @@ const PricingTable = () => {
                     <div className="mx-auto w-full">
                         <div className="flex flex-col lg:flex-row lg:gap-x-2 gap-y-8">
                             <div className="lg:w-1/2 2xl:w-2/3 flex flex-col justify-start lg:py-8">
-                                <h2 className={`${styles.headerText} lg:w-3/4 2xl:w-1/2`}>Join our global web3 events series</h2>
+                                <h2 className={`${styles.headerText} lg:w-3/4 2xl:w-1/2`}>Join our collective</h2>
 
                                 <div className="mt-10">
                                     <div className="flex items-center">
@@ -56,10 +57,10 @@ const PricingTable = () => {
                                     </blockquote>
 
                                     <div className="flex items-center mt-6">
-                                        <img className="flex-shrink-0 object-cover w-10 h-10 rounded-full" src="/hilal.png" alt="" />
+                                        <img className="flex-shrink-0 object-cover w-10 h-10 rounded-full" src="/henry.png" alt="" />
                                         <div className="ml-4">
-                                            <p className="text-base font-semibold text-white">Hilal</p>
-                                            <p className="mt-px text-sm text-gray-400">CryptoFemale</p>
+                                            <p className="text-base font-semibold text-white">Henry Foo</p>
+                                            <p className="mt-px text-sm text-gray-400">Ethlas</p>
                                         </div>
                                     </div>
                                 </div>
@@ -67,11 +68,11 @@ const PricingTable = () => {
 
                             <div className="lg:w-1/2 2xl:w-1/3">
                                 <div className="overflow-hidden bg-off-white rounded">
-                                    <div className="p-10">
+                                    <div className="md:px-10 md:py-8 px-8 py-6">
                                         <div className="space-y-2">
                                             <p className={`${styles.subheaderText} text-lavender`}>Member</p>
                                             <span className="2xl:text-6xl xl:text-5xl lg:text-4xl md:text-4xl sm:text-5xl text-4xl font-bold text-cetecean-blue">$200
-                                                <span className="text-sm text-gray-500 font-medium ml-1">/ year</span>
+                                                <span className="text-sm text-gray-500 font-medium ml-1">/ lifetime</span>
                                             </span>
                                         </div>
 
@@ -87,25 +88,39 @@ const PricingTable = () => {
                                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                                                 </svg>
-                                                <p className={`${styles.descriptionText} text-primary-black`}> Combined community </p>
+                                                <p className={`${styles.descriptionText} text-primary-black`}> Community building</p>
                                             </li>
 
                                             <li className="inline-flex items-center space-x-2">
                                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                                                 </svg>
-                                                <p className={`${styles.descriptionText} text-primary-black`}> Educational content </p>
+                                                <p className={`${styles.descriptionText} text-primary-black`}> Thought leadership </p>
                                             </li>
 
                                             <li className="inline-flex items-center space-x-2">
                                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                                                 </svg>
-                                                <p className={`${styles.descriptionText} text-primary-black`}> Support network </p>
+                                                <p className={`${styles.descriptionText} text-primary-black`}> Web3 education </p>
+                                            </li>
+
+                                            <li className="inline-flex items-center space-x-2">
+                                                <svg className="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                                </svg>
+                                                <p className={`${styles.descriptionText} text-primary-black`}> Marketing </p>
+                                            </li>
+
+                                            <li className="inline-flex items-center space-x-2">
+                                                <svg className="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                                </svg>
+                                                <p className={`${styles.descriptionText} text-primary-black`}> Web3 development </p>
                                             </li>
                                         </ul>
 
-                                        <Link rel="noopener noreferrer" href="/apply/member" title="" className="inline-flex items-center justify-center w-full px-8 py-4 mt-10 font-semibold text-off-white transition-all duration-200 rounded bg-gradient-to-r from-lavender to-violet hover:opacity-80 focus:opacity-80" role="button"> 
+                                        <Link rel="noopener noreferrer" href="/apply/member" title="" className={`${styles.descriptionText} inline-flex items-center justify-center w-full px-8 py-3 mt-8 transition-all duration-200 rounded bg-gradient-to-r from-lavender to-violet hover:opacity-80 focus:opacity-80`} role="button"> 
                                             Join
                                         </Link>
                                         <div className="flex items-center mt-5">

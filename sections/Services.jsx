@@ -21,7 +21,7 @@ const Services = () => {
                 whileInView="show"
                 viewport={{ once: false, amount: 0.01 }}
             >
-            <TitleText title={<>Services</>}textStyles="text-center" />
+            <TitleText title={<>Member Benefits</>}textStyles="text-center" />
             {/* <motion.p
                 variants={fadeIn('up', 'tween', 0.2, 1)}
                 initial={isLgScreen ? 'hidden' : 'visible'}
@@ -57,12 +57,12 @@ const Services = () => {
 
                                 <div className='flex sm:flex-row flex-col-reverse justify-end h-1/3 xl:pr-[100px] lg:pr-[50px] md:pr-[20px] sm:pr-[20px] border-[1px] sm:border-[0px] border-gray-500 border-opacity-30 rounded sm:p-0 p-4 gap-2 sm:gap-0'>
                                     <div className='flex flex-col my-auto xl:w-2/3 w-full'>
-                                        <p className={`${styles.subheaderText} sm:text-right text-left lg:mb-2 sm:mb-1 text-lavender`}>Visibility</p>
+                                        <p className={`${styles.subheaderText} sm:text-right text-left lg:mb-2 sm:mb-1 text-lavender`}>Web3 Events</p>
                                         <p className={`${styles.descriptionText} sm:text-right text-left`}>
                                             Global web3 events with exposure from our shared 250,000+ community.&nbsp;
-                                                <Link href='https://docs.bridgr.xyz/benefits/for-members/increased-visibility' className='hover-underline-animation font-medium'>
+                                                {/* <Link href='https://docs.bridgr.xyz/benefits/for-members/increased-visibility' className='hover-underline-animation font-medium'>
                                                     Read more.
-                                                </Link>
+                                                </Link> */}
                                         </p>
                                     </div>
                                     <div className="lg:w-16 lg:h-16 sm:w-10 sm:h-10 w-9 h-9 lg:ml-6 ml-3 flex my-auto items-center flex-shrink-0 rounded-full bg-off-white">
@@ -72,12 +72,12 @@ const Services = () => {
 
                                 <div className='flex sm:flex-row flex-col-reverse justify-start h-1/3 xl:pr-[70px] lg:pr-[55px] md:pr-[90px] sm:pr-[70px] border-[1px] sm:border-[0px] border-gray-500 border-opacity-30 rounded sm:p-0 p-4 gap-2 sm:gap-0'>
                                     <div className='flex flex-col my-auto lg:w-2/3 w-full'>
-                                        <p className={`${styles.subheaderText} sm:text-right text-left lg:mb-2 sm:mb-1 text-lavender`}>Business Building</p>
+                                        <p className={`${styles.subheaderText} sm:text-right text-left lg:mb-2 sm:mb-1 text-lavender`}>Community Building</p>
                                         <p className={`${styles.descriptionText} sm:text-right text-left`}>
-                                            We help you build your business from the ground up.&nbsp;
-                                                <Link href='https://docs.bridgr.xyz/benefits/for-members/web3-business-building' className='hover-underline-animation font-medium'>
+                                            Join our Twitter spaces to share your services with our global community.&nbsp;
+                                                {/* <Link href='https://docs.bridgr.xyz/benefits/for-members/web3-business-building' className='hover-underline-animation font-medium'>
                                                     Read more.
-                                                </Link>
+                                                </Link> */}
                                         </p>                              
                                     </div>
                                     <div className="lg:w-16 lg:h-16 sm:w-10 sm:h-10 w-9 h-9 lg:ml-6 ml-3 flex my-auto items-center flex-shrink-0 rounded-full bg-off-white">
@@ -87,16 +87,16 @@ const Services = () => {
                                 
                                 <div className='flex sm:flex-row flex-col-reverse justify-end h-1/3 xl:pr-[100px] lg:pr-[50px] md:pr-[20px] sm:pr-[20px] border-[1px] sm:border-[0px] border-gray-500 border-opacity-30 rounded sm:p-0 p-4 gap-2 sm:gap-0'>
                                     <div className='flex flex-col my-auto xl:w-2/3 w-full'>
-                                        <p className={`${styles.subheaderText} sm:text-right text-left lg:mb-2 sm:mb-1 text-lavender`}>Access Investors</p>
+                                        <p className={`${styles.subheaderText} sm:text-right text-left lg:mb-2 sm:mb-1 text-lavender`}>Thought Leadership</p>
                                         <p className={`${styles.descriptionText} sm:text-right text-left w-full`}>
-                                            Direct access to investors and help building your pitch.&nbsp;
-                                                <Link href='https://docs.bridgr.xyz/benefits/for-members/access-investors' className='hover-underline-animation font-medium'>
+                                            Feedback on your products and services and support improving them.&nbsp;
+                                                {/* <Link href='https://docs.bridgr.xyz/benefits/for-members/access-investors' className='hover-underline-animation font-medium'>
                                                     Read more.
-                                                </Link>
+                                                </Link> */}
                                         </p>
                                     </div>
                                     <div className="lg:w-16 lg:h-16 sm:w-10 sm:h-10 w-9 h-9 lg:ml-6 ml-3 flex my-auto items-center flex-shrink-0 rounded-full bg-off-white">
-                                        <img src="/finance.png" alt='visibility' className='lg:p-2 md:p-2 p-[0.35rem] mx-auto'/>
+                                        <img src="/brain.svg" alt='visibility' className='lg:p-2 md:p-2 p-[0.35rem] mx-auto'/>
                                     </div>
                                 </div>
 
@@ -119,24 +119,24 @@ const Services = () => {
                                         <p className={`${styles.subheaderText} text-lavender lg:mb-2 sm:mb-1`}>Web3 Education</p>
                                         <p className={`${styles.descriptionText}`}>
                                             Workshops, seminars and training certificates.&nbsp;
-                                            <Link href='https://docs.bridgr.xyz/benefits/for-members/education' className='hover-underline-animation font-medium'>
+                                            {/* <Link href='https://docs.bridgr.xyz/benefits/for-members/education' className='hover-underline-animation font-medium'>
                                                 Read more.
-                                            </Link>
+                                            </Link> */}
                                         </p>                                
                                     </div>
                                 </div>
 
                                 <div className='flex sm:flex-row flex-col justify-end h-1/3 xl:pl-[70px] lg:pl-[55px] md:pl-[90px] sm:pl-[70px] border-[1px] sm:border-[0px] border-gray-500 border-opacity-30 rounded sm:p-0 p-4 gap-2 sm:gap-0'>
                                     <div className="lg:w-16 lg:h-16 sm:w-10 sm:h-10 w-9 h-9 lg:mr-6 mr-3 sm:ml-0 ml-3 flex my-auto items-center flex-shrink-0 rounded-full bg-off-white">
-                                        <img src="/scales.png" alt='visibility' className='lg:p-[0.62rem] md:p-2 p-[0.35rem] mx-auto'/>
+                                        <img src="/announcement.svg" alt='visibility' className='lg:p-[0.62rem] md:p-2 p-[0.35rem] mx-auto'/>
                                     </div>
                                     <div className='flex flex-col my-auto lg:w-2/3 w-full'>
-                                        <p className={`${styles.subheaderText} text-lavender lg:mb-2 sm:mb-1`}>Legal Services</p>
+                                        <p className={`${styles.subheaderText} text-lavender lg:mb-2 sm:mb-1`}>Marketing</p>
                                         <p className={`${styles.descriptionText}`}>
-                                            Blockchain, cryptocurrency, AI, IP and corporate law specialists.&nbsp;
-                                            <Link href='https://docs.bridgr.xyz/benefits/for-members/legal' className='hover-underline-animation font-medium'>
+                                            Share your content with our combined community via newsletters, articles, tweets, LinkedIn posts etc.&nbsp;
+                                            {/* <Link href='https://docs.bridgr.xyz/benefits/for-members/legal' className='hover-underline-animation font-medium'>
                                                 Read more.
-                                            </Link>
+                                            </Link> */}
                                         </p>                                
                                     </div>
                                 </div>
@@ -149,9 +149,9 @@ const Services = () => {
                                         <p className={`${styles.subheaderText} text-lavender lg:mb-2 sm:mb-1`}>Web3 Development</p>
                                         <p className={`${styles.descriptionText}`}>
                                             Web3 integrated websites, smart contracts, audits, and NFT utility development.&nbsp;
-                                            <Link href='https://docs.bridgr.xyz/benefits/for-members/web3-development' className='hover-underline-animation font-medium'>
+                                            {/* <Link href='https://docs.bridgr.xyz/benefits/for-members/web3-development' className='hover-underline-animation font-medium'>
                                                 Read more.
-                                            </Link>
+                                            </Link> */}
                                         </p>                                
                                     </div>
                                 </div>
