@@ -20,7 +20,7 @@ const PricingTable = () => {
 
                     <div className="mx-auto w-full">
                         <div className="flex flex-col lg:flex-row lg:gap-x-2 gap-y-8">
-                            <div className="lg:w-1/2 2xl:w-2/3 flex flex-col justify-start lg:py-8">
+                            <div className="lg:w-1/2 2xl:w-2/3 flex flex-col justify-start">
                                 <h2 className={`${styles.headerText} lg:w-3/4 2xl:w-1/2`}>Join our collective</h2>
 
                                 <div className="mt-10">
@@ -53,7 +53,7 @@ const PricingTable = () => {
                                     </div>
 
                                     <blockquote className="mt-2">
-                                        <p className={`${styles.descriptionText} lg:w-3/4`}>Bridgr made it so simple. My company got exposure at events all around the world. I just joined Bridgr and they took care of the rest.</p>
+                                        <p className={`${styles.descriptionText} lg:w-3/4`}>Bridgr made it so simple. My company got exposure at events around the world. I just joined Bridgr and they took care of the rest.</p>
                                     </blockquote>
 
                                     <div className="flex items-center mt-6">
@@ -95,7 +95,7 @@ const PricingTable = () => {
                                     </div>
 
                                     <blockquote className="mt-2">
-                                        <p className={`${styles.descriptionText} lg:w-3/4`}>Bridgr helped us prepare marketing content and then gave us exposure at their global events.</p>
+                                        <p className={`${styles.descriptionText} lg:w-3/4`}>Bridgr’s event planning skills are second to none. They have hosted multiple events for me and they're always fantastic.</p>
                                     </blockquote>
 
                                     <div className="flex items-center mt-6">
@@ -137,14 +137,7 @@ const PricingTable = () => {
                                                 <svg className="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                                                 </svg>
-                                                <p className={`${styles.descriptionText} text-primary-black`}> Thought leadership </p>
-                                            </li>
-
-                                            <li className="inline-flex items-center space-x-2">
-                                                <svg className="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                                                </svg>
-                                                <p className={`${styles.descriptionText} text-primary-black`}> Web3 education </p>
+                                                <p className={`${styles.descriptionText} text-primary-black`}> Business building </p>
                                             </li>
 
                                             <li className="inline-flex items-center space-x-2">
@@ -153,20 +146,13 @@ const PricingTable = () => {
                                                 </svg>
                                                 <p className={`${styles.descriptionText} text-primary-black`}> Marketing </p>
                                             </li>
-
-                                            <li className="inline-flex items-center space-x-2">
-                                                <svg className="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                                                </svg>
-                                                <p className={`${styles.descriptionText} text-primary-black`}> Web3 development </p>
-                                            </li>
                                         </ul>
 
                                         <Link rel="noopener noreferrer" href="/apply/member" title="" className={`${styles.descriptionText} inline-flex items-center justify-center w-full px-8 py-3 mt-8 transition-all duration-200 rounded bg-gradient-to-r from-lavender to-violet hover:opacity-80 focus:opacity-80`} role="button"> 
                                             Join
                                         </Link>
                                         <div className="flex items-center mt-5">
-                                            <Link href={'https://docs.bridgr.xyz/benefits/for-members'} className="ml-2 text-sm text-gray-500 hover-underline-animation-b"> More Information </Link>
+                                            <p className="ml-2 text-sm text-gray-500"> *$200 membership for a limited time only* </p>
                                         </div>
                                     </div>
                                 </div>

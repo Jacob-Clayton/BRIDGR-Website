@@ -29,7 +29,7 @@ const Events = () => {
           className={`${styles.descriptionText} mx-auto md:mt-10 mt-5 lg:w-3/4 w-full text-center`}
         >
           Recieve worldwide exposure at our Web3 events. 
-          Your company will be given a professional speech, promotional graphics on screens around the event, plus video and images for your own use.
+          As an event sponsor your company will be have a professional speech, promotional graphics on screens around the event, plus video and images for your own use.
           Follow us on <a href='http://twitter.com/brizgrxyz' className='text-white font-semibold hover-underline-animation'> Twitter </a> and <a href='https://medium.com/@bridgrxyz' className='text-white font-semibold hover-underline-animation'>Medium</a> to stay up to date.
         </motion.p>
 
@@ -46,7 +46,7 @@ const Events = () => {
             height={546}
           />
           <a href='https://twitter.com/Bridgrxyz/status/1622586625552429057?s=20' aria-label="Bridgr's web3 social event platform details">
-              <div className='absolute hover:bg-opacity-100 2xl:top-[140px] 2xl:right-[75px] xl:top-[130px] xl:right-[58px] lg:top-[100px] lg:right-[10px] md:top-[128px] md:right-[0px] sm:top-[110px] sm:right-[0px] top-[-5px] right-0 bg-cetecean-blue bg-opacity-80 border-[1px] border-gray-500 border-opacity-30 shadow-lg hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[200px] md:w-[185px] sm:w-[160px] w-[150px] rounded md:p-4 sm:p-3 p-2'>
+              <div className='absolute hover:bg-opacity-100 2xl:top-[140px] 2xl:right-[75px] xl:top-[130px] xl:right-[58px] lg:top-[100px] lg:right-[10px] md:top-[128px] md:right-[0px] sm:top-[110px] sm:right-[0px] top-[-5px] right-0 bg-cetecean-blue bg-opacity-80 border-[1px] border-gray-500 border-opacity-30 shadow-lg hover:shadow-2xl hover:scale-[101%] duration-200 lg:w-[240px] md:w-[215px] sm:w-[160px] w-[150px] rounded md:p-4 sm:p-3 p-2'>
                 <p className={`${styles.subheaderText}`}>
                   Asia
                 </p>

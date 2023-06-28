@@ -47,9 +47,9 @@ const Hero = () => {
             <div className=''>
               <p className={`flex flex-col ${styles.descriptionText}`}>
                 <span className={`font-britanica sm:mb-1 xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl text-xl`}>
-                  10
+                  14
                 </span>
-                Partners
+                Members
               </p>
             </div>
 

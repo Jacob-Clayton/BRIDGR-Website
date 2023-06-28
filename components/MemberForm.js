@@ -38,24 +38,14 @@ export default function MemberForm() {
 		<form className='mt-10 gap-2 xl:w-[750px] lg:w-[700px] md:w-[600px] w-full mx-auto flex flex-col font-normal text-primary-black' onSubmit={handleSubmit(onSubmit)}>
 			<span className='lg:space-x-3 sm:space-x-2 space-x-1'>
                 <input
-                    {...register("firstname")}
-                    id='firstname'
-                    aria-label='First name field for Application form'
+                    {...register("name")}
+                    id='name'
+                    aria-label='Name field for Application form'
                     aria-required={true}
-                    placeholder='First Name'
+                    placeholder='Name'
                     type='text'
                     required
-                    className='w-[49%] input px-2 py-1 rounded bg-off-white'
-                />
-                <input
-                    {...register("lastname")}
-                    id='lastname'
-                    aria-label='last name field for Application form'
-                    aria-required={true}
-                    placeholder='Last Name'
-                    type='text'
-                    required
-                    className='w-[49%] input px-2 py-1 rounded bg-off-white'
+                    className='w-full input px-2 py-1 rounded bg-off-white'
                 />
 			</span>
 
