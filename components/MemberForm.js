@@ -121,7 +121,7 @@ export default function MemberForm() {
 				>
 					{isSubmitting ? "Submitting" : "Register Interest"}
 				</button>
-				<span className='mt-2'>
+				<span className='my-2'>
 					{form.state === 'loading' && <LoadingSpinner />}
 					{form.state === 'error' ? (
 						<ErrorMessage>{form.message}</ErrorMessage>
