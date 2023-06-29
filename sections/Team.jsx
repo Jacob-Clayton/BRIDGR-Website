@@ -28,13 +28,8 @@ const Team = () => {
             viewport={{ once: false, amount: 0.01 }}
             className={`${styles.descriptionText} md:mt-10 mt-5 lg:w-3/4 w-full mx-auto text-center`}
           >
-            We are experienced Web3 professionals with capabilities spanning entrepreneurship, 
-            fundraising, full stack development, web design, marketing and community building.
-            <br/>
-            We love Web3 and the possibilities it brings. 
-            Unfortunately, we've witnessed good people losing time and resources to shady players. 
-            That's why, in late 2022, we created BRIDGR, a network of trustworthy Web3 companies 
-            working together to provide a more authentic and cooperative Web3 platform.
+            We are experienced Web3 professionals with capabilities spanning entrepreneurship, events management, 
+            fundraising, web development, marketing and community building.
           </motion.p>
           <motion.div 
             variants={fadeIn('up', 'tween', 0.05, 1)}
