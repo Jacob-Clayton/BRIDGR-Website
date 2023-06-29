@@ -31,7 +31,7 @@ const Services = () => {
                 Let Bridgr build your Web3 business 
             </motion.p> */}
                 <div className={`mx-auto`}>
-                    <div className='xl:mt-20 sm:mt-10 mt-5 lg:h-[450px] md:h-[480px] sm:h-[480px] h-full relative'>
+                    <div className='md:mt-8 mt-5 lg:h-[450px] md:h-[480px] sm:h-[480px] h-full relative'>
 
                         {/* Centre logo circle */}
                         <motion.div 

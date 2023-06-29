@@ -42,7 +42,10 @@ export default function ContactForm() {
 				placeholder='Name'
 				type='text'
 				required
-				className='input px-2 py-1 bg-off-white rounded font-regular '
+				className='input px-2 py-1 bg-off-white rounded font-regular border border-slate-300 focus:outline-none
+				focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+				disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+				invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500'
 			/>
 			<input
 				{...register("email")}
@@ -52,7 +55,10 @@ export default function ContactForm() {
 				placeholder='Email'
 				type='email'
 				required
-				className='input px-2 py-1 bg-off-white rounded font-regular'
+				className='input px-2 py-1 bg-off-white rounded font-regular border border-slate-300 focus:outline-none
+				focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+				disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+				invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500'
 			/>
 			<input
 				{...register("subject")}
@@ -62,7 +68,10 @@ export default function ContactForm() {
 				placeholder='Subject'
 				type='text'
 				required
-				className='input px-2 py-1 bg-off-white rounded font-regular '
+				className='input px-2 py-1 bg-off-white rounded font-regular border border-slate-300 focus:outline-none
+				focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+				disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+				invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500'
 			/>
 			<textarea
 				{...register("message")}
@@ -73,7 +82,10 @@ export default function ContactForm() {
 				type='text'
 				rows='5'
 				required
-				className='input px-2 py-1 bg-off-white rounded font-regular'
+				className='input px-2 py-1 bg-off-white rounded font-regular border border-slate-300 focus:outline-none
+				focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+				disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+				invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500'
 			/>
 			<div className='flex flex-col items-center'>
                 <button 

@@ -19,7 +19,6 @@ const Logos = () => {
             viewport={{ once: false, amount: 0.01 }}
             className='relative mb-6'
         > 
-        
             <TypingText title="Members" textStyles="text-left sm:px-3 px-2" />
             <div className=' place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-6 gap-6 sm:gap-y-6 gap-y-3'>
                 {memberLogos.map((member) => {
@@ -40,28 +39,6 @@ const Logos = () => {
                     )
                 })}
             </div>
-
-            {/* <TypingText title="Friends" textStyles="text-left sm:px-3 px-2 mt-10" />
-            <div className='place-items-center grid grid-cols-4 md:grid-cols-9 sm:gap-10 md:gap-2 gap-6 sm:gap-y-6 gap-y-3'>
-                {friendLogos.map((friend) => {
-                    return (
-                    <Link className="p-1 col-span-1" href={friend.link}>
-                        <Tooltip message={friend.message}>
-                            <Image 
-                            src={friend.imgUrl} 
-                            alt={friend.altText} 
-                            className={friend.maxWidth}
-                            style={{opacity:'0.95'}}
-                            quality={100}
-                            width={600}
-                            height={400}
-                            />
-                        </Tooltip>
-                    </Link>
-                    )
-                })}
-            </div> */}
-
     </motion.div>
     );
 };

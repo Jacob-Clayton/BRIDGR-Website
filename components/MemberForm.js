@@ -45,7 +45,11 @@ export default function MemberForm() {
                     placeholder='Name'
                     type='text'
                     required
-                    className='w-full input px-2 py-1 rounded bg-off-white'
+                    className='w-full input px-2 py-1 rounded bg-off-white border border-slate-300 focus:outline-none
+					focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+					disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+					invalid:text-pink-600
+					focus:invalid:border-pink-500 focus:invalid:ring-pink-500'
                 />
 			</span>
 
@@ -58,7 +62,11 @@ export default function MemberForm() {
 					placeholder='Company'
 					type='text'
 					required
-					className='w-[49%] input px-2 py-1 rounded bg-off-white'
+					className='w-[49%] input px-2 py-1 rounded bg-off-white border border-slate-300 focus:outline-none
+					focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+					disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+					invalid:text-pink-600
+					focus:invalid:border-pink-500 focus:invalid:ring-pink-500'
 				/>
 				<input
 					{...register("link")}
@@ -68,7 +76,11 @@ export default function MemberForm() {
 					placeholder='Website / Social'
 					type='url'
 					required
-					className='w-[49%] input px-2 py-1 rounded bg-off-white'
+					className='w-[49%] input px-2 py-1 rounded bg-off-white border border-slate-300 focus:outline-none
+					focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+					disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+					invalid:text-pink-600
+					focus:invalid:border-pink-500 focus:invalid:ring-pink-500'
 				/>
 			</span>
 
@@ -81,7 +93,11 @@ export default function MemberForm() {
 					placeholder='Email'
 					type='email'
 					required
-					className='w-[49%] input px-2 py-1 rounded bg-off-white'
+					className='w-[49%] input px-2 py-1 rounded bg-off-white border border-slate-300 focus:outline-none
+					focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+					disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+					invalid:text-pink-600
+					focus:invalid:border-pink-500 focus:invalid:ring-pink-500'
 				/>
 				<input
 					{...register("location")}
@@ -91,7 +107,11 @@ export default function MemberForm() {
 					placeholder='Country'
 					type='Location'
 					required
-					className='w-[49%] input px-2 py-1 rounded bg-off-white'
+					className='w-[49%] input px-2 py-1 rounded bg-off-white border border-slate-300 focus:outline-none
+					focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+					disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+					invalid:text-pink-600
+					focus:invalid:border-pink-500 focus:invalid:ring-pink-500'
 				/>
 			</span>
 
@@ -111,7 +131,11 @@ export default function MemberForm() {
 				type='text'
 				rows='8'
 				required
-				className='input px-2 py-1 rounded bg-off-white'
+				className='input px-2 py-1 rounded bg-off-white border border-slate-300 focus:outline-none
+				focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+				disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+				invalid:text-pink-600
+				focus:invalid:border-pink-500 focus:invalid:ring-pink-500'
 			/>
 
 			<div className='flex flex-col items-center'>
