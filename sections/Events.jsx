@@ -29,7 +29,7 @@ const Events = () => {
           className={`${styles.descriptionText} mx-auto md:mt-10 mt-5 lg:w-3/4 w-full text-center`}
         >
           Recieve worldwide exposure at our Web3 events. 
-          As an event sponsor your company will be have a professional speech, promotional graphics on screens around the event, plus video and images for your own use.
+          As an event sponsor your company will receive a professional speech, promotional graphics on screens around the event, plus video and images for your own use.
           Follow us on <a href='http://twitter.com/brizgrxyz' className='text-white font-semibold hover-underline-animation'> Twitter </a> and <a href='https://medium.com/@bridgrxyz' className='text-white font-semibold hover-underline-animation'>Medium</a> to stay up to date.
         </motion.p>
 
