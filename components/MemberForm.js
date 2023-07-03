@@ -53,7 +53,7 @@ export default function MemberForm() {
                 />
 			</span>
 
-			<span className='lg:space-x-3 sm:space-x-2 space-x-1'>
+			<span className='flex justify-between'>
 				<input
 					{...register("company")}
 					id='company'
@@ -62,7 +62,7 @@ export default function MemberForm() {
 					placeholder='Company'
 					type='text'
 					required
-					className='w-[49%] input px-2 py-1 rounded bg-off-white border border-slate-300 focus:outline-none
+					className='w-[49.5%] input px-2 py-1 rounded bg-off-white border border-slate-300 focus:outline-none
 					focus:border-sky-500 focus:ring-1 focus:ring-sky-500
 					disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
 					invalid:text-pink-600
@@ -76,7 +76,7 @@ export default function MemberForm() {
 					placeholder='Website / Social'
 					type='url'
 					required
-					className='w-[49%] input px-2 py-1 rounded bg-off-white border border-slate-300 focus:outline-none
+					className='w-[49.5%] input px-2 py-1 rounded bg-off-white border border-slate-300 focus:outline-none
 					focus:border-sky-500 focus:ring-1 focus:ring-sky-500
 					disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
 					invalid:text-pink-600
@@ -84,7 +84,7 @@ export default function MemberForm() {
 				/>
 			</span>
 
-			<span className='lg:space-x-3 sm:space-x-2 space-x-1'>
+			<span className='flex justify-between'>
 			<input
 					{...register("email")}
 					id='email'
@@ -93,7 +93,7 @@ export default function MemberForm() {
 					placeholder='Email'
 					type='email'
 					required
-					className='w-[49%] input px-2 py-1 rounded bg-off-white border border-slate-300 focus:outline-none
+					className='w-[49.5%] input px-2 py-1 rounded bg-off-white border border-slate-300 focus:outline-none
 					focus:border-sky-500 focus:ring-1 focus:ring-sky-500
 					disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
 					invalid:text-pink-600
@@ -107,7 +107,7 @@ export default function MemberForm() {
 					placeholder='Country'
 					type='Location'
 					required
-					className='w-[49%] input px-2 py-1 rounded bg-off-white border border-slate-300 focus:outline-none
+					className='w-[49.5%] input px-2 py-1 rounded bg-off-white border border-slate-300 focus:outline-none
 					focus:border-sky-500 focus:ring-1 focus:ring-sky-500
 					disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
 					invalid:text-pink-600

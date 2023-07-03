@@ -83,14 +83,14 @@ function MobileNav({open, setOpen}) {
             onClick={() => setOpen(false)}>
             Contact
           </a>
-          <a 
+          {/* <a 
             className="cursor-pointer" 
             href="https://docs.bridgr.xyz" 
             onClick={() => setOpen(false)}>
             <button className='bg-lavender py-2 px-5 items-start flex flex-row rounded'>
               Whitepaper<img src="/external-link.svg" className="sm:w-[10px] sm:h-[10px] w-[9px] h-[9px] ml-[2px]" alt='external link'/>
             </button>
-          </a>
+          </a> */}
           <div className='w-full h-[1px] rounded-xl bg-gray-500 bg-opacity-30 fixed bottom-[17%]'/>
           <div className="flex sm:gap-4 gap-3 fixed bottom-[10%] " id='socials'>
             <a href="https://twitter.com/bridgrxyz"><Image src='/twitter.svg' className='w-[22px] h-[22px] object-contain cursor-pointer' width={20} height={20} alt='twitter'/></a>
