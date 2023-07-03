@@ -71,7 +71,7 @@ const Team = () => {
               <div className="h-full flex items-center border-gray-500 border-opacity-30 border p-4 rounded">
                 <Image alt="team" width={150} height={150} className="w-16 h-16 object-cover object-center flex-shrink-0 rounded-full mr-4" src="/jacob.png"/>
                 <div className="flex-grow">
-                  <p className={`${styles.descriptionText}`}>Jacob Clayton</p>
+                  <p className={`${styles.descriptionText}`}>Jacob</p>
                   <p className="text-secondary-white">Co-founder</p>
                 </div>
                 <div className="flex flex-col flex-shrink-0 ml-2 xl:mr-4 mr-2 gap-3">
