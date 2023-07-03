@@ -9,7 +9,7 @@ const PricingTable = () => {
     const isLgScreen = useMediaQuery({ minWidth: 1024 });
 
     return (
-        <section className={`${styles.paddings} text-gray-900 md:mt-8 mt-5`}>
+        <section className={`text-gray-900 md:mt-10 mt-5`}>
             <motion.div
                 variants={fadeIn('up', 'tween', 0.05, 1)}
                 initial={isLgScreen ? 'hidden' : 'visible'}
@@ -148,7 +148,7 @@ const PricingTable = () => {
                                             </li>
                                         </ul>
 
-                                        <Link rel="noopener noreferrer" href="/apply/member" title="" className={`${styles.descriptionText} inline-flex items-center justify-center w-full px-8 py-3 mt-8 transition-all duration-200 rounded bg-gradient-to-r from-lavender to-violet hover:opacity-80 focus:opacity-80`} role="button"> 
+                                        <Link rel="noopener noreferrer" href="/apply/member" title="" className={`${styles.descriptionText} magic-border inline-flex items-center justify-center w-full px-8 py-3 mt-8 transition-all duration-200 rounded hover:opacity-80 focus:opacity-80`} role="button"> 
                                             Join
                                         </Link>
                                         <div className="flex items-center mt-5">

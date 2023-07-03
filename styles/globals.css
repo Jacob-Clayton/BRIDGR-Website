@@ -142,50 +142,17 @@
   white-space: nowrap;
 }
 
-.magic-text2 {
-  animation: background-pan 5s linear infinite;
-  background: linear-gradient(
-    to right,
-    rgb(67, 134, 255),
-    #379CE0,
-    rgb(179, 109, 229),
-    rgb(67, 134, 255)
-  );
-  background-size: 200%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  white-space: nowrap;
-}
-
 .magic-border {
   animation: background-pan 5s linear infinite;
   background: linear-gradient(
     to right,
-    rgb(25, 53, 163),
-    #379CE0,
-    rgb(179, 109, 229),
-    rgb(25, 53, 163)
+    #8769EB,
+    #B395F5,
+    #8769EB
   );
   background-size: 200%;
   -webkit-background-clip: border-box;
   white-space: nowrap;
-}
-
-/* section divider waves */
-.wave-blue {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  z-index: 0;
-}
-
-.wave-blue2 {
-  position: absolute;
-  left: 0;
-  bottom: 1;
-  width: 100%;
-  z-index: 0;
 }
 
 /* Text underline animation */
